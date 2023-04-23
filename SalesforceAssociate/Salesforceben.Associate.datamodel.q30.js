@@ -1,0 +1,270 @@
+window.testContent = window.testContent || [];
+window.testContent.push({
+  name: "Salesforceben.Associate.DataModel.q30",
+  content: [
+    {
+      content:
+        "You require a field on the opportunity object to be required on every opportunity record. What is the most appropriate way to make the field mandatory?",
+      options: [
+        "A. Required at Page Level",
+        "B. Universally Required",
+        "C. Validation Rule",
+      ],
+      answer: "C",
+      title: "Question 1",
+    },
+    {
+      content:
+        "You need a field on Opportunities to be required only when the stage is equal to “Closed Lost”. How can this be achieved?",
+      options: [
+        "A. Required at Page Level",
+        "B. Validation Rule",
+        "C. Universally Required",
+      ],
+      answer: "A",
+      title: "Question 2",
+    },
+    {
+      content:
+        "Your Salesforce org has different page layouts for accounts: one for customers and one for competitors. You would like the annual revenue field to be required for customers only. What is the most appropriate way to make the field mandatory?",
+      options: [
+        "A. Required at Page Level",
+        "B. Universally Required",
+        "C. Validation Rule",
+      ],
+      answer: "B",
+      title: "Question 3",
+    },
+    {
+      content:
+        "What feature of Salesforce grants record access to a user’s manager?",
+      options: ["A. Role Hierarchy", "B. Permission Set", "C. Profile"],
+      answer: "C",
+      title: "Question 4",
+    },
+    {
+      content: "What is NOT a way of granting access to records?",
+      options: [
+        "A. Role Hierarchy",
+        "B. Profiles",
+        "C. Organization-Wide Defaults",
+      ],
+      answer: "B",
+      title: "Question 5",
+    },
+    {
+      content:
+        "Some Salesforce users should have read access to other users’ opportunity records, including those that do not report to them in the role hierarchy. What should the organization-wide sharing default be for the opportunity object?",
+      options: ["A. Public Read/Write", "B. Public Read Only", "C. Private"],
+      answer: "A",
+      title: "Question 6",
+    },
+    {
+      content:
+        "Which feature sets the base level of access to an object’s records?",
+      options: [
+        "A. Organization-Wide Defaults",
+        "B. Public Groups",
+        "C. Profiles",
+      ],
+      answer: "A",
+      title: "Question 7",
+    },
+    {
+      content:
+        "What feature of Salesforce would prevent users from logging in outside of specific hours?",
+      options: ["A. Login IP Ranges", "B. Login Hours", "C. Holidays"],
+      answer: "B",
+      title: "Question 8",
+    },
+    {
+      content:
+        "A small group of Super Users are allowed to perform additional tasks on Salesforce including exporting reports, deleting accounts, and converting leads. Each additional permission has its own permission set. What would be the best way to assign the extra permissions to the Super Users?",
+      options: [
+        "A. Permission Sets + Permission Set Group",
+        "B. Profile",
+        "C. Role",
+      ],
+      answer: "A",
+      title: "Question 9",
+    },
+    {
+      content: "How can you control a user’s access to standard objects?",
+      options: [
+        "A. Use the object settings in the user’s Role",
+        "B. Use the object settings in the user’s Profile",
+        "C. Remove the object tabs from the user’s App",
+      ],
+      answer: "B",
+      title: "Question 10",
+    },
+    {
+      content:
+        "The recruitment team should not be able to log in to Salesforce from home. How can this be prevented?",
+      options: [
+        "A. Create Login IP Ranges for the Recruitment role",
+        "B. Create Login IP Ranges for the Recruitment profile",
+        "C. Create Trusted IP Ranges",
+      ],
+      answer: "B",
+      title: "Question 11",
+    },
+    {
+      content:
+        "After some consideration, it has been decided that the Eastern Sales Team and Western Sales Team should both have read access to each other’s opportunities. The Sales Teams have different roles and the opportunity organization-wide default is currently set to private. How could you achieve this requirement?",
+      options: [
+        "A. Sharing Rules",
+        "B. Make the Opportunity organization-wide default Public Read Only",
+        "C. Profiles",
+      ],
+      answer: "A",
+      title: "Question 12",
+    },
+    {
+      content:
+        "What feature of Salesforce would enable collaboration on account records by Salesforce users?",
+      options: ["A. Account Teams", "B. Case Teams", "C. Account Hierarchies"],
+      answer: "A",
+      title: "Question 13",
+    },
+    {
+      content:
+        "What feature of Salesforce would allow you to create relationships between Accounts?",
+      options: [
+        "A. Account Relationships",
+        "B. Account Hierarchies",
+        "C. Account Teams",
+      ],
+      answer: "B",
+      title: "Question 14",
+    },
+    {
+      content:
+        "Emma and Steve are both assigned a custom Sales Team profile that enables create, read, and edit on accounts. As a manager, Steve should also be allowed to delete accounts. How can this be achieved?",
+      options: [
+        "A. Create a new custom profile for Steve.",
+        "B. Create a new permission set and assign to Emma.",
+        "C. Create a new permission set and assign to Steve.",
+      ],
+      answer: "C",
+      title: "Question 15",
+    },
+    {
+      content:
+        "What sort of object is required for a Many-to-Many relationship?",
+      options: ["A. Child", "B. Junction", "C. Master"],
+      answer: "A",
+      title: "Question 16",
+    },
+    {
+      content:
+        "What type of relationship exists between an Account and a Contact?",
+      options: ["A. Junction", "B. Master-Detail", "C. Lookup"],
+      answer: "C",
+      title: "Question 17",
+    },
+    {
+      content: "How many Master-Detail relationships can an object have?",
+      options: ["A. 3", "B. 2", "C. 1"],
+      answer: "B",
+      title: "Question 18",
+    },
+    {
+      content:
+        "What happens when the parent record in a Master-Detail relationship is deleted?",
+      options: [
+        "A. A parent record with child records cannot be deleted.",
+        "B. The child record remains.",
+        "C. The child record is deleted.",
+      ],
+      answer: "A",
+      title: "Question 19",
+    },
+    {
+      content: "What is NOT an example of a standard Object?",
+      options: ["A. Invoice", "B. Case", "C. Lead"],
+      answer: "C",
+      title: "Question 20",
+    },
+    {
+      content:
+        "A picklist field on the Lead object has multiple values that determine the source of a Lead. Users should be able to choose a value, however, Leads mostly arrive via email. What could be set up to improve the user experience and data accuracy?",
+      options: ["A. Dependent Picklist", "B. Default Value", "C. Global Value"],
+      answer: "B",
+      title: "Question 21",
+    },
+    {
+      content:
+        "Your organization would like to see the earliest date an opportunity was created related to an account. How should this be achieved?",
+      options: [
+        "A. Roll-Up Summary Field",
+        "B. Date Field",
+        "C. Date/Time Field",
+      ],
+      answer: "A",
+      title: "Question 22",
+    },
+    {
+      content: "What feature enables you to bundle permission sets together?",
+      options: [
+        "A. Permission Set Bundles",
+        "B. Permission Sets",
+        "C. Permission Set Groups",
+      ],
+      answer: "C",
+      title: "Question 23",
+    },
+    {
+      content:
+        "You would like to create a new custom field that enables users to select more than one value from a list. What type of custom field would support this?",
+      options: ["A. Multi-Select Picklist", "B. Picklist", "C. Lookup"],
+      answer: "B",
+      title: "Question 24",
+    },
+    {
+      content:
+        "What type of relationship is required to support roll-up summary fields?",
+      options: ["A. Lookup", "B. Master-Detail", "C. Junction"],
+      answer: "B",
+      title: "Question 25",
+    },
+    {
+      content:
+        "Sales users must enter a Closed Lost Reason when the Opportunity stage is changed to “Closed Lost”. How could you enforce this?",
+      options: [
+        "A. Validation Rule",
+        "B. Required Field",
+        "C. Field Dependency",
+      ],
+      answer: "C",
+      title: "Question 26",
+    },
+    {
+      content:
+        "Your company would like to see the total amount of “won” Opportunities displayed on the account record. How should this be achieved?",
+      options: ["A. Formula Field", "B. Roll-Up Summary", "C. Lookup Field"],
+      answer: "B",
+      title: "Question 27",
+    },
+    {
+      content:
+        "You require a new field that automatically calculates the commission on a deal, based on the opportunity amount. What type of field would be best to use?",
+      options: ["A. Roll-Up Summary", "B. Formula", "C. Currency"],
+      answer: "B",
+      title: "Question 28",
+    },
+    {
+      content: "What can optionally be created when converting a Lead?",
+      options: ["A. Account", "B. Opportunity", "C. Contact"],
+      answer: "C",
+      title: "Question 29",
+    },
+    {
+      content:
+        "You would like to link individuals related to a specific business account in Salesforce. What object would support this?",
+      options: ["A. Lead", "B. Person", "C. Contact"],
+      answer: "C",
+      title: "Question 30",
+    },
+  ],
+});
