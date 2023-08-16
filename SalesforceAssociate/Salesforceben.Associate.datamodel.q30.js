@@ -1,5 +1,11 @@
 window.testContent = window.testContent || [];
-window.testContent.push({
+var testId = "SalesforceAssociate";
+var testName = "SalesforceAssociate";
+window.testContent[testName] = window.testContent[testName] || {
+  name: testName,
+  testList: [],
+};
+window.testContent[testName].testList.push({
   name: "Salesforceben.Associate.DataModel.q30",
   content: [
     {

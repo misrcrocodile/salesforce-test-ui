@@ -1,5 +1,11 @@
 window.testContent = window.testContent || [];
-window.testContent.push({
+var testId = "PlatformDeveloper1";
+var testName = "PlatformDeveloper1.PDI";
+window.testContent[testName] = window.testContent[testName] || {
+  name: testName,
+  testList: [],
+};
+window.testContent[testName].testList.push({
   name: "PlatformDeveloper1.PDI.v2020-02-07.q82",
   content: [
     {

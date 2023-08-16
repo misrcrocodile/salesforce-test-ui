@@ -1,4 +1,11 @@
-var testList = window.testContent;
+var testListName = Object.keys(window.testContent);
+var testList = [];
+for (var i = 0; i < testListName.length; i++) {
+  testList.push({
+    name: testListName[i],
+    value: window.testContent[testListName[i]].name,
+  });
+}
 testList.sort(function (a, b) {
   if (a.name < b.name) {
     return -1;
@@ -10,13 +17,46 @@ testList.sort(function (a, b) {
 });
 
 function initTestSelectList() {
-  selectEl = document.getElementById("testList");
+  var selectEl = document.getElementById("testType");
   selectEl.innerHTML = "";
   selectEl.appendChild(
-    createElementByText("<option selected>Choose file...</option>")
+    createElementByText(
+      "<option value='' selected >Choose Test Type ...</option>"
+    )
   );
   for (var i = 0; i < testList.length; i++) {
     selectEl.appendChild(
+      createElementByText(
+        `<option value="${testList[i].value}">${testList[i].name}</option>`
+      )
+    );
+  }
+}
+
+function onChangeTestType() {
+  var testTypeValue = document.querySelector("#testType").value;
+  var exQuestionEl = document.querySelector("#exampleQuestion");
+  exQuestionEl.innerHTML = "";
+  exQuestionEl.appendChild(
+    createElementByText(
+      "<option value='' selected >Choose Example Question...</option>"
+    )
+  );
+  if (!testTypeValue) return;
+
+  var testList = window.testContent[testTypeValue].testList;
+  testList.sort(function (a, b) {
+    if (a.name < b.name) {
+      return -1;
+    }
+    if (a.name > b.name) {
+      return 1;
+    }
+    return 0;
+  });
+
+  for (var i = 0; i < testList.length; i++) {
+    exQuestionEl.appendChild(
       createElementByText(
         `<option value="${testList[i].name}">${testList[i].name}</option>`
       )
@@ -24,19 +64,10 @@ function initTestSelectList() {
   }
 }
 
-// function removeTiinySiteBanner() {
-//   setTimeout(function () {
-//     var banner = document.getElementsByTagName("div")[0];
-//     if (banner.style.position === "fixed") {
-//       document.getElementsByTagName("div")[0].remove();
-//     }
-//   }, 5000);
-// }
 document.addEventListener("DOMContentLoaded", function () {
   initTestSelectList();
 });
-// // after 10s
-// removeTiinySiteBanner();
+
 window.testJSON = [];
 
 function getEscapeContent(str) {
@@ -52,7 +83,7 @@ function createElementByText(str) {
   return div.firstChild;
 }
 
-function getAnswerArr(q) {
+function getAnswerArr(q, isShuffleOptions) {
   var ans = "ABCDEFGHIJKLMNOPQ";
   var result = q.answer.split(",");
   for (var i = 0; i < result.length; i++) {
@@ -65,7 +96,9 @@ function getAnswerArr(q) {
       isTrue: result.includes(i),
     });
   }
-  resultList = shuffleArray(resultList);
+  if (isShuffleOptions) {
+    resultList = shuffleArray(resultList);
+  }
   for (var i = 0; i < resultList.length; i++) {
     resultList[i].value = ans[i] + resultList[i].value;
   }
@@ -79,11 +112,11 @@ function checkAnswer(id) {
   }
 }
 
-function createOptions(q) {
+function createOptions(q, isShuffleOptions) {
   var listOps = [];
   var idEl = q.title.replaceAll(" ", "");
   var checkType = q.answer.length > 1 ? "checkbox" : "radio";
-  var results = getAnswerArr(q);
+  var results = getAnswerArr(q, isShuffleOptions);
   for (var i = 0; i < results.length; i++) {
     var trueSpan = results[i].isTrue
       ? `<span class="answer hidden">True</span>`
@@ -99,7 +132,8 @@ function createOptions(q) {
 
   return listOps;
 }
-function createQuestion(q) {
+
+function createQuestion(q, isShuffleQuestion) {
   var idEl = q.title.replaceAll(" ", "");
   var el = createElementByText(`<div class="question-container" id="${idEl}">
   <label class="form-label"><strong>${q.title}:</strong> ${q.content.replaceAll(
@@ -109,7 +143,7 @@ function createQuestion(q) {
 
   
 </div>`);
-  var opList = createOptions(q);
+  var opList = createOptions(q, isShuffleQuestion);
   opList.push(
     createElementByText(
       `<button type="button" class="btn btn-primary" style="margin-top: 10px;" onClick="checkAnswer('${idEl}')">Show Answer</button>`
@@ -120,28 +154,43 @@ function createQuestion(q) {
   }
   return el;
 }
+
 function getJsonData() {
-  var selectName = document.getElementById("testList").value;
+  var testTypeValue = document.querySelector("#testType").value;
+  var exQuestionValue = document.querySelector("#exampleQuestion").value;
+  if (testTypeValue === "") {
+    alert("Please select the test type!");
+    return [];
+  }
+  if (exQuestionValue === "") {
+    alert("Please select the example question!");
+    return [];
+  }
+  var testList = window.testContent[testTypeValue].testList;
   var jsonData = [];
   for (var i = 0; i < testList.length; i++) {
-    if (testList[i].name === selectName) {
+    if (testList[i].name === exQuestionValue) {
       jsonData = testList[i].content;
       break;
     }
   }
   return jsonData;
 }
+
 function loadQuestion() {
   // Clear previous content
-  var body = document.getElementById("question-content");
+  var isShuffle = document.querySelector("#isShuffle").checked;
+  var body = document.querySelector("#question-content");
   body.innerHTML = "";
   var testJSON = getJsonData();
-  testJSON = shuffleArray(testJSON);
+  if (isShuffle) {
+    testJSON = shuffleArray(testJSON);
+  }
   for (var i = 0; i < testJSON.length; i++) {
     testJSON[i].title = "Question " + (i + 1);
   }
   for (var i = 0; i < testJSON.length; i++) {
-    body.appendChild(createQuestion(testJSON[i]));
+    body.appendChild(createQuestion(testJSON[i], isShuffle));
   }
 }
 

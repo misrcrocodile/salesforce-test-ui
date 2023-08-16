@@ -1,5 +1,11 @@
 window.testContent = window.testContent || [];
-window.testContent.push({
+var testId = "MarketingCloudAdmin";
+var testName = "MarketingCloudAdmin";
+window.testContent[testName] = window.testContent[testName] || {
+  name: testName,
+  testList: [],
+};
+window.testContent[testName].testList.push({
   name: "MarketingCloudAdmin.v2021-02-24.q37",
   content: [
     {

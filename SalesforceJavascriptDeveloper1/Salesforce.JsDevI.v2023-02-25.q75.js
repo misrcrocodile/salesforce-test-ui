@@ -1,5 +1,11 @@
 window.testContent = window.testContent || [];
-window.testContent.push({
+var testId = "Salesforce.JsDevI";
+var testName = "Salesforce.JsDevI";
+window.testContent[testName] = window.testContent[testName] || {
+  name: testName,
+  testList: [],
+};
+window.testContent[testName].testList.push({
   name: "Salesforce.JsDevI.v2023-02-25.q75",
   content: [
     {
