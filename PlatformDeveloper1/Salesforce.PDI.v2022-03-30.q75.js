@@ -30,7 +30,7 @@ window.testContent[testName].testList.push({
         "D. A custom exception class can implement one or many interfaces.",
         "E. A custom exception class can extend other classes besides the Exception class.",
       ],
-      answer: "A,D,E",
+      answer: "A,C,D",
       title: "Question 2",
     },
     {
@@ -516,12 +516,12 @@ window.testContent[testName].testList.push({
       content:
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
-        "A. Query the AsyncApexJobe object",
+        "A. Query the AsyncApexJob object",
         "B. View the apex flex Queue",
         "C. View the apex Jobs page",
         "D. View the apex status Page",
       ],
-      answer: "C,D",
+      answer: "A,C",
       title: "Question 46",
     },
     {
@@ -611,7 +611,7 @@ window.testContent[testName].testList.push({
         "C. @Httplnvocable",
         "D. @AuraEnabled",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 54",
     },
     {
@@ -642,7 +642,7 @@ window.testContent[testName].testList.push({
         "C. [SELECT Id, (SELECT Id FROM Job_Applications_c) FROM Contact WHEREAccounts.Industry = 'Technology'];",
         "D. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccounts.Industry = 'Technology'];",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 57",
     },
     {
@@ -679,7 +679,7 @@ window.testContent[testName].testList.push({
         "D. standard Controller",
         "E. renderAs",
       ],
-      answer: "A,D,E",
+      answer: "A,B,D",
       title: "Question 60",
     },
     {
@@ -703,7 +703,7 @@ window.testContent[testName].testList.push({
         "C. Run the tests using the 'Run All Tests' method.",
         "D. Increase the test class coverage on the helper class",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 62",
     },
     {
@@ -822,7 +822,7 @@ window.testContent[testName].testList.push({
         "C. Setter methods can pass a value from a controller to a page.",
         "D. Setter methods always have to be declared global.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 73",
     },
     {
@@ -834,7 +834,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
         "D. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 74",
     },
     {

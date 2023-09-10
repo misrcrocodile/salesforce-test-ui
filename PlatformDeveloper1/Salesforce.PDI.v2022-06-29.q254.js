@@ -138,8 +138,7 @@ window.testContent[testName].testList.push({
         "D. Salesforce DX",
         "E. Metadata API.",
       ],
-      answer:
-        "B,C,D  https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htm https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apextestsuite.htm ",
+      answer: "B,C,D",
       title: "Question 11",
     },
     {
@@ -442,7 +441,7 @@ window.testContent[testName].testList.push({
         "C. Order has a Master-Detail field to Line Item and there can be many Line Items per Order.",
         "D. Line Item has a Lookup field to Order and there can be many Line Items per Order",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 37",
     },
     {
@@ -478,8 +477,7 @@ window.testContent[testName].testList.push({
         "C. Convert theAccount.Type to a String.",
         "D. Add with sharing to the custom controller.",
       ],
-      answer:
-        "A  https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_custom.htm ",
+      answer: "A",
       title: "Question 40",
     },
     {
@@ -503,7 +501,7 @@ window.testContent[testName].testList.push({
         "C. Use SOQL and the Tooling API",
         "D. Use the code Coverage Setup page",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 42",
     },
     {
@@ -764,7 +762,7 @@ window.testContent[testName].testList.push({
         "C. Use the Apex testresult class",
         "D. Use the code Coverage Setup page",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 65",
     },
     {
@@ -910,7 +908,7 @@ window.testContent[testName].testList.push({
         "C. Lookup",
         "D. Direct Lookup",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 77",
     },
     {
@@ -1043,7 +1041,7 @@ window.testContent[testName].testList.push({
         "C. The query fails and an error is written to the debug log.",
         "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 88",
     },
     {
@@ -1107,12 +1105,12 @@ window.testContent[testName].testList.push({
       content:
         "What are two benefits of using declarative customizations over code? Choose 2 answers What are two benefits of using declarative customizations over code?",
       options: [
-        "A. Declarative customizations automatically update with each Salesforce release.",
-        "B. Declarative customizations automatically generate test classes.",
-        "C. Declarative customizations automatically generate test classes. ",
-        "D. Declarative customizations generally require less maintenance.",
+        "A. Declarative customizations automatically generate test classes. ",
+        "B. Declarative customizations automatically update with each Salesforce release.",
+        "C. Declarative customizations generally require less maintenance.",
+        "D. Declarative customizations automatically generate test classes.",
       ],
-      answer: "A,C",
+      answer: "B,C",
       title: "Question 94",
     },
     {
@@ -1338,8 +1336,7 @@ window.testContent[testName].testList.push({
         "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
         "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
       ],
-      answer:
-        "D  Reference: https://developer.salesforce.com/docs/component-library/documentation/en/48.0/lwc/lwc.data_wire_service_about ",
+      answer: "C",
       title: "Question 114",
     },
     {
@@ -1427,7 +1424,7 @@ window.testContent[testName].testList.push({
         "C. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccounts.Industry = 'Technology'];",
         "D. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccount.Industry = 'Technology'];",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 123",
     },
     {
@@ -1719,7 +1716,7 @@ window.testContent[testName].testList.push({
         "C. Run the tests using the 'Run All Tests' method.",
         "D. Create a test class and methods to cover the Apex trigger",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 149",
     },
     {
@@ -1811,8 +1808,7 @@ window.testContent[testName].testList.push({
         "D. Salesforce DX",
         "E. Metadata API.",
       ],
-      answer:
-        "B,C,D  Reference: https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htm https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apextestsuite.htm ",
+      answer: "B,C,D",
       title: "Question 157",
     },
     {
@@ -1831,12 +1827,12 @@ window.testContent[testName].testList.push({
       content:
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
-        "A. Query the AsyncApexJobe object",
+        "A. Query the AsyncApexJob object",
         "B. View the apex status Page",
         "C. View the apex Jobs page",
         "D. View the apex flex Queue",
       ],
-      answer: "B,C",
+      answer: "A,C",
       title: "Question 159",
     },
     {
@@ -2151,7 +2147,7 @@ window.testContent[testName].testList.push({
         "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
         "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 186",
     },
     {
@@ -2267,8 +2263,7 @@ window.testContent[testName].testList.push({
         'C. <apex:page contentType="application/pdf">',
         'D. <apex:page renderAs="pdf">',
       ],
-      answer:
-        'D  https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm You can generate a downloadable, printable PDF file of a Visualforce page using the PDF rendering service. Convert a page to PDF by changing the <apex:page> tag. <apex:page renderAs="pdf"> ',
+      answer: "D",
       title: "Question 196",
     },
     {
@@ -2502,7 +2497,7 @@ window.testContent[testName].testList.push({
         "D. Roll-Up Summaries",
         "E. Custom Objects and Fields",
       ],
-      answer: "A,C,D",
+      answer: "A,D,E",
       title: "Question 217",
     },
     {
@@ -2757,8 +2752,7 @@ window.testContent[testName].testList.push({
         "C. Convert theAccount.Type to a String.",
         "D. Add with sharing to the custom controller.",
       ],
-      answer:
-        "A  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_custom.htm ",
+      answer: "A",
       title: "Question 239",
     },
     {

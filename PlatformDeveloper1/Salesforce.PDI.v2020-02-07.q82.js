@@ -77,7 +77,7 @@ window.testContent[testName].testList.push({
         "C. After insert",
         "D. Before update",
       ],
-      answer: "B,D",
+      answer: "A,C",
       title: "Question 6",
     },
     {
@@ -137,7 +137,7 @@ window.testContent[testName].testList.push({
         "C. Httpcalloutmocks",
         "D. Documents",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 11",
     },
     {
@@ -301,7 +301,7 @@ window.testContent[testName].testList.push({
         "C. Create a Master-Detail Lookup on the Machinery object to the Construction Job object.",
         "D. Create a junction object with Master-Detail Relationship to both the Machinery object and the Construction Job object.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 25",
     },
     {
@@ -702,7 +702,7 @@ window.testContent[testName].testList.push({
         "C. Unit tests with multiple methods result in all methods failing every time one method fails.",
         "D. Triggers do not require any unit tests in order to deploy them from sandbox to production.",
       ],
-      answer: "A,B",
+      answer: "A,C",
       title: "Question 60",
     },
     {
@@ -787,7 +787,7 @@ window.testContent[testName].testList.push({
         "C. Pass the query results as an argument in a reference to the Set.containsAll() method.",
         "D. Pass the Set as an argument in a reference to the Database.query() method",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 68",
     },
     {

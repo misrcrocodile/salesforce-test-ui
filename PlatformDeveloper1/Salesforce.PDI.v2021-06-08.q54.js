@@ -18,7 +18,7 @@ window.testContent[testName].testList.push({
         "D. A custom exception class can extend other classes besides the Exception class.",
         'E. A custom exception class name must end with "Exception".',
       ],
-      answer: "A,D,E",
+      answer: "A,C,E",
       title: "Question 1",
     },
     {
@@ -37,7 +37,7 @@ window.testContent[testName].testList.push({
       content:
         "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or update. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 3", "C. 1", "D. 2"],
-      answer: "B",
+      answer: "D",
       title: "Question 3",
     },
     {
@@ -61,8 +61,7 @@ window.testContent[testName].testList.push({
         "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
         "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
       ],
-      answer:
-        "D  Explanation https://developer.salesforce.com/docs/component-library/documentation/en/48.0/lwc/lwc.data_wire_service_abo ",
+      answer: "C",
       title: "Question 5",
     },
     {
@@ -111,7 +110,7 @@ window.testContent[testName].testList.push({
         "D. Roll-Up Summaries",
         "E. Triggers",
       ],
-      answer: "A,C,D",
+      answer: "A,B,D",
       title: "Question 9",
     },
     {
@@ -180,7 +179,7 @@ window.testContent[testName].testList.push({
       content:
         "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 3", "C. 1", "D. 2"],
-      answer: "B",
+      answer: "D",
       title: "Question 16",
     },
     {
@@ -299,8 +298,7 @@ window.testContent[testName].testList.push({
         "D. Salesforce DX",
         "E. Metadata API.",
       ],
-      answer:
-        "B,C,D  Explanation https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htm https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apextestsuite ",
+      answer: "B,C,D",
       title: "Question 26",
     },
     {
@@ -422,10 +420,10 @@ window.testContent[testName].testList.push({
       content:
         "A developer has an integer variable called maxAttempts. The developer meeds to ensure that once maxAttempts is initialized, it preserves its value for the lenght of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet these requirements?",
       options: [
-        "A. Declare maxattempts as a member variable on the trigger definition.",
-        "B. Declare maxattempts as a variable on a helper class",
-        "C. Declare maxattempts as a constant using the static and final keywords",
-        "D. Declare maxattempts as a private static variable on a helper class",
+        "A. Declare max attempts as a member variable on the trigger definition.",
+        "B. Declare max attempts as a variable on a helper class",
+        "C. Declare max attempts as a constant using the static and final keywords",
+        "D. Declare max attempts as a private static variable on a helper class",
       ],
       answer: "D",
       title: "Question 37",
@@ -482,8 +480,7 @@ window.testContent[testName].testList.push({
         "C. Convert theAccount.Type to a String.",
         "D. Add with sharing to the custom controller.",
       ],
-      answer:
-        "A  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_custom.htm ",
+      answer: "A",
       title: "Question 42",
     },
     {
@@ -507,7 +504,7 @@ window.testContent[testName].testList.push({
         "C. Rewrite all Visualforce pages asLightning components.",
         "D. Enable Available for Lightning Experience, Lightning Communities, and the mobile app on Visualforce pages used by the custom application.",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 44",
     },
     {
@@ -538,7 +535,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
         "D. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 47",
     },
     {

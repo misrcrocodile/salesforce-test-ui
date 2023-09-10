@@ -49,10 +49,10 @@ window.testContent[testName].testList.push({
       content:
         "A developer has an integer variable called maxAttempts. The developer meeds to ensure that once maxAttempts is initialized, it preserves its value for the lenght of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet these requirements?",
       options: [
-        "A. Declare maxattempts as a constant using the static and final keywords",
-        "B. Declare maxattempts as a variable on a helper class",
-        "C. Declare maxattempts as a private static variable on a helper class",
-        "D. Declare maxattempts as a member variable on the trigger definition.",
+        "A. Declare max attempts as a constant using the static and final keywords",
+        "B. Declare max attempts as a variable on a helper class",
+        "C. Declare max attempts as a private static variable on a helper class",
+        "D. Declare max attempts as a member variable on the trigger definition.",
       ],
       answer: "C",
       title: "Question 4",
@@ -72,7 +72,7 @@ window.testContent[testName].testList.push({
       content:
         "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 3", "B. 2", "C. 1", "D. 4"],
-      answer: "A",
+      answer: "B",
       title: "Question 6",
     },
     {
@@ -91,7 +91,7 @@ window.testContent[testName].testList.push({
         "C. Create a controller extension.",
         "D. Use the <apex:relatedList> tag.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 8",
     },
     {
@@ -111,11 +111,11 @@ window.testContent[testName].testList.push({
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
         "A. View the apex status Page",
-        "B. Query the AsyncApexJobe object",
+        "B. Query the AsyncApexJob object",
         "C. View the apex flex Queue",
         "D. View the apex Jobs page",
       ],
-      answer: "A,D",
+      answer: "B,D",
       title: "Question 10",
     },
     {
@@ -127,7 +127,7 @@ window.testContent[testName].testList.push({
         "C. Master Detail",
         "D. Lookup",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 11",
     },
     {
@@ -176,7 +176,7 @@ window.testContent[testName].testList.push({
         "D. Action",
         "E. standard Controller",
       ],
-      answer: "B,C,E",
+      answer: "B,D,E",
       title: "Question 15",
     },
     {
@@ -262,7 +262,7 @@ window.testContent[testName].testList.push({
         "C. The first Account returned is assigned to myAccount.",
         "D. The query fails and an error is written to the debug log.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 23",
     },
     {
@@ -309,8 +309,7 @@ window.testContent[testName].testList.push({
         "C. Convert theAccount.Type to a String.",
         "D. Add with sharing to the custom controller.",
       ],
-      answer:
-        "A  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_custom.htm ",
+      answer: "A",
       title: "Question 27",
     },
     {
@@ -418,8 +417,7 @@ window.testContent[testName].testList.push({
         'C. <apex:page contentType="application/pdf">',
         'D. <apex:page renderAs="pdf">',
       ],
-      answer:
-        'D  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm You can generate a downloadable, printable PDF file of a Visualforce page using the PDF rendering service. Convert a page to PDF by changing the <apex:page> tag. <apex:page renderAs="pdf"> ',
+      answer: "D",
       title: "Question 36",
     },
     {
@@ -431,7 +429,7 @@ window.testContent[testName].testList.push({
         "C. Line Items has a Master-Detail field to Order and the Master can be re-parented.",
         "D. Order has a Master-Detail field to Line Item and there can be many Line Items per Order.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 37",
     },
     {
@@ -565,7 +563,7 @@ window.testContent[testName].testList.push({
         'D. A custom exception class name must end with "Exception".',
         "E. A custom exception class can implement one or many interfaces.",
       ],
-      answer: "B,D,E",
+      answer: "A,D,E",
       title: "Question 48",
     },
     {
@@ -577,7 +575,7 @@ window.testContent[testName].testList.push({
         "C. Set the attribute enableLightning to true in the definition.",
         "D. Enable Available for Lightning Experience, Lightning Communities, and the mobile app on Visualforce pages used by the custom application.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 49",
     },
     {

@@ -48,7 +48,7 @@ window.testContent[testName].testList.push({
         "C. ©Httplnvocable",
         "D. ©Remote Action",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 4",
     },
     {
@@ -151,7 +151,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
         "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 13",
     },
     {
@@ -242,7 +242,7 @@ window.testContent[testName].testList.push({
         "C. Run the tests using the 'Run All Tests' method.",
         "D. Increase the test class coverage on the helper class",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 21",
     },
     {
@@ -508,7 +508,7 @@ window.testContent[testName].testList.push({
         "D. extensions",
         "E. Action",
       ],
-      answer: "A,C,E",
+      answer: "C,D,E",
       title: "Question 45",
     },
     {
@@ -622,7 +622,7 @@ window.testContent[testName].testList.push({
         "C. The first Account returned is assigned to myAccount.",
         "D. The query fails and an error is written to the debug log.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 55",
     },
     {
@@ -674,12 +674,12 @@ window.testContent[testName].testList.push({
       content:
         "What are two benefits of using declarative customizations over code? Choose 2 answers What are two benefits of using declarative customizations over code?",
       options: [
-        "A. Declarative customizations automatically update with each Salesforce release.",
-        "B. Declarative customizations automatically generate test classes.",
-        "C. Declarative customizations automatically generate test classes. ",
-        "D. Declarative customizations generally require less maintenance.",
+        "A. Declarative customizations automatically generate test classes. ",
+        "B. Declarative customizations automatically update with each Salesforce release.",
+        "C. Declarative customizations generally require less maintenance.",
+        "D. Declarative customizations automatically generate test classes.",
       ],
-      answer: "A,C",
+      answer: "B,C",
       title: "Question 60",
     },
     {
@@ -1140,7 +1140,7 @@ window.testContent[testName].testList.push({
         "D. Roll-Up Summaries",
         "E. Process Builder",
       ],
-      answer: "C,D,E",
+      answer: "A,C,D",
       title: "Question 100",
     },
     {

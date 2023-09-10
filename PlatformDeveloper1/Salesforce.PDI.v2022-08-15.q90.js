@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
         "C. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccounts.Industry = 'Technology'];",
         "D. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccount.Industry = 'Technology'];",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 3",
     },
     {
@@ -98,7 +98,7 @@ window.testContent[testName].testList.push({
         "C. insert records",
         "D. insert (records, false)",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 8",
     },
     {
@@ -146,8 +146,7 @@ window.testContent[testName].testList.push({
         'C. <apex:pagecontentType="application/pdf">',
         'D. <apex:page renderAs="pdf">',
       ],
-      answer:
-        'D  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm You can generate a downloadable, printable PDF file of a Visualforce page using the PDF rendering service. Converta page to PDF by changing the <apex:page> tag. <apex:page renderAs="pdf"> ',
+      answer: "D",
       title: "Question 12",
     },
     {
@@ -651,7 +650,7 @@ window.testContent[testName].testList.push({
         "C. Add a System.debug() statement before the insert method",
         "D. Set the second insert method parameter to TRUE",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 56",
     },
     {
@@ -868,10 +867,11 @@ window.testContent[testName].testList.push({
         "What are two benefits of using declarative customizationsover code? Choose 2 answers What are two benefits of using declarative customizations over code?",
       options: [
         "A. Declarative customizations automatically generate test classes. ",
-        "B. Declarative customizations generally require less maintenance.",
-        "C. Declarative customizations automatically update with each Salesforce release.",
+        "B. Declarative customizations automatically update with each Salesforce release.",
+        "C. Declarative customizations generally require less maintenance.",
         "D. Declarative customizations automatically generate test classes.",
       ],
+      answer: "B,C",
       answer: "A,C",
       title: "Question 76",
     },
@@ -885,7 +885,7 @@ window.testContent[testName].testList.push({
         "D. Workflow Rule",
         "E. Approval Process",
       ],
-      answer: "A,D,E",
+      answer: "A,C,D",
       title: "Question 77",
     },
     {
@@ -917,7 +917,7 @@ window.testContent[testName].testList.push({
         "D. extensions",
         "E. renderAs",
       ],
-      answer: "A,C,E",
+      answer: "A,C,D",
       title: "Question 80",
     },
     {

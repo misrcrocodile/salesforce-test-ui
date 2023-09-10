@@ -239,7 +239,7 @@ window.testContent[testName].testList.push({
         "B. Tooling API",
         "C. Bulk API",
         "D. Setup Menu",
-        "E. Metadata API.https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htm https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apextestsuite.htm",
+        "E. Metadata API",
       ],
       answer: "A,B,D",
       title: "Question 20",
@@ -428,10 +428,10 @@ window.testContent[testName].testList.push({
       options: [
         "A. View the apex flex Queue",
         "B. View the apex status Page",
-        "C. Query the AsyncApexJobe object",
+        "C. Query the AsyncApexJob object",
         "D. View the apex Jobs page",
       ],
-      answer: "B,D",
+      answer: "C,D",
       title: "Question 37",
     },
     {
@@ -595,12 +595,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer has an integer variable called maxAttempts. The developer meeds to ensure that once maxAttempts is initialized, it preserves its value for the lenght of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet these requirements?",
       options: [
-        "A. Declare maxattempts as a private static variable on a helper class",
-        "B. Declare maxattempts as a variable on a helper class",
-        "C. Declare maxattempts as a constant using the static and final keywords",
-        "D. Declare maxattempts as a member variable on the trigger definition.",
+        "A. Declare max attempts as a private static variable on a helper class",
+        "B. Declare max attempts as a variable on a helper class",
+        "C. Declare max attempts as a constant using the static and final keywords",
+        "D. Declare max attempts as a member variable on the trigger definition.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 52",
     },
     {

@@ -81,7 +81,7 @@ window.testContent[testName].testList.push({
         "D. Custom Objects and Fields",
         "E. Roll-Up Summaries",
       ],
-      answer: "A,B,E",
+      answer: "B,D,E",
       title: "Question 7",
     },
     {
@@ -159,7 +159,7 @@ window.testContent[testName].testList.push({
         "C. Declarative customizations generally require less maintenance.",
         "D. Declarative customizations automatically generate test classes.",
       ],
-      answer: "A,B",
+      answer: "B,C",
       title: "Question 14",
     },
     {
@@ -273,7 +273,7 @@ window.testContent[testName].testList.push({
         "C. Getter methods can pass a value from a controller to a page.",
         "D. Setter methods always have to be declared global.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 24",
     },
     {
@@ -346,7 +346,7 @@ window.testContent[testName].testList.push({
         "C. Add a try/catch around the insert method",
         "D. Add a System.debug() statement before the insert method",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 30",
     },
     {
@@ -382,7 +382,7 @@ window.testContent[testName].testList.push({
         "C. [SELECT Id, (SELECT Id FROM Job_Applications_r) FROM Contact WHEREAccount.Industry = 'Technology'];",
         "D. [SELECT Id, (SELECT Id FROM Job_Applications_c) FROM Contact WHEREAccounts.Industry = 'Technology'];",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 33",
     },
     {
@@ -752,7 +752,7 @@ window.testContent[testName].testList.push({
         "C. insert (records, false)",
         "D. Database.insert(records, true)",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 66",
     },
     {
@@ -978,7 +978,7 @@ window.testContent[testName].testList.push({
         "D. Flow Builder",
         "E. Workflow Rule",
       ],
-      answer: "A,B,E",
+      answer: "B,D,E",
       title: "Question 86",
     },
     {

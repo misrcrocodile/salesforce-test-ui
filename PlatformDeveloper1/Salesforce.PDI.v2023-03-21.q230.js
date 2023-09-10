@@ -48,7 +48,7 @@ window.testContent[testName].testList.push({
         "C. Use WHERE clauses on the SOQL query to reduce the number of records retrieved.",
         "D. Use the FOR UPDATE option on the SOQL query to lock down the records retrieved.",
       ],
-      answer: "A,B",
+      answer: "A,C",
       title: "Question 4",
     },
     {
@@ -72,7 +72,7 @@ window.testContent[testName].testList.push({
         "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
         "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 6",
     },
     {
@@ -287,9 +287,9 @@ window.testContent[testName].testList.push({
         "B. A custom exception class must extend the system Exception class.",
         'C. A custom exception class name must end with "Exception".',
         "D. A custom exception class can extend other classes besides the Exception class.",
-        "E. Acustom exception class can implement one or many interfaces.",
+        "E. A custom exception class can implement one or many interfaces.",
       ],
-      answer: "C,D,E",
+      answer: "B,C,E",
       title: "Question 24",
     },
     {
@@ -356,7 +356,7 @@ window.testContent[testName].testList.push({
       content:
         "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or update. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 1", "B. 3", "C. 2", "D. 4"],
-      answer: "B",
+      answer: "C",
       title: "Question 30",
     },
     {
@@ -638,7 +638,7 @@ window.testContent[testName].testList.push({
         "C. Add a method to the standard controller.",
         "D. Use the <apex:include> tag.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 55",
     },
     {
@@ -1066,7 +1066,7 @@ window.testContent[testName].testList.push({
         "C. The query fails and an error is written to the debug log.",
         "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 92",
     },
     {
@@ -1373,12 +1373,12 @@ window.testContent[testName].testList.push({
       content:
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
-        "A. Query the AsyncApexJobe object",
+        "A. Query the AsyncApexJob object",
         "B. View the apex status Page",
         "C. View the apex Jobs page",
         "D. View the apex flex Queue",
       ],
-      answer: "B,C",
+      answer: "A,C",
       title: "Question 120",
     },
     {
@@ -1513,7 +1513,7 @@ window.testContent[testName].testList.push({
         "C. Add a method to the standard controller.",
         "D. Use the <apex:include> tag.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 132",
     },
     {
@@ -1686,7 +1686,7 @@ window.testContent[testName].testList.push({
         "C. @Remote Action",
         "D. @Httplnvocable",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 147",
     },
     {
@@ -1780,8 +1780,8 @@ window.testContent[testName].testList.push({
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
         "A. View the apex status Page",
-        "B. View the apex Jobs page (Missed)",
-        "C. Query the AsyncApexJobe object (Missed)",
+        "B. View the apex Jobs page",
+        "C. Query the AsyncApexJobe object",
         "D. View the apex flex Queue",
       ],
       answer: "B,C",
@@ -2161,7 +2161,7 @@ window.testContent[testName].testList.push({
       content:
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
-        "A. Query the AsyncApexJobe object",
+        "A. Query the AsyncApexJob object",
         "B. View the apex Jobs page",
         "C. View the apex flex Queue",
         "D. View the apex status Page",
@@ -2192,7 +2192,7 @@ window.testContent[testName].testList.push({
         "C. ©RestResource",
         "D. ©AuraEnabled",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 191",
     },
     {
@@ -2230,7 +2230,7 @@ window.testContent[testName].testList.push({
         "C. Master Detail",
         "D. Direct Lookup",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 195",
     },
     {
@@ -2402,7 +2402,7 @@ window.testContent[testName].testList.push({
         "C. Use a SOQL FOR loop, to chunk the result set in batches of 200 records.",
         "D. Use visual keyword when declaring the retrieve variable.",
       ],
-      answer: "C,D",
+      answer: "B,C",
       title: "Question 211",
     },
     {

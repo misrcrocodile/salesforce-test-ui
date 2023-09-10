@@ -77,7 +77,7 @@ window.testContent[testName].testList.push({
         "D. A custom exception class cannot contain member variables or methods.",
         "E. A custom exception class can implement one or many interfaces.",
       ],
-      answer: "B,C,E",
+      answer: "A,C,E",
       title: "Question 6",
     },
     {
@@ -162,7 +162,7 @@ window.testContent[testName].testList.push({
         "C. Rewrite all Visualforce pages asLightning components.",
         "D. Set the attribute enableLightning to true in the definition.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 14",
     },
     {
@@ -341,7 +341,7 @@ window.testContent[testName].testList.push({
         "D. Action",
         "E. extensions",
       ],
-      answer: "A,B,E",
+      answer: "B,D,E",
       title: "Question 30",
     },
     {
@@ -360,7 +360,7 @@ window.testContent[testName].testList.push({
         "C. Use WHERE clauses on the SOQL query to reduce the number of records retrieved.",
         "D. Use visual keyword when declaring the retrieve variable.",
       ],
-      answer: "B,D",
+      answer: "B,C",
       title: "Question 32",
     },
     {
@@ -408,7 +408,7 @@ window.testContent[testName].testList.push({
         "C. Use the Apex testresult class",
         "D. Use the Flow properties page.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 36",
     },
     {
@@ -490,8 +490,7 @@ window.testContent[testName].testList.push({
         'C. <apex:page contentType="application/pdf">',
         'D. <apex:page renderAs="pdf">',
       ],
-      answer:
-        'D  Reference: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_output_pdf_renderas.htm You can generate a downloadable, printable PDF file of a Visualforce page using the PDF rendering service. Convert a page to PDF by changing the <apex:page> tag. <apex:page renderAs="pdf"> ',
+      answer: "D",
       title: "Question 43",
     },
     {
@@ -661,7 +660,7 @@ window.testContent[testName].testList.push({
         "C. The variable, myAccount, is automatically cast to the List data type.",
         "D. The query fails and an error is written to the debug log.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 58",
     },
     {

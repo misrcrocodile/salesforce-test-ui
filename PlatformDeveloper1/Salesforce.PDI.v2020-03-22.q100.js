@@ -252,7 +252,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer console:Account myAccount = new Account(Name = 'MyAccount');Insert myAccount;For (Integer x = 0; x < 250; x++){Account newAccount = new Account (Name='MyAccount' + x);try {Insert newAccount;}catch (Exception ex) {System.debug (ex) ;}}insert new Account (Name='myAccount'); How many accounts are in the org after this code is run?",
+        "A developer in a Salesforce org with 100 Accounts executes the following code using the Developer console:\nAccount myAccount = new Account(Name = 'MyAccount');\nInsert myAccount;\nFor (Integer x = 0; x < 250; x++){\nAccount newAccount = new Account (Name='MyAccount' + x);\ntry {\nInsert newAccount;\n}\ncatch (Exception ex) {\nSystem.debug (ex) ;\n}\n}\ninsert new Account (Name='myAccount'); \nHow many accounts are in the org after this code is run?",
       options: ["A. 102", "B. 252", "C. 101", "D. 100"],
       answer: "D",
       title: "Question 22",
@@ -364,7 +364,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
         "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 31",
     },
     {
@@ -414,12 +414,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer has an integer variable called maxAttempts. The developer meeds to ensure that once maxAttempts is initialized, it preserves its value for the lenght of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet these requirements?",
       options: [
-        "A. Declare maxattempts as a constant using the static and final keywords",
-        "B. Declare maxattempts as a variable on a helper class",
-        "C. Declare maxattempts as a private static variable on a helper class",
-        "D. Declare maxattempts as a member variable on the trigger definition.",
+        "A. Declare max attempts as a constant using the static and final keywords",
+        "B. Declare max attempts as a variable on a helper class",
+        "C. Declare max attempts as a private static variable on a helper class",
+        "D. Declare max attempts as a member variable on the trigger definition.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 36",
     },
     {
@@ -546,7 +546,7 @@ window.testContent[testName].testList.push({
         "C. Query and store fields from the related object in a collection when updating related objects.",
         "D. Use SOQL for loops instead of assigning large queries results to a single collection and looping through the collection.",
       ],
-      answer: "A,D",
+      answer: "B,D",
       title: "Question 47",
     },
     {
@@ -819,7 +819,7 @@ window.testContent[testName].testList.push({
         "C. Enable Available for Lightning Experience, Lightning Comminities, and the mobile app on Visualforce pages used by the custom application.",
         "D. Rewrite all Visualforce pages asLightning components.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 71",
     },
     {

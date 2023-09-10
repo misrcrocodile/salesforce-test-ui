@@ -304,7 +304,7 @@ window.testContent[testName].testList.push({
         "D. standard Controller",
         "E. readOnly",
       ],
-      answer: "A,B,D",
+      answer: "B,C,D",
       title: "Question 26",
     },
     {
@@ -353,7 +353,7 @@ window.testContent[testName].testList.push({
         "D. Relationships",
         "E. Process Builder",
       ],
-      answer: "C,D,E",
+      answer: "B,C,D",
       title: "Question 30",
     },
     {
@@ -548,12 +548,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer has an integer variable called maxAttempts. The developer meeds to ensure that once maxAttempts is initialized, it preserves its value for the lenght of the Apex transaction; while being able to share the variable's state between trigger executions. How should the developer declare maxAttempts to meet theserequirements?",
       options: [
-        "A. Declare maxattempts as a constant using the static and final keywords",
-        "B. Declare maxattempts as avariable on a helper class",
-        "C. Declare maxattempts as a member variable on the trigger definition.",
-        "D. Declare maxattempts as a private static variable on a helper class",
+        "A. Declare max attempts as a constant using the static and final keywords",
+        "B. Declare max attempts as avariable on a helper class",
+        "C. Declare max attempts as a member variable on the trigger definition.",
+        "D. Declare max attempts as a private static variable on a helper class",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 47",
     },
     {
@@ -566,7 +566,7 @@ window.testContent[testName].testList.push({
         "D. Escalation Rule",
         "E. Process Builder",
       ],
-      answer: "B,C,E",
+      answer: "A,C,E",
       title: "Question 48",
     },
     {
@@ -641,8 +641,7 @@ window.testContent[testName].testList.push({
         "C. ConverttheAccount.Type to a String.",
         "D. Add with sharing to the custom controller.",
       ],
-      answer:
-        "A  https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_controller_custom.htm ",
+      answer: "A",
       title: "Question 55",
     },
     {
@@ -675,7 +674,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
         "D. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 58",
     },
     {

@@ -141,11 +141,11 @@ window.testContent[testName].testList.push({
         "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
       options: [
         "A. View the apex Jobs page",
-        "B. Query the AsyncApexJobe object",
+        "B. Query the AsyncApexJob object",
         "C. View the apex status Page",
         "D. View the apex flex Queue",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 12",
     },
     {
@@ -512,7 +512,7 @@ window.testContent[testName].testList.push({
         "D. standard Controller",
         "E. Action",
       ],
-      answer: "B,C,D",
+      answer: "C,D,E",
       title: "Question 44",
     },
     {
@@ -696,7 +696,7 @@ window.testContent[testName].testList.push({
         "C. Run the tests using the 'Run All Tests' method.",
         "D. Remove the falling test methods from the test class.",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 60",
     },
     {
