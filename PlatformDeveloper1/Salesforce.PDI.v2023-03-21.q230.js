@@ -184,6 +184,9 @@ window.testContent[testName].testList.push({
       title: "Question 15",
     },
     {
+      content:
+        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
+
       options: [
         "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
         "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
