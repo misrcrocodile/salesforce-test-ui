@@ -46,11 +46,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
+        "What are the methods used to show input in classic and lightning?",
       options: [
-        "A. Use visualforce page in classic and lightning component in lightning",
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 4",
     },
     {

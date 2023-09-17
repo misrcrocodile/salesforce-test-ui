@@ -360,11 +360,11 @@ window.testContent[testName].testList.push({
         "A developer must implement a CheckPaymentProcessor class that provides check processing payment capabilities that adhere to what defined for payments in the PaymentProcessor interface. public interface PaymentProcessor { void pay(Decimal amount); } Which is the correct implementation to use the PaymentProcessor interface class?",
       options: [
         "A. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
-        "B. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
-        "C. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
+        "B. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
+        "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
         "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 31",
     },
     {

@@ -17,7 +17,7 @@ window.testContent[testName].testList.push({
         "C. Workflow Rule",
         "D. Process Builder",
       ],
-      answer: "A",
+      answer: "A,D",
       title: "Question 1",
     },
     {
@@ -35,7 +35,12 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option B", "B. Option D", "C. Option A", "D. Option C"],
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
       answer: "C",
       title: "Question 3",
     },
@@ -100,9 +105,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?A)B)C)D)",
-      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
-      answer: "C",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+      options: [
+        "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
+        "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
+        "C. \nwebservice class WebServiceClass{\n　private Boolean helperMethod() { /* implementation ... */}\n　webservice static String updateRecords() { /* implementation ... */}\n}",
+        "D. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　global String updateRecords() { /* implementation ... */}\n}",
+      ],
+      answer: "B",
       title: "Question 9",
     },
     {
@@ -119,7 +129,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment that has more than 200 Accounts belonging to the Technology' industry:which three statements are accurate about debug logs?Choose 3 answers",
+        "Which three statements are accurate about debug logs?Choose 3 answers",
       options: [
         "A. Only the 20 most recent debug logs for a user are kept.",
         "B. System debug logs are retained for 24 hours.",
@@ -151,7 +161,7 @@ window.testContent[testName].testList.push({
         "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
         "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 13",
     },
     {
@@ -191,11 +201,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
+        "What are the methods used to show input in classic and lightning?",
       options: [
-        "A. Use visualforce page in classic and lightning component in lightning",
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 17",
     },
     {
@@ -223,14 +236,15 @@ window.testContent[testName].testList.push({
       title: "Question 19",
     },
     {
-      content: "What is the result of the following code?",
+      content:
+        "What is the result of the following code?\nAccount a = new Account ();\nDatabase.insert (a, false);\n",
       options: [
         "A. The record will not be created and a exception will be thrown.",
         "B. The record will be created and no error will be reported.",
         "C. The record will be created and a message will be in the debug log.",
         "D. The record will not be created and no error will be reported.",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 20",
     },
     {
@@ -247,9 +261,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing an Apex class that creates Accounts, a developer wants to make sure that all required fields are handled properly.Which approach should the developer use to be sure that the Apex class works correctly?",
-      options: ["A. Include a try/catch block to the Apex class."],
-      answer: "A",
+        "While writing an Apex class that creates Accounts, a developer wants to make sure that all required fields are handled properly. Which approach should the developer use to be sure that the Apex class works correctly?",
+      options: [
+        "A. Perform a code review with another developer.",
+        "B. Include a try/catch block to the Apex class.",
+        "C. Run the code in an Execute Anonymous block.",
+        "D. Add the business logic to a test class.",
+      ],
+      answer: "B",
       title: "Question 22",
     },
     {
@@ -267,8 +286,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "Universal container wants a list button to display a visualforce page that allows users to edit multiple records which visualforce feature supports this requirement.",
-      options: ["A. Recordsetvar page attribute"],
-      answer: "A",
+      options: [
+        "A. <apex:listButton> tag",
+        "B. Recordsetvar page attribute",
+        "C. Custom controller",
+        "D. Controller extension",
+      ],
+      answer: "B",
       title: "Question 24",
     },
     {
@@ -297,7 +321,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The following automations already exist on the Account object;* A workflow rule that updates a field when a certain criteria is met* A custom validation on a field* A How that updates related contact recordsA developer created a trigger on the Account object.What should the developer consider while testing the trigger code?",
+        "The following automations already exist on the Account object:\n　* A workflow rule that updates a field when a certain criteria is met\n　* A custom validation on a field\n　* A flow that updates related contact records.\nA developer created a trigger on the Account object.\nWhat should the developer consider while testing the trigger code?",
       options: [
         "A. The trigger may fire multiple times during a transaction.",
         "B. Workflow rules will fire only after the trigger has committed all DML operations to the database.",
@@ -309,7 +333,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Considering the following code snippet:When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
+        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
       options: [
         "A. Implement the upsert DML statement.",
         "B. Implement a try/catch block for the DML.",
@@ -321,14 +345,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries? Choose 2 answers",
-      options: ["A. Example 1", "B. Example 4", "C. Example 3", "D. Example 2"],
-      answer: "C,D",
+        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries?\nExample 1:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘expr0’)); \n}\nExample 2:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘theAverage’)); \n}\nExample 3:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get.AVG()); \n}\nExample 4:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug (‘Average amount’ + ar.theAverage); \n}\nWhich two of the examples above have correct System.debug statements? (Choose two.)",
+      options: ["A. Example 1", "B. Example 2", "C. Example 3", "D. Example 4"],
+      answer: "A,B",
       title: "Question 29",
     },
     {
       content:
-        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:* Rollup summary fields* Custom validation rules* Duplicate rulesA developer created a trigger on the Account object.What two things should the developer consider while testing the trigger code?Choose 2 answers",
+        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:\n　* Rollup summary fields\n　* Custom validation rules\n　* Duplicate rules\nA developer created a trigger on the Account object.What two things should the developer consider while testing the trigger code?Choose 2 answers",
       options: [
         "A. Rollup summary fields can cause the parent record to go through Save.",
         "B. The validation rules will cause the trigger to fire again.",
@@ -494,8 +518,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? Choose 2 answers",
-      options: ["A. Use a trigger.", "B. Use a validation rule."],
-      answer: "A,B",
+      options: [
+        "A. Use a Flow Builder.",
+        "B. Use a validation rule.",
+        "C. Use the Process Automation Settings.",
+        "D. Mark fields as read-only on the page layout.",
+      ],
+      answer: "B,D",
       title: "Question 44",
     },
     {
@@ -652,21 +681,13 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three statements are accurate about debug logs? Choose 3 answers",
-      options: [
-        'A. To View Debug Logs, "Manager Users" or "Modify All Data" permission is needed.',
-        "B. Debug Log levels are cumulative, where FINE lop level includes all events logged at the DEBUG, INFO, WARN, and ERROR levels.",
-        "C. Amount of information logged in the debug log can be controlled by the log levels.",
-        'D. To View Debug Logs, "Manager Users" or "View All Data" permission is needed.',
-        "E. Amount of information logged in the debug log can be controlled programmatically.",
-      ],
-      answer: "C,E",
-      title: "Question 58",
-    },
-    {
-      content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
-      options: ["A. Option D", "B. Option B", "C. Option A", "D. Option C"],
+      options: [
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
+      ],
       answer: "B",
       title: "Question 59",
     },
@@ -684,7 +705,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following Apex code:What is the value of x when it is written to the debug log?",
+        "Refer to the following Apex code:Integer x = 0;\ndo {\n　x = 1;\n　x++;\n} while(x < 1);\nsystem.debug(x);\nWhat is the value of x when it is written to the debug log?",
       options: ["A. 1", "B. 2", "C. 0", "D. 3"],
       answer: "B",
       title: "Question 61",
@@ -734,14 +755,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:DeleteExpense,applyDefaultstoexpensevalidateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
-        "A. Unify the before insert and before update triggers and use Process Builder for the delete action.",
-        "B. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "C. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
-        "D. Create helper classes to execute the appropriate logic when a record is saved.",
+        "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
+        "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
+        "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
-      answer: "B,D",
+      answer: "A,B",
       title: "Question 66",
     },
     {
@@ -807,7 +828,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses the following objects and relationships:* Case: to handle customer support issues* Defect_c: a custom object to represent known issues with the company's software* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue What should be done to share a specific Case-Defect_c record with a user?",
+        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect is a customer issue.\nWhat should be done to share a specific Case-Defect_c record with a user?",
       options: [
         "A. Share the Case_Defect_c record.",
         "B. Share the parent Case record.",
@@ -819,10 +840,10 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce Administrator used Flow Builder to create a flow named ''accountOnboarding''. The flow must be used inside an Aura component.Which tag should a developer use to display the flow in the component?",
+        'A Salesforce Administrator used Flow Builder to create a flow named "accountOnboarding". The flow must be used inside an Aura component.Which tag should a developer use to display the flow in the component?',
       options: [
         "A. Lightning-flow",
-        "B. Aura:flow",
+        "B. Aura-flow",
         "C. Aura:flow ",
         "D. Lightning:flow",
       ],
@@ -843,9 +864,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?A)B)C)D)",
-      options: ["A. Option B", "B. Option C", "C. Option D", "D. Option A"],
-      answer: "D",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 75",
     },
     {
@@ -857,7 +878,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a custom exception as shown below:What are two ways the developer can fire the exception in Apex? Choose 2 answers",
+        "A developer creates a custom exception as shown below:\npublic class partiyException extends exception{}\nWhat are two ways the developer can fire the exception in Apex? Choose 2 answers",
       options: [
         "A. Throw new ParityException (parity does not match);",
         "B. New ParityException( );",
@@ -905,18 +926,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
-      options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "D. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}",
-      ],
-      answer: "B",
-      title: "Question 81",
-    },
-    {
-      content:
         "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements?Choose 2 answers",
       options: [
         "A. Einstein Next Best Action",
@@ -941,7 +950,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In the following example, which sharing context will myMethod execute when it is invoked?",
+        "In the following example, which sharing context will myMethod execute when it is invoked?\npublic Class myClass {\n　public void myMethod() { /* implementation */ }\n}\n",
       options: [
         "A. Sharing rules will not be enforced for the running user.",
         "B. Sharing rules will be inherited from the calling context.",
@@ -977,18 +986,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The following code snippet is executed by a Lightning web component in an environment with more than 2,000 lead records:Which governor limit will likely be exceeded within the Apex transaction?",
+        "The following code snippet is executed by a Lightning web component in an environment with more than 2,000 lead records:Which governor limit will likely be exceeded within the Apex transaction?\n@AuraEnabled\npublic void static updateLeads() {\n for(Lead thisLead:[SELECT Origin__c FROM LEAD]) {\n 　thisLead.LeadSource = thisLead.Origin;\n 　update thisLead;\n　}\n}\n",
       options: [
         "A. Total number of records processed as a result of DML statements",
         "B. Total number of DML statement issued",
         "C. Total number of SOQL queries issued",
         "D. Total number of records retrieved by SOQL queries",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 87",
     },
     {
-      content: "How can a developer implement this feature?",
+      content:
+        'How can a developer implement this feature?\nWhen a user edits the Postal Code on an Account, a custom Account text field named "Timezone" must be update based on the values in a PostalCodeToTimezone__c custom object.',
       options: [
         "A. Build an account approval process.",
         "B. Build an account assignment rule.",
@@ -1060,7 +1070,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds ^Decommissioned" as a picklist value for the Status__: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
+        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
       options: [
         "A. Apex trigger",
         "B. Before record-triggered flow",
@@ -1120,14 +1130,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:In an environment where the full result set is returned, what is a possible outcome of this code?",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
-        "A. The total number of DML statements will be exceeded.",
-        "B. The total number of records processed as a result of DML statements will be exceeded.",
-        "C. The total number of records processed as a result of DML statements will be exceeded",
-        "D. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
+        "D. The total number of records processed as a result of DML statements will be exceeded.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 99",
     },
     {

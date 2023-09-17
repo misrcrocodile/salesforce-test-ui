@@ -10,10 +10,14 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
-      options: [],
-      answer:
-        "  Use visualforce page in classic and lightning component in lightning ",
+        "What are the methods used to show input in classic and lightning?",
+      options: [
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
+      ],
+      answer: "C",
       title: "Question 1",
     },
     {
@@ -415,14 +419,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belongingto the Technology' industry:When the code execution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
+        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the ‘Technology’ industry:\nfor(Account thisAccount: [SELECT Id, Industry FROM Account Limit 150]) {\n　if(thisAccount.Industry == 'Technology') {\n　　thisAccount.Is_Tech__c = true;\n　}\n　update thisAccount;\n}\nWhen the code executes, what happens as a result of the Apex transaction?",
       options: [
         "A. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
         "B. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
         "C. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
         "D. The Apex transaction fails with the following message. \"SObjectrow was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 36",
     },
     {
@@ -610,13 +614,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
         "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
-        "B. The total numberof DML statements will be exceeded.",
-        "C. In an environment where the full result set is returned, what is a possible outcome of this code?",
-        "D. The total number of records processed as a result of DML statements will be exceeded",
-        "E. The total number of records processed as a result of DML statements will be exceeded.",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
+        "D. TThe total number of records processed as a result of DML statements will be exceeded.",
       ],
       answer: "D",
       title: "Question 53",
@@ -669,12 +672,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer must implement a CheckPaymentProcessor class that provides check processing payment capabilities that adhere to what defined for payments in the PaymentProcessor interface. public interface PaymentProcessor { void pay(Decimal amount); } Which is the correct implementation to use the PaymentProcessor interface class?",
       options: [
-        "A. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
+        "A. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
         "B. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
         "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
-        "D. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
+        "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 58",
     },
     {

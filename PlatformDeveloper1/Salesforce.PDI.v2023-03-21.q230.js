@@ -184,15 +184,13 @@ window.testContent[testName].testList.push({
       title: "Question 15",
     },
     {
-      content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
-        "A. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}the extending class can override the existing virtual methods by using the override keyword in the method definition. Overriding a virtual method allows you to provide a different implementation for an existing method https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_extending.htm",
-        "D. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 16",
     },
     {
@@ -257,14 +255,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a custom exception as shown below:What are two ways the developer can fire the exception in Apex? Choose 2 answers",
+        "A developer creates a custom exception as shown below:\npublic class partiyException extends exception{}\nWhat are two ways the developer can fire the exception in Apex? Choose 2 answers",
       options: [
-        "A. New ParityException( );",
-        "B. Throw new parityException ( );",
-        "C. Throw new ParityException (parity does not match);",
+        "A. Throw new ParityException (parity does not match);",
+        "B. New ParityException( );",
+        "C. Throw new parityException ( );",
         "D. New ParityException (parity does not match);",
       ],
-      answer: "B,C",
+      answer: "A,C",
       title: "Question 22",
     },
     {
@@ -473,20 +471,13 @@ window.testContent[testName].testList.push({
       content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "D. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}",
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
       ],
       answer: "B",
       title: "Question 40",
-    },
-    {
-      content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
-      options: ["A. Option C", "B. Option D", "C. Option B", "D. Option A"],
-      answer: "C",
-      title: "Question 41",
     },
     {
       content:
@@ -509,14 +500,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:DeleteExpense,applyDefaultstoexpensevalidateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "B. Unify the before insert and before update triggers and use Process Builder for the delete action.",
-        "C. Create helper classes to execute the appropriate logic when a record is saved.",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
+        "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
         "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 44",
     },
     {
@@ -570,14 +561,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the Technology' industry:When the code execution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
+        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the ‘Technology’ industry:\nfor(Account thisAccount: [SELECT Id, Industry FROM Account Limit 150]) {\n　if(thisAccount.Industry == 'Technology') {\n　　thisAccount.Is_Tech__c = true;\n　}\n　update thisAccount;\n}\nWhen the code executes, what happens as a result of the Apex transaction?",
       options: [
-        "A. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
+        "A. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
         "B. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
         "C. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
-        "D. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
+        "D. The Apex transaction fails with the following message. \"SObjectrow was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 50",
     },
     {
@@ -618,15 +609,15 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three statements are accurate about debug logs? Choose 3 answers",
+        "Which three statements are accurate about debug logs?Choose 3 answers",
       options: [
-        'A. To View Debug Logs, "Manager Users" or "View All Data" permission is needed.',
-        "B. Amount of information logged in the debug log can be controlled by the log levels.",
-        "C. Amount of information logged in the debug log can be controlled programmatically.",
-        "D. Debug Log levels are cumulative, where FINE lop level includes all events logged at the DEBUG, INFO, WARN, and ERROR levels.",
-        'E. To View Debug Logs, "Manager Users" or "Modify All Data" permission is needed.',
+        "A. Only the 20 most recent debug logs for a user are kept.",
+        "B. System debug logs are retained for 24 hours.",
+        "C. The maximum size of a debug log is 5 MB.",
+        "D. Debug log levels are cumulative, where FINE log level includes all events logged at the DEBUG, INFO, WARN, and ERROR levels.",
+        "E. Debug logs can be set for specific users, classes, and triggers.",
       ],
-      answer: "B,C",
+      answer: "A,B,E",
       title: "Question 54",
     },
     {
@@ -1071,18 +1062,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the Technology' industry:When the code execution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
-      options: [
-        "A. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
-        "B. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
-        "C. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
-        "D. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
-      ],
-      answer: "C,D",
-      title: "Question 93",
-    },
-    {
-      content:
         "Which action can a developer perform in a before update trigger? (Choose 2)",
       options: [
         "A. Delete the original object using a delete DML operation.",
@@ -1456,9 +1435,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries? Choose 2 answers",
-      options: ["A. Example 4", "B. Example 3", "C. Example 2", "D. Example 1"],
-      answer: "B,C",
+        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries?\nExample 1:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘expr0’)); \n}\nExample 2:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘theAverage’)); \n}\nExample 3:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get.AVG()); \n}\nExample 4:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug (‘Average amount’ + ar.theAverage); \n}\nWhich two of the examples above have correct System.debug statements? (Choose two.)",
+      options: ["A. Example 1", "B. Example 2", "C. Example 3", "D. Example 4"],
+      answer: "A,B",
       title: "Question 127",
     },
     {
@@ -1643,18 +1622,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
-      options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "D. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}",
-      ],
-      answer: "C",
-      title: "Question 144",
-    },
-    {
-      content:
         "What are two benefits of the Lightning Component framework? (Choose two.)",
       options: [
         "A. It promotes faster development using out-of-box components that are suitable for desktop and mobile devices.",
@@ -1740,7 +1707,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds ^Decommissioned" as a picklist value for the Status__: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
+        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
       options: [
         "A. Apex trigger",
         "B. Before record-triggered flow",
@@ -2338,9 +2305,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?A)B)C)D)",
-      options: ["A. Option B", "B. Option A", "C. Option C", "D. Option D"],
-      answer: "C",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+      options: [
+        "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
+        "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
+        "C. \nwebservice class WebServiceClass{\n　private Boolean helperMethod() { /* implementation ... */}\n　webservice static String updateRecords() { /* implementation ... */}\n}",
+        "D. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　global String updateRecords() { /* implementation ... */}\n}",
+      ],
+      answer: "B",
       title: "Question 205",
     },
     {
@@ -2377,8 +2349,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option A", "B. Option D", "C. Option B", "D. Option C"],
-      answer: "A",
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
+      answer: "C",
       title: "Question 209",
     },
     {

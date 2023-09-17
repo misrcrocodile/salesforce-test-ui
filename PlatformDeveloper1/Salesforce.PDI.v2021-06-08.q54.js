@@ -114,14 +114,15 @@ window.testContent[testName].testList.push({
       title: "Question 9",
     },
     {
-      content: "What is the result of the following code?",
+      content:
+        "What is the result of the following code?\nAccount a = new Account ();\nDatabase.insert (a, false);\n",
       options: [
-        "A. The record will be created and no error will be reported.",
-        "B. The record will not be created and a exception will be thrown.",
+        "A. The record will not be created and a exception will be thrown.",
+        "B. The record will be created and no error will be reported.",
         "C. The record will be created and a message will be in the debug log.",
         "D. The record will not be created and no error will be reported.",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 10",
     },
     {
@@ -147,8 +148,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option B", "B. Option A", "C. Option C", "D. Option D"],
-      answer: "B",
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
+      answer: "C",
       title: "Question 13",
     },
     {
@@ -315,10 +321,10 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:* DeleteExpense,* applyDefaultstoexpense* validateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "B. Create helper classes to execute the appropriate logic when a record is saved. (Missed)",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
         "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
         "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
@@ -339,21 +345,26 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
-        "A. The total number of DML statements will be exceeded.",
-        "B. In an environment where the full result set is returned, what is a possible outcome of this code?",
-        "C. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
         "D. The total number of records processed as a result of DML statements will be exceeded.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 30",
     },
     {
       content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
-      options: ["A. Option C", "B. Option A", "C. Option D", "D. Option B"],
-      answer: "D",
+      options: [
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
+      ],
+      answer: "B",
       title: "Question 31",
     },
     {
@@ -540,10 +551,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
-      options: [],
-      answer:
-        "  Use visualforce page in classic and lightning component in lightning ",
+        "What are the methods used to show input in classic and lightning?",
+      options: [
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
+      ],
+      answer: "C",
       title: "Question 48",
     },
     {

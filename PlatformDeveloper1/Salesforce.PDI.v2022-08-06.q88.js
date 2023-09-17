@@ -42,14 +42,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the Technology' industry:When the code execution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
+        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the ‘Technology’ industry:\nfor(Account thisAccount: [SELECT Id, Industry FROM Account Limit 150]) {\n　if(thisAccount.Industry == 'Technology') {\n　　thisAccount.Is_Tech__c = true;\n　}\n　update thisAccount;\n}\nWhen the code executes, what happens as a result of the Apex transaction?",
       options: [
-        "A. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
-        "B. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
+        "A. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
+        "B. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
         "C. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
-        "D. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
+        "D. The Apex transaction fails with the following message. \"SObjectrow was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 4",
     },
     {
@@ -176,18 +176,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
-      options: [
-        "A. The total number of records processed as a result of DML statements will be exceeded.",
-        "B. The total number of DML statements will be exceeded.",
-        "C. The transaction will succeed and the first ten thousand records will be committed to the database.",
-        "D. In an environment where the full result set is returned, what is a possible outcome of this code?",
-      ],
-      answer: "A",
-      title: "Question 16",
-    },
-    {
-      content:
         "A Lightning component has a wired property, searchResults, that stores a list of Opportunities. Which definition of the Apex method, to which the searchResults property is wired, should be used?",
       options: [
         "A. @AuraEnabled(cacheable=false)public List<Opportunity> search(String term) { /*implementation*/ }",
@@ -248,8 +236,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option A", "B. Option C", "C. Option D", "D. Option B"],
-      answer: "A",
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
+      answer: "C",
       title: "Question 22",
     },
     {
@@ -455,11 +448,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
+        "What are the methods used to show input in classic and lightning?",
       options: [
-        "A. Use visualforce page in classic and lightning component in lightning",
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 40",
     },
     {
@@ -512,14 +508,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Considering the following code snippet:When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
+        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
       options: [
-        "A. Remove null items from the list if Accounts.",
-        "B. Implement Change Data Capture",
-        "C. Implement the upsert DML statement.",
-        "D. Implement a try/catch block for the DML.",
+        "A. Implement the upsert DML statement.",
+        "B. Implement a try/catch block for the DML.",
+        "C. Remove null items from the list if Accounts.",
+        "D. Implement Change Data Capture",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 45",
     },
     {
@@ -536,9 +532,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?A)B)C)D)",
-      options: ["A. Option D", "B. Option A", "C. Option C", "D. Option B"],
-      answer: "B",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 47",
     },
     {

@@ -168,8 +168,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? Choose 2 answers",
-      options: ["A. Use a validation rule.", "B. Use a trigger."],
-      answer: "A,B",
+      options: [
+        "A. Use a Flow Builder.",
+        "B. Use a validation rule.",
+        "C. Use the Process Automation Settings.",
+        "D. Mark fields as read-only on the page layout.",
+      ],
+      answer: "B,D",
       title: "Question 15",
     },
     {
@@ -277,9 +282,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?A)B)C)D)",
-      options: ["A. Option D", "B. Option B", "C. Option C", "D. Option A"],
-      answer: "D",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 25",
     },
     {
@@ -448,14 +453,15 @@ window.testContent[testName].testList.push({
       title: "Question 39",
     },
     {
-      content: "What is the result of the following code?",
+      content:
+        "What is the result of the following code?\nAccount a = new Account ();\nDatabase.insert (a, false);\n",
       options: [
-        "A. The record will be created and no error will be reported.",
-        "B. The record will not be created and a exception will be thrown.",
-        "C. The record will not be created and no error will be reported.",
-        "D. The record will be created and a message will be in the debug log.",
+        "A. The record will not be created and a exception will be thrown.",
+        "B. The record will be created and no error will be reported.",
+        "C. The record will be created and a message will be in the debug log.",
+        "D. The record will not be created and no error will be reported.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 40",
     },
     {
@@ -508,8 +514,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "Universal container wants a list button to display a visualforce page that allows users to edit multiple records which visualforce feature supports this requirement.",
-      options: [],
-      answer: "  Recordsetvar page attribute ",
+      options: [
+        "A. <apex:listButton> tag",
+        "B. Recordsetvar page attribute",
+        "C. Custom controller",
+        "D. Controller extension",
+      ],
+      answer: "B",
       title: "Question 45",
     },
     {
@@ -714,13 +725,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
         "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
-        "B. The total number of records processed as a result of DML statements will be exceeded.",
-        "C. In an environment where the full result set is returned, what is a possible outcome of this code?",
-        "D. The total number of records processed as a result of DML statements will be exceeded",
-        "E. The total number of DML statements will be exceeded.",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
+        "D. The total number of records processed as a result of DML statements will be exceeded.",
       ],
       answer: "D",
       title: "Question 63",

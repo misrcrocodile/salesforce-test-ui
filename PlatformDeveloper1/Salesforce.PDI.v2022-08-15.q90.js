@@ -72,9 +72,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?A)B)C)D)",
-      options: ["A. Option B", "B. Option A", "C. Option D", "D. Option C"],
-      answer: "D",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+      options: [
+        "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
+        "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
+        "C. \nwebservice class WebServiceClass{\n　private Boolean helperMethod() { /* implementation ... */}\n　webservice static String updateRecords() { /* implementation ... */}\n}",
+        "D. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　global String updateRecords() { /* implementation ... */}\n}",
+      ],
+      answer: "B",
       title: "Question 6",
     },
     {
@@ -175,10 +180,10 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:* DeleteExpense,* applyDefaultstoexpense* validateexpenseupdate;The triggers process before delete, before insert,and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
-        "A. Create helper classes to execute the appropriate logic when a record is saved.",
-        "B. Unify all three triggers in a single trigger on the Expense__c object thatincludes all events.",
+        "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
         "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
         "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
@@ -237,7 +242,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the Technology' industry:When the codeexecution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
+        "Which three statements are accurate about debug logs?Choose 3 answers",
       options: [
         "A. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without queryingthe requested field Account.Is.Tech__c''.",
         "B. If executed in an asynchronous context, the apex transaction is likely to fallby exceeding the DML governor limit",
@@ -655,9 +660,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is usedin a Visualforce page?A)B)C)D)",
-      options: ["A. Option D", "B. Option C", "C. Option A", "D. Option B"],
-      answer: "C",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 57",
     },
     {

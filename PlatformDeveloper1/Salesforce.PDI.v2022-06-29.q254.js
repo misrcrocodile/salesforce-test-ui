@@ -179,14 +179,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:DeleteExpense,applyDefaultstoexpensevalidateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "B. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
-        "C. Create helper classes to execute the appropriate logic when a record is saved.",
-        "D. Unify the before insert and before update triggers and use Process Builder for the delete action.",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
+        "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
+        "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 15",
     },
     {
@@ -602,8 +602,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
-      options: ["A. Option D", "B. Option A", "C. Option C", "D. Option B"],
-      answer: "D",
+      options: [
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
+      ],
+      answer: "B",
       title: "Question 51",
     },
     {
@@ -736,8 +741,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option A", "B. Option C", "C. Option D", "D. Option B"],
-      answer: "B",
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
+      answer: "C",
       title: "Question 63",
     },
     {
@@ -997,19 +1007,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
-      options: [
-        "A. The total numberof DML statements will be exceeded.",
-        "B. In an environment where the full result set is returned, what is a possible outcome of this code?",
-        "C. The total number of records processed as a result of DML statements will be exceeded",
-        "D. The total number of records processed as a result of DML statements will be exceeded.",
-        "E. The transaction will succeed and the first ten thousand records will be committed to the database.",
-      ],
-      answer: "C",
-      title: "Question 85",
-    },
-    {
-      content:
         'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
       options: [
         "A. Lightning",
@@ -1064,18 +1061,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "A",
       title: "Question 90",
-    },
-    {
-      content:
-        "A developer identifies the following triggers on the Expense_c object:* DeleteExpense,* applyDefaultstoexpense* validateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
-      options: [
-        "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "B. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
-        "C. Create helper classes to execute the appropriate logic when a record is saved. (Missed)",
-        "D. Unify the before insert and before update triggers and use Process Builder for the delete action.",
-      ],
-      answer: "A,C",
-      title: "Question 91",
     },
     {
       content:
@@ -1186,20 +1171,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following Apex code:What is the value of x when it is written to the debug log?",
-      options: ["A. 0", "B. 2", "C. 1", "D. 3"],
+        "Refer to the following Apex code:Integer x = 0;\ndo {\n　x = 1;\n　x++;\n} while(x < 1);\nsystem.debug(x);\nWhat is the value of x when it is written to the debug log?",
+      options: ["A. 1", "B. 2", "C. 0", "D. 3"],
       answer: "B",
       title: "Question 101",
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
         "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
-        "B. The total number of records processed as a result of DML statements will be exceeded.",
-        "C. The total number of DML statements will be exceeded.",
-        "D. The total number of records processed as a result of DML statements will be exceeded",
-        "E. In an environment where the full result set is returned, what is a possible outcome of this code?",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
+        "D. The total number of records processed as a result of DML statements will be exceeded.",
       ],
       answer: "D",
       title: "Question 102",
@@ -1372,16 +1356,21 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?A)B)C)D)",
-      options: ["A. Option C", "B. Option D", "C. Option A", "D. Option B"],
-      answer: "A",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+      options: [
+        "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
+        "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
+        "C. \nwebservice class WebServiceClass{\n　private Boolean helperMethod() { /* implementation ... */}\n　webservice static String updateRecords() { /* implementation ... */}\n}",
+        "D. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　global String updateRecords() { /* implementation ... */}\n}",
+      ],
+      answer: "B",
       title: "Question 118",
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?A)B)C)D)",
-      options: ["A. Option D", "B. Option B", "C. Option A", "D. Option C"],
-      answer: "C",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 119",
     },
     {
@@ -1453,11 +1442,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "what are the methods used to show input in classic and lightning ?",
+        "What are the methods used to show input in classic and lightning?",
       options: [
-        "A. Use visualforce page in classic and lightning component in lightning",
+        "A. Use visualforce page in classic and use visualforce page in lightning",
+        "B. Use visualforce page in classic and use lightning page in lightning",
+        "C. Use visualforce page in classic and lightning component in lightning",
+        "D. Use lightning page in classic and lightning component in lightning",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 126",
     },
     {
@@ -2080,18 +2072,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
-      options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}the extending class can override the existing virtual methods by using the override keyword in the method definition. Overriding a virtual method allows you to provide a different implementation for an existing method https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_extending.htm",
-        "D. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-      ],
-      answer: "B",
-      title: "Question 181",
-    },
-    {
-      content:
         "What is considered the primary purpose for creating Apex tests?",
       options: [
         "A. To confirm every trigger in executed at least once",
@@ -2373,12 +2353,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the Technology' industry:When the code execution, which two events occur as a result of the Apex transaction?When the code executes, which two events occur as a result of the Apex transaction?Choose 2 answers",
+        "Refer to the following code snippet for an environment has more than 200 Accounts belonging to the ‘Technology’ industry:\nfor(Account thisAccount: [SELECT Id, Industry FROM Account Limit 150]) {\n　if(thisAccount.Industry == 'Technology') {\n　　thisAccount.Is_Tech__c = true;\n　}\n　update thisAccount;\n}\nWhen the code executes, what happens as a result of the Apex transaction?",
       options: [
-        "A. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
-        "B. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
-        "C. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
-        "D. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
+        "A. If executed in an asynchronous context, the apex transaction is likely to fall by exceeding the DML governor limit",
+        "B. If executed In a synchronous context, the apex transaction is likely to fall by exceeding the DHL governor limit.",
+        "C. The Apex transaction succeeds regardless of any uncaught exception and all processed accounts are updated.",
+        "D. The Apex transaction fails with the following message. \"SObjectrow was retrieved via SOQL without querying the requested field Account.Is.Tech__c''.",
       ],
       answer: "C",
       title: "Question 207",
@@ -2619,18 +2599,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The following code snippet is executed by a Lightning web component in an environment with more than 2,000 lead records:Which governor limit will likely be exceeded within the Apex transaction?",
-      options: [
-        "A. Total number of SOQL queries issued",
-        "B. Total number of records processed as a result of DML statements",
-        "C. Total number of DML statement issued",
-        "D. Total number of records retrieved by SOQL queries",
-      ],
-      answer: "D",
-      title: "Question 228",
-    },
-    {
-      content:
         "How should a developer avoid hitting the governor limits in test methods?",
       options: [
         "A. Use @IsTest (SeeAllData=true) to use existing data.",
@@ -2829,14 +2797,15 @@ window.testContent[testName].testList.push({
       title: "Question 245",
     },
     {
-      content: "What is the result of the following code?",
+      content:
+        "What is the result of the following code?\nAccount a = new Account ();\nDatabase.insert (a, false);\n",
       options: [
-        "A. The record will be created and a message will be in the debug log.",
+        "A. The record will not be created and a exception will be thrown.",
         "B. The record will be created and no error will be reported.",
-        "C. The record will not be created and no error will be reported.",
-        "D. The record will not be created and a exception will be thrown.",
+        "C. The record will be created and a message will be in the debug log.",
+        "D. The record will not be created and no error will be reported.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 246",
     },
     {

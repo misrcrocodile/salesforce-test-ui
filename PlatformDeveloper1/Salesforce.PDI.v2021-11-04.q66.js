@@ -171,13 +171,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "D. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}",
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
       ],
-      answer:
-        "B  Explanation the extending class can override the existing virtual methods by using the override keyword in the method definition. Overriding a virtual method allows you to provide a different implementation for an existing methodhttps://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_extending.htm ",
+      answer: "B",
       title: "Question 15",
     },
     {

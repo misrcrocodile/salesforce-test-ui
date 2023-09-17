@@ -131,15 +131,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that runs in an Execute Anonymous block:",
+        "Refer to the following code that runs in an Execute Anonymous block:\nfor (List<Lead> theseLeads: [SELECT LastName, Company, Email FROM Lead LIMIT 20000]){\n　thisLead.Email = assignGenericEmail (thisLead. LastName, thisLead. Company);\n　for (Lead thisLead: theseLeads) {\n　　if(thisLead. Email == null) Database. Update (theseLeads, false);\n　}\n}\nIn an environment where the full result set is returned, what is a possible outcome of this code?",
       options: [
-        "A. The total number of records processed as a result of DML statements will be exceeded",
-        "B. The total number of DML statements will be exceeded.",
-        "C. The total number of records processed as a result of DML statements will be exceeded.",
-        "D. In an environment where the full result set is returned, what is a possible outcome of this code?",
-        "E. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "A. The transaction will succeed and the first ten thousand records will be committed to the database.",
+        "B. The total number of DML statements issued will be exceeded.",
+        "C. The transaction will succeed and the full result set changes will be committed to the database.",
+        "D. TThe total number of records processed as a result of DML statements will be exceeded.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 11",
     },
     {
@@ -173,9 +172,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries? Choose 2 answers",
+        "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries?\nExample 1:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘expr0’)); \n}\nExample 2:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘theAverage’)); \n}\nExample 3:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get.AVG()); \n}\nExample 4:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug (‘Average amount’ + ar.theAverage); \n}\nWhich two of the examples above have correct System.debug statements? (Choose two.)",
       options: ["A. Example 1", "B. Example 2", "C. Example 3", "D. Example 4"],
-      answer: "B,C",
+      answer: "A,B",
       title: "Question 15",
     },
     {
@@ -507,9 +506,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?A)B)C)D)",
-      options: ["A. Option B", "B. Option C", "C. Option D", "D. Option A"],
-      answer: "D",
+        "Which Lightning code segment should be written to declare dependencies on a Lightning component, c:accountList, that is used in a Visualforce page?\nA.\n&lt;aura:application access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;\n\nB.\n&lt;aura:component access=&quot;GLOBAL&quot; extends=&quot;ltng:outApp&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nC.\n&lt;aura:component access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:component&gt;\n\nD.\n&lt;aura:application access=&quot;GLOBAL&quot;&gt;\n　&lt;aura:dependency resource=&quot;c:accountList&quot;/&gt;\n&lt;/aura:application&gt;",
+      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
+      answer: "A",
       title: "Question 45",
     },
     {
@@ -526,21 +525,26 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:* DeleteExpense,* applyDefaultstoexpense* validateexpenseupdate;The triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
-        "A. Unify the before insert and before update triggers and use Process Builder for the delete action.",
-        "B. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
-        "C. Create helper classes to execute the appropriate logic when a record is saved.",
+        "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
+        "B. Create helper classes to execute the appropriate logic when a record is saved.",
+        "C. Unify the before insert and before update triggers and use Process Builder for the delete action.",
         "D. Maintain all three triggers on the Expense__c object, but move the Apex logic out for the trigger definition.",
       ],
-      answer: "B,C",
+      answer: "A,B",
       title: "Question 47",
     },
     {
       content:
         "Universal container wants a list button to display a visualforce page that allows users to edit multiple records which visualforce feature supports this requirement.",
-      options: [],
-      answer: "  Recordsetvar page attribute ",
+      options: [
+        "A. <apex:listButton> tag",
+        "B. Recordsetvar page attribute",
+        "C. Custom controller",
+        "D. Controller extension",
+      ],
+      answer: "B",
       title: "Question 48",
     },
     {
@@ -559,10 +563,10 @@ window.testContent[testName].testList.push({
       content:
         "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
-        "A. Public abstract class ShippingCalculator {public override calculate() { /*implementation*/ }}",
-        "B. Public abstract class ShippingCalculator {public virtual void calculate() { /*implementation*/ }}",
-        "C. Public abstract class ShippingCalculator {public abstract calculate() { /*implementation*/ }}",
-        "D. Public abstract class ShippingCalculator {public void calculate() { /*implementation*/ }}",
+        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
+        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
+        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
+        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
       ],
       answer: "B",
       title: "Question 50",
@@ -617,8 +621,13 @@ window.testContent[testName].testList.push({
     {
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
-      options: ["A. Option A", "B. Option B", "C. Option C", "D. Option D"],
-      answer: "A",
+      options: [
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
+      ],
+      answer: "C",
       title: "Question 55",
     },
     {
@@ -708,9 +717,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?A)B)C)D)",
-      options: ["A. Option B", "B. Option D", "C. Option A", "D. Option C"],
-      answer: "D",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+      options: [
+        "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
+        "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
+        "C. \nwebservice class WebServiceClass{\n　private Boolean helperMethod() { /* implementation ... */}\n　webservice static String updateRecords() { /* implementation ... */}\n}",
+        "D. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　global String updateRecords() { /* implementation ... */}\n}",
+      ],
+      answer: "B",
       title: "Question 63",
     },
     {
@@ -829,10 +843,10 @@ window.testContent[testName].testList.push({
       content:
         "A developer must implement a CheckPaymentProcessor class that provides check processing payment capabilities that adhere to what defined for payments in the PaymentProcessor interface. public interface PaymentProcessor { void pay(Decimal amount); } Which is the correct implementation to use the PaymentProcessor interface class?",
       options: [
-        "A. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
-        "B. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
-        "C. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
-        "D. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
+        "A. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount) {}}",
+        "B. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount) {}}",
+        "C. Public class CheckPaymentProcessor extends PaymentProcessor {public void pay(Decimal amount);}",
+        "D. Public class CheckPaymentProcessor implements PaymentProcessor {public void pay(Decimal amount);}",
       ],
       answer: "B",
       title: "Question 74",
