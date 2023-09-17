@@ -10,14 +10,14 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Given the following trigger implementation:trigger leadTrigger on Lead (before update){final ID BUSINESS_RECORDTYPEID = '012500000009Qad';for(Lead thisLead : Trigger.new){if(thisLead.Company != null && thisLead.RecordTypeId != BUSINESS_RECORDTYPEID){ thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;}}}The developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
       options: [
-        "A. Ensure the deployment is validated by a System Admin user on Production.",
+        "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
-        "C. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
-        "D. Ensure BUSINESS_RECORDTYPEID is pushed as part of the deployment components.",
+        "C. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
+        "D. Ensure the deployment is validated by a System Admin user on Production.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 1",
     },
     {
@@ -165,13 +165,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=10", "B. X=4", "C. X=8", "D. X=9"],
-      answer: "B",
-      title: "Question 14",
-    },
-    {
-      content:
         "Which two examples above use the system. debug statements to correctly display the results from the SOQL aggregate queries?\nExample 1:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘expr0’)); \n}\nExample 2:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get(‘theAverage’)); \n}\nExample 3:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug(‘Average amount’ + ar.get.AVG()); \n}\nExample 4:\nAggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) theAverage FROM Opportunity GROUP BY CampaignId];\nfor (AggregateResult ar : groupedResults) {\n　System.debug(‘Campaign ID’ + ar.get(‘CampaignId’));\n　System.debug (‘Average amount’ + ar.theAverage); \n}\nWhich two of the examples above have correct System.debug statements? (Choose two.)",
       options: ["A. Example 1", "B. Example 2", "C. Example 3", "D. Example 4"],
       answer: "A,B",
@@ -179,12 +172,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 16",
@@ -273,14 +266,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system.Whithin the class, the developer identifies the following method as a security threat: List<Contact> performSearch(String lastName){ return Database.query('Select Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+'%); } What are two ways the developer can update the method to prevent a SOQL injection attack? Choose 2 answers",
+        "A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system.Whithin the class, the developer identifies the following method as a security threat: \nList<Contact> performSearch(String lastName){\n　 return Database.query('Select Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+'%);\n}\n What are two ways the developer can update the method to prevent a SOQL injection attack?\nChoose 2 answers",
       options: [
-        "A. Use the @Readonly annotation and the with sharing keyword on the class.",
+        "A. Use a regular expression on the parameter to remove special characters.",
         "B. Use variable binding and replace the dynamic query with a static SOQL.",
-        "C. Use the escapeSingleQuote method to sanitize the parameter before its use.",
-        "D. Use a regular expression on the parameter to remove special characters.",
+        "C. Use the @Readonly annotation and the with sharing keyword on the class.",
+        "D. Use the escapeSingleQuote method to sanitize the parameter before its use.",
       ],
-      answer: "B,C",
+      answer: "B,D",
       title: "Question 24",
     },
     {
@@ -336,8 +329,14 @@ window.testContent[testName].testList.push({
     {
       content:
         "Which three resources in an Aura Component can contain Javascript functions? Choose 3 answers",
-      options: ["A. Helper", "B. Renderer", "C. Controller"],
-      answer: "A,B,C",
+      options: [
+        "A. Design",
+        "B. Controller",
+        "C. Helper",
+        "D. Style",
+        "E. Renderer",
+      ],
+      answer: "B,C,E",
       title: "Question 30",
     },
     {
@@ -494,14 +493,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The following Apex method is part of the ContactService class that is called from a trigger: public static void setBusinessUnitToEMEA(Contact thisContact){ thisContact.Business_Unit__c = "EMEA" ; update thisContact; } How should the developer modify the code to ensure best practice are met?',
+        'The following Apex method is part of the ContactService class that is called from a trigger: \npublic static void setBusinessUnitToEMEA(Contact thisContact){\n　thisContact.Business_Unit__c = "EMEA" ;\n　update thisContact;\n}\nHow should the developer modify the code to ensure best practice are met?',
       options: [
-        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts) {thisContact.Business_Unit__c = 'EMEA' ;}update contacts;}",
-        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs){contacts[0].Business_Unit__c = 'EMEA' ;update contacts[0];}",
-        "C. Public static void setBusinessUnitToEMEA(Contact thisContact){List<Contact> contacts = new List<Contact>();contacts.add(thisContact.Business_Unit__c = 'EMEA');update contacts;}",
-        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts){thisContact.Business_Unit__c = 'EMEA' ;update contacts[0];}}",
+        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(Contact thisContact : contacts) {\n 　thisContact.Business_Unit__c = 'EMEA' ;\n　　update contacts[0];\n　}\n}\n",
+        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs) {\n　contacts[0].Business_Unit__c = 'EMEA' ;\n　update contacts[0];\n}\n",
+        "C. Public static void setBusinessUnitToEMEA(Contact thisContact) {\n　List<Contact> contacts = new List<Contact>();\n　contacts.add(thisContact.Business_Unit__c ='EMEA');\n　update contacts;\n}\n",
+        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(ContactthisContact : contacts) {\n　　thisContact.Business_Unit__c = 'EMEA' ;\n　}\n　update contacts;\n}\n",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 44",
     },
     {
@@ -573,14 +572,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod:trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
+        "developer created this Apex trigger that calls MyClass.myStaticMethod:\ntrigger myTrigger on Contact(before insert) {\n　MyClass.myStaticMethod(trigger.new, trigger.oldMap); \n}\nThe developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
       options: [
-        "A. The deployment fails because no assertions were made in the test method.",
-        "B. The deployment passes because both classes and the trigger were included in the deployment.",
-        "C. The deployment fails because the Apex trigger has no code coverage.",
-        "D. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "A. The deployment passes because both classes and the trigger were included in the deployment.",
+        "B. The deployment fails because the Apex trigger has no code coverage.",
+        "C. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "D. The deployment fails because no assertions were made in the test method.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 51",
     },
     {
@@ -731,12 +730,12 @@ window.testContent[testName].testList.push({
       content:
         "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
       options: [
-        "A. @InvocableMethodglobal List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "B. @InvocableMethodglobal static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "C. @InvocableMethodglobal Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
-        "D. @InvocableMethodglobal static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "A. @InvocableMethod global Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
+        "B. @InvocableMethod global static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "C. @InvocableMethod global static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "D. @InvocableMethod global List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 64",
     },
     {

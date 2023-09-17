@@ -191,9 +191,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 2", "B. 4", "C. 1", "D. 3"],
-      answer: "B",
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
+      options: ["A. 4", "B. 2", "C. 3", "D. 1"],
+      answer: "A",
       title: "Question 16",
     },
     {
@@ -212,11 +212,11 @@ window.testContent[testName].testList.push({
         'Which query should a developer use to obtain the Id and Name of all the Leads, Accounts, and Contacts that have the company name "Universal Containers"?',
       options: [
         "A. FIND 'Universal Containers' IN CompanyName Fields RETURNING lead(id,name), account (id,name), contact(id,name)",
-        "B. IND 'Universal Containers' IN Name Fields RETURNING lead(id, name), account(id,name), contact(id,name)",
+        "B. FIND 'Universal Containers' IN Name Fields RETURNING lead(id, name), account(id,name), contact(id,name)",
         "C. SELECT Lead.id, Lead. Name, Account.id, Account.Name, Contact.Id, Contact. Name FROM Lead, Account, Contact WHERE CompanyName = 'Universal Containers'",
         "D. SELECT lead(id, name), account(id, name), contact(id,name) FROM Lead, Account, Contact WHERE Name = 'Universal Containers'",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 18",
     },
     {
@@ -318,7 +318,7 @@ window.testContent[testName].testList.push({
         "A. Include <apex:messages> on the Visualforce page.",
         "B. Add custom controller attributes to display the message.",
         "C. Use a try/catch with a custom exception class.",
-        "D. Perform the DML using the Database.upsert() methodhttps://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_message.htm",
+        "D. Perform the DML using the Database.upsert() method",
       ],
       answer: "A",
       title: "Question 27",
@@ -422,14 +422,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The following Apex method is part of the ContactService class that is called from a trigger: public static void setBusinessUnitToEMEA(Contact thisContact){ thisContact.Business_Unit__c = "EMEA" ; update thisContact; } How should the developer modify the code to ensure best practice are met?',
+        'The following Apex method is part of the ContactService class that is called from a trigger: \npublic static void setBusinessUnitToEMEA(Contact thisContact){\n　thisContact.Business_Unit__c = "EMEA" ;\n　update thisContact;\n}\nHow should the developer modify the code to ensure best practice are met?',
       options: [
-        "A. Publicstatic void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts){thisContact.Business_Unit__c = 'EMEA' ;update contacts[0];}}",
-        "B. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(ContactthisContact : contacts) {thisContact.Business_Unit__c = 'EMEA' ;}update contacts;}",
-        "C. Public static void setBusinessUnitToEMEA(Contact thisContact){List<Contact> contacts = new List<Contact>();contacts.add(thisContact.Business_Unit__c ='EMEA');update contacts;}",
-        "D. Public void setBusinessUnitToEMEA(List<Contact> contatcs){contacts[0].Business_Unit__c = 'EMEA' ;update contacts[0];}",
+        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(Contact thisContact : contacts) {\n 　thisContact.Business_Unit__c = 'EMEA' ;\n　　update contacts[0];\n　}\n}\n",
+        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs) {\n　contacts[0].Business_Unit__c = 'EMEA' ;\n　update contacts[0];\n}\n",
+        "C. Public static void setBusinessUnitToEMEA(Contact thisContact) {\n　List<Contact> contacts = new List<Contact>();\n　contacts.add(thisContact.Business_Unit__c ='EMEA');\n　update contacts;\n}\n",
+        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(ContactthisContact : contacts) {\n　　thisContact.Business_Unit__c = 'EMEA' ;\n　}\n　update contacts;\n}\n",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 36",
     },
     {
@@ -470,12 +470,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 40",
@@ -578,13 +578,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default } | Opportunity record type, and set certain default values based on the record type before inserting the record. i, J Calculator How can the developer find the current user's default record type? ns",
+        "A developer is creating a page that allows users to create multiple opportunities. The developer is asked to verify the current users default opportunity record type and set certain default values based on the record type before inserting the record.\nHow can the developer find the current user's default record type?",
       options: [
-        "A. Query the Profile where the ID equals userInfo.getProfileID() and then use the profile.Opportunity.getDefaultRecordType() | | method. ] |",
-        "B. o Use Opportunity. SObjectType.getDescribe().getRecordTypelnfos() to get a list of record types, and iterate through them until [ J isDefaultRecordTypeMapping() is true. Pencil & Paper |",
-        "C. Use the Schema.userlnfo.Opportunity.getDefaultRecordType() method. < Create the opportunity and check the opportunity.recordType before inserting, which will have the record ID of the current Dal",
+        "A. Query the Profile where the ID equals userInfo.getProfileID() and the use the profile.Opportunity.getDefaultRecordType() method.",
+        "B. Create the opportunity and check the opportunity.recordType, which will have the record ID of the currenct user's default record type, before inserting.",
+        "C. Use Opportunity.SObjectType.getDescribe().getRecordTypeInfos()to get a list of record types and interate through them until isDefaultRecordTypeMapping() is true.",
+        "D. Use the Schema.userInfo.Opportunity.getDefaultRecordType() method.",
       ],
-      answer: "B  user's default record type. ",
+      answer: "C",
       title: "Question 49",
     },
     {
@@ -852,12 +853,12 @@ window.testContent[testName].testList.push({
       content:
         "A developer wants multiple test classes to use the same set of test data. How should the developer create the test data?",
       options: [
-        "A. Reference a test utility class in each test class",
-        "B. Use the seealldata=true annotation in each test class",
-        "C. Create a test setup method for each test class",
+        "A. Use the seealldata=true annotation in each test class",
+        "B. Create a test setup method for each test class",
+        "C. Reference a test utility class in each test class",
         "D. Define a variable for test records in each test classes",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 72",
     },
     {
@@ -959,14 +960,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Container(UC) wants to lower its shipping cost while making the shipping process more efficient.The Distribution Officer advises UC to implement global addresses to allow multiple Accounts to share a default pickup address. The Developer is tasked to create the supporting object and relationship for this business requirement and uses the Setup Menu to create a custom object called "Global Address". Which field should the developer ad to create the most efficient model that supports the business need?',
+        'Universal Container(UC) wants to lower its shipping cost while making the shipping process more efficient. The Distribution Officer advises UC to implement global addresses to allow multiple Accounts to share a default pickup address. The Developer is tasked to create the supporting object and relationship for this business requirement and uses the Setup Menu to create a custom object called "Global Address". Which field should the developer ad to create the most efficient model that supports the business need?',
       options: [
         "A. Add a Lookup field on the Account object to the Global Address object.",
         "B. Add a Lookup field on the Global Address object to the Account object",
-        "C. Add a Master-Detail field on the Global Address object to the Account object.",
-        "D. Add a Master-Detail field on the Account object to the Global Address object",
+        "C. Add a Master-Detail field on the Account object to the Global Address object",
+        "D. Add a Master-Detail field on the Global Address object to the Account object.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 81",
     },
     {
@@ -1031,7 +1032,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
         "A. An unhandled exception is thrown and the code terminates.",
         "B. The first Account returned is assigned to myAccount.",
@@ -1233,19 +1234,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three ways for a developer to execute tests in an org? Choose 3.",
-      options: [
-        "A. Bulk API",
-        "B. Tooling API",
-        "C. Setup Menu",
-        "D. Salesforce DX",
-        "E. Metadata API.",
-      ],
-      answer: "B,C,D",
-      title: "Question 107",
-    },
-    {
-      content:
         "A developer creates a method in an Apex class and needs to ensure that errors are handled properly.What would the developer use? (There are three correct answers.)",
       options: [
         "A. ApexPages.addErrorMessage()",
@@ -1399,8 +1387,13 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.AWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
-      options: ["A. Option ", "B. Option ", "C. Option", "D. Option "],
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+      options: [
+        "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+        "C.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "D.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+      ],
       answer: "C",
       title: "Question 122",
     },
@@ -1454,13 +1447,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=4", "B. X=10", "C. X=9", "D. X=8"],
-      answer: "A",
-      title: "Question 127",
-    },
-    {
-      content:
         "A custom picklist field, Food_Preference__c, exist on a custom object. The picklist contains the following options: 'Vegan','Kosher','No Preference'. The developer must ensure a value is populated every time a record is created or updated. What is the most efficient way to ensure a value is selected every time a record is saved?",
       options: [
         'A. Set "Use the first value in the list as the default value" as True.',
@@ -1477,18 +1463,6 @@ window.testContent[testName].testList.push({
       options: ["A. Bubble", "B. Default", "C. Control", "D. Emit"],
       answer: "A,B",
       title: "Question 129",
-    },
-    {
-      content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
-      options: [
-        "A. Change theAccount attribute to public.",
-        "B. Add a getter method for the actType attribute.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
-      ],
-      answer: "B",
-      title: "Question 130",
     },
     {
       content: "How should a developer prevent a recursive trigger?",
@@ -1578,10 +1552,10 @@ window.testContent[testName].testList.push({
       content:
         "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does.How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
       options: [
-        "A. Create a separate Visualforce Page for each profile.",
-        "B. Use a custom controller that has the with sharing keywords.",
-        "C. Use a new Support Manager permission set.",
-        "D. Create one Visualforce Page for use by both profiles.",
+        "A. Use a new Support Manager permission set.",
+        "B. Create one Visualforce Page for use by both profiles.",
+        "C. Use a custom controller that has the with sharing keywords.",
+        "D. Create a separate Visualforce Page for each profile.",
       ],
       answer: "B",
       title: "Question 138",
@@ -1600,14 +1574,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses the following objects and relationships:* Case: to handle customer support issues* Defect_c: a custom object to represent known issues with the company's software* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue What should be done to share a specific Case-Defect_c record with a user?",
+        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue\nWhat should be done to share a specific Case-Defect_c record with a user?",
       options: [
-        "A. Share the parent Case and Defect_c records.",
-        "B. Share the parent Case record.",
-        "C. Share the parent Defect_c record.",
-        "D. Share the Case_Defect_c record.",
+        "A. Share the parent Case record.",
+        "B. Share the parent Defect_c record.",
+        "C. Share the Case_Defect_c record.",
+        "D. Share the parent Case and Defect_c records.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 140",
     },
     {
@@ -1657,8 +1631,7 @@ window.testContent[testName].testList.push({
         "C. Use a try/catch with a custom exception class.",
         "D. Perform the DML using the Database.upsert() method",
       ],
-      answer:
-        "B  Reference: https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_message.htm ",
+      answer: "B",
       title: "Question 145",
     },
     {
@@ -1790,19 +1763,7 @@ window.testContent[testName].testList.push({
       answer: "D",
       title: "Question 156",
     },
-    {
-      content:
-        "What are three ways for a developer to execute tests in an org? Choose 3.",
-      options: [
-        "A. Bulk API",
-        "B. Tooling API",
-        "C. Setup Menu",
-        "D. Salesforce DX",
-        "E. Metadata API.",
-      ],
-      answer: "B,C,D",
-      title: "Question 157",
-    },
+
     {
       content:
         "A developer created a Visualforce page and a custom controller with methods to handle different buttons and events that can occur on the page.What should the developer do to deploy to production?",
@@ -2084,11 +2045,11 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:trigger leadTrigger on Lead (before update){final ID BUSINESS_RECORDTYPEID = '012500000009Qad';for(Lead thisLead : Trigger.new){if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID){ thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;}}}The developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should thedeveloper do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
-        "B. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
-        "C. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "C. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
         "D. Ensure the deployment is validated by a System Admin user on Production.",
       ],
       answer: "A",
@@ -2291,13 +2252,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 2", "B. 3", "C. 1", "D. 4"],
-      answer: "D",
-      title: "Question 201",
-    },
-    {
-      content:
         "Which two are phases in the Salesforce Application Event propagation framework? Choose2 answers",
       options: ["A. Default", "B. Capture", "C. Bubble"],
       answer: "B,C",
@@ -2317,14 +2271,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which one do you like?What should a developer consider for an environment that has over 10,000 Case records?",
+        "Given the following Anonymous Block:\nList<Case> casesToUpdate = new List<Case>();\nfor(Case thisCase: [Select Id, Status From Case Limit 50000]) {\n thisCase.Status = 'Working';\n　casesToUpdate.add(thisCase);\n}\ntry {\n　Database.udpate(casesToUpdate, false);\n}catch(Exception e) {\n　system.debug(e.getMessage());\n}\nWhat should a developer consider for an environment that has over 10,000 Case records?",
       options: [
-        "A. The try/catch block will handle any DML exceptions thrown.",
-        "B. The transaction will fail due to exceeding the governor limit.",
-        "C. The transaction will succeed and changes will be committed.",
-        "D. The try/catch block will handle exceptions thrown by governor limits.",
+        "A. The transaction will fail due to exceeding the governor limit.",
+        "B. The try/catch block will handle any DML exceptions thrown.",
+        "C. The try/catch block will handle exceptions thrown by governor limits.",
+        "D. The transaction will succeed and changes will be committed.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 204",
     },
     {
@@ -2428,10 +2382,10 @@ window.testContent[testName].testList.push({
       content:
         "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
       options: [
-        "A. @InvocableMethodglobal Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
-        "B. @InvocableMethodglobal static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "C. @InvocableMethodglobal static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "D. @InvocableMethodglobal List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "A. @InvocableMethod global Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
+        "B. @InvocableMethod global static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "C. @InvocableMethod global static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "D. @InvocableMethod global List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
       ],
       answer: "C",
       title: "Question 213",
@@ -2491,19 +2445,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "C",
       title: "Question 218",
-    },
-    {
-      content:
-        "What are three ways for a developer to execute tests in an org? Choose 3.",
-      options: [
-        "A. Bulk API",
-        "B. Setup Menu",
-        "C. Metadata API",
-        "D. Developer Console",
-        "E. ToolingAPI",
-      ],
-      answer: "B,D,E",
-      title: "Question 219",
     },
     {
       content:
@@ -2713,18 +2654,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
-      options: [
-        "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
-      ],
-      answer: "A",
-      title: "Question 239",
-    },
-    {
-      content:
         "Developer needs to automatically populate the Reports To field in a Contact record based on the values of the related Account and Department fields in the Contact record. Which type of trigger would the developer create? Choose 2 answers",
       options: [
         "A. After update",
@@ -2734,18 +2663,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "B,D",
       title: "Question 240",
-    },
-    {
-      content:
-        'Universal Container(UC) wants to lower its shipping cost while making the shipping process more efficient. The Distribution Officer advises UC to implement global addresses to allow multiple Accounts to share a default pickup address. The Developer is tasked to create the supporting object and relationship for this business requirement and uses the Setup Menu to create a custom object called "Global Address". Which field should the developer ad to create the most efficient model that supports the business need?',
-      options: [
-        "A. Add a Lookup field on the Account object to the Global Address object.",
-        "B. Add a Master-Detail field on the Account object to the Global Address object",
-        "C. Add a Lookup field on the Global Address object to the Account object",
-        "D. Add a Master-Detail field on the Global Address object to the Account object.",
-      ],
-      answer: "B",
-      title: "Question 241",
     },
     {
       content:
@@ -2883,20 +2800,13 @@ window.testContent[testName].testList.push({
       content:
         "Given the code below:What should a developer do to correct the code so that there is no chance of hitting a governor limit?",
       options: [
-        "A. Add a LIMIT clause to the first SELECT SOQL statement.",
-        "B. Rework the code and eliminate the for loop.",
-        "C. combine the two SELECT statements into a single SOQL statement.",
-        "D. Add a WHERE clause to the first SELECT SOQL statement.",
+        "A. combine the two SELECT statements into a single SOQL statement.",
+        "B. Add a LIMIT clause to the first SELECT SOQL statement.",
+        "C. Add a WHERE clause to the first SELECT SOQL statement.",
+        "D. Rework the code and eliminate the for loop.",
       ],
-      answer: "A",
-      title: "Question 253",
-    },
-    {
-      content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 3", "B. 4", "C. 2", "D. 1"],
       answer: "B",
-      title: "Question 254",
+      title: "Question 253",
     },
   ],
 });

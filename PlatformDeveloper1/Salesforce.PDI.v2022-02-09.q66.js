@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A recursive transaction is limited by a DML statement creating records for these two objects:1. Accounts2. ContactsThe Account trigger hits a stack depth of 16.Which statement is true regarding the outcome of the transaction?",
+        "A recursive transaction is limited by a DML statement creating records for these two objects:\n　1. Accounts\n　2. Contacts\nThe Account trigger hits a stack depth of 16.\nWhich statement is true regarding the outcome of the transaction?",
       options: [
         "A. The transaction fails only if the Contact trigger stack depth is greater or equalto 16.",
         "B. The transaction succeeds as long as the Contact trigger stack depth is less than 16.",
@@ -454,12 +454,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
-        "A. The first Account returned is assigned tomyAccount.",
-        "B. The variable,myAccount, is automatically cast to the List data type.",
-        "C. An unhandled exception is thrown and the code terminates.",
-        "D. The query fails and an error is written to the debuglog.",
+        "A. An unhandled exception is thrown and the code terminates.",
+        "B. The first Account returned is assigned to myAccount.",
+        "C. The query fails and an error is written to the debug log.",
+        "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
       answer: "C",
       title: "Question 39",
@@ -468,10 +468,10 @@ window.testContent[testName].testList.push({
       content:
         "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
       options: [
-        "A. @InvocableMethodglobal Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
-        "B. @InvocableMethodglobalList<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "C. @InvocableMethodglobal static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "D. @InvocableMethodglobal static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "A. @InvocableMethod global Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
+        "B. @InvocableMethod global static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "C. @InvocableMethod global static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "D. @InvocableMethod global List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
       ],
       answer: "C",
       title: "Question 40",
@@ -582,21 +582,21 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 3", "B. 2", "C. 4", "D. 1"],
-      answer: "C",
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
+      options: ["A. 4", "B. 2", "C. 3", "D. 1"],
+      answer: "A",
       title: "Question 50",
     },
     {
       content:
-        "Given the following trigger implementation:trigger leadTrigger on Lead (before update){final ID BUSINESS_RECORDTYPEID = '012500000009Qad';for(Lead thisLead : Trigger.new){if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID){ thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;}}}The developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should thedeveloper do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
       options: [
-        "A. Ensure the deployment is validated by a System Admin user on Production.",
-        "B. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
-        "C. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
-        "D. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
+        "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "C. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
+        "D. Ensure the deployment is validated by a System Admin user on Production.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 51",
     },
     {
@@ -637,12 +637,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount =[SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. ConverttheAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 55",
@@ -731,14 +731,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
+        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService{\n　public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds) {\n　　List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>();\n　　for(Id thisOppId : opportunityIds) {\n　　　oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; \n 　} \n return oppLineItems;\n　}\n}\nThe above method might be called during a trigger execution via a Lightning component.\nWhich technique should be implemented to avoid reaching the governor limit?",
       options: [
         "A. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
-        "B. Use the System.Limits.getQueries() method to ensure the number of queries is lessthan 100.",
-        "C. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
-        "D. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
+        "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
+        "C. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
+        "D. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 63",
     },
     {

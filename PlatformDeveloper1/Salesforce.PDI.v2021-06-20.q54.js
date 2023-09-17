@@ -77,9 +77,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 2", "B. 3", "C. 1", "D. 4"],
-      answer: "D",
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
+      options: ["A. 4", "B. 2", "C. 3", "D. 1"],
+      answer: "A",
       title: "Question 7",
     },
     {
@@ -248,21 +248,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=8", "B. X=4", "C. X=10", "D. X=9"],
-      answer: "B",
-      title: "Question 22",
-    },
-    {
-      content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
-        "A. The variable, myAccount, is automatically cast to the List data type.",
-        "B. An unhandled exception is thrown and the code terminates.",
-        "C. The first Account returned is assigned to myAccount.",
-        "D. The query fails and an error is written to the debug log.",
+        "A. An unhandled exception is thrown and the code terminates.",
+        "B. The first Account returned is assigned to myAccount.",
+        "C. The query fails and an error is written to the debug log.",
+        "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 23",
     },
     {
@@ -303,12 +296,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 27",
@@ -387,11 +380,11 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:trigger leadTrigger on Lead (before update){final ID BUSINESS_RECORDTYPEID = '012500000009Qad';for(Lead thisLead : Trigger.new){if(thisLead.Company != null && thisLead.RecordTypeId != BUSINESS_RECORDTYPEID){ thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;}}}The developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
-        "B. Ensure BUSINESS_RECORDTYPEID is pushed as part of the deployment components.",
-        "C. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
+        "C. Ensure BUSINESS_RECORDTYPEIDis pushed as part of the deployment components.",
         "D. Ensure the deployment is validated by a System Admin user on Production.",
       ],
       answer: "A",
@@ -399,12 +392,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod:trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
+        "developer created this Apex trigger that calls MyClass.myStaticMethod:\ntrigger myTrigger on Contact(before insert) {\n　MyClass.myStaticMethod(trigger.new, trigger.oldMap); \n}\nThe developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
       options: [
-        "A. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "A. The deployment passes because both classes and the trigger were included in the deployment.",
         "B. The deployment fails because the Apex trigger has no code coverage.",
-        "C. The deployment fails because no assertions were made in the test method.",
-        "D. The deployment passes because both classes and the trigger were included in the deployment.",
+        "C. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "D. The deployment fails because no assertions were made in the test method.",
       ],
       answer: "B",
       title: "Question 35",

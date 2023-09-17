@@ -24,12 +24,12 @@ window.testContent[testName].testList.push({
       content:
         "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
       options: [
-        "A. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
-        "B. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
-        "C. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
-        "D. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
+        "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
+        "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
+        "C. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
+        "D. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 2",
     },
     {
@@ -118,8 +118,8 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 4", "B. 2", "C. 1", "D. 3"],
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
+      options: ["A. 4", "B. 2", "C. 3", "D. 1"],
       answer: "A",
       title: "Question 10",
     },
@@ -253,18 +253,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default } | Opportunity record type, and set certain default values based on the record type before inserting the record. i, J Calculator How can the developer find the current user's default record type? ns",
+        "A developer is creating a page that allows users to create multiple opportunities. The developer is asked to verify the current users default opportunity record type and set certain default values based on the record type before inserting the record.\nHow can the developer find the current user's default record type?",
       options: [
-        "A. Query the Profile where the ID equals userInfo.getProfileID() and then use the profile.Opportunity.getDefaultRecordType() | | method. ] |",
-        "B. o Use Opportunity. SObjectType.getDescribe().getRecordTypelnfos() to get a list of record types, and iterate through them until [ J isDefaultRecordTypeMapping() is true. Pencil & Paper |",
-        "C. Use the Schema.userlnfo.Opportunity.getDefaultRecordType() method. < Create the opportunity and check the opportunity.recordType before inserting, which will have the record ID of the current Dal user's default record type.",
+        "A. Query the Profile where the ID equals userInfo.getProfileID() and the use the profile.Opportunity.getDefaultRecordType() method.",
+        "B. Create the opportunity and check the opportunity.recordType, which will have the record ID of the currenct user's default record type, before inserting.",
+        "C. Use Opportunity.SObjectType.getDescribe().getRecordTypeInfos()to get a list of record types and interate through them until isDefaultRecordTypeMapping() is true.",
+        "D. Use the Schema.userInfo.Opportunity.getDefaultRecordType() method.",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 22",
     },
     {
       content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
+        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService{\n　public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds) {\n　　List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>();\n　　for(Id thisOppId : opportunityIds) {\n　　　oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; \n 　} \n return oppLineItems;\n　}\n}\nThe above method might be called during a trigger execution via a Lightning component.\nWhich technique should be implemented to avoid reaching the governor limit?",
       options: [
         "A. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
         "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
@@ -473,20 +474,19 @@ window.testContent[testName].testList.push({
         "C. Use a try/catch with a custom exception class.",
         "D. Perform the DML using the Database.upsert() method",
       ],
-      answer:
-        "B  Explanation https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_message.htm ",
+      answer: "B",
       title: "Question 41",
     },
     {
       content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod:trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
+        "developer created this Apex trigger that calls MyClass.myStaticMethod:\ntrigger myTrigger on Contact(before insert) {\n　MyClass.myStaticMethod(trigger.new, trigger.oldMap); \n}\nThe developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
       options: [
-        "A. The deployment fails because no assertions were made in the test method.",
-        "B. The deployment passes because the Apex code has required (>75%) code coverage.",
-        "C. The deployment fails because the Apex trigger has no code coverage.",
-        "D. The deployment passes because both classes and the trigger were included in the deployment.",
+        "A. The deployment passes because both classes and the trigger were included in the deployment.",
+        "B. The deployment fails because the Apex trigger has no code coverage.",
+        "C. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "D. The deployment fails because no assertions were made in the test method.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 42",
     },
     {
@@ -666,13 +666,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "B",
       title: "Question 57",
-    },
-    {
-      content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=9", "B. X=10", "C. X=8", "D. X=4"],
-      answer: "D",
-      title: "Question 58",
     },
     {
       content:

@@ -46,13 +46,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default } | Opportunity record type, and set certain default values based on the record type before inserting the record. i, J Calculator How can the developer find the current user's default record type? ns",
+        "A developer is creating a page that allows users to create multiple opportunities. The developer is asked to verify the current users default opportunity record type and set certain default values based on the record type before inserting the record.\nHow can the developer find the current user's default record type?",
       options: [
-        "A. Query the Profile where the ID equals userInfo.getProfileID() and then use the profile.Opportunity.getDefaultRecordType() | | method. ] |",
-        "B. o Use Opportunity. SObjectType.getDescribe().getRecordTypelnfos() to get a list of record types, and iterate through them until [ J isDefaultRecordTypeMapping() is true. Pencil & Paper |",
-        "C. Use the Schema.userlnfo.Opportunity.getDefaultRecordType() method. < Create the opportunity and check the opportunity.recordType before inserting, which will have the record ID of the current Dal",
+        "A. Query the Profile where the ID equals userInfo.getProfileID() and the use the profile.Opportunity.getDefaultRecordType() method.",
+        "B. Create the opportunity and check the opportunity.recordType, which will have the record ID of the currenct user's default record type, before inserting.",
+        "C. Use Opportunity.SObjectType.getDescribe().getRecordTypeInfos()to get a list of record types and interate through them until isDefaultRecordTypeMapping() is true.",
+        "D. Use the Schema.userInfo.Opportunity.getDefaultRecordType() method.",
       ],
-      answer: "B  user's default record type. ",
+      answer: "C",
       title: "Question 4",
     },
     {
@@ -104,21 +105,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }* 087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=9", "B. X=8", "C. X=10", "D. X=4"],
-      answer: "D",
-      title: "Question 9",
-    },
-    {
-      content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
-        "A. Change theAccount attribute to public.",
-        "B. Convert theAccount.Type to a String.",
-        "C. Add with sharing to the custom controller.",
-        "D. Add a getter method for the actType attribute.",
+        "A. Add a getter method for the actType attribute.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 10",
     },
     {
@@ -277,7 +271,7 @@ window.testContent[testName].testList.push({
         "C. Mark the field as Required on the field definition.",
         'D. Set "Use the first value in the list as the default value" as True.',
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 24",
     },
     {
@@ -503,8 +497,8 @@ window.testContent[testName].testList.push({
       content:
         "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
       options: [
-        "A. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
-        "B. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
+        "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
+        "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
         "C. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
         "D. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
       ],
@@ -628,14 +622,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers hires a developer to build a custom search page to help user- find the Accounts they want. Users will be able to search on Name, Description, and a custom comments field.Which consideration should the developer be aware of when deciding between SOQ1 Mid SOSL ?Choose 2 answers",
+        "Universal Containers hires a developer to build a custom search page to help user - find the Accounts they want. Users will be able to search on Name, Description, and a custom comments field. Which consideration should the developer be aware of when deciding between SOQL and SOSL ?\nChoose 2 answers",
       options: [
-        "A. SOSL is able to return more records.",
-        "B. SOSL is faster for tent searches.",
-        "C. SOQL is able to return more records.",
-        "D. SOQL is faster for text searches.",
+        "A. SOQL is able to return more records.",
+        "B. SOQL is faster for text searches.",
+        "C. SOSL is able to return more records.",
+        "D. SOSL is faster for text searches.",
       ],
-      answer: "B,C",
+      answer: "A,D",
       title: "Question 55",
     },
     {
@@ -664,14 +658,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
         "A. An unhandled exception is thrown and the code terminates.",
         "B. The first Account returned is assigned to myAccount.",
-        "C. The variable, myAccount, is automatically cast to the List data type.",
-        "D. The query fails and an error is written to the debug log.",
+        "C. The query fails and an error is written to the debug log.",
+        "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 58",
     },
     {
@@ -695,7 +689,7 @@ window.testContent[testName].testList.push({
         "C. Add a Master-Detail field on the Account object to the Global Address object",
         "D. Add a Master-Detail field on the Global Address object to the Account object.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 60",
     },
     {
@@ -810,7 +804,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A recursive transaction is limited by a DML statement creating records for these two objects:1. Accounts2. ContactsThe Account trigger hits a stack depth of 16.Which statement is true regarding the outcome of the transaction?",
+        "A recursive transaction is limited by a DML statement creating records for these two objects:\n　1. Accounts\n　2. Contacts\nThe Account trigger hits a stack depth of 16.\nWhich statement is true regarding the outcome of the transaction?",
       options: [
         "A. The transaction fails and all the changes are rolled back.",
         "B. The transaction succeeds and all the changes are committed to the database.",

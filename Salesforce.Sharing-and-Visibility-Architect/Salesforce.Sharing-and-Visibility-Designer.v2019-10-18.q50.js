@@ -304,10 +304,10 @@ window.testContent[testName].testList.push({
       content:
         "Universal Containers regularly uploads large amounts of parent and child records into Salesforce to maintain integrations with other systems that update their data in scheduled batches or continuously in real time. Which\n       2 situations may pose a risk of producing locking errors? Choose 2 answers",
       options: [
-        "A. Updates to child records that have the same parent records are being processed simultaneously in separate transaction (Missed)",
+        "A. Updates to child records that have the same parent records are being processed simultaneously in separate transaction",
         "B. Updates of parent and child records are being processed in the same batch",
         "C. Updates of parent and child records are being processed synchronously in the same thread",
-        "D. Updates of parent and their child records are being processed simultaneously in separate threads (Missed)",
+        "D. Updates of parent and their child records are being processed simultaneously in separate threads",
       ],
       answer: "A,D",
       title: "Question 26",

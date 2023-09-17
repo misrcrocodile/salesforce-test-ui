@@ -1213,11 +1213,10 @@ window.testContent[testName].testList.push({
       options: [
         "A. Use the Salesforce Autosign flow.",
         "B. Hire a consulting firm to develop a document signing workflow.",
-        "C. Check the \"Send PDF'' box on the approval process setup.",
+        'C. Check the "Send PDF" box on the approval process setup.',
         "D. Install an app from the AppExchange.",
       ],
-      answer:
-        "D  Read more on Brainly.com - https://brainly.com/question/14310401#readmore ",
+      answer: "D",
       title: "Question 103",
     },
   ],

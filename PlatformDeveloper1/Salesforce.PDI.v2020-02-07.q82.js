@@ -514,7 +514,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which action can a developer take to reduce the execution time of the following code? List<account> allaccounts = [select id from account]; list<account> allcontacts = [select id, accountid from contact]; for (account a :allaccounts){ for (contact c:allcontacts){ if(c.accountid = a.id){ //do work } } }",
+        "Which action can a developer take to reduce the execution time of the following code? \nList allaccounts = [select id from account]; \nlist allcontacts = [select id, accountid from contact]; \nfor (account a :allaccounts){\n　for (contact c:allcontacts){\n　　if(c.accountid = a.id){ //do work } \n 　}\n}",
       options: [
         "A. Add a group by clause to the contact SOQL",
         "B. Use a map <id,contact> for allaccounts",

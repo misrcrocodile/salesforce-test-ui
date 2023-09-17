@@ -112,11 +112,11 @@ window.testContent[testName].testList.push({
         "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
       options: [
         "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
-        "B. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
-        "C. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
-        "D. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
+        "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
+        "C. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
+        "D. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 10",
     },
     {
@@ -484,12 +484,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
+        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService{\n　public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds) {\n　　List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>();\n　　for(Id thisOppId : opportunityIds) {\n　　　oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; \n 　} \n return oppLineItems;\n　}\n}\nThe above method might be called during a trigger execution via a Lightning component.\nWhich technique should be implemented to avoid reaching the governor limit?",
       options: [
-        "A. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
+        "A. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
         "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
         "C. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
-        "D. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
+        "D. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
       ],
       answer: "C",
       title: "Question 43",
@@ -789,14 +789,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses the following objects and relationships:* Case: to handle customer support issues* Defect_c: a custom object to represent known issues with the company's software* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue What should be done to share a specific Case-Defect_c record with a user?",
+        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue\nWhat should be done to share a specific Case-Defect_c record with a user?",
       options: [
-        "A. Share the Case_Defect_c record.",
-        "B. Share the parent Case and Defect_c records.",
-        "C. Share the parent Case record.",
-        "D. Share the parent Defect_c record.",
+        "A. Share the parent Case record.",
+        "B. Share the parent Defect_c record.",
+        "C. Share the Case_Defect_c record.",
+        "D. Share the parent Case and Defect_c records.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 70",
     },
     {
@@ -813,14 +813,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following Anonymous Block:Which one do you like?What should a developer consider for an environment that has over 10,000 Case records?",
+        "Given the following Anonymous Block:\nList<Case> casesToUpdate = new List<Case>();\nfor(Case thisCase: [Select Id, Status From Case Limit 50000]) {\n thisCase.Status = 'Working';\n　casesToUpdate.add(thisCase);\n}\ntry {\n　Database.udpate(casesToUpdate, false);\n}catch(Exception e) {\n　system.debug(e.getMessage());\n}\nWhat should a developer consider for an environment that has over 10,000 Case records?",
       options: [
         "A. The transaction will fail due to exceeding the governor limit.",
-        "B. The try/catch block will handle exceptions thrown by governor limits.",
-        "C. The transaction will succeed and changes will be committed.",
-        "D. The try/catch block will handle any DML exceptions thrown.",
+        "B. The try/catch block will handle any DML exceptions thrown.",
+        "C. The try/catch block will handle exceptions thrown by governor limits.",
+        "D. The transaction will succeed and changes will be committed.",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 72",
     },
     {
@@ -837,8 +837,13 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.Which automation tool meets these requirements?",
-      options: ["A. Flow Builder"],
+        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.\nWhich automation tool meets these requirements?",
+      options: [
+        "A. Flow Builder",
+        "B. Lightning Component ",
+        "C. Process Builder ",
+        "D. Approval Process",
+      ],
       answer: "A",
       title: "Question 74",
     },

@@ -49,7 +49,7 @@ window.testContent[testName].testList.push({
         "C. Mark the field as Required on the object's page layout.",
         "D. Set a validation rule to enforce a value is selected.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 4",
     },
     {
@@ -140,9 +140,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 3", "B. 2", "C. 4", "D. 1"],
-      answer: "C",
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
+      options: ["A. 4", "B. 2", "C. 3", "D. 1"],
+      answer: "A",
       title: "Question 12",
     },
     {
@@ -309,14 +309,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The following Apex method is part of the ContactService class that is called from a trigger: public static void setBusinessUnitToEMEA(Contact thisContact){ thisContact.Business_Unit__c = "EMEA" ; update thisContact; } How should the developer modify the code to ensure best practice are met?',
+        'The following Apex method is part of the ContactService class that is called from a trigger: \npublic static void setBusinessUnitToEMEA(Contact thisContact){\n　thisContact.Business_Unit__c = "EMEA" ;\n　update thisContact;\n}\nHow should the developer modify the code to ensure best practice are met?',
       options: [
-        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts){thisContact.Business_Unit__c = 'EMEA' ;update contacts[0];}}",
-        "B. Public static void setBusinessUnitToEMEA(Contact thisContact){List<Contact> contacts = new List<Contact>();contacts.add(thisContact.Business_Unit__c = 'EMEA');update contacts;}",
-        "C. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts) {thisContact.Business_Unit__c = 'EMEA' ;}update contacts;}",
-        "D. Public void setBusinessUnitToEMEA(List<Contact> contatcs){contacts[0].Business_Unit__c = 'EMEA' ;update contacts[0];}",
+        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(Contact thisContact : contacts) {\n 　thisContact.Business_Unit__c = 'EMEA' ;\n　　update contacts[0];\n　}\n}\n",
+        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs) {\n　contacts[0].Business_Unit__c = 'EMEA' ;\n　update contacts[0];\n}\n",
+        "C. Public static void setBusinessUnitToEMEA(Contact thisContact) {\n　List<Contact> contacts = new List<Contact>();\n　contacts.add(thisContact.Business_Unit__c ='EMEA');\n　update contacts;\n}\n",
+        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(ContactthisContact : contacts) {\n　　thisContact.Business_Unit__c = 'EMEA' ;\n　}\n　update contacts;\n}\n",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 27",
     },
     {
@@ -484,12 +484,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 42",
@@ -517,13 +517,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "B",
       title: "Question 44",
-    },
-    {
-      content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=9", "B. X=4", "C. X=10", "D. X=8"],
-      answer: "B",
-      title: "Question 45",
     },
     {
       content:
@@ -617,9 +610,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.Which automation tool meets these requirements?",
-      options: [],
-      answer: "  Flow Builder ",
+        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.\nWhich automation tool meets these requirements?",
+      options: [
+        "A. Flow Builder",
+        "B. Lightning Component ",
+        "C. Process Builder ",
+        "D. Approval Process",
+      ],
+      answer: "A",
       title: "Question 54",
     },
   ],

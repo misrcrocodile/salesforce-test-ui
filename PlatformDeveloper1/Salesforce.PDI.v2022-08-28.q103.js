@@ -644,19 +644,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
-        "A. The variable, myAccount, is automatically cast to the List data type.",
-        "B. An unhandled exception is thrown and the code terminates.",
-        "C. The first Account returned is assigned to myAccount.",
-        "D. The query fails and an error is written to the debug log.",
+        "A. An unhandled exception is thrown and the code terminates.",
+        "B. The first Account returned is assigned to myAccount.",
+        "C. The query fails and an error is written to the debug log.",
+        "D. The variable, myAccount, is automatically cast to the List data type.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 55",
     },
     {
       content:
-        "A developer is migrating a Visualforce page into a Lightning web component.The Visualforce page shows information about a single record. The developer decides to use Lightning Data Service to access record data.Which security consideration should the developer be aware of?",
+        "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decides to use Lightning DataService to access record data. Which security consideration should the developer be aware of?",
       options: [
         "A. Lightning Data Service handles sharing rules and field-level security.",
         "B. The with sharing keyword must be used to enforce sharing rules.",
@@ -828,11 +828,11 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect is a customer issue.\nWhat should be done to share a specific Case-Defect_c record with a user?",
+        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue\nWhat should be done to share a specific Case-Defect_c record with a user?",
       options: [
-        "A. Share the Case_Defect_c record.",
-        "B. Share the parent Case record.",
-        "C. Share the parent Defect_c record.",
+        "A. Share the parent Case record.",
+        "B. Share the parent Defect_c record.",
+        "C. Share the Case_Defect_c record.",
         "D. Share the parent Case and Defect_c records.",
       ],
       answer: "D",

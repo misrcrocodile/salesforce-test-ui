@@ -243,7 +243,7 @@ window.testContent[testName].testList.push({
         "A. Create an owner-based sharing rule on the Custom Team object that will share the Loan record to the owner of the Custom Team record",
         "B. Create a criteria-based sharing rule on the Loan object that will share the Loan record with the appropriate user in the Custom team object",
         "C. Create Apex sharing Reasons on the Loan object to identify the reason the Loan record was shared",
-        "D. Create a custom trigger on The Custom Team object that inserts or updates records in the Loan__Share object (Missed)",
+        "D. Create a custom trigger on The Custom Team object that inserts or updates records in the Loan__Share object",
       ],
       answer: "C,D",
       title: "Question 20",
@@ -1220,9 +1220,9 @@ window.testContent[testName].testList.push({
       content:
         'Universal Containers has implemented a strict software architecture for their custom Apex code. One of the requirements is that all SOQL queries are contained within reusable classes. Depending on the context of the Apex transaction, the queries should be able to run either "With Sharing" or "Without Sharing". Which two ways allow the Architect to meet these requirements? Choose 2 answers',
       options: [
-        'A. Create a reusable SOQLQueries class; do not specify "With" or "Without Sharing" on the SOQLQueries class (Missed)',
+        'A. Create a reusable SOQLQueries class; do not specify "With" or "Without Sharing" on the SOQLQueries class',
         'B. Create a reusable SOQLQueries class; specify "With Sharing" on the methods that require user context and "Without Sharing" on the methods requiring system context',
-        'C. Create a reusable SOQLQueries class; do not specify "With" or "Without Sharing" on the SOQLQueries class and use the runAs () method to dynamically set the context (Missed)',
+        'C. Create a reusable SOQLQueries class; do not specify "With" or "Without Sharing" on the SOQLQueries class and use the runAs () method to dynamically set the context',
         'D. Create a SystemSOQLQueries class and a UserSOQLQueries class; set the "With Sharing" keyword on the UserSOQLQueries class and "Without Sharing" on the SystemSOQLQueries class',
       ],
       answer: "A,C",

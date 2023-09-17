@@ -104,9 +104,9 @@ window.testContent[testName].testList.push({
         'A Licensed_Professional__c custom object exist in the system with two Master-Detail fields for the following objects: Certification__c and Contact. Users with the "Certification Representative" role can access the Certification records they own and view the related Licensed Professionals records, however users with the"Salesforce representative" role report they cannot view any Licensed professional records even though they own the associated Contact record. What are two likely causes of users in the "Sales Representative" role not being able to access the Licensed Professional records? Choose 2 answers',
       options: [
         "A. The organization recently modified the Sales representative role to restrict Read/Write access to Licensed_Professional__c",
-        "B. The organization has a private sharing model for Certification__c, and Certification__c is the primary relationship in the Licensed_Professional__c object. (Missed)",
+        "B. The organization has a private sharing model for Certification__c, and Certification__c is the primary relationship in the Licensed_Professional__c object.",
         "C. The organization has a private sharing model for Certification__c, and Contact is the primary relationship in the Licensed_Professional__c object",
-        "D. The organization's sharing rules for Licensed_Professional__c have not finished their recalculation process. (Missed)",
+        "D. The organization's sharing rules for Licensed_Professional__c have not finished their recalculation process.",
       ],
       answer: "A,B",
       title: "Question 9",
@@ -148,7 +148,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer declared a class as follow.public class wysiwyg { // Properties and methods including DML }Which invocation of a class method will obey the organization-wide defaults and sharing settings for the running user in the Salesforce Organization?",
+        "A developer declared a class as follow.\npublic class wysiwyg { // Properties and methods including DML }\nWhich invocation of a class method will obey the organization-wide defaults and sharing settings for the running user in the Salesforce Organization?",
       options: [
         "A. A developer using the Developer Console that invokes a method in this class from the execute anonymous window",
         "B. A Visualforce page with an Apex controller that invokes a method in this class",
@@ -173,14 +173,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple sObjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URLWhich statement is unnecessary inside the unit test for the custom controller?",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.\nWhich three statements are useful inside the unit test to effectively test the custom controller?\nChoose 3 answers",
       options: [
         "A. String nextPage = controller.save().getUrl();",
         "B. ApexPages.currentPage().getParameters().put('input', 'TestValue')",
         "C. Test.setCurrentPage(pageRef),",
         "D. Public ExtendedController (ApexPages.StandardController cntrl) { }",
       ],
-      answer: "A,D",
+      answer: "A,B,C",
       title: "Question 15",
     },
     {
@@ -222,7 +222,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which action can a developer take to reduce the execution time of the following code? List<account> allaccounts = [select id from account]; list<account> allcontacts = [select id, accountid from contact]; for (account a :allaccounts){ for (contact c:allcontacts){ if(c.accountid = a.id){ //do work } } }",
+        "Which action can a developer take to reduce the execution time of the following code? \nList allaccounts = [select id from account]; \nlist allcontacts = [select id, accountid from contact]; \nfor (account a :allaccounts){\n　for (contact c:allcontacts){\n　　if(c.accountid = a.id){ //do work } \n 　}\n}",
       options: [
         "A. Create an apex helper class for the SOQL",
         "B. Add a group by clause to the contact SOQL",
@@ -270,7 +270,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
         "B. Add with sharing to the custom controller.",
@@ -302,7 +302,7 @@ window.testContent[testName].testList.push({
         "C. Set a validation rule to enforce a value is selected.",
         "D. Mark the field as Required on the field definition.",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 25",
     },
     {
@@ -321,8 +321,8 @@ window.testContent[testName].testList.push({
       content:
         "Which two are best practices when it comes to component and application event handling? Choose 2 answers",
       options: [
-        "A. Reuse the event logic in a component bundle, by putting the logic in the helper. (Missed)",
-        "B. Handle low-level events in the event handler and re-fire them as higher-level events. (Missed)",
+        "A. Reuse the event logic in a component bundle, by putting the logic in the helper.",
+        "B. Handle low-level events in the event handler and re-fire them as higher-level events.",
         "C. Try to use application events as opposed to component events.",
         "D. Use component events to communicate actions that should be handled at the application level.",
       ],
@@ -331,14 +331,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers hires a developer to build a custom search page to help user- find the Accounts they want. Users will be able to search on Name, Description, and a custom comments field.Which consideration should the developer be aware of when deciding between SOQ1 Mid SOSL ?Choose 2 answers",
+        "Universal Containers hires a developer to build a custom search page to help user - find the Accounts they want. Users will be able to search on Name, Description, and a custom comments field. Which consideration should the developer be aware of when deciding between SOQL and SOSL ?\nChoose 2 answers",
       options: [
-        "A. SOSL is faster for tent searches.",
+        "A. SOQL is able to return more records.",
         "B. SOQL is faster for text searches.",
-        "C. SOQL is able to return more records.",
-        "D. SOSL is able to return more records.",
+        "C. SOSL is able to return more records.",
+        "D. SOSL is faster for text searches.",
       ],
-      answer: "A,C",
+      answer: "A,D",
       title: "Question 28",
     },
     {
@@ -400,9 +400,9 @@ window.testContent[testName].testList.push({
       content:
         "Which two operations can be performed using a formula field? Choose 2 answers",
       options: [
-        "A. Calculating a score on a Lead based on the information from another field (Missed)",
+        "A. Calculating a score on a Lead based on the information from another field",
         "B. Triggering a Process Builder",
-        "C. Displaying an Image based on the Opportunity Amount (Missed)",
+        "C. Displaying an Image based on the Opportunity Amount",
         "D. Displaying the last four digits of an encrypted Social Security number",
       ],
       answer: "A,C",
@@ -414,10 +414,10 @@ window.testContent[testName].testList.push({
       options: [
         "A. SELECT lead(id, name), account(id, name), contact(id,name) FROM Lead, Account, Contact WHERE Name = 'Universal Containers'",
         "B. FIND 'Universal Containers' IN CompanyName Fields RETURNING lead(id,name), account (id,name), contact(id,name)",
-        "C. IND 'Universal Containers' IN Name Fields RETURNING lead(id, name), account(id,name), contact(id,name)",
+        "C. FIND 'Universal Containers' IN Name Fields RETURNING lead(id, name), account(id,name), contact(id,name)",
         "D. SELECT Lead.id, Lead. Name, Account.id, Account.Name, Contact.Id, Contact. Name FROM Lead, Account, Contact WHERE CompanyName = 'Universal Containers'",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 35",
     },
     {
@@ -430,13 +430,12 @@ window.testContent[testName].testList.push({
         "D. Salesforce DX",
         "E. Metadata API.",
       ],
-      answer:
-        "B,C,DExplanation https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htmhttps://developer ",
+      answer: "B,C,D",
       title: "Question 36",
     },
     {
       content:
-        "A recursive transaction is limited by a DML statement creating records for these two objects:1. Accounts2. ContactsThe Account trigger hits a stack depth of 16.Which statement is true regarding the outcome of the transaction?",
+        "A recursive transaction is limited by a DML statement creating records for these two objects:\n　1. Accounts\n　2. Contacts\nThe Account trigger hits a stack depth of 16.\nWhich statement is true regarding the outcome of the transaction?",
       options: [
         "A. The transaction fails and all the changes are rolled back.",
         "B. The transaction fails only if the Contact trigger stack depth is greater or equal to 16.",
@@ -469,18 +468,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "A,C",
       title: "Question 39",
-    },
-    {
-      content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
-      options: [
-        "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
-        "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
-        "C.\npublic abstract class ShippingCalculator {\n　public void calculate() {/*implementation*/}\n}\n",
-        "D.\npublic abstract class ShippingCalculator {\n　public override calculate() {/*implementation*/}\n}\n",
-      ],
-      answer: "B",
-      title: "Question 40",
     },
     {
       content:
@@ -534,7 +521,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:trigger leadTrigger on Lead (before update){final ID BUSINESS_RECORDTYPEID = '012500000009Qad';for(Lead thisLead : Trigger.new){if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID){ thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;}}}The developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should thedeveloper do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -546,7 +533,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates an Apex Trigger with the following code block:List<Account> customers = new List<Account>();For (Order__c o: trigger.new){Account a = [SELECT Id, Is_Customer__c FROM Account WHERE Id:o.Customer__c];a.Is_Customer__c = true;customers.add(a);}Database.update(customers, false);The developer tests the code using Apex Data Loader and successfully loads 10 Orders. Then, the developer loads 150 Orders.How many Orders are successfully loaded when the developer attempts to load the 150 Orders?",
+        "A developer creates an Apex Trigger with the following code block:\nList<Account> customers = new List<Account>();\nFor (Order__c o: trigger.new){\n　Account a = [SELECT Id, Is_Customer__c FROM Account WHERE Id:o.Customer__c];\n　a.Is_Customer__c = true;\n　customers.add(a);\n}\nDatabase.update(customers, false);\nThe developer tests the code using Apex Data Loader and successfully loads 10 Orders. Then, the developer loads 150 Orders.How many Orders are successfully loaded when the developer attempts to load the 150 Orders?",
       options: ["A. 1", "B. 0", "C. 150", "D. 100"],
       answer: "B",
       title: "Question 48",
@@ -672,7 +659,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system.Whithin the class, the developer identifies the following method as a security threat: List<Contact> performSearch(String lastName){ return Database.query('Select Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+'%); } What are two ways the developer can update the method to prevent a SOQL injection attack? Choose 2 answers",
+        "A developer is tasked to perform a security review of the ContactSearch Apex class that exists in the system.Whithin the class, the developer identifies the following method as a security threat: \nList<Contact> performSearch(String lastName){\n　 return Database.query('Select Id, FirstName, LastName FROM Contact WHERE LastName Like %'+lastName+'%);\n}\n What are two ways the developer can update the method to prevent a SOQL injection attack?\nChoose 2 answers",
       options: [
         "A. Use a regular expression on the parameter to remove special characters.",
         "B. Use variable binding and replace the dynamic query with a static SOQL.",
@@ -739,18 +726,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default } | Opportunity record type, and set certain default values based on the record type before inserting the record. i, J Calculator How can the developer find the current user's default record type? ns",
+        "A developer is creating a page that allows users to create multiple opportunities. The developer is asked to verify the current users default opportunity record type and set certain default values based on the record type before inserting the record.\nHow can the developer find the current user's default record type?",
       options: [
-        "A. Query the Profile where the ID equals userInfo.getProfileID() and then use the profile.Opportunity.getDefaultRecordType() | | method. ] |",
-        "B. Use the Schema.userlnfo.Opportunity.getDefaultRecordType() method. < Create the opportunity and check the opportunity.recordType before inserting, which will have the record ID of the current Dal user's default record type.",
-        "C. Use Opportunity. SObjectType.getDescribe().getRecordTypelnfos() to get a list of record types, and iterate through them until [ J isDefaultRecordTypeMapping() is true. Pencil & Paper |",
+        "A. Query the Profile where the ID equals userInfo.getProfileID() and the use the profile.Opportunity.getDefaultRecordType() method.",
+        "B. Create the opportunity and check the opportunity.recordType, which will have the record ID of the currenct user's default record type, before inserting.",
+        "C. Use Opportunity.SObjectType.getDescribe().getRecordTypeInfos()to get a list of record types and interate through them until isDefaultRecordTypeMapping() is true.",
+        "D. Use the Schema.userInfo.Opportunity.getDefaultRecordType() method.",
       ],
       answer: "C",
       title: "Question 65",
     },
     {
       content:
-        "A developer creates a custom controller and custom Visualforce page by using the following code block:public class myController {public String myString;public String getMyString() {return 'getmyString';}public String getStringMethod1() {return myString;}public String getStringMethod2() {if (myString == null)myString'Method2';return myString;}}{!myString}, {!StringMethod1}, {!StringMethod2}, {!myString}What does the user see when accessing the custom page?",
+        "A developer creates a custom controller and custom Visualforce page by using the following code block:\npublic class myController {\n public String myString;\n　public String getMyString() {\n　　return 'getmyString';\n }\n\n　public String getStringMethod1() {\n 　return myString;\n　}\n\n　public String getStringMethod2() {\n　　if (myString == null) myString'Method2';\n 　return myString;\n　}\n}\n\n<apex:page controller=\"MyController\">\n　{!myString}, {!StringMethod1}, {!StringMethod2}, {!myString}\n</apex:page>\nWhat does the user see when accessing the custom page?",
       options: [
         "A. , , Method2 , getMyString",
         "B. , , Method2,",
@@ -769,7 +757,7 @@ window.testContent[testName].testList.push({
         "C. Add a WHERE clause to the first SELECT SOQL statement.",
         "D. Rework the code and eliminate the for loop.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 67",
     },
     {
@@ -846,7 +834,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod:trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
+        "developer created this Apex trigger that calls MyClass.myStaticMethod:\ntrigger myTrigger on Contact(before insert) {\n　MyClass.myStaticMethod(trigger.new, trigger.oldMap); \n}\nThe developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
       options: [
         "A. The deployment passes because both classes and the trigger were included in the deployment.",
         "B. The deployment fails because the Apex trigger has no code coverage.",
@@ -858,8 +846,13 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for aProduct__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.AWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Iscurrently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
-      options: ["A. Option ", "B. Option ", "C. Option", "D. Option "],
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+      options: [
+        "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+        "C.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "D.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+      ],
       answer: "C",
       title: "Question 75",
     },
@@ -901,13 +894,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building custom search functionality that uses SOSL to search account and contact records that match search terms provided by the end user. The feature is exposed through a Lightning web component, and the end user is able to providea list of terms to search.Consider the following code snippet:What is the maximum number of search terms the end user can provide to successfully execute the search without exceeding a governor limit?",
-      options: ["A. 2,000", "B. 20", "C. 200", "D. 150"],
-      answer: "D",
-      title: "Question 79",
-    },
-    {
-      content:
         "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does.How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
       options: [
         "A. Use a new Support Manager permission set.",
@@ -915,7 +901,7 @@ window.testContent[testName].testList.push({
         "C. Use a custom controller that has the with sharing keywords.",
         "D. Create a separate Visualforce Page for each profile.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 80",
     },
     {
@@ -932,7 +918,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Why would a developer use Test. startTest( ) and Test.stopTest( )?",
+        "Why would a developer use Test.startTest( ) and Test.stopTest( )?",
       options: [
         "A. To create an additional set of governor limits during the execution of a single test class.",
         "B. To indicate test code so that it does not Impact Apex line count governor limits.",
@@ -981,7 +967,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses the following objects and relationships:* Case: to handle customer support issues* Defect_c: a custom object to represent known issues with the company's software* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue What should be done to share a specific Case-Defect_c record with a user?",
+        "A software company uses the following objects and relationships:\n　* Case: to handle customer support issues\n　* Defect_c: a custom object to represent known issues with the company's software\n　* case_Defect__c: a junction object between Case and Defector to represent that a defect Is a customer issue\nWhat should be done to share a specific Case-Defect_c record with a user?",
       options: [
         "A. Share the parent Case record.",
         "B. Share the parent Defect_c record.",
@@ -1041,19 +1027,19 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The following Apex method is part of the ContactService class that is called from a trigger: public static void setBusinessUnitToEMEA(Contact thisContact){ thisContact.Business_Unit__c = "EMEA" ; update thisContact; } How should the developer modify the code to ensure best practice are met?',
+        'The following Apex method is part of the ContactService class that is called from a trigger: \npublic static void setBusinessUnitToEMEA(Contact thisContact){\n　thisContact.Business_Unit__c = "EMEA" ;\n　update thisContact;\n}\nHow should the developer modify the code to ensure best practice are met?',
       options: [
-        "A. Publicstatic void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts){thisContact.Business_Unit__c = 'EMEA' ;update contacts[0];}}",
-        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs){contacts[0].Business_Unit__c = 'EMEA' ;update contacts[0];}",
-        "C. Public static void setBusinessUnitToEMEA(Contact thisContact){List<Contact> contacts = new List<Contact>();contacts.add(thisContact.Business_Unit__c ='EMEA');update contacts;}",
-        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(ContactthisContact : contacts) {thisContact.Business_Unit__c = 'EMEA' ;}update contacts;}",
+        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(Contact thisContact : contacts) {\n 　thisContact.Business_Unit__c = 'EMEA' ;\n　　update contacts[0];\n　}\n}\n",
+        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs) {\n　contacts[0].Business_Unit__c = 'EMEA' ;\n　update contacts[0];\n}\n",
+        "C. Public static void setBusinessUnitToEMEA(Contact thisContact) {\n　List<Contact> contacts = new List<Contact>();\n　contacts.add(thisContact.Business_Unit__c ='EMEA');\n　update contacts;\n}\n",
+        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(ContactthisContact : contacts) {\n　　thisContact.Business_Unit__c = 'EMEA' ;\n　}\n　update contacts;\n}\n",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 91",
     },
     {
       content:
-        "Given the following Apex statement:Account myAccount = [SELECT Id, Name FROM Account];What occurs when more than one Account is returned by the SOQL query?",
+        "Given the following Apex statement:\n　Account myAccount = [SELECT Id, Name FROM Account];\nWhat occurs when more than one Account is returned by the SOQL query?",
       options: [
         "A. An unhandled exception is thrown and the code terminates.",
         "B. The first Account returned is assigned to myAccount.",
@@ -1137,7 +1123,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
+        "A developer considers the following snippet of code:\nBoolean isOK;\nInteger x;\nString theString = 'Hello';\nif (isOK == false && theString == 'Hello') {\n x = 1;\n} else if (isOK == true && theString =='Hello') {\n　x = 2;\n} else if (isOK != null && theString == 'Hello') {\n　x = 3;\n} else {\n　x = 4;\n}\nBased on this code, what is the value of x?",
       options: ["A. 4", "B. 2", "C. 3", "D. 1"],
       answer: "A",
       title: "Question 100",
@@ -1146,7 +1132,7 @@ window.testContent[testName].testList.push({
       content:
         "The account object has a custom percent field, rating, defined with a length of 2 with 0 decimal places. An account record has the value of 50% in its rating field and is processed in the apex code below after being retrieved from the database with SOQL public void processaccount(){ decimal acctscore = acc.rating__c *100; } what is the value of acctscore after this code executes?",
       options: ["A. 500", "B. 5", "C. 50", "D. 5000"],
-      answer: "A",
+      answer: "D",
       title: "Question 101",
     },
     {
@@ -1174,19 +1160,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three ways for a developer to execute tests in an org? Choose 3.",
-      options: [
-        "A. Metadata API.https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_testing.htm https://developer.salesforce.com/docs/atlas.en-us.api_tooling.meta/api_tooling/tooling_api_objects_apextestsuite.htm",
-        "B. Setup Menu",
-        "C. Salesforce DX",
-        "D. Bulk API",
-        "E. Tooling API",
-      ],
-      answer: "B,C,E",
-      title: "Question 104",
-    },
-    {
-      content:
         "What are two considerations for custom Apex Exception classes? Choose 2 answers.",
       options: [
         "A. Constructor for custom Exceptions can only accept string values as arguments.",
@@ -1206,7 +1179,7 @@ window.testContent[testName].testList.push({
         "C. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
         "D. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 106",
     },
     {
@@ -1244,7 +1217,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer runs the following anonymous code block in a Salesforce org with 100 accounts List acc= {select id from account limit 10}; delete acc; database.emptyrecyclebin(acc); system.debug(limits.getlimitqueries()+','+Limits.getlimitDMLStatements()); What is the debug output?",
+        "A developer runs the following anonymous code block in a Salesforce org with 100 accounts \nList acc= [select id from account limit 10];\ndelete acc;\ndatabase.emptyrecyclebin(acc);\nsystem.debug(limits.getlimitqueries()+','+Limits.getlimitDMLStatements()); \nWhat is the debug output?",
       options: ["A. 10, 2", "B. 150, 100", "C. 100, 150", "D. 1, 2"],
       answer: "C",
       title: "Question 110",
@@ -1334,21 +1307,15 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the code below:What should a developer do to correct the code so that there is no chance of hitting a governor limit?",
-      options: [
-        "A. Rework the code and eliminate the for loop.",
-        "B. combine the two SELECT statements into a single SOQL statement.",
-        "C. Add a WHERE clause to the first SELECT SOQL statement.",
-        "D. Add a LIMIT clause to the first SELECT SOQL statement.",
-      ],
-      answer: "D",
-      title: "Question 118",
-    },
-    {
-      content:
         "Which three resources in an Aura Component can contain Javascript functions? Choose 3 answers",
-      options: ["A. Renderer", "B. Controller", "C. Helper"],
-      answer: "A,B,C",
+      options: [
+        "A. Design",
+        "B. Controller",
+        "C. Helper",
+        "D. Style",
+        "E. Renderer",
+      ],
+      answer: "B,C,E",
       title: "Question 119",
     },
     {
@@ -1362,30 +1329,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "A,C",
       title: "Question 120",
-    },
-    {
-      content:
-        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
-      options: [
-        "A. Implement the line amount as a numeric formula field and the order amount as a roll-up summary field.",
-        "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
-        "C. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
-        "D. Implement the Line amount as a currency field and the order amount as a SUM formula field.",
-      ],
-      answer: "A",
-      title: "Question 121",
-    },
-    {
-      content:
-        "A custom picklist field, Food_Preference__c, exist on a custom object. The picklist contains the following options: 'Vegan','Kosher','No Preference'. The developer must ensure a value is populated every time a record is created or updated. What is the most efficient way to ensure a value is selected every time a record is saved?",
-      options: [
-        "A. Set a validation rule to enforce a value is selected.",
-        'B. Set "Use the first value in the list as the default value" as True.',
-        "C. Mark the field as Required on the field definition.",
-        "D. Mark the field as Required on the object's page layout.",
-      ],
-      answer: "C",
-      title: "Question 122",
     },
     {
       content:
@@ -1481,7 +1424,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What is the result of the following code block ?Integer x = 1;Integer Y = 0;While(x < 10){Y++;}",
+        "What is the result of the following code block ?\nInteger x = 1;\nInteger Y = 0;\nWhile(x < 10){Y++;}",
       options: ["A. An error occurs", "B. Y = 10", "C. Y = 9", "D. X = 0"],
       answer: "A",
       title: "Question 131",
@@ -1553,12 +1496,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A lead developer creates an Apex interface called "Laptop". Consider the following code snippet:How can a developer use the Laptop Interface within the Silvertaptop class?',
+        'A lead developer creates an Apex interface called "Laptop". Consider the following code snippet:\npublic class SilverLaptop {\n　// code implementation\n}\nHow can a developer use the Laptop Interface within the Silvertaptop class?',
       options: [
-        "A. public calss SilverLaptop extends Laptop",
+        "A. public class SilverLaptop extends Laptop",
         "B. public class Silverlaptop implements Laptop",
-        "C. @Interface (class=''Laptop'')public class SilverLaptop",
-        "D. @Extends(class=Laptop'')public class SilverLaptop",
+        'C. @Interface (class="Laptop")public class SilverLaptop',
+        'D. @Extends(class="Laptop")public class SilverLaptop',
       ],
       answer: "A",
       title: "Question 138",
@@ -1601,18 +1544,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom Visualforce controller calls the ApexPages,addMessage () method, but no messages are rendering on the page.Which component should be added to the Visualforce page to display the message?",
-      options: [
-        "A. <Apex: facet name='' message''/>",
-        "B. <apex: pageMessages />",
-        "C. <Apex: message for='' info''/>",
-        "D. <apex: pageMessage severity=\"info''/>",
-      ],
-      answer: "D",
-      title: "Question 142",
-    },
-    {
-      content:
         "A developer wants multiple test classes to use the same set of test data. How should the developer create the test data?",
       options: [
         "A. Use the seealldata=true annotation in each test class",
@@ -1620,7 +1551,7 @@ window.testContent[testName].testList.push({
         "C. Reference a test utility class in each test class",
         "D. Define a variable for test records in each test classes",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 143",
     },
     {
@@ -1637,14 +1568,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determinea discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
+        "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
       options: [
-        "A. @InvocableMethodglobal RecommendationgetLevel (ContactWrapper input){ /*implementation*/ }",
-        "B. @InvocableMethodglobalstatic List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "C. @InvocableMethodglobal static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "D. @InvocableMethodglobal List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "A. @InvocableMethod global Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
+        "B. @InvocableMethod global static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "C. @InvocableMethod global static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "D. @InvocableMethod global List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 146",
     },
     {
@@ -1698,12 +1629,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
+        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService{\n　public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds) {\n　　List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>();\n　　for(Id thisOppId : opportunityIds) {\n　　　oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; \n 　} \n return oppLineItems;\n　}\n}\nThe above method might be called during a trigger execution via a Lightning component.\nWhich technique should be implemented to avoid reaching the governor limit?",
       options: [
-        "A. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
-        "B. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
-        "C. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
-        "D. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
+        "A. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
+        "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
+        "C. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
+        "D. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
       ],
       answer: "C",
       title: "Question 151",
@@ -1982,24 +1913,11 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three ways for a developer to execute tests in an org? Choose 3.",
-      options: [
-        "A. Bulk API",
-        "B. Tooling API",
-        "C. Setup Menu",
-        "D. Salesforce DX",
-        "E. Metadata API.",
-      ],
-      answer: "B,C,D",
-      title: "Question 175",
-    },
-    {
-      content:
         "When using SalesforceDX, what does a developer need to enable to create and manage scratch orgs?",
       options: [
         "A. Production",
         "B. Environment Hub",
-        "C. Sandbox https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_scratch_orgs.htm",
+        "C. Sandbox",
         "D. Dev Hub",
       ],
       answer: "D",
@@ -2019,9 +1937,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.Which automation tool meets these requirements?",
-      options: [],
-      answer: "Flow Builder ",
+        "A developer needs to implement the functionality for a service agent to gather multiple pieces of information from a customer in order to send a replacement credit card.\nWhich automation tool meets these requirements?",
+      options: [
+        "A. Flow Builder",
+        "B. Lightning Component ",
+        "C. Process Builder ",
+        "D. Approval Process",
+      ],
+      answer: "A",
       title: "Question 178",
     },
     {
@@ -2035,12 +1958,12 @@ window.testContent[testName].testList.push({
       content:
         'Universal Container(UC) wants to lower its shipping cost while making the shipping process more efficient. The Distribution Officer advises UC to implement global addresses to allow multiple Accounts to share a default pickup address. The Developer is tasked to create the supporting object and relationship for this business requirement and uses the Setup Menu to create a custom object called "Global Address". Which field should the developer ad to create the most efficient model that supports the business need?',
       options: [
-        "A. Add a Master-Detail field on the Global Address object to the Account object.",
+        "A. Add a Lookup field on the Account object to the Global Address object.",
         "B. Add a Lookup field on the Global Address object to the Account object",
-        "C. Add a Lookup field on the Account object to the Global Address object.",
-        "D. Add a Master-Detail field on the Account object to the Global Address object",
+        "C. Add a Master-Detail field on the Account object to the Global Address object",
+        "D. Add a Master-Detail field on the Global Address object to the Account object.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 180",
     },
     {
@@ -2081,7 +2004,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which one do you like?What should a developer consider for an environment that has over 10,000 Case records?",
+        "Given the following Anonymous Block:\nList<Case> casesToUpdate = new List<Case>();\nfor(Case thisCase: [Select Id, Status From Case Limit 50000]) {\n thisCase.Status = 'Working';\n　casesToUpdate.add(thisCase);\n}\ntry {\n　Database.udpate(casesToUpdate, false);\n}catch(Exception e) {\n　system.debug(e.getMessage());\n}\nWhat should a developer consider for an environment that has over 10,000 Case records?",
       options: [
         "A. The transaction will fail due to exceeding the governor limit.",
         "B. The try/catch block will handle any DML exceptions thrown.",
@@ -2138,13 +2061,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "A,B",
       title: "Question 188",
-    },
-    {
-      content:
-        "A developer considers the following snippet of code:Based on this code, what is the value of x?",
-      options: ["A. 4", "B. 1", "C. 3", "D. 2"],
-      answer: "A",
-      title: "Question 189",
     },
     {
       content:
@@ -2232,7 +2148,7 @@ window.testContent[testName].testList.push({
         "A developer has a VF page and custom controller to save Account records. The developer wants to display any validation rule violation to the user. How can the developer make sure that validation rule violations are displayed?",
       options: [
         "A. Include <apex:messages> on the Visualforce page.",
-        "B. Perform the DML using the Database.upsert() method https://developer.salesforce.com/docs/atlas.en-us.pages.meta/pages/pages_compref_message.htm",
+        "B. Perform the DML using the Database.upsert() method",
         "C. Use a try/catch with a custom exception class.",
         "D. Add custom controller attributes to display the message.",
       ],
@@ -2279,7 +2195,7 @@ window.testContent[testName].testList.push({
         "Which three statements are true regarding the @istest annotation? Choose 3 answers",
       options: [
         "A. Products and pricebooks are visible in a test even if a class is annotated @istest (seealldata=false)",
-        "B. A class containing test methods counts toward the apex code liit regardless of any @istest annotation (Missed",
+        "B. A class containing test methods counts toward the apex code liit regardless of any @istest annotation",
         "C. Profiles are visible in a test even if a class is annotated @istest (seealldata=false)",
         "D. A method annotated @istest (seealldata=false) in a class annotated @istest (seealladata=true) has access to all org data",
         "E. A method annotated @istest (seealldata=true) in a class annotated @istest (seealladata=false) has access to all org data",
@@ -2360,18 +2276,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "C",
       title: "Question 209",
-    },
-    {
-      content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
-      options: [
-        "A. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
-        "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
-        "C. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
-        "D. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
-      ],
-      answer: "A",
-      title: "Question 210",
     },
     {
       content:
@@ -2464,17 +2368,6 @@ window.testContent[testName].testList.push({
       title: "Question 218",
     },
     {
-      content:
-        "A developer is creating a page that allows users to create multiple Opportunities. The developer is asked to verify the current user's default } | Opportunity record type, and set certain default values based on the record type before inserting the record. i, J Calculator How can the developer find the current user's default record type? ns",
-      options: [
-        "A. Query the Profile where the ID equals userInfo.getProfileID() and then use the profile.Opportunity.getDefaultRecordType() | | method. ] |",
-        "B. o Use Opportunity. SObjectType.getDescribe().getRecordTypelnfos() to get a list of record types, and iterate through them until [ J isDefaultRecordTypeMapping() is true. Pencil & Paper |",
-        "C. Use the Schema.userlnfo.Opportunity.getDefaultRecordType() method. < Create the opportunity and check the opportunity.recordType before inserting, which will have the record ID of the current Dal user's default record type.",
-      ],
-      answer: "B",
-      title: "Question 219",
-    },
-    {
       content: "What is the result of the following Classes page?",
       options: [
         "A. View the Class test Coverage tab on the Apex Class record.",
@@ -2511,7 +2404,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is migrating a Visualforce page into a Lightning web component.The Visualforce page shows information about a single record. The developer decides to use Lightning Data Service to access record data.Which security consideration should the developer be aware of?",
+        "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decides to use Lightning DataService to access record data. Which security consideration should the developer be aware of?",
       options: [
         "A. The with sharing keyword must be used to enforce sharing rules.",
         "B. Lightning Data Service ignores field-level security.",
@@ -2547,13 +2440,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "How many accounts will be inserted by the following block ofcode? for(Integer i = 0 ; i <500; i++) { Account a = new Account(Name='New Account ' + i); insert a; }087. Boolean odk;Integer x;if(abok=false;integer=x;){X=1;}elseif(abok=true;integer=x;){X=2;}elseif(abok!=null;integer=x;){X=3;)elseif{X=4;}",
-      options: ["A. X=9", "B. X=4", "C. X=10", "D. X=8"],
-      answer: "B",
-      title: "Question 226",
-    },
-    {
-      content:
         "Which type of code represents the Model in the MVC architecture on the Force.com platform?",
       options: [
         "A. A list of Account records returned from a Controller Extension method",
@@ -2563,18 +2449,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "A",
       title: "Question 227",
-    },
-    {
-      content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod: trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
-      options: [
-        "A. The deployment passes because the Apex code has required (>75%) code coverage.",
-        "B. The deployment fails because the Apex trigger has no code coverage.",
-        "C. The deployment passes because both classes and the trigger were included in the deployment.",
-        "D. The deployment fails because no assertions were made in the test method.",
-      ],
-      answer: "B",
-      title: "Question 228",
     },
     {
       content:

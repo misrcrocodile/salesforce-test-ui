@@ -235,9 +235,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for aProduct__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.AWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Iscurrently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
-      options: ["A. Option", "B. Option ", "C. Option ", "D. Option "],
-      answer: "A",
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+      options: [
+        "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+        "C.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
+        "D.\nInventoryReductionEvent__c ev = new InventoryReductionEvent__c(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
+      ],
+      answer: "C",
       title: "Question 20",
     },
     {
@@ -277,7 +282,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A recursive transaction is limited by a DML statement creating records for these two objects:1. Accounts2. ContactsThe Account trigger hits a stack depth of 16.Which statement is true regarding the outcome of thetransaction?",
+        "A recursive transaction is limited by a DML statement creating records for these two objects:\n　1. Accounts\n　2. Contacts\nThe Account trigger hits a stack depth of 16.\nWhich statement is true regarding the outcome of the transaction?",
       options: [
         "A. The transaction succeeds and all the changes are committed to the database.",
         "B. The transaction fails and all the changes are rolled back.",
@@ -498,14 +503,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must modify the following code snippet to prevent the number of SOQL queries issued fromexceeding the platform governor limit. public class without sharing OpportunityService( public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds){ List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>(); for(Id thisOppId : opportunityIds){ oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; } return oppLineItems; } } The above method might be called during a trigger execution via a Lightning component. Which technique should be implemented to avoid reaching the governor limit?",
+        "A developer must modify the following code snippet to prevent the number of SOQL queries issued from exceeding the platform governor limit. public class without sharing OpportunityService{\n　public static List<OpportunityLineItem> getOpportunityProducts(Set<Id> opportunityIds) {\n　　List<OpportunitylineItem> oppLineItems = new List<OpportunityLineItem>();\n　　for(Id thisOppId : opportunityIds) {\n　　　oppLineItems.addAll([Select Id FROM OpportunityLineItems WHERE OpportunityId = :thisOppId)]; \n 　} \n return oppLineItems;\n　}\n}\nThe above method might be called during a trigger execution via a Lightning component.\nWhich technique should be implemented to avoid reaching the governor limit?",
       options: [
-        "A. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
-        "B. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
-        "C. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
-        "D. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
+        "A. Use the System.Limits.getlimitQueries() method to ensure the number of queries is less than 100.",
+        "B. Use the System.Limits.getQueries() method to ensure the number of queries is less than 100.",
+        "C. Refactor the code above to perform only one SOQL query, filtering by the Set of opportunityIds.",
+        "D. Refector the code above to perform the SOQL query only if the Set of opportunityIds contains less 100 Ids.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 43",
     },
     {
@@ -521,7 +526,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is migrating a Visualforce page into a Lightning web component.The Visualforce page shows information about a single record. The developer decides to use Lightning DataService to access record data.Which security consideration should the developer be aware of?",
+        "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decides to use Lightning DataService to access record data. Which security consideration should the developer be aware of?",
       options: [
         "A. The with sharing keyword must be used to enforce sharing rules.",
         "B. The isAccessible ( ) method must be used for field-level access checks",
@@ -667,14 +672,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determinea discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
+        "A Next Best Action strategy uses an Enhance Element that invokes an Apex method to determine a discount level for a Contact, based on a number of factors. What is the correct definition of the Apex method?",
       options: [
-        "A. @InvocableMethodglobal static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "B. @InvocableMethodglobal RecommendationgetLevel (ContactWrapper input){ /*implementation*/ }",
-        "C. @InvocableMethodglobal List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
-        "D. @InvocableMethodglobalstatic List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "A. @InvocableMethod global Recommendation getLevel (ContactWrapper input){ /*implementation*/ }",
+        "B. @InvocableMethod global static ListRecommendation getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "C. @InvocableMethod global static List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
+        "D. @InvocableMethod global List<List<Recommendation>> getLevel(List<ContactWrapper> input){ /*implementation*/ }",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 58",
     },
     {

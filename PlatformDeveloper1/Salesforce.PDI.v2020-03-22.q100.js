@@ -21,8 +21,8 @@ window.testContent[testName].testList.push({
       options: [
         "A. The Apex governor limits cannot be exceeded due to the asynchronous nature of the transaction,",
         "B. The Apex governor limits are relaxed while calling the costructor of the Apex class.",
-        "C. The apex governor limits are reset for each iteration of the execute() mrthod. (Missed)",
-        "D. The Apex governor limits might be higher due to the asynchronous nature of the transaction. (Missed)",
+        "C. The apex governor limits are reset for each iteration of the execute() mrthod.",
+        "D. The Apex governor limits might be higher due to the asynchronous nature of the transaction.",
       ],
       answer: "C,D",
       title: "Question 2",
@@ -173,14 +173,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The following Apex method is part of the ContactService class that is called from a trigger: public static void setBusinessUnitToEMEA(Contact thisContact){ thisContact.Business_Unit__c = "EMEA" ; update thisContact; } How should the developer modify the code to ensure best practice are met?',
+        'The following Apex method is part of the ContactService class that is called from a trigger: \npublic static void setBusinessUnitToEMEA(Contact thisContact){\n　thisContact.Business_Unit__c = "EMEA" ;\n　update thisContact;\n}\nHow should the developer modify the code to ensure best practice are met?',
       options: [
-        "A. Public void setBusinessUnitToEMEA(List<Contact> contatcs){contacts[0].Business_Unit__c = 'EMEA' ;update contacts[0];}",
-        "B. Public static void setBusinessUnitToEMEA(Contact thisContact){List<Contact> contacts = new List<Contact>();contacts.add(thisContact.Business_Unit__c = 'EMEA');update contacts;}",
-        "C. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts){thisContact.Business_Unit__c = 'EMEA' ;update contacts[0];}}",
-        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts){for(Contact thisContact : contacts) {thisContact.Business_Unit__c = 'EMEA' ;}update contacts;}",
+        "A. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(Contact thisContact : contacts) {\n 　thisContact.Business_Unit__c = 'EMEA' ;\n　　update contacts[0];\n　}\n}\n",
+        "B. Public void setBusinessUnitToEMEA(List<Contact> contatcs) {\n　contacts[0].Business_Unit__c = 'EMEA' ;\n　update contacts[0];\n}\n",
+        "C. Public static void setBusinessUnitToEMEA(Contact thisContact) {\n　List<Contact> contacts = new List<Contact>();\n　contacts.add(thisContact.Business_Unit__c ='EMEA');\n　update contacts;\n}\n",
+        "D. Public static void setBusinessUnitToEMEA(List<Contact> contacts) {\n　for(ContactthisContact : contacts) {\n　　thisContact.Business_Unit__c = 'EMEA' ;\n　}\n　update contacts;\n}\n",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 15",
     },
     {
@@ -311,7 +311,7 @@ window.testContent[testName].testList.push({
       options: [
         "A. $Lightning.useComponent",
         "B. <apex:includeLightning/>",
-        "C. $Lightning.use (Missed)",
+        "C. $Lightning.use",
         "D. $Lightning.createComponent",
         "E. <apex:slds/>",
       ],
@@ -320,14 +320,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer created this Apex trigger that calls MyClass .myStaticMethod: trigger myTrigger on Contact(before insert) ( MyClass.myStaticMethod(trigger.new, trigger.oldMap); } The developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
+        "developer created this Apex trigger that calls MyClass.myStaticMethod:\ntrigger myTrigger on Contact(before insert) {\n　MyClass.myStaticMethod(trigger.new, trigger.oldMap); \n}\nThe developer creates a test class with a test method that calls MyClass.mystaticMethod, resulting in 81% overall code coverage. What happens when the developer tries to deploy the trigger and two classes to production, assuming no other code exist?",
       options: [
-        "A. The deployment fails because the Apex trigger has no code coverage.",
-        "B. The deployment passes because the Apex code has required (>75%) code coverage.",
-        "C. The deployment fails because no assertions were made in the test method.",
-        "D. The deployment passes because both classes and the trigger were included in the deployment.",
+        "A. The deployment passes because both classes and the trigger were included in the deployment.",
+        "B. The deployment fails because the Apex trigger has no code coverage.",
+        "C. The deployment passes because the Apex code has required (>75%) code coverage.",
+        "D. The deployment fails because no assertions were made in the test method.",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 28",
     },
     {
@@ -455,12 +455,12 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: public class customCtrlr{ private Account theAccount; public String actType; public customCtrlr() { theAccount = [SELECT Id, Type FROM Account WHERE Id =:apexPages.currentPage().getParameters().get('id')]; actType = theAccount.Type; } } Visualforce page snippet:The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
+        "A developer created a Visualforce page and custom controller to display the account type field as shown below. Custom controller code: \npublic class customCtrlr { \n　private Account theAccount;\n　public String actType;\n　public customCtrlr() {\n　　theAccount = [SELECT Id, Type FROM Account WHERE Id = :apexPages.currentPage().getParameters().get('id')];\n　　actType = theAccount.Type;\n　}\n}\nVisualforce page snippet: The Account Type is {!actType} The value of the account type field is not being displayed correctly on the page. Assuming the custom controller is property referenced on the Visualforce page, what should the developer do to correct the problem?",
       options: [
         "A. Add a getter method for the actType attribute.",
-        "B. Change theAccount attribute to public.",
-        "C. Convert theAccount.Type to a String.",
-        "D. Add with sharing to the custom controller.",
+        "B. Add with sharing to the custom controller.",
+        "C. Change theAccount attribute to public.",
+        "D. Convert theAccount.Type to a String.",
       ],
       answer: "A",
       title: "Question 40",
@@ -492,9 +492,9 @@ window.testContent[testName].testList.push({
         "Which three steps allow a custom SVG to be included in a Lightning web component? Choose 3 answers",
       options: [
         "A. Reference the import in the HTML template.",
-        "B. Reference the getter in the HTML template. (Missed)",
-        "C. Upload the SVG as a static resource. (Missed)",
-        "D. Import the static resource and provide a getter for it in JavaScript. (Missed)",
+        "B. Reference the getter in the HTML template.",
+        "C. Upload the SVG as a static resource.",
+        "D. Import the static resource and provide a getter for it in JavaScript.",
         "E. Import the SVG as a content asset file.",
       ],
       answer: "B,C,D",
@@ -611,14 +611,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a custom controller and custom Visualforce page by using the following code block:public class myController {public String myString;public String getMyString() {return 'getmyString';}public String getStringMethod1() {return myString;}public String getStringMethod2() {if (myString == null)myString ='Method2';return myString;}}{!myString}, {!StringMethod1}, {!StringMethod2}, {!myString}What does the user see when accessing the custom page?",
+        "A developer creates a custom controller and custom Visualforce page by using the following code block:\npublic class myController {\n public String myString;\n　public String getMyString() {\n　　return 'getmyString';\n }\n\n　public String getStringMethod1() {\n 　return myString;\n　}\n\n　public String getStringMethod2() {\n　　if (myString == null) myString'Method2';\n 　return myString;\n　}\n}\n\n<apex:page controller=\"MyController\">\n　{!myString}, {!StringMethod1}, {!StringMethod2}, {!myString}\n</apex:page>\nWhat does the user see when accessing the custom page?",
       options: [
         "A. , , Method2 , getMyString",
-        "B. GetMyString , , Method2 , getMystring",
-        "C. , , Method2,",
-        "D. GetMyString , , ,",
+        "B. , , Method2,",
+        "C. GetMyString , , ,",
+        "D. GetMyString , , Method2 , getMystring",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 53",
     },
     {
@@ -689,9 +689,9 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer runs the following anonymous code block:List<Account> acc = [SELECT Id FROM Account LIMIT 10];Delete acc;Database.emptyRecycleBin(acc);system.debug(Limits.getDMLStatements()+ ', '+Limits.getLimitDMLStatements());What is the result?",
-      options: ["A. 150, 11", "B. 11, 150", "C. 150, 2", "D. 2, 150"],
-      answer: "D",
+        "A developer runs the following anonymous code block in a Salesforce org with 100 accounts \nList acc= [select id from account limit 10];\ndelete acc;\ndatabase.emptyrecyclebin(acc);\nsystem.debug(limits.getlimitqueries()+','+Limits.getlimitDMLStatements()); \nWhat is the debug output?",
+      options: ["A. 10, 2", "B. 150, 100", "C. 100, 150", "D. 1, 2"],
+      answer: "C",
       title: "Question 60",
     },
     {
@@ -838,9 +838,9 @@ window.testContent[testName].testList.push({
       content:
         "Which two operations can be performed using a formula field? Choose 2 answers",
       options: [
-        "A. Displaying an Image based on the Opportunity Amount (Missed)",
+        "A. Displaying an Image based on the Opportunity Amount",
         "B. Triggering a Process Builder",
-        "C. Calculating a score on a Lead based on the information from another field (Missed)",
+        "C. Calculating a score on a Lead based on the information from another field",
         "D. Displaying the last four digits of an encrypted Social Security number",
       ],
       answer: "A,C",
@@ -872,7 +872,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which action can a developer take to reduce the execution time of the following code? List<account> allaccounts = [select id from account]; list<account> allcontacts = [select id, accountid from contact]; for (account a :allaccounts){ for (contact c:allcontacts){ if(c.accountid = a.id){ //do work } } }",
+        "Which action can a developer take to reduce the execution time of the following code? \nList allaccounts = [select id from account]; \nlist allcontacts = [select id, accountid from contact]; \nfor (account a :allaccounts){\n　for (contact c:allcontacts){\n　　if(c.accountid = a.id){ //do work } \n 　}\n}",
       options: [
         "A. Add a group by clause to the contact SOQL",
         "B. Use a map <id,contact> for allaccounts",
