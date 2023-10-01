@@ -38,7 +38,7 @@ window.testContent[testName].testList.push({
     {
       content: "What is NOT an example of a standard Object?",
       options: ["A. Invoice", "B. Case", "C. Lead"],
-      answer: "C",
+      answer: "A",
       title: "Question 4",
     },
     {

@@ -45,7 +45,7 @@ window.testContent[testName].testList.push({
       content:
         "What feature of Salesforce grants record access to a user’s manager?",
       options: ["A. Role Hierarchy", "B. Permission Set", "C. Profile"],
-      answer: "C",
+      answer: "A",
       title: "Question 4",
     },
     {
@@ -62,7 +62,7 @@ window.testContent[testName].testList.push({
       content:
         "Some Salesforce users should have read access to other users’ opportunity records, including those that do not report to them in the role hierarchy. What should the organization-wide sharing default be for the opportunity object?",
       options: ["A. Public Read/Write", "B. Public Read Only", "C. Private"],
-      answer: "A",
+      answer: "B",
       title: "Question 6",
     },
     {
@@ -159,7 +159,7 @@ window.testContent[testName].testList.push({
       content:
         "What sort of object is required for a Many-to-Many relationship?",
       options: ["A. Child", "B. Junction", "C. Master"],
-      answer: "A",
+      answer: "B",
       title: "Question 16",
     },
     {
@@ -183,13 +183,13 @@ window.testContent[testName].testList.push({
         "B. The child record remains.",
         "C. The child record is deleted.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 19",
     },
     {
       content: "What is NOT an example of a standard Object?",
       options: ["A. Invoice", "B. Case", "C. Lead"],
-      answer: "C",
+      answer: "A",
       title: "Question 20",
     },
     {
@@ -224,7 +224,7 @@ window.testContent[testName].testList.push({
       content:
         "You would like to create a new custom field that enables users to select more than one value from a list. What type of custom field would support this?",
       options: ["A. Multi-Select Picklist", "B. Picklist", "C. Lookup"],
-      answer: "B",
+      answer: "A",
       title: "Question 24",
     },
     {
@@ -242,7 +242,7 @@ window.testContent[testName].testList.push({
         "B. Required Field",
         "C. Field Dependency",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 26",
     },
     {
@@ -262,7 +262,7 @@ window.testContent[testName].testList.push({
     {
       content: "What can optionally be created when converting a Lead?",
       options: ["A. Account", "B. Opportunity", "C. Contact"],
-      answer: "C",
+      answer: "B",
       title: "Question 29",
     },
     {
