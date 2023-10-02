@@ -619,14 +619,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
+        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
       options: [
         "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
         "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
         "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
         "D. @wire(getAccounts, '$searchTerm')\naccountList;",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 55",
     },
     {

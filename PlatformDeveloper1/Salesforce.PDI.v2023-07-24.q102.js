@@ -525,12 +525,12 @@ window.testContent[testName].testList.push({
       content:
         "An Apex method, getAccounts, that returns a List of Accounts given a search Term, is available for Lighting Web components to use. What is the correct definition of a Lighting Web component property that uses the getAccounts method?",
       options: [
-        "A. @AuraEnabled(getAccounts, '$searchTerm')accountList;",
-        "B. @wire(getAccounts, '$searchTerm')accountList;",
-        "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
-        "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
+        "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
+        "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
+        "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
+        "D. @wire(getAccounts, '$searchTerm')\naccountList;",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 45",
     },
     {

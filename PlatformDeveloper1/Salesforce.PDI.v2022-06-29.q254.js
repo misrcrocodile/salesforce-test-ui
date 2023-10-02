@@ -1301,18 +1301,6 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a search Term, is available for Lighting Web components to use. What is the correct definition of a Lighting Web component property that uses the getAccounts method?",
-      options: [
-        "A. @AuraEnabled(getAccounts, '$searchTerm')accountList;",
-        "B. @wire(getAccounts, '$searchTerm')accountList;",
-        "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
-        "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
-      ],
-      answer: "C",
-      title: "Question 114",
-    },
-    {
-      content:
         "When using SalesforceDX, what does a developer need to enable to create and manage scratch orgs?",
       options: [
         "A. Dev Hub",
@@ -2078,18 +2066,6 @@ window.testContent[testName].testList.push({
       ],
       answer: "B,D",
       title: "Question 185",
-    },
-    {
-      content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a search Term, is available for Lighting Web components to use. What is the correct definition of a Lighting Web component property that uses the getAccounts method?",
-      options: [
-        "A. @AuraEnabled(getAccounts, '$searchTerm')accountList;",
-        "B. @wire(getAccounts, '$searchTerm')accountList;",
-        "C. @AuraEnabled(getAccounts, {searchTerm: '$searchTerm'})accountList;",
-        "D. @wire(getAccounts, {searchTerm: '$searchTerm'})accountList;",
-      ],
-      answer: "C",
-      title: "Question 186",
     },
     {
       content:

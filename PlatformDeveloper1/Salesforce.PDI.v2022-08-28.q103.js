@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
         "C. @AuraEnabled(getAccounts, {searchTerm:'$searchTerm'})\naccountList;",
         "D. @wire(getAccounts, '$searchTerm')\naccountList;",
       ],
-      answer: "C",
+      answer: "A",
       title: "Question 3",
     },
     {
