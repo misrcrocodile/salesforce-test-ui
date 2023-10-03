@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container is building a recruiting app with an Applicant object that stores information about an individual person that represents a job. Each application may apply for more than one job.What should a developer implement to represent that an applicant has applied for a job?",
+        "Universal Container is building a recruiting app with an Applicant object that stores information about an individual person that represents a job. Each application may apply for more than one job. What should a developer implement to represent that an applicant has applied for a job?",
       options: [
         "A. Lookup field from Applicant to Job",
         "B. Junction object between Applicant and Job",
@@ -72,7 +72,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -168,7 +168,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in theaccountRecvariable.Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
+        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in theaccountRecvariable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
       options: [
         "A. Schema.sObjectType.Account.isDeletable()",
         "B. accountRec.sObjectType.isDeletable()",
@@ -180,7 +180,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -192,7 +192,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, the file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system.Which technique should the developer implement to streamline the data upload?",
+        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, the file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system. Which technique should the developer implement to streamline the data upload?",
       options: [
         "A. Upload the CSV into a custom object related to Candidate_c.",
         "B. Update the primaryid__c field definition to mark it as an External Id",
@@ -204,7 +204,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field isset to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field isset to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe. Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Scheduled Flow",
         "B. Record_Triggered Flow",
@@ -216,14 +216,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method,getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses thegetAccountsmethod?",
+        "An Apex method,getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses thegetAccountsmethod?",
       options: ["A. Option A", "B. Option D", "C. Option B", "D. Option C"],
       answer: "A",
       title: "Question 18",
     },
     {
       content:
-        "code below deserializes input into a list of Accounts.Which code modification should be made to insert the Accounts so that field-level security is respected?",
+        "code below deserializes input into a list of Accounts. Which code modification should be made to insert the Accounts so that field-level security is respected?",
       options: [
         "A. 05: If (SobjectType.Account,isCreatable())",
         "B. 01: Public with sharing class AcctCreator",
@@ -235,7 +235,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning. What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
       options: [
         "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
         "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
@@ -259,7 +259,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page for Opportunities that allows users to save ormerge the current record.Which approach should the developer to meet this requirement?",
+        "A developer is asked to create a Visualforce page for Opportunities that allows users to save ormerge the current record. Which approach should the developer to meet this requirement?",
       options: [
         "A. A custom controller",
         "B. A custom controller extension",
@@ -306,7 +306,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has requirement to write Apex code to update a large number of account records on a nightly basis. The systemadministrator needs to be able to schedule the class to run after business hours on an as-needed basis.Which class definition should be used to successfully implement this requirement?",
+        "A developer has requirement to write Apex code to update a large number of account records on a nightly basis. The systemadministrator needs to be able to schedule the class to run after business hours on an as-needed basis. Which class definition should be used to successfully implement this requirement?",
       options: [
         "A. Gloabal inherited sharing class processAccount Processor implements Database>Bachable<sObject> Schedulable.",
         "B. Global inherited sharing class ProcessAccount Process implements Queueable",
@@ -353,7 +353,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event.The developer is working on a Lightning web component to display the information.",
+        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event. The developer is working on a Lightning web component to display the information.",
       options: [
         "A. import (subscribe, unsubscribe, onError ) from 'lightning/MessageChannel'",
         "B. import ( subscribe, unsubscribe, onError ) from 'lightning/empApi '",
@@ -377,7 +377,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has a requirement to create an Order When an Opportunityreaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
+        'A developer has a requirement to create an Order When an Opportunityreaches a "Closed-Won" status. Which tool should be used to implement this requirement?',
       options: [
         "A. Apex trigger",
         "B. Lightning Component",
@@ -401,7 +401,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders.What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
+        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders. What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
       options: [
         "A. Add without sharing to the Apex class declaration.",
         "B. Select the Allow reparenting option on the master-detail relationship.",
@@ -436,7 +436,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Management asked for opportunities to be automatically created for accounts with annual revenue greater than$1,000,000. A developer created the following trigger on the Account object to satisfy this requirement.Users are able to update the account records via the UI and can see an opportunity created for high annual revenue accounts. However, when the administrator tries to upload a list of 179 accounts using Data Loader, It fails withsystem. Exception errors.Which two actions should the developer take to fix the code segment shown above? Choose 2 answers",
+        "Management asked for opportunities to be automatically created for accounts with annual revenue greater than$1,000,000. A developer created the following trigger on the Account object to satisfy this requirement.Users are able to update the account records via the UI and can see an opportunity created for high annual revenue accounts. However, when the administrator tries to upload a list of 179 accounts using Data Loader, It fails withsystem. Exception errors. Which two actions should the developer take to fix the code segment shown above? Choose 2 answers",
       options: [
         "A. Move the DML that saves opportunities outside the for loop.",
         "B. Query for existing opportunities outside the for loop.",
@@ -448,7 +448,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this? Choose 2 answers",
+        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage. Which two strategies can a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a trigger.",
         "B. Use a validation rule.",
@@ -460,7 +460,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Visualforce page that displays a table of every Container_c. being ....... Is falling with a view state limit because some of the customers rent over 10,000 containers.What should a developer change about the Visualforce page to help with the page load errors?",
+        "Universal Containers has a Visualforce page that displays a table of every Container_c. being ....... Is falling with a view state limit because some of the customers rent over 10,000 containers. What should a developer change about the Visualforce page to help with the page load errors?",
       options: [
         "A. Implement pagination with a StandardSetController,",
         "B. Implement pagination with an OffsetController.",
@@ -472,7 +472,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Aspart of a data cleanup strategy, AW Computing wants to proactively delete associated opportunity records when the related Account is deleted.Which automation tool should be used to meet this business requirement?",
+        "Aspart of a data cleanup strategy, AW Computing wants to proactively delete associated opportunity records when the related Account is deleted. Which automation tool should be used to meet this business requirement?",
       options: [
         "A. Scheduled job",
         "B. Record-Triggered Flow",
@@ -538,7 +538,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of testallowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of testallowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Use @TestSetup with a viod method.",
         "B. Create test data before Test.startTest() in the unittest.",
@@ -611,7 +611,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A businessimplemented a magnification plan to encourage its customers to watch some educational videos.Customers can watch videos over several days, and their progress is recorded. Award points are granted to customers for all completed videos. When the video is marked as completed in Salesforce, an external web service must be called so that points can be awarded to the user.A developer implemented these requirements in the after update trigger by making a calf to an external web service. However, a System.CalloutException is occurring.What should the developer do to fix this error?",
+        "A businessimplemented a magnification plan to encourage its customers to watch some educational videos.Customers can watch videos over several days, and their progress is recorded. Award points are granted to customers for all completed videos. When the video is marked as completed in Salesforce, an external web service must be called so that points can be awarded to the user.A developer implemented these requirements in the after update trigger by making a calf to an external web service. However, a System.CalloutException is occurring. What should the developer do to fix this error?",
       options: [
         "A. Replace the after update trigger with a before insert trigger.",
         "B. Move the callout to an asynchronousmethod with structure (callout=true) annotation.",
@@ -641,7 +641,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploysto a sandbox? Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles. Which two tools can they use to run a script that deploysto a sandbox? Choose 2 answers",
       options: [
         "A. Change Sets",
         "B. SFDX CLI",
@@ -720,7 +720,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer wants to review their code changes immediately and does not want toinstall anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changes immediately and does not want toinstall anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Third-party apps from App Exchange",
         "B. Salesforce Extension for VSCode",
@@ -824,14 +824,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "UniversalContainers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
+        "UniversalContainers decides to use purely declarative development to build out a new Salesforce application. Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Processbuilder", "B. Flow Builder", "C. Validation Rules"],
       answer: "A,B,C",
       title: "Question 71",
     },
     {
       content:
-        "UniversalContainer use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object.What is the practice to get the sum of all order line totals on the order header?",
+        "UniversalContainer use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object. What is the practice to get the sum of all order line totals on the order header?",
       options: [
         "A. Declarative Roll-Up Summaries App",
         "B. Apex Trigger",
@@ -843,7 +843,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer Edition org has five existing accounts. A developer wants to add 10 more accounts for ...The following code is executed in the Developer Console using the Executor Anonymous window:How many total accounts will be in the org after this code is executed?",
+        "A developer Edition org has five existing accounts. A developer wants to add 10 more accounts for ... The following code is executed in the Developer Console using the Executor Anonymous window:How many total accounts will be in the org after this code is executed?",
       options: ["A. 10", "B. 15", "C. 6", "D. 5"],
       answer: "A",
       title: "Question 73",
@@ -900,7 +900,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count fieldif an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count fieldif an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 1", "B. 4", "C. 2", "D. 3"],
       answer: "C",
       title: "Question 78",
@@ -919,7 +919,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to bedefined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to bedefined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. standard Controller",
         "B. readOnly",
@@ -951,7 +951,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a support process that allows users torequest support from its engineering team using a custom object, Engineering_Support__c.Users should be able to associate multiple engineering_Support__c records to a single Opportunity record.Additionally, aggregate Information about the Engineering_support__c records should be shown on the Opportunity record.What should a developer Implement to support these requirements?",
+        "Universal Containers has a support process that allows users torequest support from its engineering team using a custom object, Engineering_Support__c.Users should be able to associate multiple engineering_Support__c records to a single Opportunity record.Additionally, aggregate Information about the Engineering_support__c records should be shown on the Opportunity record. What should a developer Implement to support these requirements?",
       options: [
         "A. Lookup field from Engineering_support__c to Opportunity",
         "B. Master-detail field from Opportunity to Engineering_Support__c",
@@ -963,7 +963,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page.Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
+        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page. Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
       options: [
         "A. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' + name + '%\\''; List<Account> results = Database.query(query);",
         "B. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' +String.escapeSingleQuotes(name) + '%\\'';List<Account> results = Database.query(query);",
@@ -1023,7 +1023,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom fieldvalue from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom fieldvalue from a trigger?",
       options: [
         "A. By writing, a Before Update trigger and accessing the field value from Trigger.new",
         "B. By writing a Before Insert trigger and accessing the field value from Trigger.new",
@@ -1035,7 +1035,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle forFahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must besent to the Temperature component so the temperature can be converted and displayed.What is the recommend way to accomplish this?",
+        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle forFahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must besent to the Temperature component so the temperature can be converted and displayed. What is the recommend way to accomplish this?",
       options: [
         "A. The Toggle component should call a method in the Temperature component.",
         "B. Create a custom event to handle the communicate between the components.",

@@ -130,7 +130,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create a custom field on the child object of type External Relationship.",
         "B. Create and populate a custom field on the parent object marked as Unique",
@@ -187,7 +187,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application. Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Process builder", "B. Validation Rules", "C. Flow Builder"],
       answer: "A,B,C",
       title: "Question 16",
@@ -426,7 +426,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. public ExtendedController(ApexPages StandardController cntrl) { }",
         "B. ApexPages.CurrentPage().getParameters().put('input\\', 'TestValue');",
@@ -535,7 +535,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the &lt;apex:page&gt; tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the &lt;apex:page&gt; tag to accomplish this? Choose 3 answers",
       options: [
         "A. standard Controller",
         "B. readOnly",
@@ -548,7 +548,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business has a proprietary Order Management System (OMS) that creates orders from their website and ... the order. When the order is created in the OMS, an integration also creates an order record in Salesforce ... relates it to the contact as identified by the email on the order. As the order goes through different stages in OMS, the integration also updates it in Salesforce.It is notified that each update from the OMS creates a new order record in Salesforce.Which two actions prevent the duplicate order records from being created in Salesforce? Choose 2 answers",
+        "A business has a proprietary Order Management System (OMS) that creates orders from their website and ... the order. When the order is created in the OMS, an integration also creates an order record in Salesforce ... relates it to the contact as identified by the email on the order. As the order goes through different stages in OMS, the integration also updates it in Salesforce.It is notified that each update from the OMS creates a new order record in Salesforce. Which two actions prevent the duplicate order records from being created in Salesforce? Choose 2 answers",
       options: [
         "A. Use the email on the contact record as an external ID.",
         "B. Write a before trigger on the order object to delete any duplicates.",
@@ -672,7 +672,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -684,7 +684,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decides to use Lightning Data Service to access record data.Which security consideration should the developer be aware of?",
+        "A developer is migrating a Visualforce page into a Lightning web component. The Visualforce page shows information about a single record. The developer decides to use Lightning Data Service to access record data. Which security consideration should the developer be aware of?",
       options: [
         "A. The isAccessible ( ) method must be used for field-level access checks",
         "B. Lightning Data Service handles sharing rules and field-level security.",
@@ -716,7 +716,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page.Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
+        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page. Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
       options: [
         "A. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' + name.noQuotes() + '%\\''; List<Account> results = Database.query(query);",
         "B. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' +String.escapeSingleQuotes(name) + '%\\'';List<Account> results = Database.query(query);",
@@ -812,7 +812,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project.Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
+        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project. Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
       options: [
         "A. Record-triggered Flow",
         "B. Process Builder",
@@ -824,7 +824,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a support process that allows users to request support from its engineering team using a custom object, Engineering_Support__c.Users should be able to associate multiple engineering_Support__c records to a single Opportunity record.Additionally, aggregate Information about the Engineering_support__c records should be shown on the Opportunity record.What should a developer Implement to support these requirements?",
+        "Universal Containers has a support process that allows users to request support from its engineering team using a custom object, Engineering_Support__c.Users should be able to associate multiple engineering_Support__c records to a single Opportunity record.Additionally, aggregate Information about the Engineering_support__c records should be shown on the Opportunity record. What should a developer Implement to support these requirements?",
       options: [
         "A. Master-detail field from Opportunity to Engineering_Support__c",
         "B. Master-detail field from Engineering_Support__c to Opportunity.",
@@ -859,7 +859,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? (Choose two.)",
+        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage. Which two strategies should a developer use to accomplish this? (Choose two.)",
       options: [
         "A. Use a validation rule.",
         "B. Use the Process Automation Settings.",
@@ -1014,7 +1014,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has created a unique process for tracking container repairs. A custom field, status__c, has been created within the container__c custom object. A developer is tasked with sending notifications to multiple external systems every time the value of the status__picklist changes.Which two tools should the developer use to meet the business requirement and ensure low maintenance of the solution? Choose 2 answers",
+        "Universal Containers has created a unique process for tracking container repairs. A custom field, status__c, has been created within the container__c custom object. A developer is tasked with sending notifications to multiple external systems every time the value of the status__picklist changes. Which two tools should the developer use to meet the business requirement and ensure low maintenance of the solution? Choose 2 answers",
       options: [
         "A. Platform event",
         "B. Apex trigger",
@@ -1026,7 +1026,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. break;", "B. Continue", "C. Exit", "D. Next"],
       answer: "A",
       title: "Question 89",
@@ -1093,7 +1093,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer receives an error when trying to call a global server-side method using the remoteAction decorator.How can the developer resolve the error?",
+        "A developer receives an error when trying to call a global server-side method using the remoteAction decorator. How can the developer resolve the error?",
       options: [
         "A. Add static to the server-side method signature.",
         "B. Decorate the server-side method with (static=false).",
@@ -1166,7 +1166,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days.Which Apex technique should the developer use?",
+        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days. Which Apex technique should the developer use?",
       options: [
         "A. An If/else statement, with a for loop inside",
         "B. A for loop, with a switch statement inside",

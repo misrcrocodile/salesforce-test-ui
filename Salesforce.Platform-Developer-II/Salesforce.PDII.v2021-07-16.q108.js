@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A company has a custom object Sales_Help_Request__c that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on the Sales_Help_Request__c.A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity.What should the developer use to implement this?",
+        "A company has a custom object Sales_Help_Request__c that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on the Sales_Help_Request__c.A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity. What should the developer use to implement this?",
       options: [
         "A. A trigger on Sales_Help_Request__c",
         "B. A trigger on the Opportunity object",
@@ -22,14 +22,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once.What is the optimal code that should be added to fire the event when the search has completed?",
+        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once. What is the optimal code that should be added to fire the event when the search has completed?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "C",
       title: "Question 2",
     },
     {
       content:
-        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers.What should the developer use to store and package the custom configuration settings for the app?",
+        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers. What should the developer use to store and package the custom configuration settings for the app?",
       options: [
         "A. Custom Objects",
         "B. Custom Metadata",
@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A managed package uses a list of country ISO codes and country names as references data in many different places.. managed package Apex code.What is the optimal way to store and retrieve the list?",
+        "A managed package uses a list of country ISO codes and country names as references data in many different places.. managed package Apex code. What is the optimal way to store and retrieve the list?",
       options: [
         "A. Store the information in Custom Metadata and query it with SOQL.",
         "B. Store the information in a List Custom Setting and query it with SOQL.",
@@ -108,7 +108,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Contact object in an org is configured with workflow rules that trigger field updates. The fields are not updating, even though the end user expects them to. The developer creates a debug log to troubleshoot the problem.What should the developer specify in the debug log to see the values of the workflow rule conditions and debug the problem?",
+        "The Contact object in an org is configured with workflow rules that trigger field updates. The fields are not updating, even though the end user expects them to. The developer creates a debug log to troubleshoot the problem. What should the developer specify in the debug log to see the values of the workflow rule conditions and debug the problem?",
       options: [
         "A. ERROR level for the Database log category",
         "B. INFO level for the Database log category",
@@ -120,7 +120,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Just prior to a new deployment, the Salesforce Administrator who configured a new order fulfillment process in a developer sandbox suddenly left the company. The users had fully tested all of the changes in the sandbox and signed off on them.Unfortunately, although a Change Set was started, it was not complete. A developer is brought in to help finish the deployment.What should the developer do to identify the configuration changes that need to be moved into production?",
+        "Just prior to a new deployment, the Salesforce Administrator who configured a new order fulfillment process in a developer sandbox suddenly left the company. The users had fully tested all of the changes in the sandbox and signed off on them.Unfortunately, although a Change Set was started, it was not complete. A developer is brought in to help finish the deployment. What should the developer do to identify the configuration changes that need to be moved into production?",
       options: [
         "A. Set up Continuous Integration and a Git repository to automatically merge all changes from the sandbox metadata with the production metadata.",
         "B. Use the Metadata API and a supported development IDE to push all of the configuration from the sandbox into production to ensure no changes are lost.",
@@ -144,7 +144,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom component to display an HTML table. The developer wants to be able to use the component on different Visualforce Pages and specify different header text for the table.Which tag should the developer use inside the component?",
+        "A developer created a custom component to display an HTML table. The developer wants to be able to use the component on different Visualforce Pages and specify different header text for the table. Which tag should the developer use inside the component?",
       options: [
         "A. <apex:variable>",
         "B. <apex:attribute>",
@@ -156,7 +156,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has built a multi-page wizard using a single Custom Controller to query and update dat a. Users are complaining that the pages are loading slowly.What will improve performance? (Choose three.)",
+        "A developer has built a multi-page wizard using a single Custom Controller to query and update dat a. Users are complaining that the pages are loading slowly. What will improve performance? (Choose three.)",
       options: [
         "A. Using actionRegion and rerender",
         "B. Setting the Apex Page attribute cache=true",
@@ -169,7 +169,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a test class that creates test data before making a mock call-out, but now receives a you have uncommitted work pending. Please commit or callout before calling out error.What step should be taken to resolve the error?",
+        "A developer has a test class that creates test data before making a mock call-out, but now receives a you have uncommitted work pending. Please commit or callout before calling out error. What step should be taken to resolve the error?",
       options: [
         "A. Ensure the records are inserted before the Test.startTest() statement and the mock callout after the Test.startTest().",
         "B. Ensure the records are inserted before the Test.startTest() statement and the mock callout occurs within a method annotated with StestSetup.",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a Visual force page that automatically assign ownership of an Account to a queue save. The page appears to correctly assign ownership, but an assertion validating the correct ownership fails.What can cause this problem?",
+        "A developer has a Visual force page that automatically assign ownership of an Account to a queue save. The page appears to correctly assign ownership, but an assertion validating the correct ownership fails. What can cause this problem?",
       options: [
         "A. The test class does not retrieve the updated value- from the database.",
         "B. The test class does not use the seeAllData=true annotation,",
@@ -236,7 +236,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer Is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response__c do not belong to a list of blacklisted domains. The list of blacklisted domains will be stored In a custom object for ease of maintenance by users. Note that the Survey_Response__c object is populated via a custom visualforce page.What is the optimal way to implement this?",
+        "A developer Is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response__c do not belong to a list of blacklisted domains. The list of blacklisted domains will be stored In a custom object for ease of maintenance by users. Note that the Survey_Response__c object is populated via a custom visualforce page. What is the optimal way to implement this?",
       options: [
         "A. Implement the logic in a helper class that is called by an Apex trigger on Contact and from the Custom Visualforce page controller.",
         "B. Implement the logic in an Apex trigger on Contact and also implement the logic within the Custom visualforce page controller.",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale.What is the most effective approach to ensure values displayed respect the users locale settings?",
+        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale. What is the most effective approach to ensure values displayed respect the users locale settings?",
       options: [
         "A. Use REGEX expressions to format the values retrieved via SOQL.",
         "B. Use the FORMAT() function in the SOQL query.",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs test data for Apex test classes.What can the developer use to provide test data to the test methods? (Choose two.)",
+        "A developer needs test data for Apex test classes. What can the developer use to provide test data to the test methods? (Choose two.)",
       options: [
         "A. List<sObject> Is = Test.loadDat (Lead.sObjectType, $Resource + 'myTestLeads f);",
         "B. List<sObject> Is = Test.loadData (Lead.sObjectType, fmyTestLeads f);",
@@ -303,7 +303,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Salesforce users consistently receive a "Maximum trigger depth exceeded" error when saving m Account.How can a developer fix this error?',
+        'Salesforce users consistently receive a "Maximum trigger depth exceeded" error when saving m Account. How can a developer fix this error?',
       options: [
         "A. Modify the trigger to use the isMultiThread=true annotation.",
         "B. Convert trigger to use the future annotation, and chain any subsequent trigger invocations to the Account object.",
@@ -339,7 +339,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a custom pagination solution for accessing approximately 2000 records and displaying 50 records on each page. Data from Salesforce will be accessed via an API and not via Apex.How can the developer meet these requirements? (Choose two.)",
+        "A developer must create a custom pagination solution for accessing approximately 2000 records and displaying 50 records on each page. Data from Salesforce will be accessed via an API and not via Apex. How can the developer meet these requirements? (Choose two.)",
       options: [
         "A. Use CURSOR 50 in SOQL queries",
         "B. Use LIMIT 50 in SOQL queries",
@@ -387,7 +387,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers implements a private sharing model for the Convention_Attendence_c custom object. As part of a new quality assurance effort, the company created an Event___Reviewer__c user lookup field on the object. Management wants the event reviewer to automatically gain Read/write access to every record they are assigned to.What is the best approach to ensure the assigned reviewer obtains Read/Write access to the record?",
+        "Universal Containers implements a private sharing model for the Convention_Attendence_c custom object. As part of a new quality assurance effort, the company created an Event___Reviewer__c user lookup field on the object. Management wants the event reviewer to automatically gain Read/write access to every record they are assigned to. What is the best approach to ensure the assigned reviewer obtains Read/Write access to the record?",
       options: [
         "A. Create a Before Insert trigger on the Convention Attendee custom object, and use Apex Sharing Reasons and Apex Managed Sharing.",
         "B. Create criteria-based sharing rules on the Convention Attendee custom object to share the records with the Event Reviewers.",
@@ -451,7 +451,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to design a custom object that will be integrated into a back-end system.What should the developer do to ensure good data quality and to ensure that data imports, integrations, and searches perform well? (Choose two.)",
+        "A developer needs to design a custom object that will be integrated into a back-end system. What should the developer do to ensure good data quality and to ensure that data imports, integrations, and searches perform well? (Choose two.)",
       options: [
         "A. Configure a custom field as Salesforce ID",
         "B. Configure a custom field as external ID",
@@ -463,7 +463,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company exposes a REST web service and wants to establish two-way SSL between Salesforce and the REST web service. A certificate signed by an appropriate certificate authority has been provided to the developer.What modification is necessary on the Salesforce side? (Choose two.)",
+        "A company exposes a REST web service and wants to establish two-way SSL between Salesforce and the REST web service. A certificate signed by an appropriate certificate authority has been provided to the developer. What modification is necessary on the Salesforce side? (Choose two.)",
       options: [
         "A. Configure two-factor authentication with the provided certificate",
         "B. Update the code to use HttpRequest.setHeaderQ to set an Authorization header.",
@@ -475,7 +475,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a Lightning page for entering Order Information. An error message should be displayed if the zip code entered as part of the Order's shipping address is not numeric.What is a recommended way for the error message be displayed to the end user?",
+        "A developer needs to create a Lightning page for entering Order Information. An error message should be displayed if the zip code entered as part of the Order's shipping address is not numeric. What is a recommended way for the error message be displayed to the end user?",
       options: [
         "A. Use the apex:message tag to display errors",
         "B. Use the uhoutputText tag to display errors",
@@ -487,7 +487,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Employee_c is a Child object of Company_c. The Company_c object has an external Id field Company_ld_c.How can a developer insert an Employee_c record linked to Company_c with a Company_ld_c of '999'?",
+        "Employee_c is a Child object of Company_c. The Company_c object has an external Id field Company_ld_c. How can a developer insert an Employee_c record linked to Company_c with a Company_ld_c of '999'?",
       options: [
         "A. Employee_c emp = new Employee_c(Name=fDeveloperf); emp.Company_r = new Company _ r(Company Id c=f999f) insert emp;",
         "B. Employee_c emp = new Employee_c(Name=fDeveloperf); emp.Company_r = f999f insert emp;",
@@ -511,7 +511,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer.Which solution meets these business requirements while following best practices?",
+        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer. Which solution meets these business requirements while following best practices?",
       options: [
         "A. Use Platform Events with Workflow Rules and RFID integration to ensure proper tracking of the containers.",
         "B. involve a Salesforce administrator and build out a declarative solution that works in Salesforce desktop and mobile.",
@@ -587,7 +587,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created an Apex class that makes outbound RESTful callout. The following was created to send a fake response in Apex test methods.Which method can be called to return this fake response in the test methods?",
+        "A developer created an Apex class that makes outbound RESTful callout. The following was created to send a fake response in Apex test methods. Which method can be called to return this fake response in the test methods?",
       options: [
         "A. TestsetMock",
         "B. TestcreateStub",
@@ -611,7 +611,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a requirement that addresses on Contacts and Accounts should be normalized to a company standard by Apex code any time that they are saved.What is the optimal way to implement this?",
+        "An org has a requirement that addresses on Contacts and Accounts should be normalized to a company standard by Apex code any time that they are saved. What is the optimal way to implement this?",
       options: [
         "A. Apex trigger on Account and Account that call a helper class to normalize the address",
         "B. Apex trigger on Contact that calls the Account trigger to normalize the address",
@@ -635,7 +635,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create a Visualforce page that allows a user to search for a given account by Name. If the account is found, the account details should be populated on screen. If no account is found, an error message should be displayed to the user.How can this be accomplished? (Choose two.)",
+        "A developer wants to create a Visualforce page that allows a user to search for a given account by Name. If the account is found, the account details should be populated on screen. If no account is found, an error message should be displayed to the user. How can this be accomplished? (Choose two.)",
       options: [
         "A. Use the ApexPages.addMessage() method to add the error message",
         "B. Use the accountaddErrorQ method to add the error message",
@@ -647,7 +647,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Exhibit.A developer created a JavaScript function as a part of a Lightning web component (LWC) that surfaces information... about leads by imperatively calling getFetchLeadList when certain criteria are met.What are these changes the developer should implement in the Apex class above to ensure the LWC can displ... data efficiently while preserving security?Choose 3 answers",
+        "Exhibit.A developer created a JavaScript function as a part of a Lightning web component (LWC) that surfaces information... about leads by imperatively calling getFetchLeadList when certain criteria are met. What are these changes the developer should implement in the Apex class above to ensure the LWC can displ... data efficiently while preserving security? Choose 3 answers",
       options: [
         "A. Implement the with sharing keyword in the class declaration.",
         "B. Annotate the Apex method with gAuraEnabled-",
@@ -672,7 +672,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A corporation has many different Salesforce orgs, with some different objects and some common objects, and wants to build an application that can create, retrieve, and update common object records in all of the different orgs.Which method of integration should the application use?",
+        "A corporation has many different Salesforce orgs, with some different objects and some common objects, and wants to build an application that can create, retrieve, and update common object records in all of the different orgs. Which method of integration should the application use?",
       options: [
         "A. SOAP API with the partner WSDL",
         "B. Metadata API",
@@ -790,7 +790,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A company has a custom object. Order__c, that has a custom picklist field. Status__c, with values of New, In Progress," or Fulfilled and a lookup field, Contact_c, to Contact.Which SOQL query wrii return a unique list of all the Contact records that have no Fulfilled Orders?',
+        'A company has a custom object. Order__c, that has a custom picklist field. Status__c, with values of New, In Progress," or Fulfilled and a lookup field, Contact_c, to Contact. Which SOQL query wrii return a unique list of all the Contact records that have no Fulfilled Orders?',
       options: [
         "A. SELECT id FROM Contact WHERE id NOT IN (SELECT Contact _c FROM order_c Where Status_c = fulfilled')",
         "B. SELECT Contact_c From order_c Where id NOT IN (SELECT id FROM_c Where States_c + Fulfilled')",
@@ -814,7 +814,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is dosed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails.What might be causing the failed assertion?",
+        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is dosed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails. What might be causing the failed assertion?",
       options: [
         "A. The test class has not defined an Account owner when inserting the test data.",
         "B. The test class has not implemented seeAIIData-truwh the test method.",
@@ -826,7 +826,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org contains two custom objects; Building__c and Office__c. Office__c has a Lookup field to Building__c.A developer is asked to automatically populate the Number_of_Offices__c field on the Building__c object with the count of related Office__c records anytime an Office__c record s created or deleted. The developer cannot modify the field types.Which solution meets the requirements?",
+        "An org contains two custom objects; Building__c and Office__c. Office__c has a Lookup field to Building__c.A developer is asked to automatically populate the Number_of_Offices__c field on the Building__c object with the count of related Office__c records anytime an Office__c record s created or deleted. The developer cannot modify the field types. Which solution meets the requirements?",
       options: [
         "A. Process Builder",
         "B. Workflow",
@@ -857,7 +857,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As part of their quoting and ordering process, a company needs to send PDFs to their document storage system's REST endpoint that supports OAuth 2.0. Each Salesforce user must be individually authenticated with the document storage system to send the PDF.What is the optimal way for a developer to implement the authentication to the REST endpoint?",
+        "As part of their quoting and ordering process, a company needs to send PDFs to their document storage system's REST endpoint that supports OAuth 2.0. Each Salesforce user must be individually authenticated with the document storage system to send the PDF. What is the optimal way for a developer to implement the authentication to the REST endpoint?",
       options: [
         "A. Named Credential with Password Authentication",
         "B. Hierarchy Custom Setting with a password custom field",
@@ -869,7 +869,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions must be completed in a Lightning web component for a JavaScript file in a static resource to be loaded?Choose 3 answers",
+        "Which three actions must be completed in a Lightning web component for a JavaScript file in a static resource to be loaded? Choose 3 answers",
       options: [
         "A. Reference the static resource in a <script> tag.",
         "B. Import a method from the platformftesourceLoader,",
@@ -917,7 +917,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "This sales team needs a custom Visualforce page to enter sales orders. When a product is selected on the Visualforce page, a web service is invoked to determine if the product is in stock, and the result is displayed on the page.How can a developer write this page to display the result of the web service and ensure governor limits for concurrent usage are not exceeded?",
+        "This sales team needs a custom Visualforce page to enter sales orders. When a product is selected on the Visualforce page, a web service is invoked to determine if the product is in stock, and the result is displayed on the page. How can a developer write this page to display the result of the web service and ensure governor limits for concurrent usage are not exceeded?",
       options: [
         "A. Use the Salesforce Metadata API in the web service callout.",
         "B. Use visualforce Remoting to handle the web service callout.",
@@ -953,7 +953,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Salesforce instance at Universal Containers currently integrates with a third-party company to validate mailing addresses via REST services. The third-party address verification system recently changed endpoint URLs for all their set vices from https://th-addreaa-service.3pc.com to https://plc1-mailsarvice.3pc.com. Everything else remained the same. The developer updated code to reflect this endpoint change, but the mailing address validation service stopped working after the change.What else should be done to complete this web service end point change?",
+        "The Salesforce instance at Universal Containers currently integrates with a third-party company to validate mailing addresses via REST services. The third-party address verification system recently changed endpoint URLs for all their set vices from https://th-addreaa-service.3pc.com to https://plc1-mailsarvice.3pc.com. Everything else remained the same. The developer updated code to reflect this endpoint change, but the mailing address validation service stopped working after the change. What else should be done to complete this web service end point change?",
       options: [
         "A. Create a new Remote Site for the new endpoint URL.",
         "B. Add web service IP Addresses to Trusted IP Ranges m the Network Access security controls settings.",
@@ -1013,7 +1013,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has code to update a Request and Request Lines and make a callout to their external ERP system's REST endpoint with the updated records.The CalloutUtil. makeRestCallout fails with a 'You have uncommitted work pending. Please commit or rollback before calling out' error. What should be done to address the problem?",
+        "A company has code to update a Request and Request Lines and make a callout to their external ERP system's REST endpoint with the updated records. The CalloutUtil. makeRestCallout fails with a 'You have uncommitted work pending. Please commit or rollback before calling out' error. What should be done to address the problem?",
       options: [
         "A. Remove the Database.setSavepoint and Database.rollback.",
         "B. Change the CalloutUtil.makeRestCallout to an @future method",
@@ -1025,7 +1025,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visualforce page contains an industry select list and displays a table of Accounts that have a matching value in their Industry field.When a user changes the value in the industry select list, the table of Accounts should be automatically updated to show the Accounts associated with the selected industry.What is the optimal way to implement this?",
+        "A Visualforce page contains an industry select list and displays a table of Accounts that have a matching value in their Industry field.When a user changes the value in the industry select list, the table of Accounts should be automatically updated to show the Accounts associated with the selected industry. What is the optimal way to implement this?",
       options: [
         "A. Add an <apex: actionFunction> within the <apex: select List >.",
         "B. Add an <apex: actionSupport> within the <apex:selectList>.",
@@ -1037,7 +1037,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers stores user preferences in a Hierarchy Custom Setting, User_prefs_c, with a Checkbox field, show_Help_c, Company-Level defaults are stored at the organizational level, but may be overridden at the user level, If a user has not overridden preferences, then the defaults should be used.How should the Show_Help_c preference be retrieved for the current user?",
+        "Universal Containers stores user preferences in a Hierarchy Custom Setting, User_prefs_c, with a Checkbox field, show_Help_c, Company-Level defaults are stored at the organizational level, but may be overridden at the user level, If a user has not overridden preferences, then the defaults should be used. How should the Show_Help_c preference be retrieved for the current user?",
       options: [
         "A. Boolean show = User_Prefs_c, getvaluesUserInfo.getUserid() ).Show_Help_c;",
         "B. Boolean show = User_Prefs_c, getValues ( ). Show _Help_c;",
@@ -1049,7 +1049,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is integrated with a legacy on-premises SQL database.What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
+        "A developer is integrated with a legacy on-premises SQL database. What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
       options: [
         "A. Formula field",
         "B. Lookup field",
@@ -1073,7 +1073,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer sees test failures in the sandbox but not in production. No code or metadata changes have been actively made to either environment since the sandbox was created.Which consideration should be checked to resolve the issue?",
+        "A developer sees test failures in the sandbox but not in production. No code or metadata changes have been actively made to either environment since the sandbox was created. Which consideration should be checked to resolve the issue?",
       options: [
         "A. Ensure Workflow Rules are inactive.",
         "B. Ensure the Apex Classes are on the same API version.",
@@ -1085,7 +1085,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Visualforce page that interacts with external services.Which interface should the developer implement to test this functionality? (Choose two.)",
+        "A developer is building a Visualforce page that interacts with external services. Which interface should the developer implement to test this functionality? (Choose two.)",
       options: [
         "A. HTTPCalloutMock",
         "B. HTTPRequestMock",
@@ -1122,7 +1122,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company needs to automatically delete sensitive information after 7 years. This could delete almost a million records every day.How can this be achieved?",
+        "A company needs to automatically delete sensitive information after 7 years. This could delete almost a million records every day. How can this be achieved?",
       options: [
         "A. Schedule an future process to Query records older than 7 years, and then recursively invoke itself in 1,000 record batches to delete them.",
         "B. Schedule a batch Apex process to run every day that Queries and deletes records older than 7 years.",
@@ -1165,7 +1165,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records.What should a developer use to implement this?",
+        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records. What should a developer use to implement this?",
       options: [
         "A. Setup Audit Trail",
         "B. Field History Tracking",
@@ -1207,7 +1207,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a service that will process an email sent to it and create an account and contact using the contents of the email as data for the records.How might a developer accomplish this requirement?",
+        "A developer needs to create a service that will process an email sent to it and create an account and contact using the contents of the email as data for the records. How might a developer accomplish this requirement?",
       options: [
         "A. Use Heroku Data Clips to Process Email",
         "B. Use the Apex Inbound Email Handler",

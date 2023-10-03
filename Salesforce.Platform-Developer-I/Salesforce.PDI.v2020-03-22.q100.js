@@ -78,7 +78,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company would like to send an offer letter to a candidate, have the candidate sign it electronically, and then send the letter back.What can a developer do to accomplish this?",
+        "A company would like to send an offer letter to a candidate, have the candidate sign it electronically, and then send the letter back. What can a developer do to accomplish this?",
       options: [
         "A. Create a visual workflow that will capture the candidate's signature electronically",
         "B. Develop a Process Builder that will send the offer letter and allow the candidate to sign it electronically.",
@@ -90,7 +90,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create a custom object to track Customer Invoices.How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
+        "A developer wants to create a custom object to track Customer Invoices. How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
       options: [
         "A. The Account should have a Lookup relationship to the Invoice",
         "B. The Invoice should have a Lookup relationship to the Account Previous",
@@ -137,7 +137,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c.How can a developer accomplish this?",
+        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c. How can a developer accomplish this?",
       options: [
         "A. By using an Apex trigger with a DML operation.",
         "B. By changing Application_c.Status_c into a roll -up summary field.",
@@ -240,7 +240,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer created a Visualforce page with a custom controller to show a list of accounts. The page uses the<apex:SelecList> component, with a variable called "selection", to show the valid values for Account.Type.The page uses an <apex:pageBlockTable> component to display the list of accounts, where the iteration variable is "acct". The developer wants to ensure that when a user selects a type on the <apex : selectList> component, only accounts with that type are shown on the page. What should the developer do to accomplish this?',
+        'A developer created a Visualforce page with a custom controller to show a list of accounts. The page uses the<apex:SelecList> component, with a variable called "selection", to show the valid values for Account.Type. The page uses an <apex:pageBlockTable> component to display the list of accounts, where the iteration variable is "acct". The developer wants to ensure that when a user selects a type on the <apex : selectList> component, only accounts with that type are shown on the page. What should the developer do to accomplish this?',
       options: [
         "A. Use the onChange event to update the list of accounts in the controller when the value changes, and then re-render the pageBlockTable.",
         "B. Create multiple lists in the controller that represent the relevant accounts for each account type when the page loads, then reference the correct one dynamically on the pageBlockTable.",
@@ -369,7 +369,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The initial value for a number field on a record is 1. A user updated the value of the number field to 10. This action invokes a workflow field update, which changes the value of the number field to 11. After the workflow field update, an update trigger fires.What is the value of the number field of the object that is obtained from Trigger.old?",
+        "The initial value for a number field on a record is 1. A user updated the value of the number field to 10. This action invokes a workflow field update, which changes the value of the number field to 11. After the workflow field update, an update trigger fires. What is the value of the number field of the object that is obtained from Trigger.old?",
       options: ["A. 10", "B. 1", "C. Null", "D. 11"],
       answer: "B",
       title: "Question 32",
@@ -539,7 +539,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer encounters APEX heap limit errors in a trigger.Which two methods should the developer use to avoid this error? (Choose two.)",
+        "A developer encounters APEX heap limit errors in a trigger. Which two methods should the developer use to avoid this error? (Choose two.)",
       options: [
         "A. Use the transient keyword when declaring variables.",
         "B. Remove or set collections to null after use.",
@@ -563,7 +563,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a unit test to confirm that a custom exception works properly in a custom controller, but the test failed due to an exception being thrown.Which step should the developer take to resolve the issue and properly test the exception?",
+        "A developer wrote a unit test to confirm that a custom exception works properly in a custom controller, but the test failed due to an exception being thrown. Which step should the developer take to resolve the issue and properly test the exception?",
       options: [
         "A. Use the finally bloc within the unit test to populate the exception.",
         "B. Use Test.isRunningTest() within the custom controller.",
@@ -745,7 +745,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to set a picklist field to 'Monitor' on any new Leads owned by a subnet of Users.How should the developer implement this request?",
+        "A developer is asked to set a picklist field to 'Monitor' on any new Leads owned by a subnet of Users. How should the developer implement this request?",
       options: [
         "A. Create an after insert Lead trigger.",
         "B. Create a Lead Workflow Rule Field Update.",
@@ -908,7 +908,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a before insert trigger.How can the developer access the incoming records in the trigger body?",
+        "A developer writes a before insert trigger. How can the developer access the incoming records in the trigger body?",
       options: [
         "A. By accessing the Trigger.new context variable.",
         "B. By accessing the Tripper.newList context variable.",
@@ -920,7 +920,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a PDF quote document formatted using the company's branding guidelines, and automatically save it to the Opportunity record.Which two ways should a developer create this functionality? (Choose two.)",
+        "A developer is asked to create a PDF quote document formatted using the company's branding guidelines, and automatically save it to the Opportunity record. Which two ways should a developer create this functionality? (Choose two.)",
       options: [
         "A. Create a Visualforce page with custom styling.",
         "B. Install an application from the AppExchange to generate documents.",
@@ -1132,7 +1132,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the controller class below.Which code block will run successfully in an execute anonymous window?",
+        "A developer has the controller class below. Which code block will run successfully in an execute anonymous window?",
       options: [
         "A. myFooController m = new myFooController();System.assert(m.prop ==0);",
         "B. myFooController m = new myFooController();System.assert(m.prop !=null);",

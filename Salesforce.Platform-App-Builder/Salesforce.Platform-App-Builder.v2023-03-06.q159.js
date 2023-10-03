@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two standard Lightning page components are available in the Lightning App Builder?Choose 2 answers",
+        "Which two standard Lightning page components are available in the Lightning App Builder? Choose 2 answers",
       options: [
         "A. Quick Text",
         "B. Accordion",
@@ -45,7 +45,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks (CK) switched to Lightning Experience and started using Chatter across its global workforce to support its fast-paced sales cycle. CK loves Chatter but struggle with gathering feedback from core team members, including understanding who is available to respond.Which two ways could CK use Chatter to solve this problem?Choose 2 answers",
+        "Cloud Kicks (CK) switched to Lightning Experience and started using Chatter across its global workforce to support its fast-paced sales cycle. CK loves Chatter but struggle with gathering feedback from core team members, including understanding who is available to respond. Which two ways could CK use Chatter to solve this problem? Choose 2 answers",
       options: ["A. Topics", "B. Streams", "C. Out of Office", "D. Polls"],
       answer: "C,D",
       title: "Question 4",
@@ -77,7 +77,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales Managers want to be automatically notified any time there rs a change to an Opportunity Close Date and want these changes to be tracked on the Opportunity.Which two configurations should an app builder recommend?Choose 2 answers",
+        "Sales Managers want to be automatically notified any time there rs a change to an Opportunity Close Date and want these changes to be tracked on the Opportunity. Which two configurations should an app builder recommend? Choose 2 answers",
       options: [
         "A. Enable Feed Tracking on Opportunities.",
         "B. Activate Historical Trending for Opportunities.",
@@ -89,7 +89,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "At Universal Containers, the Account object has a Master-Detail relationship with an Invoice custom object.The App Builder would like to change to a lookup field, but is not able to do so. What could be causing this?",
+        "At Universal Containers, the Account object has a Master-Detail relationship with an Invoice custom object. The App Builder would like to change to a lookup field, but is not able to do so. What could be causing this?",
       options: [
         "A. The invoice must have at least one Master-Detail field for reporting.",
         "B. The Account is included in the workflow on the Invoice object.",
@@ -113,7 +113,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to set up a new opportunity approval process and execute various action items based on the initial submission.Which three action types should an app builder use in the approval process?Choose 3 answers",
+        "Cloud Kicks wants to set up a new opportunity approval process and execute various action items based on the initial submission. Which three action types should an app builder use in the approval process? Choose 3 answers",
       options: [
         "A. Invocable Process Builder",
         "B. Invocable Flow",
@@ -189,7 +189,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Lightning record page that supports both the mobile app and desktop. An app builder has downloaded a custom Lightning component from AppExchange, but users are unable to view the component on mobile devices.What can be the issue?",
+        "Universal Containers has a Lightning record page that supports both the mobile app and desktop. An app builder has downloaded a custom Lightning component from AppExchange, but users are unable to view the component on mobile devices. What can be the issue?",
       options: [
         "A. The record page needs to be activated.",
         "B. The component needs to be activated.",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has two types of applicants, hourly and salary. There are separate record types for each.While all members of the human resource department need to be able to view all applicant records, only the hiring Manager and VP of HR should be able to create salary applicant records.What should the app builder recommend to meet this requirement?",
+        "Universal Containers has two types of applicants, hourly and salary. There are separate record types for each.While all members of the human resource department need to be able to view all applicant records, only the hiring Manager and VP of HR should be able to create salary applicant records. What should the app builder recommend to meet this requirement?",
       options: [
         "A. Configure the hourly record type as the default and instruct non-management users to accept the default record type.",
         "B. Update the org-wide default to private and create a sharing rule for the role of recruiting manager.",
@@ -261,7 +261,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to display a message when an opportunity close date is less than 60 days in the future.What can be used to display different text on the opportunity record depending on the number of days until the target close date?",
+        "Universal Containers wants to display a message when an opportunity close date is less than 60 days in the future. What can be used to display different text on the opportunity record depending on the number of days until the target close date?",
       options: [
         "A. Formula Field",
         "B. Process Builder",
@@ -285,7 +285,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) tracks Account locations in Zip Code, a custom text field with a validation rule to enforce proper formatting of the US ZIP+4 code for UC's orders.What formula should the app builder create on Order to display only the first five digits of Zip Code from the parent Account?",
+        "Universal Containers (UC) tracks Account locations in Zip Code, a custom text field with a validation rule to enforce proper formatting of the US ZIP+4 code for UC's orders. What formula should the app builder create on Order to display only the first five digits of Zip Code from the parent Account?",
       options: [
         "A. TEXT(Account.Zip_Code_c, 5)",
         "B. BEGINS(Account.Zip_Code_r, 5)",
@@ -297,7 +297,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Due to the complexity of the Universal Containers sandbox release schedule and requirements, it is advised that change sets are used as often as possible to migrate from one environment to another.Which three common items can an app builder move when using a change set?Choose 3 answers",
+        "Due to the complexity of the Universal Containers sandbox release schedule and requirements, it is advised that change sets are used as often as possible to migrate from one environment to another. Which three common items can an app builder move when using a change set? Choose 3 answers",
       options: [
         "A. Standard fields",
         "B. Web-to-lead",
@@ -310,7 +310,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "You have Custom Object A & Custom Object B; a record has to be created on B once certain criteria is met A.How can this be achieved?",
+        "You have Custom Object A & Custom Object B; a record has to be created on B once certain criteria is met A. How can this be achieved?",
       options: [
         "A. Lightning Process on Object B",
         "B. APEX Trigger on Object B",
@@ -346,7 +346,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder has downloaded a component from the AppExchange successfully; however, they are unable to add it to the Lightning home page.Which two reasons can be preventing the app builder from being able to add the custom component?Choose 2 answers",
+        "An app builder has downloaded a component from the AppExchange successfully; however, they are unable to add it to the Lightning home page. Which two reasons can be preventing the app builder from being able to add the custom component? Choose 2 answers",
       options: [
         "A. The component is tagged for record pages instead of home pages and is not showing up in the App Builder.",
         "B. My Domain must be deployed to add custom components to the page with the App Builder.",
@@ -369,7 +369,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a single Contact Lightning record page. A component takes up a lot of room on the page and is NOT needed by users with a Marketing profile.What should the app builder use to solve this Issue?",
+        "Universal Containers has a single Contact Lightning record page. A component takes up a lot of room on the page and is NOT needed by users with a Marketing profile. What should the app builder use to solve this Issue?",
       options: [
         "A. AppExchange",
         "B. Component visibility filter",
@@ -441,7 +441,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "At Universal Containers, the Account object has a Master-Detail relationship with an Invoice custom object.The app builder would like to change this to a lookup field, but is not able to do so.What could be causing this?",
+        "At Universal Containers, the Account object has a Master-Detail relationship with an Invoice custom object. The app builder would like to change this to a lookup field, but is not able to do so. What could be causing this?",
       options: [
         "A. The Account record includes Invoice roll-up summary fields.",
         "B. The Account is included in the workflow on the Invoice object.",
@@ -514,7 +514,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks (CK) wants to simultaneously delete a Suppliere record and all Supplierltem__c records if a partnership ends with a supplier.What solution could an app builder use to meet the requirement?",
+        "Cloud Kicks (CK) wants to simultaneously delete a Suppliere record and all Supplierltem__c records if a partnership ends with a supplier. What solution could an app builder use to meet the requirement?",
       options: [
         "A. Many-to-many",
         "B. Master-detail",
@@ -526,7 +526,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Customer services wish to analyze how many open cases there are each day over a period of time.How can they achieve this?",
+        "Customer services wish to analyze how many open cases there are each day over a period of time. How can they achieve this?",
       options: [
         "A. Summary Reports",
         "B. Matrix Reports",
@@ -538,7 +538,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "At Ursa Major Solar there is a requirement for a new field called Planet Details on the Planet object where users can write detailed descriptions that can include pictures and links.What field type should the app builder utilize to fulfill this requirement?",
+        "At Ursa Major Solar there is a requirement for a new field called Planet Details on the Planet object where users can write detailed descriptions that can include pictures and links. What field type should the app builder utilize to fulfill this requirement?",
       options: [
         "A. Long Text Area",
         "B. URL",
@@ -581,7 +581,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In Salesforce Classic, Universal Containers provides access to Salesforce for their Customer Support and Sales Operations teams. Management wants to ensure that when users log in, their home tab provides access to links and documentation that are specifically relevant to their team's function.How can this requirement be met?",
+        "In Salesforce Classic, Universal Containers provides access to Salesforce for their Customer Support and Sales Operations teams. Management wants to ensure that when users log in, their home tab provides access to links and documentation that are specifically relevant to their team's function. How can this requirement be met?",
       options: [
         "A. Create three home page custom components and three layouts; assign user by profile.",
         "B. Create two home page custom components and two layouts; assign to users by profile.",
@@ -629,7 +629,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The VP of Account Management at Universal Containers has requested that all Contacts' mailing postal codes match the associated account's shipping postal code.How can this be enforced using validation rules?",
+        "The VP of Account Management at Universal Containers has requested that all Contacts' mailing postal codes match the associated account's shipping postal code. How can this be enforced using validation rules?",
       options: [
         "A. Create a validation rule using a Not Equal operator.",
         "B. Create a validation rule using a Compare operator.",
@@ -641,7 +641,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal con needs a field on the account to track how many opportunitiesare closing within the next 30 days.What can be used?",
+        "Universal con needs a field on the account to track how many opportunitiesare closing within the next 30 days. What can be used?",
       options: [
         "A. Process builder",
         "B. Workflow rule",
@@ -676,7 +676,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers manages leads in a Lead qualification queue where sales reps can accept ownership of the Lead. Campaign members are required to have a sales owner.What validation rule should an app builder configure?",
+        "Universal Containers manages leads in a Lead qualification queue where sales reps can accept ownership of the Lead. Campaign members are required to have a sales owner. What validation rule should an app builder configure?",
       options: [
         "A. NOT(ISNEW() && ISBLANK(Lead.Owner:Queue.Id))",
         "B. AND(ISNEW(), ISBLANK(Lead.Owner:User.Id))",
@@ -688,7 +688,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers would like to refresh this sandbox every weekend.What type of sandbox should be used to accomplish this?",
+        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers would like to refresh this sandbox every weekend. What type of sandbox should be used to accomplish this?",
       options: [
         "A. Developer Pro",
         "B. Developer",
@@ -700,7 +700,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has deployed custom tabs to Production via changes sets, without including the profile settings or permission sets.What is the settings for the visibility of custom tabs?",
+        "Universal Containers has deployed custom tabs to Production via changes sets, without including the profile settings or permission sets. What is the settings for the visibility of custom tabs?",
       options: [
         "A. Custom tabs are default on for all uses.",
         "B. Custom tabs are hidden for all users.",
@@ -749,7 +749,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal container has included its orders as an external data object into Salesforce. You want to create a relationship between Accounts and the Orders object (one-to-many relationship) leveraging a key field for account which is on both external object and Account.Which relationship do you create?",
+        "Universal container has included its orders as an external data object into Salesforce. You want to create a relationship between Accounts and the Orders object (one-to-many relationship) leveraging a key field for account which is on both external object and Account. Which relationship do you create?",
       options: [
         "A. Lookup Relationship",
         "B. Hierarchical Relationship",
@@ -762,7 +762,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to make sure that all fields on his new custom object are editable to all profiles.What should be checked on field level security?",
+        "A developer wants to make sure that all fields on his new custom object are editable to all profiles. What should be checked on field level security?",
       options: [
         "A. Enable Visible and Read-Only.",
         "B. Enable Visible but Disable Read-Only.",
@@ -799,7 +799,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers would like to refresh this sandbox every weekend.What type of sandbox should be used to accomplish this?",
+        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers would like to refresh this sandbox every weekend. What type of sandbox should be used to accomplish this?",
       options: [
         "A. Partial Copy",
         "B. Developer",
@@ -823,7 +823,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to build a recruiting app that allows for multiple positions to appear on customobjects websites and postings. UC requires a report that shows the related custom objects of postings.Which two items should an app builder configure to implement this?",
+        "Universal Containers wants to build a recruiting app that allows for multiple positions to appear on customobjects websites and postings. UC requires a report that shows the related custom objects of postings. Which two items should an app builder configure to implement this?",
       options: [
         "A. Configure a postings object with lookup field to both positions and websites",
         "B. Configurea postings object with master detail field to both positions and websites",
@@ -883,7 +883,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar wants to provide sales console users with an Incredible experience, with the most-used components easily accessible at all times.What solution can enable reps to see and access these components from anywhere within the app without leaving the pagere where the team is working?",
+        "Ursa Major Solar wants to provide sales console users with an Incredible experience, with the most-used components easily accessible at all times. What solution can enable reps to see and access these components from anywhere within the app without leaving the pagere where the team is working?",
       options: [
         "A. Home page",
         "B. Utility bar",
@@ -895,7 +895,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has two types of customer support processes: Platinum and Diamond. The app builder created separate record types for each process on the Case object. The customer support team should not be able to create new cases with the Diamond record type.How can this requirement be met?",
+        "Universal Containers has two types of customer support processes: Platinum and Diamond. The app builder created separate record types for each process on the Case object. The customer support team should not be able to create new cases with the Diamond record type. How can this requirement be met?",
       options: [
         "A. Update the organization-wide defaults to private.",
         "B. Remove the ability for the support team to create new case records.",
@@ -907,7 +907,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar wants to convert the relationship between Galaxy and Star from a lookup relationship to a master-detail relationship so each Galaxy record can be equipped with a roll-up summary count of Star records.Which two considerations should be made?Choose 2 answers",
+        "Ursa Major Solar wants to convert the relationship between Galaxy and Star from a lookup relationship to a master-detail relationship so each Galaxy record can be equipped with a roll-up summary count of Star records. Which two considerations should be made? Choose 2 answers",
       options: [
         "A. The Galaxy object has fewer than two existing master-detail relationships.",
         "B. The Galaxy object is required to contain existing roll-up summary fields.",
@@ -930,7 +930,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder received a request to extend record access beyond the organization-wide defaults configured.Which two features satisfy this requirement?Choose 2 answers",
+        "An app builder received a request to extend record access beyond the organization-wide defaults configured. Which two features satisfy this requirement? Choose 2 answers",
       options: [
         "A. Sharing Rules",
         "B. Manual Sharing Rules",
@@ -955,7 +955,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers wants to refresh this sandbox every weekend.What type of sandbox should be used to accomplish this?",
+        "Universal Containers wants to test code against a subset of production data that is under 5 GB. Additionally, Universal Containers wants to refresh this sandbox every weekend. What type of sandbox should be used to accomplish this?",
       options: [
         "A. Developer Pro",
         "B. Developer",
@@ -1015,7 +1015,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "At Universal Containers, multiple departments utilize the Case object for different purposes. Some users submit cases while other users provide customer support with case records.What is the minimum required configuration for an app builder to enable different users to see different fields, based on the case type?",
+        "At Universal Containers, multiple departments utilize the Case object for different purposes. Some users submit cases while other users provide customer support with case records. What is the minimum required configuration for an app builder to enable different users to see different fields, based on the case type?",
       options: [
         "A. Record Types, Page Layouts, Field Sets, and Profiles.",
         "B. Record Types, Page Layouts, Permission Sets, and Profiles.",
@@ -1038,7 +1038,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The app builder has just created a Visual Workflow for the VP of Service.Which two Flow be accessed by users? (Choose two.)",
+        "The app builder has just created a Visual Workflow for the VP of Service. Which two Flow be accessed by users? (Choose two.)",
       options: [
         "A. Quick Action",
         "B. Visual Workflow Launcher",
@@ -1069,7 +1069,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs the 18-digit record ID from Opportunity records when exporting data to Excel in order to ensure each record is treated uniquely.What formula should an app builder use to create this new field?",
+        "Universal Containers needs the 18-digit record ID from Opportunity records when exporting data to Excel in order to ensure each record is treated uniquely. What formula should an app builder use to create this new field?",
       options: [
         "A. CASESAFEID(Id)",
         "B. ISNUMBER(Id)",
@@ -1093,7 +1093,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty is building a custom Lightning app to track its expanding solar water collection business.The Lightning app currently contains a custom Lightning record page with standard components.From which two resources should an app builder get custom components to bring into the new Lightning app?Choose 2 answers",
+        "DreamHouse Realty is building a custom Lightning app to track its expanding solar water collection business. The Lightning app currently contains a custom Lightning record page with standard components.From which two resources should an app builder get custom components to bring into the new Lightning app? Choose 2 answers",
       options: [
         "A. AppExchange",
         "B. Import Wizard",
@@ -1116,7 +1116,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A production org includes custom objects containing confidential information. A sandbox is needed that includes data records, excludes all of the confidential objects, and can be refreshed weekly.What steps should an app builder take to meet these requirements?",
+        "A production org includes custom objects containing confidential information. A sandbox is needed that includes data records, excludes all of the confidential objects, and can be refreshed weekly. What steps should an app builder take to meet these requirements?",
       options: [
         "A. Create a Full Sandbox and use a sandbox template.",
         "B. Create a Partial Copy Sandbox and use a sandbox template.",
@@ -1140,7 +1140,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder is creating a Lightning record page and has added Mobile & Lightning Actions to the page layout.What two components could be included on the layout to display the actions?Choose 2 answers",
+        "An app builder is creating a Lightning record page and has added Mobile & Lightning Actions to the page layout. What two components could be included on the layout to display the actions? Choose 2 answers",
       options: [
         "A. Path",
         "B. Activities",
@@ -1152,7 +1152,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For an external object relationship, you can create an external lookup relationship.What type of object(s) can be the parent?",
+        "For an external object relationship, you can create an external lookup relationship. What type of object(s) can be the parent?",
       options: [
         "A. External",
         "B. Standard or Custom",
@@ -1165,7 +1165,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal containers wants to display the real time stock price for each account on the account record page.How should an app builder implement this request?",
+        "Universal containers wants to display the real time stock price for each account on the account record page. How should an app builder implement this request?",
       options: [
         "A. Install a solution from the appexchange",
         "B. Create a lightning web component",
@@ -1213,7 +1213,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has limited in-house development resources, but would like to support online payment processing for its products.What is the recommended solution to meet this requirement?",
+        "Universal Containers has limited in-house development resources, but would like to support online payment processing for its products. What is the recommended solution to meet this requirement?",
       options: [
         "A. Configure Outbound Messaging to send a message to an external Payment Gateway.",
         "B. Install an AppExchange product to provide Payment Gateway processing.",
@@ -1237,7 +1237,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The VP of Marketing wants to broadcast an e-mail to 10,000 contacts in Salesforce on a regular basis, but realizes Salesforce's mass e-mail functionality has a limitation on the number of e-mails that can be sent each day.What action should the app builder take?",
+        "The VP of Marketing wants to broadcast an e-mail to 10,000 contacts in Salesforce on a regular basis, but realizes Salesforce's mass e-mail functionality has a limitation on the number of e-mails that can be sent each day. What action should the app builder take?",
       options: [
         "A. Research and evaluate products available on AppExchange to send mass e-mails.",
         "B. Request Salesforce increase the number of maximum daily e-mails.",
@@ -1272,7 +1272,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers uses a private sharing model for opportunities. This model CANNOT be changed due to a regional structure A new sales operations team has been created. This team needs to perform analysis on Opportunity data, all should have read arid write access to all Opportunities.What are two recommended solutions for the app builder to give the users appropriate access? Choose 2 answers",
+        "Universal Containers uses a private sharing model for opportunities. This model CANNOT be changed due to a regional structure A new sales operations team has been created. This team needs to perform analysis on Opportunity data, all should have read arid write access to all Opportunities. What are two recommended solutions for the app builder to give the users appropriate access? Choose 2 answers",
       options: [
         "A. Create a criteria-based sharing rule to share all opportunities with the sales operations private group",
         "B. Create a criteria based sharing rule to all opportunities with the sales operations public group.",
@@ -1322,7 +1322,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a custom picklist called Support Level on the Account object. They would like to show the real-time value of Support Level on all case records.How should an app builder implement this requirement?",
+        "Universal Containers has a custom picklist called Support Level on the Account object. They would like to show the real-time value of Support Level on all case records. How should an app builder implement this requirement?",
       options: [
         "A. Create a Process Builder and use a field update on the Case object.",
         "B. Create a formula field on the Case object using the TEXT function.",
@@ -1378,7 +1378,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder wants to use Process Builder to automate some of the work being done by the sales team.What are three capabilities of Process Builder that can improve productivity?Choose 3 answers",
+        "An app builder wants to use Process Builder to automate some of the work being done by the sales team. What are three capabilities of Process Builder that can improve productivity? Choose 3 answers",
       options: [
         "A. Delete a related record.",
         "B. Update a related record.",
@@ -1391,7 +1391,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder is loading data into Salesforce. To link new records back to the legacy system, a field will be used to track the legacy ID on the Account object. For future data loads this ID will be used when upserting records.Which two fields attributes should be selected? (Choose two.)",
+        "An app builder is loading data into Salesforce. To link new records back to the legacy system, a field will be used to track the legacy ID on the Account object. For future data loads this ID will be used when upserting records. Which two fields attributes should be selected? (Choose two.)",
       options: [
         "A. Unique",
         "B. External ID",
@@ -1403,7 +1403,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Lightning record page that supports both the mobile app and desktop. An app builder has downloaded a custom Lightning component from AppExchange, but users are unable to view the component on mobile devices.What can be the issue?",
+        "Universal Containers has a Lightning record page that supports both the mobile app and desktop. An app builder has downloaded a custom Lightning component from AppExchange, but users are unable to view the component on mobile devices. What can be the issue?",
       options: [
         "A. The component has been developed for Desktop Pages.",
         "B. The record page needs to be activated.",
@@ -1438,7 +1438,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder has been asked to integrate Salesforce with an external web service. The web service must be notified every time an Opportunity is Won.Which two can satisfy this requirement? (Choose two.)",
+        "An app builder has been asked to integrate Salesforce with an external web service. The web service must be notified every time an Opportunity is Won. Which two can satisfy this requirement? (Choose two.)",
       options: [
         "A. Use a workflow rule and an outbound message.",
         "B. Use Process Builder and Apex code.",
@@ -1450,7 +1450,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales reps at Cloud Kicks (CK) forget to submit for approval when CK needs orders reviewed before close won. CK wants to automatically submit opportunities into the Secure Commitment Stage to eliminate manual submission.Which three features would meet the business requirements'Choose 3 answers",
+        "Sales reps at Cloud Kicks (CK) forget to submit for approval when CK needs orders reviewed before close won. CK wants to automatically submit opportunities into the Secure Commitment Stage to eliminate manual submission. Which three features would meet the business requirements'Choose 3 answers",
       options: [
         "A. Process Builder",
         "B. Workflow",
@@ -1488,7 +1488,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to understand return on investment for the latest advertising buy. They currently use a private security model for all objects.What should an app builder recommend?",
+        "Universal Containers wants to understand return on investment for the latest advertising buy. They currently use a private security model for all objects. What should an app builder recommend?",
       options: [
         "A. Utilize Account Hierarchies and Roil-Up Summary fields",
         "B. Change to a public security model",
@@ -1500,7 +1500,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to make sure that users without the Marketing role are unable to update the Contact Retail Opt In picklist field to Yes.What validation rule would an app builder use to prevent other users from making this update?",
+        "Cloud Kicks wants to make sure that users without the Marketing role are unable to update the Contact Retail Opt In picklist field to Yes. What validation rule would an app builder use to prevent other users from making this update?",
       options: [
         "A. AND( $UserRole.Name = 'Marketing', ISPICKVAL(Retail_Opt_In_c,\"Yes\") )",
         "B. AND( $UserRole.Name != 'Marketing', Retail_Opt_In_c = \"Yes\" )",
@@ -1512,7 +1512,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks has leads owned by users and queues.The sales manager wants the status to change to working when a user takes ownership.What does an app builder need to have in the criteria to ensure the process runs without error?",
+        "Cloud Kicks has leads owned by users and queues. The sales manager wants the status to change to working when a user takes ownership. What does an app builder need to have in the criteria to ensure the process runs without error?",
       options: [
         "A. NOT(ISBLANK([Lead].OwnerId))",
         'B. BEGINS([Lead].OwnerId, ,,005")',
@@ -1524,7 +1524,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers uses a custom picklist field Account Region on the account record. They want this region to be reflected on all related contact records and stay in sync if the value of this field changes on the Account.How should an app builder meet this requirement?",
+        "Universal Containers uses a custom picklist field Account Region on the account record. They want this region to be reflected on all related contact records and stay in sync if the value of this field changes on the Account. How should an app builder meet this requirement?",
       options: [
         "A. Create a formula field on the Contact object > Set the value of the formula to ISPICKVAL(Account.Account_Region__c).",
         "B. Create a picklist field called 'Account Region' on Contact object > Create a workflow rule to update this picklist field if the Account Region field on the Account is changed.",
@@ -1627,7 +1627,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar's sales team has been struggling to enter data on mobile since rollout; the team dislikes scrolling through all of the fields to input only the necessary data.How could the app builder solve this with minimal impact to desktop users?",
+        "Ursa Major Solar's sales team has been struggling to enter data on mobile since rollout; the team dislikes scrolling through all of the fields to input only the necessary data. How could the app builder solve this with minimal impact to desktop users?",
       options: [
         "A. Reorder the fields to make sense for the reps when in the field.",
         "B. Update the training documentation with better screenshots.",
@@ -1723,7 +1723,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers require different fields to be filled out at each stage of the Opportunity sales process.What configuration steps can an app builder use to meet this requirement?",
+        "Universal Containers require different fields to be filled out at each stage of the Opportunity sales process. What configuration steps can an app builder use to meet this requirement?",
       options: [
         "A. Create a Process Builder to prompt the User for field information",
         "B. Add the Path component to the Lightning record page",
@@ -1747,7 +1747,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Field type conversion.Which of the following are true? (Choose two.)",
+        "Field type conversion. Which of the following are true? (Choose two.)",
       options: [
         "A. Data can be lost converting from number to currency (assuming that field lengths are identical).",
         "B. Data can be lost when converting from auto-number to text.",
@@ -1771,7 +1771,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An app builder would like to streamline the user experience by reflecting summarized calculations of specific fields on various objects.Which three field types could be used in roll-up summary fields to accomplish this? (Choose three.)",
+        "An app builder would like to streamline the user experience by reflecting summarized calculations of specific fields on various objects. Which three field types could be used in roll-up summary fields to accomplish this? (Choose three.)",
       options: [
         "A. Currency",
         "B. Percent",
@@ -1796,14 +1796,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar (UMS) has a custom object where they track Galactic Vendors. The object has four custom fields for the Galactic Vendors's location:The UMS's leadership wants these fields to be concatenated into a single formula field on two lines.Which formula fulfills this requirement?A)B)C)D)",
+        "Ursa Major Solar (UMS) has a custom object where they track Galactic Vendors. The object has four custom fields for the Galactic Vendors's location:The UMS's leadership wants these fields to be concatenated into a single formula field on two lines. Which formula fulfills this requirement?A)B)C)D)",
       options: ["A. Option C", "B. Option A", "C. Option D", "D. Option B"],
       answer: "A",
       title: "Question 151",
     },
     {
       content:
-        "Your manager has asked you to create an object with radio buttons that track a rating of 1-5.How will you achieve this?",
+        "Your manager has asked you to create an object with radio buttons that track a rating of 1-5. How will you achieve this?",
       options: [
         "A. Create a dependent picklist that feeds the radio button type field.",
         "B. Create a formula field.",
@@ -1850,7 +1850,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty (DR) is expanding into subsidized housing by partnering with local government entitles. DR uses Sales Cloud and has enabled field history tracking on the Opportunity object. Due to increased Information requirements, the App Dev team is changing Text Area (Long) fields to Rich Text fields to allow for up to 1,000 characters and better descriptions.Which two considerations should be made by the team?",
+        "DreamHouse Realty (DR) is expanding into subsidized housing by partnering with local government entitles. DR uses Sales Cloud and has enabled field history tracking on the Opportunity object. Due to increased Information requirements, the App Dev team is changing Text Area (Long) fields to Rich Text fields to allow for up to 1,000 characters and better descriptions. Which two considerations should be made by the team?",
       options: [
         "A. Data loss may occur when changing custom field types.",
         "B. Field History Tracking records value changes of 255 characters or less.",
@@ -1862,7 +1862,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has created two custom objects called Seminars and Attendees. Organization-wide defaults for those objects have been set to private. Universal Containers wants to set up a new junction object between these objects. A select group of users should be able to edit records in the junction object.Which two steps should an app builder take to configure the proper security?",
+        "Universal Containers has created two custom objects called Seminars and Attendees. Organization-wide defaults for those objects have been set to private. Universal Containers wants to set up a new junction object between these objects. A select group of users should be able to edit records in the junction object. Which two steps should an app builder take to configure the proper security?",
       options: [
         "A. Set Sharing Settings to Read Only on both master-detail relationship fields.",
         "B. Create an owner-based sharing rule that gives Read access to the junction object.",

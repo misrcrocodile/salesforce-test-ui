@@ -78,7 +78,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable.Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
+        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
       options: [
         "A. accountRec.isDeletable()",
         "B. accountRec.sObjectType.isDeletable()",
@@ -127,7 +127,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator.Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
+        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator. Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
       options: [
         "A. Scheduled Jobs",
         "B. Invocable Actions",
@@ -147,7 +147,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
+        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
       options: [
         "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
         "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
@@ -183,7 +183,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 3", "C. 1", "D. 2"],
       answer: "D",
       title: "Question 16",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace.Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
+        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
       options: [
         "A. Declare the class as global and use the public access modifier on the method.",
         "B. Declare the class and method using the public access modifier.",
@@ -321,7 +321,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -357,7 +357,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
+        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
         "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
         "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
@@ -405,7 +405,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Lightning component in Salesforce Classic and a Lightning component in Lightning Experience.",
         "B. Override the Contact's Edit button with a Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience.",
@@ -520,7 +520,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org.How should the Developer overcome this problem?",
+        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org. How should the Developer overcome this problem?",
       options: [
         "A. Use @TestVisible to allow the test method to see the standard PriceBook.",
         "B. Use @IsTest(SeeAllData=true) and delete the existing standard PriceBook.",
@@ -568,7 +568,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Setup Menu",
         "B. Third-party apps from App Exchange",

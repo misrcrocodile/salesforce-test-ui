@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
+        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
       options: [
         "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
         "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
@@ -105,7 +105,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -117,7 +117,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event.The developer is working on a Lightning web component to display the information.",
+        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event. The developer is working on a Lightning web component to display the information.",
       options: [
         "A. import ( subscribe, unsubscribe, onError ) from 'lightning/pubsub'",
         "B. import ( subscribe, unsubscribe, onError ) from 'lightning/ServerUpdate'",
@@ -142,7 +142,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two custom controller extensions where each has a save() method.Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
+        'A developer has two custom controller extensions where each has a save() method. Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
       options: [
         "A. Runtime error will be generated",
         "B. ExtensionA save()",
@@ -177,7 +177,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Opportunity needs to have an amount rolled up from a custom object that is not in a master-detail relationship.How can this be achieved?",
+        "An Opportunity needs to have an amount rolled up from a custom object that is not in a master-detail relationship. How can this be achieved?",
       options: [
         "A. Write a Process Builder that links the custom object to the Opportunity.",
         "B. Write a trigger on the child object and use an aggregate function to sum the amount for all related child objects under the Opportunity",
@@ -189,7 +189,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration chat reads task records is periodically reporting errors.Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
+        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration chat reads task records is periodically reporting errors. Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
       options: [
         "A. Use a try-catch block after the insert statement.",
         "B. Remove the Apex class from the integration user's profile.",
@@ -297,7 +297,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Lightning web component called statusComponent to be inserted into the Account record page.Which two things should the developer do to make the component available?",
+        "A developer created a Lightning web component called statusComponent to be inserted into the Account record page. Which two things should the developer do to make the component available?",
       options: [
         "A. Add <isExposed> true</isExposed> to the statusComponent.js-meta ml file.",
         "B. Add < masterLabel>Account</master Label> to the statusComponent.js-meta ml file.",
@@ -333,7 +333,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
+        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown. How should the developer modify the code to ensure exceptions are handled gracefully?",
       options: [
         "A. Implement the upsert DML statement.",
         "B. Implement a try/catch block for the DML.",
@@ -352,7 +352,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:\n　* Rollup summary fields\n　* Custom validation rules\n　* Duplicate rules\nA developer created a trigger on the Account object.What two things should the developer consider while testing the trigger code? Choose 2 answers",
+        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:\n　* Rollup summary fields\n　* Custom validation rules\n　* Duplicate rules\nA developer created a trigger on the Account object. What two things should the developer consider while testing the trigger code? Choose 2 answers",
       options: [
         "A. Rollup summary fields can cause the parent record to go through Save.",
         "B. The validation rules will cause the trigger to fire again.",
@@ -377,7 +377,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 3", "B. 1", "C. 4", "D. 2"],
       answer: "D",
       title: "Question 32",
@@ -396,7 +396,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Salesforce Administrator created a custom picklist field, Account_status_c, on the a Account object. This picklist has possible values of Inactive'' and Active?As part of a new business process, management wants to ensure an opportunity record is created only for Accounts marked as \"Active\". A developer is asked to implement this business requirement.Which two automation tools should be used to fulfill the business need? Choose 2 answers",
+        "The Salesforce Administrator created a custom picklist field, Account_status_c, on the a Account object. This picklist has possible values of Inactive'' and Active?As part of a new business process, management wants to ensure an opportunity record is created only for Accounts marked as \"Active\". A developer is asked to implement this business requirement. Which two automation tools should be used to fulfill the business need? Choose 2 answers",
       options: [
         "A. Process Builder",
         "B. Workflow Rules",
@@ -420,7 +420,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers has an order system that uses on Order Number to identify an order for customers service agents. Order records will be imported into Salesforce.How should the "Order Number field be defined in Salesforce.',
+        'Universal Containers has an order system that uses on Order Number to identify an order for customers service agents. Order records will be imported into Salesforce. How should the "Order Number field be defined in Salesforce.',
       options: [
         "A. Lookup",
         "B. Indirect Lookup",
@@ -432,7 +432,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator.Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
+        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator. Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
       options: [
         "A. Workflows",
         "B. validation Rules",
@@ -445,7 +445,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A develop created these three roll-up summary fields on the custom object. Project_c:The developer is asked to create a new field that should the ratio between rejected and approved timesheet for a given project.What are two benefits of choosing a formula held instead of an Apex trigger to fulfill the request? Choose 2 answers",
+        "A develop created these three roll-up summary fields on the custom object. Project_c:The developer is asked to create a new field that should the ratio between rejected and approved timesheet for a given project. What are two benefits of choosing a formula held instead of an Apex trigger to fulfill the request? Choose 2 answers",
       options: [
         "A. A test class will validate the formula field during deployment.",
         "B. A formula field will trigger existing automation when deployed.",
@@ -469,7 +469,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the System.Limit class to monitor the current CPU governor limit consumption.",
         "B. Use the Database.Savepoint method to enforce database integrity.",
@@ -517,7 +517,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? Choose 2 answers",
+        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage. Which two strategies should a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a Flow Builder.",
         "B. Use a validation rule.",
@@ -529,7 +529,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. renderAs",
         "B. readOnly",
@@ -554,7 +554,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application. Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Validation Rules", "B. Flow Builder", "C. Process builder"],
       answer: "A,B,C",
       title: "Question 47",
@@ -573,7 +573,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace.Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
+        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
       options: [
         "A. Declare the class as global and use the public access modifier on the method.",
         "B. Declare the class as public and use the global access modifier on the method.",
@@ -585,7 +585,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing an Apex class, a developer wants to make sure that all functionality being developed is handled as specified by the requirements.Which approach should the developer use to be sure that the Apex class is working according to specifications?",
+        "While writing an Apex class, a developer wants to make sure that all functionality being developed is handled as specified by the requirements. Which approach should the developer use to be sure that the Apex class is working according to specifications?",
       options: [
         "A. Include a savepoint and Database. rollback ().",
         "B. Run the code in an Execute Anonymous block in the Developer Console.",
@@ -620,7 +620,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create a custom field on the child object of type External Relationship.",
         "B. Create and populate a custom field on the parent object marked as Unique",
@@ -632,7 +632,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Create test data before Test.startTest() in the unit test.",
         "B. Create a nock using the Stud API",
@@ -681,7 +681,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
+        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
         "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
         "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
@@ -712,7 +712,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project.Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
+        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project. Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
       options: [
         "A. Record-triggered Flow",
         "B. Process Builder",
@@ -748,14 +748,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated.How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated. How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
       options: ["A. 1", "B. 4", "C. 2", "D. 8"],
       answer: "C",
       title: "Question 65",
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -791,7 +791,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record.Which approach should the developer to meet this requirement?",
+        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record. Which approach should the developer to meet this requirement?",
       options: [
         "A. A custom controller",
         "B. A custom controller extension",
@@ -803,7 +803,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom Interface in Apex.Which three considerations must the developer keep in mind while developing the Apex Interface? Choose 3 answers",
+        "A developer needs to create a custom Interface in Apex. Which three considerations must the developer keep in mind while developing the Apex Interface? Choose 3 answers",
       options: [
         "A. The Apex class must be declared using the interface keyword.",
         "B. New methods can be added to a public interface within a released package.",
@@ -816,7 +816,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Visualforce page that displays a table of every Container_c. being ....... Is falling with a view state limit because some of the customers rent over 10,000 containers.What should a developer change about the Visualforce page to help with the page load errors?",
+        "Universal Containers has a Visualforce page that displays a table of every Container_c. being ....... Is falling with a view state limit because some of the customers rent over 10,000 containers. What should a developer change about the Visualforce page to help with the page load errors?",
       options: [
         "A. Implement pagination with an OffsetController.",
         "B. Implement pagination with a StandardSetController,",
@@ -840,7 +840,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Salesforce Administrator used Flow Builder to create a flow named "accountOnboarding". The flow must be used inside an Aura component.Which tag should a developer use to display the flow in the component?',
+        'A Salesforce Administrator used Flow Builder to create a flow named "accountOnboarding". The flow must be used inside an Aura component. Which tag should a developer use to display the flow in the component?',
       options: [
         "A. Lightning-flow",
         "B. Aura-flow",
@@ -913,7 +913,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. workflows can be used to check the record criteria and send an outbound message.",
         "B. Visual Workflow can be used to check the record criteria and send an outbound message without Apex Code.",
@@ -926,7 +926,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe. Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Einstein Next Best Action",
         "B. Record_Triggered Flow",
@@ -962,7 +962,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts. Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Specify lightningCommunity_Page_Layout as a target in the XML file.",
         "B. Ensure isExposed is set to true on the XML file.",
@@ -1010,7 +1010,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Order has a Lookup field to Line Item and there can be many Line Items per Order.",
         "B. Order has a Master-Detail field to Line Item and there can be many Line Items per Order.",
@@ -1022,7 +1022,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders.What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
+        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders. What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
       options: [
         "A. Add without sharing to the Apex class declaration.",
         "B. Change the master-detail relationship to an external lookup relationship.",
@@ -1058,7 +1058,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Developer Console",
         "B. Salesforce Extension for VSCode",
@@ -1070,7 +1070,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
+        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object. Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
       options: [
         "A. Apex trigger",
         "B. Before record-triggered flow",
@@ -1082,7 +1082,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing tracks order information in custom objects called order__c and order_Line_ c - Currently, all shipping information is stored in the order__c object.The company wants to expand Its order application to support split shipments so that any number of order_Line__c records on a single order__c can be shipped to different locations.What should a developer add to fulfill this requirement?",
+        "AW Computing tracks order information in custom objects called order__c and order_Line_ c - Currently, all shipping information is stored in the order__c object. The company wants to expand Its order application to support split shipments so that any number of order_Line__c records on a single order__c can be shipped to different locations. What should a developer add to fulfill this requirement?",
       options: [
         "A. Order_shipment_Group_c object and master-detail field to order_c and Order Line_c",
         "B. Order_shipment_Group_c object and master-detail field on order_shipment_Group_c",
@@ -1118,7 +1118,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has an existing Flow that creates an Opportunity with an Update Records element. A developer update the Flow to also create a Contact and store the created Contact's ID on the Opportunity.Which update should the developer make in the Flow?",
+        "An org has an existing Flow that creates an Opportunity with an Update Records element. A developer update the Flow to also create a Contact and store the created Contact's ID on the Opportunity. Which update should the developer make in the Flow?",
       options: [
         "A. Add a new Update Records element.",
         "B. Add a new Quick Action element(of type Create).",

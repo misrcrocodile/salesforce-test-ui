@@ -17,7 +17,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is wondering whether to use, promise, then or provise, catch especially when a promise throws an error.Which two promises are rejected? Choose 2 answers",
+        "A developer is wondering whether to use, promise, then or provise, catch especially when a promise throws an error. Which two promises are rejected? Choose 2 answers",
       options: [
         "A. New Promise((resolve, reject) => ( throw 'Cool error here')) .catch (error => console (error ));",
         "B. Promise , reject ('Cool error here ') , catch (error => console ,error (error));",
@@ -29,7 +29,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:Which two statements correctly execute the runparallel () function?Choose 2 answers",
+        "Refer to the code below:Which two statements correctly execute the runparallel () function? Choose 2 answers",
       options: [
         "A. runParralel () . then (data );",
         "B. runParallel () , then (function ) (date) { } 0;",
@@ -65,7 +65,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Considering the implications of 'use strict' on line 04, which three statements describe the execution of the code?Choose 3 answers",
+        "Considering the implications of 'use strict' on line 04, which three statements describe the execution of the code? Choose 3 answers",
       options: [
         "A. 'use strict' is hoisted, so it has an effect on all lines.",
         "B. Line 05 throws an error.",
@@ -97,7 +97,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button> The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello".What needs to be done to make this code work as expected?',
+        'A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button> The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello". What needs to be done to make this code work as expected?',
       options: [
         'A. Replace line 02 with button.addEventListener("onclick", function() {',
         "B. Replace line 04 with console.log(input .value);",
@@ -121,7 +121,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create an object from a function in the browser using the code below.What happens due to lack of the new keyword on line 02?",
+        "A developer wants to create an object from a function in the browser using the code below. What happens due to lack of the new keyword on line 02?",
       options: [
         "A. Window. n is assigned the correct object.",
         "B. The a variable is assigned the correct object.",
@@ -133,7 +133,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code:Which two statements could be inserted at line 17 to enable the function call on line 18?Choose 2 answers",
+        "Refer to the following code:Which two statements could be inserted at line 17 to enable the function call on line 18? Choose 2 answers",
       options: [
         "A. 1eo.prototype.roar = ( ) => ( console.log (They\\'re pretty good1'); );",
         "B. 1eo.roar = () => 9 (console.log('They\\'re pretty good1'); 1;",
@@ -188,7 +188,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a class that represents a blog post based on the requirement that aPost should have a body author and view count.The Code shown Below:Class Post {// Insert code hereThis.body =bodyThis.author = author;this.viewCount = viewCount;}}Which statement should be inserted in the placeholder on line 02 to allow for a variable to be setto a new instanceof a Post with the three attributes correctly populated?",
+        "A developer creates a class that represents a blog post based on the requirement that aPost should have a body author and view count. The Code shown Below:Class Post {// Insert code hereThis.body =bodyThis.author = author;this.viewCount = viewCount;}}Which statement should be inserted in the placeholder on line 02 to allow for a variable to be setto a new instanceof a Post with the three attributes correctly populated?",
       options: [
         "A. Function Post (body, author, viewCount) {",
         "B. constructor() {",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'developer removes the HTML class attribute from the checkout button, so now it issimply:<button>Checkout</button>.There is a test to verify the existence of the checkout button, however it looks for a button withclass= "blue". The test fails because no such button is found.Which type of test category describes this test?',
+        'developer removes the HTML class attribute from the checkout button, so now it issimply:<button>Checkout</button>. There is a test to verify the existence of the checkout button, however it looks for a button withclass= "blue". The test fails because no such button is found. Which type of test category describes this test?',
       options: [
         "A. False positive",
         "B. True positive",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer wants to test the array shown:const arr = Array(5).fill(0)Which two tests are the most accurate for this array ?Choose 2 answers:",
+        "The developer wants to test the array shown:const arr = Array(5).fill(0)Which two tests are the most accurate for this array ? Choose 2 answers:",
       options: [
         "A. console.assert (arr.length >0);",
         "B. console.assert( arr.length === 5 );",
@@ -272,7 +272,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:A developer needs to dispatch a custom event called update to send information about recordId.Which two options could a developer insert at the placeholder in line 02 to achieve this? Choose 2 answers",
+        "Refer to the code below:A developer needs to dispatch a custom event called update to send information about recordId. Which two options could a developer insert at the placeholder in line 02 to achieve this? Choose 2 answers",
       options: [
         "A. 'update' , '123abc'",
         "B. {type ; update ', recordId : '123abc')",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button>The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello".What needs to be done make this code work as expected?',
+        'A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button>The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello". What needs to be done make this code work as expected?',
       options: [
         'A. Replace line 02 with button.addCallback("click", function() {',
         "B. Replace line 04 with console.log(input .value);",
@@ -308,7 +308,7 @@ window.testContent[testName].testList.push({
       title: "Question 27",
     },
     {
-      content: "Which two console logs output NaN?Choose 2 answers | |",
+      content: "Which two console logs output NaN? Choose 2 answers | |",
       options: [
         "A. console.log(parseInt ' (\"two')) ;",
         "B. console.log(10 / Number('5) ) ;",
@@ -339,7 +339,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two unique feature of function defined with a fat arror as compared to normal functional definition?Choose 2 answers",
+        "What are two unique feature of function defined with a fat arror as compared to normal functional definition? Choose 2 answers",
       options: [
         "A. The function uses the this from the enclosing scope.",
         "B. The function receives an argument that is always in scope, called parent this, which is the enclosing lexical scope",
@@ -350,7 +350,7 @@ window.testContent[testName].testList.push({
       title: "Question 31",
     },
     {
-      content: "Given the code below.What is logged to the console?",
+      content: "Given the code below. What is logged to the console?",
       options: ["A. 231", "B. 123", "C. 213", "D. 132"],
       answer: "A",
       title: "Question 32",
@@ -381,7 +381,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A Option B?',
+        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A Option B?',
       options: [
         "A. 1000 growl method is created for Option A. 1 growl methods are created for Option B.",
         "B. 1 growl method is created regardless of which option is used.",
@@ -441,14 +441,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is trying to handle an error within a function.Which code segment shows the correct approach to handle an error without propagating it elsewhere?A)B)C)D)",
+        "A developer is trying to handle an error within a function. Which code segment shows the correct approach to handle an error without propagating it elsewhere?A)B)C)D)",
       options: ["A. Option B", "B. Option A", "C. Option C", "D. Option D"],
       answer: "D",
       title: "Question 40",
     },
     {
       content:
-        "A developer wants to define a function log to be used a few times on a single-file JavaScript script.01 // Line 1 replacement02 console.log('\"LOG:', logInput);03 }Which two options can correctly replace line 01 and declare the function for use?Choose 2 answers",
+        "A developer wants to define a function log to be used a few times on a single-file JavaScript script.01 // Line 1 replacement02 console.log('\"LOG:', logInput);03 }Which two options can correctly replace line 01 and declare the function for use? Choose 2 answers",
       options: [
         "A. const log = (logInput) => {",
         "B. function log = (logInput) {",
@@ -460,7 +460,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates an object where its properties should be immutable and prevent properties from being added or modified.Which method should be used to execute this business requirement?",
+        "A developer creates an object where its properties should be immutable and prevent properties from being added or modified. Which method should be used to execute this business requirement?",
       options: [
         "A. Object. filebase ( )",
         "B. Object. Lock ( )",
@@ -515,7 +515,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to debug a Node.js web server because a runtime error keeps occurring at one of the endpoints.The developer wants to test the endpoint on a local machine and make the request against a local server to look at the behavior. In the source code, the server, js file will start the server. the developer wants to debug the Node.js server only using the terminal.Which command can the developer use to open the CLI debugger in their current terminal window?",
+        "A developer needs to debug a Node.js web server because a runtime error keeps occurring at one of the endpoints. The developer wants to test the endpoint on a local machine and make the request against a local server to look at the behavior. In the source code, the server, js file will start the server. the developer wants to debug the Node.js server only using the terminal. Which command can the developer use to open the CLI debugger in their current terminal window?",
       options: [
         "A. node start inspect server,js",
         "B. node inspect server,js",
@@ -534,7 +534,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is setting up a new Node.js server with a client library that is built using events and callbacks.The library:* Will establish a web socket connection and handle receipt of messages to the server* Will be imported with require, and made available with a variable called we.The developer also wants to add error logging if a connection fails.Given this info, which code segment shows the correct way to set up a client with two events that listen at execution time?",
+        "A developer is setting up a new Node.js server with a client library that is built using events and callbacks. The library:* Will establish a web socket connection and handle receipt of messages to the server* Will be imported with require, and made available with a variable called we. The developer also wants to add error logging if a connection fails.Given this info, which code segment shows the correct way to set up a client with two events that listen at execution time?",
       options: [
         "A. ws.connect (( ) => {console.log('connected to client'); }).catch((error) => { console.log('ERROR' , error); }};",
         "B. ws.on ('connect', ( ) => {console.log('connected to client'); ws.on('error', (error) => { console.log('ERROR' , error); });});",
@@ -558,7 +558,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has an ErrorMandler module that contains multiple functions.What kind of export should be leveraged so that multiple function can be used?",
+        "A developer has an ErrorMandler module that contains multiple functions. What kind of export should be leveraged so that multiple function can be used?",
       options: ["A. Multi", "B. All", "C. default", "D. Named"],
       answer: "D",
       title: "Question 51",
@@ -637,7 +637,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:Line 05 causes an error.What are the values of greeting and salutation once code completes?",
+        "Refer to the code below:Line 05 causes an error. What are the values of greeting and salutation once code completes?",
       options: [
         "A. Greeting is Hello and salutation is Hello, Hello.",
         "B. Greeting is Goodbye and salutation is Hello, Hello.",
@@ -649,7 +649,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use a try...catch statement to catch any error that countSheep () may throw and pass it to a handleError () function.What is the correct implementation of the try...catch?A)B)C)D)",
+        "A developer wants to use a try...catch statement to catch any error that countSheep () may throw and pass it to a handleError () function. What is the correct implementation of the try...catch?A)B)C)D)",
       options: ["A. Option ", "B. Option ", "C. Option", "D. Option "],
       answer: "C",
       title: "Question 59",
@@ -668,7 +668,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:01 const exec = (item, delay) =>{02 new Promise(resolve => setTimeout( () => resolve(item), delay)),03 async function runParallel() {04 Const (result1, result2, result3) = await Promise.all{05 [exec ('x', '100') , exec('y', 500), exec('z', '100')]06 );07 return `parallel is done: $(result1) $(result2)$(result3)`;08 }}}Which two statements correctly execute the runParallel () function?Choose 2 answers",
+        "Refer to the code below:01 const exec = (item, delay) =>{02 new Promise(resolve => setTimeout( () => resolve(item), delay)),03 async function runParallel() {04 Const (result1, result2, result3) = await Promise.all{05 [exec ('x', '100') , exec('y', 500), exec('z', '100')]06 );07 return `parallel is done: $(result1) $(result2)$(result3)`;08 }}}Which two statements correctly execute the runParallel () function? Choose 2 answers",
       options: [
         "A. runParallel () .then(data);",
         "B. Async runParallel () .then(data);",
@@ -710,7 +710,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is working on an ecommerce website where the delivery date is dynamically calculated based on the current day. The code line below is responsible for this calculation.Const deliveryDate = new Date ();Due to changes in the business requirements, the delivery date must now be today's date + 9 days.Which code meets this new requirement?",
+        "A developer is working on an ecommerce website where the delivery date is dynamically calculated based on the current day. The code line below is responsible for this calculation.Const deliveryDate = new Date ();Due to changes in the business requirements, the delivery date must now be today's date + 9 days. Which code meets this new requirement?",
       options: [
         "A. deliveryDate.setDate( Date.current () + 9);",
         "B. deliveryDate.setDate(( new Date ( )).getDate () +9);",
@@ -757,7 +757,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer wants to use a module named universalContainersLib and them call functions from it.How should a developer import every function from the module and then call the fuctions foo and bar ?",
+        "developer wants to use a module named universalContainersLib and them call functions from it. How should a developer import every function from the module and then call the fuctions foo and bar ?",
       options: [
         "A. import * ad lib from '/path/universalContainersLib.js';lib.foo();lib.bar();",
         "B. import * from '/path/universalContaineraLib.js';universalContainersLib.foo();universalContainersLib.bar();",
@@ -769,7 +769,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) notices that its application that allows users to search for accounts makes a network request each time a key is pressed. This results in too many requests for the server to handle.* Address this problem, UC decides to implement a debounce function on string change handler.What are three key steps to implement this debounce function?Choose 3 answers:",
+        "Universal Containers (UC) notices that its application that allows users to search for accounts makes a network request each time a key is pressed. This results in too many requests for the server to handle.* Address this problem, UC decides to implement a debounce function on string change handler. What are three key steps to implement this debounce function? Choose 3 answers:",
       options: [
         "A. Ensure that the network request has the property debounce set to true.",
         "B. Store the timeId of the setTimeout last enqueued by the search string change handle.",
@@ -782,7 +782,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote the following code:01 let X = object.value;0203 try {04 handleObjectValue(X);05 } catch (error) {06 handleError(error);07 }The developer has a getNextValue function to execute after handleObjectValue(), butdoes not want to execute getNextValue() if an error occurs.How can the developer change the code to ensure this behavior?",
+        "A developer wrote the following code:01 let X = object.value;0203 try {04 handleObjectValue(X);05 } catch (error) {06 handleError(error);07 }The developer has a getNextValue function to execute after handleObjectValue(), butdoes not want to execute getNextValue() if an error occurs. How can the developer change the code to ensure this behavior?",
       options: [
         "A. 03 try {04 handleObjectValue(x)05 ........................",
         "B. 03 try{04 handleObjectValue(x);05 } catch(error){06 handleError(error);07 } finally {08 getNextValue();10 }",
@@ -794,7 +794,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer implements a function that adds a few values.Which three options can the developer invoke for this function to get a return vale of 10? Choose 3 answers",
+        "A developer implements a function that adds a few values. Which three options can the developer invoke for this function to get a return vale of 10? Choose 3 answers",
       options: [
         "A. Sum (5) (5)",
         "B. Sum (10) ()",
@@ -807,14 +807,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a generic function to log custom messages In the console. To do this, the function below is implemented.Which three console logging methods allow the use of string substitution in line 02?Choose 3 answers",
+        "A developer creates a generic function to log custom messages In the console. To do this, the function below is implemented. Which three console logging methods allow the use of string substitution in line 02? Choose 3 answers",
       options: ["A. error", "B. Info", "C. Message", "D. Assert", "E. Log"],
       answer: "A,C,D",
       title: "Question 73",
     },
     {
       content:
-        "A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds.What is the correct syntax to schedule this function?",
+        "A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds. What is the correct syntax to schedule this function?",
       options: [
         "A. setTimeout ('formatName', 5000, 'John\", \"Doe');",
         'B. setTimeout (formatName(), 5000, "John", "BDoe");',
@@ -826,7 +826,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that imports a module named Utills,Which two implementations of Utill, je export foo and bar such that the code above runs without error?Choose 2 answers",
+        "Refer to the following code that imports a module named Utills,Which two implementations of Utill, je export foo and bar such that the code above runs without error? Choose 2 answers",
       options: [
         "A. Const foo = ( ) => ( return 'foo; ; )Const bar => => { return 'bar ';}Export default foo, bar;",
         "B. //FooUtill.js and barUtils, js existImport (foo) from ,/Path/footUtils.js,:Export (foo, bar)",
@@ -857,7 +857,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object?Choose 2 answers',
+        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object? Choose 2 answers',
       options: [
         "A. userInformation(email)",
         'B. userInformation("email")',
@@ -876,7 +876,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has code that calculates a restaurant bill, but generates incorrect answers while testing the code.Which option allows the developer to step into each function execution within calculateBill?",
+        "A developer has code that calculates a restaurant bill, but generates incorrect answers while testing the code. Which option allows the developer to step into each function execution within calculateBill?",
       options: [
         "A. Using the debugger command on line 05.",
         "B. Wrapping findsubtotal in a console .log method.",
@@ -888,7 +888,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a fizzbuzz function that when passed in a number, returns the following:* 'Fizz' if the number is divisible by 3.* 'Buzz' if the number is divisible by 5.* 'Fizzbuzz' if the number is divisible by both 3 and 5.* Empty string if the number is divisible by neither 3 or 5.Which two test cases will properly test scenarios for the fizzbuzz function?Choose 2 answers",
+        "A developer wrote a fizzbuzz function that when passed in a number, returns the following:* 'Fizz' if the number is divisible by 3.* 'Buzz' if the number is divisible by 5.* 'Fizzbuzz' if the number is divisible by both 3 and 5.* Empty string if the number is divisible by neither 3 or 5. Which two test cases will properly test scenarios for the fizzbuzz function? Choose 2 answers",
       options: [
         "A. let res = fizzbuzz(15);console.assert ( res === ' fizzbuzz ' )",
         "B. let res = fizzbuzz(3);console.assert ( res === ' buzz ' )",
@@ -900,7 +900,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to fix some bugs reported by users. To do that, the developer adds a breakpoint for debugging.Function Car (maxSpeed, color){This.maxspeed =masSpeed;This.color = color;Let carSpeed = document.getElementById(' CarSpeed');Debugger;Let fourWheels =new Car (carSpeed.value, 'red');When the code execution stops at the breakpoint on line 06, which two types of information are available in the browser console ?Choose 2 answers:",
+        "A developer is asked to fix some bugs reported by users. To do that, the developer adds a breakpoint for debugging.Function Car (maxSpeed, color){This.maxspeed =masSpeed;This.color = color;Let carSpeed = document.getElementById(' CarSpeed');Debugger;Let fourWheels =new Car (carSpeed.value, 'red');When the code execution stops at the breakpoint on line 06, which two types of information are available in the browser console ? Choose 2 answers:",
       options: [
         "A. The values of the carSpeed and fourWheels variables",
         "B. A variable displaying the number of instances created for the Car Object.",
@@ -924,7 +924,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:A developer uses a client that makes a GET request that uses a promise to handle the request, getRequest returns a promise.Which code modification can the developer make to gracefully handle an error?A)B)C)D)",
+        "Refer to the code below:A developer uses a client that makes a GET request that uses a promise to handle the request, getRequest returns a promise. Which code modification can the developer make to gracefully handle an error?A)B)C)D)",
       options: ["A. Option B", "B. Option C", "C. Option D", "D. Option A"],
       answer: "D",
       title: "Question 84",
@@ -967,7 +967,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use a module named universalContainerLib and then call functions from it.How should a developer import every function from the module and then call the functions foo and bar?",
+        "A developer wants to use a module named universalContainerLib and then call functions from it. How should a developer import every function from the module and then call the functions foo and bar?",
       options: [
         "A. import + from '/path/universalContainerLib.js''universalContainersLib.foo( ) ;universalContainersLib bar ( ) :",
         "B. import - as lib from '/path/universalContainerLib.js''lib.foo( ) ;lib. bar ( ) ;",
@@ -979,7 +979,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has two ways to write a function:After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A and Option B?",
+        "A developer has two ways to write a function:After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A and Option B?",
       options: [
         "A. 1000 growl methods are created regardless of which option is used.",
         "B. 1000 growl methods are created for Option A. 1 growl method is created for Option B.",
@@ -991,7 +991,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer at Universal Containers creates a new landing page based on HTML, CSS, andJavaScript TO ensure that visitors have a good experience, a script named personaliseContextneeds to be executed when the webpage is fully loaded (HTML content and all related files ), inorder to do some custom initialization.Which statement should be used to call personalizeWebsiteContent based on the abovebusiness requirement?",
+        "A developer at Universal Containers creates a new landing page based on HTML, CSS, andJavaScript TO ensure that visitors have a good experience, a script named personaliseContextneeds to be executed when the webpage is fully loaded (HTML content and all related files ), inorder to do some custom initialization. Which statement should be used to call personalizeWebsiteContent based on the abovebusiness requirement?",
       options: [
         "A. Document.addEventListener('''DOMContextLoaded' , personalizeWebsiteContext);",
         "B. window.addEventListener('onload', personalizeWebsiteContext);",
@@ -1031,14 +1031,14 @@ window.testContent[testName].testList.push({
         "A. .then ( ) manipulates and returns the original promise.",
         "B. Agruments for the callback function passed to .then ( ) are optional.",
         "C. In a , them ( ) function, returning results is not necessary since callback will catch the result of a previous promise.",
-        "D. .Them ( ) cannot be added after a catch.",
+        "D. . Them ( ) cannot be added after a catch.",
       ],
       answer: "B",
       title: "Question 93",
     },
     {
       content:
-        "Refer to the following code that imports a module named utils:import (foo, bar) from '/path/Utils.js';foo() ;bar() ;Which two implementations of Utils.js export foo and bar such that the code above runs without error?Choose 2 answers",
+        "Refer to the following code that imports a module named utils:import (foo, bar) from '/path/Utils.js';foo() ;bar() ;Which two implementations of Utils.js export foo and bar such that the code above runs without error? Choose 2 answers",
       options: [
         "A. // FooUtils.js and BarUtils.js existImport (foo) from '/path/FooUtils.js';Import (boo) from ' /path/NarUtils.js';",
         "B. const foo = () => { return 'foo' ; }const bar = () => { return 'bar' ; }export { bar, foo }",
@@ -1074,7 +1074,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three browser specific APIs are available for developer to persist data between page loads?Choose 3 answers",
+        "Which three browser specific APIs are available for developer to persist data between page loads? Choose 3 answers",
       options: [
         "A. localStorage",
         "B. cookies",
@@ -1087,7 +1087,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer wants to test this code:Const toNumber =(strOrNum) => strOrNum;Which two tests are most accurate for this code?Choose 2 answers",
+        "The developer wants to test this code:Const toNumber =(strOrNum) => strOrNum;Which two tests are most accurate for this code? Choose 2 answers",
       options: [
         "A. console.assert(toNumber('-3') < 0);",
         "B. console.assert(Number.isNaN(toNumber()));",
@@ -1099,7 +1099,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer receives a comment from the Tech lead that the code below gives an error.Which line edit should be made to make this code run?",
+        "A developer receives a comment from the Tech lead that the code below gives an error. Which line edit should be made to make this code run?",
       options: [
         "A. 01 let monthname = 'July ';",
         "B. 02 const year = 2020;",
@@ -1123,7 +1123,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is leading the creating of a new browser application that will server a single page application. The team wants to use a new web framework Minialist.js. The lead developer wants to advocate for a more seasoned wen framework that already has a community around it.Which two frameworks should the load developer advocate for?",
+        "A developer is leading the creating of a new browser application that will server a single page application. The team wants to use a new web framework Minialist.js. The lead developer wants to advocate for a more seasoned wen framework that already has a community around it. Which two frameworks should the load developer advocate for?",
       options: ["A. Vue", "B. Koa", "C. Angular", "D. Express"],
       answer: "C,D",
       title: "Question 101",
@@ -1137,7 +1137,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A team that works on a big project uses npm to deal with the project's dependencies.A developer added a dependency to manipulated dates and pushed the updates to the remote repository. The rest of the team complains that the dependency does not get download when they execute npm install.Which two reason could be possible explanation for this?",
+        "A team that works on a big project uses npm to deal with the project's dependencies.A developer added a dependency to manipulated dates and pushed the updates to the remote repository. The rest of the team complains that the dependency does not get download when they execute npm install. Which two reason could be possible explanation for this?",
       options: [
         "A. The developer added the dependency as a dev dependency, and NOOK_ENV is set to production.",
         "B. The developer added the dependency as a dev dependency, and NODK_ENV is set to production.",
@@ -1149,7 +1149,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code snippet:A developer writes this code to return a message to a user attempting to register a new username. If the username is available, a variable named msg is declared and assigned a value on line 03.What is the return of msg when getivelibilityMessage ('' bewUserName') is executed and getAvailability (''newUserName'') returns false?",
+        "Refer to the code snippet:A developer writes this code to return a message to a user attempting to register a new username. If the username is available, a variable named msg is declared and assigned a value on line 03. What is the return of msg when getivelibilityMessage ('' bewUserName') is executed and getAvailability (''newUserName'') returns false?",
       options: [
         "A. ''Username available''",
         "B. ''msg is not defined''",
@@ -1239,7 +1239,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a new web server that uses Node.js. It imports a server library that uses events and callbacks for handling server functionality.The server library is imported with require and is made available to the code by a variable named server. The developer wants to log any issues that the server has while booting up.Given the code and the information the developer has, which code logs an error at boot time with an event?A)B)C)D)",
+        "A developer creates a new web server that uses Node.js. It imports a server library that uses events and callbacks for handling server functionality. The server library is imported with require and is made available to the code by a variable named server. The developer wants to log any issues that the server has while booting up.Given the code and the information the developer has, which code logs an error at boot time with an event?A)B)C)D)",
       options: ["A. Option B", "B. Option C", "C. Option A", "D. Option D"],
       answer: "B",
       title: "Question 112",
@@ -1258,7 +1258,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer wants to use a module named universalContainersLib and them call functionsfrom it.How should a developer import every function from the module and then call the fuctions fooand bar ?",
+        "developer wants to use a module named universalContainersLib and them call functionsfrom it. How should a developer import every function from the module and then call the fuctions fooand bar ?",
       options: [
         "A. import * from '/path/universalContaineraLib.js';universalContainersLib.foo();universalContainersLib.bar();",
         "B. import all from '/path/universalContaineraLib.js';universalContainersLib.foo();universalContainersLib.bar();",
@@ -1294,7 +1294,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.UC is thinking about reusability and how each team can benefit from the work of others.Going open-source or public is not an option at this time.Which option is available to UC with npm?",
+        "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.UC is thinking about reusability and how each team can benefit from the work of others.Going open-source or public is not an option at this time. Which option is available to UC with npm?",
       options: [
         "A. Private registries are not supported by npm, but packages can be installed via URL.",
         "B. Private registries are not supported by npm, but packages can be installed via git.",
@@ -1318,7 +1318,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer implements a function that adds a few values.Function sum(num) {If (num == undefined) {Num =0;}Return function( num2, num3){If (num3 === undefined) {Num3 =0 ;}Return num + num2 + num3;}}Which three options can the developer invoke for this function to get a return value of 10 ?Choose 3 answers",
+        "A developer implements a function that adds a few values.Function sum(num) {If (num == undefined) {Num =0;}Return function( num2, num3){If (num3 === undefined) {Num3 =0 ;}Return num + num2 + num3;}}Which three options can the developer invoke for this function to get a return value of 10 ? Choose 3 answers",
       options: [
         "A. sum(5)(5)",
         "B. sum() (5, 5)",
@@ -1402,7 +1402,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is working on an ecommerce website where the delivery date is dynamicallycalculated based on the current day. The code line below is responsible for this calculation.Const deliveryDate = new Date ();Due to changes in the business requirements, the delivery date must now be today'sdate + 9 days.Which code meets this new requirement?",
+        "A developer is working on an ecommerce website where the delivery date is dynamicallycalculated based on the current day. The code line below is responsible for this calculation.Const deliveryDate = new Date ();Due to changes in the business requirements, the delivery date must now be today'sdate + 9 days. Which code meets this new requirement?",
       options: [
         "A. deliveryDate.setDate(( new Date ( )).getDate () +9);",
         "B. deliveryDate.date = Date.current () + 9;",
@@ -1468,7 +1468,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A test has a dependency on database. query. During the test, the dependency is replaced with an object called database with the method,Calculator query, that returns an array. The developer does not need to verify how many times the method has been called.Which two test approaches describe the requirement?Choose 2 answers",
+        "A test has a dependency on database. query. During the test, the dependency is replaced with an object called database with the method,Calculator query, that returns an array. The developer does not need to verify how many times the method has been called. Which two test approaches describe the requirement? Choose 2 answers",
       options: [
         "A. Stubbing",
         "B. Black box",
@@ -1487,7 +1487,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following array:Let arr = [1, 2, 3, 4, 5];Which three options result in x evaluating as (3, 4, 5)?Choose 3 answers",
+        "Refer to the following array:Let arr = [1, 2, 3, 4, 5];Which three options result in x evaluating as (3, 4, 5)? Choose 3 answers",
       options: [
         "A. Let x = arr.aplice (2, 3);",
         "B. Let x = arr. Slince (2, 3);",
@@ -1500,7 +1500,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:A developer import a library that creates a web server. the imported library uses events and callback to start the server.Which code should be inserted at line 03 to set up an event and start the web server?",
+        "Refer to the code below:A developer import a library that creates a web server. the imported library uses events and callback to start the server. Which code should be inserted at line 03 to set up an event and start the web server?",
       options: [
         "A. Server. on ('connet' , (port) => (Console.log (Listening on' port);}};",
         "B. Server .start();",
@@ -1524,7 +1524,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A team that works on a big project uses npm to deal with projects dependencies.A developer added a dependency does not get downloaded when they execute npm install.Which two reasons could be possible explanations for this?Choose 2 answers",
+        "A team that works on a big project uses npm to deal with projects dependencies.A developer added a dependency does not get downloaded when they execute npm install. Which two reasons could be possible explanations for this? Choose 2 answers",
       options: [
         "A. The developer added the dependency as a dev dependency, and NODE_ENV is set to production.",
         "B. The developer missed the option --save when adding the dependency.",

@@ -166,7 +166,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A platform developer at Universal Containers needs to create a custom button for the Account object that, when clicked, will perform a series of calculations and redirect the user to a custom Visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? (Choose three.)",
+        "A platform developer at Universal Containers needs to create a custom button for the Account object that, when clicked, will perform a series of calculations and redirect the user to a custom Visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? (Choose three.)",
       options: [
         "A. readOnly",
         "B. action",
@@ -234,7 +234,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a PDF quote document formatted using the company's branding guidelines, and automatically save it to the Opportunity record.Which two ways should a developer create this functionality? (Choose two.)",
+        "A developer is asked to create a PDF quote document formatted using the company's branding guidelines, and automatically save it to the Opportunity record. Which two ways should a developer create this functionality? (Choose two.)",
       options: [
         "A. Create a Visualforce page with custom styling.",
         "B. Install an application from the AppExchange to generate documents.",
@@ -294,7 +294,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The operation manager at a construction company uses a custom object called Machinery to manage the usage and maintenance of its cranes and other machinery. The manager wants to be able to assign machinery to different constructions jobs, and track the dates and costs associated with each job. More than one piece of machinery can be assigned to one construction job.What should a developer do to meet these requirements?",
+        "The operation manager at a construction company uses a custom object called Machinery to manage the usage and maintenance of its cranes and other machinery. The manager wants to be able to assign machinery to different constructions jobs, and track the dates and costs associated with each job. More than one piece of machinery can be assigned to one construction job. What should a developer do to meet these requirements?",
       options: [
         "A. Create a lookup field on the Construction Job object to the Machinery object.",
         "B. Create a lookup field on the Machinery object to the Construction Job object.",
@@ -394,7 +394,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? (Choose two.)",
+        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage. Which two strategies should a developer use to accomplish this? (Choose two.)",
       options: [
         "A. Use a validation rule.",
         "B. Use a Trigger.",
@@ -502,7 +502,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In a single record, a user selects multiple values from a multi-select picklist.How are the selected values represented in Apex?",
+        "In a single record, a user selects multiple values from a multi-select picklist. How are the selected values represented in Apex?",
       options: [
         "A. As a String with each value separated by a comma",
         "B. As a Set<String> with each value as an element in the set",
@@ -617,7 +617,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visual force page displays two fields named Phone Number and Email.User1 has access to Phone Number, but not to Email.User2 has access to Email, but not Phone NumberA developer needs to ensure that User1 can only see Phone Number, and User2 can only see Email.Which method can the developer use to achieve this?",
+        "A Visual force page displays two fields named Phone Number and Email.User1 has access to Phone Number, but not to Email.User2 has access to Email, but not Phone NumberA developer needs to ensure that User1 can only see Phone Number, and User2 can only see Email. Which method can the developer use to achieve this?",
       options: [
         "A. Schema isReadable() method.",
         "B. Schema isUpdateable() method.",
@@ -863,7 +863,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create a custom object to track Customer Invoices.How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
+        "A developer wants to create a custom object to track Customer Invoices. How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
       options: [
         "A. The Invoice should have a Master-Detail relationship to the Account",
         "B. The Account should have a Master-Detail relationship to the Invoice.",
@@ -875,7 +875,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A change set deployment from a sandbox to production fails due to a failure in a managed package unit test.The developer spoke with the manager package owner and they determined it is a false positive and can be ignored. What should the developer do to successfully deploy?",
+        "A change set deployment from a sandbox to production fails due to a failure in a managed package unit test. The developer spoke with the manager package owner and they determined it is a false positive and can be ignored. What should the developer do to successfully deploy?",
       options: [
         "A. Select 'Run local tests' to run all tests in the org that are not in the managed package.",
         "B. Select 'Fast Deploy' to run only the tests that are in the change set.",
@@ -887,7 +887,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Using the Schema Builder, a developer tries to change the API name of a field that is referenced in an Apex test class.What is the end result?",
+        "Using the Schema Builder, a developer tries to change the API name of a field that is referenced in an Apex test class. What is the end result?",
       options: [
         "A. The API name of the field and the reference in the test class is changed.",
         "B. The API name of the field and the reference in the test class is updated.",
@@ -899,7 +899,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visualforce page has a standard controller for an object that has a lookup relationship to a parent object.How can a developer display data from the parent record on the page?",
+        "A Visualforce page has a standard controller for an object that has a lookup relationship to a parent object. How can a developer display data from the parent record on the page?",
       options: [
         "A. By using merge field syntax to retrieve data from the parent record.",
         "B. By adding a second standard controller to the page for the parent record.",

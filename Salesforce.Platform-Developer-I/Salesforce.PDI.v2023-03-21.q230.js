@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows.Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
+        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows. Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
       options: [
         "A. Use a SOQL FOR loop, to chunk the result set in batches of 200 records.",
         "B. Use visual keyword when declaring the retrieve variable.",
@@ -185,7 +185,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
+        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
 
       options: [
         "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
@@ -198,7 +198,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom Visualforce controller calls the ApexPages,addMessage () method, but no messages are rendering on the page.Which component should be added to the Visualforce page to display the message?",
+        "A custom Visualforce controller calls the ApexPages,addMessage () method, but no messages are rendering on the page. Which component should be added to the Visualforce page to display the message?",
       options: [
         "A. <apex: pageMessages />",
         "B. <Apex: facet name='' message''/>",
@@ -210,7 +210,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to override a button using Visualforce on an object.What is the requirement?",
+        "A developer wants to override a button using Visualforce on an object. What is the requirement?",
       options: [
         "A. The action attribute must be set to a controller method.",
         "B. The standardController attribute must be set to the object.",
@@ -234,7 +234,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must troubleshoot to pinpoint the causes of performance issues when a custom page loads in their org.Which tool should the developer use to troubleshoot?",
+        "A developer must troubleshoot to pinpoint the causes of performance issues when a custom page loads in their org. Which tool should the developer use to troubleshoot?",
       options: [
         "A. Salesforce CLI",
         "B. Visual Studio Core IDE",
@@ -307,7 +307,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Opportunity needs to have an amount rolled up from a custom object that is not in a master-detail relationship.How can this be achieved?",
+        "An Opportunity needs to have an amount rolled up from a custom object that is not in a master-detail relationship. How can this be achieved?",
       options: [
         "A. Write a trigger on the child object and use a red-black tree sorting to sum the amount for all related child objects under the Opportunity.",
         "B. Write a trigger on the child object and use an aggregate function to sum the amount for all related child objects under the Opportunity",
@@ -471,7 +471,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Visualforce page in Salesforce Classic and a Lightning page inLightning Experience.",
         "B. Override the Contact's Edit button with a Lightning page in Salesforce Classic and a Visualforce page in Lightning Experience.",
@@ -490,7 +490,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -509,7 +509,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Third-party apps from App Exchange",
         "B. Salesforce Extension for VSCode",
@@ -521,7 +521,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -533,7 +533,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates an Apex Trigger with the following code block:\nList<Account> customers = new List<Account>();\nFor (Order__c o: trigger.new){\n　Account a = [SELECT Id, Is_Customer__c FROM Account WHERE Id:o.Customer__c];\n　a.Is_Customer__c = true;\n　customers.add(a);\n}\nDatabase.update(customers, false);\nThe developer tests the code using Apex Data Loader and successfully loads 10 Orders. Then, the developer loads 150 Orders.How many Orders are successfully loaded when the developer attempts to load the 150 Orders?",
+        "A developer creates an Apex Trigger with the following code block:\nList<Account> customers = new List<Account>();\nFor (Order__c o: trigger.new){\n　Account a = [SELECT Id, Is_Customer__c FROM Account WHERE Id:o.Customer__c];\n　a.Is_Customer__c = true;\n　customers.add(a);\n}\nDatabase.update(customers, false);\nThe developer tests the code using Apex Data Loader and successfully loads 10 Orders. Then, the developer loads 150 Orders. How many Orders are successfully loaded when the developer attempts to load the 150 Orders?",
       options: ["A. 1", "B. 0", "C. 150", "D. 100"],
       answer: "B",
       title: "Question 48",
@@ -574,7 +574,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As part of a data cleanup strategy, AW Computing wants to proactively delete associated opportunity records when the related Account is deleted.Which automation tool should be used to meet this business requirement?",
+        "As part of a data cleanup strategy, AW Computing wants to proactively delete associated opportunity records when the related Account is deleted. Which automation tool should be used to meet this business requirement?",
       options: [
         "A. Workflow Rules",
         "B. Record-Triggered Flow",
@@ -586,7 +586,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to test an Invoicing system integration. After reviewing the number of transactions required for the test, the developer estimates that the test data will total about 2 GB of data storage. Production data is not required for the integration testing.Which two environments meet the requirements for testing? (Choose two.)",
+        "A developer needs to test an Invoicing system integration. After reviewing the number of transactions required for the test, the developer estimates that the test data will total about 2 GB of data storage. Production data is not required for the integration testing. Which two environments meet the requirements for testing? (Choose two.)",
       options: [
         "A. Partial Sandbox",
         "B. Developer Sandbox",
@@ -612,7 +612,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Use the <apex:relatedList> tag.",
         "B. Create a controller extension.",
@@ -846,7 +846,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning. What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
       options: [
         "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
         "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
@@ -870,7 +870,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace.Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
+        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
       options: [
         "A. Declare the class and method using the public access modifier.",
         "B. Declare the class as public and use the global access modifier on the method.",
@@ -894,7 +894,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does.How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
+        "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does. How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
       options: [
         "A. Use a new Support Manager permission set.",
         "B. Create one Visualforce Page for use by both profiles.",
@@ -906,7 +906,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company would like to send an offer letter to a candidate, have the candidate sign it electronically, and then send the letter back.What can a developer do to accomplish this?",
+        "A company would like to send an offer letter to a candidate, have the candidate sign it electronically, and then send the letter back. What can a developer do to accomplish this?",
       options: [
         "A. Create a visual workflow that will capture the candidate's signature electronically",
         "B. Develop a Process Builder that will send the offer letter and allow the candidate to sign it electronically.",
@@ -1099,7 +1099,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer created a Visualforce page with a custom controller to show a list of accounts. The page uses the<apex:SelecList> component, with a variable called "selection", to show the valid values for Account.Type.The page uses an <apex:pageBlockTable> component to display the list of accounts, where the iteration variable is "acct". The developer wants to ensure that when a user selects a type on the <apex : selectList> component, only accounts with that type are shown on the page. What should the developer do to accomplish this?',
+        'A developer created a Visualforce page with a custom controller to show a list of accounts. The page uses the<apex:SelecList> component, with a variable called "selection", to show the valid values for Account.Type. The page uses an <apex:pageBlockTable> component to display the list of accounts, where the iteration variable is "acct". The developer wants to ensure that when a user selects a type on the <apex : selectList> component, only accounts with that type are shown on the page. What should the developer do to accomplish this?',
       options: [
         "A. Create a component for each option and use a variable with hide parameter on the element.",
         "B. Create multiple lists in the controller that represent the relevant accounts for each account type when the page loads, then reference the correct one dynamically on the pageBlockTable.",
@@ -1137,7 +1137,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the Database.Savepoint method to enforce database Integrity.",
         "B. Use the System.Limit class to monitor the current CPU governor limit consumption.",
@@ -1172,7 +1172,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
+        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price. What is the correct implementation?",
       options: [
         "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
         "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
@@ -1248,7 +1248,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c.How can a developer accomplish this?",
+        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c. How can a developer accomplish this?",
       options: [
         "A. By using an Apex trigger with a DML operation.",
         "B. By changing Application_c.Status_c into a formula field.",
@@ -1332,7 +1332,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting, that application cannot be modified to be resubmitted to a different job posting.What can the administrator do to associate an application with each job posting in the schema for the organization?",
+        "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting, that application cannot be modified to be resubmitted to a different job posting. What can the administrator do to associate an application with each job posting in the schema for the organization?",
       options: [
         "A. Create a master-detail relationship in the Job Postings custom object to the Applications custom object.",
         "B. Create a master-detail relationship in the Application custom object to the Job Postings custom object.",
@@ -1400,7 +1400,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
+        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names. What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
       options: [
         "A. Use the @isTest(isParallel=true) annotation in the test class.",
         "B. Use the @isTest(seeAllData=true) annotation in the test class.",
@@ -1431,7 +1431,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Use the <apex:relatedList> tag.",
         "B. Create a controller extension.",
@@ -1520,7 +1520,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visualforce page is required for displaying and editing Case records that includes both standard and custom functionality defined in an Apex class called myControllerExtension.The Visualforce page should include which <apex:page> attribute(s) to correctly implement controller functionality?",
+        "A Visualforce page is required for displaying and editing Case records that includes both standard and custom functionality defined in an Apex class called myControllerExtension. The Visualforce page should include which <apex:page> attribute(s) to correctly implement controller functionality?",
       options: [
         'A. controller="Case" and extensions="myControllerExtension"',
         'B. extensions="myControllerExtension"',
@@ -1616,7 +1616,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Visual Workflow canbe used to check the record criteria and send an outbound message without Apex Code.",
         "B. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
@@ -1641,7 +1641,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object.Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
+        'Managers at Universal Containers want to ensure that only decommissioned containers are able to be deleted in the system. To meet the business requirement a Salesforce developer adds "Decommissioned" as a picklist value for the Status__c: custom field within the Contact__c object. Which tool should the developer use to enforce only Container records with a status of "Decommissioned" can be deleted?',
       options: [
         "A. Apex trigger",
         "B. Before record-triggered flow",
@@ -1726,7 +1726,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two custom controller extensions where each has a save() method.Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
+        'A developer has two custom controller extensions where each has a save() method. Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
       options: [
         "A. ExtensionB save()",
         "B. Standard controller save()",
@@ -1738,7 +1738,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to have records with specific field values in order to test a new Apex class.What should the developer do to ensure the data is available to the test?",
+        "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
       options: [
         "A. UseSOQL to query the org for the required data.",
         "B. Use Anonymous Apex to create the required data.",
@@ -1750,7 +1750,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'.Which SOSL statement should the developer use?",
+        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'. Which SOSL statement should the developer use?",
       options: [
         "A. FIND {Email = '[email protected]'} IN Contact, User",
         "B. FIND Email IN Contact, User FOR {dev2uc.com}",
@@ -1829,7 +1829,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has JavaScript code that needs to be called by controller functions in multiple Aura components by extending a new abstract component.Which resource in the abstract Aura component bundle allows the developer to achieve this?",
+        "A developer has JavaScript code that needs to be called by controller functions in multiple Aura components by extending a new abstract component. Which resource in the abstract Aura component bundle allows the developer to achieve this?",
       options: [
         "A. helper.js",
         "B. controllers",
@@ -1853,7 +1853,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Add @isTest(seeAllData=true) at the start of the unit test class.",
         "B. Use @TestSetup with a viod method.",
@@ -1877,7 +1877,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer Is Integrating with a legacy on-premise SQL database.What should the developer use to ensure the data being Integrated is matched to the right records in Salesforce?",
+        "A developer Is Integrating with a legacy on-premise SQL database. What should the developer use to ensure the data being Integrated is matched to the right records in Salesforce?",
       options: [
         "A. External Object",
         "B. Lookup field",
@@ -1949,7 +1949,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Continue", "B. break;", "C. Next", "D. Exit"],
       answer: "B",
       title: "Question 179",
@@ -1968,7 +1968,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a before insert trigger.How can the developer access the incoming records in the trigger body?",
+        "A developer writes a before insert trigger. How can the developer access the incoming records in the trigger body?",
       options: [
         "A. By accessing the Trigger.newRecords context variable.",
         "B. By accessing the Trigger.newMap context variable.",
@@ -2016,7 +2016,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Use the <apex:include> tag.",
         "B. Create a controller extension.",
@@ -2028,7 +2028,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculations and redirect the user to a custom Visualforce page. The developer wants to ensure the Visualforce page matches the Lightning Experience user interface.What attribute needs to be defined within the <apex:page> tag to meet the requirement?",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculations and redirect the user to a custom Visualforce page. The developer wants to ensure the Visualforce page matches the Lightning Experience user interface. What attribute needs to be defined within the <apex:page> tag to meet the requirement?",
       options: [
         'A. wizard=true"',
         'B. applyHtmlTag="true"',
@@ -2083,7 +2083,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated.How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated. How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 8", "C. 2", "D. 1"],
       answer: "C",
       title: "Question 192",
@@ -2121,7 +2121,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the controller class below.Which code block will run successfully in an execute anonymous window?",
+        "A developer has the controller class below. Which code block will run successfully in an execute anonymous window?",
       options: [
         "A. myFooController m = new myFooController();System.assert(m.prop ==null);",
         "B. myFooController m = new myFooController();System.assert(m.prop !=null);",
@@ -2133,7 +2133,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'An after trigger on the Account object performs a DML update operation on all of the child Opportunities of an Account. There are no active triggers on the Opportunity object, yet a "maximum trigger depth exceeded" error occurs in certain situations.Which two reasons possibly explain the Account trigger firing recursively? (Choose two.)',
+        'An after trigger on the Account object performs a DML update operation on all of the child Opportunities of an Account. There are no active triggers on the Opportunity object, yet a "maximum trigger depth exceeded" error occurs in certain situations. Which two reasons possibly explain the Account trigger firing recursively? (Choose two.)',
       options: [
         "A. Changes to Opportunities arecausing cross-object workflow field updates to be made on the Account.",
         "B. Changesare being made to the Account during Criteria Based Sharing evaluation.",
@@ -2157,7 +2157,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Approval Process is defined In the Expense__item__c object. A business rule dictates that whenever a ... clients the Status to Submitted on an Expense_Item__c record related to the expense report must enter the approval process individually.A developers asked to explore if this automation can be implemented without writing any Apex code.Which statement is true regarding this automation request?",
+        "An Approval Process is defined In the Expense__item__c object. A business rule dictates that whenever a ... clients the Status to Submitted on an Expense_Item__c record related to the expense report must enter the approval process individually.A developers asked to explore if this automation can be implemented without writing any Apex code. Which statement is true regarding this automation request?",
       options: [
         "A. The developer can use Einstein Next Best Actions",
         "B. This approval step cannot be automated and must be done manually.",
@@ -2224,7 +2224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -2255,7 +2255,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe. Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Record_Triggered Flow",
         "B. Scheduled Flow",
@@ -2267,7 +2267,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows.Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
+        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows. Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
       options: [
         "A. Use the FOR UPDATE option on the SOQL query to lock down the records retrieved.",
         "B. Use WHERE clauses on the SOQL query to reduce the number of records retrieved.",
@@ -2291,7 +2291,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts. Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Ensure isExposed is set to true on the XML file.",
         "B. Specify lightningCommunity_Page as a target in the XML file.",
@@ -2368,7 +2368,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visual force page displays two fields named Phone Number and Email.User1 has access to Phone Number, but not to Email.User2 has access to Email, but not Phone NumberA developer needs to ensure that User1 can only see Phone Number, and User2 can only see Email.Which method can the developer use to achieve this?",
+        "A Visual force page displays two fields named Phone Number and Email.User1 has access to Phone Number, but not to Email.User2 has access to Email, but not Phone NumberA developer needs to ensure that User1 can only see Phone Number, and User2 can only see Email. Which method can the developer use to achieve this?",
       options: [
         "A. Schema isUpdateable() method.",
         "B. Schema isAccessible() method.",
@@ -2380,7 +2380,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event.The developer is working on a Lightning web component to display the information.",
+        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event. The developer is working on a Lightning web component to display the information.",
       options: [
         "A. import ( subscribe, unsubscribe, onError ) from 'lightning/pubsub'",
         "B. import ( subscribe, unsubscribe, onError ) from 'lightning/empApi '",
@@ -2404,7 +2404,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Lightning component to display a short text summary for an object and wants to use it with multiple Apex classes.How should the developer design the Apex classes?",
+        "A developer created a Lightning component to display a short text summary for an object and wants to use it with multiple Apex classes. How should the developer design the Apex classes?",
       options: [
         "A. Have each class implement an interface that defines method getTextSummary() that returns the summary.",
         "B. Extend each class from the same base class that has a method getTextSummary() that returns the summary.",
@@ -2452,7 +2452,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Visualforce page and a custom controller with methods to handle different buttons and events that can occur on the page.What should the developer do to deploy to production?",
+        "A developer created a Visualforce page and a custom controller with methods to handle different buttons and events that can occur on the page. What should the developer do to deploy to production?",
       options: [
         "A. Create a test page that provides coverage of the Visualforce page.",
         "B. Create a test class that provides coverage of the Visualforce page.",

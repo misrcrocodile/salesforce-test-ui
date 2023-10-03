@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern trail Outfitters (NTO) is warming a new Dedicated IP address, and theyneed to monitor their deliverability across major ISPs.Which bounce type would be indicative of the ISPs view of NTO's sending reputation?",
+        "Northern trail Outfitters (NTO) is warming a new Dedicated IP address, and theyneed to monitor their deliverability across major ISPs. Which bounce type would be indicative of the ISPs view of NTO's sending reputation?",
       options: ["A. Block", "B. Hard", "C. Soft", "D. Technical"],
       answer: "A",
       title: "Question 3",
@@ -53,7 +53,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A user asks a Marketing Cloud admin to review their permissions since they are unable to send an email. The admin reviews the user profile and notices the user has three roles assigned: Content Creator, Data Manager, and Marketing Cloud Viewer.What should the admin do to resolve the issue so the user can send an email?",
+        "A user asks a Marketing Cloud admin to review their permissions since they are unable to send an email. The admin reviews the user profile and notices the user has three roles assigned: Content Creator, Data Manager, and Marketing Cloud Viewer. What should the admin do to resolve the issue so the user can send an email?",
       options: [
         "A. Edit permissions and deselect Deny for Email Sending",
         "B. Edit permissions and Grant permissions to Send",
@@ -65,7 +65,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A customer is interested in designing a solution to ensure that subscribers only receive categories of emails that they want to receive. The built-in subscription center will be used as part of the solution.Which feature should be utilized to make this happen?",
+        "A customer is interested in designing a solution to ensure that subscribers only receive categories of emails that they want to receive. The built-in subscription center will be used as part of the solution. Which feature should be utilized to make this happen?",
       options: [
         "A. Subscriber Keys",
         "B. Send Logging",
@@ -77,7 +77,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) has a requirement to create a distinction between marketing and transactional emails in terms of From Name and IP Address for reputation purposes.Which two actions should NTO take in order to create Send Classifications?Choose 2 answers",
+        "Northern Trail Outfitters (NTO) has a requirement to create a distinction between marketing and transactional emails in terms of From Name and IP Address for reputation purposes. Which two actions should NTO take in order to create Send Classifications? Choose 2 answers",
       options: [
         "A. Define a Delivery Profile.",
         "B. Define a Sender Profile.",
@@ -89,7 +89,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to set up their Send Log data extension Which three considerations should be made for long term success?Choose 3 answers",
+        "Northern Trail Outfitters wants to set up their Send Log data extension Which three considerations should be made for long term success? Choose 3 answers",
       options: [
         "A. Log all variable data captured in emails at send time",
         "B. Set the period to a fixed date in the Data Retention Policy",
@@ -126,7 +126,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is asked to add a set of four tracking parameters automatically to all the links in an email sent via email studio.Which solution should the admin suggest?",
+        "A Marketing Cloud admin is asked to add a set of four tracking parameters automatically to all the links in an email sent via email studio. Which solution should the admin suggest?",
       options: [
         "A. Google Analytics 360",
         "B. Marketing Cloud Connect",
@@ -138,7 +138,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) wants to limit who can receive Marketing Cloud tracking data via email from their Account to any email associated with their domain (ntoretail.com).Which steps should be taken to implement this?Choose 2 answers",
+        "Northern Trail Outfitters (NTO) wants to limit who can receive Marketing Cloud tracking data via email from their Account to any email associated with their domain (ntoretail.com). Which steps should be taken to implement this? Choose 2 answers",
       options: [
         "A. Add a Domain to the Export Email Whitelist",
         "B. Edit the entity Verification Settings",
@@ -150,7 +150,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three considerations should be made when setting up Distributed Marketing?Choose 3 answers",
+        "Which three considerations should be made when setting up Distributed Marketing? Choose 3 answers",
       options: [
         "A. Messages can be sent to Contacts, Leads, and Person Accounts.",
         "B. Business users can select any email at time of send.",
@@ -163,7 +163,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is asked to understand how a certain content area within a Triggered Send Email is performing.Which report should be used?",
+        "A Marketing Cloud admin is asked to understand how a certain content area within a Triggered Send Email is performing. Which report should be used?",
       options: [
         "A. Sends Account Send Summary",
         "B. Dynamic Content for Triggered Sends",
@@ -175,7 +175,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to set up a welcome journey that leverages customer data across three data extensions: Customers, Orders, and Products.What is the best way to facilitate this within Contact Builder?",
+        "Northern Trail Outfitters wants to set up a welcome journey that leverages customer data across three data extensions: Customers, Orders, and Products. What is the best way to facilitate this within Contact Builder?",
       options: [
         "A. Create three distinct Attribute Groups that link Customers to Contacts, Orders to Customers, and Products to Orders.",
         "B. Create a single Attribute Group that links Customers to Contacts, Orders to Customers, and Products to Orders.",
@@ -187,7 +187,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) wants a business analyst to import contact lists. The analyst has the followCloud Channel Manager and Marketing Cloud Viewer. The Analyst logged in but is unable to import contacts.How should NTO update the user to allow the analyst the appropriate access?",
+        "Northern Trail Outfitters (NTO) wants a business analyst to import contact lists. The analyst has the followCloud Channel Manager and Marketing Cloud Viewer. The Analyst logged in but is unable to import contacts. How should NTO update the user to allow the analyst the appropriate access?",
       options: [
         "A. Remove Marketing Cloud Viewer",
         "B. Add Marketing Cloud Security Administrator",
@@ -199,7 +199,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin wants to append an Urchin Tracking Module (UTM) variable String to links in emails.Which functionality would allow this?",
+        "A Marketing Cloud admin wants to append an Urchin Tracking Module (UTM) variable String to links in emails. Which functionality would allow this?",
       options: [
         "A. Web and Mobile Analytics",
         "B. Advertising Studio",
@@ -247,7 +247,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A customer will provide a single daily file on the Marketing Cloud SFTP at 3 AM and needs an alert if the file is not present on time. The file needs to be: Imported into a staging data extension. Separated into two different data extensions.Which workflow should meet these requirements?",
+        "A customer will provide a single daily file on the Marketing Cloud SFTP at 3 AM and needs an alert if the file is not present on time. The file needs to be: Imported into a staging data extension. Separated into two different data extensions. Which workflow should meet these requirements?",
       options: [
         "A. Scheduled Automation: File Transfer Activity > Import File Activity > SQL Query Activity 1 > SQL Query Activity 2",
         "B. Scheduled Automation: Import File Activity > SQL Query Activity 1 > SQL Query Activity 2",
@@ -259,7 +259,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is setting up Northern Trail Outfitter's newest business units and several users to assign to the new business units.How would the admin assign users to the business units?",
+        "A Marketing Cloud admin is setting up Northern Trail Outfitter's newest business units and several users to assign to the new business units. How would the admin assign users to the business units?",
       options: [
         "A. Search for the individual user, select their name and click Edit Business Units.",
         "B. Give permissions to users at top-level account to assign their own business units.",
@@ -283,7 +283,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin wants to ensure email sends exclude their testing prefix of [PREVIEW] in the subject line when deploying from Email Studio.What should the admin do to prevent the prefix from deploying in live sends?",
+        "A Marketing Cloud admin wants to ensure email sends exclude their testing prefix of [PREVIEW] in the subject line when deploying from Email Studio. What should the admin do to prevent the prefix from deploying in live sends?",
       options: [
         "A. Add [PREVIEW] to the subject line validation list",
         "B. Require several campaign approvals",
@@ -330,7 +330,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin has been asked to get the last 30 days of Bounce data from their account.What should the admin use to get granular bounce data in bulk in a pre-defined format?",
+        "A Marketing Cloud admin has been asked to get the last 30 days of Bounce data from their account. What should the admin use to get granular bounce data in bulk in a pre-defined format?",
       options: [
         "A. Automation Studio Tracking Extract",
         "B. CSV download of bounce data in My Tracking",
@@ -342,7 +342,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin notices Individual Email Results are NOT being pushed back into Sales Cloud for a particular end. The admin of Marketing Cloud Connect is functioning properly.What should the admin confirm about the data extension?",
+        "A Marketing Cloud admin notices Individual Email Results are NOT being pushed back into Sales Cloud for a particular end. The admin of Marketing Cloud Connect is functioning properly. What should the admin confirm about the data extension?",
       options: [
         "A. The triggeredSendDataExtension data extension template was used.",
         "B. The data extension is located in the Salesforce Data Extensions folder.",
@@ -354,7 +354,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While setting up marketing Cloud Connect, a marketing cloud admin navigates to the Marketing Cloud tab in Sales Cloud to complete the integration. The admin then receives the following error message:Insufficient User Permissions. You have not been designated as an integrated Marketing Cloud User. Contact your system administrator.The admin notices the Marketing cloud for AppExchange Admin option is selected when looking for the user settings.What action should correct the issue?",
+        "While setting up marketing Cloud Connect, a marketing cloud admin navigates to the Marketing Cloud tab in Sales Cloud to complete the integration. The admin then receives the following error message:Insufficient User Permissions. You have not been designated as an integrated Marketing Cloud User. Contact your system administrator. The admin notices the Marketing cloud for AppExchange Admin option is selected when looking for the user settings. What action should correct the issue?",
       options: [
         "A. Apply the appropriate user mappings in the CRM configuration.",
         "B. Apply the Administrator and Marketing Cloud Administrator permission sets to user.",
@@ -402,7 +402,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters runs a nightly automation consisting of a File Transfer and a File Import. Following an update from the engineering team, the automation began failing. The Marketing Cloud admin suspects the CSV file now has an invalid format.How could the admin receive a file of the bad data rows to confirm this theory?",
+        "Northern Trail Outfitters runs a nightly automation consisting of a File Transfer and a File Import. Following an update from the engineering team, the automation began failing. The Marketing Cloud admin suspects the CSV file now has an invalid format. How could the admin receive a file of the bad data rows to confirm this theory?",
       options: [
         "A. Update the automation to include a notification email address for Runtime Errors",
         "B. Move the Import definition to its own automation and include a notification email address",
@@ -414,7 +414,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is asked to append an Urchin Tracking Module (UTM) variable string to links in emails.What functionality would allow this?",
+        "A Marketing Cloud admin is asked to append an Urchin Tracking Module (UTM) variable string to links in emails. What functionality would allow this?",
       options: [
         "A. Web and Mobile Analytics",
         "B. Web Analytics Connector",
@@ -426,7 +426,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters is setting up new hires on its instance of Marketing Cloud, which includes Email Studio, Mobile Connect, and Social Studio. One of the hires needs to manage the operations of all of the North American Business Units.What two roles, custom or standard, could be assigned to this user to meet the requirement?Choose 2 answers",
+        "Northern Trail Outfitters is setting up new hires on its instance of Marketing Cloud, which includes Email Studio, Mobile Connect, and Social Studio. One of the hires needs to manage the operations of all of the North American Business Units. What two roles, custom or standard, could be assigned to this user to meet the requirement? Choose 2 answers",
       options: [
         "A. Marketing Cloud Regional or Local Administrator",
         "B. Marketing Cloud Email Marketing Manager",
@@ -450,7 +450,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A restaurant supply company captures email subscribers and leads through trade shows. They hold a giveaway at each trade show to entice booth visitors to leave their contact information. In the past, they have used a fishbowl to capture business cards, but need to update this to an online sweepstakes entry vehicle displayed on a mounted tablet.Individuals should only be allowed to enter once, and the winner will be selected randomly.All entrants receive a follow-up email after the trade show asking them to confirm their opt-in for a monthly newsletter.Which two components are appropriate for this solution?Choose 2 answers",
+        "A restaurant supply company captures email subscribers and leads through trade shows. They hold a giveaway at each trade show to entice booth visitors to leave their contact information. In the past, they have used a fishbowl to capture business cards, but need to update this to an online sweepstakes entry vehicle displayed on a mounted tablet.Individuals should only be allowed to enter once, and the winner will be selected randomly.All entrants receive a follow-up email after the trade show asking them to confirm their opt-in for a monthly newsletter. Which two components are appropriate for this solution? Choose 2 answers",
       options: [
         "A. Microsite with Smart Capture to store entrants on a data extension.",
         "B. Microsite with Web Collect to store entrants on a data extension.",
@@ -462,7 +462,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters requires all subscriber files placed on the SFTP for import be encrypted.Which activity in Automation Studio could be used to decrypt the file to prepare for Importing?",
+        "Northern Trail Outfitters requires all subscriber files placed on the SFTP for import be encrypted. Which activity in Automation Studio could be used to decrypt the file to prepare for Importing?",
       options: [
         "A. Import Activity",
         "B. Data Extract Activity",
@@ -486,7 +486,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) uses Sender Authentication Package (SAP) for branding purposes. Their German business unit is configured with the SAP domain de.ntomarketing .com.The German NTO team is preparing for a campaign and wants to use customized CloudPages with the domain de-special.ntomarketing.com.How could the Marketing Cloud admin meet this requirement?",
+        "Northern Trail Outfitters (NTO) uses Sender Authentication Package (SAP) for branding purposes. Their German business unit is configured with the SAP domain de.ntomarketing .com. The German NTO team is preparing for a campaign and wants to use customized CloudPages with the domain de-special.ntomarketing.com. How could the Marketing Cloud admin meet this requirement?",
       options: [
         "A. CloudPages must use the SAP domain",
         "B. Purchase a new private Domain for use in CloudPages",
@@ -498,7 +498,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters does NOT want to store email addresses or phone numbers within Marketing Cloud.Which feature should they use?",
+        "Northern Trail Outfitters does NOT want to store email addresses or phone numbers within Marketing Cloud. Which feature should they use?",
       options: [
         "A. Master-detail relationship to Contacts",
         "B. Field Level Encryption",
@@ -510,7 +510,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is tasked with requesting Marketing Cloud Connect Multi-Org enablement.What consideration should be given to the preference profile centers for this integration?",
+        "A Marketing Cloud admin is tasked with requesting Marketing Cloud Connect Multi-Org enablement. What consideration should be given to the preference profile centers for this integration?",
       options: [
         "A. Multi org does not support the standard profile preference center for the business units.",
         "B. Profile/Preference centers for Multi-Org accounts are configured in the Salesforce CRM settings.",
@@ -522,7 +522,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin has been asked to grant full administrator permissions to a new user.Which two standard roles should be selected for the new user?Choose 2 answers",
+        "A Marketing Cloud admin has been asked to grant full administrator permissions to a new user. Which two standard roles should be selected for the new user? Choose 2 answers",
       options: [
         "A. Administrator",
         "B. Marketing Cloud Administrator",
@@ -534,7 +534,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A MC admin wants to sync Contacts from Sales Cloud, but is concerned about the number of Contacts since not all the contacts will be sent an email.What should the admin do to ensure only specific Contacts are synced?",
+        "A MC admin wants to sync Contacts from Sales Cloud, but is concerned about the number of Contacts since not all the contacts will be sent an email. What should the admin do to ensure only specific Contacts are synced?",
       options: [
         "A. Filter records on a Boolean field",
         "B. Filter records created after a specified date",
@@ -546,7 +546,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters has a mobile app.Which two products would allow them to send push notifications to customers with their mobile app?Choose 2 answers",
+        "Northern Trail Outfitters has a mobile app. Which two products would allow them to send push notifications to customers with their mobile app? Choose 2 answers",
       options: [
         "A. MobileConnect",
         "B. MobilePush",
@@ -565,7 +565,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to use Synchronized Data Sources to sync Contact data from Salesforce CRM. However, they only want to sync records they would be able to send to reducing the amount of data being brought over.Which two filtering options could be used when configuring the Contact synced object?Choose 2 answers",
+        "Northern Trail Outfitters wants to use Synchronized Data Sources to sync Contact data from Salesforce CRM. However, they only want to sync records they would be able to send to reducing the amount of data being brought over. Which two filtering options could be used when configuring the Contact synced object? Choose 2 answers",
       options: [
         "A. Select all records with an email address",
         "B. Select all records which are active in All Subscribers",
@@ -577,7 +577,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin is configuring the Marketing Cloud data model for the first time. Journey Builder with of messages being sent to customers, based on if there has been an order or not. There are two existing data model Orders:- Customers contains information about subscribers including Email Address, First Name, Last name.- Orders contains information about the orders and includes the unique identifier of the customer In which two ways should the admin configure Data Designer to allow this data to be used within a Journey?Choose 2 answers",
+        "A Marketing Cloud admin is configuring the Marketing Cloud data model for the first time. Journey Builder with of messages being sent to customers, based on if there has been an order or not. There are two existing data model Orders:- Customers contains information about subscribers including Email Address, First Name, Last name.- Orders contains information about the orders and includes the unique identifier of the customer In which two ways should the admin configure Data Designer to allow this data to be used within a Journey? Choose 2 answers",
       options: [
         "A. Link the Customers data extension to the data model using Customer ID",
         "B. Link the Orders data extension to the Customers data extension using a One-to-Many relationship",
@@ -589,7 +589,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin wants to configure a new keyword for an upcoming SMS campaign. After entering the desired keyword CELEBRATION, the admin notices the keyword is unavailable.What issue could the admin be facing?",
+        "A Marketing Cloud admin wants to configure a new keyword for an upcoming SMS campaign. After entering the desired keyword CELEBRATION, the admin notices the keyword is unavailable. What issue could the admin be facing?",
       options: [
         "A. Keyword fails to meet content standards",
         "B. Keyword is used within another business unit",
@@ -613,7 +613,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When customers use the Marketing Cloud default Profile Center link to unsubscribe it causes users to not receive emails from any other business unit.What could explain this behavior?",
+        "When customers use the Marketing Cloud default Profile Center link to unsubscribe it causes users to not receive emails from any other business unit. What could explain this behavior?",
       options: [
         "A. Data in data extensions corresponding to the customer",
         "B. The user Is getting deleted from the AN Subscribers list",
@@ -637,7 +637,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A publishing company has presented the following:* A need to send renewal reminders to customers whose subscriptions expire in 15 days and 7 days.* A campaign needs to be created and managed by a general marketing user who will not have administrative rights and who is not technical.* The customer's expiration date is included in the data file.What component should the customer's solution include?Choose 3 answers",
+        "A publishing company has presented the following:* A need to send renewal reminders to customers whose subscriptions expire in 15 days and 7 days.* A campaign needs to be created and managed by a general marketing user who will not have administrative rights and who is not technical.* The customer's expiration date is included in the data file. What component should the customer's solution include? Choose 3 answers",
       options: [
         "A. Automation StudioTerm",
         "B. Data Filter",
@@ -650,7 +650,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Marketing Cloud admin to create custom roles for their business process.What should be taken into consideration to accomplish this?",
+        "A Marketing Cloud admin to create custom roles for their business process. What should be taken into consideration to accomplish this?",
       options: [
         "A. Custom roles override an individual user's granular permission assignments.",
         "B. Custom roles can only be edited by the user who created the role initially.",

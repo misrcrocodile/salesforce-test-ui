@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A developer is setting up a Node,js server and is creating a script at the root of the source code, index,js, that will start the server when executed. The developer declares a variable that needs the folder location that the code executes from.Which global variable can be used in the script?",
+        "A developer is setting up a Node,js server and is creating a script at the root of the source code, index,js, that will start the server when executed. The developer declares a variable that needs the folder location that the code executes from. Which global variable can be used in the script?",
       options: [
         "A. _dirname",
         "B. _filename",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code belowlet inArray = [[1,2],[3,4,5]];which two statements results in the array [1,2,3,4,5]?choose 2 answer",
+        "Refer to the code belowlet inArray = [[1,2],[3,4,5]];which two statements results in the array [1,2,3,4,5]? Choose 2 answer",
       options: [
         "A. [ ].concat([...inArray])",
         "B. [ ].concat.apply(inArray,[ ]);",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two unique features of functions defined with a fat arrow as compared to normal function definition?Choose 2 answers",
+        "What are two unique features of functions defined with a fat arrow as compared to normal function definition? Choose 2 answers",
       options: [
         "A. The function generated its own this making it useful for separating the function's scope from its enclosing scope.",
         "B. The function uses the this from the enclosing scope.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:Line 05 causes an error.What are the values of greeting and salutation once code completes?",
+        "Refer to the code below:Line 05 causes an error. What are the values of greeting and salutation once code completes?",
       options: [
         "A. Greeting is Hello and salutation is Hello, Hello.",
         "B. Greeting is Goodbye and salutation is I say Hello.",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There is a new requirement for a developer to implement a currPrice method that will return the current price of the item or sales..What is the output when executing the code above",
+        "There is a new requirement for a developer to implement a currPrice method that will return the current price of the item or sales.. What is the output when executing the code above",
       options: [
         "A. 5080Uncaught Reference Error:this,discount is undefined72",
         "B. 508072",
@@ -143,7 +143,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer at Universal Containers creates a new landing page based on HTML, CSS, and JavaScript TO ensure that visitors have a good experience, a script named personaliseContext needs to be executed when the webpage is fully loaded (HTML content and all related files ), in order to do some custom initialization.Which statement should be used to call personalizeWebsiteContent based on the above business requirement?",
+        "A developer at Universal Containers creates a new landing page based on HTML, CSS, and JavaScript TO ensure that visitors have a good experience, a script named personaliseContext needs to be executed when the webpage is fully loaded (HTML content and all related files ), in order to do some custom initialization. Which statement should be used to call personalizeWebsiteContent based on the above business requirement?",
       options: [
         "A. document.addEventListener(''onDOMContextLoaded', personalizeWebsiteContext);",
         "B. window.addEventListener('onload', personalizeWebsiteContext);",
@@ -166,7 +166,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three options show valid methods for creating a fat arrow function?Choose 3 answers",
+        "Which three options show valid methods for creating a fat arrow function? Choose 3 answers",
       options: [
         "A. [ ] => ( console.log(' executed ') ;)",
         "B. X,y,z => ( console.log(' executed ') ;)",
@@ -179,7 +179,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following object.How can a developer access the fullName property for dog?",
+        "Refer to the following object. How can a developer access the fullName property for dog?",
       options: [
         "A. Dog.fullName ( )",
         "B. Dog, get, fullName",
@@ -222,7 +222,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:const addBy = ?const addByEight =addBy(8);const sum = addBYEight(50);Which two functions can replace line 01 and return 58 to sum?Choose 2 answers",
+        "Refer to the code below:const addBy = ?const addByEight =addBy(8);const sum = addBYEight(50);Which two functions can replace line 01 and return 58 to sum? Choose 2 answers",
       options: [
         "A. const addBY = (num1) => (num2) => num1 + num2;",
         "B. const addBy = function(num1){return function(num2){return num1 + num2;}",
@@ -234,7 +234,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A test has a dependency on database.query. During the test the dependency is replaced with an object called database with the method, query, that returns an array. The developer needs to verify how many times the method was called and the arguments used each time.Which two test approaches describe the requirement?Choose 2 answers",
+        "A test has a dependency on database.query. During the test the dependency is replaced with an object called database with the method, query, that returns an array. The developer needs to verify how many times the method was called and the arguments used each time. Which two test approaches describe the requirement? Choose 2 answers",
       options: ["A. Mocking", "B. White box", "C. Black box", "D. Integration"],
       answer: "A,B",
       title: "Question 21",
@@ -265,7 +265,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer creates a new web server that uses Node.js. It imports a server library that uses events and callbacks for handling server functionality.The server library is imported with require and is made available to the code by a variable named server. The developer wants to log any issues that the server has while booting up.Given the code and the information the developer has, which code logs an error at boost with an event?",
+        "developer creates a new web server that uses Node.js. It imports a server library that uses events and callbacks for handling server functionality. The server library is imported with require and is made available to the code by a variable named server. The developer wants to log any issues that the server has while booting up.Given the code and the information the developer has, which code logs an error at boost with an event?",
       options: [
         "A. Server.on ('error', (error) => {console.log('ERROR', error);});",
         "B. Try{server.start();} catch(error) {console.log('ERROR', error);}",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to HTML below:<p> The current status of an Order: <span id =\"status\"> In Progress </span> </p>.Which JavaScript statement changes the text 'In Progress' to 'Completed' ?",
+        "Refer to HTML below:<p> The current status of an Order: <span id =\"status\"> In Progress </span> </p>. Which JavaScript statement changes the text 'In Progress' to 'Completed' ?",
       options: [
         "A. document.getElementById(\"#status\").innerHTML = 'Completed' ;",
         "B. document.getElementById(\".status\").innerHTML = 'Completed' ;",
@@ -296,7 +296,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three number in the array, The test passes:Let res = sum2([1, 2, 3 ]) ;console.assert(res === 6 );Res = sum3([ 1, 2, 3, 4]);console.assert(res=== 6);A different developer made changes to the behavior of sum3 to instead sum all of the numbers present in the array. The test passes:Which two results occur when running the test on the updated sum3 function ?Choose 2 answers",
+        "A Developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three number in the array, The test passes:Let res = sum2([1, 2, 3 ]) ;console.assert(res === 6 );Res = sum3([ 1, 2, 3, 4]);console.assert(res=== 6);A different developer made changes to the behavior of sum3 to instead sum all of the numbers present in the array. The test passes:Which two results occur when running the test on the updated sum3 function ? Choose 2 answers",
       options: [
         "A. The line 05 assertion fails.",
         "B. The line 05 assertion passes.",
@@ -392,7 +392,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a web server running with Node.js. The command to start the web server is node server.js.The web server started havinglatency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround.Which command can the web developer run to see what the module is doing during the latency period?",
+        "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started havinglatency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround. Which command can the web developer run to see what the module is doing during the latency period?",
       options: [
         "A. DEBUG=http, https node server.js",
         "B. NODE_DEBUG=http,https node server.js",
@@ -423,7 +423,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create an object from a function in the browser using the code below.What happens due to the lack of the mm keyword on line 02?",
+        "A developer wants to create an object from a function in the browser using the code below. What happens due to the lack of the mm keyword on line 02?",
       options: [
         "A. window.name is assigned to 'hello' and the variable = remains undefined.",
         "B. window.m Is assigned the correct object.",
@@ -447,7 +447,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the string below:const str = 'Salesforce';Which two statements result in the word 'Sales'?Choose 2 answers",
+        "Refer to the string below:const str = 'Salesforce';Which two statements result in the word 'Sales'? Choose 2 answers",
       options: [
         "A. str.substr (0, 5);",
         "B. str.substr(1, 5);",
@@ -466,7 +466,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following array of hourly wages:Let arr = (8, 5, 9, 75, 11, 25, 7, 75, , 13, 25);For workers making less than $10 an hour rate should be multiple by 1.25 and returned in a new array.How should the developer implement the request?",
+        "A developer has the following array of hourly wages:Let arr = (8, 5, 9, 75, 11, 25, 7, 75, , 13, 25);For workers making less than $10 an hour rate should be multiple by 1.25 and returned in a new array. How should the developer implement the request?",
       options: [
         "A. let arrl = arr.filterBy((val) => val < 10 ).aapBy<(num) -> num = ..25 );",
         "B. let arrl = arr-map((num) => { return ran * 1.25 }).filter((val) -> { return val < 10));",
@@ -478,7 +478,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A Option B?',
+        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A Option B?',
       options: [
         "A. 1 growl method is created regardless of which option is used.",
         "B. 1000 growl methods are created regardless of which option is used.",
@@ -526,7 +526,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer wants to test the array shown:const arr = Array(5).fill(0)Which two tests are the most accurate for this array ?Choose 2 answers:",
+        "The developer wants to test the array shown:const arr = Array(5).fill(0)Which two tests are the most accurate for this array ? Choose 2 answers:",
       options: [
         "A. console.assert (arr.length >0);",
         "B. console.assert(arr[0] === 0 && arr[ arr.length] === 0);",
@@ -559,7 +559,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below?Let searchString = ' look for this ';Which two options remove the whitespace from the beginning of searchString?Choose 2 answers",
+        "Refer to the code below?Let searchString = ' look for this ';Which two options remove the whitespace from the beginning of searchString? Choose 2 answers",
       options: [
         "A. trimStart(searchString);",
         "B. searchString.replace(/*\\s\\s*/, '');",
@@ -584,7 +584,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer of the string below:Const str = 'sa;esforce'=;Which two statement result in the word 'Sale'?Choose 2 answers",
+        "Refer of the string below:Const str = 'sa;esforce'=;Which two statement result in the word 'Sale'? Choose 2 answers",
       options: [
         "A. str, substring(1,5) ;",
         "B. str, substr(1,5) ;",
@@ -669,7 +669,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) just launched a new landing page, but users complain that the website is slow. A developer found some functions any that might cause this problem. To verify this, the developer decides to execute everything and log the time each of these three suspicious functions consumes.Which function can the developer use to obtain the time spent by every one of the three functions?",
+        "Universal Containers (UC) just launched a new landing page, but users complain that the website is slow. A developer found some functions any that might cause this problem. To verify this, the developer decides to execute everything and log the time each of these three suspicious functions consumes. Which function can the developer use to obtain the time spent by every one of the three functions?",
       options: [
         "A. console.trace()",
         "B. console. timeLog ()",
@@ -681,7 +681,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to fix some bugs reported by users. To do that, the developer adds a breakpoint for debugging.Function Car (maxSpeed, color){This.maxspeed =masSpeed;This.color = color;Let carSpeed = document.getElementById(' CarSpeed');Debugger;Let fourWheels =new Car (carSpeed.value, 'red');When the code execution stops at the breakpoint on line 06, which two types of information are available in the browser console ?Choose 2 answers:",
+        "A developer is asked to fix some bugs reported by users. To do that, the developer adds a breakpoint for debugging.Function Car (maxSpeed, color){This.maxspeed =masSpeed;This.color = color;Let carSpeed = document.getElementById(' CarSpeed');Debugger;Let fourWheels =new Car (carSpeed.value, 'red');When the code execution stops at the breakpoint on line 06, which two types of information are available in the browser console ? Choose 2 answers:",
       options: [
         "A. The style, event listeners and other attributes applied to the carSpeed DOM element",
         "B. The information stored in the window.localStorage property",
@@ -717,7 +717,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to code below:Let productSKU = '8675309' ;A developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with 'sku', and padded with zeros.Which statement assigns the values sku0000000008675309 ?",
+        "Refer to code below:Let productSKU = '8675309' ;A developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with 'sku', and padded with zeros. Which statement assigns the values sku0000000008675309 ?",
       options: [
         "A. productSKU = productSKU .padStart (16. '0').padstart(19, 'sku');",
         "B. productSKU = productSKU .padEnd (16. '0').padstart(19, 'sku');",
@@ -729,7 +729,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object?Choose 2 answers',
+        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object? Choose 2 answers',
       options: [
         "A. userInformation(email)",
         'B. userInformation.get("email")',
@@ -753,7 +753,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer is trying to convince management that their team will benefit from using Node.js for a backend server that they are going to create. The server will be a web server that handles API requests from a website that the team has already built using HTML, CSS, and JavaScript.Which three benefits of Node.js can the developer use to persuade their manager?Choose 3 answers:",
+        "developer is trying to convince management that their team will benefit from using Node.js for a backend server that they are going to create. The server will be a web server that handles API requests from a website that the team has already built using HTML, CSS, and JavaScript. Which three benefits of Node.js can the developer use to persuade their manager? Choose 3 answers:",
       options: [
         "A. Executes server-side JavaScript code to avoid learning a new language.",
         "B. Uses non-blocking functionality for performant request handling .",
@@ -766,7 +766,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object?Choose 2 answers',
+        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object? Choose 2 answers',
       options: [
         "A. userInformation.email",
         'B. userInformation("email")',
@@ -778,7 +778,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has an ErrorHandler module that contains multiple functions.What kind of export be leverages so that multiple functions can be used?",
+        "A developer has an ErrorHandler module that contains multiple functions. What kind of export be leverages so that multiple functions can be used?",
       options: ["A. Named", "B. Multi", "C. All", "D. Default"],
       answer: "A",
       title: "Question 70",
@@ -797,7 +797,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three numbers in the array, and the test passes.A different developer made changes to the behavior of sum3 to instead sum only the first two numbers present in the array.Which two results occur when running this test on the updated sum3 function?Choose 2 answers",
+        "A developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three numbers in the array, and the test passes.A different developer made changes to the behavior of sum3 to instead sum only the first two numbers present in the array. Which two results occur when running this test on the updated sum3 function? Choose 2 answers",
       options: [
         "A. The line 05 assertion fails.",
         "B. The line 05 assertion passes.",
@@ -809,7 +809,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code:Let sampleText = 'The quick brown fox jumps';A developer needs to determine if a certain substring is part of a string.Which three expressions return true for the given substring ?Choose 3 answers",
+        "Refer to the following code:Let sampleText = 'The quick brown fox jumps';A developer needs to determine if a certain substring is part of a string. Which three expressions return true for the given substring ? Choose 3 answers",
       options: [
         "A. sampleText.includes('fox');",
         "B. sampleText.includes(' Fox ', 3)",
@@ -834,7 +834,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions can be using the JavaScript browser console?Choose 3 answers:",
+        "Which three actions can be using the JavaScript browser console? Choose 3 answers:",
       options: [
         "A. View and change DOM the page.",
         "B. View and change security cookies.",

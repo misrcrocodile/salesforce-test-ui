@@ -378,7 +378,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom invoice object has been created with a master-detail relationship to account. The Accountreceivable (AR)teamneedsaccesstoInvoicesARusersdonotownnorhaveaccess to Accountrecords.AccountOWD is set to Private.The AR team isunable to find Invoices in Listviews,Reports,norinGlobalSearch.The Architecthasbeenasked tohelp troubleshoot. Whatcouldbethe issue preventing ARteam members from seeinginvoices?",
+        "A custom invoice object has been created with a master-detail relationship to account. The Accountreceivable (AR)teamneedsaccesstoInvoicesARusersdonotownnorhaveaccess to Accountrecords.AccountOWD is set to Private. The AR team isunable to find Invoices in Listviews,Reports,norinGlobalSearch. The Architecthasbeenasked tohelp troubleshoot. Whatcouldbethe issue preventing ARteam members from seeinginvoices?",
       options: [
         "A. Asharingruleismissingto shareAccountstotheARteam.",
         "B. A sharing rule is missing to share Invoices to the AR team.",

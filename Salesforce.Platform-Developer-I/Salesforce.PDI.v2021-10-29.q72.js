@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changes immediately and does not want to install anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Salesforce Extension for VSCode",
         "B. Third-party apps from App Exchange",
@@ -130,14 +130,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application. Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Process builder", "B. Validation Rules", "C. Flow Builder"],
       answer: "A,B,C",
       title: "Question 12",
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Lightning component in Salesforce Classic and a Lightning component in Lightning Experience.",
         "B. Override the Contact's Edit button with a Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience.",
@@ -161,7 +161,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage.Which two strategies should a developer use to accomplish this? Choose 2 answers",
+        "Universal Containers wants Opportunities to be locked from editing when reaching the Closed/Won stage. Which two strategies should a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a Flow Builder.",
         "B. Use a validation rule.",
@@ -173,7 +173,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. Test.setCurrentPage(pageRef);",
         "B. String nextPage - controller.save().getUrl();",
@@ -198,7 +198,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, f he file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system.Which technique should the developer implement to streamline the data upload?",
+        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, f he file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system. Which technique should the developer implement to streamline the data upload?",
       options: [
         "A. Create a Process Builder on the Candidate_c object to map the records.",
         "B. Create a before Insert trigger to correctly map the records.",
@@ -210,7 +210,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object.What is the practice to get the sum of all order line totals on the order header?",
+        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object. What is the practice to get the sum of all order line totals on the order header?",
       options: [
         "A. Declarative Roll-Up Summaries App",
         "B. Process Builder",
@@ -252,7 +252,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles. Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. Ant Migration Tool",
         "B. Developer Console",
@@ -308,7 +308,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known.Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
+        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known. Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
       options: [
         "A. Upsert myAccounts(Foreign_Key__c);",
         "B. Upsert myAccounts Foreign_Key__c;",
@@ -332,7 +332,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. renderAs",
         "B. standard Controller",
@@ -345,14 +345,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated.How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated. How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 2", "C. 8", "D. 1"],
       answer: "B",
       title: "Question 31",
     },
     {
       content:
-        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows.Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
+        "As a part of class implementation a developer must execute a SOQL query against a large data ser based on the contact object. The method implementation is as follows. Which two methods are best practice to implement heap size control for the above code? (Choose 2 Answers)",
       options: [
         "A. Use the FOR UPDATE option on the SOQL query to lock down the records retrieved.",
         "B. Use a SOQL FOR loop, to chunk the result set in batches of 200 records.",
@@ -376,7 +376,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create and populate a custom field on the parent object marked as an External ID.",
         "B. Create a custom field on the child object of type Foreign Key",
@@ -412,7 +412,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer receives an error when trying to call a global server-side method using the @remoteAction decorator.How can the developer resolve the error?",
+        "A developer receives an error when trying to call a global server-side method using the @remoteAction decorator. How can the developer resolve the error?",
       options: [
         "A. Add static to the server-side method signature.",
         "B. Change the function signature to be private static.",
@@ -424,7 +424,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
         "B. Use the System.Limit class to monitor the current CPU governor limit consumption.",
@@ -460,7 +460,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two custom controller extensions where each has a save() method.Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
+        'A developer has two custom controller extensions where each has a save() method. Which save() method will be called for the following Visualforce page?<apex:page standardController ="Account", extensions="ExtensionA, ExtensionB"><apex:commandButton action ="{!save}" value="Save"/></apex:page>',
       options: [
         "A. ExtensionB save()",
         "B. Standard controller save()",
@@ -495,7 +495,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
+        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price. What is the correct implementation?",
       options: [
         "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
         "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
@@ -531,7 +531,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Continue", "B. Exit", "C. break;", "D. Next"],
       answer: "C",
       title: "Question 47",
@@ -634,7 +634,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom field value from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom field value from a trigger?",
       options: [
         "A. By writing an After Update trigger and accessing the field value from Trigger.old",
         "B. By writing an After Insert trigger and accessing the field value from Trigger.old",

@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities.The VP of Sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements? Choose 2 answers",
+        "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of Sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements? Choose 2 answers",
       options: [
         "A. Customize Campaign Role.",
         "B. Add the Campaign Member related list to the Opportunity page layout.",

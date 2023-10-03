@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog:New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and Works as expected. However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search.What is the Reason?",
+        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog:New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and Works as expected. However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search. What is the Reason?",
       options: [
         "A. There are conflicting Search Refinement definitions for Clothing and one of its parent categories",
         "B. The Search Refinement definition is not set up for the New Arrivals Category.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift item by an attribute at the product line item.The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
+        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift item by an attribute at the product line item. The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
       options: [
         "A. dw.ocapi.shop.basket.shipment.afterDELETE",
         "B. dw.ocapi.shop.basket.shipment.beforePATCH",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to have Apple Pay disabled for the country of Spain.Which Business Manager module should the Developer use to meet this requirement?",
+        "Universal Containers needs to have Apple Pay disabled for the country of Spain. Which Business Manager module should the Developer use to meet this requirement?",
       options: [
         "A. Merchant Tools > Site Preferences > Payment Types",
         "B. Merchant Tools > Ordering > Payment Processors",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file.How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
+        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file. How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
       options: [
         "A. Use Business Manager to upload and import a copy of the export file obtained from the original Developer.",
         "B. Use the Business Manager Data Replication module to replicate the catalog from the original Developer's sandbox.",
@@ -82,7 +82,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An instance has custom logging enabled. The log reaches the file size limit.What happens in this situation?",
+        "An instance has custom logging enabled. The log reaches the file size limit. What happens in this situation?",
       options: [
         "A. Logging is suspended for the day",
         "B. The log file Rolls over and the oldest log messages are overwritten",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Storefront is designed so that multiple pages share a common header and footer layout.Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
+        "A Storefront is designed so that multiple pages share a common header and footer layout. Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
       options: [
         "A. <isreplace> ... </isreplace>",
         "B. <isinclude> ... </isinclude>",
@@ -118,7 +118,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A retailer notices that the Account Addresses page is showing the wrong shopper's address.Which tool should the developer start with to identify the issue?",
+        "A retailer notices that the Account Addresses page is showing the wrong shopper's address. Which tool should the developer start with to identify the issue?",
       options: [
         "A. Code Profiler",
         "B. Storefront Toolkit",
@@ -130,7 +130,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Business Manager has the configuration:* Active Log category is "root"* Log level of WARNThe code below is executing:var log = Logger.getLogger("products");Using this information, which two logs will be written?Choose 2 answers',
+        'Business Manager has the configuration:* Active Log category is "root"* Log level of WARNThe code below is executing:var log = Logger.getLogger("products");Using this information, which two logs will be written? Choose 2 answers',
       options: [
         'A. log.error("This is an error message");',
         'B. log.debugfThis is a debug message");',
@@ -142,7 +142,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled.The code segment below executes.What is the result'",
+        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled. The code segment below executes. What is the result'",
       options: [
         "A. Logs will be written to the log file with a prefix custom-loggerFile.",
         "B. Logs will be written to the log file with a prefix loggerFile.",
@@ -154,7 +154,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client has a requirement to render different content on the homepage based on if the customer is logged in or guest user.What should a developer implement to achieve this requirement?",
+        "A client has a requirement to render different content on the homepage based on if the customer is logged in or guest user. What should a developer implement to achieve this requirement?",
       options: [
         "A. Write specific custom code in the Content Asset for a customer that is a registered, versus unregistered, user.",
         "B. Add specific custom messages in Page Designer for a customer that is a registered, versus unregistered, user.",
@@ -178,7 +178,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading all scripts at the start of the code execution.Which statement should the Developer use to lazy load scripts?",
+        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading all scripts at the start of the code execution. Which statement should the Developer use to lazy load scripts?",
       options: [
         "A. require () method",
         "B. $.ajax () jQuery method",
@@ -197,14 +197,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a specification to integrate with a REST API for retrieving traffic conditions. The service expects parameters to be form encoded.Which service type should the developer register?",
+        "A developer has a specification to integrate with a REST API for retrieving traffic conditions. The service expects parameters to be form encoded. Which service type should the developer register?",
       options: ["A. POST Form", "B. HTTP Form", "C. HTML Form", "D. SOAP Form"],
       answer: "B",
       title: "Question 17",
     },
     {
       content:
-        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox.Which three items are required to accomplish this task? (Choose three.)",
+        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox. Which three items are required to accomplish this task? (Choose three.)",
       options: [
         "A. Business Manager Password",
         "B. Instance Hostname",
@@ -229,7 +229,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a content slot on a page that currently displays products based on the top Sellers for the current week.They wish to change this functionality and, instead, have the slot render a specific content asset so that the content experience is more personalized to the visitors.Which two actions are necessary to make this change?Choose 2 answers",
+        "A merchant has a content slot on a page that currently displays products based on the top Sellers for the current week. They wish to change this functionality and, instead, have the slot render a specific content asset so that the content experience is more personalized to the visitors. Which two actions are necessary to make this change? Choose 2 answers",
       options: [
         "A. Delete the existing content slot and create a new one.",
         "B. Change the rendering template in the slot configuration",
@@ -241,7 +241,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront.The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site.Which modification should be made to the new cartridge path?",
+        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront. The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site. Which modification should be made to the new cartridge path?",
       options: [
         "A. Set the cartridge path so that app_storefront is before int_cybersource.",
         "B. Set the cartridge path so that app_newsite is before app_storefront.",
@@ -253,7 +253,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations should be done in a controller?Choose 3 answers",
+        "Which three operations should be done in a controller? Choose 3 answers",
       options: [
         "A. Generate the response as JSON or HTML",
         "B. Create a plain JavaScript object representing a system object",
@@ -278,7 +278,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers sells physical gift cards for the holidays.What needs to occur to guarantee the cards will always be available?",
+        "Universal Containers sells physical gift cards for the holidays. What needs to occur to guarantee the cards will always be available?",
       options: [
         "A. Create an inventory record with an extremely high Allocation value (i.e., 1 billion certificates).",
         "B. Create an inventory record with an unlimited Allocation value.",
@@ -314,7 +314,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability.Which two solutions can reduce the unavailability of the service?Choose 2 answers.",
+        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability. Which two solutions can reduce the unavailability of the service? Choose 2 answers.",
       options: [
         "A. Update the service to have a faster response time.",
         "B. Modify the code that makes the request to the external service to be wrapped in a try/catch block.",
@@ -350,7 +350,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible.What are two possible reasons?",
+        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible. What are two possible reasons?",
       options: [
         "A. The category is not sorted",
         "B. The Storefront catalog is offline",
@@ -362,7 +362,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability.Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
+        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability. Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
       options: [
         "A. Update the external service to have a faster response time.",
         "B. Change the code that makes the request to set the throwOnError attribute, of the service, to be true.",
@@ -374,7 +374,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with implementing the necessary code for a new Page Designer component.What are the two purposes of the JSON metadata definition file that the developer creates7 Choose 2 answers",
+        "A developer is tasked with implementing the necessary code for a new Page Designer component. What are the two purposes of the JSON metadata definition file that the developer creates7 Choose 2 answers",
       options: [
         "A. Defines regions within the component type.",
         "B. Defines the business and rendering logic of the component required by the merchant.",
@@ -386,7 +386,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files.Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules?Choose 2 answers.",
+        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files. Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules? Choose 2 answers.",
       options: [
         "A. Promotions ( en sites y en online marketing)",
         "B. Site Jobs (sites)",
@@ -410,7 +410,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written.What must be done in order to use the debugger with the new controller when it is written?",
+        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written. What must be done in order to use the debugger with the new controller when it is written?",
       options: [
         "A. Create and use a new controller debug configuration.",
         "B. Modify the debugger configuration and use the existing pipeline debugger.",
@@ -422,7 +422,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to change a content slot that is currently configured to display a content asset. Now they want the slot to display the top five selling boxes for the week.Which two changes need to be made for this to occur? (Choose two.)",
+        "Universal Containers wants to change a content slot that is currently configured to display a content asset. Now they want the slot to display the top five selling boxes for the week. Which two changes need to be made for this to occur? (Choose two.)",
       options: [
         "A. Delete the existing content asset.",
         'B. Change the slot\'s configuration content type to "products."',
@@ -446,7 +446,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items.How can a developer use Business Manager to ensure that the gift vouchers are always available?",
+        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items. How can a developer use Business Manager to ensure that the gift vouchers are always available?",
       options: [
         "A. Set StockLevel = maxAllocation for the producto.",
         "B. Manually set the inventory to a high number.",
@@ -458,7 +458,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory.Which action potentially solves this problem?",
+        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory. Which action potentially solves this problem?",
       options: [
         "A. Remove invalid characters from the code version's name.",
         "B. Set the server connection's target version directory to the active code version.",
@@ -482,7 +482,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand.What does the developer need to do next to fulfill this requirement?",
+        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand. What does the developer need to do next to fulfill this requirement?",
       options: [
         "A. Create a unique produce to called 'Our Top Combo' and add the four products into the Product Bundles tab.",
         "B. Create a recommendation rule associating the four products as a recommendation group.",
@@ -494,7 +494,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the requirements:* To show the washing instructions for a clothing product on a dedicated section the detail page* Washing instructions come from the product information manager(PIM)* To have this attribute available to localize in the Storefront.Which action meets these requirements?",
+        "Given the requirements:* To show the washing instructions for a clothing product on a dedicated section the detail page* Washing instructions come from the product information manager(PIM)* To have this attribute available to localize in the Storefront. Which action meets these requirements?",
       options: [
         "A. Add a resource file for every locale for which the attribute needs to be translated.",
         "B. Add a custom attribute for each locale",
@@ -506,7 +506,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class.Which callback method is required only when invoking a SOAP service?",
+        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class. Which callback method is required only when invoking a SOAP service?",
       options: [
         "A. initServiceClient",
         "B. parseResponse",
@@ -518,7 +518,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a sandbox with code to log a message during execution, and the following code:After the code executes, the developer does not see any log file with the message in the WebDAV folder. Which two tasks does the developer need to perform to correct this issue?Choose 2 answers",
+        "A developer has a sandbox with code to log a message during execution, and the following code:After the code executes, the developer does not see any log file with the message in the WebDAV folder. Which two tasks does the developer need to perform to correct this issue? Choose 2 answers",
       options: [
         "A. Set the root log level to debug.",
         "B. Check the box for Info under Log Files.",
@@ -542,7 +542,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges.Which cartridge path meets the project requirements?",
+        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges. Which cartridge path meets the project requirements?",
       options: [
         "A. app_project:storefront_controllers:storefront_core",
         "B. storefront_core:storefront_controllers:client_project:app_project",
@@ -554,7 +554,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has complained to the developers that some products are not appearing in the storefront and has asked them to diagnose and solve the issue.Which two factors might be causing a product to be hidden?Choose 2 answers",
+        "A merchant has complained to the developers that some products are not appearing in the storefront and has asked them to diagnose and solve the issue. Which two factors might be causing a product to be hidden? Choose 2 answers",
       options: [
         "A. Product lacks a price.",
         "B. Product is not online.",
@@ -567,7 +567,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer adds the following line of code to a script.The code executes without error; however, the log file on disk does NOT contain the log message.Which two actions should be completed to write the log message to disk? (Choose two.)",
+        "A Digital Developer adds the following line of code to a script. The code executes without error; however, the log file on disk does NOT contain the log message. Which two actions should be completed to write the log message to disk? (Choose two.)",
       options: [
         'A. Ensure that the "login" category is added to the Custom Log Filters in the Log Settings Business Manager module.',
         "B. Archive old log files to make room in the log directory.",
@@ -603,7 +603,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant uploads an image using the Content Image Upload module of Business Manager.Which three modules can the merchant or developer use to display the image on the Storefront7 Choose 3 answers",
+        "A merchant uploads an image using the Content Image Upload module of Business Manager. Which three modules can the merchant or developer use to display the image on the Storefront7 Choose 3 answers",
       options: [
         "A. Content assets",
         "B. Content slots",
@@ -616,7 +616,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer selects "Show Orderable Products Only" in the Search > Search Preferences Business Manager module.Which business goal does this accomplish?',
+        'A Digital Developer selects "Show Orderable Products Only" in the Search > Search Preferences Business Manager module. Which business goal does this accomplish?',
       options: [
         "A. Exclude pre-order products from search results.",
         "B. Block displaying the product detail page if Available to Sell (ATS) = 0.",
@@ -652,7 +652,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is working on a new site for the U.S based on an existing Canadian site. One of the requirements is a change to the address form. The current Canadian form has an <options> list with the correct two-letter abbreviation for the provinces.The U.S. requirements are to:* Have an <options> list with the correct two-letter abbreviation for the states in place of the province field.* Set the U.S site locale.* Add the options list field definition to the XML file.How should the developer set up the files before making the required edits?",
+        "A developer is working on a new site for the U.S based on an existing Canadian site. One of the requirements is a change to the address form. The current Canadian form has an <options> list with the correct two-letter abbreviation for the provinces. The U.S. requirements are to:* Have an <options> list with the correct two-letter abbreviation for the states in place of the province field.* Set the U.S site locale.* Add the options list field definition to the XML file. How should the developer set up the files before making the required edits?",
       options: [
         "A. Create a copy of existing address.xml file in the default folder. Rename that file to adres_US.xml",
         "B. Create a new sub-folder in the forms folder. Name it en_US. Copy existing address.xml file in the new folder.",
@@ -676,7 +676,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The developer has been given the following business requirement:The shipping method, "Free Standard Ground Shipping" has an exclusion for products with \'category equals or is child of electronics-televisions.\' The marketing department has scheduled a sale offering a "Free Standard Ground Shipping" method for brand XyzTv televisions for the next 3 months.What method accomplishes this while following best practices\'',
+        'The developer has been given the following business requirement:The shipping method, "Free Standard Ground Shipping" has an exclusion for products with \'category equals or is child of electronics-televisions.\' The marketing department has scheduled a sale offering a "Free Standard Ground Shipping" method for brand XyzTv televisions for the next 3 months. What method accomplishes this while following best practices\'',
       options: [
         "A. Extend the code in cartridge/models/shipping/shippingMethod.js using module.superModule and add an exception for the specified brand.",
         'B. Create an allow list for the existing shipping method by adding a product exclusion for \'brand equals XyzTv\' to the exclusion list fo<" "Free Standard Ground Shipping."',

@@ -169,7 +169,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce customer has plenty of data storage. Sales Reps are complaining that searches are bringing back old records that aren't relevant any longer. Sales Managers need the data for their historical reporting.What strategy should a data architect use to ensure a better user experience for the Sales Reps?",
+        "A Salesforce customer has plenty of data storage. Sales Reps are complaining that searches are bringing back old records that aren't relevant any longer. Sales Managers need the data for their historical reporting. What strategy should a data architect use to ensure a better user experience for the Sales Reps?",
       options: [
         "A. Set data access to Private to hide old data from Sales Reps.",
         "B. Archive and purge old data from Salesforce on a monthly basis.",

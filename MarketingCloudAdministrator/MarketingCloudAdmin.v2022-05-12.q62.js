@@ -276,7 +276,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A customer wants to automate a series of three emails as part of a Membership Renewaldrip campaign. Email #1 will be sent one month prior to the member's renewal date. Email #2 will be sent one week prior to the member's renewal date. Email #3 will be sent on the member's renewal date. A master audience is updated in real time via the API.Which steps should be included in the customer's automation?",
+        "A customer wants to automate a series of three emails as part of a Membership Renewaldrip campaign. Email #1 will be sent one month prior to the member's renewal date. Email #2 will be sent one week prior to the member's renewal date. Email #3 will be sent on the member's renewal date. A master audience is updated in real time via the API. Which steps should be included in the customer's automation?",
       options: [
         "A. Three Filter Activities > three Send Activities to the filtered audiences.",
         "B. Import File Activity > three Send Activities to the master data extension.",

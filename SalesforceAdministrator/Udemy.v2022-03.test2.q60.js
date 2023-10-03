@@ -699,7 +699,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has previously implemented a Custom Object that is associated with Account. This Custom Object is called 'Private Notes' in which the Account Owner can create their personal notes related to an account. These notes are set to Private at the Org Wide Default, and access is not granted using hierarchies.A new process automation request has come in for you to fulfill. This request contains a requirement that whenever an Account's owner is changed, all of the Account's Private Notes records are subsequently deleted.Which Process Automation Tool can fulfill this requirement? (Select 1)",
+        "Universal Containers has previously implemented a Custom Object that is associated with Account. This Custom Object is called 'Private Notes' in which the Account Owner can create their personal notes related to an account. These notes are set to Private at the Org Wide Default, and access is not granted using hierarchies.A new process automation request has come in for you to fulfill. This request contains a requirement that whenever an Account's owner is changed, all of the Account's Private Notes records are subsequently deleted. Which Process Automation Tool can fulfill this requirement? (Select 1)",
       options: [
         "A. Workflow Rule",
         "B. Flow Builder",
@@ -709,7 +709,7 @@ window.testContent[testName].testList.push({
       answer: "B",
       title: "Question 51: ",
       explanation:
-        "Universal Containers has previously implemented a Custom Object that is associated with Account. This Custom Object is called 'Private Notes' in which the Account Owner can create their personal notes related to an account. These notes are set to Private at the Org Wide Default, and access is not granted using hierarchies.A new process automation request has come in for you to fulfill. This request contains a requirement that whenever an Account's owner is changed, all of the Account's Private Notes records are subsequently deleted.Which Process Automation Tool can fulfill this requirement? (Select 1)",
+        "Universal Containers has previously implemented a Custom Object that is associated with Account. This Custom Object is called 'Private Notes' in which the Account Owner can create their personal notes related to an account. These notes are set to Private at the Org Wide Default, and access is not granted using hierarchies.A new process automation request has come in for you to fulfill. This request contains a requirement that whenever an Account's owner is changed, all of the Account's Private Notes records are subsequently deleted. Which Process Automation Tool can fulfill this requirement? (Select 1)",
     },
     {
       content:

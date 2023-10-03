@@ -460,7 +460,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The VP of Customer Success has asked that a new change be made to the Case Closure process, specifically for Cases with a Tier 2 Record Type. Whenever these Tier 2 cases are closed, they would like to have a Confetti celebration appear on screen for the support rep who closed the case in Salesforce.How would you accomplish this?(Select 1)",
+        "The VP of Customer Success has asked that a new change be made to the Case Closure process, specifically for Cases with a Tier 2 Record Type. Whenever these Tier 2 cases are closed, they would like to have a Confetti celebration appear on screen for the support rep who closed the case in Salesforce. How would you accomplish this?(Select 1)",
       options: [
         "A. Create a Path with a Confetti Celebration when Status equals Closed for Cases with a Record Type of Tier 2 and then add the Path Component to the Lightning Page.",
         "B. This cannot be done in Salesforce.",
@@ -470,7 +470,7 @@ window.testContent[testName].testList.push({
       answer: "A",
       title: "Question 33: ",
       explanation:
-        "The VP of Customer Success has asked that a new change be made to the Case Closure process, specifically for Cases with a Tier 2 Record Type. Whenever these Tier 2 cases are closed, they would like to have a Confetti celebration appear on screen for the support rep who closed the case in Salesforce.How would you accomplish this?(Select 1)",
+        "The VP of Customer Success has asked that a new change be made to the Case Closure process, specifically for Cases with a Tier 2 Record Type. Whenever these Tier 2 cases are closed, they would like to have a Confetti celebration appear on screen for the support rep who closed the case in Salesforce. How would you accomplish this?(Select 1)",
     },
     {
       content:

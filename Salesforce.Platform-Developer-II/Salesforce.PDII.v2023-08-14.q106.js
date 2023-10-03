@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes.Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so.Which two statements are true regarding these issues and resolution? (Choose two.)",
+        "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes.Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so. Which two statements are true regarding these issues and resolution? (Choose two.)",
       options: [
         "A. Page Layouts should never be deployed via Change Sets, as this causes Workflows and Field-level Security to be reset and fields to disappear.",
         "B. The administrators are deploying their own Change Sets over each other, thus replacing entire Page Layouts and Workflows in Production.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a Visual force page that automatically assign ownership of an Account to a queue save. The page appears to correctly assign ownership, but an assertion validating the correct ownership fails.What can cause this problem?",
+        "A developer has a Visual force page that automatically assign ownership of an Account to a queue save. The page appears to correctly assign ownership, but an assertion validating the correct ownership fails. What can cause this problem?",
       options: [
         "A. The test class does not retrieve the updated value- from the database.",
         "B. The test class does not use the Bulk API for loading test data.",
@@ -94,7 +94,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "After a Platform Event is defined in a Salesforce org, events can be published via which two mechanisms?Choose 2 answers",
+        "After a Platform Event is defined in a Salesforce org, events can be published via which two mechanisms? Choose 2 answers",
       options: [
         "A. internal Apps can use Outbound Messages",
         "B. External Apps can use the standard Streaming API.",
@@ -131,7 +131,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a native i0S app for placing orders that needs to connect to Salesforce to retrieve consolidated information from many different objects in a JSON format.Which is the optimal method to implement this in Salesforce?",
+        "A company has a native i0S app for placing orders that needs to connect to Salesforce to retrieve consolidated information from many different objects in a JSON format. Which is the optimal method to implement this in Salesforce?",
       options: [
         "A. Apex SOAP Web Service",
         "B. Apex REST Web Service",
@@ -150,7 +150,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business process requires sending new Account records to an external system. The Account Name, Id, CreatedDate. and CreatedByld must be passed to the external system in near real-time when an Account is Inserted without error.How should a developer achieve this?",
+        "A business process requires sending new Account records to an external system. The Account Name, Id, CreatedDate. and CreatedByld must be passed to the external system in near real-time when an Account is Inserted without error. How should a developer achieve this?",
       options: [
         "A. Use a Process Builder that calls an @InvocableMethod method.",
         "B. Use a before insert trigger and an @future method.",
@@ -174,7 +174,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a requirement that addresses on Contacts and Accounts should be normalized to a company standard by Apex code any time that they are saved.What is the optimal way to implement this?",
+        "An org has a requirement that addresses on Contacts and Accounts should be normalized to a company standard by Apex code any time that they are saved. What is the optimal way to implement this?",
       options: [
         "A. Apex trigger on Account and Account that call a helper class to normalize the address",
         "B. Apex trigger on Contact that calls the Account trigger to normalize the address",
@@ -232,7 +232,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a web page that needs to get Account record information, given its Salesforce record ID, from JavaScript on the page and then display it.Which method of integration is optimal?",
+        "A company has a web page that needs to get Account record information, given its Salesforce record ID, from JavaScript on the page and then display it. Which method of integration is optimal?",
       options: [
         "A. Apex SOAP Web Service",
         "B. REST API",
@@ -263,7 +263,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is writing a Jest for a Lightning web component that conditionally displays child components based on a user's checkbox selections.What should the developer do to property test that the correct components display and hide for each scenario?",
+        "A developer is writing a Jest for a Lightning web component that conditionally displays child components based on a user's checkbox selections. What should the developer do to property test that the correct components display and hide for each scenario?",
       options: [
         "A. Reset the DOM after each test with the after Each method.",
         "B. Create a new jsdom instance for each test",
@@ -314,7 +314,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a Lightning Page with many Lightning Components, some that cache reference data. It is reported that the page does not always show the most current reference data.What can a developer use to analyze and diagnose the problem in the Lightning Page?",
+        "A company has a Lightning Page with many Lightning Components, some that cache reference data. It is reported that the page does not always show the most current reference data. What can a developer use to analyze and diagnose the problem in the Lightning Page?",
       options: [
         "A. Salesforce Lightning Inspector Actions Tab",
         "B. Salesforce Lightning Inspector Storage Tab",
@@ -362,7 +362,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Visualforce page that displays a table every Container_ c being rented by a gives Account.. failing because some of the customers rent over 100,000 containers.What should a developer change about the Visualforce page to help with the page load errors?",
+        "Universal Containers has a Visualforce page that displays a table every Container_ c being rented by a gives Account.. failing because some of the customers rent over 100,000 containers. What should a developer change about the Visualforce page to help with the page load errors?",
       options: [
         "A. Implement pagination with a StandardSetController.",
         "B. Implement pagination with an OffsetController.",
@@ -398,7 +398,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is integrated with a legacy on-premises SQL database.What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
+        "A developer is integrated with a legacy on-premises SQL database. What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
       options: [
         "A. Formula field",
         "B. Lookup field",
@@ -433,7 +433,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer 15 tasked with creating an application-centric feature on which end-users can access and update information. This feature must be available in lightning Experience while working seamlessly in multiple device form factors, such as desktops, phones, and tablets. Additionally, the feature must support Addressable URL Tabs and interact with the Salesforce Console APIs.What arm two approaches a developer can take to build the application and support the business requirements?Choose 2 answers",
+        "A developer 15 tasked with creating an application-centric feature on which end-users can access and update information. This feature must be available in lightning Experience while working seamlessly in multiple device form factors, such as desktops, phones, and tablets. Additionally, the feature must support Addressable URL Tabs and interact with the Salesforce Console APIs. What arm two approaches a developer can take to build the application and support the business requirements? Choose 2 answers",
       options: [
         "A. Create the application using Lightning web Components wrapped in Aura Components.",
         "B. Create the application using Lightning Experience Builder.",
@@ -517,7 +517,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer is hired by a multi-national company to build a custom Lightning application that shows employees their employment benefits and earned commissions over time. The application must acknowledge and respect the user's locale context for dates, times, numbers, currency, and currency symbols.Which approach should the developer implement to ensure the Lightning application complies with the user's locale?",
+        "A Salesforce developer is hired by a multi-national company to build a custom Lightning application that shows employees their employment benefits and earned commissions over time. The application must acknowledge and respect the user's locale context for dates, times, numbers, currency, and currency symbols. Which approach should the developer implement to ensure the Lightning application complies with the user's locale?",
       options: [
         "A. Use JavaScript in the component's controllers to format values",
         "B. Create a Hierarchical custom setting to store user preferences",
@@ -555,7 +555,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has an Apex process that makes multiple extensive database operations and web service callouts. The database processes and web services can take a long time to run and must be run sequentially.How should the developer write this Apex code without running into running into governor limits and system limitations?",
+        "A company has an Apex process that makes multiple extensive database operations and web service callouts. The database processes and web services can take a long time to run and must be run sequentially. How should the developer write this Apex code without running into running into governor limits and system limitations?",
       options: [
         "A. Use Apex Scheduler to schedule each process",
         "B. Use multiple @future methods for each process and callout",
@@ -567,7 +567,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "UC Loans is a small company with a part time Salesforce administrator. UC Loans wants to create a Loan__c record whenever an Opportunity is won.What is the optimal solution for UC Loans to accomplish this?",
+        "UC Loans is a small company with a part time Salesforce administrator. UC Loans wants to create a Loan__c record whenever an Opportunity is won. What is the optimal solution for UC Loans to accomplish this?",
       options: [
         "A. Workflow Rule",
         "B. Quick Action",
@@ -603,7 +603,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar has a custom object, serviceJcb__c, with an optional Lookup field to Account called Partr,er_service_Provider__c.The TocaUobs__c field on Account tracks the total number of serviceJcb__o records to which a partner service provider Account is related.What should be done to ensure that the TotalJobs_c field is kept up to date?",
+        "Ursa Major Solar has a custom object, serviceJcb__c, with an optional Lookup field to Account called Partr,er_service_Provider__c. The TocaUobs__c field on Account tracks the total number of serviceJcb__o records to which a partner service provider Account is related. What should be done to ensure that the TotalJobs_c field is kept up to date?",
       options: [
         "A. Implement a workflow cross-object field update.",
         "B. Build a Process Builder with an invocable action.",
@@ -615,7 +615,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to re code segment above.When following best practices for writing Apex taggers, which two lots are wrong or cause for concern?Choose 2 answers",
+        "Refer to re code segment above.When following best practices for writing Apex taggers, which two lots are wrong or cause for concern? Choose 2 answers",
       options: ["A. Line 11", "B. Line 20", "C. Line 6", "D. Line 16"],
       answer: "B,C",
       title: "Question 52",
@@ -635,7 +635,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions must be completed in a Lightning web component for a JavaScript file in a static resource to be loaded?Choose 3 answers",
+        "Which three actions must be completed in a Lightning web component for a JavaScript file in a static resource to be loaded? Choose 3 answers",
       options: [
         "A. Import the static resource.",
         "B. Reference the static resource in a <script> tag.",
@@ -648,7 +648,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Visualforce page needs to make a callout to get biding information and tax information from two different REST endpoints. The information needs to be Displayed to the user at the same time and the return value of the billing information contains the input for the tax information callout. Each endpoint might take up to two minutes to process.How should a developer implement the callouts?",
+        "A Visualforce page needs to make a callout to get biding information and tax information from two different REST endpoints. The information needs to be Displayed to the user at the same time and the return value of the billing information contains the input for the tax information callout. Each endpoint might take up to two minutes to process. How should a developer implement the callouts?",
       options: [
         "A. A Continuation for both the billing callout and the tax callout",
         "B. An HTTP REST callout for the billing callout and a Continuation for the tax callout",
@@ -692,7 +692,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As part of their quoting and ordering process, a company needs to send PDFs to their document storage system's REST endpoint that supports OAuth 2.0. Each Salesforce user must be individually authenticated with the document storage system to send the PDF.What is the optimal way for a developer to implement the authentication to the REST endpoint?",
+        "As part of their quoting and ordering process, a company needs to send PDFs to their document storage system's REST endpoint that supports OAuth 2.0. Each Salesforce user must be individually authenticated with the document storage system to send the PDF. What is the optimal way for a developer to implement the authentication to the REST endpoint?",
       options: [
         "A. Named Credential with Password Authentication",
         "B. Hierarchy Custom Setting with an OAuth token custom field",
@@ -704,7 +704,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is trying to decide between creating a Visualforce component or a Lightning component for a custom screen.Which functionality consideration impacts the final decision?",
+        "A developer is trying to decide between creating a Visualforce component or a Lightning component for a custom screen. Which functionality consideration impacts the final decision?",
       options: [
         "A. Will the screen make use of a JavaScript framework?",
         "B. Does the screen need to be rendered as a PDF?",
@@ -740,7 +740,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page.Which Apex code feature is required to facilitate this solution'",
+        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page. Which Apex code feature is required to facilitate this solution'",
       options: [
         "A. Streaming API",
         "B. Dynamic SOQL",
@@ -765,7 +765,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the markup below:A Lightning web component displays the Account name and two custom fields out of 275 that exist on the object. The developer receives complaints that the component performs slowly.What can the developer do to improve the performance?A)B)C)D)",
+        "Refer to the markup below:A Lightning web component displays the Account name and two custom fields out of 275 that exist on the object. The developer receives complaints that the component performs slowly. What can the developer do to improve the performance?A)B)C)D)",
       options: ["A. Option A", "B. Option D", "C. Option B", "D. Option C"],
       answer: "D",
       title: "Question 65",
@@ -784,7 +784,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three Visualforce components can be used to initiate Ajax behavior to perform partial page updates?Choose 3 answers",
+        "Which three Visualforce components can be used to initiate Ajax behavior to perform partial page updates? Choose 3 answers",
       options: ["A. ", "B. ", "C. ", "D. ", "E. "],
       answer: "A,B,C",
       title: "Question 67",
@@ -822,14 +822,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the markup below:A Lightning web component displays the Account name and two custom fields out of 275 that exist on the object. The developer receives complaints that the component performs slowly.What can the developer do to improve the performance?A)B)C)D)",
+        "Refer to the markup below:A Lightning web component displays the Account name and two custom fields out of 275 that exist on the object. The developer receives complaints that the component performs slowly. What can the developer do to improve the performance?A)B)C)D)",
       options: ["A. Option C", "B. Option B", "C. Option A", "D. Option D"],
       answer: "A",
       title: "Question 71",
     },
     {
       content:
-        "A developer is tasked with creating a Lightning web component that allows users to create a Case for a selected product, directly from a custom Lightning page. The input fields in the component are displayed in a non-linear fashion on top of an image of the product to help the user better understand the meaning of the fields.Which two components should a developer use to implement the creation of the Case from the Lightning web component?Choose 2 answers",
+        "A developer is tasked with creating a Lightning web component that allows users to create a Case for a selected product, directly from a custom Lightning page. The input fields in the component are displayed in a non-linear fashion on top of an image of the product to help the user better understand the meaning of the fields. Which two components should a developer use to implement the creation of the Case from the Lightning web component? Choose 2 answers",
       options: [
         "A. lightning-record-edit-form",
         "B. lightning-input",
@@ -841,7 +841,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Lightning web component to get data from an Apex method called getData that takes a parameter, name. The data should be retrieved when the user clicks the Load Data button.Exhibit.What must be added to get the data?",
+        "A developer is building a Lightning web component to get data from an Apex method called getData that takes a parameter, name. The data should be retrieved when the user clicks the Load Data button.Exhibit. What must be added to get the data?",
       options: [
         "A. Add this, account = getData (this,name); to the loadData ( ) function.",
         "B. Add @wire(getData, (name: $name')} to the account field and this, account = getData ( ) ; to t loadData ( ) function.",
@@ -872,7 +872,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to build a solution that will automatically send an email to the Customer when an Opportunity stage changes. The solution must scale to allow for 10,000 emails per day. The criteria to send the email should be evaluated after all Workflow Rules have fired.What is the optimal way to accomplish this?",
+        "A developer is asked to build a solution that will automatically send an email to the Customer when an Opportunity stage changes. The solution must scale to allow for 10,000 emails per day. The criteria to send the email should be evaluated after all Workflow Rules have fired. What is the optimal way to accomplish this?",
       options: [
         "A. Use a MassEmailMessage() with an Apex Trigger.",
         "B. Use a Workflow Email Alert.",
@@ -896,7 +896,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is writing a Visualforce page to display a list of all of the checkbox fields found on a custom object.What is the recommended mechanism the developer should use to accomplish this?",
+        "A developer is writing a Visualforce page to display a list of all of the checkbox fields found on a custom object. What is the recommended mechanism the developer should use to accomplish this?",
       options: [
         "A. Apex API",
         "B. Schema Class",
@@ -908,7 +908,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to write a generic Apex method that will compare the Salesforce Name filed between any two object records, for example to compare the Name field of an Account and an Opportunity; or the name of an Account and a Contact.How should the developer do this?",
+        "A developer wants to write a generic Apex method that will compare the Salesforce Name filed between any two object records, for example to compare the Name field of an Account and an Opportunity; or the name of an Account and a Contact. How should the developer do this?",
       options: [
         "A. Invoke a Schema,describe() function to compare the values of each Name field.",
         "B. Cast each object into an sObject and use sObject.get(Name') to compare the Name fields.",
@@ -920,7 +920,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has requirement to query three fields (id, name, Type) from an Account and first and last names for all Contacts associated with the Account.Which option is the preferred optimized method to achieve this for the Account named 'Ozene Electronics'?",
+        "A developer has requirement to query three fields (id, name, Type) from an Account and first and last names for all Contacts associated with the Account. Which option is the preferred optimized method to achieve this for the Account named 'Ozene Electronics'?",
       options: [
         "A. Account a = (SELECT ID, Name, Type, (select contat,firstName, Contact,LastName from Account, Contacts) from Account where name; Ozone Electronic' Limit 1 );",
         "B. List 1Contacts = new list ( );for(Contact c ; 1Select firstname, lastname Account, Name Account,ID Account, Type from Contact where Account: Name=' electronics')) ( iContacts.add(c);)",
@@ -945,7 +945,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a Lightning page for entering Order Information. An error message should be displayed if the zip code entered as part of the Order's shipping address is not numeric.What is a recommended way for the error message be displayed to the end user?",
+        "A developer needs to create a Lightning page for entering Order Information. An error message should be displayed if the zip code entered as part of the Order's shipping address is not numeric. What is a recommended way for the error message be displayed to the end user?",
       options: [
         "A. Use the aura:component tag to display errors",
         "B. Use the apex:message tag to display errors",
@@ -981,7 +981,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Visualforce page that displays a table every Container_ c being rented by a gives Account.. failing because some of the customers rent over 100,000 containers.What should a developer change about the Visualforce page to help with the page load errors?",
+        "Universal Containers has a Visualforce page that displays a table every Container_ c being rented by a gives Account.. failing because some of the customers rent over 100,000 containers. What should a developer change about the Visualforce page to help with the page load errors?",
       options: [
         "A. Use lazy loading and a transient List variable.",
         "B. Use JavaScript remoting with SOQL Offset.",
@@ -1019,7 +1019,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce org has more than 50,000 contacts. A new business process requires a calculation that aggregates data from all of these contact records. This calculation needs to run once a day after business hours.Which two steps should a developer take to accomplish this?Choose 2 answers",
+        "A Salesforce org has more than 50,000 contacts. A new business process requires a calculation that aggregates data from all of these contact records. This calculation needs to run once a day after business hours. Which two steps should a developer take to accomplish this? Choose 2 answers",
       options: [
         "A. Implement the Queuable Interface in the class that contains the aggregate calculation method.",
         "B. Use the areadOnly annotation on the method that performs the aggregate calculation.",
@@ -1049,7 +1049,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is closed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails.What might be causing the failed assertion?",
+        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is closed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails. What might be causing the failed assertion?",
       options: [
         "A. The test class has not implemented seeAllData=true in the test method",
         "B. The test class is not using System.runAs() to run tests as a Salesforce administrator",
@@ -1153,7 +1153,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object.What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
+        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object. What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
       options: [
         "A. A standard controller with a controller extension",
         "B. A custom controler",
@@ -1165,7 +1165,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "trigger AssignOwnerByRegion on Account ( before insert, before update ){List<Account> accountList = new List<Account>();for( Account anAccount : trigger.new ){Region__c theRegion = [SELECT Id, Name, Region_Manager__cFROM Region__cWHERE Name = :anAccount.Region_Name__c];anAccount.OwnerId = theRegion.Region_Manager__c;accountList.add( anAccount );}update accountList;}Consider the above trigger intended to assign the Account to the manager of the Account's region.Which two changes should a developer make in this trigger to adhere to best practices? (Choose two.)",
+        "trigger AssignOwnerByRegion on Account ( before insert, before update ){List<Account> accountList = new List<Account>();for( Account anAccount : trigger.new ){Region__c theRegion = [SELECT Id, Name, Region_Manager__cFROM Region__cWHERE Name = :anAccount.Region_Name__c];anAccount.OwnerId = theRegion.Region_Manager__c;accountList.add( anAccount );}update accountList;}Consider the above trigger intended to assign the Account to the manager of the Account's region. Which two changes should a developer make in this trigger to adhere to best practices? (Choose two.)",
       options: [
         "A. Move the Region__c query to outside the loop.",
         "B. Use a Map accountMap instead of List accountList.",
@@ -1196,7 +1196,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A software company uses a custom object Defect_c, to track defects in their software, Defect__c has organisation-wide defaults set toprivate Each Dafect__c has a related list of Reviewer_c records, each with a lookup field to User that is used to indicate that the User will review the Defect_c.What should be used to give the User on the Reviewer_c record read only access to the Defect_c record on the Reviewer_c record?",
+        "A software company uses a custom object Defect_c, to track defects in their software, Defect__c has organisation-wide defaults set toprivate Each Dafect__c has a related list of Reviewer_c records, each with a lookup field to User that is used to indicate that the User will review the Defect_c. What should be used to give the User on the Reviewer_c record read only access to the Defect_c record on the Reviewer_c record?",
       options: [
         "A. View All on Defect_c",
         "B. Apex managed sharing",

@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Create a controller extension.",
         "B. Add a method to the standard controller.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
+        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price. What is the correct implementation?",
       options: [
         "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
         "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles. Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. Ant Migration Tool",
         "B. Developer Console",
@@ -181,7 +181,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create and populate a custom field on the parent object marked as an External ID.",
         "B. Create a custom field on the child object of type Foreign Key",
@@ -193,7 +193,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record.Which approach should the developer to meet this requirement?",
+        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record. Which approach should the developer to meet this requirement?",
       options: [
         "A. A custom controller",
         "B. Standard controller methods",
@@ -314,7 +314,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Line Item has a Lookup field to Order and there can be many Line Items per Order",
         "B. Line Items has a Master-Detail field to Order and the Master can be re-parented.",
@@ -338,14 +338,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Continue", "B. Next", "C. Exit", "D. break;"],
       answer: "D",
       title: "Question 29",
     },
     {
       content:
-        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'.Which SOSL statement should the developer use?",
+        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'. Which SOSL statement should the developer use?",
       options: [
         "A. FIND {[email protected]} IN Email Fields RETURNING Contact (Email), User (Email)",
         "B. FIND {Email = '[email protected]'} RETURNING Contact (Email), User (Email)",
@@ -417,7 +417,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom field value from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom field value from a trigger?",
       options: [
         "A. By writing an After Insert trigger and accessing the field value from Trigger.old",
         "B. By writing an After Update trigger and accessing the field value from Trigger.old",
@@ -503,7 +503,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. readOnly",
         "B. renderAs",
@@ -516,7 +516,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable.Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
+        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
       options: [
         "A. accountRec.isDeletable()",
         "B. Schema.sObjectType.Account.isDeletable()",
@@ -588,7 +588,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Use @TestSetup with a viod method.",
         "B. Create test data before Test.startTest() in the unit test.",
@@ -600,7 +600,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom Interface in Apex.Which three considerations must the developer keep in mind while developing the Apex Interface' Choose 3 answers",
+        "A developer needs to create a custom Interface in Apex. Which three considerations must the developer keep in mind while developing the Apex Interface' Choose 3 answers",
       options: [
         "A. A method defined In an Apex Interface cannot have an access modifier.",
         "B. The Apex class must be declared using the interface keyword.",
@@ -613,7 +613,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria and send an outbound message with Apex Code.",
         "B. workflows can be used to check the record criteria and send an outbound message.",
@@ -633,7 +633,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org.How should the Developer overcome this problem?",
+        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org. How should the Developer overcome this problem?",
       options: [
         "A. Use @IsTest(SeeAllData=true) and delete the existing standard PriceBook.",
         "B. Use Test.getStandardPricebookId() to get the standard PriceBook ID.",

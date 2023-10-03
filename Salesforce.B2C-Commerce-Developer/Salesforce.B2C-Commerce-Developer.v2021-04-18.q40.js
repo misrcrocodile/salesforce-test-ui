@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox.Which B2C feature should the developer use to achieve the request?",
+        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox. Which B2C feature should the developer use to achieve the request?",
       options: [
         "A. Use the service status area, set the override URL checkbox, and then populate the URL field with the required one.",
         "B. Use a Globalpreference dedicated for the service URL",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to improve the maintainability of a page by reducing its code repetition.What are two techniques the developer should implement to achieve this?Choose 2 answers.",
+        "A developer is asked to improve the maintainability of a page by reducing its code repetition. What are two techniques the developer should implement to achieve this? Choose 2 answers.",
       options: [
         "A. Implement template decorators paired with replace tags",
         "B. Require and render templates with <isscript> tags",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a requirement to render personalized content to n a category page via a Content Slot that targets VIP high-spending customers during a specific promotional period.Which two items should the developer create to achieve the specified requirements?Choose 2 answers:",
+        "A merchant has a requirement to render personalized content to n a category page via a Content Slot that targets VIP high-spending customers during a specific promotional period. Which two items should the developer create to achieve the specified requirements? Choose 2 answers:",
       options: [
         "A. Page Template",
         "B. VIP Customer Group",
@@ -82,7 +82,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to add a model field to each product. Products will have locale-specific model values.How should the Digital Developer implement the requirement?",
+        "Universal Containers wants to add a model field to each product. Products will have locale-specific model values. How should the Digital Developer implement the requirement?",
       options: [
         "A. Set the model field as a localizable attribute.",
         "B. Utilize resource bundles for translatable values.",
@@ -118,7 +118,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer.Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
+        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer. Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
       options: [
         "A. Only page Designer components can ve tied to campaigns.",
         "B. Only content slot configurations can be tied to campaigns.",
@@ -130,7 +130,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has custom debug statements in a script, but the messages are not showing up in the Storefront Toolkit Request Log.Which step needs to be completed to get the messages to appear in the Request Log?",
+        "A developer has custom debug statements in a script, but the messages are not showing up in the Storefront Toolkit Request Log. Which step needs to be completed to get the messages to appear in the Request Log?",
       options: [
         "A. In Custom Log Settings, check the DEBUG box for Select Log Levels Written to Files.",
         "B. In custom Log Settings, activate the loggin category at DEBUG level.",
@@ -142,7 +142,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Given a job step configured in the steptype.json, a developer needs to add a custom status code"No_FILES_FOUND".Which code snippet will complete the requirement?',
+        'Given a job step configured in the steptype.json, a developer needs to add a custom status code"No_FILES_FOUND". Which code snippet will complete the requirement?',
       options: [
         "A. var status = {success: 'OK'. Message: 'NO_FILES_FOUND'};return status;",
         "B. var status = require('dw/system/status');return new Status(Status.OK, 'NO_FILES_FOUND');",
@@ -178,7 +178,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools.How should the developer follow SFRA best practices to expose this data for rendering?",
+        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools. How should the developer follow SFRA best practices to expose this data for rendering?",
       options: [
         "A. Use the module.superModule functionality and the call method to add a new property to the Store Model.",
         "B. Pass the Store system object to the template, so that custom propierties are available",
@@ -190,7 +190,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects.Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
+        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects. Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
       options: [
         "A. The cartridge is for the current version of B2C Commerce.",
         "B. The Active Server setting is enabled for the server connection.",
@@ -203,7 +203,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts.What does the Developer need to change in Business Manager to fulfill this requirement?',
+        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts. What does the Developer need to change in Business Manager to fulfill this requirement?',
       options: [
         "A. Checkout exclusion rules in the Merchant Tools > Site Preferences > Checkout Preferences module.",
         "B. Credit card exclusion rules in the CreditCardType.json configuration file.",
@@ -215,7 +215,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox.Which three items are required to accomplish this task? (Choose three.)",
+        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox. Which three items are required to accomplish this task? (Choose three.)",
       options: [
         "A. Business Manager Username",
         "B. Instance Version",
@@ -252,7 +252,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog.What is the next step in Business Manager to create "The Basics" as a combination?',
+        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog. What is the next step in Business Manager to create "The Basics" as a combination?',
       options: [
         'A. In the Product Bundles module, create a bundle named "The Basics".',
         'B. In the Products module, create a product named "The Basics" and add the products to the Product Sets tab.',
@@ -264,7 +264,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading all scripts at the start of the code execution.Which statement should the Developer use to lazy load scripts?",
+        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading all scripts at the start of the code execution. Which statement should the Developer use to lazy load scripts?",
       options: [
         "A. local include",
         "B. importPackage () method",
@@ -276,7 +276,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability.Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
+        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability. Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
       options: [
         "A. Increase the web service time out.",
         "B. Change the code that makes the request to set the throwOnError attribute, of the service, to be true.",
@@ -300,7 +300,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability.Which two solutions can reduce the unavailability of the service?Choose 2 answers.",
+        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability. Which two solutions can reduce the unavailability of the service? Choose 2 answers.",
       options: [
         "A. Update the service to have a faster response time.",
         "B. Modify the code that makes the request to the external service to be wrapped in a try/catch block.",
@@ -324,7 +324,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers created a site export file from staging in the global export directory.How should the Digital Developer update their sandbox using this staging site export file?",
+        "Universal Containers created a site export file from staging in the global export directory. How should the Digital Developer update their sandbox using this staging site export file?",
       options: [
         "A. Use the Site Development > Import & Export Business Manager module.",
         "B. Download the site export file and use UX Studio to transfer the data to the sandbox.",
@@ -336,7 +336,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more.How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
+        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more. How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
       options: [
         "A. Add a Localizable custom attribute to the Certificate system object type.",
         "B. Ad and Image custom preference to the Sitepreference system object type",
@@ -348,14 +348,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work.Which line of code should the developer use to replace line 6 and correct the problem?",
+        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work. Which line of code should the developer use to replace line 6 and correct the problem?",
       options: ["A. next();", "B. req.next();", "C. return res;C. res.next();"],
       answer: "A",
       title: "Question 29",
     },
     {
       content:
-        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory.Which action potentially solves this problem?",
+        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory. Which action potentially solves this problem?",
       options: [
         "A. Set the active code version to use the latest compatibility mode.",
         "B. Set the server connection's target version directory to the active code version.",
@@ -367,7 +367,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to add a link to the My Account Page.What is the correct code to accomplish this?",
+        "A developer wants to add a link to the My Account Page. What is the correct code to accomplish this?",
       options: [
         "A. <a href=\"${url.get('Account-Show')}>${Resource.message('myaccount')}</a>",
         "B. <a href=\"${URLUtils('Account-Show')}>${ResourceMgr.getPropierties('myaccount','account',null)}</a>",
@@ -379,7 +379,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift item by an attribute at the product line item.The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
+        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift item by an attribute at the product line item. The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
       options: [
         "A. dw.ocapi.shop.basket.shipment.beforeDELETE",
         "B. dw.ocapi.shop.basket.shipment.afterDELETE",
@@ -391,7 +391,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer adds the following line of code to a script.The code executes without error; however, the log file on disk does NOT contain the log message.Which two actions should be completed to write the log message to disk? (Choose two.)",
+        "A Digital Developer adds the following line of code to a script. The code executes without error; however, the log file on disk does NOT contain the log message. Which two actions should be completed to write the log message to disk? (Choose two.)",
       options: [
         "A. Ensure that the debug log level has been added to the custom log level types in the Global Preferences business manager module.",
         "B. Ensure that the debug log level is enabled to write to file in the Custom Log Settings Business Manager module.",
@@ -427,7 +427,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items.How can a developer use Business Manager to ensure that the gift vouchers are always available?",
+        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items. How can a developer use Business Manager to ensure that the gift vouchers are always available?",
       options: [
         "A. Manually set the inventory to a high number.",
         "B. Set StockLevel = maxAllocation for the producto.",
@@ -439,7 +439,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges.Which cartridge path meets the project requirements?",
+        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges. Which cartridge path meets the project requirements?",
       options: [
         "A. client_project:app_project:storefront_controllers:storefront_core",
         "B. app_project:client_project:storefront_controllers:storefront_core",
@@ -464,7 +464,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three configuration does a developer need to ensure to have a new product visible in the Storefront?Choose 3 answers",
+        "Which three configuration does a developer need to ensure to have a new product visible in the Storefront? Choose 3 answers",
       options: [
         "A. The Storefront catalog that contains the product is assigned to a site",
         "B. The search index is built.Tengo dudas con el A. REVISAR",
@@ -477,7 +477,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting.Which approach should the Developer use to implement the requirement?",
+        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting. Which approach should the Developer use to implement the requirement?",
       options: [
         "A. Implement a condition that checks to see if the response was empty and execute fallback code if true.",
         "B. Create a site preference to store timeout settings and implement an IOException handler to execute fallback code.",

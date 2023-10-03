@@ -285,7 +285,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud kicks has the organization-wide sharing default set to private on the shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team. Which 3 items should the administrator configure to provide appropriate access to the report?Choose 3 answers",
+        "Cloud kicks has the organization-wide sharing default set to private on the shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team. Which 3 items should the administrator configure to provide appropriate access to the report? Choose 3 answers",
       options: [
         "A. Folder access",
         "B. Field level security",
@@ -418,7 +418,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need?Choose Three answers",
+        "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need? Choose Three answers",
       options: [
         "A. Enable guided selling.",
         "B. Mark fields required on the page layout.",
@@ -671,7 +671,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three aspects of standard fields should an administrator customize?Choose 3 answers",
+        "Which three aspects of standard fields should an administrator customize? Choose 3 answers",
       options: [
         "A. Field history tracking",
         "B. Picklist Values",

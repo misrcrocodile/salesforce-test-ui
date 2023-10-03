@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application. Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Flow Builder", "B. Validation Rules", "C. Process builder"],
       answer: "A,B,C",
       title: "Question 1",
@@ -109,7 +109,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price.What is the correct implementation?",
+        "An org tracks customer orders on an Order object and the items of an Order on the Line Item object. The Line Item object has a MasterDetail relationship to the order object. A developer has a requirement to calculate the order amount on an Order and the line amount on each Line item based on quantity and price. What is the correct implementation?",
       options: [
         "A. Write a process on the Line item that calculates the item amount and order amount and updates the filed on the Line Item and the order.",
         "B. Write a single before trigger on the Line Item that calculates the item amount and updates the order amount on the Order.",
@@ -133,7 +133,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders.What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
+        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders. What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
       options: [
         "A. Add without sharing to the Apex class declaration.",
         "B. Change the master-detail relationship to an external lookup relationship.",
@@ -164,7 +164,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event.The developer is working on a Lightning web component to display the information.",
+        "Get Cloudy Consulting (GCC) has a multitude of servers that host its customers' websites. GCC wants to provide a servers status page that is always on display in its call center. It should update in real time with any changes made to any servers. To accommodate this on the server side, a developer created a server Update platform event. The developer is working on a Lightning web component to display the information.",
       options: [
         "A. import ( subscribe, unsubscribe, onError ) from 'lightning/pubsub'",
         "B. import ( subscribe, unsubscribe, onError ) from 'lightning/ServerUpdate'",
@@ -200,7 +200,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days.Which Apex technique should the developer use?",
+        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days. Which Apex technique should the developer use?",
       options: [
         "A. An If/else statement, with a for loop inside",
         "B. A for loop, with a switch statement inside",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project.Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
+        "A developer created these three Rollup Summary fields in the custom object, Project_ct,The developer is asked to create a new field that shows the ratio between rejected and approved timesheets for a given project. Which should the developer use to Implement the business requirement in order to minimize maintenance overhead?",
       options: [
         "A. Apex Trigger",
         "B. Formula field",
@@ -235,7 +235,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
+        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
       options: [
         "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
         "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
@@ -247,7 +247,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Lightning web component called statusComponent to be inserted into the Account record page.Which two things should the developer do to make the component available?",
+        "A developer created a Lightning web component called statusComponent to be inserted into the Account record page. Which two things should the developer do to make the component available?",
       options: [
         "A. Add <isExposed> true</isExposed> to the statusComponent.js-meta ml file.",
         "B. Add < masterLabel>Account</master Label> to the statusComponent.js-meta ml file.",
@@ -295,7 +295,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. insert pageRef.",
         "B. Test.setCurrentPage(pageRef);",
@@ -320,7 +320,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the System.Limit class to monitor the current CPU governor limit consumption.",
         "B. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
@@ -344,7 +344,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle for Fahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must be sent to the Temperature component so the temperature can be converted and displayed.What is the recommend way to accomplish this?",
+        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle for Fahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must be sent to the Temperature component so the temperature can be converted and displayed. What is the recommend way to accomplish this?",
       options: [
         "A. Use Lightning Message Service to communicate between the component.",
         "B. Create a custom event to handle the communicate between the components.",
@@ -417,7 +417,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a Lightning web component to show a list of sales records.The Sales Representative user should be able to see the commission-field on each record. The Sales Assistance user should be able to see all field on the record except the commission field.How should this be enforced so that the component works for both users without showing any errors?",
+        "A developer is creating a Lightning web component to show a list of sales records. The Sales Representative user should be able to see the commission-field on each record. The Sales Assistance user should be able to see all field on the record except the commission field. How should this be enforced so that the component works for both users without showing any errors?",
       options: [
         "A. Use security. stripInaccessible to remove fields inaccessible to the current user.",
         "B. Use with SECURITY_EMFoRCED in the SOQL that fetches the data for the component.",
@@ -472,7 +472,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment.How should the developer track that an Account has purchased a piece of equipment.",
+        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment. How should the developer track that an Account has purchased a piece of equipment.",
       options: [
         "A. Use the Asset object.",
         "B. Use a Lookup on Account to product.",
@@ -508,7 +508,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown.How should the developer modify the code to ensure exceptions are handled gracefully?",
+        "Considering the following code snippet:\npublic static void insertaccounts(List these Accounts){\n　for(Account thisAccount : theseAccounts{\n　　if(thisAccount.website == null) {\n　　　thisAccount.website = 'https://www.denc.com';\n　　}\n　}\n　update theseAccounts;\n}When the code executes a DML exception is thrown. How should the developer modify the code to ensure exceptions are handled gracefully?",
       options: [
         "A. Implement the upsert DML statement.",
         "B. Implement a try/catch block for the DML.",
@@ -539,7 +539,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, the file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system.Which technique should the developer implement to streamline the data upload?",
+        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, the file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system. Which technique should the developer implement to streamline the data upload?",
       options: [
         "A. Upload the CSV into a custom object related to Candidate_c.",
         "B. Create a Process Builder on the Candidate_c object to map the records.",
@@ -586,7 +586,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The orderHelper class is a utility class that contains business logic for processing orders. Consider the following code snippet:A developer needs to create a constant named DELIVERY_MULTIFILTER with a value of 4.15. The value of the constant should not change at any time in the code.How should the developer declare the DELIVERY_MULTIFILTER constant to meet the business objectives?",
+        "The orderHelper class is a utility class that contains business logic for processing orders. Consider the following code snippet:A developer needs to create a constant named DELIVERY_MULTIFILTER with a value of 4.15. The value of the constant should not change at any time in the code. How should the developer declare the DELIVERY_MULTIFILTER constant to meet the business objectives?",
       options: [
         "A. Constant decimal DELIVERY_MULTIFILTER = 4.15;",
         "B. Static final decimal DELIVERY_MULTIFILTER = 4.15;",
@@ -610,7 +610,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Exit", "B. Continue", "C. break;", "D. Next"],
       answer: "C",
       title: "Question 54",
@@ -630,7 +630,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
         "B. Visual Workflow can be used to check the record criteria and send an outbound message without Apex Code.",
@@ -643,7 +643,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object.What should be built to implement this feature?",
+        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object. What should be built to implement this feature?",
       options: [
         "A. Account assignment rule",
         "B. Account custom trigger",
@@ -690,7 +690,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer receives an error when trying to call a global server-side method using the remoteAction decorator.How can the developer resolve the error?",
+        "A developer receives an error when trying to call a global server-side method using the remoteAction decorator. How can the developer resolve the error?",
       options: [
         "A. Change the function signature to be private static.",
         "B. Add static to the server-side method signature.",
@@ -753,7 +753,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has an existing Flow that creates an Opportunity with an Update Records element. A developer update the Flow to also create a Contact and store the created Contact's ID on the Opportunity.Which update should the developer make in the Flow?",
+        "An org has an existing Flow that creates an Opportunity with an Update Records element. A developer update the Flow to also create a Contact and store the created Contact's ID on the Opportunity. Which update should the developer make in the Flow?",
       options: [
         "A. Add a new Create Records element.",
         "B. Add a new Update Records element.",
@@ -777,7 +777,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record.Which approach should the developer to meet this requirement?",
+        "A developer is asked to create a Visualforce page for Opportunities that allows users to save or merge the current record. Which approach should the developer to meet this requirement?",
       options: [
         "A. Standard controller methods",
         "B. A custom controller extension",
@@ -801,7 +801,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
+        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names. What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names. What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
       options: [
         "A. Use the @isTest(isParallel=true) annotation in the test class.",
         "B. Use Test.loadData to populate data in your test methods.",
@@ -892,7 +892,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
+        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system. Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
       options: [
         "A. The method must be defined as static.",
         "B. The method must be defined as public.",
@@ -959,7 +959,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts. Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Specify lightning_RecordPage as a target in the XML file.",
         "B. Ensure isExposed is set to true on the XML file.",
@@ -996,7 +996,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote the following two classes:The StatusFetcher class successfully compiled and saved. However, the Calculator class has a compile time error.How should the developer fix this code?",
+        "A developer wrote the following two classes:The StatusFetcher class successfully compiled and saved. However, the Calculator class has a compile time error. How should the developer fix this code?",
       options: [
         "A. Make the isActive method in the StatusFetcher class public.",
         "B. Make the doCalculations method in the Calculation class private.",

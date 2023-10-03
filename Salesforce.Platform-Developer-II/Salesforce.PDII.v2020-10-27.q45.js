@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.The developer verified that the Queries return a single record each and there is error handing in the Lightning component, but the component is not getting anything back when calling the controller getSomeData().What is wrong?",
+        "Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.Consider the controller code above that is called from a Lightning component and returns data wrapped in a class. The developer verified that the Queries return a single record each and there is error handing in the Lightning component, but the component is not getting anything back when calling the controller getSomeData(). What is wrong?",
       options: [
         "A. Instances of Apex classes such as MyDataWrapper cannot be returned to a Lightning component.",
         "B. The member's Name and Option should not have getter and setter.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company manages information about their product offerings in custom objects named Catalog and Catalog Item. Catalog Item has a master-detail field to Catalog, and each Catalog may have as many as 100,000 Catalog Items.Both custom objects have a CurrencylsoCode Text field that contains the currency code they should use. If a Catalog's CurrencylsoCode changes, all of its Catalog Items' CurrencylsoCodes should be changed as well.What should a developer use to update the CurrencylsoCodes on the Catalog Items when the Catalog's CurrencylsoCode changes^5",
+        "A company manages information about their product offerings in custom objects named Catalog and Catalog Item. Catalog Item has a master-detail field to Catalog, and each Catalog may have as many as 100,000 Catalog Items.Both custom objects have a CurrencylsoCode Text field that contains the currency code they should use. If a Catalog's CurrencylsoCode changes, all of its Catalog Items' CurrencylsoCodes should be changed as well. What should a developer use to update the CurrencylsoCodes on the Catalog Items when the Catalog's CurrencylsoCode changes^5",
       options: [
         "A. A Database.Schedulable and Database.Batchable class that queries the Catalog Item object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
         "B. A Database.Schedulable and Database.Batchable class that queries the Catalog object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
@@ -94,7 +94,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer sees test failures in the sandbox but not in production. No code or metadata changes have been actively made to either environment since the sandbox was created.Which consideration should be checked to resolve the issue?",
+        "A developer sees test failures in the sandbox but not in production. No code or metadata changes have been actively made to either environment since the sandbox was created. Which consideration should be checked to resolve the issue?",
       options: [
         "A. Ensure Workflow Rules are inactive.",
         "B. Ensure the sandbox is on the same release as production.",
@@ -118,7 +118,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once.What can a developer do to help alleviate such issues?",
+        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once. What can a developer do to help alleviate such issues?",
       options: [
         "A. Use the transient keyword in the Apex code when querying the Account records.",
         "B. Use the standard Account List controller and implement pagination.",
@@ -130,7 +130,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company uses Opportunism to track sales to their customers and their org has millions of Opportunities. They want to begging to track revenue over time through a related Revenue object.As part of their initial implementation, they want to perform a one-time seeding of their data by automatically creating and populating Revenue records for Opportunities, based on complex logic. They estimate that roughly 100,000 Opportunities will have revenue records and populated.What is the optimal way to automate this?",
+        "A company uses Opportunism to track sales to their customers and their org has millions of Opportunities. They want to begging to track revenue over time through a related Revenue object.As part of their initial implementation, they want to perform a one-time seeding of their data by automatically creating and populating Revenue records for Opportunities, based on complex logic. They estimate that roughly 100,000 Opportunities will have revenue records and populated. What is the optimal way to automate this?",
       options: [
         "A. Use Database.executeBatch() to invoke a Queueable dass.",
         "B. Use System.scheduleJob() to schedule a Database.Scheduleable class.",
@@ -142,7 +142,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users.What are two alternatives to implement the integration and protect against malicious calls to the Heroku app's endpoint? Choose 2 answers",
+        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users. What are two alternatives to implement the integration and protect against malicious calls to the Heroku app's endpoint? Choose 2 answers",
       options: [
         "A. Create a Workflow Rule with an Outbound Message allowing the Heroku app to automatically store the resized images in Salesforce",
         "B. Create a Workflow Rule with an Outbound Message and select Send Session ID so that the Heroku app can use it to send the re images back to Salesforce.",
@@ -154,7 +154,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration is periodically reporting errors.Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
+        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration is periodically reporting errors. Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
       options: [
         "A. Deactivate the Trigger before the Integration runs.",
         "B. Use the Database method with allOrNone set to False.",
@@ -166,7 +166,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to integrate invoice and invoice line data into Salesforce from a custom billing system. The developer decides to make realtime callouts from the billing system using the SOAP API. Unfortunately, the developer is getting a lot of errors when inserting the invoice line data because the invoice header record doesn't exist yet.What will help ensure ne transactional Integrity of the integration?",
+        "A developer wants to integrate invoice and invoice line data into Salesforce from a custom billing system. The developer decides to make realtime callouts from the billing system using the SOAP API. Unfortunately, the developer is getting a lot of errors when inserting the invoice line data because the invoice header record doesn't exist yet. What will help ensure ne transactional Integrity of the integration?",
       options: [
         "A. Create the invoice header and the related invoice lines in the same create() call leveraging External Ids.",
         "B. Use an ETL tool and the Bulk API running nightly, thus ensuring all of the data is handled at the same time.",
@@ -197,7 +197,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A managed package uses a list of country ISO codes and country names as references data in many different places.. managed package Apex code.What is the optimal way to store and retrieve the list?",
+        "A managed package uses a list of country ISO codes and country names as references data in many different places.. managed package Apex code. What is the optimal way to store and retrieve the list?",
       options: [
         "A. Store the information in a list Custom Setting and access it with the getAll() method",
         "B. Store the information in Custom Metadata and query it with SOQL.",
@@ -257,7 +257,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page.Which Apex code feature is required to facilitate this solution'",
+        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page. Which Apex code feature is required to facilitate this solution'",
       options: [
         "A. Dynamic variable binding",
         "B. Report API",
@@ -342,7 +342,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex trigger and Apex class increment a counter, Edit_Count_c, any time that the Case is changed.A new process on the case object was just created in production for when a Case is created or updated< since the process was created, they are reports that the Count is being incremented by more than one on Case edit.Which change in the Apex code will fix the problem?A)B)C)D)",
+        "An Apex trigger and Apex class increment a counter, Edit_Count_c, any time that the Case is changed.A new process on the case object was just created in production for when a Case is created or updated< since the process was created, they are reports that the Count is being incremented by more than one on Case edit. Which change in the Apex code will fix the problem?A)B)C)D)",
       options: ["A. Option D", "B. Option A", "C. Option C", "D. Option B"],
       answer: "B",
       title: "Question 30",
@@ -356,14 +356,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets.Which option has the changes to make the component responsive for mobile and tablet devices?",
+        "A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets. Which option has the changes to make the component responsive for mobile and tablet devices?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "D",
       title: "Question 32",
     },
     {
       content:
-        "Universal Containers allows customers to log into a Salesforce Community and update their orders via a custom Visualforce page. Universal Containers' sales representatives can edit the orders on the same Visualforce page.What should a developer use in an Apex test class to test that record sharing is enforced on the Visualforce page?",
+        "Universal Containers allows customers to log into a Salesforce Community and update their orders via a custom Visualforce page. Universal Containers' sales representatives can edit the orders on the same Visualforce page. What should a developer use in an Apex test class to test that record sharing is enforced on the Visualforce page?",
       options: [
         "A. Use System.profllels() to test as an administrator and a community user,",
         "B. Use System.runAs() to test as an administrator and a community user.",
@@ -375,7 +375,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page.Which feature of Apex code is required to facilitate this solution?",
+        "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page. Which feature of Apex code is required to facilitate this solution?",
       options: [
         "A. REST API",
         "B. Dynamic Schema binding",
@@ -387,7 +387,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records.What should a developer use to implement this?",
+        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records. What should a developer use to implement this?",
       options: [
         "A. Bin objects",
         "B. Field History Tracking",
@@ -399,7 +399,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Exhibit:The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer.The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Accounts are simultaneously updated to be customers.The test method fails at the Line 20 because of too many SOQL queries.What is the correct way to fix this?",
+        "Exhibit:The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer. The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Accounts are simultaneously updated to be customers. The test method fails at the Line 20 because of too many SOQL queries. What is the correct way to fix this?",
       options: [
         "A. Add TesLstartTest() before and Test.stop Test() after both Line 7 of the code and Line 20 of the code.",
         "B. Change the DataFactory class to create fewer Accounts so that the number of queries in the trigger is reduced.",
@@ -447,7 +447,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom object Sales_Help_Request__c that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on the Sales_Help_Request__c.A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity.What should the developer use to implement this?",
+        "A company has a custom object Sales_Help_Request__c that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on the Sales_Help_Request__c.A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity. What should the developer use to implement this?",
       options: [
         "A. A trigger on Sales_Help_Request__c",
         "B. A trigger on the Opportunity object",
@@ -471,7 +471,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers.What should the developer use to store and package the custom configuration settings for the app?",
+        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers. What should the developer use to store and package the custom configuration settings for the app?",
       options: [
         "A. Custom Metadata",
         "B. Custom Settings",

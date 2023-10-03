@@ -23,7 +23,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Create a nock using the Stud API",
         "B. Create test data before Test.startTest() in the unit test.",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 3", "B. 2", "C. 1", "D. 4"],
       answer: "B",
       title: "Question 6",
@@ -84,7 +84,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Add a method to the standard controller.",
         "B. Use the <apex:include> tag.",
@@ -168,7 +168,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. readOnly",
         "B. extensions",
@@ -193,7 +193,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object.What is the practice to get the sum of all order line totals on the order header?",
+        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object. What is the practice to get the sum of all order line totals on the order header?",
       options: [
         "A. Declarative Roll-Up Summaries App",
         "B. Apex Trigger",
@@ -241,7 +241,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Exit", "B. break;", "C. Continue", "D. Next"],
       answer: "B",
       title: "Question 21",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The sales management team at Universal Containers requires that the Lead Source field of the Lead record be populated when a Lead is converted.What should be used to ensure that a user populates the Lead Source field prior to converting a Lead?",
+        "The sales management team at Universal Containers requires that the Lead Source field of the Lead record be populated when a Lead is converted. What should be used to ensure that a user populates the Lead Source field prior to converting a Lead?",
       options: [
         "A. Process Builder",
         "B. workflow Rule",
@@ -356,7 +356,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known.Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
+        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known. Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
       options: [
         "A. Database.upsert (myAccounts, Foreign_Key__c);",
         "B. Upsert myAccounts Foreign_Key__c;",
@@ -380,7 +380,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -416,7 +416,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Order has a Lookup field to Line Item and there can be many Line Items per Order.",
         "B. Line Item has a Lookup field to Order and there can be many Line Items per Order",
@@ -428,7 +428,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page.Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
+        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page. Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
       options: [
         "A. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' +String.escapeSingleQuotes(name) + '%\\'';List<Account> results = Database.query(query);",
         "B. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' + name.noQuotes() + '%\\''; List<Account> results = Database.query(query);",
@@ -573,7 +573,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
+        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status. Which tool should be used to implement this requirement?',
       options: [
         "A. Apex trigger",
         "B. Process Builder",
@@ -597,7 +597,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom field value from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom field value from a trigger?",
       options: [
         "A. By writing, a Before Update trigger and accessing the field value from Trigger.new",
         "B. By writing a Before Insert trigger and accessing the field value from Trigger.new",
@@ -621,7 +621,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom object Trainer_c has a lookup field to another custom object Gym___c.Which SOQL query will get the record for the Viridian City gym and it's trainers?",
+        "A custom object Trainer_c has a lookup field to another custom object Gym___c. Which SOQL query will get the record for the Viridian City gym and it's trainers?",
       options: [
         "A. SELECT Id, (SELECT Id FROM Trainer_c) FROM Gym_c WHERE Name - Viridian City Gym'",
         "B. SELECT ID FROM Trainer_c WHERE Gym__r.Name - Viridian City Gym'",

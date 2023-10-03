@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "In the Salesforce org used by Cosmic Service Solutions, a Visualforce page has been created to allow users to view and update information related to the records of a custom object called 'Shipment'. A developer would like to enforce both field-level and object-level security in the custom controller of the page. Which of the following classes can be utilized for this use case?Choose 2 answers.",
+        "In the Salesforce org used by Cosmic Service Solutions, a Visualforce page has been created to allow users to view and update information related to the records of a custom object called 'Shipment'. A developer would like to enforce both field-level and object-level security in the custom controller of the page. Which of the following classes can be utilized for this use case? Choose 2 answers.",
       options: [
         "A. Schema.DescribeFieldResult",
         "B. Schema.DescribeField",
@@ -96,7 +96,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cosmic Service Solutions has set up an integration with its on-premise database to update several Salesforce users and more than a million accounts and opportunities in Salesforce. The integration is going to update the role of several users and the ownership of thousands of records. What should a Salesforce Architect recommend to ensure that there are no locking errors during the update?Choose 1 answer.",
+        "Cosmic Service Solutions has set up an integration with its on-premise database to update several Salesforce users and more than a million accounts and opportunities in Salesforce. The integration is going to update the role of several users and the ownership of thousands of records. What should a Salesforce Architect recommend to ensure that there are no locking errors during the update? Choose 1 answer.",
       options: [
         "A. Change the organization-wide default setting of all objects to 'Public Read/Write'",
         "B. Use parallel recalculation of sharing rules",
@@ -181,7 +181,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The IT manager of Cosmic Solutions would like to improve the performance of record access and sharing calculations in the Salesforce org used by the company, especially for accounts and related records. What should a Solution Architect recommend for this requirement?Choose 3 answers.",
+        "The IT manager of Cosmic Solutions would like to improve the performance of record access and sharing calculations in the Salesforce org used by the company, especially for accounts and related records. What should a Solution Architect recommend for this requirement? Choose 3 answers.",
       options: [
         "A. No user should own more than 10,000 account records in Salesforce.",
         "B. No account should have more than 10,000 opportunities or cases related to it.",
@@ -194,7 +194,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cosmic Repair Solutions uses a custom object called 'Repair Job' to store information about repair jobs in Salesforce. Generally, a group of three field technicians is assigned to each repair job. When field technicians are assigned to a repair job, the record associated with the job is shared programmatically with each user using Apex Managed Sharing. However, an assignment is often changed later, which requires sharing a record with the required users again using the same code. As a result, manual sharing recalculation needs to be performed.\n       Which of the following can be created and/or utilized to optimize the existing process of sharing a record with the assigned field technicians?Choose 1 answer.",
+        "Cosmic Repair Solutions uses a custom object called 'Repair Job' to store information about repair jobs in Salesforce. Generally, a group of three field technicians is assigned to each repair job. When field technicians are assigned to a repair job, the record associated with the job is shared programmatically with each user using Apex Managed Sharing. However, an assignment is often changed later, which requires sharing a record with the required users again using the same code. As a result, manual sharing recalculation needs to be performed.\n       Which of the following can be created and/or utilized to optimize the existing process of sharing a record with the assigned field technicians? Choose 1 answer.",
       options: [
         "A. Sharing Rule",
         "B. Manual Sharing",
@@ -218,7 +218,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cosmic Solutions uses a private sharing model for account records and has defined a role hierarchy based on its organizational hierarchy. Some of its features are as follows:1) There are two branches in the hierarchy for the United States and Europe.2) The role of US Sales Reps is below the role of the US Sales Manager.3) EU Sales Reps report to the EU Sales Manager.4) EU Sales Manager reports to the EU Sales Director, and the US Sales Manager reports to the US Sales Director.5) US Sales Director and EU Sales Director report to the same Vice President of Sales.A sales rep who is currently working in the United States is going to be transferred to France. The system administrator of the company will soon change his role in Salesforce. What will be the impact of this change on record access?Choose 3 answers.",
+        "Cosmic Solutions uses a private sharing model for account records and has defined a role hierarchy based on its organizational hierarchy. Some of its features are as follows:1) There are two branches in the hierarchy for the United States and Europe.2) The role of US Sales Reps is below the role of the US Sales Manager.3) EU Sales Reps report to the EU Sales Manager.4) EU Sales Manager reports to the EU Sales Director, and the US Sales Manager reports to the US Sales Director.5) US Sales Director and EU Sales Director report to the same Vice President of Sales.A sales rep who is currently working in the United States is going to be transferred to France. The system administrator of the company will soon change his role in Salesforce. What will be the impact of this change on record access? Choose 3 answers.",
       options: [
         "A. The US Sales Director will lose access to records owned by the sales rep.",
         "B. The EU Sales Manager will gain access to records owned by the sales rep.",
@@ -507,7 +507,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator of Cosmic Solutions has created three criteria-based sharing rules to share certain types of account records with the role of sales reps and a public group that consists of a few sales associates. The sales director would like the architect to review and ensure that the users can access these accounts. Which solution can be utilized for this requirement?Choose 1 answer.",
+        "The administrator of Cosmic Solutions has created three criteria-based sharing rules to share certain types of account records with the role of sales reps and a public group that consists of a few sales associates. The sales director would like the architect to review and ensure that the users can access these accounts. Which solution can be utilized for this requirement? Choose 1 answer.",
       options: [
         "A. Export the Account record table to review access to the records.",
         "B. Export the AccountShare table to review access to the records.",
@@ -574,7 +574,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The system administrator of Cosmic Solutions recently created a custom profile for sales users that allows them to view and edit the records of a custom object called 'Shipment'. There are more than 100 sales users in the company. The Sales Director has now informed the administrator that five of those users should not be able to edit any Shipment records. What should a Solution Architect recommend for the requirement?Choose 1 answer.",
+        "The system administrator of Cosmic Solutions recently created a custom profile for sales users that allows them to view and edit the records of a custom object called 'Shipment'. There are more than 100 sales users in the company. The Sales Director has now informed the administrator that five of those users should not be able to edit any Shipment records. What should a Solution Architect recommend for the requirement? Choose 1 answer.",
       options: [
         "A. Edit the existing custom profile assigned to the sales users and remove 'Edit' access to the 'Shipment' object.",
         "B. Create a new profile without 'Edit' access to the 'Shipment' object and assign it to the five users.",
@@ -622,7 +622,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cosmic Enterprises has created a custom object called 'Promotion' to store information about promotions offered by the company. The organization-wide default sharing setting of this custom object has been set to\n       'Private' and granting access via hierarchies has been disabled for it. Certain records of this object need to be shared with all the users who are assigned to the role of 'Sales Agent'. What can be done to meet this requirement using Apex?Choose 1 answer.",
+        "Cosmic Enterprises has created a custom object called 'Promotion' to store information about promotions offered by the company. The organization-wide default sharing setting of this custom object has been set to\n       'Private' and granting access via hierarchies has been disabled for it. Certain records of this object need to be shared with all the users who are assigned to the role of 'Sales Agent'. What can be done to meet this requirement using Apex? Choose 1 answer.",
       options: [
         "A. Create 'Promotion__Share' records and use a public group that consists of the sales agents to grant access.",
         "B. Create 'Promotion__Share' records and use a public group that consists of the 'Sales Agent' role to grant access.",
@@ -756,7 +756,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When configuring default record access levels in Enterprise Territory Management, which of the following statements are true regarding access to accounts and/or related records?Choose 2 answers.",
+        "When configuring default record access levels in Enterprise Territory Management, which of the following statements are true regarding access to accounts and/or related records? Choose 2 answers.",
       options: [
         "A. Users in a territory can 'not access', 'view', or 'view and edit' records associated with accounts in the territory.",
         "B. Users in a territory always have at least 'view' access to the accounts assigned to the territory.",
@@ -787,7 +787,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The system administrator of Cosmic Enterprises has created a dummy user in Salesforce. The user owns more than 15,000 account records that were recently obtained from a third-party database. A sharing rule has been created to share records owned by this user with all the sales managers and a few other users of the company.\n       There are performance issues whenever there is a change in the role hierarchy. Which of the following actions should a Solution Architect recommend to improve performance?Choose 3 answers.",
+        "The system administrator of Cosmic Enterprises has created a dummy user in Salesforce. The user owns more than 15,000 account records that were recently obtained from a third-party database. A sharing rule has been created to share records owned by this user with all the sales managers and a few other users of the company.\n       There are performance issues whenever there is a change in the role hierarchy. Which of the following actions should a Solution Architect recommend to improve performance? Choose 3 answers.",
       options: [
         "A. If possible, the dummy user should not be assigned to a role in the role hierarchy.",
         "B. The dummy user should be placed at the top of the role hierarchy.",
@@ -860,7 +860,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator of Cosmic Solutions wants to create a list view that only displays accounts of manufacturing companies. Sales users use a custom field on the Account object to indicate the type of company. The list view should only be visible to three sales managers of the company. If all the users are using Salesforce Classic, which of the following should be used to restrict the visibility of the list view?Choose 1 answer.",
+        "An administrator of Cosmic Solutions wants to create a list view that only displays accounts of manufacturing companies. Sales users use a custom field on the Account object to indicate the type of company. The list view should only be visible to three sales managers of the company. If all the users are using Salesforce Classic, which of the following should be used to restrict the visibility of the list view? Choose 1 answer.",
       options: [
         "A. Public Group",
         "B. Role",
@@ -1127,7 +1127,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cosmic Service Solutions has three branches in the role hierarchy for the three regions in the United States where it provides support services to other companies. The organization-wide default sharing setting of the Case object has been set to 'Private'. When working on case resolution, the support agents in the western branch should be able to collaborate by sharing case records with the support agents in the central branch of the hierarchy. No other users in the company, including the managers, should be able to gain access to these records. What can a Salesforce Architect recommend to meet this requirement?Choose 1 answer.",
+        "Cosmic Service Solutions has three branches in the role hierarchy for the three regions in the United States where it provides support services to other companies. The organization-wide default sharing setting of the Case object has been set to 'Private'. When working on case resolution, the support agents in the western branch should be able to collaborate by sharing case records with the support agents in the central branch of the hierarchy. No other users in the company, including the managers, should be able to gain access to these records. What can a Salesforce Architect recommend to meet this requirement? Choose 1 answer.",
       options: [
         "A. Create a criteria-based sharing rule to share case records owned by the role of western support agents with the role of central support agents.",
         "B. Create an ownership-based sharing rule to share case records owned by the role of western support agents with the role of central support agents.",
@@ -1266,7 +1266,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Architect notices that there are many duplicate Account records and numerous sharing rules created in Salesforce.What would be the reason?",
+        "The Architect notices that there are many duplicate Account records and numerous sharing rules created in Salesforce. What would be the reason?",
       options: [
         "A. The Organization-Wide Default for the Account object is Public Read/Write.",
         "B. The Organization-Wide Default for the Account object is Public Read-Only.",

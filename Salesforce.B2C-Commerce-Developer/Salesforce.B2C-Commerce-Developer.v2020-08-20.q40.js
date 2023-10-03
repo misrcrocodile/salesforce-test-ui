@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A Digital Developer wants to selectively retrieve products and process them from an iPhone.Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
+        "A Digital Developer wants to selectively retrieve products and process them from an iPhone. Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
       options: [
         "A. Use import/export in Business Manager.",
         "B. Use WebDAV Client to retrieve products.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations should be done in a controller?Choose 3 answers",
+        "Which three operations should be done in a controller? Choose 3 answers",
       options: [
         "A. Use the model needed for the view.",
         "B. Create a plain JavaScript object representing a system object",
@@ -35,7 +35,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Storefront is designed so that multiple pages share a common header and footer layout.Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
+        "A Storefront is designed so that multiple pages share a common header and footer layout. Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
       options: [
         "A. <iscontent> ... </iscontent>",
         "B. <isdecorate> ... </isdecorate>",
@@ -47,7 +47,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a content slot on a page that currently displays products based on the top Sellers for the current week.They wish to change this functionality and, instead, have the slot render a specific content asset so that the content experience is more personalized to the visitors.Which two actions are necessary to make this change?Choose 2 answers",
+        "A merchant has a content slot on a page that currently displays products based on the top Sellers for the current week. They wish to change this functionality and, instead, have the slot render a specific content asset so that the content experience is more personalized to the visitors. Which two actions are necessary to make this change? Choose 2 answers",
       options: [
         "A. Change the content type for the slot configuration",
         "B. Delete the existing content slot and create a new one.",
@@ -59,7 +59,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions.Which link function generates the correct link?",
+        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions. Which link function generates the correct link?",
       options: [
         "A. $http('Content-Page', 'cid', 'terms-and-conditions')$",
         "B. $include('Page-Include', 'cid', 'terms-and-conditions')$",
@@ -95,7 +95,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox.Which B2C feature should the developer use to achieve the request?",
+        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox. Which B2C feature should the developer use to achieve the request?",
       options: [
         "A. Use a Sitepreference dedicated for the service URL",
         "B. Use the service credential URL field",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers sells physical gift cards for the holidays.What needs to occur to guarantee the cards will always be available?",
+        "Universal Containers sells physical gift cards for the holidays. What needs to occur to guarantee the cards will always be available?",
       options: [
         "A. Create an inventory record with an unlimited Allocation value.",
         "B. Create an inventory record with an extremely high Allocation value (i.e., 1 billion certificates).",
@@ -143,7 +143,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer.Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
+        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer. Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
       options: [
         "A. Only Page Designer Components can be localized for different languages.",
         "B. Only page Designer components can ve tied to campaigns.",
@@ -155,14 +155,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.js controller that handles processing of the other cart forms.In addition, a form field node is in the form XML and the necessary form input is present in the ISML template.The code below is the submit button for the ISML markup.What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
+        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.js controller that handles processing of the other cart forms.In addition, a form field node is in the form XML and the necessary form input is present in the ISML template. The code below is the submit button for the ISML markup. What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
       options: ["A. Option B", "B. Option A", "C. Option C", "D. Option D"],
       answer: "C",
       title: "Question 13",
     },
     {
       content:
-        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work.Which line of code should the developer use to replace line 6 and correct the problem?",
+        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work. Which line of code should the developer use to replace line 6 and correct the problem?",
       options: ["A. next();", "B. return res;C. res.next();", "C. req.next();"],
       answer: "A",
       title: "Question 14",
@@ -193,7 +193,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer adds the following line of code to a script.The code executes without error; however, the log file on disk does NOT contain the log message.Which two actions should be completed to write the log message to disk? (Choose two.)",
+        "A Digital Developer adds the following line of code to a script. The code executes without error; however, the log file on disk does NOT contain the log message. Which two actions should be completed to write the log message to disk? (Choose two.)",
       options: [
         "A. Ensure that the debug log level is enabled to write to file in the Custom Log Settings Business Manager module.",
         'B. Ensure that the "login" category is added to the Custom Log Filters in the Log Settings Business Manager module.',
@@ -236,7 +236,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand.What does the developer need to do next to fulfill this requirement?",
+        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand. What does the developer need to do next to fulfill this requirement?",
       options: [
         "A. Create a recommendation rule associating the four products as a recommendation group.",
         "B. Create a Content Slot with Content Type = Product and add the four component products into that slot.",
@@ -248,7 +248,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more.How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
+        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more. How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
       options: [
         "A. Add a Localizable custom attribute to the Certificate system object type.",
         "B. Ad and Image custom preference to the Sitepreference system object type",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file.How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
+        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file. How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
       options: [
         "A. Use the import capability of the Site Import & Export module of Business Manager.",
         "B. Use Business Manager to upload and import a copy of the export file obtained from the original Developer.",
@@ -272,7 +272,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to add a link to the My Account Page.What is the correct code to accomplish this?",
+        "A developer wants to add a link to the My Account Page. What is the correct code to accomplish this?",
       options: [
         "A. <ahref=\"${URLUtils.get('Account-Show')}>${Resource.msg('myaccount','account',request.locale())}</a>",
         "B. <a href=\"${url.get('Account-Show')}>${Resource.message('myaccount')}</a>",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has identified that the code segment below is causing performance problems.What should the Developer do to improve the code?",
+        "A Digital Developer has identified that the code segment below is causing performance problems. What should the Developer do to improve the code?",
       options: [
         "A. Use a system attribute instead of the isOnSaleFlag custom attribute.",
         "B. Avoid post-processing and use the isOnSaleFlag attribute as a search refinement.",
@@ -308,7 +308,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files.Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules?Choose 2 answers.",
+        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files. Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules? Choose 2 answers.",
       options: [
         "A. System type extensions (solo en Sites)",
         "B. Search Settings En (search y en Sites)",
@@ -332,7 +332,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers created a site export file from staging in the global export directory.How should the Digital Developer update their sandbox using this staging site export file?",
+        "Universal Containers created a site export file from staging in the global export directory. How should the Digital Developer update their sandbox using this staging site export file?",
       options: [
         "A. Use the Site Development > Site Import & Export Business Manager module.",
         "B. Perform a data replication from staging.",
@@ -369,7 +369,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer needs to store information temporarily and decides to create a custom object.Which code creates a custom object?",
+        "A Digital Developer needs to store information temporarily and decides to create a custom object. Which code creates a custom object?",
       options: [
         "A. CustomObject.createCustomObject(CustomObjectType,primaryKey);",
         "B. CustomObject.createCustomObject(primaryKey,CustomObjectType);",
@@ -381,7 +381,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting.Which approach should the Developer use to implement the requirement?",
+        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting. Which approach should the Developer use to implement the requirement?",
       options: [
         "A. Create a site preference to store timeout settings and implement an IOException handler to execute fallback code.",
         "B. Implement a condition that checks to see if the response was empty and execute fallback code if true.",
@@ -393,7 +393,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two items are appropriate content of custom logs implemented at checkout?Choose 2 answers:",
+        "Which two items are appropriate content of custom logs implemented at checkout? Choose 2 answers:",
       options: [
         "A. Payment gateway service response code",
         "B. Transaction's credit card information",
@@ -405,7 +405,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client that sells to multiple countries in Europe needs to disable Apple Pay for Denmark.Which Business Manager module is used to achieve this requirement?",
+        "A client that sells to multiple countries in Europe needs to disable Apple Pay for Denmark. Which Business Manager module is used to achieve this requirement?",
       options: [
         "A. Payment Methods",
         "B. Locale Payments",
@@ -417,7 +417,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools.How should the developer follow SFRA best practices to expose this data for rendering?",
+        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools. How should the developer follow SFRA best practices to expose this data for rendering?",
       options: [
         "A. Extend the existing Stores_Find controller with a new middleware function that performs the query",
         "B. Ad dan <isscript> to the template, and call StoreMgr.searchStoresByCoordinates();",
@@ -441,7 +441,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to improve the maintainability of a page by reducing its code repetition.What are two techniques the developer should implement to achieve this?Choose 2 answers.",
+        "A developer is asked to improve the maintainability of a page by reducing its code repetition. What are two techniques the developer should implement to achieve this? Choose 2 answers.",
       options: [
         "A. Use local template includes",
         "B. Implement template decorators paired with replace tags",
@@ -453,7 +453,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer must resolve a performance issue with product tiles. The Developer determines that the product tiles are NOT being cached for a long enough period.Which two methods can the Developer use to verify the cache settings for the product tiles? (Choose two.)",
+        "A Digital Developer must resolve a performance issue with product tiles. The Developer determines that the product tiles are NOT being cached for a long enough period. Which two methods can the Developer use to verify the cache settings for the product tiles? (Choose two.)",
       options: [
         "A. Enable the template debugger to verify the cache times for the producttile.isml template.",
         "B. View the product list page cache settings provided in the Administration > Manage Sites Business Manager module.",
@@ -465,7 +465,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox.Which three items are required to accomplish this task? (Choose three.)",
+        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox. Which three items are required to accomplish this task? (Choose three.)",
       options: [
         "A. Keystore Password",
         "B. Instance Version",

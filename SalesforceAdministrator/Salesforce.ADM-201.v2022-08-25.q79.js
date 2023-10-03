@@ -380,7 +380,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Support agent at Cloud Kicks are spending too much time finding resources to solve cases.The agents need a more efficient way to find documentation and similar cases from the Case page layout. How should an administrator meet this requirement?",
+        "Support agent at Cloud Kicks are spending too much time finding resources to solve cases. The agents need a more efficient way to find documentation and similar cases from the Case page layout. How should an administrator meet this requirement?",
       options: [
         "A. Direct users to Global Search to look for similar cases.",
         "B. Configure Knowledge with articles and data categories.",
@@ -488,7 +488,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers is trying to improve the user experience when searching for the tight status on a case.The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on. How should the administrator improve on the current implementation?",
+        "Universal Containers is trying to improve the user experience when searching for the tight status on a case. The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on. How should the administrator improve on the current implementation?",
       options: [
         "A. Reduce the number of case status values to five.",
         "B. Edit the status choices directly on the record type.",
@@ -572,7 +572,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities.The VP of Sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements? Choose 2 answers",
+        "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of Sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements? Choose 2 answers",
       options: [
         "A. Add the Opportunity Contact Role related list to the Opportunity page layout.",
         "B. Customize Campaign Member Role.",

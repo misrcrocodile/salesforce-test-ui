@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable.Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
+        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
       options: [
         "A. accountRec.isDeletable()",
         "B. accountRec.sObjectType.isDeletable()",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. public ExtendedController(ApexPages StandardController cntrl) { }",
         "B. Test.setCurrentPage(pageRef);",
@@ -83,7 +83,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator.Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
+        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator. Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
       options: [
         "A. Scheduled Jobs",
         "B. Invocable Actions",
@@ -96,7 +96,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known.Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
+        "A developer needs to save a List of existing Account records named myAccounts to the database, but the records do not contain Salesforce Id values. Only the value of a custom text field configured as an External ID with an API name of Foreign_Key__c is known. Which two statements enable the developer to save the records to the database without an Id? (Choose two.)",
       options: [
         "A. Upsert myAccounts(Foreign_Key__c);",
         "B. Database.upsert(myAccounts).Foreign_Key__c;",
@@ -164,7 +164,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days.Which Apex technique should the developer use?",
+        "A developer wants to mark each Account in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days. Which Apex technique should the developer use?",
       options: [
         "A. A for loop, with a switch statement inside",
         "B. An If/else statement, with a for loop inside",
@@ -176,7 +176,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment.How should the developer track that an Account has purchased a piece of equipment.",
+        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment. How should the developer track that an Account has purchased a piece of equipment.",
       options: [
         "A. Use a Lookup on Account to product.",
         "B. Use a Custom object.",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace.Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
+        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of the application modules allows the user to calculate body fat using the Apex class, BodyFat, and its method, calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensure calculateBodyFat() is accessible outside the package namespace?",
       options: [
         "A. Declare the class and method using the global access modifier.",
         "B. Declare the class and method using the public access modifier.",
@@ -275,7 +275,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Use the <apex:relatedList> tag.",
         "B. Create a controller extension.",
@@ -287,7 +287,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org.How should the Developer overcome this problem?",
+        "While writing a test class that covers an OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org. How should the Developer overcome this problem?",
       options: [
         "A. Use Test.getStandardPricebookId() to get the standard PriceBook ID.",
         "B. Use @TestVisible to allow the test method to see the standard PriceBook.",
@@ -355,7 +355,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles. Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. Developer Console",
         "B. SFDX CLI",
@@ -475,7 +475,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
         "B. Use Partial DHL statements to ensure only valid data is committed.",
@@ -498,7 +498,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object.What is the practice to get the sum of all order line totals on the order header?",
+        "Universal Container use a simple order Management app. On the Order Lines, the order line total is calculated by multiplying the item price with the quantity ordered. There is a Master-Detail relationship between the Order and the Order Lines object. What is the practice to get the sum of all order line totals on the order header?",
       options: [
         "A. Process Builder",
         "B. Declarative Roll-Up Summaries App",
@@ -534,7 +534,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, f he file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system.Which technique should the developer implement to streamline the data upload?",
+        "A primaryid_c custom field exists on the candidate_c custom object. The filed is used to store each candidate's id number and is marked as Unique in the schema definition.As part of a data enrichment process. Universal Containers has a CSV file that contains updated data for all candidates in the system, f he file contains each Candidate's primary id as a data point. Universal Containers wants to upload this information into Salesforce, while ensuring all data rows are correctly mapped to a candidate in the system. Which technique should the developer implement to streamline the data upload?",
       options: [
         "A. Create a Process Builder on the Candidate_c object to map the records.",
         "B. A Update the primaryid__c field definition to mark it as an External Id",
@@ -613,7 +613,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -649,7 +649,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience.",
         "B. Override the Contact's Edit button with a Lightning page in Salesforce Classic and a Visualforce page in Lightning Experience.",
@@ -673,7 +673,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for an entire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Create test data before Test.startTest() in the unit test.",
         "B. Add @isTest(seeAllData=true) at the start of the unit test class.",

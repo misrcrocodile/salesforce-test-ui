@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.The developer verified that the Queries return a single record each and there is error handing in the Lightning component, but the component is not getting anything back when calling the controller getSomeData().What is wrong?",
+        "Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.Consider the controller code above that is called from a Lightning component and returns data wrapped in a class. The developer verified that the Queries return a single record each and there is error handing in the Lightning component, but the component is not getting anything back when calling the controller getSomeData(). What is wrong?",
       options: [
         "A. The member's Name and Option should not be declared public.",
         "B. The member's Name and Option of the class MyDataWrapper should be annotated with @AuraEnabled too.",
@@ -129,7 +129,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is inserting, updating, and deleting multiple lists of records in a Single transaction and wants to ensure that any error prevents all execution.How should the developer implement error exception handling in their code to handle this?",
+        "A developer is inserting, updating, and deleting multiple lists of records in a Single transaction and wants to ensure that any error prevents all execution. How should the developer implement error exception handling in their code to handle this?",
       options: [
         "A. Use a Try/Catch statement and handle DML cleanup in the catch statement.",
         "B. Use Database methods to obtain lists of Database.SaveResults.",
@@ -153,7 +153,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a test class that creates test data before making a mock call-out, but now receives a you have uncommitted work pending. Please commit or callout before calling out error.What step should be taken to resolve the error?",
+        "A developer has a test class that creates test data before making a mock call-out, but now receives a you have uncommitted work pending. Please commit or callout before calling out error. What step should be taken to resolve the error?",
       options: [
         "A. Ensure both the insertion and mock callout occur after the Test.startTest().",
         "B. Ensure the records are inserted before the Test.startTest() statement and the mock callout occurs within a method annotated with StestSetup.",
@@ -256,7 +256,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use an Aura Component with a Custom Action.What should be considered in order to do this?",
+        "A developer wants to use an Aura Component with a Custom Action. What should be considered in order to do this?",
       options: [
         "A. A default value must be provided for each component attribute marked as required.",
         "B. The component must implement the force:lightningQuickActionButton interface.",
@@ -316,7 +316,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company uses a custom-built enterprise resource planning (ERP) system to handle order management. The company wants Sales Reps to know the status of orders so that if a customer calls to ask about their shipment, the Sales Rep can advise the customer about the order's status and tracking number if it is already shipped.Which two methods can make this ERP order data visible in Salesforce? Choose 2 answers",
+        "A company uses a custom-built enterprise resource planning (ERP) system to handle order management. The company wants Sales Reps to know the status of orders so that if a customer calls to ask about their shipment, the Sales Rep can advise the customer about the order's status and tracking number if it is already shipped. Which two methods can make this ERP order data visible in Salesforce? Choose 2 answers",
       options: [
         "A. Ensure real-time order data is in Salesforce using the Streaming API.",
         "B. Have the ERP system push the data into Salesforce using the SOAP API.",
@@ -474,7 +474,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records.What should a developer use to implement this?",
+        "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records. What should a developer use to implement this?",
       options: [
         "A. Field History Tracking",
         "B. Setup Audit Trail",
@@ -498,7 +498,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map. Universal Containers wants the map to re-render whenever the location of a container is changed.What can a developer use to accomplish this task?",
+        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map. Universal Containers wants the map to re-render whenever the location of a container is changed. What can a developer use to accomplish this task?",
       options: [
         "A. Two Visualforce Page Components leveraging Application Events",
         "B. A single visualforce Page leveraging Platform Events",

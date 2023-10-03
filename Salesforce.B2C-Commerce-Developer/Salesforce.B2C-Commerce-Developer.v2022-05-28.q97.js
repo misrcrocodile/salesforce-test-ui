@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items.How can a developer use Business Manager to ensure that the gift vouchers are always available?",
+        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items. How can a developer use Business Manager to ensure that the gift vouchers are always available?",
       options: [
         "A. Set StockLevel = maxAllocation for the producto.",
         "B. Check the Available to Sell (ATS) flag dor the producto set",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer working on a multi-country site is asked to store country-specific data that drives the creation of a country selector. Examples of the data stored are:* Pricebook to be used* Image URL for country flagThe data used in staging also applies in production, but only for this site.Which approach should the developer take to implement these requirements?",
+        "A developer working on a multi-country site is asked to store country-specific data that drives the creation of a country selector. Examples of the data stored are:* Pricebook to be used* Image URL for country flagThe data used in staging also applies in production, but only for this site. Which approach should the developer take to implement these requirements?",
       options: [
         "A. Create a replicable, site-specific Custom Object with the custom data for each country",
         "B. Create site-specific content assets to store the data for each country",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting.Which approach should the Developer use to implement the requirement?",
+        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting. Which approach should the Developer use to implement the requirement?",
       options: [
         "A. Create a site preference to store timeout settings and implement an IOException handler to execute fallback code.",
         "B. Implement a ServiceUnavailableException exception handler to execute fallback code.",
@@ -107,7 +107,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer added a file named MyBusinessController.jsin the cartridge named app_project.The project design calls for this new file to override MyBusinessController.js in client_project. The client_projectcartridge contains other necessary functionality. Additional functionality is also included in the storefront_coreand storefront_controllerscartridges.Which cartridge path meets the project requirements?",
+        "A Digital Developer added a file named MyBusinessController.jsin the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_projectcartridge contains other necessary functionality. Additional functionality is also included in the storefront_coreand storefront_controllerscartridges. Which cartridge path meets the project requirements?",
       options: [
         "A. client_project:app_project:storefront_controllers:storefront_core",
         "B. app_project:storefront_controllers:storefront_core",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountCoatrol.-s and accountlanding.isul in the app_at storefront cartridge The app_3torefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:mc_];aypal:app_storefront.The Developer creates a new cartridge named app_newsire that contains only the accountlanding.isml template for the new site.Which modification should be made to the new cartridge path?",
+        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountCoatrol.-s and accountlanding.isul in the app_at storefront cartridge The app_3torefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:mc_];aypal:app_storefront. The Developer creates a new cartridge named app_newsire that contains only the accountlanding.isml template for the new site. Which modification should be made to the new cartridge path?",
       options: [
         "A. Set the cartridge path so that app_storefront is before int_cybersource.",
         "B. Set the cartridge path to include only app_newsite.",
@@ -131,7 +131,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following snippet:* Server.append( 'Show' , function (req, res, next) )According to SFRA, which two options shows a correct way to complete the code above in order to provide data to the response using a controller?Choose 2 answers",
+        "Given the following snippet:* Server.append( 'Show' , function (req, res, next) )According to SFRA, which two options shows a correct way to complete the code above in order to provide data to the response using a controller? Choose 2 answers",
       options: [
         "A. res.viewData = {data: myDataObject};res.render('/content/myPage');next();});",
         "B. res.render('/content/myPage',{data: myDataObject});next();});",
@@ -167,7 +167,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.jscontroller that handles processing of the other cart forms. In addition, a form field node is in the form XML and the necessary form input is present in the ISML template.The code below is the submit button for the ISML markup. What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
+        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.jscontroller that handles processing of the other cart forms. In addition, a form field node is in the form XML and the necessary form input is present in the ISML template. The code below is the submit button for the ISML markup. What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "C",
       title: "Question 14",
@@ -186,7 +186,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions.Which link function generates the correct link?",
+        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions. Which link function generates the correct link?",
       options: [
         "A. $include('Page-Include', 'cid', 'terms-and-conditions')$",
         "B. $http('Content-Page', 'cid', 'terms-and-conditions')$",
@@ -210,7 +210,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the requirements:* To show the washing instructions for a clothing product on a dedicated section the detail page* Washing instructions come from the product information manager(PIM)* To have this attribute available to localize in the Storefront.Which action meets these requirements?",
+        "Given the requirements:* To show the washing instructions for a clothing product on a dedicated section the detail page* Washing instructions come from the product information manager(PIM)* To have this attribute available to localize in the Storefront. Which action meets these requirements?",
       options: [
         "A. Add a custom attribute for each locale",
         "B. Set the product system object type as localizable",
@@ -222,7 +222,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to add a link to the My Account Page.What is the correct code to accomplish this?",
+        "A developer wants to add a link to the My Account Page. What is the correct code to accomplish this?",
       options: [
         "A. <a href=\"${URLUtils.url('Account-Show')}>${Resource.msg('myaccount','account',null)}</a>",
         "B. <a href=\"${url.get('Account-Show')}>${Resource.message('myaccount')}</a>",
@@ -234,7 +234,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer wants to selectively retrieve products and process them from an iPhone.Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
+        "A Digital Developer wants to selectively retrieve products and process them from an iPhone. Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
       options: [
         "A. Create a webservice to retrieve products.",
         "B. Use WebDAV Client to retrieve products.",
@@ -246,7 +246,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the requirements:* To integrate with an external web service using HTTP requests.* To create a service for this purpose with the Service framework using the LocalServiceRegistry class.* To test the service before the external service provider makes the API available.Which solution allows the developer to satisfy the requirements?",
+        "Given the requirements:* To integrate with an external web service using HTTP requests.* To create a service for this purpose with the Service framework using the LocalServiceRegistry class.* To test the service before the external service provider makes the API available. Which solution allows the developer to satisfy the requirements?",
       options: [
         "A. Create a service and a Sitepreference that induce the service to respond with a mock response using a conditional.",
         "B. Create a service and implement the mockFull callback and a sitepreference to enable or disable the mock response.",
@@ -318,7 +318,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written.What must be done in order to use the debugger with the new controller when it is written?",
+        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written. What must be done in order to use the debugger with the new controller when it is written?",
       options: [
         "A. Use the existing pipeline debugger.",
         "B. Modify the debugger configuration and use the existing pipeline debugger.",
@@ -330,7 +330,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible.Which two courses of action might solve the problem? (Choose two.)",
+        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible. Which two courses of action might solve the problem? (Choose two.)",
       options: [
         "A. Add the token in the ISML template",
         "B. Extend the CSRF token validity to avoid timeouts",
@@ -342,7 +342,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create in Business Manager extension with the cartridge named plugin_vm_extension.Which two steps should the developer take for the extension option to show up in Business Manager?Choose 2 answers:",
+        "A developer wants to create in Business Manager extension with the cartridge named plugin_vm_extension. Which two steps should the developer take for the extension option to show up in Business Manager? Choose 2 answers:",
       options: [
         "A. Add plugin_bm_extension to the cartridge path under business manager cartridge site",
         "B. Add the appropiate roles and permission to the user to view the business manager extension.",
@@ -354,7 +354,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts.What does the Developer need to change in Business Manager to fulfill this requirement?',
+        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts. What does the Developer need to change in Business Manager to fulfill this requirement?',
       options: [
         "A. Credit cards in the Merchant Tools > Ordering > Payment Methods module.",
         "B. Credit card exclusion rules in the Merchant Tools > Site Preferences > Payment Preferences module.",
@@ -366,7 +366,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is working on a new site for the U.S based on an existing Canadian site. One of the requirements is a change to the address form. The current Canadian form has an <options> list with the correct two-letter abbreviation for the provinces.The U.S. requirements are to:* Have an <options> list with the correct two-letter abbreviation for the states in place of the province field.* Set the U.S site locale.* Add the options list field definition to the XML file.How should the developer set up the files before making the required edits?",
+        "A developer is working on a new site for the U.S based on an existing Canadian site. One of the requirements is a change to the address form. The current Canadian form has an <options> list with the correct two-letter abbreviation for the provinces. The U.S. requirements are to:* Have an <options> list with the correct two-letter abbreviation for the states in place of the province field.* Set the U.S site locale.* Add the options list field definition to the XML file. How should the developer set up the files before making the required edits?",
       options: [
         "A. Create a copy of existing address.xml file in the default folder. Rename that file to address_en_US.xml",
         "B. Create a copy of existing address.xml file in the default folder. Rename that file to adres_US.xml",
@@ -378,7 +378,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability.Which two solutions can reduce the unavailability of the service?Choose 2 answers.",
+        "When inspecting the weekly service status report for a critical internally hosted web service used in the application, a developer notices that there are too many instances of unavailability. Which two solutions can reduce the unavailability of the service? Choose 2 answers.",
       options: [
         "A. Update the service to have a faster response time.",
         "B. Modify the code that makes the request to the external service to be wrapped in a try/catch block.",
@@ -390,7 +390,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer added a file named MyBusinessController. js in the cartridge named app_project. The project design calls for this new file to override MyBusinessControiier.3s in claient_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controliers cartridges.Which cartridge path meets the project requirements?",
+        "A Digital Developer added a file named MyBusinessController. js in the cartridge named app_project. The project design calls for this new file to override MyBusinessControiier.3s in claient_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controliers cartridges. Which cartridge path meets the project requirements?",
       options: [
         "A. client_project:app_project:storefront_controllers:storefront_core",
         "B. storefront_core:storefront_controllers:client_project:app_project",
@@ -402,7 +402,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading a scripts at the start of the code execution.Which statement should the Developer use to lazy load scripts?",
+        "A Digital Developer is asked to optimize controller performance by lazy loading scripts as needed instead of loading a scripts at the start of the code execution. Which statement should the Developer use to lazy load scripts?",
       options: [
         "A. require ( ) method",
         "B. import Package ( ) method",
@@ -414,7 +414,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox.Which B2C feature should the developer use to achieve the request?",
+        "A developer has a sandbox configured with a service and its profile and credential.. Now there is a requirement to allow changes to the service URL manually from the sandbox. Which B2C feature should the developer use to achieve the request?",
       options: [
         "A. Use the service credential URL field",
         "B. Use a Globalpreference dedicated for the service URL",
@@ -438,7 +438,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working in a sandbox on a site named test-site using the domain test.demandware.net.The Developer needs to compile a url to make an Open Commerce API (OCAPI) request that returns product information.By default, which URL format is a proper Open Commerce API for Sandbox?",
+        "A Digital Developer is working in a sandbox on a site named test-site using the domain test.demandware.net. The Developer needs to compile a url to make an Open Commerce API (OCAPI) request that returns product information.By default, which URL format is a proper Open Commerce API for Sandbox?",
       options: [
         "A. https://www.test.com/dw/shop/v18_3/products/M1355?client_id=aaa...",
         "B. https://test.demandware.com/dw/shop/products/M1355?client_id=aaa...",
@@ -450,7 +450,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer suspects a logical error in a script.Which action will help locate the error?",
+        "A Digital Developer suspects a logical error in a script. Which action will help locate the error?",
       options: [
         "A. Put breakpoints in the code, debug, and examine variable values.",
         "B. Print all values in the script node called before the current script.",
@@ -469,7 +469,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to improve the maintainability of a page by reducing its code repetition.What are two techniques the developer should implement to achieve this?Choose 2 answers.",
+        "A developer is asked to improve the maintainability of a page by reducing its code repetition. What are two techniques the developer should implement to achieve this? Choose 2 answers.",
       options: [
         "A. Implement template decorators paired with replace tags",
         "B. Use local template includes",
@@ -481,7 +481,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers sells physical gift cards for the holidays.What needs to occur to guarantee the cards will always be available?",
+        "Universal Containers sells physical gift cards for the holidays. What needs to occur to guarantee the cards will always be available?",
       options: [
         "A. Create an inventory record with an unlimited Allocation value.",
         "B. Create an inventory record with Backorder Handling enabled.",
@@ -493,7 +493,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront.The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site.Which modification should be made to the new cartridge path?",
+        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront. The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site. Which modification should be made to the new cartridge path?",
       options: [
         "A. Set the cartridge path to include only app_newsite.",
         "B. Set the cartridge path so that app_newsite is before app_storefront.",
@@ -553,7 +553,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations should be done in a controller?Choose 3 answers",
+        "Which three operations should be done in a controller? Choose 3 answers",
       options: [
         "A. Generate the response as JSON or HTML",
         "B. Create a plain JavaScript object representing a system object",
@@ -566,7 +566,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability.Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
+        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability. Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
       options: [
         "A. Update the external service to have a faster response time.",
         "B. Modify the code that makes the request to the external service to be wrapped in a try / catch block.",
@@ -590,7 +590,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog.What is the next step in Business Manager to create "The Basics" as a combination?',
+        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog. What is the next step in Business Manager to create "The Basics" as a combination?',
       options: [
         'A. In the Products module, create a product named "The Basics" and add the products to the Product Bundles tab.',
         'B. In the Products module, create a product named "The Basics" and add the products to the Product Sets tab.',
@@ -602,7 +602,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory.Which action potentially solves this problem?",
+        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory. Which action potentially solves this problem?",
       options: [
         "A. Remove invalid characters from the code version's name.",
         "B. Set the server connection's target version directory to the active code version.",
@@ -614,7 +614,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A retailer notices that the Account Addresses page is showing the wrong shopper's address.Which tool should the developer start with to identify the issue?",
+        "A retailer notices that the Account Addresses page is showing the wrong shopper's address. Which tool should the developer start with to identify the issue?",
       options: [
         "A. Reports and Dashboards Module",
         "B. Storefront Toolkit",
@@ -674,7 +674,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has created a new PaymentForm controller that requires communication with the server and must be made using the HTTPS protocol.Which code sample should the Developer use to make sure that HTTPS is used?",
+        "A Digital Developer has created a new PaymentForm controller that requires communication with the server and must be made using the HTTPS protocol. Which code sample should the Developer use to make sure that HTTPS is used?",
       options: [
         "A. exports.PaymentForm = guard.ensure(['http', 'post', 'loggedIn'], handlePaymentForm);",
         "B. exports.PaymentForm = guard.expose(['post', 'loggedIn'], handlePaymentForm);",
@@ -686,7 +686,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out.The following processing code is found in the Cart.js controller file: What should the Developer verify to identify the issue?",
+        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out. The following processing code is found in the Cart.js controller file: What should the Developer verify to identify the issue?",
       options: [
         "A. The CSRF cartridge is included in the site's cartridge path.",
         "B. The CSRF settings in Business Manager are properly configured.",
@@ -698,7 +698,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A retailer notices that the Account Addresses page is showing the wrong shopper's address.Which tool should the developer start with to identify the issue?",
+        "A retailer notices that the Account Addresses page is showing the wrong shopper's address. Which tool should the developer start with to identify the issue?",
       options: [
         "A. Reports and Dashboards module",
         "B. Pipeline Profiler",
@@ -710,7 +710,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written.What must be done in order to use the debugger with the new controller when it is written?",
+        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written. What must be done in order to use the debugger with the new controller when it is written?",
       options: [
         "A. Create and use a new script debug configuration.",
         "B. Use the existing pipeline debugger.",
@@ -722,7 +722,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files.Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules?Choose 2 answers.",
+        "A developer is importing edits for two different sites into the same sandbox, and is provided with four different files. Which two XML files should the developer import using the site-specific Merchant Tools import modules, instead of the Administration section import modules? Choose 2 answers.",
       options: [
         "A. Site Jobs (sites)",
         "B. Promotions ( en sites y en online marketing)",
@@ -734,7 +734,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer configures the dw.json file and needs to fill in the necessary parameters to complete the task.Which three parameters are required when using npm scripts? (Choose three.)",
+        "A developer configures the dw.json file and needs to fill in the necessary parameters to complete the task. Which three parameters are required when using npm scripts? (Choose three.)",
       options: [
         "A. CSRF Token",
         "B. Hostname",
@@ -760,7 +760,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions.Which link function generates the correct link?",
+        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions. Which link function generates the correct link?",
       options: [
         "A. $http('Content-Page', 'cid', 'terms-and-conditions^S",
         "B. $url(*Page-Show', 'cid', 'terms-and-conditions')s",
@@ -784,7 +784,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded.What action should the Developer take to stop the quota violation?",
+        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded. What action should the Developer take to stop the quota violation?",
       options: [
         "A. Rewrite the code that is causing the overage.",
         "B. Ask support to remove the quota limit.",
@@ -808,7 +808,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Storefront is designed so that multiple pages share a common header and footer layout.Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
+        "A Storefront is designed so that multiple pages share a common header and footer layout. Which ISML tag should a developer use on the templates for these pages to avoid code repetition in the most effective way?",
       options: [
         "A. <isreplace> ... </isreplace>",
         "B. <isinclude> ... </isinclude>",
@@ -832,7 +832,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An instance has custom logging enabled. The log reaches the file size limit.What happens in this situation?",
+        "An instance has custom logging enabled. The log reaches the file size limit. What happens in this situation?",
       options: [
         "A. The log file is deleted and a new log file is created.",
         "B. The current log file is archived and a new log file is created.",
@@ -844,14 +844,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a specification to integrate with a REST API for retrieving traffic conditions. The service expects parameters to be form encoded.Which service type should the developer register?",
+        "A developer has a specification to integrate with a REST API for retrieving traffic conditions. The service expects parameters to be form encoded. Which service type should the developer register?",
       options: ["A. SOAP Form", "B. POST Form", "C. HTTP Form", "D. HTML Form"],
       answer: "C",
       title: "Question 71",
     },
     {
       content:
-        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out.The following processing code is found in the Cart.js controller file: What should the Developer verify to identify the issue?",
+        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out. The following processing code is found in the Cart.js controller file: What should the Developer verify to identify the issue?",
       options: [
         "A. The CSRF token is present in the form and is being submitted in the request.",
         "B. The form group has the secure attribute set to true.",
@@ -911,14 +911,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.js controller that handles processing of the other cart forms.In addition, a form field node is in the form XML and the necessary form input is present in the ISML template.The code below is the submit button for the ISML markup. What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
+        "A Digital Developer needs to add a new form to the shopping cart page to allow customers to enter their rewards pass ID. There is already an existing Cart.js controller that handles processing of the other cart forms.In addition, a form field node is in the form XML and the necessary form input is present in the ISML template. The code below is the submit button for the ISML markup. What additional steps must occur before the Digital Developer can begin writing the processing code for this request?",
       options: ["A. Option D", "B. Option A", "C. Option C", "D. Option B"],
       answer: "C",
       title: "Question 77",
     },
     {
       content:
-        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded.What action should the Developer take to stop the quota violation?",
+        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded. What action should the Developer take to stop the quota violation?",
       options: [
         "A. Rewrite the code that is causing the overage.",
         "B. Change the Business Manager configuration for the quota settings.",
@@ -930,7 +930,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer set up a new site with Taxation: Net. However, the business requirements changed and the site now needs to be Taxation:Gross. The Business Manager interface does not give this option.Which sequence of steps is necessary to change the site to gross taxation?",
+        "A developer set up a new site with Taxation: Net. However, the business requirements changed and the site now needs to be Taxation:Gross. The Business Manager interface does not give this option. Which sequence of steps is necessary to change the site to gross taxation?",
       options: [
         "A. Create a new site with Taxation set to Gross, then delete the old site.",
         'B. Make sure that the developer has "Administrator" Access, then change the Taxation setting to Gross',
@@ -990,7 +990,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create in Business Manager extension with the cartridge named plugin_vm_extension.Which two steps should the developer take for the extension option to show up in Business Manager?Choose 2 answers:",
+        "A developer wants to create in Business Manager extension with the cartridge named plugin_vm_extension. Which two steps should the developer take for the extension option to show up in Business Manager? Choose 2 answers:",
       options: [
         "A. Add plugin_bm_extension to the cartridge path under business manager cartridge site",
         "B. Add the appropiate roles and permission to the user to view the business manager extension.",
@@ -1014,7 +1014,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A job executes a pipeline that makes calls to an external system.Which two actions prevent performance issues in this situation? (Choose two.)",
+        "A job executes a pipeline that makes calls to an external system. Which two actions prevent performance issues in this situation? (Choose two.)",
       options: [
         "A. Use synchronous import or export jobs",
         "B. Configure a timeout for the script pipelet.",
@@ -1026,7 +1026,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible.What are two possible reasons? (Choose two.)",
+        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible. What are two possible reasons? (Choose two.)",
       options: [
         "A. The category does not contain available products",
         "B. The category is not sorted",
@@ -1038,7 +1038,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog.What is the next step in Business Manager to create "The Basics" as a combination?',
+        'Universal Containers calls the following combination of products "The Basics" and sells the combination as a unique product ID:* One Model 103 container* Five Model 611 container* Tree Model 201 containerThe Developer created these three products in the catalog. What is the next step in Business Manager to create "The Basics" as a combination?',
       options: [
         'A. In the Product Bundles module, create a bundle named "The Basics".',
         'B. In the Products module, create a product named "The Basics" and add the products to the Product Bundles tab.',
@@ -1062,7 +1062,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers sells physical gift cards for the holidays.What needs to occur to guarantee the cards will always be available?",
+        "Universal Containers sells physical gift cards for the holidays. What needs to occur to guarantee the cards will always be available?",
       options: [
         "A. Create an inventory record with an extremely high Allocation value (i.e., 1 billion certificates).",
         "B. Create an inventory record with an unlimited Allocation value.",
@@ -1074,7 +1074,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer wants pass control to an ISML template from a JavaScript Controller and load product on the pipeline dictionary with the name myProduct.Which code sample will achieve this?",
+        "A Digital Developer wants pass control to an ISML template from a JavaScript Controller and load product on the pipeline dictionary with the name myProduct. Which code sample will achieve this?",
       options: [
         'A. ISML.renderTemlpate ( "helloworld.isml", { "myProduct": "product" });',
         'B. ISML.renderTemlpate ( "helloworld.isml", { "product": myProduct });',
@@ -1086,7 +1086,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers created a site export file from staging in the global export directory.How should the Digital Developer update their sandbox using this staging site export file?",
+        "Universal Containers created a site export file from staging in the global export directory. How should the Digital Developer update their sandbox using this staging site export file?",
       options: [
         "A. Perform a data replication from staging.",
         "B. Use the Site Development > Site Import & Export Business Manager module.",
@@ -1098,7 +1098,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two items are appropriate content of custom logs implemented at checkout?Choose 2 answers:",
+        "Which two items are appropriate content of custom logs implemented at checkout? Choose 2 answers:",
       options: [
         "A. Transaction's credit card information",
         "B. Order failure information",
@@ -1122,7 +1122,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client uses tax tables in Business Manager to calculate tax. They recently started shipping to a new country, Italy, and the tax is not being calculated correctly on the Storefront.What is the likely problem?",
+        "A client uses tax tables in Business Manager to calculate tax. They recently started shipping to a new country, Italy, and the tax is not being calculated correctly on the Storefront. What is the likely problem?",
       options: [
         "A. Tax Country is missing",
         "B. Tax Locale is configured wrong",
@@ -1134,7 +1134,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog.- New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and works as expected.However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search.What is the reason?",
+        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog.- New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and works as expected. However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search. What is the reason?",
       options: [
         "A. The Search Refinement definition is not set up for the Root category",
         "B. There are conflicting Search Refinement definitions for Clothing and one of its parent categories",

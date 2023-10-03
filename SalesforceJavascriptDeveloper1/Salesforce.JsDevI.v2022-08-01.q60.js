@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Which two code snippets show working examples of a recursive function?Choose 2 answers",
+        "Which two code snippets show working examples of a recursive function? Choose 2 answers",
       options: [
         "A. Let countingDown = function(startNumber) {If ( startNumber >0) {console.log(startNumber) ;return countingDown(startNUmber);} else {return startNumber;}};",
         "B. Const factorial =numVar => {If (numVar < 0) return;If ( numVar === 0 ) return 1;return numVar * factorial ( numVar - 1 );};",
@@ -22,14 +22,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use a try...catch statement to catch any error that countSheep () may throw and pass it to a handleError () function.What is the correct implementation of the try...catch?A)B)C)D)",
+        "A developer wants to use a try...catch statement to catch any error that countSheep () may throw and pass it to a handleError () function. What is the correct implementation of the try...catch?A)B)C)D)",
       options: ["A. Option ", "B. Option ", "C. Option", "D. Option "],
       answer: "C",
       title: "Question 2",
     },
     {
       content:
-        "Given two expressions var1 and var2. What are two valid ways to return the logical ANDof the two expressions and ensure it is data type Boolean ?Choose 2 answers:",
+        "Given two expressions var1 and var2. What are two valid ways to return the logical ANDof the two expressions and ensure it is data type Boolean ? Choose 2 answers:",
       options: [
         "A. var1 && var2",
         "B. Boolean(var1) && Boolean(var2)",
@@ -95,7 +95,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "myArraym can have one level, two levels, or more levels.Which statement flattens myArray when it can be arbitrarily nested?",
+        "myArraym can have one level, two levels, or more levels. Which statement flattens myArray when it can be arbitrarily nested?",
       options: [
         'A. myArray. join (","). split (",");',
         "B. [ ] .concat {. . .myArray) ;",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a class that represents a blog post based on the requirement that aPost should have a body author and view count.The Code shown Below:Class Post {// Insert code hereThis.body =bodyThis.author = author;this.viewCount = viewCount;}}Which statement should be inserted in the placeholder on line 02 to allow for a variable to be setto a new instanceof a Post with the three attributes correctly populated?",
+        "A developer creates a class that represents a blog post based on the requirement that aPost should have a body author and view count. The Code shown Below:Class Post {// Insert code hereThis.body =bodyThis.author = author;this.viewCount = viewCount;}}Which statement should be inserted in the placeholder on line 02 to allow for a variable to be setto a new instanceof a Post with the three attributes correctly populated?",
       options: [
         "A. super (body, author, viewCount) {",
         "B. constructor() {",
@@ -138,7 +138,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer creates a simple webpage with an input field. When a user enters text inthe input field and clicks the button, the actual value of the field must be displayed in theconsole.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button>The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello".What needs to be done make this code work as expected?',
+        'A developer creates a simple webpage with an input field. When a user enters text inthe input field and clicks the button, the actual value of the field must be displayed in theconsole.Here is the HTML file content:<input type =" text" value="Hello" name ="input"><button type ="button" >Display </button>The developer wrote the javascript code below:Const button = document.querySelector(\'button\');button.addEvenListener(\'click\', () => (Const input = document.querySelector(\'input\');console.log(input.getAttribute(\'value\'));When the user clicks the button, the output is always "Hello". What needs to be done make this code work as expected?',
       options: [
         'A. Replace line 02 with button.addCallback("click", function() {',
         'B. Replace line 02 with button.addEventListener("onclick", function() {',
@@ -193,7 +193,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer at Universal Containers creates a new landing page based on HTML, CSS, andJavaScript TO ensure that visitors have a good experience, a script named personaliseContextneeds to be executed when the webpage is fully loaded (HTML content and all related files ), inorder to do some custom initialization.Which statement should be used to call personalizeWebsiteContent based on the abovebusiness requirement?",
+        "A developer at Universal Containers creates a new landing page based on HTML, CSS, andJavaScript TO ensure that visitors have a good experience, a script named personaliseContextneeds to be executed when the webpage is fully loaded (HTML content and all related files ), inorder to do some custom initialization. Which statement should be used to call personalizeWebsiteContent based on the abovebusiness requirement?",
       options: [
         "A. window.addEventListener('load',personalizeWebsiteContext);",
         "B. window.addEventListener('onload', personalizeWebsiteContext);",
@@ -205,7 +205,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A Option B?',
+        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A Option B?',
       options: [
         "A. 1 growl method is created for Option A. 1000 growl methods are created for Option B.",
         "B. 1 growl method is created regardless of which option is used.",
@@ -236,7 +236,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started havinglatency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround.Which command can the web developer run to see what the module is doing during the latency period?",
+        "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started havinglatency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround. Which command can the web developer run to see what the module is doing during the latency period?",
       options: [
         "A. DEBUG=true node server.js",
         "B. NODE_DEBUG=http,https node server.js",
@@ -248,7 +248,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is setting up a Node,js server and is creating a script at the root of the source code, index,js, that will start the server when executed. The developer declares a variable that needs the folder location that the code executes from.Which global variable can be used in the script?",
+        "A developer is setting up a Node,js server and is creating a script at the root of the source code, index,js, that will start the server when executed. The developer declares a variable that needs the folder location that the code executes from. Which global variable can be used in the script?",
       options: [
         "A. _dirname",
         "B. window.location",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) notices that its application that allows users to search foraccounts makes a network request each time a key is pressed. This results in too manyrequests for the server to handle.● Address this problem, UC decides to implement a debounce function on string changehandler.What are three key steps to implement this debounce function?Choose 3 answers:",
+        "Universal Containers (UC) notices that its application that allows users to search foraccounts makes a network request each time a key is pressed. This results in too manyrequests for the server to handle.● Address this problem, UC decides to implement a debounce function on string changehandler. What are three key steps to implement this debounce function? Choose 3 answers:",
       options: [
         "A. Ensure that the network request has the property debounce set to true.",
         "B. When the search string changes, enqueue the request within a setTimeout.",
@@ -273,7 +273,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to HTML below:<p> The current status of an Order: <span id =\"status\"> In Progress </span> </p>.Which JavaScript statement changes the text 'In Progress' to 'Completed' ?",
+        "Refer to HTML below:<p> The current status of an Order: <span id =\"status\"> In Progress </span> </p>. Which JavaScript statement changes the text 'In Progress' to 'Completed' ?",
       options: [
         "A. document.getElementById(\"status\").Value = 'Completed' ;",
         "B. document.getElementById(\"status\").innerHTML = 'Completed' ;",
@@ -285,7 +285,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.UC is thinking about reusability and how each team can benefit from the work of others.Going open-source or public is not an option at this time.Which option is available to UC with npm?",
+        "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.UC is thinking about reusability and how each team can benefit from the work of others.Going open-source or public is not an option at this time. Which option is available to UC with npm?",
       options: [
         "A. Private registries are not supported by npm, but packages can be installed via URL.",
         "B. Private packages are not supported, but they can use another package manager likeyarn.",
@@ -327,7 +327,7 @@ window.testContent[testName].testList.push({
       title: "Question 29",
     },
     {
-      content: "Which two console logs output NaN?Choose 2 answers | |",
+      content: "Which two console logs output NaN? Choose 2 answers | |",
       options: [
         "A. console.log(parseInt ' (\"two')) ;",
         "B. console.log(10 / 0);",
@@ -339,7 +339,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions can be using the JavaScript browser console?Choose 3 answers:",
+        "Which three actions can be using the JavaScript browser console? Choose 3 answers:",
       options: [
         "A. View and change DOM the page.",
         "B. Run code that is not related to page.",
@@ -406,7 +406,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a fizzbuzz function that when passed in a number, returns thefollowing:● 'Fizz' if the number is divisible by 3.● 'Buzz' if the number is divisible by 5.● 'Fizzbuzz' if the number is divisible by both 3 and 5.● Empty string if the number is divisible by neither 3 or 5.Which two test cases will properly test scenarios for the fizzbuzz function?Choose 2 answers",
+        "A developer wrote a fizzbuzz function that when passed in a number, returns thefollowing:● 'Fizz' if the number is divisible by 3.● 'Buzz' if the number is divisible by 5.● 'Fizzbuzz' if the number is divisible by both 3 and 5.● Empty string if the number is divisible by neither 3 or 5. Which two test cases will properly test scenarios for the fizzbuzz function? Choose 2 answers",
       options: [
         "A. let res = fizzbuzz(15);console.assert ( res === ' fizzbuzz ' )",
         "B. let res = fizzbuzz(5);console.assert ( res === ' ' );",
@@ -437,7 +437,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'developer removes the HTML class attribute from the checkout button, so now it issimply:<button>Checkout</button>.There is a test to verify the existence of the checkout button, however it looks for a button withclass= "blue". The test fails because no such button is found.Which type of test category describes this test?',
+        'developer removes the HTML class attribute from the checkout button, so now it issimply:<button>Checkout</button>. There is a test to verify the existence of the checkout button, however it looks for a button withclass= "blue". The test fails because no such button is found. Which type of test category describes this test?',
       options: [
         "A. False negative",
         "B. False positive",
@@ -449,7 +449,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In the browser, the window object is often used to assign variables that require the broadest scope in an application Node.js application does not have access to the window object by default.Which two methods are used to address this ?Choose 2 answers",
+        "In the browser, the window object is often used to assign variables that require the broadest scope in an application Node.js application does not have access to the window object by default. Which two methods are used to address this ? Choose 2 answers",
       options: [
         "A. Assign variables to module.exports and require them as needed.",
         "B. Create a new window object in the root file.",
@@ -473,7 +473,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object?Choose 2 answers',
+        'A developer uses a parsed JSON string to work with user information as in the block below:01 const userInformation ={02 " id " : "user-01",03 "email" : "[email protected]",04 "age" : 25Which two options access the email attribute in the object? Choose 2 answers',
       options: [
         'A. userInformation.get("email")',
         "B. userInformation(email)",
@@ -485,7 +485,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer of the string below:Const str = 'sa;esforce'=;Which two statement result in the word 'Sale'?Choose 2 answers",
+        "Refer of the string below:Const str = 'sa;esforce'=;Which two statement result in the word 'Sale'? Choose 2 answers",
       options: [
         "A. str, substr(1,5) ;",
         "B. str, substr(0,5) ;",
@@ -509,14 +509,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code:Given the code above, which three properties are set pet1?Choose 3 answers:",
+        "Refer to the code:Given the code above, which three properties are set pet1? Choose 3 answers:",
       options: ["A. Owner", "B. Size", "C. Type", "D. Name", "E. canTalk"],
       answer: "B,C,E",
       title: "Question 46",
     },
     {
       content:
-        "A developer has the following array of student test grades:Let arr = [ 7, 8, 5, 8, 9 ];The Teacher wants to double each score and then see an array of the studentswho scored more than 15 points.How should the developer implement the request?",
+        "A developer has the following array of student test grades:Let arr = [ 7, 8, 5, 8, 9 ];The Teacher wants to double each score and then see an array of the studentswho scored more than 15 points. How should the developer implement the request?",
       options: [
         "A. Let arr1 = arr.map((num) => ( num *2)).filterBy((val) => ( val >15 ));",
         "B. Let arr1 = arr.mapBy (( num) => ( return num *2 )) .filterBy (( val ) => return val > 15 )) ;",
@@ -632,7 +632,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer is trying to convince management that their team will benefit from usingNode.js for a backend server that they are going to create. The server will be a web server thathandles API requests from a website that the team has already built using HTML, CSS, andJavaScript.Which three benefits of Node.js can the developer use to persuade their manager?Choose 3 answers:",
+        "developer is trying to convince management that their team will benefit from usingNode.js for a backend server that they are going to create. The server will be a web server thathandles API requests from a website that the team has already built using HTML, CSS, andJavaScript. Which three benefits of Node.js can the developer use to persuade their manager? Choose 3 answers:",
       options: [
         "A. I nstalls with its own package manager to install and manage third-party libraries.",
         "B. Executes server-side JavaScript code to avoid learning a new language.",
@@ -657,7 +657,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A test has a dependency on database.query. During the test the dependency is replacedwith an object called database with the method, query, that returns an array. Thedeveloper needs to verify how many times the method was called and the argumentsused each time.Which two test approaches describe the requirement?Choose 2 answers",
+        "A test has a dependency on database.query. During the test the dependency is replacedwith an object called database with the method, query, that returns an array. Thedeveloper needs to verify how many times the method was called and the argumentsused each time. Which two test approaches describe the requirement? Choose 2 answers",
       options: ["A. White box", "B. Black box", "C. Integration", "D. Mocking"],
       answer: "A,D",
       title: "Question 59",

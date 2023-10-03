@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Given a job step configured in the steptype.json, a developer needs to add a custom status code"No_FILES_FOUND".Which code snippet will complete the requirement?',
+        'Given a job step configured in the steptype.json, a developer needs to add a custom status code"No_FILES_FOUND". Which code snippet will complete the requirement?',
       options: [
         "A. var status = {success: 'OK'. Message: 'NO_FILES_FOUND'};return status;",
         "B. var status = require('dw/system/status');return new Status(Status.OK, 'NO_FILES_FOUND');",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant is selling a new product line of televisions. In order to deliver a good customer experience, the merchandising team wants the screen size to be incorporated into the search and navigation journey.Which two things can the developer do to facilitate this for them?Choose 2 answers",
+        "A merchant is selling a new product line of televisions. In order to deliver a good customer experience, the merchandising team wants the screen size to be incorporated into the search and navigation journey. Which two things can the developer do to facilitate this for them? Choose 2 answers",
       options: [
         "A. Configure catalog-level search refinement definition for Screen Size.",
         'B. Create a new search refinement for a Boolean value true or false and label it "big screen."',
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer working on a multi country site is asked to store country specific data that drives the creation of a country selector. Examples of the data stored are:* Pricebook to be used* Image URL for country flagThe data used in staging also applies in production, but only for this site.Which approach should the developer take to implement these requirements?",
+        "A developer working on a multi country site is asked to store country specific data that drives the creation of a country selector. Examples of the data stored are:* Pricebook to be used* Image URL for country flagThe data used in staging also applies in production, but only for this site. Which approach should the developer take to implement these requirements?",
       options: [
         "A. Create a replicable, site-specific Custom Object with the custom data for each country.",
         "B. Create site-specific content assets to store the data for each country.",
@@ -69,7 +69,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects.Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
+        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects. Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
       options: [
         "A. The Auto-Upload setting is enabled for the server connection.",
         "B. The Active Server setting is enabled for the server connection.",
@@ -82,7 +82,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the sandbox with:* Service configured and assigned to its profile and credential* A code version that uses that serviceAnd given the requirement to limit the number of success or error calls the code can perform to a restricted number of calls per second.Which configuration should the developer perform?",
+        "Given the sandbox with:* Service configured and assigned to its profile and credential* A code version that uses that serviceAnd given the requirement to limit the number of success or error calls the code can perform to a restricted number of calls per second. Which configuration should the developer perform?",
       options: [
         "A. Set the rate limiter in the service profile and configure its values with the ones required.",
         "B. Set a new quota limit for the service profile and assign the service to it.",
@@ -93,7 +93,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog:New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and Works as expected. However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search.What is the Reason?",
+        "Consider the following information:* A merchant has this three-tier category structure setup in the Storefront catalog:New Arrivals > Women > Clothing* The category named Clothing has all the clothing items for Women and is merchandised.* A Search Refinement named Newness is correctly configured for the Clothing category.When a merchandiser views the Clothing category, the Search Refinement appears and Works as expected. However, the merchandiser does not see the Search Refinement when searching for Clothing via the Storefront search. What is the Reason?",
       options: [
         "A. The Search Refinement definitions is not set up for the Root Category",
         "B. The Search Refinement definition is not set up for the Women category",
@@ -105,7 +105,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a sandbox with code to log a message during execution, and the following code:After the code executes, the developer does not see any log file with the message in the WebDAV folder. Which two tasks does the developer need to perform to correct this issue?Choose 2 answers",
+        "A developer has a sandbox with code to log a message during execution, and the following code:After the code executes, the developer does not see any log file with the message in the WebDAV folder. Which two tasks does the developer need to perform to correct this issue? Choose 2 answers",
       options: [
         "A. Set the root log level to debug.",
         "B. Set the logging global preference to true.",
@@ -117,7 +117,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible.Which two courses of action might solve the problem?Choose 2 answers",
+        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible. Which two courses of action might solve the problem? Choose 2 answers",
       options: [
         "A. Add the token in the ISML template.",
         "B. Add csrfProtection.generateToken as a middleware step in the controller.",
@@ -141,7 +141,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory.Which action potentially solves this problem?",
+        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory. Which action potentially solves this problem?",
       options: [
         "A. Set the server connection's target version directory to the active code version.",
         "B. Remove invalid characters from cartridge file and folder names.",
@@ -153,7 +153,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible.What are two possible reasons?",
+        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible. What are two possible reasons?",
       options: [
         "A. The category does not contain available products",
         "B. The category is not sorted",
@@ -165,7 +165,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer.Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
+        "A merchant requires that an existing section of the Site become editable from the Business Manager, so that they can modify it independently of the developer. Which of these is an important factor for a developer to consider when choosing the appropriate solution between a content slot and a Page Designer component?",
       options: [
         "A. Only Page Designer Components can be localized for different languages.",
         "B. Only content slot configurations can be tied to campaigns.",
@@ -177,7 +177,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a requirement to render personalized content to n a category page via a Content Slot that targets VIP high-spending customers during a specific promotional period.Which two items should the developer create to achieve the specified requirements?Choose 2 answers:",
+        "A merchant has a requirement to render personalized content to n a category page via a Content Slot that targets VIP high-spending customers during a specific promotional period. Which two items should the developer create to achieve the specified requirements? Choose 2 answers:",
       options: [
         "A. Slot Configuration",
         "B. Page Template",
@@ -213,7 +213,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Multiple shoppers report slow performance on the Product Details Page.Which tool can a developer use to view average response times for the Product-Detail controller route?",
+        "Multiple shoppers report slow performance on the Product Details Page. Which tool can a developer use to view average response times for the Product-Detail controller route?",
       options: [
         "A. Pipeline Profiler",
         "B. URL Request Analyzer",
@@ -224,7 +224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations should be done in a controller?Choose 3 answers",
+        "Which three operations should be done in a controller? Choose 3 answers",
       options: [
         "A. Create a plain JavaScript object representing a system object",
         "B. Generate the response as JSON or HTML",
@@ -237,7 +237,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The developer has been given the following business requirement:The shipping method, "Free Standard Ground Shipping" has an exclusion for products with \'category equals or is child of electronics-televisions.\' The marketing department has scheduled a sale offering a "Free Standard Ground Shipping" method for brand XyzTv televisions for the next 3 months.What method accomplishes this while following best practices\'',
+        'The developer has been given the following business requirement:The shipping method, "Free Standard Ground Shipping" has an exclusion for products with \'category equals or is child of electronics-televisions.\' The marketing department has scheduled a sale offering a "Free Standard Ground Shipping" method for brand XyzTv televisions for the next 3 months. What method accomplishes this while following best practices\'',
       options: [
         "A. Create a new shipping method and label it \"Free Standard Ground Shipping\". Give it the qualifier 'brand equals XyzTv', and add it to the checkout options.",
         'B. Create an allow list for the existing shipping method by adding a product exclusion for \'brand equals XyzTv\' to the exclusion list fo<" "Free Standard Ground Shipping."',
@@ -249,7 +249,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client sells its product in single-brand stores as well as in multi-brand stores. When shown in the store locator list, the client wants the single-brand stores to have a particular background color to highlight them.Which Business Manager action should be completed to allow the developer to apply different styling to the single-brand stores?",
+        "A client sells its product in single-brand stores as well as in multi-brand stores. When shown in the store locator list, the client wants the single-brand stores to have a particular background color to highlight them. Which Business Manager action should be completed to allow the developer to apply different styling to the single-brand stores?",
       options: [
         "A. Adjust the relevant Site Preference in the Stores group",
         "B. Create a new SingleBrandStore custom object configuration.",
@@ -285,7 +285,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more.How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
+        "A client has two B2C Commerce sites in the same instance: one for the U.S market, the other for the European market. The products they make are sold with different safety certificates based-on the world location.For example, they sell a smartphone with certificate A in the U.S and certificate B in Europe, a hairdryer with certificate C in the U.S and certificate D in Europe, and more. How should a developer allow the merchant to display the appropriate certification logo in the produce to details page, depending on the customer's location?",
       options: [
         "A. Add a Localizable custom attribute to the Certificate system object type.",
         "B. Ad and Image custom preference to the Sitepreference system object type",
@@ -297,7 +297,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts.What does the Developer need to change in Business Manager to fulfill this requirement?',
+        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts. What does the Developer need to change in Business Manager to fulfill this requirement?',
       options: [
         "A. Credit card exclusion rules in the CreditCardType.json configuration file.",
         "B. Checkout exclusion rules in the Merchant Tools > Site Preferences > Checkout Preferences module.",
@@ -352,7 +352,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer selects "Show Orderable Products Only" in the Search > Search Preferences Business Manager module.Which business goal does this accomplish?',
+        'A Digital Developer selects "Show Orderable Products Only" in the Search > Search Preferences Business Manager module. Which business goal does this accomplish?',
       options: [
         "A. Exclude products from search results if Available to Sell (ATS) = 0.",
         "B. Exclude pre-order products from search results.",
@@ -364,7 +364,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer wants pass control to an ISML template from a JavaScript Controller and load product on the pipeline dictionary with the name myProduct.Which code sample will achieve this?",
+        "A Digital Developer wants pass control to an ISML template from a JavaScript Controller and load product on the pipeline dictionary with the name myProduct. Which code sample will achieve this?",
       options: [
         'A. ISML.renderTemlpate ( "helloworld.isml", { myProduct: product });',
         'B. ISML.renderTemlpate ( "helloworld.isml", { "myProduct": "product" });',
@@ -395,7 +395,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront.The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site.Which modification should be made to the new cartridge path?",
+        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront. The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site. Which modification should be made to the new cartridge path?",
       options: [
         "A. Set the cartridge path so that app_newsite is before app_storefront.",
         "B. Set the cartridge path so that app_storefront is before int_cybersource.",
@@ -465,14 +465,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work.Which line of code should the developer use to replace line 6 and correct the problem?",
+        "Server.get('Show', consentTracking.consent, cache.applyDefaultCache, function (req,res,next){ Var Site = require('dw/system/Syte\"); Var pageMetaHelpter = require('*/cartridge/scripts/helpers/pageMetaHelper'); pageMetaHelpter.setPageMetaTags(req.pageMetaData, Site.current); res.render('/home/homePage'); Missing code here}, pageMetadata.computedPageMetadata);The controller endpoint code snippet above does not work. Which line of code should the developer use to replace line 6 and correct the problem?",
       options: ["A. return res;C. res.next();", "B. req.next();", "C. next();"],
       answer: "C",
       title: "Question 40",
     },
     {
       content:
-        "A developer wants to add a link to the My Account Page.What is the correct code to accomplish this?",
+        "A developer wants to add a link to the My Account Page. What is the correct code to accomplish this?",
       options: [
         "A. <a href=\"${url.get('Account-Show')}>${Resource.message('myaccount')}</a>",
         "B. <a href=\"${URLUtils.url('Account-Show')}>${Resource.msg('myaccount','account',null)}</a>",
@@ -484,7 +484,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a new requirement to accept American Express credit cards on its Storefront. A credit card payment method already exists.Which step must a developer take in Business Manager to achieve this?",
+        "A merchant has a new requirement to accept American Express credit cards on its Storefront. A credit card payment method already exists. Which step must a developer take in Business Manager to achieve this?",
       options: [
         "A. In Payment Methods, enable American Express as a credit card type.",
         "B. Add American Express as a Payment Preference in Site Preferences.",
@@ -496,7 +496,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Recent code changes to an existing cartridge do not appear correctly on a Storefront. The developer confirms that the code is uploaded in the IDE and ensures that the cartridge is associated with the sandbox.Which two additional steps should the developer take to troubleshoot this problem?Choose 2 answers",
+        "Recent code changes to an existing cartridge do not appear correctly on a Storefront. The developer confirms that the code is uploaded in the IDE and ensures that the cartridge is associated with the sandbox. Which two additional steps should the developer take to troubleshoot this problem? Choose 2 answers",
       options: [
         "A. Check the Business Manager site cartridge path.",
         "B. Check the Storefront site cartridge path.",
@@ -508,7 +508,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions.Which link function generates the correct link?",
+        "A business user wants to add a link to a content page from within the body of another content asset. The target content asset ID is: terms-and-conditions. Which link function generates the correct link?",
       options: [
         "A. $url('Page-Show', 'cid', 'terms-and-conditions')$",
         "B. $include('Page-Include', 'cid', 'terms-and-conditions')$",
@@ -520,7 +520,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded.What action should the Developer take to stop the quota violation?",
+        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded. What action should the Developer take to stop the quota violation?",
       options: [
         "A. Change the Business Manager configuration for the quota settings.",
         "B. Ask support to remove the quota limit.",
@@ -532,7 +532,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items.How can a developer use Business Manager to ensure that the gift vouchers are always available?",
+        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items. How can a developer use Business Manager to ensure that the gift vouchers are always available?",
       options: [
         "A. Set StockLevel = maxAllocation for the producto.",
         "B. Check the perpetual flag in the product inventory record",
@@ -544,7 +544,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following snippet:* Server.append( 'Show' , function (req, res, next) )According to SFRA, which two options shows a correct way to complete the code above in order to provide data to the response using a controller?Choose 2 answers",
+        "Given the following snippet:* Server.append( 'Show' , function (req, res, next) )According to SFRA, which two options shows a correct way to complete the code above in order to provide data to the response using a controller? Choose 2 answers",
       options: [
         "A. res.render('/content/myPage');next();}).append{(Data:myDataObject});",
         "B. res.viewData = {data: myDataObject};res.render('/content/myPage');next();});",
@@ -568,7 +568,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects.Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
+        "A Digital Developer creates a B2C Commerce server connection in their UX Studio workspace. The Developer adds new cartridges to the workspace, but the cartridges do NOT execute as the Developer expects. Which three things should the Digital Developer verify to ensure the cartridges are uploaded? (Choose three.)",
       options: [
         "A. The Active Server setting is enabled for the server connection.",
         "B. The server is configured to accept incoming connections.",
@@ -581,7 +581,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The client provides the system integrator with translation messages for the newly added "French" ("fr") locale.What is the correct folder to store the associated .properties files?',
+        'The client provides the system integrator with translation messages for the newly added "French" ("fr") locale. What is the correct folder to store the associated .properties files?',
       options: [
         "A. A cartridge/templates/resources",
         "B. cartridge/resources",
@@ -604,7 +604,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges.Which cartridge path meets the project requirements?",
+        "A Digital Developer added a file named MyBusinessController.js in the cartridge named app_project. The project design calls for this new file to override MyBusinessController.js in client_project. The client_project cartridge contains other necessary functionality. Additional functionality is also included in the storefront_core and storefront_controllers cartridges. Which cartridge path meets the project requirements?",
       options: [
         "A. app_project:client_project:storefront_controllers:storefront_core",
         "B. storefront_core:storefront_controllers:client_project:app_project",
@@ -616,7 +616,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to associate a region code value with an order to indicate the general area of its destination. This region code must be accessible whenever the order history is displayed.What is required to accomplish this?",
+        "Universal Containers wants to associate a region code value with an order to indicate the general area of its destination. This region code must be accessible whenever the order history is displayed. What is required to accomplish this?",
       options: [
         "A. Store the region code value in the geolocation system attribute of the Order.",
         "B. Store the region code value in a session variable.",
@@ -628,7 +628,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a sandbox configured with a service and its profile and credential. Now there is a requirement to allow changes to the service URL manually from the sandbox.Which B2C feature should the developer use to achieve the request?",
+        "A developer has a sandbox configured with a service and its profile and credential. Now there is a requirement to allow changes to the service URL manually from the sandbox. Which B2C feature should the developer use to achieve the request?",
       options: [
         "A. Use a Globalpreference dedicated for the service URL",
         "B. Use the service status area, set the override URL checkbox, and then populate the URL field with the required one.",
@@ -640,7 +640,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has identified that the code segment below is causing performance problems.What should the Developer do to improve the code?",
+        "A Digital Developer has identified that the code segment below is causing performance problems. What should the Developer do to improve the code?",
       options: [
         "A. Avoid using an Iterator and use a Collection instead.",
         "B. Use a system attribute instead of the isOnSaleFlag custom attribute.",
@@ -664,7 +664,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox.Which three items are required to accomplish this task? (Choose three.)",
+        "A Digital Developer is tasked with setting up a new Digital Server Connection using UX Studio in their sandbox. Which three items are required to accomplish this task? (Choose three.)",
       options: [
         "A. Instance Version",
         "B. Keystore Password",
@@ -677,7 +677,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class.Which callback method is required only when invoking a SOAP service?",
+        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class. Which callback method is required only when invoking a SOAP service?",
       options: [
         "A. createRequeat",
         "B. mockCall",
@@ -700,7 +700,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled.The code segment below executes.What is the result'",
+        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled. The code segment below executes. What is the result'",
       options: [
         "A. Logs will be written to the log file with a prefix loggerFile.",
         "B. Logs will not be written.",
@@ -712,7 +712,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools.How should the developer follow SFRA best practices to expose this data for rendering?",
+        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools. How should the developer follow SFRA best practices to expose this data for rendering?",
       options: [
         "A. Pass the Store system object to the template, so that custom propierties are available",
         "B. Extend the existing Stores_Find controller with a new middleware function that performs the query",
@@ -724,7 +724,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability.Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
+        "A Digital Developer is inspecting the weekly service status report for a critical internally-hosted web service used in the application and notices that there are too many instances of unavailability. Which two solutions are possible options to reduce the unavailability of the service? (Choose two.)",
       options: [
         "A. Modify the code that makes the request to the external service to be wrapped in a try / catch block.",
         "B. Update the external service to have a faster response time.",

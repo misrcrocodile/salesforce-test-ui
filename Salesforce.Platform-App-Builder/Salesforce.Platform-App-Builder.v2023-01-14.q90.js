@@ -642,7 +642,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks (CK) Is finding sales reps are Inconsistent in data entry when deals are won. CK requires that custom shoes are shipped within two weeks after the close date. A custom field called Scheduled Ship Date on the opportunity records the ship date.How should the app butler ensure this field is properly filed out before setting the opportunity to closed won?",
+        "Cloud Kicks (CK) Is finding sales reps are Inconsistent in data entry when deals are won. CK requires that custom shoes are shipped within two weeks after the close date. A custom field called Scheduled Ship Date on the opportunity records the ship date. How should the app butler ensure this field is properly filed out before setting the opportunity to closed won?",
       options: [
         'A. ISPICKVAL( StageName ,"Closed Won") && ( Scheduled _Ship_Date_c-CloseDate ) > 14',
         'B. OR(ISPICKVAL( StageName ,"Closed Won") && (Scheduled_Ship_Date_cCloseDate)>14,ISBLANK(Scheduled_Ship_Date_c))',

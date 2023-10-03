@@ -33,7 +33,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company requires an external system to be notified whenever an account is updated.What LimitException could the following code trigger?",
+        "A company requires an external system to be notified whenever an account is updated. What LimitException could the following code trigger?",
       options: [
         "A. System.LimitException: Too many callouts",
         "B. System.CalloutException: Callout from triggers are currently not supported",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale.What is the most effective approach to ensure values displayed respect the users locale settings?",
+        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale. What is the most effective approach to ensure values displayed respect the users locale settings?",
       options: [
         "A. Use the FORMAT() function in the SOQL query.",
         "B. Use the FOR VIEW clause in the SOQL Query.",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom object, Order__c, that has a custom picklist field, Status__c, with values of 'New', 'In Progress', or 'Fulfilled' and a lookup field, Contact__c, to Contact.Which SOQL query will return a unique list of all the Contact records that have no 'Fulfilled' Orders?SELECT Id FROM Contact WHERE Id NOT IN (SELECT Id FROM Order__c WHERE",
+        "A company has a custom object, Order__c, that has a custom picklist field, Status__c, with values of 'New', 'In Progress', or 'Fulfilled' and a lookup field, Contact__c, to Contact. Which SOQL query will return a unique list of all the Contact records that have no 'Fulfilled' Orders?SELECT Id FROM Contact WHERE Id NOT IN (SELECT Id FROM Order__c WHERE",
       options: [
         "A. SELECT Id FROM Contact WHERE Id NOT IN (SELECT Contact__c FROM Order__c WHERE",
         "B. Status__c = 'Fulfilled')SELECT Contact__c FROM Order__c WHERE Status__c <> 'Fulfilled'",
@@ -106,14 +106,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once.What is the optimal code that should be added to fire the event when the search has completed?",
+        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once. What is the optimal code that should be added to fire the event when the search has completed?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "A",
       title: "Question 9",
     },
     {
       content:
-        "A developer has requirement to query three fields (id, name, Type) from an Account and first and last names for all Contacts associated with the Account.Which option is the preferred optimized method to achieve this for the Account named 'Ozene Electronics'?",
+        "A developer has requirement to query three fields (id, name, Type) from an Account and first and last names for all Contacts associated with the Account. Which option is the preferred optimized method to achieve this for the Account named 'Ozene Electronics'?",
       options: [
         "A. Account a = (SELECT ID, Name, Type, (select contat,firstName, Contact,LastName from Account, Contacts) from Account where name; Ozone Electronic' Limit 1 );",
         "B. List 1Contacts = new list ( );for(Contact c ; 1Select firstname, lastname Account, Name Account,ID Account, Type from Contact where Account: Name=' electronics')) ( iContacts.add(c);)",
@@ -125,7 +125,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object.What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
+        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object. What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
       options: [
         "A. A standard controller with a controller extension",
         "B. A custom controler",
@@ -149,7 +149,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer migrated functionality from JavaScript demoting to a Lightning web component and wants to use the existing getOpportunities() method to provide data.Which modification to the method is necessary?",
+        "A developer migrated functionality from JavaScript demoting to a Lightning web component and wants to use the existing getOpportunities() method to provide data. Which modification to the method is necessary?",
       options: [
         "A. The method must return a JSON Object.",
         "B. A The method must be decorated with AuraEnabled.",
@@ -186,7 +186,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company represents their customers as Accounts in Salesforce. All customers have a unique Customer_Number__c that is unique across all of the company's systems. They also have a custom Invoice__c object, with a Lookup to Account, to represent invoices that are sent out from their external system.This company wants to integrate invoice data back into Salesforce so Sales Reps can see when a customer is paying their bills on time.What is the optimal way to implement this?",
+        "A company represents their customers as Accounts in Salesforce. All customers have a unique Customer_Number__c that is unique across all of the company's systems. They also have a custom Invoice__c object, with a Lookup to Account, to represent invoices that are sent out from their external system.This company wants to integrate invoice data back into Salesforce so Sales Reps can see when a customer is paying their bills on time. What is the optimal way to implement this?",
       options: [
         "A. Create a cross-reference table in the custom invoicing system with the Salesforce Account ID of each Customer and insert invoice data nightly.",
         "B. Ensure Customer_Number__c is an External ID and that a custom field Invoice_Number__c is an External ID and Upsert invoice data nightly.",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company processes Orders within their Salesforce instance. When an Order's status changes to 'Paid' it must notify the company's order management system (OMS). The OMS exposes SOAP web service endpoints to listen for when to retrieve the data from Salesforce.What is the optimal method to implement this?",
+        "A company processes Orders within their Salesforce instance. When an Order's status changes to 'Paid' it must notify the company's order management system (OMS). The OMS exposes SOAP web service endpoints to listen for when to retrieve the data from Salesforce. What is the optimal method to implement this?",
       options: [
         "A. Generate the Enterprise WSDL and use it to make a callout to the OMS.",
         "B. Generate the Partner WSDL and use it to make a callout to the OMS.",
@@ -224,7 +224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a requirement that the Shipping Address on the Account must be validated by a third-party web service, before the Account is allowed to be inserted.What is the optimal way to meet this requirement?",
+        "An org has a requirement that the Shipping Address on the Account must be validated by a third-party web service, before the Account is allowed to be inserted. What is the optimal way to meet this requirement?",
       options: [
         "A. Make a callout to the web service from an after insert trigger.",
         "B. Make a callout to the web service from a before insert trigger.",
@@ -236,7 +236,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to integrate invoice and invoice line data into Salesforce from a custom billing system. The developer decides to make realtime callouts from the billing system using the SOAP API. Unfortunately, the developer is getting a lot of errors when inserting the invoice line data because the invoice header record doesn't exist yet.What will help ensure ne transactional Integrity of the integration?",
+        "A developer wants to integrate invoice and invoice line data into Salesforce from a custom billing system. The developer decides to make realtime callouts from the billing system using the SOAP API. Unfortunately, the developer is getting a lot of errors when inserting the invoice line data because the invoice header record doesn't exist yet. What will help ensure ne transactional Integrity of the integration?",
       options: [
         "A. Develop a custom Apex web service to handle a custom JSON data structure with both invoice header and related invoice lines.",
         "B. Use an ETL tool and the Bulk API running nightly, thus ensuring all of the data is handled at the same time.",
@@ -260,7 +260,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response_ _c do not belong to a list of blocked domains. The list of blocked domains will be stored in a custom object for ease of maintenance by users. Note that the Survey_Response__c object is populated via a custom Visualforce page.What is the optimal way to implement this?",
+        "A developer is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response_ _c do not belong to a list of blocked domains. The list of blocked domains will be stored in a custom object for ease of maintenance by users. Note that the Survey_Response__c object is populated via a custom Visualforce page. What is the optimal way to implement this?",
       options: [
         "A. Implement the logic in an Apex trigger on Contact and also implement the logic within the Custom Visualforce page controller",
         "B. Implement the logic in a Validation Rule on the Contact and a Validation Rule on the Survey_Response_ _c object",
@@ -316,7 +316,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users.What are two alternatives to implement the integration and protect against malicious calls to Heroku app's endpoint? Choose 2 answers",
+        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users. What are two alternatives to implement the integration and protect against malicious calls to Heroku app's endpoint? Choose 2 answers",
       options: [
         "A. Create a trigger that uses an @future Apex HTTP callout passing JSON serialized data; therefore the Heroku app can automatically reply back to the callout with the resized images in Salesforce.",
         "B. Create a Workflow Rule with an Outbound Message and select Send Session ID so that the Heroku app can use it to send the resized images back to Salesforce.",
@@ -359,7 +359,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers stores user preferences in a Hierarchy Custom Setting, User_Prefs_c, with a Checkbox field, Show_Help_c. Company-level defaults are stored at the organizational level, but may be overridden at the user level. If a user has not overridden preferences, then the defaults should be used.How should the Show_Help_c preference be retrieved for the current user?",
+        "Universal Containers stores user preferences in a Hierarchy Custom Setting, User_Prefs_c, with a Checkbox field, Show_Help_c. Company-level defaults are stored at the organizational level, but may be overridden at the user level. If a user has not overridden preferences, then the defaults should be used. How should the Show_Help_c preference be retrieved for the current user?",
       options: [
         "A. Boolean show = User_Prefs__c.getValues(UserInfo.getUserId()).Show_Help__c;",
         "B. Boolean show = User_Prefs__c.getInstance().Show_Help__c;",
@@ -372,7 +372,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers.What should the developer use to store and package the custom configuration settings for the app?",
+        "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers. What should the developer use to store and package the custom configuration settings for the app?",
       options: [
         "A. Custom Settings",
         "B. Custom Objects",
@@ -435,7 +435,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        '<lightning:layout multipleRows="true"><lightning:layoutItem size="12">{!v.account.Name}</lightning:layoutItem><lightning:layoutItem size="12">{!v.account.AccountNumber}</lightning:layoutItem><lightning:layoutItem size="12">{!v.account.Industry}</lightning:layoutItem></lightning:layout>Refer to the component code above. The information displays as expected (in three rows) on a mobile device.However, the information is not displaying as desired (in a single row) on a desktop or tablet.Which option has the correct component changes to display correctly on desktops and tablets?<lightning:layout multipleRows="true">',
+        '<lightning:layout multipleRows="true"><lightning:layoutItem size="12">{!v.account.Name}</lightning:layoutItem><lightning:layoutItem size="12">{!v.account.AccountNumber}</lightning:layoutItem><lightning:layoutItem size="12">{!v.account.Industry}</lightning:layoutItem></lightning:layout>Refer to the component code above. The information displays as expected (in three rows) on a mobile device. However, the information is not displaying as desired (in a single row) on a desktop or tablet. Which option has the correct component changes to display correctly on desktops and tablets?<lightning:layout multipleRows="true">',
       options: [
         'A. <lightning:layoutItem size="12" mediumDeviceSize="4">{!v.account.Name}</lightning:layoutItem><lightning:layoutItem size="12" mediumDeviceSize="4">{!v.account.AccountNumber}</lightning:layoutItem><lightning:layoutItem size="12" mediumDeviceSize="4">{!v.account.Industry}</lightning:layoutItem></lightning:layout><lightning:layout multipleRows="true">',
         'B. <lightning:layoutItem size="12" largeDeviceSize="4">{!v.account.Name}</lightning:layoutItem><lightning:layoutItem size="12" largeDeviceSize="4">{!v.account.AccountNumber}</lightning:layoutItem><lightning:layoutItem size="12" largeDeviceSize="4">{!v.account.Industry}</lightning:layoutItem></lightning:layout><lightning:layout multipleRows="true">',
@@ -447,7 +447,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to re code segment above.When following best practices for writing Apex taggers, which two lots are wrong or cause for concern?Choose 2 answers",
+        "Refer to re code segment above.When following best practices for writing Apex taggers, which two lots are wrong or cause for concern? Choose 2 answers",
       options: ["A. Line 16", "B. Line 11", "C. Line 6", "D. Line 20"],
       answer: "C,D",
       title: "Question 38",
@@ -490,7 +490,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers uses a custom Lightning page to provide a mechanism to perform a step-by-step wizard search for Accounts. One of the steps in the wizard is to allow the user to input text into a text field, ERP_Number__c, that is then used in a query to find matching Accounts.A developer receives the exception 'SOQL query not selective enough.Which step should be taken to resolve the issue?",
+        "Universal Containers uses a custom Lightning page to provide a mechanism to perform a step-by-step wizard search for Accounts. One of the steps in the wizard is to allow the user to input text into a text field, ERP_Number__c, that is then used in a query to find matching Accounts.A developer receives the exception 'SOQL query not selective enough. Which step should be taken to resolve the issue?",
       options: [
         "A. Mark the lRP_Number__c field as an external ID.",
         "B. Mark the ERP_Number__c field as required.",
@@ -502,7 +502,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users.What are two alternatives to implement the integration and protect against malicious calls to the Heroku app's endpoint? Choose 2 answers",
+        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users. What are two alternatives to implement the integration and protect against malicious calls to the Heroku app's endpoint? Choose 2 answers",
       options: [
         "A. Create a trigger that uses an ©future Apex HTTP callout passing JSON serialized data and some form of pre-shared secret key, so that the Heroku app can authenticate requests and store the resized images in Salesforce.",
         "B. Create a Workflow Rule with an Outbound Message allowing the Heroku app to automatically store the resized images in Salesforce",
@@ -538,7 +538,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Salesforce users consistently receive a "Maximum trigger depth exceeded" error when saving m Account.How can a developer fix this error?',
+        'Salesforce users consistently receive a "Maximum trigger depth exceeded" error when saving m Account. How can a developer fix this error?',
       options: [
         "A. Modify the trigger to use the isMultiThread=true annotation.",
         "B. Use a helper class to set a Boolean to TRUE the first time a trigger is fired, and then; modify the trigger to only fire when modify the trigger to only fire when the Boolean is FALSE.",
@@ -550,7 +550,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Lightning web component that displays quantity, unit price, and the total for an order line item. The total is calculated dynamically as the quantity multiplied by the unit price.What must be added to display the total?",
+        "A developer is building a Lightning web component that displays quantity, unit price, and the total for an order line item. The total is calculated dynamically as the quantity multiplied by the unit price. What must be added to display the total?",
       options: [
         "A. Add calculate Total() {return quantity * unitPrice;} to the javaScript and Total : {calculate Total()} in the template.",
         "B. Add Total: {quantity * UnitPrice} in the template.",
@@ -618,7 +618,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has generated Apex code from a WSDL for an external web service. The web service requires Basic authentication.What code should the developer use to authenticate?",
+        "A developer has generated Apex code from a WSDL for an external web service. The web service requires Basic authentication. What code should the developer use to authenticate?",
       options: [
         "A. stub.authentication.put ('Authorization','Basic QthZGprjpchVulHNchFtZQ')",
         "B. Http.setAuthentication('Basic QthZGprjpchVulHNchFtZQ')",
@@ -672,7 +672,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once.What can a developer do to help alleviate such issues?",
+        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once. What can a developer do to help alleviate such issues?",
       options: [
         "A. Upload a third-party data table library as a static resource.",
         "B. Use the transient keyword in the Apex code when querying the Account records.",
@@ -696,7 +696,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes.Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so.Which two statements are true regarding these issues and resolution? (Choose two.)",
+        "A large company uses Salesforce across several departments. Each department has its own Salesforce Administrator. It was agreed that each Administrator would have their own sandbox in which to test changes.Recently, users notice that fields that were recently added for one department suddenly disappear without warning. Also, Workflows that once sent emails and created tasks no longer do so. Which two statements are true regarding these issues and resolution? (Choose two.)",
       options: [
         "A. Page Layouts should never be deployed via Change Sets, as this causes Workflows and Field-level Security to be reset and fields to disappear.",
         "B. The administrators are deploying their own Change Sets over each other, thus replacing entire Page Layouts and Workflows in Production.",
@@ -708,7 +708,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A customer has a single Visualforce page that allows each user to input up to 1500 sales forecasts and instantly view pivoted forecast calculations. Users are complaining that the page is loading slowly, and they are seeing error messages regarding heap and view state limits.What are three recommendations to optimize page performance? (Choose three.)",
+        "A customer has a single Visualforce page that allows each user to input up to 1500 sales forecasts and instantly view pivoted forecast calculations. Users are complaining that the page is loading slowly, and they are seeing error messages regarding heap and view state limits. What are three recommendations to optimize page performance? (Choose three.)",
       options: [
         "A. Specify the list of sales forecasts as transient",
         "B. Segregate calculation functionality from input functionality",
@@ -721,7 +721,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "trigger AssignOwnerByRegion on Account ( before insert, before update ){List<Account> accountList = new List<Account>();for( Account anAccount : trigger.new ){Region__c theRegion = [SELECT Id, Name, Region Manager__cFROM Region__cWHERE Name = :anAccount.Region_Name__c];anAccount.OwnerId = theRegion.Region_Manager__c;accountList.add( anAccount );}update accountList;}Consider the above trigger intended to assign the Account to the manager of the Account's region.Which two changes should a developer make in this trigger to adhere to best practices? (Choose two.)",
+        "trigger AssignOwnerByRegion on Account ( before insert, before update ){List<Account> accountList = new List<Account>();for( Account anAccount : trigger.new ){Region__c theRegion = [SELECT Id, Name, Region Manager__cFROM Region__cWHERE Name = :anAccount.Region_Name__c];anAccount.OwnerId = theRegion.Region_Manager__c;accountList.add( anAccount );}update accountList;}Consider the above trigger intended to assign the Account to the manager of the Account's region. Which two changes should a developer make in this trigger to adhere to best practices? (Choose two.)",
       options: [
         "A. Use a Map to cache the results of the Region__c query by Id.",
         "B. Use a Map accountMap instead of List accountList.",
@@ -757,7 +757,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company notices that their unit tests in a test class with many methods to create many records for prerequisite reference data are slow.What can a developer to do address the issue?",
+        "A company notices that their unit tests in a test class with many methods to create many records for prerequisite reference data are slow. What can a developer to do address the issue?",
       options: [
         "A. Move the prerequisite reference data setup to a TestDataFactory and call that from each test method.",
         "B. Move the prerequisite reference data setup to a static method in the test class and call that from each test method.",
@@ -858,7 +858,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to build a solution that will automatically send an email to the Customer when an Opportunity stage changes. The solution must scale to allow for 10,000 emails per day. The criteria to send the email should be evaluated after all Workflow Rules have fired.What is the optimal way to accomplish this?",
+        "A developer is asked to build a solution that will automatically send an email to the Customer when an Opportunity stage changes. The solution must scale to allow for 10,000 emails per day. The criteria to send the email should be evaluated after all Workflow Rules have fired. What is the optimal way to accomplish this?",
       options: [
         "A. Use a Workflow Email Alert.",
         "B. Use a SingleEmailMessage() with an Apex Trigger.",
@@ -882,7 +882,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has created a Team Member sObject that has a Master-Detail relationship to a Project sObject and a Lookup relationship to the User sObject. The developer must ensure that a User listed on a Team Member record has Read-Write access to the parent Project record.How can the developer accomplish this if the Project sObject has a Private sharing model and thousands of Project records?",
+        "A developer has created a Team Member sObject that has a Master-Detail relationship to a Project sObject and a Lookup relationship to the User sObject. The developer must ensure that a User listed on a Team Member record has Read-Write access to the parent Project record. How can the developer accomplish this if the Project sObject has a Private sharing model and thousands of Project records?",
       options: [
         "A. Create a Controller that uses the Without Sharing keyword",
         "B. Create a Project Sharing Rule that shares to the Team Member Group",
@@ -918,7 +918,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use an Aura component with a custom action.What should be considered in order to do this?",
+        "A developer wants to use an Aura component with a custom action. What should be considered in order to do this?",
       options: [
         "A. A default value must be provided for each component attribute marked as required",
         'B. The class "slds-modal_ _container" must be added to the top-level element of the component',
@@ -961,7 +961,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom object, Order__c, that has a required, unique, external ID field called Order_Number__c.Which statement should be used to perform the DML necessary to insert new records and update existing records in a List of Order__c records?",
+        "A company has a custom object, Order__c, that has a required, unique, external ID field called Order_Number__c. Which statement should be used to perform the DML necessary to insert new records and update existing records in a List of Order__c records?",
       options: [
         "A. upsert orders;",
         "B. merge orders;",
@@ -1009,7 +1009,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map.Universal Containers wants the map to re-render whenever the location of a container is changed.What can a developer use to accomplish this task?",
+        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map.Universal Containers wants the map to re-render whenever the location of a container is changed. What can a developer use to accomplish this task?",
       options: [
         "A. Two Lightning Components leveraging Application Events",
         "B. Two Visualforce Page Components leveraging Application Events",
@@ -1021,7 +1021,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Lightning web component exists in the system and displays information about the record in context as a modal. Salesforce administrators need to use this component within the Lightning App Builder.Which two settings should the developer configure within the xml resource file?Choose 2 answers",
+        "A Lightning web component exists in the system and displays information about the record in context as a modal. Salesforce administrators need to use this component within the Lightning App Builder. Which two settings should the developer configure within the xml resource file? Choose 2 answers",
       options: [
         "A. Set the IsExposed attribute to True.",
         "B. Specify the target to be lightning__AppPage.",
@@ -1033,7 +1033,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use an Aura component with a custom action.What should be considered in order to do this?",
+        "A developer wants to use an Aura component with a custom action. What should be considered in order to do this?",
       options: [
         "A. The component must implement the flexipage:availableForRecordHome interface",
         "B. A default value must be provided for each component attribute marked as required",
@@ -1224,7 +1224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer.Which solution meets these business requirements while following best practices?",
+        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer. Which solution meets these business requirements while following best practices?",
       options: [
         "A. involve a Salesforce administrator and build out a declarative solution that works in Salesforce desktop and mobile.",
         "B. Build an automated Lightning Application using Application Events to ensure data integrity.",
@@ -1286,7 +1286,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex trigger creates a Contract record every time an Opportunity record is marked as Closed end Won. This trigger is working great, except (due to a recent acquisition) historical Opportunity records need to be loaded into the Salesforce instance.When a test batch of records are loaded, the Apex trigger creates Contract records. A developer is tasked with preventing Contract records from being created when mass loading the Opportunities, but the daily users still need to have the Contract records created.What is the most extendable way to update the Apex trigger to accomplish this?",
+        "An Apex trigger creates a Contract record every time an Opportunity record is marked as Closed end Won. This trigger is working great, except (due to a recent acquisition) historical Opportunity records need to be loaded into the Salesforce instance.When a test batch of records are loaded, the Apex trigger creates Contract records. A developer is tasked with preventing Contract records from being created when mass loading the Opportunities, but the daily users still need to have the Contract records created. What is the most extendable way to update the Apex trigger to accomplish this?",
       options: [
         "A. Use a Hierarchy Custom Setting to skip executing the logic inside the trigger for the user who loads the data.",
         "B. Add the Profile ID of the user who loads the data to the trigger so the trigger will not fire for this user.",
@@ -1298,7 +1298,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has built a multi-page wizard using a single Custom Controller to query and update data. Users are complaining that the pages are loading slowly.What will improve performance? (Choose three.)",
+        "A developer has built a multi-page wizard using a single Custom Controller to query and update data. Users are complaining that the pages are loading slowly. What will improve performance? (Choose three.)",
       options: [
         "A. Using actionRegion and rerender",
         "B. Setting the Apex Page attribute cache=true",
@@ -1355,7 +1355,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a Batch Apex process, Batch_Account_Sales, that updates the sales amount for 10,000 Accounts on a nightly basis. The Batch Apex works as designed In the sandbox. However, the developer cannot get code coverage on the Batch Apex class.The test class is below:What is causing the code coverage problem?",
+        "A developer has a Batch Apex process, Batch_Account_Sales, that updates the sales amount for 10,000 Accounts on a nightly basis. The Batch Apex works as designed In the sandbox. However, the developer cannot get code coverage on the Batch Apex class. The test class is below:What is causing the code coverage problem?",
       options: [
         "A. The executeBatch must fail within test. startTest ( ) and - test. stopTest().",
         "B. The account creation already sets the sates amount to 0.",
@@ -1403,7 +1403,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom object, Order__c, that has a custom picklist field, Status__c, with values of 'New','In Progress', or 'Fulfilled' and a lookup field, Contact__c, to Contact.Which SOQL query will return a unique list of all the Contact records that have no 'Fulfilled' Orders?SELECT Id FROM Contact WHERE Id NOT IN (SELECT Id FROM Order__c WHERE",
+        "A company has a custom object, Order__c, that has a custom picklist field, Status__c, with values of 'New','In Progress', or 'Fulfilled' and a lookup field, Contact__c, to Contact. Which SOQL query will return a unique list of all the Contact records that have no 'Fulfilled' Orders?SELECT Id FROM Contact WHERE Id NOT IN (SELECT Id FROM Order__c WHERE",
       options: [
         "A. SELECT Id FROM Contact WHERE Id NOT IN (SELECT Contact__c FROM Order__c",
         "B. WHERE Status__c = 'Fulfilled')SELECT Contact__c FROM Order__c WHERE Id NOT IN (SELECT Id FROM Order__c",
@@ -1457,7 +1457,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Business rules require a Contact to always be created when a new Account is created.What can be used when developing a custom screen to ensure an Account is not created if the creation of the Contact fails?",
+        "Business rules require a Contact to always be created when a new Account is created. What can be used when developing a custom screen to ensure an Account is not created if the creation of the Contact fails?",
       options: [
         "A. Use the Database.Delete method if the Contact insertion fails.",
         "B. Use the Database.Insert method with allOrNone set to False.",
@@ -1469,7 +1469,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response_ _c do not belong to a list of blocked domains. The list of blocked domains will be stored in a custom object for ease of maintenance by users. Note that the Survey_Response_ _c object is populated via a custom Visualforce page.What is the optimal way to implement this?",
+        "A developer is tasked with ensuring that email addresses entered into the system for Contacts and for a Custom Object called Survey_Response_ _c do not belong to a list of blocked domains. The list of blocked domains will be stored in a custom object for ease of maintenance by users. Note that the Survey_Response_ _c object is populated via a custom Visualforce page. What is the optimal way to implement this?",
       options: [
         "A. Implement the logic in a helper class that is called by an Apex trigger on Contact and from the Custom Visualforce page controller",
         "B. Implement the logic in an Apex trigger on Contact and also implement the logic within the Custom Visualforce page controller",
@@ -1513,7 +1513,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer built a Component to be used at the front desk for guests to self-register upon arrival at a kiosk.The developer is now asked to create a Component for the Utility Tray to alert Users whenever a guest has arrived at the front desk. What should be used?",
+        "A developer built a Component to be used at the front desk for guests to self-register upon arrival at a kiosk. The developer is now asked to create a Component for the Utility Tray to alert Users whenever a guest has arrived at the front desk. What should be used?",
       options: [
         "A. Application Event",
         "B. DML Operation",
@@ -1525,7 +1525,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company needs to automatically delete sensitive information after 7 years. This could delete almost a million records every day.How can this be achieved?",
+        "A company needs to automatically delete sensitive information after 7 years. This could delete almost a million records every day. How can this be achieved?",
       options: [
         "A. Schedule an future process to Query records older than 7 years, and then recursively invoke itself in 1,000 record batches to delete them.",
         "B. Use aggregate functions to query for records older than 7 years, and then delete the AggregateResult objects.",
@@ -1585,7 +1585,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Employee_c is a Child object of Company_c. The Company_c object has an external Id field Company_ld_c.How can a developer insert an Employee_c record linked to Company_c with a Company_ld_c of '999'?",
+        "Employee_c is a Child object of Company_c. The Company_c object has an external Id field Company_ld_c. How can a developer insert an Employee_c record linked to Company_c with a Company_ld_c of '999'?",
       options: [
         "A. Employee_c emp = new Employee_c(Name=fDeveloperT); emp. Company_c = new Company_c(Company_Id_c=f 999 T) insert emp;",
         "B. Employee_c emp = new Employee_c(Name=fDeveloperf); emp.Company_r = new Company _ r(Company Id c=f999f) insert emp;",
@@ -1597,7 +1597,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to update data in an org based on new business rules. The new rules state that Accounts with the type set to 'Customer' should have a status of 'Active', and Accounts with the type set to 'Prospect' should have a status of 'Pending'. No other changes to data should be made.Which code block will accurately meet the business requirements?Map<String, String> statusMap = new Map<String, String>{'Customer'=>'Active',",
+        "A developer is asked to update data in an org based on new business rules. The new rules state that Accounts with the type set to 'Customer' should have a status of 'Active', and Accounts with the type set to 'Prospect' should have a status of 'Pending'. No other changes to data should be made. Which code block will accurately meet the business requirements?Map<String, String> statusMap = new Map<String, String>{'Customer'=>'Active',",
       options: [
         "A. 'Prospect'=>'Pending'}List<Account> accountUpdates = new List<Account>();for ( Account a : [SELECT Id, Type FROM Account]){if ( statusMap.containsKey(a.Type) ) {a.Status = a.Type == 'Customer' ? 'Active' : 'Pending';}accountUpdates.add(a);}update accountUpdates;Map<String, String> statusMap = new Map<String, String>{'Customer'=>'Active',",
         "B. 'Prospect'=>'Pending'}List<Account> accountUpdates = new List<Account>();for ( Account a : [SELECT Id, Type FROM Account WHERE Status IN:statusMap.keySet()]){a.Status = statusMap.get(a.Type);accountUpdates.add(a);}update accountUpdates;List<Account> accountUpdates = new List<Account>();",

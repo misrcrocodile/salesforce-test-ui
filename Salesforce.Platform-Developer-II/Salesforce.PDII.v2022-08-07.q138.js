@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A developer is building a Lightning web component that displays quantity, unit price, and the total for an order line item. The total is calculated dynamically as the quantity multiplied by the unit price.What must be added to display the total?",
+        "A developer is building a Lightning web component that displays quantity, unit price, and the total for an order line item. The total is calculated dynamically as the quantity multiplied by the unit price. What must be added to display the total?",
       options: [
         "A. Add Total: {quantity * UnitPrice} in the template.",
         "B. Add get total() { return quantity * unitPrice;} to the JavaScript and Total: {total} in the template.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is inserting, updating, and deleting multiple lists of records in a Single transaction and wants to ensure that any error prevents all execution.How should the developer implement error exception handling in their code to handle this?",
+        "A developer is inserting, updating, and deleting multiple lists of records in a Single transaction and wants to ensure that any error prevents all execution. How should the developer implement error exception handling in their code to handle this?",
       options: [
         "A. Use Database.setSavepoint() and Database.rollBack() with a Try/Catch statement.",
         "B. Use a Try/Catch statement and handle DML cleanup in the catch statement.",
@@ -79,7 +79,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with creating a Lightning web component that allows users to create a Case for a selected product, directly from a custom Lightning page. The input fields in the component are displayed in a non-linear fashion on top of an image of the product to help the user better understand the meaning of the fields.Which two components should a developer use to implement the creation of the Case from the Lightning web component?Choose 2 answers",
+        "A developer is tasked with creating a Lightning web component that allows users to create a Case for a selected product, directly from a custom Lightning page. The input fields in the component are displayed in a non-linear fashion on top of an image of the product to help the user better understand the meaning of the fields. Which two components should a developer use to implement the creation of the Case from the Lightning web component? Choose 2 answers",
       options: [
         "A. lightning-input",
         "B. lightning-record-edit-form",
@@ -91,7 +91,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following queries. For these queries, assume that there are more than 200,000 Account records. These records include soft-deleted records; that is, deleted records that are still in the Recycle Bin. Note that there are two fields that are marked as External Id on the Account. These fields are Customer_Number__c and ERP_Key__c.Which two queries are optimized for large data volumes? Choose 2 answers",
+        "Consider the following queries. For these queries, assume that there are more than 200,000 Account records. These records include soft-deleted records; that is, deleted records that are still in the Recycle Bin. Note that there are two fields that are marked as External Id on the Account. These fields are Customer_Number__c and ERP_Key__c. Which two queries are optimized for large data volumes? Choose 2 answers",
       options: [
         "A. SELECT Id FROM Account WHERE Id IN : aListVariable",
         "B. SELECT Id FROM Account WHERE Name != NULL",
@@ -103,7 +103,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company accepts orders for customers in their enterprise resource planning (ERP) crder__c records with a lookup field to Account. The Account object has an External ID field, ERP_Customer_ID__c.What should the integration use to create new Order__c records that will automatically be related to the correct Account?",
+        "A company accepts orders for customers in their enterprise resource planning (ERP) crder__c records with a lookup field to Account. The Account object has an External ID field, ERP_Customer_ID__c. What should the integration use to create new Order__c records that will automatically be related to the correct Account?",
       options: [
         "A. Upsert on the Order__c object and specify the ERP_Customer_ID__c.",
         "B. Upsert on the Account and specify the ERP_Customer_ID__c.",
@@ -115,7 +115,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Lightning web component that retrieves data from Salesforce and assigns it to the record property.What must be done in the component to get the data from Salesforce?A)B)C)D)",
+        "A developer is building a Lightning web component that retrieves data from Salesforce and assigns it to the record property. What must be done in the component to get the data from Salesforce?A)B)C)D)",
       options: ["A. Option B", "B. Option C", "C. Option D", "D. Option A"],
       answer: "A",
       title: "Question 10",
@@ -148,7 +148,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer.Which solution meets these business requirements while following best practices?",
+        "A developer i$ tasked Dy Unversai Containers to build out a system to track the container repair process. Containers should be tracked as they move through the repair process, starting when a customer reports an issue and ending when the container is returned to the customer. Which solution meets these business requirements while following best practices?",
       options: [
         "A. Build an automated Lightning Application using Application Events to ensure data integrity.",
         "B. involve a Salesforce administrator and build out a declarative solution that works in Salesforce desktop and mobile.",
@@ -258,7 +258,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Lightning web component that uses a Lightning-record-edit-form to collect information about Leads. Users complain that they only see one error message at a time when they save a Lead record.Which best practice should the developer use to perform the validations, and allow more than one error message to be displayed simultaneously?",
+        "A developer created a Lightning web component that uses a Lightning-record-edit-form to collect information about Leads. Users complain that they only see one error message at a time when they save a Lead record. Which best practice should the developer use to perform the validations, and allow more than one error message to be displayed simultaneously?",
       options: [
         "A. Process Builder",
         "B. Client-side validation",
@@ -270,7 +270,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following code snippet:A developer created the following test class to provide the proper code coverage for the snippet above:However, when the test runs, no data is returned and the assertion fails.However, when the test runs, no data is returned and the assertion fails.Which edit should the developer make to ensure the test class runs successfully?",
+        "Consider the following code snippet:A developer created the following test class to provide the proper code coverage for the snippet above:However, when the test runs, no data is returned and the assertion fails. However, when the test runs, no data is returned and the assertion fails. Which edit should the developer make to ensure the test class runs successfully?",
       options: [
         "A. Implement the setFixedSearchResults method in the test class.",
         "B. Enclose the method call within Test. startTest () and Test , stop Test ()",
@@ -319,7 +319,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with creating a Lightning web component that is responsive on various devices.which two components should help accomplish this goal?Choose 2 answers",
+        "A developer is tasked with creating a Lightning web component that is responsive on various devices.which two components should help accomplish this goal? Choose 2 answers",
       options: [
         "A. lightning-layout-item",
         "B. lightning-layout",
@@ -331,7 +331,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a lightning web component that displays a dropdown list of all custom objects in the org from which a user will select Apex method prepares and returns data to the component.What should the developer do to determine which objects to include m the response?",
+        "A developer writes a lightning web component that displays a dropdown list of all custom objects in the org from which a user will select Apex method prepares and returns data to the component. What should the developer do to determine which objects to include m the response?",
       options: [
         "A. Use the getCustomObject ( ) method from the Schema class.",
         "B. Check the isCustom ( ) value on the sObject describe result.",
@@ -343,7 +343,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a page with two extensions overriding the Standard controller for Case.What will happen when a user clicks the command button?",
+        "A developer has a page with two extensions overriding the Standard controller for Case. What will happen when a user clicks the command button?",
       options: [
         "A. Save from CaseExtensionTwo will be executed",
         "B. All of the three Save methods will be executed",
@@ -355,7 +355,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use an Aura Component with a Custom Action.What should be considered in order to do this?",
+        "A developer wants to use an Aura Component with a Custom Action. What should be considered in order to do this?",
       options: [
         "A. The component must implement the force:lightningQuickActionButton interface.",
         'B. The class "slds-modal__container" must be added to the top-level element of the component.',
@@ -367,7 +367,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As part of a new integration, a developer is asked to implement a new custom search functionality that is capable of performing unrestricted queries and can account for all values within a custom picklist field, type__z, on the Opportunity object. The search feature must also account for NULL values.The organization-wide default for the Opportunity object is set to Public Read-Only, and a new custom index has.been created for the Type__c field. There are more than 5 million Opportunity records within the environment.and a considerable amount of the existing records have NULL values for the picklist Which technique should the developer implement to maximize performance when querying NULL values?",
+        "As part of a new integration, a developer is asked to implement a new custom search functionality that is capable of performing unrestricted queries and can account for all values within a custom picklist field, type__z, on the Opportunity object. The search feature must also account for NULL values. The organization-wide default for the Opportunity object is set to Public Read-Only, and a new custom index has.been created for the Type__c field. There are more than 5 million Opportunity records within the environment.and a considerable amount of the existing records have NULL values for the picklist Which technique should the developer implement to maximize performance when querying NULL values?",
       options: [
         "A. Use the OS operator to combine WHERE clauses to strictly search for each value within the picklist, including Type__c ' NULL.",
         "B. Create a formula field that substitutes NULL values for a string of text, create an index for the formula field, then use the formula within the WHERE clause.",
@@ -391,7 +391,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users.What are two alternatives to implement the integration and protect against malicious calls to Heroku app's endpoint? Choose 2 answers",
+        "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users. What are two alternatives to implement the integration and protect against malicious calls to Heroku app's endpoint? Choose 2 answers",
       options: [
         "A. Create a Workflow Rule with an Outbound Message allowing the Heroku app to automatically store the resized images in Salesforce.",
         "B. Create a Workflow Rule with an Outbound Message and select Send Session ID so that the Heroku app can use it to send the resized images back to Salesforce.",
@@ -434,7 +434,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once.What can a developer do to help alleviate such issues?",
+        "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once. What can a developer do to help alleviate such issues?",
       options: [
         "A. Upload a third-party data table library as a static resource.",
         "B. Use the transient keyword in the Apex code when querying the Account records.",
@@ -446,7 +446,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Visualforce page that interacts with external services.Which interface should the developer implement to test this functionality? (Choose two.)",
+        "A developer is building a Visualforce page that interacts with external services. Which interface should the developer implement to test this functionality? (Choose two.)",
       options: [
         "A. HTTPCalloutMock",
         "B. HTTPResponseMock",
@@ -494,7 +494,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three approaches should a developer Implement to obtain the best performance for data retrieval when building a Lightning web component?Choose 3 answers",
+        "Which three approaches should a developer Implement to obtain the best performance for data retrieval when building a Lightning web component? Choose 3 answers",
       options: [
         "A. Use lazy load for occasionally accessed data.",
         "B. Use the Lightning Data Service.",
@@ -519,7 +519,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is using a third-party JavaScript library to create a custom user interface in Visualforce. The developer needs to use JavaScript to get data from a controller method in response to a user action.How can the developer accomplish this?",
+        "A developer is using a third-party JavaScript library to create a custom user interface in Visualforce. The developer needs to use JavaScript to get data from a controller method in response to a user action. How can the developer accomplish this?",
       options: [
         "A. Use the $Controller global variable to access the controller method via JavaScript",
         "B. Use <apex:actionFunction> to create a JavaScript wrapper for the controller method",
@@ -531,7 +531,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object.What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
+        "An org has a custom object, Registeration_c that has a lookup relationship to the Opportunity object. What should a developer use to create a stand-alone Vlsualforce page that displays the Registration__c records related to an Opportunity.",
       options: [
         "A. A standard controller",
         "B. A standard controller with a controller extension",
@@ -555,7 +555,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a custom pagination solution for accessing approximately 2000 records and displaying 50 records on each page. Data from Salesforce will be accessed via an API and not via Apex.How can the developer meet these requirements? (Choose two.)",
+        "A developer must create a custom pagination solution for accessing approximately 2000 records and displaying 50 records on each page. Data from Salesforce will be accessed via an API and not via Apex. How can the developer meet these requirements? (Choose two.)",
       options: [
         "A. Use OFFSET in SOQL queries",
         "B. Use LIMIT 50 in SOQL queries",
@@ -567,7 +567,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer.The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Accounts are simultaneously updated to be customers.The test method fails at the Line 20 because of too many SOQL queries.What is the correct way to fix this?",
+        "The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer. The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Accounts are simultaneously updated to be customers. The test method fails at the Line 20 because of too many SOQL queries. What is the correct way to fix this?",
       options: [
         "A. Replace most of the Apex Trigger with Process Builder processes to reduce the number of queries in the trigger.",
         "B. Add TeststartTest() before Line 18 of the code and add Test.stopTest() after line 18 of the code.",
@@ -598,7 +598,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers requested the addition of a third-party Map widget to an existing Lightning web component.Which two actions should the developer take to implement this requirement?Choose 2 answers",
+        "Universal Containers requested the addition of a third-party Map widget to an existing Lightning web component. Which two actions should the developer take to implement this requirement? Choose 2 answers",
       options: [
         "A. Upload the third-party JavaScript library as a static resource that Imports Into the component.",
         "B. Use a content distribution network and Include <script> <script> tags In the component.",
@@ -641,7 +641,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map. Universal Containers wants the map to re-render whenever the location of a container is changed.What can a developer use to accomplish this task?",
+        "Universal Containers wants to be able to bring up an Account detail page and view a table of containers currently being rented. The user wants to be able to dick on a container In the table and quickly edit and save the location of the container.In addition to this, the page should have a section that shows the location of each container on a map. Universal Containers wants the map to re-render whenever the location of a container is changed. What can a developer use to accomplish this task?",
       options: [
         "A. Two Lightning Components leveraging Application Events",
         "B. Two Lightning Components leveraging Platform Events",
@@ -727,7 +727,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is integrated with a legacy on-premises SQL database.What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
+        "A developer is integrated with a legacy on-premises SQL database. What should the developer use to ensure the data being integrated is matched to the right records in Salesforce?",
       options: [
         "A. Formula field",
         "B. External Object",
@@ -739,7 +739,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A corporation has many different Salesforce orgs, with some different objects and some common objects, and wants to build an application that can create, retrieve, and update common object records in all of the different orgs.Which method of integration should the application use?",
+        "A corporation has many different Salesforce orgs, with some different objects and some common objects, and wants to build an application that can create, retrieve, and update common object records in all of the different orgs. Which method of integration should the application use?",
       options: [
         "A. Metadata API",
         "B. SOAP API with the Enterprise WSDL",
@@ -751,7 +751,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following code snippet:A developer needs to built an interactive Aura component that responds to the user's input by hiding or showing sections according the user preferences.What are two best practices the developer can implement to hide or show the powerVserView and s-rar.daraVserView inner components, based on the value of the attribute isPowexUser?Choose 2 answersA)B)C)",
+        "Consider the following code snippet:A developer needs to built an interactive Aura component that responds to the user's input by hiding or showing sections according the user preferences. What are two best practices the developer can implement to hide or show the powerVserView and s-rar.daraVserView inner components, based on the value of the attribute isPowexUser? Choose 2 answersA)B)C)",
       options: ["A. Option B", "B. Option C", "C. Option A", "D. Option D"],
       answer: "A",
       title: "Question 65",
@@ -770,7 +770,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to find a way to store secret data with an ability to specify which profiles and users can access which secrets.What should be used to store this data?",
+        "A developer is asked to find a way to store secret data with an ability to specify which profiles and users can access which secrets. What should be used to store this data?",
       options: [
         "A. Static resources",
         "B. Custom metadata",
@@ -823,7 +823,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a Lightning web component to allow a Contact to be quickly entered- However, error messages are not displayed.Which component should the developer add to the form to display error messages?",
+        "A developer creates a Lightning web component to allow a Contact to be quickly entered- However, error messages are not displayed. Which component should the developer add to the form to display error messages?",
       options: [
         "A. aura:messages",
         "B. lightning-error",
@@ -847,14 +847,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once.What is the optimal code that should be added to fire the event when the search has completed?",
+        "A company has a custom component that allows users to search for records of a certain object type by invoking an Apex Controller that returns a list of results based on the user's input, when the search Is completed, a searchComplete event is fired, with the results put in a results attribute of the event. The component is designed to be used within other components and may appear on a single page more than once. What is the optimal code that should be added to fire the event when the search has completed?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "A",
       title: "Question 74",
     },
     {
       content:
-        "The Contact object in an org is configured with workflow rules that trigger field updates. The fields are not updating, even though the end user expects them to. The developer creates a debug log to troubleshoot the problem.What should the developer specify in the debug log to see the values of the workflow rule conditions and debug the problem?",
+        "The Contact object in an org is configured with workflow rules that trigger field updates. The fields are not updating, even though the end user expects them to. The developer creates a debug log to troubleshoot the problem. What should the developer specify in the debug log to see the values of the workflow rule conditions and debug the problem?",
       options: [
         "A. ERROR level for the Database log category",
         "B. INFO level for the Workflow log category",
@@ -891,14 +891,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has a custom object. Request__c. that has a field, Completed__c. and a Lookup to Opportunity, Opportunity__c.Which SOQL query will get a unique list of all of the Opportunity records that have a Completed Request?",
+        "A company has a custom object. Request__c. that has a field, Completed__c. and a Lookup to Opportunity, Opportunity__c. Which SOQL query will get a unique list of all of the Opportunity records that have a Completed Request?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "A",
       title: "Question 78",
     },
     {
       content:
-        "Universal Containers needs to integrate with their own, existing, internal custom web application. The web application accepts JSON payloads, resizes product images, and sends the resized images back to Salesforce.What should the developer use to implement this integration?",
+        "Universal Containers needs to integrate with their own, existing, internal custom web application. The web application accepts JSON payloads, resizes product images, and sends the resized images back to Salesforce. What should the developer use to implement this integration?",
       options: [
         "A. A workflow rule with an outbound message that contains a session ID",
         "B. A flow that calls an @future method that allows callouts",
@@ -910,7 +910,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a class that implement he Queueable interface, as follows:As part of the deployment process, the developer is asked to create a corresponding test class.Which two actions should the developer take to successfully execute the test class?Choose 2 answers",
+        "A developer created a class that implement he Queueable interface, as follows:As part of the deployment process, the developer is asked to create a corresponding test class. Which two actions should the developer take to successfully execute the test class? Choose 2 answers",
       options: [
         "A. Implement Test.isRunningtest ( ) to prevent chaining jobs during test execution.",
         "B. Enclose System.enqueueJob (new orderQueueable Job ( }) within Test. starttest and Test, stoptest ()",
@@ -946,7 +946,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom component to display an HTML table. The developer wants to be able to use the component on different Visualforce Pages and specify different header text for the table.Which tag should the developer use inside the component?",
+        "A developer created a custom component to display an HTML table. The developer wants to be able to use the component on different Visualforce Pages and specify different header text for the table. Which tag should the developer use inside the component?",
       options: [
         "A. <apex:attribute>",
         "B. <apex:param>",
@@ -976,7 +976,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following code snippet, depicting an Azure component:Which two interfaces can the developer implement to make the component available as a quick action?Choose 2 answers",
+        "Consider the following code snippet, depicting an Azure component:Which two interfaces can the developer implement to make the component available as a quick action? Choose 2 answers",
       options: [
         "A. Lightning QuickActionAPI",
         "B. Force:lightningQuicAction",
@@ -989,7 +989,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company has code to update a Request and Request Lines and make a callout to their external ERP system's REST endpoint with the updated records.The CalloutUtil. makeRestCallout fails with a 'You have uncommitted work pending. Please commit or rollback before calling out' error. What should be done to address the problem?",
+        "A company has code to update a Request and Request Lines and make a callout to their external ERP system's REST endpoint with the updated records. The CalloutUtil. makeRestCallout fails with a 'You have uncommitted work pending. Please commit or rollback before calling out' error. What should be done to address the problem?",
       options: [
         "A. Change the CalloutUtil.makeRestCallout to an @future method",
         "B. Move the CalloutUtil.makeRestCallout method call below the catch block.",
@@ -1038,7 +1038,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Consider the following code snippet:The Apex method is executed in an environment with a large data volume count for Accounts, and the query Is performing poorly.Which technique should the developer Implement to ensure the query performs optimally, while preserving the entire result set?",
+        "Consider the following code snippet:The Apex method is executed in an environment with a large data volume count for Accounts, and the query Is performing poorly. Which technique should the developer Implement to ensure the query performs optimally, while preserving the entire result set?",
       options: [
         "A. Annotate the method with the @Future annotation.",
         "B. Break down the query into two individual queries and Join the two result sets.",
@@ -1050,7 +1050,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to design a custom object that will be integrated into a back-end system.What should the developer do to ensure good data quality and to ensure that data imports, integrations, and searches perform well? (Choose two.)",
+        "A developer needs to design a custom object that will be integrated into a back-end system. What should the developer do to ensure good data quality and to ensure that data imports, integrations, and searches perform well? (Choose two.)",
       options: [
         "A. Configure a custom field as unique",
         "B. Configure a custom field as indexed",
@@ -1099,7 +1099,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company decides that every time an Opportunity is created, they want to create a follow up Task and assign it to the Opportunity Owner.What should a developer use to implement the requirements?",
+        "A company decides that every time an Opportunity is created, they want to create a follow up Task and assign it to the Opportunity Owner. What should a developer use to implement the requirements?",
       options: [
         "A. A trigger on Task",
         "B. A trigger on Opportunity",
@@ -1134,7 +1134,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is dosed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails.What might be causing the failed assertion?",
+        "A developer wrote a trigger on Opportunity that will update a custom Last Sold Date field on the Opportunity's Account whenever an Opportunity is dosed. In the test class for the trigger, the assertion to validate the Last Sold Date field fails. What might be causing the failed assertion?",
       options: [
         "A. The test class has not defined an Account owner when inserting the test data.",
         "B. The test class has not implemented seeAIIData-truwh the test method.",
@@ -1146,7 +1146,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating unit tests for code that makes SOAP web service callouts. The developer needs to insert some test data as a part of the unit tests setup.What are three actions to enable this functionality? (Choose three.)",
+        "A developer is creating unit tests for code that makes SOAP web service callouts. The developer needs to insert some test data as a part of the unit tests setup. What are three actions to enable this functionality? (Choose three.)",
       options: [
         "A. Surround the data insertion with Test.startTest(), Test.stopTest()",
         "B. Surround the callout with TeststartTest(), Test.stopTest()",
@@ -1184,7 +1184,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a Batch Apex process, Batch_Account_Sales, that updates the sales amount for 10,000 Accounts on a nightly basis. The Batch Apex works as designed In the sandbox. However, the developer cannot get code coverage on the Batch Apex class.The test class is below:What is causing the code coverage problem?",
+        "A developer has a Batch Apex process, Batch_Account_Sales, that updates the sales amount for 10,000 Accounts on a nightly basis. The Batch Apex works as designed In the sandbox. However, the developer cannot get code coverage on the Batch Apex class. The test class is below:What is causing the code coverage problem?",
       options: [
         "A. The account creation already sets the sates amount to 0.",
         "B. The batch needs more than one account record created.",
@@ -1267,7 +1267,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company requires an external system to be notified whenever an account is updated.What LimitException could the following code trigger?",
+        "A company requires an external system to be notified whenever an account is updated. What LimitException could the following code trigger?",
       options: [
         "A. System.LimitException: Too many future calls",
         "B. System.LimitException: Too many SOQL queries",
@@ -1291,7 +1291,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer notices the execution of all the test methods in a class takes a long time to run, due to the initial setup of ail the test data that is needed to perform the tests.What should the developer do to speed up test execution?",
+        "A developer notices the execution of all the test methods in a class takes a long time to run, due to the initial setup of ail the test data that is needed to perform the tests. What should the developer do to speed up test execution?",
       options: [
         "A. Reduce the amount of test methods in the class.",
         "B. Define a method that creates test data and annotate with @testSetup.",
@@ -1303,7 +1303,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "As part of point-to-point integration, a developer must call an external web service which, due to high demand, takes a long time to provide a response. As part of the request, the developer must collect key inputs from the end user before making the callout.Which two elements should the developer use to implement these business requirements?Choose 2 answers",
+        "As part of point-to-point integration, a developer must call an external web service which, due to high demand, takes a long time to provide a response. As part of the request, the developer must collect key inputs from the end user before making the callout. Which two elements should the developer use to implement these business requirements? Choose 2 answers",
       options: [
         "A. Screen now",
         "B. Lightning web component",
@@ -1315,7 +1315,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets.Which option has the changes to make the component responsive for mobile and tablet devices?",
+        "A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets. Which option has the changes to make the component responsive for mobile and tablet devices?",
       options: ["A. ", "B. ", "C. ", "D. "],
       answer: "A",
       title: "Question 114",
@@ -1364,7 +1364,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code snippet below:When a Lightning web component is rendered, a list of opportunity that match certain criteria should be retrieved from the database and displayed to the end-user.Which three considerations must the developer implement to make the fetchOpps method available within the Lightning web component?",
+        "Refer to the code snippet below:When a Lightning web component is rendered, a list of opportunity that match certain criteria should be retrieved from the database and displayed to the end-user. Which three considerations must the developer implement to make the fetchOpps method available within the Lightning web component?",
       options: [
         "A. The fetchOpps method cannot mutate the result set retrieved from the database.",
         "B. The fecthOpps method must be annotated with the @ AuraEnabled annotation.",
@@ -1377,7 +1377,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale.What is the most effective approach to ensure values displayed respect the user's locale settings?",
+        "In an organization that has multi-currency enabled, a developer is tasked with building a Lighting Component that displays the top ten Opportunities most recently access by the logged in user. The developer must ensure the Amount and LastModifiedDate field values are displayed according to the user's locale. What is the most effective approach to ensure values displayed respect the user's locale settings?",
       options: [
         "A. Use REGEX expressions to format the values retrieved via SOQL.",
         "B. Use the FOR VIEW clause in the SOQL Query.",
@@ -1389,7 +1389,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a page in App Builder that will be used in the Salesforce mobile app.Which two practices should the developer follow to ensure the page operates with optimal performance?Choose 2 answers",
+        "A developer is creating a page in App Builder that will be used in the Salesforce mobile app. Which two practices should the developer follow to ensure the page operates with optimal performance? Choose 2 answers",
       options: [
         "A. Limit five visible components on the page.",
         "B. Limit the number of Tabs and Accordion components.",
@@ -1469,7 +1469,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is creating a Lightning web component that can be added to a Lightning App Page and displayed when the page Is rendered in desktop and mobile phone format. To ensure a great mobile experience, the developer chooses to use the SLDS grid utility.Which two Lighting web components should the developer implement to ensure the application Is mobile-ready? Choose 2 answers",
+        "A developer is creating a Lightning web component that can be added to a Lightning App Page and displayed when the page Is rendered in desktop and mobile phone format. To ensure a great mobile experience, the developer chooses to use the SLDS grid utility. Which two Lighting web components should the developer implement to ensure the application Is mobile-ready? Choose 2 answers",
       options: [
         "A. <lightning-tree-grid></lightning-tree-grid>",
         "B. <lightning-layou></lightning-layout>",
@@ -1481,7 +1481,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wrote an Apex method to update a list of Contacts and wants to make it available for use by Lightning web components.Which annotation should the developer add to the Apex method to achieve this?",
+        "A developer wrote an Apex method to update a list of Contacts and wants to make it available for use by Lightning web components. Which annotation should the developer add to the Apex method to achieve this?",
       options: [
         "A. @RemoteAction(cacheable=true)",
         "B. @RemoteAction",
@@ -1493,7 +1493,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is building a Lightning web component that searches for Contacts and must communicate the search results to other Lightning web components when the search completes.What should the developer do to implement the communication?",
+        "A developer is building a Lightning web component that searches for Contacts and must communicate the search results to other Lightning web components when the search completes. What should the developer do to implement the communication?",
       options: [
         "A. Publish an event on an event channel.",
         "B. Fire an application event.",
@@ -1505,7 +1505,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "This sales team needs a custom Visualforce page to enter sales orders. When a product is selected on the Visualforce page, a web service is invoked to determine if the product is in stock, and the result is displayed on the page.How can a developer write this page to display the result of the web service and ensure governor limits for concurrent usage are not exceeded?",
+        "This sales team needs a custom Visualforce page to enter sales orders. When a product is selected on the Visualforce page, a web service is invoked to determine if the product is in stock, and the result is displayed on the page. How can a developer write this page to display the result of the web service and ensure governor limits for concurrent usage are not exceeded?",
       options: [
         "A. Use an Apex trigger with callout=true annotation.",
         "B. Use visualforce Remoting to handle the web service callout.",

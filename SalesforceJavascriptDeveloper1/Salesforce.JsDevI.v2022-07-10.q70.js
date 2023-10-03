@@ -17,7 +17,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has two ways to write a function:Option A:function Monster(){this.growl = ()=>{console.log('Grr!');}}Option B:function Monster(){};Monster.prototype.growl = ()=>{console.log('Grr!');}After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A and Option B?",
+        "A developer has two ways to write a function:Option A:function Monster(){this.growl = ()=>{console.log('Grr!');}}Option B:function Monster(){};Monster.prototype.growl = ()=>{console.log('Grr!');}After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A and Option B?",
       options: [
         "A. 1000 for both",
         "B. 1 for Option A, 1000 for Option B",
@@ -90,7 +90,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer implements a function that adds a few values.Function sum(num) {If (num == undefined) {Num =0;}Return function( num2, num3){If (num3 === undefined) {Num3 =0 ;}Return num + num2 + num3;}}Which three options can the developer invoke for this function to get a return value of 10 ?Choose 3 answers",
+        "A developer implements a function that adds a few values.Function sum(num) {If (num == undefined) {Num =0;}Return function( num2, num3){If (num3 === undefined) {Num3 =0 ;}Return num + num2 + num3;}}Which three options can the developer invoke for this function to get a return value of 10 ? Choose 3 answers",
       options: [
         "A. Sum () (20)",
         "B. sum(10) ()",
@@ -103,7 +103,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds.What is the correct syntax to schedule this function?",
+        "A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds. What is the correct syntax to schedule this function?",
       options: [
         "A. setTimout(() => { formatName(\"John', 'Doe') }, 5000);",
         'B. setTimeout (formatName(), 5000, "John", "BDoe");',
@@ -175,7 +175,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started having latency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround.Which command can the web developer run to see what the module is doing during the latency period?",
+        "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started having latency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround. Which command can the web developer run to see what the module is doing during the latency period?",
       options: [
         "A. DEBUG=http, https node server.js",
         "B. NODE_DEBUG=http,https node server.js",
@@ -187,7 +187,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code that imports a module named utils:import (foo, bar) from '/path/Utils.js';foo() ;bar() ;Which two implementations of Utils.js export foo and bar such that the code above runs without error?Choose 2 answers",
+        "Refer to the following code that imports a module named utils:import (foo, bar) from '/path/Utils.js';foo() ;bar() ;Which two implementations of Utils.js export foo and bar such that the code above runs without error? Choose 2 answers",
       options: [
         "A. const foo = () => { return 'foo' ; }const bar = () => { return 'bar' ; }export { bar, foo }",
         "B. Export default class {foo() { return 'foo' ; }bar() { return 'bar' ; }}",
@@ -212,7 +212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the code below:01 const exec = (item, delay) =>{02 new Promise(resolve => setTimeout( () => resolve(item), delay)),03 async function runParallel() {04 Const (result1, result2, result3) = await Promise.all{05 [exec ('x', '100') , exec('y', 500), exec('z', '100')]06 );07 return `parallel is done: $(result1) $(result2)$(result3)`;08 }}}Which two statements correctly execute the runParallel () function?Choose 2 answers",
+        "Refer to the code below:01 const exec = (item, delay) =>{02 new Promise(resolve => setTimeout( () => resolve(item), delay)),03 async function runParallel() {04 Const (result1, result2, result3) = await Promise.all{05 [exec ('x', '100') , exec('y', 500), exec('z', '100')]06 );07 return `parallel is done: $(result1) $(result2)$(result3)`;08 }}}Which two statements correctly execute the runParallel () function? Choose 2 answers",
       options: [
         "A. runParallel ( ). done(function(data){return data;});",
         "B. runParallel () .then(function(data)return data",
@@ -224,7 +224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "developer is trying to convince management that their team will benefit from using Node.js for a backend server that they are going to create. The server will be a web server that handles API requests from a website that the team has already built using HTML, CSS, and JavaScript.Which three benefits of Node.js can the developer use to persuade their manager?Choose 3 answers:",
+        "developer is trying to convince management that their team will benefit from using Node.js for a backend server that they are going to create. The server will be a web server that handles API requests from a website that the team has already built using HTML, CSS, and JavaScript. Which three benefits of Node.js can the developer use to persuade their manager? Choose 3 answers:",
       options: [
         "A. Executes server-side JavaScript code to avoid learning a new language.",
         "B. Performs a static analysis on code before execution to look for runtime errors.",
@@ -237,7 +237,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates an object where its properties should be immutable and prevent properties from being added or modified.Which method should be used to execute this business requirement ?",
+        "A developer creates an object where its properties should be immutable and prevent properties from being added or modified. Which method should be used to execute this business requirement ?",
       options: [
         "A. Object.freeze()",
         "B. Object.lock()",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following code:Let sampleText = 'The quick brown fox jumps';A developer needs to determine if a certain substring is part of a string.Which three expressions return true for the given substring ?Choose 3 answers",
+        "Refer to the following code:Let sampleText = 'The quick brown fox jumps';A developer needs to determine if a certain substring is part of a string. Which three expressions return true for the given substring ? Choose 3 answers",
       options: [
         "A. sampleText.includes(' quick ') !== -1;",
         "B. sampleText.includes('fox');",
@@ -297,7 +297,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects.How many growl methods are created with Option A Option B?',
+        'A developer has two ways to write a function:Option A:function Monster() {This.growl = () => {Console.log ("Grr!");}}Option B:function Monster() {};Monster.prototype.growl =() => {console.log("Grr!");}After deciding on an option, the developer creates 1000 monster objects. How many growl methods are created with Option A Option B?',
       options: [
         "A. 1 growl method is created for Option A. 1000 growl methods are created for Option B.",
         "B. 1000 growl method is created for Option A. 1 growl methods are created for Option B.",
@@ -309,7 +309,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following array of student test grades:Let arr = [ 7, 8, 5, 8, 9 ];The Teacher wants to double each score and then see an array of the students who scored more than 15 points.How should the developer implement the request?",
+        "A developer has the following array of student test grades:Let arr = [ 7, 8, 5, 8, 9 ];The Teacher wants to double each score and then see an array of the students who scored more than 15 points. How should the developer implement the request?",
       options: [
         "A. Let arr1 = arr.map((num) => num*2). Filter (( val) => val > 15);",
         "B. Let arr1 = arr.map((num) => ( num *2)).filterBy((val) => ( val >15 ));",
@@ -345,7 +345,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer writes the code below to return a message to a user attempting to register a new username. If the username is available, a variable named nag is declared and assigned a value on line 03.What is the value of msg when getAvailableabilityMessage ("newUserName") is executed and get Availability ("newUserName") returns true?',
+        'A developer writes the code below to return a message to a user attempting to register a new username. If the username is available, a variable named nag is declared and assigned a value on line 03. What is the value of msg when getAvailableabilityMessage ("newUserName") is executed and get Availability ("newUserName") returns true?',
       options: [
         'A. "User-name available"',
         "B. undefined",
@@ -364,7 +364,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "myArraym can have one level, two levels, or more levels.Which statement flattens myArray when it can be arbitrarily nested?",
+        "myArraym can have one level, two levels, or more levels. Which statement flattens myArray when it can be arbitrarily nested?",
       options: [
         "A. myArray.flat(Infinity);",
         "B. [ ] .concat {. . .myArray) ;",
@@ -407,7 +407,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is leading the creation of a new browser application that will serve a single page application. The team wants to use a new web framework Minimalsit.js. The Lead developer wants to advocate for a more seasoned web framework that already has a community around it.Which two frameworks should the lead developer advocate for?Choose 2 answers",
+        "A developer is leading the creation of a new browser application that will serve a single page application. The team wants to use a new web framework Minimalsit.js. The Lead developer wants to advocate for a more seasoned web framework that already has a community around it. Which two frameworks should the lead developer advocate for? Choose 2 answers",
       options: ["A. Angular", "B. Koa", "C. Vue", "D. Express"],
       answer: "A,D",
       title: "Question 38",
@@ -531,7 +531,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer at Universal Containers is creating their new landing page based on HTML, CSS, and JavaScript. The website includes multiple external resources that are loaded when the page is opened.To ensure that visitors have a good experience, a script named personalizeWebsiteContent needs to be executed when the webpage Is loaded and there Is no need to wait for the resources to be available.Which statement should be used to call personalizeWebsiteContent based on the above business requirement?",
+        "A developer at Universal Containers is creating their new landing page based on HTML, CSS, and JavaScript. The website includes multiple external resources that are loaded when the page is opened.To ensure that visitors have a good experience, a script named personalizeWebsiteContent needs to be executed when the webpage Is loaded and there Is no need to wait for the resources to be available. Which statement should be used to call personalizeWebsiteContent based on the above business requirement?",
       options: [
         "A. windows,addEventListener('load', personalizeWebsiteContent);",
         "B. windows,addEventListener('DOMContent Loaded ', personalizeWebsiteContent);",
@@ -543,7 +543,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three browser specific APIs are available for developers to persist data between page loads ?Choose 3 answers",
+        "Which three browser specific APIs are available for developers to persist data between page loads ? Choose 3 answers",
       options: [
         "A. Global variables",
         "B. Cookies",
@@ -582,7 +582,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions can be using the JavaScript browser console?Choose 3 answers:",
+        "Which three actions can be using the JavaScript browser console? Choose 3 answers:",
       options: [
         "A. Run code that is not related to page.",
         "B. view , change, and debug the JavaScript code of the page.",
@@ -607,7 +607,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to code below:Let productSKU = '8675309' ;A developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with 'sku', and padded with zeros.Which statement assigns the values sku0000000008675309 ?",
+        "Refer to code below:Let productSKU = '8675309' ;A developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with 'sku', and padded with zeros. Which statement assigns the values sku0000000008675309 ?",
       options: [
         "A. productSKU = productSKU .padStart (19. '0').padstart('sku');",
         "B. productSKU = productSKU .padEnd (16. '0').padstart(19, 'sku');",
@@ -619,7 +619,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three actions can be using the JavaScript browser console?Choose 3 answers:",
+        "Which three actions can be using the JavaScript browser console? Choose 3 answers:",
       options: [
         "A. Run code that is not related to page.",
         "B. view , change, and debug the JavaScript code of the page.",
@@ -639,7 +639,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the following object.How can a developer access the fullName property for dog?",
+        "Refer to the following object. How can a developer access the fullName property for dog?",
       options: [
         "A. Dog.fullName ( )",
         "B. Dog, get, fullName",
@@ -651,7 +651,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A team that works on a big project uses npm to deal with projects dependencies.A developer added a dependency does not get downloaded when they execute npm install.Which two reasons could be possible explanations for this?Choose 2 answers",
+        "A team that works on a big project uses npm to deal with projects dependencies.A developer added a dependency does not get downloaded when they execute npm install. Which two reasons could be possible explanations for this? Choose 2 answers",
       options: [
         "A. The developer added the dependency as a dev dependency, and NODE_ENV is set to production.",
         "B. The developer missed the option --add when adding the dependency.",

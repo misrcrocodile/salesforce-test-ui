@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled.The code segment below executes.What is the result'",
+        "There are three logging categories: category1, category1.eu, and category1.us.In Business Manager, category1 is enabled for WARN level and no other categories are configured. All custom log targets are enabled. The code segment below executes. What is the result'",
       options: [
         "A. Logs will not be written.",
         "B. Logs will be written to the log file with a prefix custom-loggerFile.",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront.The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site.Which modification should be made to the new cartridge path?",
+        "A Digital Developer is working on a multi-site realm. A new site requires a different layout for the account landing page. The business logic and data model remain the same. The existing code is in AccountControl.js and accountlanding.isml in the app_storefront cartridge. The app_storefront cartridge contains code for all other business functions. The cartridge path for the new site is currently int_cybersource:int_paypal:app_storefront. The Developer creates a new cartridge named app_newsite that contains only the accountlanding.isml template for the new site. Which modification should be made to the new cartridge path?",
       options: [
         "A. Set the cartridge path to include only app_newsite.",
         "B. Set the cartridge path so that app_newsite is before app_storefront.",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible.Which two courses of action might solve the problem? Choose 2 answers",
+        "In Log Center, a developer notes a number of Cross Site Request Forgery (CSRF) log entries. The developer knows that this happens when a CSRF token is either not found or is invalid, and is working to remedy the situation as soon as possible. Which two courses of action might solve the problem? Choose 2 answers",
       options: [
         "A. Add the token in the ISML template.",
         "B. Extend the CSRF token validity to avoid timeouts.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is given a task to implement a new Page Designer layout component that doesn't accept certain asset components.How should the developer achieve the above task?",
+        "A developer is given a task to implement a new Page Designer layout component that doesn't accept certain asset components. How should the developer achieve the above task?",
       options: [
         "A. Add layout_type_exclusion in the other asset components json configuration.",
         "B. Add component_type_Exclusions in the layout json configuration",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has identified that the code segment below is causing performance problems.What should the Developer do to improve the code?",
+        "A Digital Developer has identified that the code segment below is causing performance problems. What should the Developer do to improve the code?",
       options: [
         "A. Avoid using an Iterator and use a Collection instead.",
         "B. Use a system attribute instead of the isOnSaleFlag custom attribute.",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to use an external application to manage their stores information (such as opening hours, and so on), and see their changes in their B2C Commerce Staging instance aas son as they are saved.What is the appropriate technique the developer should perform to allow the merchant to create a new store in this scenario?",
+        "A developer wants to use an external application to manage their stores information (such as opening hours, and so on), and see their changes in their B2C Commerce Staging instance aas son as they are saved. What is the appropriate technique the developer should perform to allow the merchant to create a new store in this scenario?",
       options: [
         "A. A POST request to the Stores Data OCAPI.",
         "B. A PUT request to the Stores Data OCAPI.",
@@ -118,7 +118,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has asked their development team to add a new site.Which two tasks are essential for correct site configuration prior to launch?Choose 2 answers",
+        "A merchant has asked their development team to add a new site. Which two tasks are essential for correct site configuration prior to launch? Choose 2 answers",
       options: [
         "A. Assign a default payment method.",
         "B. Assign a default currency.",
@@ -131,7 +131,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible.What are two possible reasons?",
+        "The developer created a new Storefront category in storefront-catalog-m-en, but when viewing the Storefront site, the category is not visible. What are two possible reasons?",
       options: [
         "A. The Storefront catalog is offline",
         "B. The category is offline.",
@@ -143,7 +143,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand.What does the developer need to do next to fulfill this requirement?",
+        "A merchant has a requirement to sell a combination of four existing products with a unique product ID.This collection will be known as 'Our Top Combo', and is base don the merchant's trading information that shows this combination to be in high demand. What does the developer need to do next to fulfill this requirement?",
       options: [
         "A. Create a Product Set called 'Our Top Combo' and add the products into the set.",
         "B. Create a unique produce to called 'Our Top Combo' and add the four products into the Product Bundles tab.",
@@ -167,7 +167,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class.Which callback method is required only when invoking a SOAP service?",
+        "A developer uses the call() instance method of dw.svc.Service to invoke a web service and implemented the callback methods defined by the dw.avc.ServiceCaliback class. Which callback method is required only when invoking a SOAP service?",
       options: [
         "A. createRequeat",
         "B. parseResponse",
@@ -179,7 +179,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has reported that customers are seeing low stock items at the top of their search results, giving them a subpar customer experience and impacting conversion.How might this issue be resolved to ensure a better customer journey?",
+        "A merchant has reported that customers are seeing low stock items at the top of their search results, giving them a subpar customer experience and impacting conversion. How might this issue be resolved to ensure a better customer journey?",
       options: [
         "A. In Business Manager, set an availability low ranking threshold in Search Preferences.",
         "B. In Business Manager, select Show Orderable Products Only at the root level to hide any products that are currently out of stock.",
@@ -191,7 +191,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant has complained to the developers that some products are not appearing in the storefront and has asked them to diagnose and solve the issue.Which two factors might be causing a product to be hidden?Choose 2 answers",
+        "A merchant has complained to the developers that some products are not appearing in the storefront and has asked them to diagnose and solve the issue. Which two factors might be causing a product to be hidden? Choose 2 answers",
       options: [
         "A. Product Available to sell is <1.",
         "B. Product lacks a price.",
@@ -211,7 +211,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer suspects a logical error in a script.Which action will help locate the error?",
+        "A Digital Developer suspects a logical error in a script. Which action will help locate the error?",
       options: [
         "A. Print all values in the script node called before the current script.",
         "B. Check request logs for evidence of the logical error.",
@@ -223,7 +223,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift ítem by an attribute at the product line ítem.The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
+        "Given the customer basket described below:* A customer has an existing basket that consists of multiple items.* One of the items is identified as a gift ítem by an attribute at the product line ítem. The developer needs to write custom code to fetch the customer basket and then modify the basket based upon the items in the cart. If the basket contains any gift items, modify the basket and create a separate shipment for the gift item.Four hooks are required to make the modification, beginning with modifyGETRespone and ending with validatebasket.* Dw.ocapi.shop.basket.modifyGETResponse* -- missing hook -* -- missing hook --* dw.ocapi.shop.basket.validateBasketWhat are the two missing hooks in the middle?",
       options: [
         "A. dw.ocapi.shop.basket.shipment.afterDELETE",
         "B. dw.ocapi.shop.basket.shipment.beforePATCH",
@@ -235,7 +235,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has created a new PaymentForm controller that requires communication with the server and must be made using the HTTPS protocol.Which code sample should the Developer use to make sure that HTTPS is used?",
+        "A Digital Developer has created a new PaymentForm controller that requires communication with the server and must be made using the HTTPS protocol. Which code sample should the Developer use to make sure that HTTPS is used?",
       options: [
         "A. exports.PaymentForm = guard.ensure(['http', 'post', 'loggedIn'], handlePaymentForm);",
         "B. exports.PaymentForm = guard.expose(['post', 'loggedIn'], handlePaymentForm);",
@@ -272,7 +272,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file.How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
+        "Universal Containers specifies a new category hierarchy for navigating the digital commerce storefront. A Digital Developer uses Business Manager to manually create a catalog with the specified category hierarchy, then uses the Products & Catalogs > Import & Export module to export the catalog as a file. How can other Developers with sandboxes on the same realm create the same catalog in their own sandboxes?",
       options: [
         "A. Use Business Manager to upload and import a copy of the export file obtained from the original Developer.",
         "B. Use the remote upload capability of the Site Import & Export module of Business Manager.",
@@ -284,7 +284,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out.The following processing code is found in the Cart.js controller file:What should the Developer verify to identify the issue?",
+        "Universal Containers recently completed updates to their storefront shopping cart page. A problem has been discovered since the update. Users are no longer able to submit coupon codes on this page. Additionally, authenticated users who try to add a coupon are logged out. The following processing code is found in the Cart.js controller file:What should the Developer verify to identify the issue?",
       options: [
         "A. The CSRF cartridge is included in the site's cartridge path.",
         "B. The CSRF settings in Business Manager are properly configured.",
@@ -296,7 +296,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts.What does the Developer need to change in Business Manager to fulfill this requirement?',
+        'A Digital Developer has a new requirement to disable the "Discover" credit card type for all checkouts. What does the Developer need to change in Business Manager to fulfill this requirement?',
       options: [
         "A. Checkout exclusion rules in the Merchant Tools > Site Preferences > Checkout Preferences module.",
         "B. Credit card exclusion rules in the Merchant Tools > Site Preferences > Payment Preferences module.",
@@ -332,7 +332,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two items are appropriate content of custom logs implemented at checkout?Choose 2 answers:",
+        "Which two items are appropriate content of custom logs implemented at checkout? Choose 2 answers:",
       options: [
         "A. Payment gateway service response code",
         "B. Customer's password at post-checkout sign up",
@@ -356,7 +356,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to change a content slot that is currently configured to display a content asset. Now they want the slot to display the top five selling boxes for the week.Which two changes need to be made for this to occur? (Choose two.)",
+        "Universal Containers wants to change a content slot that is currently configured to display a content asset. Now they want the slot to display the top five selling boxes for the week. Which two changes need to be made for this to occur? (Choose two.)",
       options: [
         "A. Delete the existing content asset.",
         "B. Change the slot's configuration template to the appropriate rendering template.",
@@ -368,7 +368,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to give customers the ability to refine product search results by a product custom attribute, weightCapacity.Which series of steps should a Digital Developer take to show this refinement on the storefront?",
+        "Universal Containers wants to give customers the ability to refine product search results by a product custom attribute, weightCapacity. Which series of steps should a Digital Developer take to show this refinement on the storefront?",
       options: [
         "A. Define a sorting rule for weightCapacity, then rebuild the product search index.",
         "B. Define a search refinement for weightCapacity, then rebuild the product search index.",
@@ -380,7 +380,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items.How can a developer use Business Manager to ensure that the gift vouchers are always available?",
+        "A merchant wants customers to be able to order gift vouchers via their site. Since they can issue an unlimited number of these digital vouchers, this item should be available to sell at all items. How can a developer use Business Manager to ensure that the gift vouchers are always available?",
       options: [
         "A. Check the perpetual flag in the product inventory record",
         "B. Check the Available to Sell (ATS) flag dor the producto set",
@@ -392,7 +392,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client that sells to multiple countries in Europe needs to disable Apple Pay for Denmark.Which Business Manager module is used to achieve this requirement?",
+        "A client that sells to multiple countries in Europe needs to disable Apple Pay for Denmark. Which Business Manager module is used to achieve this requirement?",
       options: [
         "A. Payment Methods",
         "B. Payment Processors",
@@ -404,14 +404,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has been given a specification to integrate with a REST API for retrieving weather conditions. The service expects parameters to be form encoded.Which service type should the Developer register?",
+        "A Digital Developer has been given a specification to integrate with a REST API for retrieving weather conditions. The service expects parameters to be form encoded. Which service type should the Developer register?",
       options: ["A. FTP", "B. HTTP Form", "C. WebDAV", "D. SOAP"],
       answer: "B",
       title: "Question 34",
     },
     {
       content:
-        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory.Which action potentially solves this problem?",
+        "A Digital Developer noticed that cartridges in their workspace are NOT executing. The Developer confirms that the cartridges are uploaded to the B2C Commerce server connection's target version directory. Which action potentially solves this problem?",
       options: [
         "A. Set the active code version to use the latest compatibility mode.",
         "B. Remove invalid characters from the code version's name.",
@@ -423,7 +423,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting.Which approach should the Developer use to implement the requirement?",
+        "A Digital Developer has been given a requirement to add fault tolerance to an existing web service integration that uses Service Framework. Administrators at Universal Containers need to be able to configure the timeout and rate limiting. Which approach should the Developer use to implement the requirement?",
       options: [
         "A. Implement a condition that checks to see if the response was empty and execute fallback code if true.",
         "B. Use the setTimeout method to execute fallback code if the request has NOT completed.",
@@ -435,7 +435,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is tasked with implementing the necessary code for a new Page Designer component.What are the two purposes of the JSON metadata definition file that the developer creates7 Choose 2 answers",
+        "A developer is tasked with implementing the necessary code for a new Page Designer component. What are the two purposes of the JSON metadata definition file that the developer creates7 Choose 2 answers",
       options: [
         "A. Defines the attributes that a merchant enters when using the component type.",
         "B. Defines regions within the component type.",
@@ -447,7 +447,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must configure permissions for an Open Commerce API resource on a sandbox instance that currently does not have any permissions configured.Which two configuration properties are required to enable Access to the resource?Choose 2 answers",
+        "A developer must configure permissions for an Open Commerce API resource on a sandbox instance that currently does not have any permissions configured. Which two configuration properties are required to enable Access to the resource? Choose 2 answers",
       options: [
         "A. Client_id",
         "B. Resource_id",
@@ -459,7 +459,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations should be done in a controller?Choose 3 answers",
+        "Which three operations should be done in a controller? Choose 3 answers",
       options: [
         "A. Generate the response as JSON or HTML",
         "B. Use the Script API to generate data for the view.",
@@ -472,7 +472,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools.How should the developer follow SFRA best practices to expose this data for rendering?",
+        "A client wants to differentiate their monobrand stores with a special icon when shown in the store locator. The information is saved in a true/false custom attribute for each Store object in Merchant tools. How should the developer follow SFRA best practices to expose this data for rendering?",
       options: [
         "A. Ad dan <isscript> to the template, and call StoreMgr.searchStoresByCoordinates();",
         "B. Pass the Store system object to the template, so that custom propierties are available",
@@ -484,7 +484,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three configuration does a developer need to ensure to have a new product visible in the Storefront?Choose 3 answers",
+        "Which three configuration does a developer need to ensure to have a new product visible in the Storefront? Choose 3 answers",
       options: [
         "A. The search index is built.",
         "B. The product has a master product",
@@ -497,7 +497,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer wants to selectively retrieve products and process them from an iPhone.Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
+        "A Digital Developer wants to selectively retrieve products and process them from an iPhone. Which action should the Developer take, given that JavaScript controllers CANNOT be used?",
       options: [
         "A. Create a webservice to retrieve products.",
         "B. Use OCAPI and invoke it in native language.",
@@ -509,7 +509,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The following sample code is NOT providing the desired results. The Digital Developer needs to add an entry to the logs to debug the problem.Which statement correctly adds a log entry?",
+        "The following sample code is NOT providing the desired results. The Digital Developer needs to add an entry to the logs to debug the problem. Which statement correctly adds a log entry?",
       options: [
         "A. Logger.fault('Unable to find Apple Pay payment instrument for order.'+paymentInstruments);",
         "B. Logger.exception('Unable to find Apple Pay payment instrument for order.'+paymentInstruments);",
@@ -521,7 +521,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written.What must be done in order to use the debugger with the new controller when it is written?",
+        "A Digital Developer is working on a project to convert a pipeline to a JavaScript controller. UX Studio has a functioning pipeline debugger configured for the site. Assume the Developer will add a breakpoint to the controller when it is written. What must be done in order to use the debugger with the new controller when it is written?",
       options: [
         "A. Create and use a new script debug configuration.",
         "B. Create and use a new controller debug configuration.",
@@ -545,7 +545,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Recent code changes to an existing cartridge do not appear correctly on a Storefront. The developer confirms that the code is uploaded in the IDE and ensures that the cartridge is associated with the sandbox.Which two additional steps should the developer take to troubleshoot this problem?Choose 2 answers",
+        "Recent code changes to an existing cartridge do not appear correctly on a Storefront. The developer confirms that the code is uploaded in the IDE and ensures that the cartridge is associated with the sandbox. Which two additional steps should the developer take to troubleshoot this problem? Choose 2 answers",
       options: [
         "A. Check the Storefront site cartridge path.",
         "B. Check that the search index was recently rebuilt.",
@@ -557,7 +557,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded.What action should the Developer take to stop the quota violation?",
+        "A Digital Developer has detected storefront pages being rendered with an error message. After inspecting the log files, the Developer discovered that an enforced quota is being exceeded. What action should the Developer take to stop the quota violation?",
       options: [
         "A. Rewrite the code that is causing the overage.",
         "B. Change the Business Manager configuration for the quota settings.",
@@ -569,7 +569,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers needs to have Apple Pay disabled for the country of Spain.Which Business Manager module should the Developer use to meet this requirement?",
+        "Universal Containers needs to have Apple Pay disabled for the country of Spain. Which Business Manager module should the Developer use to meet this requirement?",
       options: [
         "A. Merchant Tools > Ordering > Payment Methods",
         "B. Merchant Tools > Site Preferences > Apple Pay",
@@ -605,7 +605,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A client has a requirement to render different content on the homepage based on if the customer is logged in or guest user.What should a developer implement to achieve this requirement?",
+        "A client has a requirement to render different content on the homepage based on if the customer is logged in or guest user. What should a developer implement to achieve this requirement?",
       options: [
         "A. Write specific custom code in the Content Asset for a customer that is a registered, versus unregistered, user.",
         "B. Set the Content Asset configuration for a customer that is a registered, versus unregistered, user.",
@@ -617,7 +617,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Digital Developer has a site export file on their computer that needs to be imported into their sandbox.How should the developer update their sandbox with the data in this file?",
+        "A Digital Developer has a site export file on their computer that needs to be imported into their sandbox. How should the developer update their sandbox with the data in this file?",
       options: [
         "A. Upload the file to the Impex WebDAV directory and import using the Site Import tool within UX Studio.",
         "B. Upload the file to the Static WebDAV directory and import using the Import & Export Business Manager module.",

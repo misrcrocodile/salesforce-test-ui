@@ -162,7 +162,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Private Sharing Model for the Opportunity object. Sales Rep A at Universal Containers created the Opportunity record and then transferred ownership of the Opportunity record to Sales Rep B.\n       Both Sales Rep A and B have the same role in the Role Hierarchy.What access will Sales Rep A have to the Opportunity after the transfer?",
+        "Universal Containers has a Private Sharing Model for the Opportunity object. Sales Rep A at Universal Containers created the Opportunity record and then transferred ownership of the Opportunity record to Sales Rep B.\n       Both Sales Rep A and B have the same role in the Role Hierarchy. What access will Sales Rep A have to the Opportunity after the transfer?",
       options: [
         "A. Read Only.",
         "B. No Access.",
@@ -435,7 +435,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a custom object to maintain Job information with a private sharing model. The Delivery group is distributed through the Role Hierarchy based on geography. As the Delivery group often collaborates on Jobs, all users in the Delivery profile required View access to all Job records. In special case, the Delivery user who owns a job must be able to grant a Product Development user access to a Job record.Which two platform features can be used to support these requirements?\n       Choose 2 answers",
+        "Universal Containers has a custom object to maintain Job information with a private sharing model. The Delivery group is distributed through the Role Hierarchy based on geography. As the Delivery group often collaborates on Jobs, all users in the Delivery profile required View access to all Job records. In special case, the Delivery user who owns a job must be able to grant a Product Development user access to a Job record. Which two platform features can be used to support these requirements?\n       Choose 2 answers",
       options: [
         "A. Criteria-based Sharing Rules",
         "B. Manual Sharing",
@@ -495,7 +495,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has developed Apex code to manually create AccountShare records to grant specific users access to individual Accounts.What must the Architect do to ensure the AccountShare records are not deleted when the owner of the Account is changed?",
+        "Universal Containers has developed Apex code to manually create AccountShare records to grant specific users access to individual Accounts. What must the Architect do to ensure the AccountShare records are not deleted when the owner of the Account is changed?",
       options: [
         'A. Create the share records in a class with the "Without Sharing" keyword.',
         "B. Create the share records with the Delete on Owner Change field set to false.",

@@ -17,7 +17,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "administrator at Northern Trail Outfitters is unable to add a new user in Salesforce.What could cause this issue?",
+        "administrator at Northern Trail Outfitters is unable to add a new user in Salesforce. What could cause this issue?",
       options: [
         "A. The email address used for the username has a contact record.",
         "B. The username is restricted to a domain specific to my domain.",
@@ -43,7 +43,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major is onboarding 15 new employees in three weeks.The Administrator needs to create user records in Salesforce without activating them.Which two methods allow the Administrator to achieve this goal? (Choose two.)",
+        "Ursa Major is onboarding 15 new employees in three weeks. The Administrator needs to create user records in Salesforce without activating them. Which two methods allow the Administrator to achieve this goal? (Choose two.)",
       options: [
         "A. Create them with the User Import Wizard and ensure that Active is unchecked.",
         "B. Click Add Multiple Users and ensure that Generate New Password and Notify User Immediately are unchecked.",
@@ -55,7 +55,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar has selected report folders that are shared with a small group of users who are on Lightning Experience. The administrator needs to prevent these users from customizing the information in the reports.What should the administrator do to achieve this goal?",
+        "Ursa Major Solar has selected report folders that are shared with a small group of users who are on Lightning Experience. The administrator needs to prevent these users from customizing the information in the reports. What should the administrator do to achieve this goal?",
       options: [
         "A. Utilize Custom Report Types.",
         "B. Change Field Level Security.",
@@ -67,7 +67,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers would like their sales reps to be able to send branded email invitations to customers for business meetings and to collaborate with customers from a branded Website to find a suitable meeting time.How can an Administrator accomplish this?",
+        "Universal Containers would like their sales reps to be able to send branded email invitations to customers for business meetings and to collaborate with customers from a branded Website to find a suitable meeting time. How can an Administrator accomplish this?",
       options: [
         "A. Enable Chatter to allow reps to Communicate with customers",
         "B. Create a custom email template for invitations that displays your compant logo",
@@ -86,7 +86,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has enabled Data Protection and Privacy for its org.Which page layouts will have the Individual field available for tracking data privacy information?",
+        "Universal Containers has enabled Data Protection and Privacy for its org. Which page layouts will have the Individual field available for tracking data privacy information?",
       options: [
         "A. Contact, Lead, and Person Account",
         "B. Individual, User, and Account",
@@ -150,7 +150,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find the deal records via a search.What options should the administrator adjust to fully restrict access?",
+        "Universal Container wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find the deal records via a search. What options should the administrator adjust to fully restrict access?",
       options: [
         "A. Permissions and tab visibility",
         "B. Page layouts and field- level security",
@@ -174,7 +174,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage.Which three options should the administrator use to address this need?Choose Three answers",
+        "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need? Choose Three answers",
       options: [
         "A. Enable guided selling.",
         "B. Configure Opportunity Path.",
@@ -199,7 +199,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Aw Computing wants Account Details, related list and chatter feeds to each appear on separate tabs when reviewing an account.Which type of page should the administrator create?",
+        "The administrator at Aw Computing wants Account Details, related list and chatter feeds to each appear on separate tabs when reviewing an account. Which type of page should the administrator create?",
       options: [
         "A. Lightning page Tab.",
         "B. Lightning record page.",
@@ -218,7 +218,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator has been asked to change the data type of an auto number to text field.What should the administrator be aware of before changing the field?",
+        "An administrator has been asked to change the data type of an auto number to text field. What should the administrator be aware of before changing the field?",
       options: [
         "A. Existing field values will remain unchanged.",
         "B. Existing field values will be deleted.",
@@ -251,7 +251,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Ursa Major Solar is experiencing quality assurance issues with a product line. An administrator needs to use a standard object to track the extent of the problem.Which standard object should be used"3',
+        'Ursa Major Solar is experiencing quality assurance issues with a product line. An administrator needs to use a standard object to track the extent of the problem. Which standard object should be used"3',
       options: ["A. Case", "B. Opportunity", "C. Product", "D. Account"],
       answer: "B",
       title: "Question 25",
@@ -291,7 +291,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two capabilities are considerations when marking a field as required In Object Manager?Choose 2 answers",
+        "Which two capabilities are considerations when marking a field as required In Object Manager? Choose 2 answers",
       options: [
         "A. The field Is optional when saving records via web-to-lead and web-to-case.",
         "B. The field Is not required to save records via the API onthat object.",
@@ -322,7 +322,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to is identify these new records from existing Leads.What approach should an administrator take to meet this requirement?",
+        "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to is identify these new records from existing Leads. What approach should an administrator take to meet this requirement?",
       options: [
         "A. Define a record type and assign it to the interns.",
         "B. Create a separate Lead Lightning App.",
@@ -378,7 +378,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to increase the security of their org by requiring stricter user passwords.Which two of the following should an administrator configure?Choose 2 answers",
+        "Universal Containers wants to increase the security of their org by requiring stricter user passwords. Which two of the following should an administrator configure? Choose 2 answers",
       options: [
         "A. Password different than username",
         "B. Minimum password length",
@@ -476,7 +476,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has two sales groups. Each group has its own unique sales process.How can an administrator ensure that sales representatives have access to only the stages relevant to their sales process when working on opportunities?",
+        "Universal Containers has two sales groups. Each group has its own unique sales process. How can an administrator ensure that sales representatives have access to only the stages relevant to their sales process when working on opportunities?",
       options: [
         "A. Multi-select picklists",
         "B. Page layouts",
@@ -580,7 +580,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Administrator needs to configure Ursa Major Solar's Salesforce Mobile app with the company's brand- specific images and color schemes.Which set of branding options should the Administrator use?",
+        "An Administrator needs to configure Ursa Major Solar's Salesforce Mobile app with the company's brand- specific images and color schemes. Which set of branding options should the Administrator use?",
       options: [
         "A. Individual Page Colors, Multiple Loading Page Logos",
         "B. Loading Page Color, Action Colors, Loading Page Logo",
@@ -604,7 +604,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The sales operations team ta Universal Containers purchase a list of shipping companies they would like to be imported into the Salesforce org ... import Wizard. Some companies on the list may already be customers.Which fields should administrator use to prevent duplicates when importing these Account records?",
+        "The sales operations team ta Universal Containers purchase a list of shipping companies they would like to be imported into the Salesforce org ... import Wizard. Some companies on the list may already be customers. Which fields should administrator use to prevent duplicates when importing these Account records?",
       options: [
         "A. Account name and Account Site.",
         "B. Account name and Created Date.",
@@ -634,7 +634,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty uses Content to store files for Marketing collateral. The Marketing VP wants the Collateral_ID__c to be required and for the ID to contain a minimum of ten characters.What should an administrator suggest to meet these requirements?",
+        "DreamHouse Realty uses Content to store files for Marketing collateral. The Marketing VP wants the Collateral_ID__c to be required and for the ID to contain a minimum of ten characters. What should an administrator suggest to meet these requirements?",
       options: [
         "A. Validation Rules",
         "B. Workflow Rules",
@@ -646,7 +646,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two solutions could an administrator find on the AppExchange to enhance their organization?Choose 2 answers",
+        "Which two solutions could an administrator find on the AppExchange to enhance their organization? Choose 2 answers",
       options: [
         "A. Consultants",
         "B. Customers",
@@ -679,7 +679,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar has the following environment and requirements:* Critical, high-priority accounts have an assigned District Manager, Sales Representative, Inside Sales Representative, and Customer Service Representative.* The Sales Manager wants to prevent these accounts from being inadvertently contacted more than once on the same day.* The Sales Manager wants to report on various customer interactions.How should the administrator fulfill these requirements7",
+        "Ursa Major Solar has the following environment and requirements:* Critical, high-priority accounts have an assigned District Manager, Sales Representative, Inside Sales Representative, and Customer Service Representative.* The Sales Manager wants to prevent these accounts from being inadvertently contacted more than once on the same day.* The Sales Manager wants to report on various customer interactions. How should the administrator fulfill these requirements7",
       options: [
         "A. Log a separate task, call, or activity on the account.",
         "B. Enter comments into the notes section on the account.",
@@ -691,7 +691,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product.What should an administrator do to satisfy this requirement?",
+        "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?",
       options: [
         "A. Create a user-based sharing rule and an ad-hoc case team.",
         "B. Create a queue and a criteria-based sharing rule.",
@@ -715,7 +715,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Customer is set to true, the first screen is skipped and the user is directed to the second screen.How should the administrator configure the decision element?",
+        "Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Customer is set to true, the first screen is skipped and the user is directed to the second screen. How should the administrator configure the decision element?",
       options: [
         "A. Use the contains operator and {!$GlobalConstant.False} as the value.",
         'B. Use the equals operator and "High Value Customer" as the value.',
@@ -733,7 +733,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator is on a tight deadline to create dashboards for the sales and marketing teams at AW Computing.What should the administrator do to meet the deadline without increasing the budget?",
+        "An administrator is on a tight deadline to create dashboards for the sales and marketing teams at AW Computing. What should the administrator do to meet the deadline without increasing the budget?",
       options: [
         "A. Train someone on the sales and marketing teams to build dashboards,",
         "B. Hire a consultant to build the custom dashboards.",
@@ -811,7 +811,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar's administrator created a new account record type, but when marketing users are creating new account records, they are unable to choose the new record type.What are two potential causes of this issue? (Choose two.)",
+        "Ursa Major Solar's administrator created a new account record type, but when marketing users are creating new account records, they are unable to choose the new record type. What are two potential causes of this issue? (Choose two.)",
       options: [
         "A. The record type is disassociated from the page layout.",
         "B. The record type is disabled on the marketing user profile.",
@@ -864,7 +864,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to know the average stage duration for all closed opportunities.How should an administrator support this request?",
+        "Northern Trail Outfitters wants to know the average stage duration for all closed opportunities. How should an administrator support this request?",
       options: [
         "A. Refresh weekly reporting shapshots for Closed Opportunities.",
         "B. Run the Opportunity Stage Duration report.",

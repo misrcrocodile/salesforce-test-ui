@@ -77,7 +77,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom Interface in Apex.Which three considerations must the developer keep in mind while developing the Apex Interface' Choose 3 answers",
+        "A developer needs to create a custom Interface in Apex. Which three considerations must the developer keep in mind while developing the Apex Interface' Choose 3 answers",
       options: [
         "A. New methods can be added to a public interface within a released package.",
         "B. A method defined In an Apex Interface cannot have an access modifier.",
@@ -115,7 +115,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "While writing a test class that coversan OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org.How should the Developer overcome this problem?",
+        "While writing a test class that coversan OpportunityLineItem trigger, a Developer is unable to create a standard PriceBook since one already exists in the org. How should the Developer overcome this problem?",
       options: [
         "A. Use Test.getStandardPricebookId() to get the standard PriceBook ID.",
         "B. Use Test.loadData() and a Static Resource to load a standard Pricebook.",
@@ -139,7 +139,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce developer wants to review their code changesimmediately and does not want to install anything on their computer or on the org.Which tool is best suited?",
+        "A Salesforce developer wants to review their code changesimmediately and does not want to install anything on their computer or on the org. Which tool is best suited?",
       options: [
         "A. Setup Menu",
         "B. Developer Console",
@@ -163,7 +163,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizardaccepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizardaccepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL. Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. insert pageRef.",
         "B. Test.setCurrentPage(pageRef);",
@@ -300,7 +300,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. renderAs",
         "B. extensions",
@@ -375,7 +375,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for anentire suite of test allowing them to test independent requirements various types of Salesforce Cases.Which approach can efficiently generate the required data for each unit test?",
+        "A developer needs to create a baseline set of data (Accounts, Contacts, Products, Assets) for anentire suite of test allowing them to test independent requirements various types of Salesforce Cases. Which approach can efficiently generate the required data for each unit test?",
       options: [
         "A. Create test data before Test.startTest() in the unit test.",
         "B. Add @isTest(seeAllData=true) at the start of the unit test class.",
@@ -387,7 +387,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check eachContact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check eachContact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Next", "B. Exit", "C. break;", "D. Continue"],
       answer: "C",
       title: "Question 33",
@@ -478,7 +478,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. workflows can be used to check the record criteria and send an outbound message.",
         "B. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
@@ -514,7 +514,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts.How should the developer implement this request?",
+        "A developer is asked to create a Visualforce page that displays some Account fields as well as fields configured on the page layout for related Contacts. How should the developer implement this request?",
       options: [
         "A. Create a controller extension.",
         "B. Use the <apex:relatedList>tag.",
@@ -526,7 +526,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to mark eachAccount in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days.Which Apex technique should the developer use?",
+        "A developer wants to mark eachAccount in a List<Account> as either or Inactive based on the LastModified field value being more than 90 days. Which Apex technique should the developer use?",
       options: [
         "A. A for loop, with an if/else statement inside",
         "B. AnIf/else statement, with a for loop inside",
@@ -589,7 +589,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -694,7 +694,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page.Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
+        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page. Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
       options: [
         "A. String query = '%' + name + '%';List<Account> results = [SELECT Id FROM Account WHERE Name LIKE :query];",
         "B. String query ='SELECT Id FROM Account WHERE Name LIKE \\''%' + name.noQuotes() + '%\\''; List<Account> results = Database.query(query);",
@@ -743,7 +743,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom field value from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom field value from a trigger?",
       options: [
         "A. By writing an After Update trigger andaccessing the field value from Trigger.old",
         "B. By writing, a Before Update trigger and accessing the field value from Trigger.new",
@@ -755,7 +755,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of theapplication modules allows the user to calculate body fat using the Apex class,BodyFat, and its method,calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace.Which approach should a developer take to ensurecalculateBodyFat()is accessible outside the package namespace?",
+        "Cloud Kicks Fitness, an ISV Salesforce partner, is developing a managed package application. One of theapplication modules allows the user to calculate body fat using the Apex class,BodyFat, and its method,calculateBodyFat(). The product owner wants to ensure this method is accessible by the consumer of the application when developing customizations outside the ISV's package namespace. Which approach should a developer take to ensurecalculateBodyFat()is accessible outside the package namespace?",
       options: [
         "A. Declare the class and method using the public access modifier.",
         "B. Declare the class as global and use thepublic access modifier on the method.",

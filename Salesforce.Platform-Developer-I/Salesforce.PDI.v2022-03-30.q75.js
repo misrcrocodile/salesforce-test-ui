@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator.Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
+        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator. Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
       options: [
         "A. Scheduled Jobs",
         "B. Invocable Actions",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create and populate a custom field on the parent object marked as an External ID.",
         "B. Create a custom field on the child object of type Foreign Key",
@@ -196,7 +196,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) decided it will not to send emails to support personnel directly from Salesforce in the event that an unhandled exception occurs. Instead, UC wants an external system be notified of the error.What is the appropriate publish/subscribe logic to meet these requirements?",
+        "Universal Containers (UC) decided it will not to send emails to support personnel directly from Salesforce in the event that an unhandled exception occurs. Instead, UC wants an external system be notified of the error. What is the appropriate publish/subscribe logic to meet these requirements?",
       options: [
         "A. Publish the error event using the Eventbus.publish() method and have the external system subscribe to the event using CometD.",
         "B. Publish the error event using the addError() method and have the external system subscribe to the event using CometD.",
@@ -254,7 +254,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom object Trainer_c has a lookup field to another custom object Gym___c.Which SOQL query will get the record for the Viridian City gym and it's trainers?",
+        "A custom object Trainer_c has a lookup field to another custom object Gym___c. Which SOQL query will get the record for the Viridian City gym and it's trainers?",
       options: [
         "A. SELECT ID FROM Trainer_c WHERE Gym__r.Name - Viridian City Gym'",
         "B. SELECT Id, (SELECT Id FROM Trainers) FROM Gym_C WHERE Name . Viridian City Gym'",
@@ -316,7 +316,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to have records with specific field values in order to test a new Apex class.What should the developer do to ensure the data is available to the test?",
+        "A developer needs to have records with specific field values in order to test a new Apex class. What should the developer do to ensure the data is available to the test?",
       options: [
         "A. Use Test.Loaddata () and reference a static resource.",
         "B. Use SOQL to query the org for the required data.",
@@ -341,7 +341,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A workflow updates the value of a custom field for an existing Account.How can a developer access the updated custom field value from a trigger?",
+        "A workflow updates the value of a custom field for an existing Account. How can a developer access the updated custom field value from a trigger?",
       options: [
         "A. By writing an After Update trigger and accessing the field value from Trigger.old",
         "B. By writing an After Insert trigger and accessing the field value from Trigger.old",
@@ -409,7 +409,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom Visualforce controller calls the ApexPages,addMessage () method, but no messages are rendering on the page.Which component should be added to the Visualforce page to display the message?",
+        "A custom Visualforce controller calls the ApexPages,addMessage () method, but no messages are rendering on the page. Which component should be added to the Visualforce page to display the message?",
       options: [
         "A. <apex: pageMessage severity=\"info''/>",
         "B. <apex: pageMessages />",
@@ -433,7 +433,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
+        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status. Which tool should be used to implement this requirement?',
       options: [
         "A. Process Builder",
         "B. Lightning Component",
@@ -524,7 +524,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -595,7 +595,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles. Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. SFDX CLI",
         "B. Developer Console",
@@ -631,7 +631,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object.What should be built to implement this feature?",
+        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object. What should be built to implement this feature?",
       options: [
         "A. Account assignment rule",
         "B. Account workflow rule",
@@ -679,7 +679,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page. Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. extensions",
         "B. Action",
@@ -716,7 +716,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application.The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -740,7 +740,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop.Which Apex solution will let the developer implement this requirement?',
+        'A developer uses a loop to check each Contact in a list. When a Contact with the Title of"Boss" is found, the Apex method should jump to the first line of code outside of the for loop. Which Apex solution will let the developer implement this requirement?',
       options: ["A. Exit", "B. break;", "C. Continue", "D. Next"],
       answer: "B",
       title: "Question 65",
@@ -816,7 +816,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Order has a Master-Detail field to Line Item and there can be many Line Items per Order.",
         "B. Line Items has a Master-Detail field to Order and the Master can be re-parented.",

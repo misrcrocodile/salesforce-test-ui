@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Universal Containers fs trying to Improve the user experience when searching for the right status on a case. The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on.How should the administrator improve on the currant implementation?",
+        "Universal Containers fs trying to Improve the user experience when searching for the right status on a case. The company currently has one support process that is used for all record types on cases. The support process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on. How should the administrator improve on the currant implementation?",
       options: [
         "A. Review which status choices &re needed for each record type and create support processes for each that is necessary.",
         "B. Edit the status choices directly on the record type.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters has a custom quick action on Account that creates a new Case.How should an administrator make the quick action available on the Salesforce mobile app?",
+        "Northern Trail Outfitters has a custom quick action on Account that creates a new Case. How should an administrator make the quick action available on the Salesforce mobile app?",
       options: [
         "A. Include the action in the Salesforce Mobile Navigation menu.",
         "B. Create a custom Lightning App with the action.",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar uses Opportunity to track sales of solar energy products. The company has two separate sales teams that focus on different energy markets. The services team also wants to use Opportunity to track installation, All three teams will need to use different fields and stages.How should the administrator configure this requirement?",
+        "Ursa Major Solar uses Opportunity to track sales of solar energy products. The company has two separate sales teams that focus on different energy markets. The services team also wants to use Opportunity to track installation, All three teams will need to use different fields and stages. How should the administrator configure this requirement?",
       options: [
         "A. Create three sales processes. Create three record types and three page layouts.",
         "B. Create one sales process. Create one record type and three page layout.",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales managers would like to know what could be implemented to surface important values based on the stage of the opportunity.Which tool should an administrator use to meet this requirement?",
+        "Sales managers would like to know what could be implemented to surface important values based on the stage of the opportunity. Which tool should an administrator use to meet this requirement?",
       options: [
         "A. Workflow Rules",
         "B. Opportunity Processes",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A senior realtor at Ursa Major Solar has received a long list of new residential homes to sell to for the spring. Management needs the spreadsheet of the new residential homes and a separate spreadsheet of pricebooks loaded into Salesforce.Which Salesforce data tool will meet this request?",
+        "A senior realtor at Ursa Major Solar has received a long list of new residential homes to sell to for the spring. Management needs the spreadsheet of the new residential homes and a separate spreadsheet of pricebooks loaded into Salesforce. Which Salesforce data tool will meet this request?",
       options: [
         "A. Data Import Wizard",
         "B. Mass Transfer Records",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to track shoe designs by products. Shoe designs should be unable to be deleted, and there can be multiple designs for one | | product across various stages.Which two steps should the administrator configure to meet this requirement?",
+        "Cloud Kicks wants to track shoe designs by products. Shoe designs should be unable to be deleted, and there can be multiple designs for one | | product across various stages. Which two steps should the administrator configure to meet this requirement?",
       options: [
         "A. Add a custom master-detail field for shoe designs on the Product object.",
         "B. Choose 2 answers",
@@ -83,7 +83,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two considerations for sharing email template folders?Choose 2 answers",
+        "What are two considerations for sharing email template folders? Choose 2 answers",
       options: [
         "A. Sharing a folder shares all subfolders in that folder.",
         "B. Subfolders are shared separately from the parent folder.",
@@ -95,7 +95,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales Rep A and Sales Rep B view an Account report for All Accounts without any filters. The company uses a private sharing model. Each rep sees a different number of results.What is the explanation for the discrepancy in the reports?",
+        "Sales Rep A and Sales Rep B view an Account report for All Accounts without any filters. The company uses a private sharing model. Each rep sees a different number of results. What is the explanation for the discrepancy in the reports?",
       options: [
         "A. Sales Rep B needs to be assigned to the Sales Rep role.",
         "B. Sales Rep B needs to be assigned to the Sales Rep profile.",
@@ -107,7 +107,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters held an event for hikers to blaze the trail for the new year. Their marketing team collected over a million new lead records to upload into Salesforce.What is the recommended method for uploading this data?",
+        "Northern Trail Outfitters held an event for hikers to blaze the trail for the new year. Their marketing team collected over a million new lead records to upload into Salesforce. What is the recommended method for uploading this data?",
       options: [
         "A. AppExchange app",
         "B. Data Loader",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two considerations an administrator should keep in mind when working with Salesforce objects?Choose 2 answers",
+        "What are two considerations an administrator should keep in mind when working with Salesforce objects? Choose 2 answers",
       options: [
         "A. Custom and standard objects have standard fields.",
         "B. Standard objects are included with Salesforce.",
@@ -143,7 +143,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two action should an administrator perform to provide a sales team with an easy solution for gathering customer requirements and sharing presentations with the customers?Choose 2 answers",
+        "Which two action should an administrator perform to provide a sales team with an easy solution for gathering customer requirements and sharing presentations with the customers? Choose 2 answers",
       options: [
         "A. Use Salesforce Files to post presentation in Chatter.",
         "B. Add customers to libraries",
@@ -155,7 +155,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar's default, organization-wide sharing for accounts is set to public read/write. The administrator needs to ensure that marketing never modifies an account record.Which action should the administrator take to accomplish this goal?",
+        "Ursa Major Solar's default, organization-wide sharing for accounts is set to public read/write. The administrator needs to ensure that marketing never modifies an account record. Which action should the administrator take to accomplish this goal?",
       options: [
         "A. Switch organization-wide default sharing to public read only.",
         "B. Remove edit access on accounts from the custom marketing profile.",
@@ -179,7 +179,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a public read only sharing model on accounts. A new sales team has been created that will be dealing with high-security customers. The administrator has been asked to hide these accounts from anyone NOT on this team.Which two steps must be taken to hide these accounts without impacting access to the rest of the Sales team? Choose 2 answers",
+        "Universal Containers has a public read only sharing model on accounts. A new sales team has been created that will be dealing with high-security customers. The administrator has been asked to hide these accounts from anyone NOT on this team. Which two steps must be taken to hide these accounts without impacting access to the rest of the Sales team? Choose 2 answers",
       options: [
         "A. Create a new account type to separate both teams.",
         "B. Create ownership-based sharing rules",
@@ -191,7 +191,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A time -dependent action Is placed In the workflow queue when the record Is created. Which two scenarios will cause the action to be removed from the queue?Choose 2 answers",
+        "A time -dependent action Is placed In the workflow queue when the record Is created. Which two scenarios will cause the action to be removed from the queue? Choose 2 answers",
       options: [
         "A. When the record no longer matches the rule criteria",
         "B. When a validation rule is triggered for the record",
@@ -203,7 +203,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A customer created a case using web to case. They contacted phone support to get an update on the cave two days later. The support agent cannot find the case although the customer is positive that it was created and logged.What should the administrator reference to troubleshoot this issue?",
+        "A customer created a case using web to case. They contacted phone support to get an update on the cave two days later. The support agent cannot find the case although the customer is positive that it was created and logged. What should the administrator reference to troubleshoot this issue?",
       options: [
         "A. Contact email address",
         "B. Validation rules",
@@ -215,7 +215,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks has the organization-wide defaults for Opportunity set to Private.Which two features should the administrator use to open up access to opportunity records for sales users working on collaborative deals?Choose 2 answers",
+        "Cloud Kicks has the organization-wide defaults for Opportunity set to Private. Which two features should the administrator use to open up access to opportunity records for sales users working on collaborative deals? Choose 2 answers",
       options: [
         "A. Sharing set",
         "B. Role hierarchy",
@@ -227,7 +227,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two considerations when configuring the lead conversion process?Choose 2 answers",
+        "What are two considerations when configuring the lead conversion process? Choose 2 answers",
       options: [
         "A. Custom lead fields can be mapped to account, contact, and opportunity fields.",
         "B. Roll -up summary lead fields can be mapped to custom contact fields.",
@@ -250,7 +250,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar users want to utilize Salesforce Knowledge.Which statement accurately describes Knowledge? Calculator",
+        "Ursa Major Solar users want to utilize Salesforce Knowledge. Which statement accurately describes Knowledge? Calculator",
       options: [
         "A. An automated Machine Learning tool that converts Leads to Opportunities given a predefined set of conditions",
         "B. A knowledge base comprised of articles that can be written and utilized by support agents",
@@ -274,7 +274,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Sales executive at Universal Containers (UC) is utilizing Collaborative Forecasting to track sales rep quote attainment and wants to be alerted when an opportunity stage is moved backward In the sales process.Which feature should the administrator use to fulfill this request?",
+        "A Sales executive at Universal Containers (UC) is utilizing Collaborative Forecasting to track sales rep quote attainment and wants to be alerted when an opportunity stage is moved backward In the sales process. Which feature should the administrator use to fulfill this request?",
       options: [
         "A. Field History Tracking report",
         "B. Validation Rule",
@@ -286,7 +286,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales representatives use a custom report type for Account reports. New fields have been created on the Account Object.What should a System Administrator do to report on the newly created fields?",
+        "Sales representatives use a custom report type for Account reports. New fields have been created on the Account Object. What should a System Administrator do to report on the newly created fields?",
       options: [
         "A. From the Custom Report Type, Edit Layout, then add the new fields to the report. Calculator",
         "B. Create a new account report and add the new fields from the Report Builder.",
@@ -298,7 +298,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When working on opportunities, sales representatives at Universal Containers need to understand how their peers have successfully managed other opportunities with comparable products, competing against the same competitors. Which two features should an administrator use to facilitate this?Choose 2 answers",
+        "When working on opportunities, sales representatives at Universal Containers need to understand how their peers have successfully managed other opportunities with comparable products, competing against the same competitors. Which two features should an administrator use to facilitate this? Choose 2 answers",
       options: [
         "A. Opportunity Dashboard",
         "B. Opportunity update reminders",
@@ -310,7 +310,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to try out an app from the AppExchange to ensure that the app meets its needs.Which two options should the administrator suggest?Choose 2 answers",
+        "Cloud Kicks wants to try out an app from the AppExchange to ensure that the app meets its needs. Which two options should the administrator suggest? Choose 2 answers",
       options: [
         "A. Install in a sandbox.",
         "B. Download into a Trailhead Playground.",
@@ -334,7 +334,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major wants to add charts to a Salesforce dashboard.What are three standard chart types that are available?Choose 3 answers",
+        "Ursa Major wants to add charts to a Salesforce dashboard. What are three standard chart types that are available? Choose 3 answers",
       options: [
         "A. Tables",
         "B. Bar charts",
@@ -347,7 +347,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers requires a different Lightning page to be displayed when Accounts are viewed In the Sales Console and In the Service Console.How should an administrator meet this requirement?",
+        "Universal Containers requires a different Lightning page to be displayed when Accounts are viewed In the Sales Console and In the Service Console. How should an administrator meet this requirement?",
       options: [
         "A. Create different user profiles.",
         "B. Update page layout assignments.",
@@ -359,7 +359,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A user at Cloud Kicks Is having Issues logging in to Salesforce. The user asks the administrator to reset their password.Which two options should the administrator consider when resetting the user's password?Choose 2 answers",
+        "A user at Cloud Kicks Is having Issues logging in to Salesforce. The user asks the administrator to reset their password. Which two options should the administrator consider when resetting the user's password? Choose 2 answers",
       options: [
         "A. Single sign-on users can reset their own passwords using the forgot password link,",
         "B. After resetting a password, the user may be required to activate their device to successfully log In to Salesforce.",
@@ -371,7 +371,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Users at Cloud Kicks want to be able to create a task that will repeat every two weeks.What should an administrator do to meet this requirement?",
+        "Users at Cloud Kicks want to be able to create a task that will repeat every two weeks. What should an administrator do to meet this requirement?",
       options: [
         "A. Turn on Recurring Activities",
         "B. Enable Creation of Recurring Tasks",
@@ -383,7 +383,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The sales manager at Cloud Kicks approves time off for their employees. They asked the administrator to ensure these requests are seen and responded to by a backup manager while the sales manager is out on vacation.What should the administrator use to fulfill the requirement?",
+        "The sales manager at Cloud Kicks approves time off for their employees. They asked the administrator to ensure these requests are seen and responded to by a backup manager while the sales manager is out on vacation. What should the administrator use to fulfill the requirement?",
       options: [
         "A. Delegated Administrator",
         "B. Approval History Related List",
@@ -395,7 +395,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Under which three conditions should a validation rule be used to prevent invalid data?Choose 3 answers",
+        "Under which three conditions should a validation rule be used to prevent invalid data? Choose 3 answers",
       options: [
         "A. When records are submitted using web -to -lead.",
         "B. When records are imported.",
@@ -408,7 +408,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator has been asked to change the data type of an auto number to a text field.What should the administrator be aware of before changing the field?",
+        "An administrator has been asked to change the data type of an auto number to a text field. What should the administrator be aware of before changing the field?",
       options: [
         "A. Existing field values will remain unchanged.",
         "B. Existing Auto Number field to Text is prevented.",
@@ -432,14 +432,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Anytime an Opportunity is moved to Closed Won, Sales reps at Universal Containers (UC) are supposed to create a record on a child object of Opportunities called Survey Request.This action, however, does not always occur. Sales reps do not always populate all fields correctly.Which two tools should be used to remove permissions from Sales to create these records and automate record creation? Choose 2 answers",
+        "Anytime an Opportunity is moved to Closed Won, Sales reps at Universal Containers (UC) are supposed to create a record on a child object of Opportunities called Survey Request.This action, however, does not always occur. Sales reps do not always populate all fields correctly. Which two tools should be used to remove permissions from Sales to create these records and automate record creation? Choose 2 answers",
       options: ["A. Approvals", "B. Workflow", "C. Flow", "D. Process Builder"],
       answer: "C,D",
       title: "Question 36",
     },
     {
       content:
-        "The administrator at Ursa Major Solar accidentally deleted a required field on Account. The field now appears under deleted fields on Account.Which three considerations should an administrator consider when deleting a field? Choose 3 answers",
+        "The administrator at Ursa Major Solar accidentally deleted a required field on Account. The field now appears under deleted fields on Account. Which three considerations should an administrator consider when deleting a field? Choose 3 answers",
       options: [
         "A. The field will need to be marked as required again.",
         "B. The field will reappear on page layouts if they have not changed since the deletion.",
@@ -476,7 +476,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The support manager at Cloud Kicks wants to respond to customers as quickly as possible. They have requested that the response Include the top five troubleshooting tips that could help solve the customer's issue.What should the administrator suggest to meet these requirements?",
+        "The support manager at Cloud Kicks wants to respond to customers as quickly as possible. They have requested that the response Include the top five troubleshooting tips that could help solve the customer's issue. What should the administrator suggest to meet these requirements?",
       options: [
         "A. Knowledge Articles",
         "B. Assignment Rules",
@@ -488,7 +488,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to create a new sales team that focuses exclusively on small to medium business customers. This group will track information with the same fields and picklist values but will need two new options on the stage field.How should the administrator accomplish this task?",
+        "Universal Containers wants to create a new sales team that focuses exclusively on small to medium business customers. This group will track information with the same fields and picklist values but will need two new options on the stage field. How should the administrator accomplish this task?",
       options: [
         "A. Create a new record type.",
         "B. Create a new record type and page layout.",
@@ -500,7 +500,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty agents are double-booking open house event nights. The events manager wants an event submission process to help agents fill in event details and request dates.How should an administrator accomplish this request?",
+        "DreamHouse Realty agents are double-booking open house event nights. The events manager wants an event submission process to help agents fill in event details and request dates. How should an administrator accomplish this request?",
       options: [
         "A. Create a sharing rule so that other agents can view events.",
         "B. Create an approval process on the Campaign object.",
@@ -536,7 +536,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Ursa Major Solar needs to make sure that unassigned cases from VIP customers get transferred to the appropriate service representative within 5 hours. VIP customers have access to support 24 hours a day.How should this be configured?",
+        "The administrator at Ursa Major Solar needs to make sure that unassigned cases from VIP customers get transferred to the appropriate service representative within 5 hours. VIP customers have access to support 24 hours a day. How should this be configured?",
       options: [
         "A. Business Hours",
         "B. Escalation Rules",
@@ -548,7 +548,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks needs to ensure appropriate shipping details are used in Orders. Reps should have a streamlined solution to update the shipping addresses on selected Orders associated with an Account when the shipping address is changed on the Account.How should the administrator deliver this requirement?",
+        "Cloud Kicks needs to ensure appropriate shipping details are used in Orders. Reps should have a streamlined solution to update the shipping addresses on selected Orders associated with an Account when the shipping address is changed on the Account. How should the administrator deliver this requirement?",
       options: [
         "A. A screen flow on the Order page that lets the rep choose the updated Account shipping address in all open associated Orders",
         "B. An autolaunched flow on the Order page that updates all open Order shipping addresses whenever the Account shipping address charges",
@@ -584,7 +584,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Executives at Cloud Kicks have reported that their dashboards are showing Inaccurate data. The administrator has discovered that users have been changing the source reports.Which two actions should the administrator take to preserve the integrity of the source reports?Choose 2 answers",
+        "Executives at Cloud Kicks have reported that their dashboards are showing Inaccurate data. The administrator has discovered that users have been changing the source reports. Which two actions should the administrator take to preserve the integrity of the source reports? Choose 2 answers",
       options: [
         "A. Create a new report folder with viewer access.",
         "B. Move the dashboard reports to the view-only folder.",
@@ -596,7 +596,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) would like to count the number of open cases associated with each Account and update the Account with this value every Friday evening. UC has several hundred open cases at any given time.What should the administrator use to complete this request?",
+        "Universal Containers (UC) would like to count the number of open cases associated with each Account and update the Account with this value every Friday evening. UC has several hundred open cases at any given time. What should the administrator use to complete this request?",
       options: [
         "A. Use a Roll-Up Summary field on Case.",
         "B. Use a record triggered flow.",
@@ -619,7 +619,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Cloud Kicks deleted a custom field but realized there is a business unit that still uses the field.What should an administrator take into consideration when undeleting the field?",
+        "The administrator at Cloud Kicks deleted a custom field but realized there is a business unit that still uses the field. What should an administrator take into consideration when undeleting the field?",
       options: [
         "A. The field needs to be re-added to page layouts.",
         "B. The field needs to be restored from the recycle bin.",
@@ -643,7 +643,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A sales rep has left the company and an administrator has been asked to re-assign all their accounts and opportunities to a new sales rep and keep the teams as is.Which tool should an administrator use to accomplish this?",
+        "A sales rep has left the company and an administrator has been asked to re-assign all their accounts and opportunities to a new sales rep and keep the teams as is. Which tool should an administrator use to accomplish this?",
       options: [
         "A. Data Loader",
         "B. Data Import Wizard",
@@ -655,7 +655,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three considerations when a user is importing data via Data Loader?Choose 3 answers",
+        "What are three considerations when a user is importing data via Data Loader? Choose 3 answers",
       options: [
         "A. Importing data into checkbox fields allows for the use of TRUE/FALSE.",
         "B. Field -Level Security access determines which fields will be visible.",
@@ -669,7 +669,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three aspects of standard fields should an administrator customize?Choose 3 answers",
+        "Which three aspects of standard fields should an administrator customize? Choose 3 answers",
       options: [
         "A. Field history tracking",
         "B. Picklist values",
@@ -682,7 +682,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container's administrator has been asked to create a many-to-many relationship between two existing custom objects.Which two steps should the administrator take when enabling the many-to-many relationship?Choose 2 answers",
+        "Universal Container's administrator has been asked to create a many-to-many relationship between two existing custom objects. Which two steps should the administrator take when enabling the many-to-many relationship? Choose 2 answers",
       options: [
         "A. Create URL fields on a custom object.",
         "B. Create two lookup relationships on the new object.",
@@ -694,7 +694,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Cloud Kicks updated the custom object Event to include a lookup field to the primary contact for the event. When running an event report, they want to reference fields from the associated contact record.What should the administrator do to pull contact fields into the custom report?",
+        "The administrator at Cloud Kicks updated the custom object Event to include a lookup field to the primary contact for the event. When running an event report, they want to reference fields from the associated contact record. What should the administrator do to pull contact fields into the custom report?",
       options: [
         "A. Create a new report type with Event as the primary object and Contact as a related object.",
         "B. Edit the custom Event report type and add fields related via lookup.",
@@ -706,7 +706,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Cloud Kicks sales manager wants to boost productivity by providing insights for sales reps at the start of each day.Which three sales-specific standard Lightning components should an administrator add to the homepage to meet this requirement?Choose 3 answers",
+        "The Cloud Kicks sales manager wants to boost productivity by providing insights for sales reps at the start of each day. Which three sales-specific standard Lightning components should an administrator add to the homepage to meet this requirement? Choose 3 answers",
       options: [
         "A. Key Deals",
         "B. Activities",
@@ -719,7 +719,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator is on a tight deadline to create dashboards for the sales and marketing teams at AW Computing.What should the administrator do to meet the deadline without increasing the budget?",
+        "An administrator is on a tight deadline to create dashboards for the sales and marketing teams at AW Computing. What should the administrator do to meet the deadline without increasing the budget?",
       options: [
         "A. Check the AppExchange for a prebuilt solution that can be easily customized.",
         "B. Train someone on the sales and marketing teams to build dashboards,",
@@ -731,14 +731,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar's support team currently has a very high call volume. They want to decrease this volume by creating a sell-service community that will best published articles with Frequently Asked Questions (FAQs), and provide a chat with Help Desk representatives Which two features should be used to fulfill this goal?Choose 2 answers",
+        "Ursa Major Solar's support team currently has a very high call volume. They want to decrease this volume by creating a sell-service community that will best published articles with Frequently Asked Questions (FAQs), and provide a chat with Help Desk representatives Which two features should be used to fulfill this goal? Choose 2 answers",
       options: ["A. Knowledge", "B. Content", "C. SoS", "D. Chat"],
       answer: "A,D",
       title: "Question 61",
     },
     {
       content:
-        "The service manager at Ursa Major Solar wants to let customers know that they have received their cases via email and their website. Medium-priority and high-priority cases should receive different email notifications than low-priority cases. The administrator has created three email templates for this purpose.How should an administrator configure this requirement?",
+        "The service manager at Ursa Major Solar wants to let customers know that they have received their cases via email and their website. Medium-priority and high-priority cases should receive different email notifications than low-priority cases. The administrator has created three email templates for this purpose. How should an administrator configure this requirement?",
       options: [
         "A. Create one auto-response rule. Configure three rule entry criteria and set a filter for case priority.",
         "B. Configure one workflow rule that fires when cases are created. Add a filter for case priority. Select the appropriate email template for the rule.",
@@ -751,7 +751,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) occasionally works with Independent contractors, who the company stores as Contacts In Salesforce. Contractors often change agencies, and AWC wants to maintain the historical accuracy of the record.What should AWC use to track Contacts?",
+        "AW Computing (AWC) occasionally works with Independent contractors, who the company stores as Contacts In Salesforce. Contractors often change agencies, and AWC wants to maintain the historical accuracy of the record. What should AWC use to track Contacts?",
       options: [
         "A. Enable Contacts to multiple Accounts.",
         "B. Create a junction object to track many-to-many relationship. Solar need to see different fields on the Case",
@@ -763,7 +763,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce user at Universal Containers has been deactivated.What will happen to the records the user owns in Salesforce?",
+        "A Salesforce user at Universal Containers has been deactivated. What will happen to the records the user owns in Salesforce?",
       options: [
         "A. All records are automatically assigned to the Administrator.",
         "B. All records are automatically assigned to another user.",
@@ -775,7 +775,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Salts reps at Northern Trail Outfitters have asked for a way to change the Probability field value of their Opportunities.What should an administrator suggest to meet this request?",
+        "Salts reps at Northern Trail Outfitters have asked for a way to change the Probability field value of their Opportunities. What should an administrator suggest to meet this request?",
       options: [
         "A. Make the field editable on page layouts.",
         "B. Configure Forecasting support.",
@@ -787,7 +787,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When a Cloud Kicks opportunity closes, the company would like to automatically create a renewal opportunity.Which two automation tools should an administrator use to accomplish this request? acne Choose 2 answers",
+        "When a Cloud Kicks opportunity closes, the company would like to automatically create a renewal opportunity. Which two automation tools should an administrator use to accomplish this request? acne Choose 2 answers",
       options: [
         "A. Flow Builder",
         "B. Workflow Rule",
@@ -799,7 +799,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Support agents at Cloud Kicks are spending too much time finding resources to solve customer cases. The agents need a more efficient way to find documentation and similar cases from the Case page layout.How should an administrator meet this requirement?",
+        "Support agents at Cloud Kicks are spending too much time finding resources to solve customer cases. The agents need a more efficient way to find documentation and similar cases from the Case page layout. How should an administrator meet this requirement?",
       options: [
         "A. Use an interview flow to capture Case details.",
         "B. Direct users to Global Search to look for similar cases.",
@@ -823,7 +823,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar wants to assign feature licenses to user records in Salesforce.Which two feature licenses can be assigned to a user record in Salesforce?Choose 2 answers",
+        "Ursa Major Solar wants to assign feature licenses to user records in Salesforce. Which two feature licenses can be assigned to a user record in Salesforce? Choose 2 answers",
       options: [
         "A. Knowledge User",
         "B. Opportunity User",
@@ -846,7 +846,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar is bringing a new type of solar panel to market. An administrator needs to create a sales process for this new product. Os) What are three considerations for the administrator in this scenario?Choose 3 answers",
+        "Ursa Major Solar is bringing a new type of solar panel to market. An administrator needs to create a sales process for this new product. Os) What are three considerations for the administrator in this scenario? Choose 3 answers",
       options: [
         "A. All picklist values on the page layout must be added to the master picklist value list or be active values.",
         "B. Adding a new value to the record type master picklist value list adds the value to all existing record type picklists.",
@@ -859,7 +859,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The client services and customer support teams share the same profile but have different permission sets. The custom object Retention related list needs to be restricted to the client services team on the Lightning record page layout.What should the administrator use to fulfill this request?",
+        "The client services and customer support teams share the same profile but have different permission sets. The custom object Retention related list needs to be restricted to the client services team on the Lightning record page layout. What should the administrator use to fulfill this request?",
       options: [
         "A. Page Layout Assignment",
         "B. Sharing Settings",
@@ -871,7 +871,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Users have noticed that when they click on a report In a dashboard to view the report details, the values In the report are different from the values displayed on the dashboard.What are the two reasons this .Is likely to occur?Choose 2 answers",
+        "Users have noticed that when they click on a report In a dashboard to view the report details, the values In the report are different from the values displayed on the dashboard. What are the two reasons this .Is likely to occur? Choose 2 answers",
       options: [
         "A. The dashboard needs to be refreshed.",
         "B. The running dashboard user and viewer have different permissions.",
@@ -883,7 +883,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Customer is set to true, the first screen is skipped and the user is directed to the second screen.How should the administrator configure the decision element?",
+        "Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Customer is set to true, the first screen is skipped and the user is directed to the second screen. How should the administrator configure the decision element?",
       options: [
         'A. Use the equals operator and "High Value Customer" as the value.',
         'B. Use the contains operator and "High Value Customer" as the value.',
@@ -895,7 +895,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks needs to change the owner of a case when it has been open for more than 7 days.How should the administrator complete this requirement?",
+        "Cloud Kicks needs to change the owner of a case when it has been open for more than 7 days. How should the administrator complete this requirement?",
       options: [
         "A. Escalation Rules",
         "B. Assignment Rules",
@@ -907,7 +907,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three settings are controlled by a users profile?Choose 3 answers",
+        "Which three settings are controlled by a users profile? Choose 3 answers",
       options: [
         "A. Feature license assignment",
         "B. Locale settings",
@@ -920,7 +920,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'The administrator at Universal Containers has a screen flow that helps users create new leads. When Lead Source is "Search Engine", the administrator needs to require the user to choose a specific search engine from a picklist. If Lead Source is not "Search Engine", this picklist should be hidden.How should the administrator complete this requirement?',
+        'The administrator at Universal Containers has a screen flow that helps users create new leads. When Lead Source is "Search Engine", the administrator needs to require the user to choose a specific search engine from a picklist. If Lead Source is not "Search Engine", this picklist should be hidden. How should the administrator complete this requirement?',
       options: [
         'A. Create a picklist for Specific Search Engine, and set conditional visibility so that it is only shown when Lead Source is "Search Engine".',
         'B. Configure a picklist for Specific Search Engine, and use a validation rule to conditionally show only when Lead Source is "Search Engine".',
@@ -932,7 +932,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to ensure that Its org Is secure and has asked an Administrator to configure password requirements for its users. Which three actions are Administrators able to configure?Choose 3 answers",
+        "Universal Containers wants to ensure that Its org Is secure and has asked an Administrator to configure password requirements for its users. Which three actions are Administrators able to configure? Choose 3 answers",
       options: [
         "A. Set requirement that passwords must be unique for each user.",
         "B. Set password complexity requirements.",
@@ -957,7 +957,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters wants to know the average stage duration for all closed opportunities.How should an administrator support this request?",
+        "Northern Trail Outfitters wants to know the average stage duration for all closed opportunities. How should an administrator support this request?",
       options: [
         "A. Use Process Builder to capture the daily average on each Opportunity.",
         "B. Add formula fields to track Stages on each Opportunity.",
@@ -969,7 +969,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Cloud Kicks needs to automatically route support cases, regardless of how they are created, to a queue based on case priority.What tool should the administrator use?",
+        "The administrator at Cloud Kicks needs to automatically route support cases, regardless of how they are created, to a queue based on case priority. What tool should the administrator use?",
       options: [
         "A. Email-to-Case",
         "B. Assignment Rules",
@@ -981,7 +981,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing has six sales teams in a region. These teams always consist of the same account manager, engineer, and assistant.What should the administrate- configure to make it easier for teams to collaborate with the same customer?",
+        "AW Computing has six sales teams in a region. These teams always consist of the same account manager, engineer, and assistant. What should the administrate- configure to make it easier for teams to collaborate with the same customer?",
       options: [
         "A. Enable and configure standard opportunity teams with splits.",
         "B. Create a queue for each team and assign account ownership to the queue.",
@@ -993,7 +993,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Recently, one of Ursa Major Solar's (UMS) competitors lost critical data after a powerful hurricane caused multiple power outages.UMS needs to ensure that its Salesforce data is backed up an protected from such an event.Which two statements are true regarding this goal?",
+        "Recently, one of Ursa Major Solar's (UMS) competitors lost critical data after a powerful hurricane caused multiple power outages.UMS needs to ensure that its Salesforce data is backed up an protected from such an event. Which two statements are true regarding this goal?",
       options: [
         "A. UMS can download an app from the AppExchange.",
         "B. UMS can use Salesforce's daily backup service, which is provided via a zip file.",
@@ -1005,7 +1005,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three items are available in the mobile navigation menu?Choose 3 answers",
+        "Which three items are available in the mobile navigation menu? Choose 3 answers",
       options: [
         "A. Lightning Home Page",
         "B. Utility Bar",
@@ -1018,7 +1018,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern TVail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of sales requested that this information be accessible on the opportunity and available for reporting.Which two options should the administrator configure to meet these requirements?Choose 2 answers",
+        "Northern TVail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities. The VP of sales requested that this information be accessible on the opportunity and available for reporting. Which two options should the administrator configure to meet these requirements? Choose 2 answers",
       options: [
         "A. Customize Campaign Member Role.",
         "B. Add the Campaign Member related list to the Opportunity page layout.",
@@ -1031,7 +1031,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks (CK) Is partnering with a used shoe store and second-hand bicycle emporium. CK has an automated business process it wants to run once a week to count the number of open cases related to an account.How should the administrator recommend automating this business process?",
+        "Cloud Kicks (CK) Is partnering with a used shoe store and second-hand bicycle emporium. CK has an automated business process it wants to run once a week to count the number of open cases related to an account. How should the administrator recommend automating this business process?",
       options: [
         "A. Configure a scheduled flow m Flow Builder.",
         "B. Use a process to update the account when It is edited.",
@@ -1043,7 +1043,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar needs to fulfill the following requirements:* A custom object must be created to capture account survey data.* Users need the ability to select an account from the survey record and view related surveys on the account record.Which two actions can an administrator configure to meet these requirements' Choose 2 answers",
+        "Ursa Major Solar needs to fulfill the following requirements:* A custom object must be created to capture account survey data.* Users need the ability to select an account from the survey record and view related surveys on the account record. Which two actions can an administrator configure to meet these requirements' Choose 2 answers",
       options: [
         "A. Put the survey related list on the account page layout.",
         "B. Create a lookup relationship field on the account object.",
@@ -1055,7 +1055,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty needs to use consistent pickhst values in the Category field on Accounts and Cases, with values respective to record types.Which two features should the administrator use to fulfill this requirement?Choose 2 answers",
+        "DreamHouse Realty needs to use consistent pickhst values in the Category field on Accounts and Cases, with values respective to record types. Which two features should the administrator use to fulfill this requirement? Choose 2 answers",
       options: [
         "A. Dependent pickhst",
         "B. Custom pickhst",
@@ -1067,7 +1067,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find deal records via a search.What option should the administrator adjust to fully restrict access?",
+        "Universal Containers wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find deal records via a search. What option should the administrator adjust to fully restrict access?",
       options: [
         "A. Page layouts and field-level security",
         "B. Permissions and tab visibility",
@@ -1079,7 +1079,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks has the organization-wide sharing default set to private on the Shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team.Which three items should the administrator configure to provide appropriate access to the report?Choose 3 answers",
+        "Cloud Kicks has the organization-wide sharing default set to private on the Shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team. Which three items should the administrator configure to provide appropriate access to the report? Choose 3 answers",
       options: [
         "A. Role Hierarchy",
         "B. Report Subscription",
@@ -1104,7 +1104,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar recently acquired a company whose sales team has a unique sales process, with stages that are different from the current setup of stages in Salesforce.The Chief Technology Officer (CTO) has decided that the new sales team should NOT change their process at all.What should the administrator do to incorporate the new sales teams process?",
+        "Ursa Major Solar recently acquired a company whose sales team has a unique sales process, with stages that are different from the current setup of stages in Salesforce. The Chief Technology Officer (CTO) has decided that the new sales team should NOT change their process at all. What should the administrator do to incorporate the new sales teams process?",
       options: [
         "A. Create new values for the opportunity stage field; order them so that the new Sales team's values are at the bottom of the picklist.",
         "B. Create new values for the opportunity stage field; create a new sales process assigned to a custom record type for the new sales team.",
@@ -1116,7 +1116,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers requires that when an opportunity is closed won, all other open opportunities on the same account must be marked as closed lost.Which automation solution should an administrator use to Implement this request?",
+        "Universal Containers requires that when an opportunity is closed won, all other open opportunities on the same account must be marked as closed lost. Which automation solution should an administrator use to Implement this request?",
       options: [
         "A. Flow Builder",
         "B. Quick Action",
@@ -1128,7 +1128,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "universal containers (UC) has a Web -to -Case form on its Lightning Customer Community.UC wants to separate Cases into the following product categories: Corrugated Paper, Plastic, Fiberboard, and Metal. UC has added a picklist field to store this data.How can the Case be automatically placed in the correct queue upon submission?",
+        "universal containers (UC) has a Web -to -Case form on its Lightning Customer Community.UC wants to separate Cases into the following product categories: Corrugated Paper, Plastic, Fiberboard, and Metal. UC has added a picklist field to store this data. How can the Case be automatically placed in the correct queue upon submission?",
       options: [
         "A. Create Assignment Rules based on the picklist values to move Cases to a Queue.",
         "B. Create Record Types for each picklist value and assign to each product team's profile.",
@@ -1140,7 +1140,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Cloud Kicks is trying to debug a screen flow that creates contacts. One of the variables in the flow is missing on the debug screen.What could cause this issue?",
+        "The administrator at Cloud Kicks is trying to debug a screen flow that creates contacts. One of the variables in the flow is missing on the debug screen. What could cause this issue?",
       options: [
         "A. The Available for Input checkbox was unchecked.",
         "B. The flow is an inactive version.",
@@ -1152,7 +1152,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) puts a priority on this confidentially of their customers. UC ...............Which Contact sharing setting should an Administrator configure to meet this request?",
+        "Universal Containers (UC) puts a priority on this confidentially of their customers. UC ............... Which Contact sharing setting should an Administrator configure to meet this request?",
       options: [
         "A. Public Read Only",
         "B. Private",
@@ -1164,7 +1164,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An analytics user at Cloud Kicks needs Read, Create, and Edit access for objects and should be restricted from deleting any records.What should the administrator do to meet this requirement?",
+        "An analytics user at Cloud Kicks needs Read, Create, and Edit access for objects and should be restricted from deleting any records. What should the administrator do to meet this requirement?",
       options: [
         "A. Create and assign a custom profile with Delete access removed for each object.",
         "B. Give the user View All access and assign them to the highest role in the role hierarchy.",
@@ -1176,7 +1176,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Ursa Major Solar imported records into an object by mistake.Which two tools should be used to undo this import?Choose 2 answers",
+        "The administrator at Ursa Major Solar imported records into an object by mistake. Which two tools should be used to undo this import? Choose 2 answers",
       options: [
         "A. Data Loader",
         "B. Data Import Wizard",
@@ -1200,7 +1200,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The marketing team at Ursa Major Solar wants to send a personalized email whenever a lead fills out the web-to-lead form on their website.They want to send different messages based on the Lead Industry field value.What should an administrator configure to meet this requirement?",
+        "The marketing team at Ursa Major Solar wants to send a personalized email whenever a lead fills out the web-to-lead form on their website. They want to send different messages based on the Lead Industry field value. What should an administrator configure to meet this requirement?",
       options: [
         "A. Add a public group and Process Builder to email the lead.",
         "B. Use a validation rule to trigger workflow to email the lead.",
@@ -1212,7 +1212,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "DreamHouse Realty has an approval process. A manager attempts to approve the record but receives an error.What should the administrator review to troubleshoot this request?",
+        "DreamHouse Realty has an approval process. A manager attempts to approve the record but receives an error. What should the administrator review to troubleshoot this request?",
       options: [
         "A. Check if the user in the next approver is inactive or missing.",
         "B. Update the field-level security to view on fields that are updated in the process.",
@@ -1224,7 +1224,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator at Ursa Major Solar needs to send information to an external accounting system whenever an opportunity closes.What workflow action should the administrator use to accomplish this? ,",
+        "An administrator at Ursa Major Solar needs to send information to an external accounting system whenever an opportunity closes. What workflow action should the administrator use to accomplish this? ,",
       options: [
         "A. Create a Record",
         "B. Outbound Message",
@@ -1248,14 +1248,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar uses data from the grand total of a custom report to create their dashboard. Which two components will populate the grand total properly?Choose 2 answers",
+        "Ursa Major Solar uses data from the grand total of a custom report to create their dashboard. Which two components will populate the grand total properly? Choose 2 answers",
       options: ["A. Table", "B. Chart", "C. Gauge", "D. Metric"],
       answer: "A,B",
       title: "Question 104",
     },
     {
       content:
-        "Universal Containers successfully deployed a partner community last quarter and is experiencing performance issues.Which two strategies should a system administrator use to improve community performance?Choose 2 answers",
+        "Universal Containers successfully deployed a partner community last quarter and is experiencing performance issues. Which two strategies should a system administrator use to improve community performance? Choose 2 answers",
       options: [
         "A. Use sharing sets",
         "B. Grant super user access to appropriate external users",
@@ -1279,7 +1279,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated.Which automation solution should an administrator use to meet this request?",
+        "Northern Trail Outfitters has requested that when the Referral Date field is updated on the custom object Referral Source, the parent object Referral also needs to be updated. Which automation solution should an administrator use to meet this request?",
       options: [
         "A. Process Builder",
         "B. Lightning Web Component",
@@ -1291,7 +1291,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Ursa Major Solar (UMS) wants to assign a Lightning for Outlook layout.Which two options can UMS assign this layout to? Choose 2 answers",
+        "Ursa Major Solar (UMS) wants to assign a Lightning for Outlook layout. Which two options can UMS assign this layout to? Choose 2 answers",
       options: ["A. Team", "B. Profile", "C. Role", "D. User"],
       answer: "B,D",
       title: "Question 108",
@@ -1310,7 +1310,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The events manager at DreamHouse Realty has a hot lead from a successful open house that needs to become a Contact with an associated Opportunity.How should this be accomplished from the Campaign keeping the associated Campaign Member history?",
+        "The events manager at DreamHouse Realty has a hot lead from a successful open house that needs to become a Contact with an associated Opportunity. How should this be accomplished from the Campaign keeping the associated Campaign Member history?",
       options: [
         "A. Clone the lead and convert the cloned record to a Contact.",
         "B. Convert the lead from the Campaign Member Detail page.",
@@ -1322,7 +1322,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Universal Containers Administrator is editing the page layout for a new custom object when a text area field is inadvertently deleted from the page layout. What are three methods for restoring the field to the page layout?Choose 3 answers",
+        "The Universal Containers Administrator is editing the page layout for a new custom object when a text area field is inadvertently deleted from the page layout. What are three methods for restoring the field to the page layout? Choose 3 answers",
       options: [
         "A. From the Fields palette, drag the field into the same position.",
         "B. Restore from the recycle bin within 1 5 days.",
@@ -1335,7 +1335,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator has assigned a permission set group with the two-factor authentication for User Interface Logins permission and the two-factor authentication for API Logins permission to a group of users.Which two prompts will happen when one of the users attempts to log In to Data Loader?Choose 2 answers",
+        "An administrator has assigned a permission set group with the two-factor authentication for User Interface Logins permission and the two-factor authentication for API Logins permission to a group of users. Which two prompts will happen when one of the users attempts to log In to Data Loader? Choose 2 answers",
       options: [
         "A. Users need to enter a verification code from email or SMS, whichever has higher priority.",
         "B. Users need to connect an authenticator app to their Salesforce account.",
@@ -1347,7 +1347,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks' executives have noticed the Opportunity Expected Revenue field displays incorrect values.How should the administrator correct this'",
+        "Cloud Kicks' executives have noticed the Opportunity Expected Revenue field displays incorrect values. How should the administrator correct this'",
       options: [
         "A. Change the probability associated with the stage.",
         "B. Modify the closed won value associated with the stage.",
@@ -1370,7 +1370,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The marketing director at Northern Trail Outfitters has requested that the Budget field is populated in order for the Lead Status field to be marked as qualified.What tool should the administrator use to fulfill this request?",
+        "The marketing director at Northern Trail Outfitters has requested that the Budget field is populated in order for the Lead Status field to be marked as qualified. What tool should the administrator use to fulfill this request?",
       options: [
         "A. Require Field",
         "B. Workflow Rule",
@@ -1382,7 +1382,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to begin selling to consumers, in addition to businesses. The Opportunity stages for selling to consumers will be different than those used for businesses.Which feature in Salesforce will allow for this to be accomplished? .",
+        "Universal Containers wants to begin selling to consumers, in addition to businesses. The Opportunity stages for selling to consumers will be different than those used for businesses. Which feature in Salesforce will allow for this to be accomplished? .",
       options: [
         "A. Page Layouts",
         "B. Sharing Rules",
@@ -1406,7 +1406,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a new data requirement that all Account records must have a value in the type field. The administrator has been asked to provide automation to ensure that this data requirement is met.What should an administrator consider when designing an automation solution?",
+        "Universal Containers has a new data requirement that all Account records must have a value in the type field. The administrator has been asked to provide automation to ensure that this data requirement is met. What should an administrator consider when designing an automation solution?",
       options: [
         "A. All Account record types include type values.",
         "B. There are fewer than 1 million Account records.",
@@ -1418,7 +1418,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Salas and Customer Cant at Ursa Major Solar need to see different fields on the Case related list from the Account record. Sales users want to see Case created date and status while Customer Care would like to see owner, status, and contact.What should the administrator use to achieve this?",
+        "Salas and Customer Cant at Ursa Major Solar need to see different fields on the Case related list from the Account record. Sales users want to see Case created date and status while Customer Care would like to see owner, status, and contact. What should the administrator use to achieve this?",
       options: [
         "A. Compact Layout Editor",
         "B. Related Lookup Filters",
@@ -1442,7 +1442,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator wants to trigger a follow-up task for the opportunity owner when they close an opportunity as won, and another task after 60 days to check in with the customer.Which two automation tools should the administrator use?Choose 2 answers",
+        "An administrator wants to trigger a follow-up task for the opportunity owner when they close an opportunity as won, and another task after 60 days to check in with the customer. Which two automation tools should the administrator use? Choose 2 answers",
       options: [
         "A. Process Builder",
         "B. Field Update",
@@ -1454,7 +1454,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The administrator at Ursa Major Solar has just finished creating new hot Account reports that filter Accounts that were modified this year with a rating of hot. The report was shared with the entire sales team. Some users are seeing some Accounts that have NOT been modified since last year and other Accounts where the rating is cold.What should the administrator do to ensure that the report works as intended for all users?",
+        "The administrator at Ursa Major Solar has just finished creating new hot Account reports that filter Accounts that were modified this year with a rating of hot. The report was shared with the entire sales team. Some users are seeing some Accounts that have NOT been modified since last year and other Accounts where the rating is cold. What should the administrator do to ensure that the report works as intended for all users?",
       options: [
         "A. Create the report in a private folder.",
         "B. Create a filter using bucketing.",
@@ -1478,7 +1478,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An administrator supporting a global team of Salesforce users has been asked to configure company settings.Which two options should the administrator configure?Choose 2 answers",
+        "An administrator supporting a global team of Salesforce users has been asked to configure company settings. Which two options should the administrator configure? Choose 2 answers",
       options: [
         "A. Currency Locale",
         "B. Password Policy",

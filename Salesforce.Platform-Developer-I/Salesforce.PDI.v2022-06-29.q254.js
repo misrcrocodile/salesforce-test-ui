@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "A developer wrote a unit test to confirm that a custom exception works properly in a custom controller, but the test failed due to an exception being thrown.Which step should the developer take to resolve the issue and properly test the exception?",
+        "A developer wrote a unit test to confirm that a custom exception works properly in a custom controller, but the test failed due to an exception being thrown. Which step should the developer take to resolve the issue and properly test the exception?",
       options: [
         "A. Use try/catch within the unit test to catch the exception.",
         "B. Use the database methods with all or none set to FALSE.",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the controller class below.Which code block will run successfully in an execute anonymous window?",
+        "A developer has the controller class below. Which code block will run successfully in an execute anonymous window?",
       options: [
         "A. myFooController m = new myFooController();System.assert(m.prop ==null);",
         "B. myFooController m = new myFooController();System.assert(m.prop !=null);",
@@ -155,7 +155,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle for Fahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must be sent to the Temperature component so the temperature can be converted and displayed.What is the recommend way to accomplish this?",
+        "A developer created a weather app that contains multiple Lightning web components.One of the components, called Toggle, has a toggle for Fahrenheit or Celsius units. Another component, called Temperature, displays the current temperature in the unit selected in the Toggle component When a user toggles from Fahrenheit to Celsius or vice versa in the Toggle component, the information must be sent to the Temperature component so the temperature can be converted and displayed. What is the recommend way to accomplish this?",
       options: [
         "A. Create a custom event to handle the communicate between the components.",
         "B. The Toggle component should call a method in the Temperature component.",
@@ -179,7 +179,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively.Which two techniques should the developer implement to ensure trigger best practice are followed?",
+        "A developer identifies the following triggers on the Expense_c object:\n　* deteleExpense,\n　* applyDefaultsToExpense\n　* validateExpenseUpdate;\nThe triggers process before delete, before insert, and before update events respectively. Which two techniques should the developer implement to ensure trigger best practice are followed?",
       options: [
         "A. Unify all three triggers in a single trigger on the Expense__c object that includes all events.",
         "B. Create helper classes to execute the appropriate logic when a record is saved.",
@@ -289,7 +289,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A candidate may apply to multiple jobs at the company Universal Containers by submtting a single application per job posting. Once an application is submitted for a job posting, that application cannot be modified to be resubmitted to a different job posting.What can the administrator do to associate an application with each job posting in the schema for the organization?",
+        "A candidate may apply to multiple jobs at the company Universal Containers by submtting a single application per job posting. Once an application is submitted for a job posting, that application cannot be modified to be resubmitted to a different job posting. What can the administrator do to associate an application with each job posting in the schema for the organization?",
       options: [
         "A. Create a lookup relationship on both objects to a junction object called Job Posting Applications.",
         "B. Create a master-detail relationship in the Application custom object to the Job Postings custom object.",
@@ -337,7 +337,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) decided it will not to send emails to support personnel directly from Salesforce in the event that an unhandled exception occurs. Instead, UC wants an external system be notified of the error.What is the appropriate publish/subscribe logic to meet these requirements?",
+        "Universal Containers (UC) decided it will not to send emails to support personnel directly from Salesforce in the event that an unhandled exception occurs. Instead, UC wants an external system be notified of the error. What is the appropriate publish/subscribe logic to meet these requirements?",
       options: [
         "A. Publish the error event using the addError() method and write a trigger to subscribe to the event and notify the external system.",
         "B. Have the external system subscribe to the BatchApexError event, no publishing is necessary.",
@@ -385,7 +385,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c.How can a developer accomplish this?",
+        "An sObject named Application_c has a lookup relationship to another sObject named Position_c. Both Application _c and Position_c have a picklist field named Status_c.When the Status_c field on Position_c is updated, the Status_c field on Application_c needs to be populated automatically with the same value, and execute a workflow rule on Application_c. How can a developer accomplish this?",
       options: [
         "A. By changing Application_c.Status_c into a formula field.",
         "B. By changing Application_c.Status_c into a roll -up summary field.",
@@ -409,7 +409,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator.Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
+        "A developer of Universal Containers is tasked with implementing a new Salesforce application that must be able to by their company's Salesforce administrator. Which three should be considered for building out the business logic layer of the application? Choose 3 answers",
       options: [
         "A. Workflows",
         "B. Invocable Actions",
@@ -434,7 +434,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Line Items has a Master-Detail field to Order and the Master can be re-parented.",
         "B. Order has a Lookup field to Line Item and there can be many Line Items per Order.",
@@ -458,7 +458,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to create a custom object to track Customer Invoices.How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
+        "A developer wants to create a custom object to track Customer Invoices. How should Invoices and Accounts be related to ensure that all Invoices are visible to everyone with access to an Account?",
       options: [
         "A. The Invoice should have a Master-Detail relationship to the Account",
         "B. The Account should have a Lookup relationship to the Invoice",
@@ -602,7 +602,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override.What is the correct implementation of the ShippingCalculator class?",
+        "A developer must create a ShippingCalculator class that cannot be instantiated and must include a working default implementation of a calculate method, that sub-classes can override. What is the correct implementation of the ShippingCalculator class?",
       options: [
         "A.\npublic abstract class ShippingCalculator {\n　public abstract calculate() {/*implementation*/}\n}\n",
         "B.\npublic abstract class ShippingCalculator {\n　public virtual void calculate() {/*implementation*/}\n}\n",
@@ -717,7 +717,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'.Which SOSL statement should the developer use?",
+        "A developer wants to retrieve the Contacts and Users with the email address '[email protected]'. Which SOSL statement should the developer use?",
       options: [
         "A. FIND Email IN Contact, User FOR {dev2uc.com}",
         "B. FIND {Email = '[email protected]'} IN Contact, User",
@@ -741,7 +741,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use.What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
+        "An Apex method, getAccounts, that returns a List of Accounts given a searchTerm, is available for Lightning Web components to use. What is the correct definition of a Lightning Web component property that uses the getAccounts method?",
       options: [
         "A. @wire(getAccounts, {searchTerm: '$searchTerm'})\naccountList;",
         "B. @AuraEnabled(getAccounts,'$searchTerm')\naccountList;",
@@ -1008,7 +1008,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
+        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status. Which tool should be used to implement this requirement?',
       options: [
         "A. Lightning",
         "B. Lightning Component",
@@ -1101,7 +1101,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A custom object Trainer_c has a lookup field to another custom object Gym___c.Which SOQL query will get the record for the Viridian City gym and it's trainers?",
+        "A custom object Trainer_c has a lookup field to another custom object Gym___c. Which SOQL query will get the record for the Viridian City gym and it's trainers?",
       options: [
         "A. SELECT Id, (SELECT Id FROM Trainer_c) FROM Gym_c WHERE Name - Viridian City Gym'",
         "B. SELECT Id, (SELECT Id FROM Trainers) FROM Gym_C WHERE Name . Viridian City Gym'",
@@ -1137,7 +1137,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the controller class below.Which code block will run successfully in an execute anonymous window?",
+        "A developer has the controller class below. Which code block will run successfully in an execute anonymous window?",
       options: [
         "A. myFooController m = new myFooController();System.assert(m.prop ==1);",
         "B. myFooController m = new myFooController();System.assert(m.prop !=null);",
@@ -1222,7 +1222,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database. Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
         "B. Use Partial DHL statements to ensure only valid data is committed.",
@@ -1234,7 +1234,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer creates a method in an Apex class and needs to ensure that errors are handled properly.What would the developer use? (There are three correct answers.)",
+        "A developer creates a method in an Apex class and needs to ensure that errors are handled properly. What would the developer use? (There are three correct answers.)",
       options: [
         "A. ApexPages.addErrorMessage()",
         "B. Database.handleException()",
@@ -1332,7 +1332,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class.Which code segment shows the correct declaration of the class and methods?",
+        "A developer needs to implement a custom SOAP Web Service that is used by an external Web Application. The developer chooses to Include helper methods that are not used by the Web Application In the Implementation of the Web Service Class. Which code segment shows the correct declaration of the class and methods?",
       options: [
         "A. \nwebservice class WebServiceClass {\n　private Boolean helperMethod(){/* implementation ... */}\n　global static String updateRecords() { /* implementation ... */}\n}",
         "B. \nglobal class WebServiceClass {\n　private Boolean helperMethod() { /* implementation ... */}\n　Webservice static String updateRecords() {/* implementation ... */}\n}",
@@ -1351,7 +1351,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer encounters APEX heap limit errors in a trigger.Which two methods should the developer use to avoid this error? (Choose two.)",
+        "A developer encounters APEX heap limit errors in a trigger. Which two methods should the developer use to avoid this error? (Choose two.)",
       options: [
         "A. Remove or set collections to null after use.",
         "B. Use SOQL for loops instead of assigning large queries results to a single collection and looping through the collection.",
@@ -1363,7 +1363,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting, that application cannot be modified to be resubmitted to a different job posting.What can the administrator do to associate an application with each job posting in the schema for the organization?",
+        "A candidate may apply to multiple jobs at the company Universal Containers by submitting a single application per job posting, that application cannot be modified to be resubmitted to a different job posting. What can the administrator do to associate an application with each job posting in the schema for the organization?",
       options: [
         "A. Create a lookup relationship in the Applications custom object to the Job Postings custom object.",
         "B. Create a master-detail relationship in the Job Postings custom object to the Applications custom object.",
@@ -1375,7 +1375,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning.What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
+        "AW Computing (AWC) handles orders In Salesforce and stores Its product Inventory In a fter, inventory__c, on a custom object, Product__c. When en order for a Product__c Is placed, the inventory__c field Is reduced by the quantity of the order using an Apex trigger.\npublic void reduceInventory(Id prodId, Integer qty) {\n　Integer newInventoryAmt = getNewInventoryAmt(prodId, qty);\n　Product__c p = new Product__c(Id = prodId, Inventory__c = newInventoryAmt);\n　update p;\n\n　// code goes here\n}\nAWC wants the real-time inventory reduction for a product to be sent to many of Its external systems, Including some future systems the company Is currently planning. What should a developer add to the code at the placeholder to meet these requirements?A)B)C)D)",
       options: [
         "A.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\nEventBus.publish(ev);\n",
         "B.\nInventoryReductionEvent__e ev = new InventoryReductionEvent__e(ProductId__c = prodId, Reduction__c = qty);\ninsert ev;\n",
@@ -1399,7 +1399,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has different Apex Classes that provide Account -related functionality.After a new validation rule is added to the object, many of the test methods fail.What can be done to resolve the failures and reduce the number of code changes needed for future validation rules? Choose 2 answers:",
+        "An org has different Apex Classes that provide Account -related functionality.After a new validation rule is added to the object, many of the test methods fail. What can be done to resolve the failures and reduce the number of code changes needed for future validation rules? Choose 2 answers:",
       options: [
         "A. Create a method that queries for valid Account records, and call this method from within test methods.",
         "B. Create a method that loads valid Account records from a Static Resource, and call this method within test methods.",
@@ -1489,7 +1489,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Lightning page in Salesforce Classic and a Visualforce page in Lightning Experience.",
         "B. Override the Contact's Edit button with a Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience.",
@@ -1501,7 +1501,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
+        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system. Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
       options: [
         "A. The method must be defined as public.",
         "B. The method must be defined as static.",
@@ -1538,7 +1538,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does.How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
+        "A developer needs to create a Visualforce page that displays Case data. The page will be used by both support reps and support managers. The Support Rep profile does not allow visibility of the Customer_Satisfaction__c field, but the Support Manager profile does. How can the developer create the page to enforce Field Level Security and keep future maintenance to a minimum?",
       options: [
         "A. Use a new Support Manager permission set.",
         "B. Create one Visualforce Page for use by both profiles.",
@@ -1605,7 +1605,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules.What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a trigger on the Account object on the before update event that increments a count field. A workflow rule also increments the count field every time that an Account is created or updated. The field update in the workflow rule is configured to not re-evaluate workflow rules. What is the value of the count field if an Account is inserted with an initial value of zero, assuming no other automation logic is implemented on the Account?",
       options: ["A. 4", "B. 2", "C. 1", "D. 3"],
       answer: "B",
       title: "Question 144",
@@ -1710,7 +1710,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The operation manager at a construction company uses a custom object called Machinery to manage the usage and maintenance of its cranes and other machinery. The manager wants to be able to assign machinery to different constructions jobs, and track the dates and costs associated with each job. More than one piece of machinery can be assigned to one construction job.What should a developer do to meet these requirements?",
+        "The operation manager at a construction company uses a custom object called Machinery to manage the usage and maintenance of its cranes and other machinery. The manager wants to be able to assign machinery to different constructions jobs, and track the dates and costs associated with each job. More than one piece of machinery can be assigned to one construction job. What should a developer do to meet these requirements?",
       options: [
         "A. Create a lookup field on the Machinery object to the Construction Job object.",
         "B. Create a junction object with Master-Detail Relationship to both the Machinery object and the Construction Job object.",
@@ -1741,7 +1741,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable.Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
+        "A developer must write an Apex method that will be called from a Lightning component. The method may delete an Account stored in the accountRec variable. Which method should a developer use to ensure only users that should be able to delete Accounts can successfully perform deletions?",
       options: [
         "A. Account.isDeletable()",
         "B. accountRec.sObjectType.isDeletable()",
@@ -1754,7 +1754,7 @@ window.testContent[testName].testList.push({
 
     {
       content:
-        "A developer created a Visualforce page and a custom controller with methods to handle different buttons and events that can occur on the page.What should the developer do to deploy to production?",
+        "A developer created a Visualforce page and a custom controller with methods to handle different buttons and events that can occur on the page. What should the developer do to deploy to production?",
       options: [
         "A. Create a test page that provides coverage of the Visualforce page.",
         "B. Create a test class that provides coverage of the Visualforce page.",
@@ -1809,7 +1809,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide custom user interfaces when users edit a Contact in either Salesforce Classic or Lightning Experience.What should the developer use to override the Contact's Edit button and provide this functionality?",
+        "A developer must provide custom user interfaces when users edit a Contact in either Salesforce Classic or Lightning Experience. What should the developer use to override the Contact's Edit button and provide this functionality?",
       options: [
         "A. A Visualforce page in Salesforce Classic and a Lightning page in Lightning Experience",
         "B. A Lightning page in Salesforce Classic and a Visualforce page in Lightning Experience",
@@ -1857,7 +1857,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders.What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
+        "A developer created a custom order management app that uses an Apex class. The order is represented by an Order object and an Orderltem object that has a master-detail relationship to Order. During order processing, an order may be split into multiple orders. What should a developer do to allow their code to move some existing Orderltem records to a new Order record?",
       options: [
         "A. Change the master-detail relationship to an external lookup relationship.",
         "B. Create a junction object between Orderltem and Order.",
@@ -1881,7 +1881,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to override a button using Visualforce on an object.What is the requirement?",
+        "A developer wants to override a button using Visualforce on an object. What is the requirement?",
       options: [
         "A. The controller or extension must have a PageReference method.",
         "B. The object record must be instantiated in a controller or extension.",
@@ -1905,7 +1905,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "AW Computing tracks order information in custom objects called order__c and order_Line_ c - Currently, all shipping information is stored in the order__c object.The company wants to expand Its order application to support split shipments so that any number of order_Line__c records on a single order__c can be shipped to different locations.What should a developer add to fulfill this requirement?",
+        "AW Computing tracks order information in custom objects called order__c and order_Line_ c - Currently, all shipping information is stored in the order__c object. The company wants to expand Its order application to support split shipments so that any number of order_Line__c records on a single order__c can be shipped to different locations. What should a developer add to fulfill this requirement?",
       options: [
         "A. Order_shipment_Group_c object and master-detail field on order_c",
         "B. Order_shipment_Group_c object and master-detail field to order_c and Order Line_c",
@@ -1917,7 +1917,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page.Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
+        "Assuming that 'name; is a String obtained by an <apex:inputText> tag on a Visualforce page. Which two SOQL queries performed are safe from SOQL injections? Choose 2 answers",
       options: [
         "A. String query ='SELECT Id FROM Account WHERE Name LIKE \\''%' + name.noQuotes() + '%\\''; List<Account> results = Database.query(query);",
         "B. String query = 'SELECT Id FROM Account WHERE Name LIKE \\''%' + name + '%\\''; List<Account> results = Database.query(query);",
@@ -1953,7 +1953,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A custom exception "RecordNotFoundException" is defined by the following code of block.public class RecordNotFoundException extends Exception()which statement can a developer use to throw a custom exception?choose 2 answers',
+        'A custom exception "RecordNotFoundException" is defined by the following code of block.public class RecordNotFoundException extends Exception()which statement can a developer use to throw a custom exception? Choose 2 answers',
       options: [
         'A. Throw new RecordNotFoundException("problem occured");',
         "B. Throw new RecordNotFoundException();",
@@ -2001,7 +2001,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated.How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
+        "A developer writes a single trigger on the Account object on the after insert and after update events. A workflow rule modifies a field every time an Account is created or updated. How many times will the trigger fire if a new Account is inserted, assuming no other automation logic is implemented on the Account?",
       options: ["A. 1", "B. 4", "C. 8", "D. 2"],
       answer: "D",
       title: "Question 179",
@@ -2033,7 +2033,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production.What should the developer do to ensure a successful deployment?",
+        "Given the following trigger implementation:\ntrigger leadTrigger on Lead (before update){\n　final ID BUSINESS_RECORDTYPEID = '012500000009Qad';\n　for(Lead thisLead : Trigger.new)　{\n　　if(thisLead.Company != null &&thisLead.RecordTypeId != BUSINESS_RECORDTYPEID)　{\n　　　thisLead.RecordTypeId = BUSINESS_RECORDTYPEID;\n　　}\n　}\n} \nThe developer receives deployment errors every time a deployment is attempted from Sandbox to Production. What should the developer do to ensure a successful deployment?",
       options: [
         "A. Ensure a record type with an ID of BUSINESS_RECORDTYPEID exists on Production prior to deployment.",
         "B. Ensure BUSINESS_RECORDTYPEID is retrieved using Schema.Describe calls.",
@@ -2088,7 +2088,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object.What should be built to implement this feature?",
+        "When a user edits the Postal Code on an Account, a custom Account text field named ''Timezone'' must be updated based on the values in a postalCodeToTimezone_c custom object. What should be built to implement this feature?",
       options: [
         "A. Account custom trigger",
         "B. Account approval process",
@@ -2100,7 +2100,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this? Choose 2 answers",
+        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage. Which two strategies can a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a validation rule.",
         "B. Use a trigger.",
@@ -2123,7 +2123,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria. Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria andsend an outbound message with Apex Code.",
         "B. Approval Process has the capacity to check the record criteria and send an outbound message without Apex Code",
@@ -2148,7 +2148,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock.Which relationship implementation supports these requirements?",
+        "A developer has the following requirements:Calculate the total amount on an Order.Calculate the line amount for each Line Item based on quantity selected and price.Move Line Items to a different Order if a Line Item is not stock. Which relationship implementation supports these requirements?",
       options: [
         "A. Order has a Master-Detail field to Line Item and there can be many Line Items per Order.",
         "B. Line Item has a Lookup field to Order and there can be many Line Items per Order",
@@ -2235,7 +2235,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A method is passed a list of generic sObjects as a parameter.What should the developer do to determine which object type (Account, Lead, or Contact, for example) to cast each sObject?",
+        "A method is passed a list of generic sObjects as a parameter. What should the developer do to determine which object type (Account, Lead, or Contact, for example) to cast each sObject?",
       options: [
         "A. Use the getSObjectName method on the sObject class to get the sObject name.",
         "B. Use the first three characters of the sObject ID to determine the sObject type.",
@@ -2271,7 +2271,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent.Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
+        "A developer needs to join data received from an integration with an external system with parent records in Salesforce. The data set does not contain the Salesforce IDs of the parent records, but it does have a foreign key attribute that can be used to identify the parent. Which action will allow the developer to relate records in the data model without knowing the Salesforce ID?",
       options: [
         "A. Create a custom field on the child object of type Foreign Key",
         "B. Create a custom field on the child object of type External Relationship.",
@@ -2412,7 +2412,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a Lightning component to display a short text summary for an object and wants to use it with multiple Apex classes.How should the developer design the Apex classes?",
+        "A developer created a Lightning component to display a short text summary for an object and wants to use it with multiple Apex classes. How should the developer design the Apex classes?",
       options: [
         "A. Extend each class from the same base class that has a method getTextSummary() that returns the summary.",
         "B. Have each class define method getObject() that returns the sObject that is controlled by the Apex class.",
@@ -2449,7 +2449,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment.How should the developer track that an Account has purchased a piece of equipment.",
+        "A developer must build application that tracks which Accounts have purchase specific pieces of equal products. Each Account could purchase many pieces of equipment. How should the developer track that an Account has purchased a piece of equipment.",
       options: [
         "A. Use a Master-Detail on Product to Account",
         "B. Use the Asset object.",
@@ -2473,7 +2473,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer is asked to set a picklist field to 'Monitor' on any new Leads owned by a subnet of Users.How should the developer implement this request?",
+        "A developer is asked to set a picklist field to 'Monitor' on any new Leads owned by a subnet of Users. How should the developer implement this request?",
       options: [
         "A. Create a Lead formula field.",
         "B. Create an after insert Lead trigger.",
@@ -2528,7 +2528,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status.Which tool should be used to implement this requirement?',
+        'A developer has a requirement to create an Order When an Opportunity reaches a "Closed-Won" status. Which tool should be used to implement this requirement?',
       options: [
         "A. Apex trigger",
         "B. Process Builder",
@@ -2606,7 +2606,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration chat reads task records is periodically reporting errors.Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
+        "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration chat reads task records is periodically reporting errors. Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
       options: [
         "A. Use a try-catch block after the insert statement.",
         "B. Deactivate the trigger before the integration runs.",
@@ -2618,7 +2618,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience.What should the developer do to provide the custom user interface?",
+        "A developer must provide a custom user interface when users edit a Contact. Users must be able to use the interface in Salesforce Classic and Lightning Experience. What should the developer do to provide the custom user interface?",
       options: [
         "A. Override the Contact's Edit button with a Lightning page in Salesforce Classic and a Visualforce page in Lightning Experience.",
         "B. Override the Contact's Edit buttonwith a Visualforce page in Salesforce Classic and a Lightning component in Lightning Experience.",
