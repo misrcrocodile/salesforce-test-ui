@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-03-30.q75",
+  name: "Salesforce.Platform-Developer-I.v2022-03-30.q75",
   content: [
     {
       content:
@@ -389,7 +389,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three considerations when using the @InvocableMethod annotation in Apex?Choose 3 answers",
+        "What are three considerations when using the @InvocableMethod annotation in Apex? Choose 3 answers",
       options: [
         "A. A method using the @InvocableMethod annotation can have multiple input parameters.",
         "B. Only one method using the @InvocableMethod annotqation can be defined per Apex class.",
@@ -512,7 +512,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. Query the AsyncApexJob object",
         "B. View the apex flex Queue",
@@ -595,7 +595,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox?Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. SFDX CLI",
         "B. Developer Console",
@@ -679,7 +679,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. extensions",
         "B. Action",
@@ -692,7 +692,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are accurate regarding Apex classes and interfaces?Choose 2 answers",
+        "Which two statements are accurate regarding Apex classes and interfaces? Choose 2 answers",
       options: [
         "A. Interface methods are public by default.",
         "B. A top-level class can only have one inner class level.",
@@ -759,7 +759,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three characteristics of change set deployments?Choose 3 answers",
+        "What are three characteristics of change set deployments? Choose 3 answers",
       options: [
         "A. Change sets can only be used between related organizations.",
         "B. Sending a change set between two orgs requires a deployment connection.",

@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-06-29.q254",
+  name: "Salesforce.Platform-Developer-I.v2022-06-29.q254",
   content: [
     {
       content:
@@ -349,7 +349,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException?Choose 2 answers",
+        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException? Choose 2 answers",
       options: [
         "A. Throw Exception(new MissingFieldValueException());",
         "B. Throw new MissingFieldValueException('Problem occurred');",
@@ -790,7 +790,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For which three items can a trace flag be configured?Choose 3 answers",
+        "For which three items can a trace flag be configured? Choose 3 answers",
       options: [
         "A. Apex Trigger",
         "B. Process Builder",
@@ -802,7 +802,7 @@ window.testContent[testName].testList.push({
       title: "Question 67",
     },
     {
-      content: "Where can debug log filter settings be set?Choose 2 answers",
+      content: "Where can debug log filter settings be set? Choose 2 answers",
       options: [
         "A. The Show More link on the debug log's record.",
         "B. The Filters link by the monitored user's name within the web UI.",
@@ -1222,7 +1222,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits?Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
         "B. Use Partial DHL statements to ensure only valid data is committed.",
@@ -1399,7 +1399,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An org has different Apex Classes that provide Account -related functionality.After a new validation rule is added to the object, many of the test methods fail.What can be done to resolve the failures and reduce the number of code changes needed for future validation rules?Choose 2 answers:",
+        "An org has different Apex Classes that provide Account -related functionality.After a new validation rule is added to the object, many of the test methods fail.What can be done to resolve the failures and reduce the number of code changes needed for future validation rules? Choose 2 answers:",
       options: [
         "A. Create a method that queries for valid Account records, and call this method from within test methods.",
         "B. Create a method that loads valid Account records from a Static Resource, and call this method within test methods.",
@@ -1501,7 +1501,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method?Choose 3 answers",
+        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
       options: [
         "A. The method must be defined as public.",
         "B. The method must be defined as static.",
@@ -1989,7 +1989,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two approaches optimize test maintenance and support future declarative configuration changes?Choose 2 answers.",
+        "Which two approaches optimize test maintenance and support future declarative configuration changes? Choose 2 answers.",
       options: [
         "A. Create a method that performs a callout for valid records, then call this method within test methods.",
         "B. Create a method that queries for valid records, then call this method within test methods.",
@@ -2100,7 +2100,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this?Choose 2 answers",
+        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a validation rule.",
         "B. Use a trigger.",
@@ -2123,7 +2123,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria andsend an outbound message with Apex Code.",
         "B. Approval Process has the capacity to check the record criteria and send an outbound message without Apex Code",
@@ -2295,7 +2295,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What should a developer working in a sandbox use to exercise a new test Class before the developer deploys that test production?Choose 2 answers",
+        "What should a developer working in a sandbox use to exercise a new test Class before the developer deploys that test production? Choose 2 answers",
       options: [
         "A. The REST API and ApexTestRun method",
         "B. The Apex Test Execution page in Salesforce Setup.",
@@ -2331,7 +2331,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three capabilities of the <ltng : require> tag when loading JavaScript resources in Aura components?Choose 3 answers",
+        "What are three capabilities of the <ltng : require> tag when loading JavaScript resources in Aura components? Choose 3 answers",
       options: [
         "A. Specifying loading order",
         "B. Loading externally hosted scripts",

@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2023-07-24.q102",
+  name: "Salesforce.Platform-Developer-I.v2023-07-24.q102",
   content: [
     {
       content:
@@ -187,7 +187,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application?Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Process builder", "B. Validation Rules", "C. Flow Builder"],
       answer: "A,B,C",
       title: "Question 16",
@@ -426,7 +426,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller?Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. public ExtendedController(ApexPages StandardController cntrl) { }",
         "B. ApexPages.CurrentPage().getParameters().put('input\\', 'TestValue');",
@@ -535,7 +535,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the &lt;apex:page&gt; tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the &lt;apex:page&gt; tag to accomplish this? Choose 3 answers",
       options: [
         "A. standard Controller",
         "B. readOnly",
@@ -548,7 +548,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A business has a proprietary Order Management System (OMS) that creates orders from their website and ... the order. When the order is created in the OMS, an integration also creates an order record in Salesforce ... relates it to the contact as identified by the email on the order. As the order goes through different stages in OMS, the integration also updates it in Salesforce.It is notified that each update from the OMS creates a new order record in Salesforce.Which two actions prevent the duplicate order records from being created in Salesforce?Choose 2 answers",
+        "A business has a proprietary Order Management System (OMS) that creates orders from their website and ... the order. When the order is created in the OMS, an integration also creates an order record in Salesforce ... relates it to the contact as identified by the email on the order. As the order goes through different stages in OMS, the integration also updates it in Salesforce.It is notified that each update from the OMS creates a new order record in Salesforce.Which two actions prevent the duplicate order records from being created in Salesforce? Choose 2 answers",
       options: [
         "A. Use the email on the contact record as an external ID.",
         "B. Write a before trigger on the order object to delete any duplicates.",
@@ -1014,7 +1014,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has created a unique process for tracking container repairs. A custom field, status__c, has been created within the container__c custom object. A developer is tasked with sending notifications to multiple external systems every time the value of the status__picklist changes.Which two tools should the developer use to meet the business requirement and ensure low maintenance of the solution?Choose 2 answers",
+        "Universal Containers has created a unique process for tracking container repairs. A custom field, status__c, has been created within the container__c custom object. A developer is tasked with sending notifications to multiple external systems every time the value of the status__picklist changes.Which two tools should the developer use to meet the business requirement and ensure low maintenance of the solution? Choose 2 answers",
       options: [
         "A. Platform event",
         "B. Apex trigger",

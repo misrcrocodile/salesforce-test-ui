@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-02-09.q66",
+  name: "Salesforce.Platform-Developer-I.v2022-02-09.q66",
   content: [
     {
       content:
@@ -65,7 +65,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When importing and exporting data into Salesforce, whichtwo statements are true?Choose 2 answers",
+        "When importing and exporting data into Salesforce, whichtwo statements are true? Choose 2 answers",
       options: [
         "A. Bulk API can be used to bypass the storage limits when importing large data volumes indevelopment environments.",
         "B. Bulk API can be used to import large data volumes in development environments without bypassing the storage limits.",
@@ -163,7 +163,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizardaccepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller?Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizardaccepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. insert pageRef.",
         "B. Test.setCurrentPage(pageRef);",
@@ -300,7 +300,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. renderAs",
         "B. extensions",
@@ -337,7 +337,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are true about using the @testSetup annotation in an Apex test class?Choose 2 answers",
+        "Which two statements are true about using the @testSetup annotation in an Apex test class? Choose 2 answers",
       options: [
         "A. Test data is inserted once for all test methods in a class.",
         "B. Qo The @testSetup annotation is not supported when the GisTest(SeeAllData=True) annotation is used.",
@@ -394,7 +394,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations affect the number of times a trigger can fire?Choose 3 answers",
+        "Which three operations affect the number of times a trigger can fire? Choose 3 answers",
       options: [
         "A. Workflow Rules",
         "B. Email messages",
@@ -478,7 +478,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. workflows can be used to check the record criteria and send an outbound message.",
         "B. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
@@ -706,7 +706,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three considerations when usingthe @InvocableMethod annotation in Apex?Choose 3 answers",
+        "What are three considerations when usingthe @InvocableMethod annotation in Apex? Choose 3 answers",
       options: [
         "A. A method using the @InvocableMethod annotation can have multiple input parameters.",
         "B. A method using the @InvocableMethod annotation must define a return value.",
@@ -767,7 +767,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways that a controller and extension can be specified on a Visualforce page?Choose 2 answers",
+        "What are two ways that a controller and extension can be specified on a Visualforce page? Choose 2 answers",
       options: [
         'A. Qo apex:page standardController="Account" extensions="myControllerExtension"',
         'B. [email protected]:page=Account extends="myControllerExtension"',

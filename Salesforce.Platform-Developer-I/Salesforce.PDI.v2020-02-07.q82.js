@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2020-02-07.q82",
+  name: "Salesforce.Platform-Developer-I.v2020-02-07.q82",
   content: [
     {
       content:
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What is a capability of a StandardSetController?Choose 2 answers",
+        "What is a capability of a StandardSetController? Choose 2 answers",
       options: [
         "A. It allows pages to perform mass updates of records",
         "B. It enforces field-level security when reading large record sets",
@@ -338,7 +338,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which trigger event allows a developer to update fields in the Trigger.new list without using an additional DML statement?Choose 2 answers",
+        "Which trigger event allows a developer to update fields in the Trigger.new list without using an additional DML statement? Choose 2 answers",
       options: [
         "A. Before insert",
         "B. After insert",
@@ -350,7 +350,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException?Choose 2 answers",
+        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException? Choose 2 answers",
       options: [
         "A. Throw new MissingFieldValueException('Problem occurred');",
         "B. Throw Exception(new MissingFieldValueException());",
@@ -695,7 +695,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When creating unit tests in Apex, which statement is accurate?Choose 2",
+        "When creating unit tests in Apex, which statement is accurate? Choose 2",
       options: [
         "A. System Assert statements that do not Increase code coverage contribute important feedback in unit tests",
         "B. Increased test coverage requires large test classes with many lines of code in one method.",
@@ -923,7 +923,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two approaches optimize test maintenance and support future declarative configuration changes?Choose 2 answers.",
+        "Which two approaches optimize test maintenance and support future declarative configuration changes? Choose 2 answers.",
       options: [
         "A. Create a method that performs a callout for valid records, then call this method within test methods.",
         "B. Create a methods that loads valid Account records from a static resources, then call this method within test methods.",

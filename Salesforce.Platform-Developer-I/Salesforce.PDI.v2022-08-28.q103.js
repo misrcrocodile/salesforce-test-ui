@@ -1,16 +1,16 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-08-28.q103",
+  name: "Salesforce.Platform-Developer-I.v2022-08-28.q103",
   content: [
     {
       content:
-        "Which two types of process automation can be used to calculate the shipping cost for an Order when the Order is placed and apply a percentage of the shipping cost of some of the related Order Products?Choose 2 answers",
+        "Which two types of process automation can be used to calculate the shipping cost for an Order when the Order is placed and apply a percentage of the shipping cost of some of the related Order Products? Choose 2 answers",
       options: [
         "A. Flow Builder",
         "B. Approval Process",
@@ -129,7 +129,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three statements are accurate about debug logs?Choose 3 answers",
+        "Which three statements are accurate about debug logs? Choose 3 answers",
       options: [
         "A. Only the 20 most recent debug logs for a user are kept.",
         "B. System debug logs are retained for 24 hours.",
@@ -352,7 +352,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:\n　* Rollup summary fields\n　* Custom validation rules\n　* Duplicate rules\nA developer created a trigger on the Account object.What two things should the developer consider while testing the trigger code?Choose 2 answers",
+        "The Account object in an organization has a master detail relationship to a child object called Branch. The following automations exist:\n　* Rollup summary fields\n　* Custom validation rules\n　* Duplicate rules\nA developer created a trigger on the Account object.What two things should the developer consider while testing the trigger code? Choose 2 answers",
       options: [
         "A. Rollup summary fields can cause the parent record to go through Save.",
         "B. The validation rules will cause the trigger to fire again.",
@@ -364,7 +364,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are three considerations when using the @InvocableMethod annotation in Apex?Choose 3 answers",
+        "What are three considerations when using the @InvocableMethod annotation in Apex? Choose 3 answers",
       options: [
         "A. A method using the @InvocableMethod annotation must define a return value.",
         "B. Only one method using the @InvocableMethod annotqation can be defined per Apex class.",
@@ -396,7 +396,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Salesforce Administrator created a custom picklist field, Account_status_c, on the a Account object. This picklist has possible values of Inactive'' and Active?As part of a new business process, management wants to ensure an opportunity record is created only for Accounts marked as \"Active\". A developer is asked to implement this business requirement.Which two automation tools should be used to fulfill the business need?Choose 2 answers",
+        "The Salesforce Administrator created a custom picklist field, Account_status_c, on the a Account object. This picklist has possible values of Inactive'' and Active?As part of a new business process, management wants to ensure an opportunity record is created only for Accounts marked as \"Active\". A developer is asked to implement this business requirement.Which two automation tools should be used to fulfill the business need? Choose 2 answers",
       options: [
         "A. Process Builder",
         "B. Workflow Rules",
@@ -469,7 +469,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits?Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the System.Limit class to monitor the current CPU governor limit consumption.",
         "B. Use the Database.Savepoint method to enforce database integrity.",
@@ -529,7 +529,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. renderAs",
         "B. readOnly",
@@ -554,7 +554,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application?Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Validation Rules", "B. Flow Builder", "C. Process builder"],
       answer: "A,B,C",
       title: "Question 47",
@@ -668,7 +668,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three Salesforce resources can be accessed from a Lightning web component?Choose 3 answers",
+        "Which three Salesforce resources can be accessed from a Lightning web component? Choose 3 answers",
       options: [
         "A. Third-party web components",
         "B. Content asset files",
@@ -724,7 +724,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways that a controller and extension can be specified on a Visualforce page?Choose 2 answers",
+        "What are two ways that a controller and extension can be specified on a Visualforce page? Choose 2 answers",
       options: [
         'A. Qo apex:page standardController="Account" extensions="myControllerExtension"',
         'B. [email protected]:page=Account extends="myControllerExtension"',
@@ -803,7 +803,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom Interface in Apex.Which three considerations must the developer keep in mind while developing the Apex Interface?Choose 3 answers",
+        "A developer needs to create a custom Interface in Apex.Which three considerations must the developer keep in mind while developing the Apex Interface? Choose 3 answers",
       options: [
         "A. The Apex class must be declared using the interface keyword.",
         "B. New methods can be added to a public interface within a released package.",
@@ -913,7 +913,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. workflows can be used to check the record criteria and send an outbound message.",
         "B. Visual Workflow can be used to check the record criteria and send an outbound message without Apex Code.",
@@ -926,7 +926,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements?Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Einstein Next Best Action",
         "B. Record_Triggered Flow",
@@ -962,7 +962,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective?Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Specify lightningCommunity_Page_Layout as a target in the XML file.",
         "B. Ensure isExposed is set to true on the XML file.",
@@ -1034,7 +1034,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When importing and exporting data into Salesforce, which two statements are true?Choose 2 answers",
+        "When importing and exporting data into Salesforce, which two statements are true? Choose 2 answers",
       options: [
         "A. Data import wizard is a client application provided by Salesforce.",
         "B. Developer and Developer Pro sandboxes have different storage limits.",
@@ -1094,7 +1094,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished?Choose 2 answers",
+        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished? Choose 2 answers",
       options: [
         "A. The parent component can invoke a method in the child component",
         "B. The parent component can use a public property to pass the data to the child component.",

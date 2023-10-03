@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2021-06-08.q54",
+  name: "Salesforce.Platform-Developer-I.v2021-06-08.q54",
   content: [
     {
       content:
@@ -381,7 +381,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations affect the number of times a trigger can fire?Choose 3 answers",
+        "Which three operations affect the number of times a trigger can fire? Choose 3 answers",
       options: [
         "A. Email messages",
         "B. Process Flows",

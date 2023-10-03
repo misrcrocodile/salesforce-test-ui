@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-08-15.q90",
+  name: "Salesforce.Platform-Developer-I.v2022-08-15.q90",
   content: [
     {
       content:
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For which three items can a trace flag be configured?Choose 3 answers",
+        "For which three items can a trace flag be configured? Choose 3 answers",
       options: [
         "A. Apex Trigger",
         "B. Process Builder",
@@ -120,7 +120,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are true about using the @testSetup annotation in an Apex test class?Choose 2 answers",
+        "Which two statements are true about using the @testSetup annotation in an Apex test class? Choose 2 answers",
       options: [
         "A. Records created in the test setup method cannot be updated in individual test methods.",
         "B. Qo The @testSetup annotation is not supported when the GisTest(SeeAllData=True) annotation is used.",
@@ -156,7 +156,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When importing and exporting data into Salesforce, which two statements are true?Choose 2 answers",
+        "When importing and exporting data into Salesforce, which two statements are true? Choose 2 answers",
       options: [
         "A. Data import wizard is a client application provided by Salesforce.",
         "B. Developer andDeveloper Pro sandboxes have different storage limits.",
@@ -204,7 +204,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field isset to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements?Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field isset to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Scheduled Flow",
         "B. Record_Triggered Flow",
@@ -247,7 +247,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three statements are accurate about debug logs?Choose 3 answers",
+        "Which three statements are accurate about debug logs? Choose 3 answers",
       options: [
         "A. The Apex transaction fails with the following message. \"SObject row was retrieved via SOQL without queryingthe requested field Account.Is.Tech__c''.",
         "B. If executed in an asynchronous context, the apex transaction is likely to fallby exceeding the DML governor limit",
@@ -436,7 +436,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Management asked for opportunities to be automatically created for accounts with annual revenue greater than$1,000,000. A developer created the following trigger on the Account object to satisfy this requirement.Users are able to update the account records via the UI and can see an opportunity created for high annual revenue accounts. However, when the administrator tries to upload a list of 179 accounts using Data Loader, It fails withsystem. Exception errors.Which two actions should the developer take to fix the code segment shown above?Choose 2 answers",
+        "Management asked for opportunities to be automatically created for accounts with annual revenue greater than$1,000,000. A developer created the following trigger on the Account object to satisfy this requirement.Users are able to update the account records via the UI and can see an opportunity created for high annual revenue accounts. However, when the administrator tries to upload a list of 179 accounts using Data Loader, It fails withsystem. Exception errors.Which two actions should the developer take to fix the code segment shown above? Choose 2 answers",
       options: [
         "A. Move the DML that saves opportunities outside the for loop.",
         "B. Query for existing opportunities outside the for loop.",
@@ -448,7 +448,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this?Choose 2 answers",
+        "Universal Containers wants Opportunities to no longer be editable when it reaches the Closed/Won stage.Which two strategies can a developer use to accomplish this? Choose 2 answers",
       options: [
         "A. Use a trigger.",
         "B. Use a validation rule.",
@@ -550,7 +550,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three Salesforce resources can be accessed from a Lightning webcomponent?Choose 3 answers",
+        "Which three Salesforce resources can be accessed from a Lightning webcomponent? Choose 3 answers",
       options: [
         "A. All external libraries",
         "B. Third-party web components",
@@ -641,7 +641,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploysto a sandbox?Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploysto a sandbox? Choose 2 answers",
       options: [
         "A. Change Sets",
         "B. SFDX CLI",
@@ -824,7 +824,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "UniversalContainers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application?Choose 3 answers",
+        "UniversalContainers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Processbuilder", "B. Flow Builder", "C. Validation Rules"],
       answer: "A,B,C",
       title: "Question 71",
@@ -919,7 +919,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to bedefined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to bedefined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. standard Controller",
         "B. readOnly",
@@ -987,7 +987,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are accurate regarding Apex classes and interfaces?Choose 2 answers",
+        "Which two statements are accurate regarding Apex classes and interfaces? Choose 2 answers",
       options: [
         "A. Interface methods are public by default.",
         "B. Inner classes are public by default.",

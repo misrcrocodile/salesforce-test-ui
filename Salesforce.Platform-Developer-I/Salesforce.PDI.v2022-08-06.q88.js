@@ -1,16 +1,16 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2022-08-06.q88",
+  name: "Salesforce.Platform-Developer-I.v2022-08-06.q88",
   content: [
     {
       content:
-        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application?Choose 3 answers",
+        "Universal Containers decides to use purely declarative development to build out a new Salesforce application.Which three options can be used to build out the business logic layer for this application? Choose 3 answers",
       options: ["A. Flow Builder", "B. Validation Rules", "C. Process builder"],
       answer: "A,B,C",
       title: "Question 1",
@@ -86,7 +86,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are true about using the @testSetup annotation in an Apex test class?Choose 2 answers",
+        "Which two statements are true about using the @testSetup annotation in an Apex test class? Choose 2 answers",
       options: [
         "A. Test data is inserted once for all test methods in a class.",
         "B. Records created in the test setup method cannot be updated in individual test methods.",
@@ -121,7 +121,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished?Choose 2 answers",
+        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished? Choose 2 answers",
       options: [
         "A. The parent component can use a public property to pass the data to the child component.",
         "B. The parent component can use a custom event to pass the data to the child component,",
@@ -295,7 +295,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller?Choose 3 answers",
+        "A developer has a single custom controller class that works with a Visualforce Wizard to support creating and editing multiple subjects. The wizard accepts data from user inputs across multiple Visualforce pages and from a parameter on the initial URL.Which three statements are useful inside the unit test to effectively test the custom controller? Choose 3 answers",
       options: [
         "A. insert pageRef.",
         "B. Test.setCurrentPage(pageRef);",
@@ -320,7 +320,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits?Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the System.Limit class to monitor the current CPU governor limit consumption.",
         "B. Use the @ReadOnly annotation to bypass the number of rows returned by a SOQL.",
@@ -392,7 +392,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "When importing and exporting data into Salesforce, which two statements are true?Choose 2 answers",
+        "When importing and exporting data into Salesforce, which two statements are true? Choose 2 answers",
       options: [
         "A. Data import wizard is a client application provided by Salesforce.",
         "B. Bulk API can be used to import large data volumes in development environments without bypassing the storage limits.",
@@ -404,7 +404,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "For which three items can a trace flag be configured?Choose 3 answers",
+        "For which three items can a trace flag be configured? Choose 3 answers",
       options: [
         "A. User",
         "B. Process Builder",
@@ -617,7 +617,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three Salesforce resources can be accessed from a Lightning web component?Choose 3 answers",
+        "Which three Salesforce resources can be accessed from a Lightning web component? Choose 3 answers",
       options: [
         "A. Third-party web components",
         "B. All external libraries",
@@ -630,7 +630,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
         "B. Visual Workflow can be used to check the record criteria and send an outbound message without Apex Code.",
@@ -801,7 +801,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code?Choose 2 answers",
+        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
       options: [
         "A. Use the @isTest(isParallel=true) annotation in the test class.",
         "B. Use Test.loadData to populate data in your test methods.",
@@ -873,7 +873,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways that a controller and extension can be specified on a Visualforce page?Choose 2 answers",
+        "What are two ways that a controller and extension can be specified on a Visualforce page? Choose 2 answers",
       options: [
         'A. Qo apex:page standardController="Account" extensions="myControllerExtension"',
         'B. apex:page controller="Account" extensions="myControllerExtension""',
@@ -892,7 +892,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method?Choose 3 answers",
+        "Einstein Next Best Action Is configured at Universal Containers to display recommendations to internal users on the Account detail page.If the recommendation is approved, a new opportunity record and task should be generated. If the recommendation is rejected, an Apex method must be executed to perform a callout to an external system.Which three factors should a developer keep Hi mind when implementing the Apex method? Choose 3 answers",
       options: [
         "A. The method must be defined as static.",
         "B. The method must be defined as public.",
@@ -959,7 +959,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective?Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Specify lightning_RecordPage as a target in the XML file.",
         "B. Ensure isExposed is set to true on the XML file.",

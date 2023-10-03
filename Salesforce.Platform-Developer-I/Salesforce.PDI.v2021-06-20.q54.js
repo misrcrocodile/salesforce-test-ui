@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2021-06-20.q54",
+  name: "Salesforce.Platform-Developer-I.v2021-06-20.q54",
   content: [
     {
       content:
@@ -108,7 +108,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. View the apex status Page",
         "B. Query the AsyncApexJob object",
@@ -168,7 +168,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. readOnly",
         "B. extensions",

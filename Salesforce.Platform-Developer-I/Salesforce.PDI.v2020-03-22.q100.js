@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2020-03-22.q100",
+  name: "Salesforce.Platform-Developer-I.v2020-03-22.q100",
   content: [
     {
       content:
@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What is a benefit of the Lightning Component framework?Choose 3 answers",
+        "What is a benefit of the Lightning Component framework? Choose 3 answers",
       options: [
         "A. It uses an event-driven architecture",
         "B. It uses server-side JavaScript controller for logic.",
@@ -634,7 +634,7 @@ window.testContent[testName].testList.push({
       title: "Question 54",
     },
     {
-      content: "Where can debug log filter settings be set?Choose 2 answers",
+      content: "Where can debug log filter settings be set? Choose 2 answers",
       options: [
         "A. The Filters link by the monitored user's name within the web UI.",
         "B. On the monitored user's name.",

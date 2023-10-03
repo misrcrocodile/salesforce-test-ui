@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2023-03-21.q230",
+  name: "Salesforce.Platform-Developer-I.v2023-03-21.q230",
   content: [
     {
       content:
@@ -599,7 +599,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three statements are accurate about debug logs?Choose 3 answers",
+        "Which three statements are accurate about debug logs? Choose 3 answers",
       options: [
         "A. Only the 20 most recent debug logs for a user are kept.",
         "B. System debug logs are retained for 24 hours.",
@@ -636,7 +636,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException?Choose 2 answers",
+        "Which two statement can a developer use to throw a custom exception of type MissingFieldValueException? Choose 2 answers",
       options: [
         "A. Throw new MissingFieldValueException();",
         "B. Throw (MissingFieldValueException,'Problem occurred');",
@@ -714,7 +714,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished?Choose 2 answers",
+        "A developer created a child Lightning web component nested inside a parent Lightning web component, parent component needs to pass a string value to the child component.In which two ways can this be accomplished? Choose 2 answers",
       options: [
         "A. The parent component can use a custom event to pass the data to the child component,",
         "B. The parent component can use a public property to pass the data to the child component.",
@@ -810,7 +810,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are true about using the @testSetup annotation in an Apex test class?Choose 2 answers",
+        "Which two statements are true about using the @testSetup annotation in an Apex test class? Choose 2 answers",
       options: [
         "A. Records created in the test setup method cannot be updated in individual test methods.",
         "B. Test data is inserted once for all test methods in a class.",
@@ -1137,7 +1137,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits?Choose 2 answers",
+        "A developer has to identify a method in en Apex class that performs resource intensive actions in memory by iterating over the result set of a SOQL statement on the account. The method also performs a SOQL statement to save the changes to the database.Which two techniques should the developer implement as a best practice to ensure transaction control and avoid exceeding governor limits? Choose 2 answers",
       options: [
         "A. Use the Database.Savepoint method to enforce database Integrity.",
         "B. Use the System.Limit class to monitor the current CPU governor limit consumption.",
@@ -1205,7 +1205,7 @@ window.testContent[testName].testList.push({
       title: "Question 108",
     },
     {
-      content: "Where can debug log filter settings be set?Choose 2 answers",
+      content: "Where can debug log filter settings be set? Choose 2 answers",
       options: [
         "A. On the monitored user's name.",
         "B. The Filters link by the monitored user's name within the web UI.",
@@ -1320,7 +1320,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. Query the AsyncApexJob object",
         "B. View the apex status Page",
@@ -1400,7 +1400,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code?Choose 2 answers",
+        "A developer created a trigger on the Account object and wants to test if the trigger is properly bulklfield. The developer team decided that the trigger should be tested with 200 account records with unique names.What two things should be done to create the test data within the unit test with the least amount of code? Choose 2 answers",
       options: [
         "A. Use the @isTest(isParallel=true) annotation in the test class.",
         "B. Use the @isTest(seeAllData=true) annotation in the test class.",
@@ -1412,7 +1412,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are accurate regarding Apex classes and interfaces?Choose 2 answers",
+        "Which two statements are accurate regarding Apex classes and interfaces? Choose 2 answers",
       options: [
         "A. Classes are final by default.",
         "B. A top-level class can only have one inner class level.",
@@ -1616,7 +1616,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets aspecific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Visual Workflow canbe used to check the record criteria and send an outbound message without Apex Code.",
         "B. Process builder can be used to check the record criteria and send an outbound messagewithout Apex Code.",
@@ -1678,7 +1678,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. View the apex status Page",
         "B. View the apex Jobs page",
@@ -1865,7 +1865,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What is a capability of a StandardSetController?Choose 2 answers",
+        "What is a capability of a StandardSetController? Choose 2 answers",
       options: [
         "A. It extends the functionality of a standard or custom controller",
         "B. It allows pages to perform pagination with large record sets",
@@ -2052,7 +2052,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. Query the AsyncApexJob object",
         "B. View the apex Jobs page",
@@ -2255,7 +2255,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements?Choose 2 answers",
+        "Universal Container uses Service Cloud with a custom field, stage_c, on the Case object.Management wants to send a follow-up email reminder 6 hours after the stage_c field is set to '';Waiting on customer'' The .... Administrator wants to ensure the solution used is bulk safe.Which two automation tools should a developer recommend to meet these business requirements? Choose 2 answers",
       options: [
         "A. Record_Triggered Flow",
         "B. Scheduled Flow",
@@ -2291,7 +2291,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective?Choose 2 answers",
+        "A third-party vendor created an unmanaged Lightning web component. The Salesforce Administrator wishes to expose the component only on Record Page Layouts.Which two actions should the developer take to accomplish this business objective? Choose 2 answers",
       options: [
         "A. Ensure isExposed is set to true on the XML file.",
         "B. Specify lightningCommunity_Page as a target in the XML file.",

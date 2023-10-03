@@ -1,12 +1,12 @@
 window.testContent = window.testContent || [];
-var testId = "PlatformDeveloper1";
-var testName = "PlatformDeveloper1.PDI";
+var testId = "Salesforce.Platform-Developer-I";
+var testName = "Salesforce.Platform-Developer-I";
 window.testContent[testName] = window.testContent[testName] || {
   name: testName,
   testList: [],
 };
 window.testContent[testName].testList.push({
-  name: "PlatformDeveloper1.PDI.v2021-11-04.q66",
+  name: "Salesforce.Platform-Developer-I.v2021-11-04.q66",
   content: [
     {
       content:
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox?Choose 2 answers",
+        "A development team wants to use a deployment script lo automatically deploy lo a sandbox during their development cycles.Which two tools can they use to run a script that deploys to a sandbox? Choose 2 answers",
       options: [
         "A. Ant Migration Tool",
         "B. Developer Console",
@@ -138,7 +138,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "What are two ways a developer can get the status of an enquered job for a class that queueable interface?Choose 2 answers",
+        "What are two ways a developer can get the status of an enquered job for a class that queueable interface? Choose 2 answers",
       options: [
         "A. View the apex Jobs page",
         "B. Query the AsyncApexJob object",
@@ -301,7 +301,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which three operations affect the number of times a trigger can fire?Choose 3 answers",
+        "Which three operations affect the number of times a trigger can fire? Choose 3 answers",
       options: [
         "A. Roll-Up Summary fields",
         "B. Criteria-based Sharing calculations",
@@ -326,7 +326,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are true about using the @testSetup annotation in an Apex test class?Choose 2 answers",
+        "Which two statements are true about using the @testSetup annotation in an Apex test class? Choose 2 answers",
       options: [
         "A. A method defined with the @testSetup annotation executes once for each test method in the test class and counts towards system limits.",
         "B. Records created in the test setup method cannot be updated in individual test methods.",
@@ -443,7 +443,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two statements are accurate regarding Apex classes and interfaces?Choose 2 answers",
+        "Which two statements are accurate regarding Apex classes and interfaces? Choose 2 answers",
       options: [
         "A. Inner classes are public by default.",
         "B. A top-level class can only have one inner class level.",
@@ -503,7 +503,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this?Choose 3 answers",
+        "A developer needs to create a custom button for the Account object that, when clicked, will perform a series of calculation and redirect the user to a custom visualforce page.Which three attributes need to be defined with values in the <apex:page> tag to accomplish this? Choose 3 answers",
       options: [
         "A. readOnly",
         "B. renderAs",
@@ -613,7 +613,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case?Choose 3 answer",
+        "A developer wants to invoke on outbound message when a record meets a specific criteria.Which three features satisfy this use case? Choose 3 answer",
       options: [
         "A. Process builder can be used to check the record criteria and send an outbound message with Apex Code.",
         "B. workflows can be used to check the record criteria and send an outbound message.",
@@ -645,7 +645,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two types of process automation can be used to calculate the shipping cost for an Order when the Order is placed and apply a percentage of the shipping cost of some of the related Order Products?Choose 2 answers",
+        "Which two types of process automation can be used to calculate the shipping cost for an Order when the Order is placed and apply a percentage of the shipping cost of some of the related Order Products? Choose 2 answers",
       options: [
         "A. Approval Process",
         "B. Workflow Rule",
