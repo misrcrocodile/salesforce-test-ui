@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "Universal Containers has requirement to integrate Salesforce with an external system to control record access.\n       What option should the Architect consider when designing a solution?",
+        "Universal Containers has requirement to integrate Salesforce with an external system to control record access. What option should the Architect consider when designing a solution?",
       options: [
         "A. Use the SOAP API to maintain the related SObject_share records.",
         "B. Use the Metadata API to maintain the related SObject records.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) implemented Sales Cloud and requested that only certain branch staff trained to sell high risk products can create opportunities for high risk products.\n       In which two ways can an Architect allow only specific branch staff to sell high risk products?\n       Choose 2 answers",
+        "Universal Containers (UC) implemented Sales Cloud and requested that only certain branch staff trained to sell high risk products can create opportunities for high risk products. In which two ways can an Architect allow only specific branch staff to sell high risk products? Choose 2 answers",
       options: [
         "A. Set Price Book Organization Wide Default to View Only and share the price book (High Risk) with the trained staff.",
         "B. Share (High Risk) price book with the trained staff via sharing rule.",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Susan posts a file to the chatter fees for a record of an object which OWD is private. Which two statements accurately describe who can view the file by default?\n       Choose 2 answers.",
+        "Susan posts a file to the chatter fees for a record of an object which OWD is private. Which two statements accurately describe who can view the file by default? Choose 2 answers.",
       options: [
         "A. Susan and users with the View All Data permission.",
         "B. Susan and users with access to the record.",
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two options can help mitigate the risks of import failures associated with large-volume bulk data loads?\n       Choose 2 answers.",
+        "Which two options can help mitigate the risks of import failures associated with large-volume bulk data loads? Choose 2 answers.",
       options: [
         "A. Defer Sharing Calculation.",
         "B. Group records by ParentID within a batch.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) implemented Sales Cloud and requested that sales agents have access to products the company sells and be able to create opportunities for its customers.\n       What should the Organization-Wide Defaults (OWD) be for pricebook?",
+        "Universal Containers (UC) implemented Sales Cloud and requested that sales agents have access to products the company sells and be able to create opportunities for its customers. What should the Organization-Wide Defaults (OWD) be for pricebook?",
       options: [
         "A. Use",
         "B. Public Read Only",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'At Universal Containers, users should only see Accounts they or their subordinates own. All Accounts with the custom field "Kay Customer" should be visible to all Senior Account Managers. There is a custom field on the Account record that contains sensitive information and should be hidden from all users, except 3 designated users who require view and edit access. These three users come from different user groups, and will change occasionally. Which three platform security features are required to support these requirements with the minimum amount of effort?\n       Choose 3 answers',
+        'At Universal Containers, users should only see Accounts they or their subordinates own. All Accounts with the custom field "Kay Customer" should be visible to all Senior Account Managers. There is a custom field on the Account record that contains sensitive information and should be hidden from all users, except 3 designated users who require view and edit access. These three users come from different user groups, and will change occasionally. Which three platform security features are required to support these requirements with the minimum amount of effort? Choose 3 answers',
       options: [
         "A. Criteria-Based Sharing Rules",
         "B. Role Hierarchy",
@@ -83,7 +83,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "User A at Universal Containers is in the default account team for User B.\n       User B owns the ACME account and changed User A's team member access to the account. What is the impact of this change?",
+        "User A at Universal Containers is in the default account team for User B. User B owns the ACME account and changed User A's team member access to the account. What is the impact of this change?",
       options: [
         "A. Changes affect the default Opportunity team.",
         "B. Changes affect only the ACME Account",
@@ -107,7 +107,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal containers (UC) service reps are assigned to a profile which has ''View All'' in Case object..\n       To make sure service reps have access to all relevant information to attend to customer requests, which Architect consider?\n       Choose 2 answers",
+        "Universal containers (UC) service reps are assigned to a profile which has ''View All'' in Case object.. To make sure service reps have access to all relevant information to attend to customer requests, which Architect consider? Choose 2 answers",
       options: [
         "A. Service reps will NOT able to access to Contact records because Account OWD is private",
         "B. Service reps will NOT able to access to Contact records if they are controlled by Parent.",
@@ -119,7 +119,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers has the following Sharing Settings for their Org:\n       Account = Private\n       Contact = Controlled by Parent\n       Opportunity = Private\n       Case = Private\n       They have enabled "Default Account Teams" and have trained users to set up their Default Team. Which three access levels can be set on the Account Team Member?\n       Choose 3 answers',
+        'Universal Containers has the following Sharing Settings for their Org: Account = Private Contact = Controlled by Parent Opportunity = Private Case = Private They have enabled "Default Account Teams" and have trained users to set up their Default Team. Which three access levels can be set on the Account Team Member? Choose 3 answers',
       options: [
         "A. Account Access",
         "B. Opportunity Access",
@@ -132,7 +132,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has a requirement to expose a web service to their business partners. The web service will be used to allow each business partner to query UC's Salesforce instance to retrieve the status of orders. The business partner should only be allowed access to orders for which the business partner is the fulfillment vendor. The Architect does not want the business partners to utilize the standard APIs and would prefer a custom API be developed. Which three design elements should the Architect consider in order to ensure the data security of the solution?\n       Choose 3 answers",
+        "Universal Containers (UC) has a requirement to expose a web service to their business partners. The web service will be used to allow each business partner to query UC's Salesforce instance to retrieve the status of orders. The business partner should only be allowed access to orders for which the business partner is the fulfillment vendor. The Architect does not want the business partners to utilize the standard APIs and would prefer a custom API be developed. Which three design elements should the Architect consider in order to ensure the data security of the solution? Choose 3 answers",
       options: [
         "A. Set the Orders object's sharing settings to Private in the Org-Wide Defaults",
         "B. Query the Orders object with Dynamic SOQL based upon the fulfillment ID.",
@@ -145,7 +145,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has a custom Apex class that enforces a business process and updates opportunity field-level security permissions of read only certain user's profiles are being updated by their class.\n       How should the architect fix this problem?",
+        "Universal Containers (UC) has a custom Apex class that enforces a business process and updates opportunity field-level security permissions of read only certain user's profiles are being updated by their class. How should the architect fix this problem?",
       options: [
         "A. Use the IsUpdateable() Apex method to test each field prior to allowing updates.",
         "B. Use the With SECURYT_ENFORCED keyword in the SOQL statement.",
@@ -169,7 +169,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Universal Containers would like to create a custom team solution that can be used on a custom Loan object. The following requirements must be met:\n       The Loan custom object should be set to Private in the Org-Wide Defaults.\n       Any user added to the Custom Team object should have Read Only access to the corresponding Loan record. If the Custom Team record is marked as "Primary" then the corresponding user should have Read/Edit access to the corresponding Loan record.\n       Which two methods will allow the Architect to meet the requirements?\n       Choose 2 answers.',
+        'Universal Containers would like to create a custom team solution that can be used on a custom Loan object. The following requirements must be met: The Loan custom object should be set to Private in the Org-Wide Defaults. Any user added to the Custom Team object should have Read Only access to the corresponding Loan record. If the Custom Team record is marked as "Primary" then the corresponding user should have Read/Edit access to the corresponding Loan record. Which two methods will allow the Architect to meet the requirements? Choose 2 answers.',
       options: [
         "A. Create an owner-based sharing rule on the Custom Team object that will share the Loan record to the owner of the Custom Team record.",
         "B. Create a custom trigger on the Custom Team object that inserts or updates records in the Loan_share object.",
@@ -207,7 +207,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container (UC) wants all full-time internal employees to be able to view all leads. A subset of employees should also be able to see leads.\n       Which organization default (OWD) approach should an architect recommend that will help US implement these requirement?",
+        "Universal Container (UC) wants all full-time internal employees to be able to view all leads. A subset of employees should also be able to see leads. Which organization default (OWD) approach should an architect recommend that will help US implement these requirement?",
       options: [
         "A. Implement a Public Read/write/Transfer OWD on Lead.",
         "B. Implement a Public Read/write OWD on Lead",
@@ -219,7 +219,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) operates worldwide with offices in more than 100 regions in 10 different countries role hierarchy to control data visibility. In the new fiscal year, UC is planned to reorganize the roles and reassign accounts owners. Which two points should an architect consider in this situation?\n       Which two point should an Architect consider in this situation?\n       Choose 2 answers",
+        "Universal Containers (UC) operates worldwide with offices in more than 100 regions in 10 different countries role hierarchy to control data visibility. In the new fiscal year, UC is planned to reorganize the roles and reassign accounts owners. Which two points should an architect consider in this situation? Which two point should an Architect consider in this situation? Choose 2 answers",
       options: [
         "A. Using a temporary parking lot account to improve performance.",
         "B. Changing complex role hierarchy can cause a high level of sharing recalculation.",
@@ -255,7 +255,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has created a custom object to store highly confidential client relationship data with Private sharing settings. Which two options would an Architect choose to ensure access only to the record owner and the administrator?\n       Choose 2 answers.",
+        "Universal Containers has created a custom object to store highly confidential client relationship data with Private sharing settings. Which two options would an Architect choose to ensure access only to the record owner and the administrator? Choose 2 answers.",
       options: [
         'A. Disable "Grant Access Using Hierarchies."',
         'B. Disable the "View All" permission on all other profiles.',
@@ -279,7 +279,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "After testing and deploying a new trigger that does creates a related order when a opportunity is closed, the Architect begins complaints of permission error messages appearing when closing an opportunity.\n       How did this error occur?",
+        "After testing and deploying a new trigger that does creates a related order when a opportunity is closed, the Architect begins complaints of permission error messages appearing when closing an opportunity. How did this error occur?",
       options: [
         "A. Trigger is using IsCreateable() Apex method and the user doesn't have create permission on the Oder object.",
         "B. The trigger handlers class does not use any sharing keywords and the user not have access to the orders related to the opportunity.",
@@ -315,7 +315,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) uses a custom Visualforce page to display shipment tracking information (custom object, private OWD) to field manager and agents. The IT team wants to make sure that users have access to only the information that is allowed.\n       Which Apex method must be used to make sure only allowed fields are shown to the users?",
+        "Universal Containers (UC) uses a custom Visualforce page to display shipment tracking information (custom object, private OWD) to field manager and agents. The IT team wants to make sure that users have access to only the information that is allowed. Which Apex method must be used to make sure only allowed fields are shown to the users?",
       options: [
         "A. isAccessible()",
         "B. isViewable()",
@@ -327,7 +327,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two settings are available in profiles, but not permission sets?\n       Choose 2 answers.",
+        "Which two settings are available in profiles, but not permission sets? Choose 2 answers.",
       options: [
         "A. Tab Settings",
         "B. Record Types",
@@ -351,7 +351,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'Which three areas should the Architect review in order to increase performance of "Record Access" and "Sharing" calculations?\n       Choose 3 answers.',
+        'Which three areas should the Architect review in order to increase performance of "Record Access" and "Sharing" calculations? Choose 3 answers.',
       options: [
         "A. Opportunity data, to ensure that no Account has more than 10,000 Opportunity records that are related to it.",
         "B. Record ownership, to ensure that no user owns more than 10,000 Object records in the system.",
@@ -399,7 +399,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Users at Universal Containers are complaining that a field has disappeared from the Account page after deploying its latest project. The page layout has not changes with this deployment.\n       How should the admin troubleshoot this issue?",
+        "Users at Universal Containers are complaining that a field has disappeared from the Account page after deploying its latest project. The page layout has not changes with this deployment. How should the admin troubleshoot this issue?",
       options: [
         "A. Review change to Account record types.",
         "B. Log in as user and check several Accounts to isolate the problem records.",
@@ -423,7 +423,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a Private Sharing Model for the Opportunity object. Sales Rep A at Universal Containers created the Opportunity record and then transferred ownership of the Opportunity record to Sales Rep B.\n       Both Sales Rep A and B have the same role in the Role Hierarchy.\n       What access will Sales Rep A have to the Opportunity after the transfer?",
+        "Universal Containers has a Private Sharing Model for the Opportunity object. Sales Rep A at Universal Containers created the Opportunity record and then transferred ownership of the Opportunity record to Sales Rep B. Both Sales Rep A and B have the same role in the Role Hierarchy. What access will Sales Rep A have to the Opportunity after the transfer?",
       options: [
         "A. Full Access",
         "B. Read/Write",
@@ -447,7 +447,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has a team that analyzes customer orders looking for fraud. This team needs access to Invoice records (Custom object, Private OWD). UC \\as complex rules to control users' access. The Salesforce Architect recommended using Apex managed sharing to meet these requirements.\n       Which two recommendations should a Salesforce Developer consider when implementing the changes7 Choose 2 answers",
+        "Universal Containers (UC) has a team that analyzes customer orders looking for fraud. This team needs access to Invoice records (Custom object, Private OWD). UC \\as complex rules to control users' access. The Salesforce Architect recommended using Apex managed sharing to meet these requirements. Which two recommendations should a Salesforce Developer consider when implementing the changes7 Choose 2 answers",
       options: [
         'A. Use "With Sharing" keyword to make sure record visibility will always be considered.',
         'B. Use "With Sharing" keyword to enforce field-level security.',
@@ -471,7 +471,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which are two valid use cases for programmatic sharing?\n       Choose 2 answers.",
+        "Which are two valid use cases for programmatic sharing? Choose 2 answers.",
       options: [
         "A. Setting user ownership for standard and custom objects.",
         "B. Native sharing functionality does not meet requirements.",
@@ -495,7 +495,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "At Universal Containers there is a team of auditors distributed through the organization that all need access to high-value Opportunities.\n       With a private sharing model, which two option should an architect recommend when designing a solution for this requirement?\n       Choose 2 answers",
+        "At Universal Containers there is a team of auditors distributed through the organization that all need access to high-value Opportunities. With a private sharing model, which two option should an architect recommend when designing a solution for this requirement? Choose 2 answers",
       options: [
         "A. Add the auditors to the default Opportunity Team.",
         "B. Create a criteria-based sharing rule to give access to the public group for high-value Opportunities.",
@@ -519,7 +519,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A user at Universal Containers would like to give access to a Report folder to someone else in the organization.\n       Which two access permissions should the user have to support this requirement?\n       Choose 2 answers.",
+        "A user at Universal Containers would like to give access to a Report folder to someone else in the organization. Which two access permissions should the user have to support this requirement? Choose 2 answers.",
       options: [
         'A. The "Manager" Report folder permission.',
         'B. The "Editor" Report folder permission.',
@@ -543,7 +543,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The architect at Universal Containers is trying to ensure that security vulnerabilities are not present within the Salesforce organization.\n       What two tests should the architect verify?\n       Choose 2 answers",
+        "The architect at Universal Containers is trying to ensure that security vulnerabilities are not present within the Salesforce organization. What two tests should the architect verify? Choose 2 answers",
       options: [
         "A. Test for invalid user access attempts.",
         "B. Test Cross-Site Scripting on custom pages.",
@@ -555,7 +555,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The Corporate Identity and Access Team needs to audit User setup in the Salesforce ..\n       What two permissions should be granted to this team so they can perform their audit?\n       Choose 2 answers",
+        "The Corporate Identity and Access Team needs to audit User setup in the Salesforce .. What two permissions should be granted to this team so they can perform their audit? Choose 2 answers",
       options: [
         "A. View All Users",
         "B. View permission on the User object",
@@ -567,7 +567,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) tuned off the Customer User Visibility feature inits Customer Community.\n       What community functionality is expected by having the Customer User Visibility tuned off?",
+        "Universal Containers (UC) tuned off the Customer User Visibility feature inits Customer Community. What community functionality is expected by having the Customer User Visibility tuned off?",
       options: [
         "A. Searching for other external users.",
         "B. Search for internal users.",
@@ -591,7 +591,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has set Opportunity Sharing to Private with Opportunity Teams enabled. Which three options can change the Owner of the Opportunity?\n       Choose 3 answers.",
+        "Universal Containers has set Opportunity Sharing to Private with Opportunity Teams enabled. Which three options can change the Owner of the Opportunity? Choose 3 answers.",
       options: [
         'A. The System Administrator or a user with the "Transfer Records" permission.',
         "B. Any Opportunity Team Member on the current Opportunity.",
@@ -604,7 +604,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales manager at universal containers (UC) have requested viewing customer invoices in Salesforce. Invoice data is mastered in the ERP system. The architect at UC decided to surface the customer invoices in salesforce using external objects and did the following:\n       -Configured an external object called Invoice.\n       -Created a lookup relationship between account and the invoice.\n       How can the architect grant the sales managers access to the customer invoices data?",
+        "Sales manager at universal containers (UC) have requested viewing customer invoices in Salesforce. Invoice data is mastered in the ERP system. The architect at UC decided to surface the customer invoices in salesforce using external objects and did the following: -Configured an external object called Invoice. -Created a lookup relationship between account and the invoice. How can the architect grant the sales managers access to the customer invoices data?",
       options: [
         "A. By creating a sharing set to share invoices with users in sales manager role.",
         "B. By creating manual sharing to share invoices with relevant sales managers.",
@@ -616,14 +616,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two options can be selected to share data with when creating a sharing rule?\n       Choose 2 answers",
+        "Which two options can be selected to share data with when creating a sharing rule? Choose 2 answers",
       options: ["A. Public Groups", "B. Users", "C. Roles", "D. Profiles"],
       answer: "A,C",
       title: "Question 52",
     },
     {
       content:
-        "Universal Containers (UC) operates worldwide with offices in more than 100 regions in 10 different countries and has established a very complex role hierarchy to control data visibility. In the new fiscal year UC is planning to reorganize the roles and reassign accounts owners.\n       Which three features could an architect recommend to avoid problems on this operation? Choose 3 answers",
+        "Universal Containers (UC) operates worldwide with offices in more than 100 regions in 10 different countries and has established a very complex role hierarchy to control data visibility. In the new fiscal year UC is planning to reorganize the roles and reassign accounts owners. Which three features could an architect recommend to avoid problems on this operation? Choose 3 answers",
       options: [
         "A. Skinny table",
         "B. Partition data using Divisions",
@@ -636,7 +636,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has recently changed its internal policy to follow market regulations and create an internal team to manage the collection process. Only this team should have access to Invoke records. currently, invoke is a child in a Master-Detail relationship to Account. Although related lists have been removed from the page layouts, some profiles stills have access to the invoice object.\n       Which approach should an architect recommend to fix this problem?",
+        "Universal Containers (UC) has recently changed its internal policy to follow market regulations and create an internal team to manage the collection process. Only this team should have access to Invoke records. currently, invoke is a child in a Master-Detail relationship to Account. Although related lists have been removed from the page layouts, some profiles stills have access to the invoice object. Which approach should an architect recommend to fix this problem?",
       options: [
         "A. Change the Invoke organization-wide default from Controlled by Parent to Private and remove invoke access from the unauthorized",
         "B. Replace Account and Invoke Master Detail Relationship by a Lookup and remove Invoice Access from the unauthorized profiles,",
@@ -648,7 +648,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) is implementing Sales Cloud. During the final quarter of the financial year, sales managers help each other close deals. They requested a solution in Salesforce to allow them to share opportunities with other sales managers from different teams as needed. They also requested that sharing deals should expire automatically two weeks after the new fiscal year starts.\n       Which two options to propose a solution to meet the requirements? Choose 2 answers",
+        "Universal Containers (UC) is implementing Sales Cloud. During the final quarter of the financial year, sales managers help each other close deals. They requested a solution in Salesforce to allow them to share opportunities with other sales managers from different teams as needed. They also requested that sharing deals should expire automatically two weeks after the new fiscal year starts. Which two options to propose a solution to meet the requirements? Choose 2 answers",
       options: [
         "A. Scheduled Apex job to remove access.",
         "B. Opportunity team to share opportunities with sales managers.",
@@ -660,7 +660,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        'A Visualforce controller has a requirement to be written with "Without Sharing" at the top level; however, certain methods within the page still need to enforce the user permissions for creating records and accessing certain fields. Which two methods below would be used to enforce this requirements?\n       Choose 2 answers.',
+        'A Visualforce controller has a requirement to be written with "Without Sharing" at the top level; however, certain methods within the page still need to enforce the user permissions for creating records and accessing certain fields. Which two methods below would be used to enforce this requirements? Choose 2 answers.',
       options: [
         "A. Schema.DescribeFieldResult",
         "B. Schema.getGlobalDescribe",
@@ -672,7 +672,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The architect has a requirement to create a criteria-based sharing rule based on the customer Social.. up the rule in Contact Sharing, the field is not shown on the list of available field.\n       What might cause this?",
+        "The architect has a requirement to create a criteria-based sharing rule based on the customer Social.. up the rule in Contact Sharing, the field is not shown on the list of available field. What might cause this?",
       options: [
         "A. The field has been configured for encryption.",
         "B. fields with validation rules are not available for sharing rules.",
@@ -696,7 +696,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has implemented Customer Community with customer community plus license for its distributors. Retail distributors have part-time agents who work for multiple distributors. Those agents should have access to other distributor accounts as well.\n       What can be configured to grant agents access to different distributor accounts?",
+        "Universal Containers (UC) has implemented Customer Community with customer community plus license for its distributors. Retail distributors have part-time agents who work for multiple distributors. Those agents should have access to other distributor accounts as well. What can be configured to grant agents access to different distributor accounts?",
       options: [
         "A. Create sharing set to share distributor accounts with agents using account contact relationship.",
         "B. Create sharing rules to share distributor accounts with agents.",
@@ -720,14 +720,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two objects support creating queues?\n       Choose 2 answers.",
+        "Which two objects support creating queues? Choose 2 answers.",
       options: ["A. Opportunity.", "B. Lead.", "C. Account.", "D. Case."],
       answer: "B,D",
       title: "Question 61",
     },
     {
       content:
-        "Universal Containers has developed an AppExchange managed package for their distribution partners, which required a private key to be generated for each partner and used by the code. Universal Containers support representatives must be able to access the private key value to debug connection issues, but it must not be possible for the partner to access the value.\n       How can the Architect best support this requirement?",
+        "Universal Containers has developed an AppExchange managed package for their distribution partners, which required a private key to be generated for each partner and used by the code. Universal Containers support representatives must be able to access the private key value to debug connection issues, but it must not be possible for the partner to access the value. How can the Architect best support this requirement?",
       options: [
         "A. Store the value in a text field on a protected custom setting in the package.",
         "B. Store the value in a static variable in a class included in the managed package.",
@@ -757,7 +757,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has selected a small and diverse group of users to review inactive accounts. Given the Private sharing model, a public group was created and made available to this group of users. A sharing rule was created to make inactive Accounts visible to the public group. However some of these users are reporting they don't see any of the Accounts that were shared with the public group.\n       What is the underlying issue for these users?",
+        "Universal Containers has selected a small and diverse group of users to review inactive accounts. Given the Private sharing model, a public group was created and made available to this group of users. A sharing rule was created to make inactive Accounts visible to the public group. However some of these users are reporting they don't see any of the Accounts that were shared with the public group. What is the underlying issue for these users?",
       options: [
         "A. The users are in profiles that have no access to the Account object.",
         'B. The users have a permission set that only allow Accounts in "Active" status.',
@@ -781,7 +781,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container (UC) is in a legal dispute regarding several orders. UC has found out these records VP of Sales has asked to ensure this cannot happen in the future.\n       What approach would meet this requirement?",
+        "Universal Container (UC) is in a legal dispute regarding several orders. UC has found out these records VP of Sales has asked to ensure this cannot happen in the future. What approach would meet this requirement?",
       options: [
         "A. Remove the Delete button from the Order Page Layout.",
         "B. Implement a Sharing Rule that changes access for order to Read.",
@@ -805,7 +805,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) is implementing Sales Cloud. During the last quarter of the financial of the financial year, .. They requested a solution in Salesforce to allow them to specify an assistance agent on the opportunity.. the assistance field. The system should automatically remove access from the previous assistant and ..\n       What is the optimum solution to meet the requirements?",
+        "Universal Containers (UC) is implementing Sales Cloud. During the last quarter of the financial of the financial year, .. They requested a solution in Salesforce to allow them to specify an assistance agent on the opportunity.. the assistance field. The system should automatically remove access from the previous assistant and .. What is the optimum solution to meet the requirements?",
       options: [
         "A. Use opportunity team and create an assistant field, use apex to share opportunities with the assistant",
         "B. Use apex sharing to share and unicast opportunities with the assistant agent.",
@@ -817,7 +817,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a customer that meets criteria for two Enterprise territory Management territories (Portugal and Southern Europe).\n       What is necessary to assign opportunities to a territory for this account?",
+        "Universal Containers has a customer that meets criteria for two Enterprise territory Management territories (Portugal and Southern Europe). What is necessary to assign opportunities to a territory for this account?",
       options: [
         "A. The territory with the highest Territory Type Priority is automatically assigned to the Opportunity",
         "B. Create an Apex class that implement. Filter-Based Opportunity Territory Assignment",
@@ -829,7 +829,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Sales managers want their team members to help each other close Opportunities. The Opportunity and Account organization-wide defaults are private. To grant Opportunity access to sales reps on the same team, owner ship-based sharing rules were created for each team.\n       What is the side effect of this approach?",
+        "Sales managers want their team members to help each other close Opportunities. The Opportunity and Account organization-wide defaults are private. To grant Opportunity access to sales reps on the same team, owner ship-based sharing rules were created for each team. What is the side effect of this approach?",
       options: [
         "A. Sales Reps on the same team will have Edit access to the Accounts for Opportunities owned by then team members.",
         "B. All sales reps will have Read access to all Accounts.",
@@ -853,7 +853,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers would like to control access to records and objects according to the following business requirements:* Sales users can view all Account records but only edit their own records.\n       * Sales managers view all Account records but only edit records of the team.\n       * Service users can view all Account records that are not marked with a RecordType of Prospect.\n       Which organization-wide default configuration should a Salesforce architect recommend to fulfill these requirements?",
+        "Universal Containers would like to control access to records and objects according to the following business requirements:* Sales users can view all Account records but only edit their own records. * Sales managers view all Account records but only edit records of the team. * Service users can view all Account records that are not marked with a RecordType of Prospect. Which organization-wide default configuration should a Salesforce architect recommend to fulfill these requirements?",
       options: [
         "A. Public Read Write",
         "B. Private",
@@ -865,7 +865,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers has a requirement to share Accounts automatically to the users at a field office. They currently have the following setup in their environment:\n       * Accounts are set to Private in the Org-Wide Default.\n       * The field office is specified by a lookup in the Account object.\n       * There are 400 field offices.\n       * The users in each field office are managed using public groups.\n       Based upon a lookup relationship field on the Account, how should the Architect meet this requirement?",
+        "Universal Containers has a requirement to share Accounts automatically to the users at a field office. They currently have the following setup in their environment: * Accounts are set to Private in the Org-Wide Default. * The field office is specified by a lookup in the Account object. * There are 400 field offices. * The users in each field office are managed using public groups. Based upon a lookup relationship field on the Account, how should the Architect meet this requirement?",
       options: [
         "A. Use Manual Sharing to share the Account with the appropriate field office.",
         "B. Use Criteria-Based Sharing to share the Account with the appropriate field office.",
@@ -877,7 +877,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has created a custom Invoice object. Standard sales users at UC can see the records in search layout, but when they click to view the detail, only record name, created date, and last modified date are shown. When the system admin accesses it, he or she sees the full record detail with many more data fields.\n       What is the likely cause of this issue?",
+        "Universal Containers (UC) has created a custom Invoice object. Standard sales users at UC can see the records in search layout, but when they click to view the detail, only record name, created date, and last modified date are shown. When the system admin accesses it, he or she sees the full record detail with many more data fields. What is the likely cause of this issue?",
       options: [
         "A. A role-based sharing is missing and should be added for the sales user's role to grant access to the fields.",
         "B. Sales users profile does not have access to the remaining fields.",

@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A financial services company uses Salesforce and has a compliance requirement to track information about devices from which users log in. Also, a Salesforce Security Administrator needs to have the ability to revoke the device from which users log in.\n       What should be used to fulfill this requirement?",
+        "A financial services company uses Salesforce and has a compliance requirement to track information about devices from which users log in. Also, a Salesforce Security Administrator needs to have the ability to revoke the device from which users log in. What should be used to fulfill this requirement?",
       options: [
         "A. Use the Login History object to track information about devices from which users log in.",
         "B. Use Login Flows to capture device from which users log in and store device and user information in a custom object.",
@@ -34,7 +34,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Which two things should be done to ensure end users can only use single sign-on (SSO) to login in to Salesforce?\n       Choose 2 answers",
+        "Which two things should be done to ensure end users can only use single sign-on (SSO) to login in to Salesforce? Choose 2 answers",
       options: [
         "A. Once SSO is enabled, users are only able to login using Salesforce credentials.",
         'B. Enable My Domain and select "Prevent login from https://login.salesforce.com".',
@@ -46,7 +46,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An identity architect has been asked to recommend a solution that allows administrators to configure personalized alert messages to users before they land on the Experience Cloud site (formerly known as Community) homepage.\n       What is recommended to fulfill this requirement with the least amount of customization?",
+        "An identity architect has been asked to recommend a solution that allows administrators to configure personalized alert messages to users before they land on the Experience Cloud site (formerly known as Community) homepage. What is recommended to fulfill this requirement with the least amount of customization?",
       options: [
         "A. Create custom metadata that stores user alerts and use a LWC to display alerts.",
         "B. Customize the registration handler Apex class to create a routing logic navigating to different home pages based on the user profile.",
@@ -58,7 +58,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "\n       A multinational company is looking to rollout Salesforce globally. The company has a Microsoft Active Directory Federation Services (ADFS) implementation for the Americas, Europe and APAC. The company plans to have a single org and they would like to have all of its users access Salesforce using the ADFS . The company would like to limit its investments and prefer not to procure additional applications to satisfy the requirements.\n       What is recommended to ensure these requirements are met ?",
+        " A multinational company is looking to rollout Salesforce globally. The company has a Microsoft Active Directory Federation Services (ADFS) implementation for the Americas, Europe and APAC. The company plans to have a single org and they would like to have all of its users access Salesforce using the ADFS . The company would like to limit its investments and prefer not to procure additional applications to satisfy the requirements. What is recommended to ensure these requirements are met ?",
       options: [
         "A. Use connected apps for each ADFS implementation and implement Salesforce site to authenticate users across the ADFS system applicable to their geo.",
         "B. Implement Identity Connect to provide single sign-on to Salesforce and federated across multiple ADFS systems.",
@@ -70,7 +70,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters would like to automatically create new employee users in Salesforce with an appropriate profile that maps to its Active Directory Department.\n       How should an identity architect implement this requirement?",
+        "Northern Trail Outfitters would like to automatically create new employee users in Salesforce with an appropriate profile that maps to its Active Directory Department. How should an identity architect implement this requirement?",
       options: [
         "A. Use a login flow to collect Security Assertion Markup Language attributes and assign the appropriate profile during Just-In-Time (JIT) provisioning.",
         "B. Use the createUser method in the Just-in-Time (JIT) provisioning registration handler to assign the appropriate profile.",
@@ -82,7 +82,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A real estate company wants to provide its customers a digital space to design their interior decoration options.\n       To simplify the registration to gain access to the community site (built in Experience Cloud), the CTO has requested that the IT/Development team provide the option for customers to use their existing social-media credentials to register and access.\n       The IT lead has approached the Salesforce Identity and Access Management (IAM) architect for technical direction on implementing the social sign-on (for Facebook, Twitter, and a new provider that supports standard OpenID Connect (OIDC)).\n       Which two recommendations should the Salesforce IAM architect make to the IT Lead?\n       Choose 2 answers",
+        "A real estate company wants to provide its customers a digital space to design their interior decoration options. To simplify the registration to gain access to the community site (built in Experience Cloud), the CTO has requested that the IT/Development team provide the option for customers to use their existing social-media credentials to register and access. The IT lead has approached the Salesforce Identity and Access Management (IAM) architect for technical direction on implementing the social sign-on (for Facebook, Twitter, and a new provider that supports standard OpenID Connect (OIDC)). Which two recommendations should the Salesforce IAM architect make to the IT Lead? Choose 2 answers",
       options: [
         "A. Authentication provider configuration is required each social sign-on providers; and enable Authentication providers in community.",
         "B. Apex coding skills are needed for registration handler to create and update users.",
@@ -94,7 +94,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A university is planning to set up an identity solution for its alumni. A third-party identity provider will be used for single sign-on Salesforce will be the system of records. Users are getting error messages when logging in.\n       Which Salesforce feature should be used to debug the issue?",
+        "A university is planning to set up an identity solution for its alumni. A third-party identity provider will be used for single sign-on Salesforce will be the system of records. Users are getting error messages when logging in. Which Salesforce feature should be used to debug the issue?",
       options: [
         "A. Apex Exception Email",
         "B. Login History",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A global fitness equipment manufacturer is planning to sell fitness tracking devices and has the following requirements:\n       1) Customer purchases the device.\n       2) Customer registers the device using their mobile app.\n       3) A case should automatically be created in Salesforce and associated with the customers account in cases where the device registers issues with tracking.\n       Which OAuth flow should be used to meet these requirements?",
+        "A global fitness equipment manufacturer is planning to sell fitness tracking devices and has the following requirements: 1) Customer purchases the device. 2) Customer registers the device using their mobile app. 3) A case should automatically be created in Salesforce and associated with the customers account in cases where the device registers issues with tracking. Which OAuth flow should be used to meet these requirements?",
       options: [
         "A. OAuth 2.0 User-Agent Flow",
         "B. OAuth 2.0 SAML Bearer Assertion Flow",
@@ -154,7 +154,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A division of a Northern Trail Outfitters (NTO) purchased Salesforce. NTO uses a third party identity provider (IdP) to validate user credentials against Its corporate Lightweight Directory Access Protocol (LDAP) directory. NTO wants to help employees remember as passwords as possible.\n       What should an identity architect recommend?",
+        "A division of a Northern Trail Outfitters (NTO) purchased Salesforce. NTO uses a third party identity provider (IdP) to validate user credentials against Its corporate Lightweight Directory Access Protocol (LDAP) directory. NTO wants to help employees remember as passwords as possible. What should an identity architect recommend?",
       options: [
         "A. Use Salesforce connect to synchronize LDAP passwords to Salesforce.",
         "B. Setup Salesforce as an IdP to authenticate against the LDAP directory.",
@@ -166,7 +166,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A Salesforce customer is implementing Sales Cloud and a custom pricing application for its call center agents.\n       An Enterprise single sign-on solution is used to authenticate and sign-in users to all applications. The customer has the following requirements:\n       1. The development team has decided to use a Canvas app to expose the pricing application to agents.\n       2. Agents should be able to access the Canvas app without needing to log in to the pricing application.\n       Which two options should the identity architect consider to provide support for the Canvas app to initiate login for users?\n       Choose 2 answers",
+        "A Salesforce customer is implementing Sales Cloud and a custom pricing application for its call center agents. An Enterprise single sign-on solution is used to authenticate and sign-in users to all applications. The customer has the following requirements: 1. The development team has decided to use a Canvas app to expose the pricing application to agents. 2. Agents should be able to access the Canvas app without needing to log in to the pricing application. Which two options should the identity architect consider to provide support for the Canvas app to initiate login for users? Choose 2 answers",
       options: [
         'A. Select "Enable as a Canvas Personal App" in the connected app settings.',
         "B. Enable OAuth settings in the connected app with required OAuth scopes for the pricing application.",
@@ -190,7 +190,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers is implementing a new Experience Cloud site and the identity architect wants to use dynamic branding features as of the login process.\n       Which two options should the identity architect recommend to support dynamic branding for the site?\n       Choose 2 answers",
+        "Universal Containers is implementing a new Experience Cloud site and the identity architect wants to use dynamic branding features as of the login process. Which two options should the identity architect recommend to support dynamic branding for the site? Choose 2 answers",
       options: [
         "A. To use dynamic branding, the community must be built with the Customer Account Portal template.",
         "B. An external content management system (CMS) must be used for dynamic branding on Experience Cloud sites.",
@@ -214,7 +214,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) is using its production org as the identity provider for a new Experience Cloud site and the identity architect is deciding which login experience to use for the site.\n       Which two page types are valid login page types for the site?\n       Choose 2 answers",
+        "Universal Containers (UC) is using its production org as the identity provider for a new Experience Cloud site and the identity architect is deciding which login experience to use for the site. Which two page types are valid login page types for the site? Choose 2 answers",
       options: [
         "A. lightning Experience Page",
         "B. Experience Builder Page",
@@ -233,7 +233,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) is planning to build a new customer service portal and wants to use passwordless login, allowing customers to login with a one-time passcode sent to them via email or SMS.\n       How should the quantity of required Identity Verification Credits be estimated?",
+        "Northern Trail Outfitters (NTO) is planning to build a new customer service portal and wants to use passwordless login, allowing customers to login with a one-time passcode sent to them via email or SMS. How should the quantity of required Identity Verification Credits be estimated?",
       options: [
         "A. Identity Verification Credits are consumed with each SMS (text message) sent and should be estimated based on the number of login verification challenges for SMS verification users.",
         "B. Identity Verification Credits are consumed with each verification sent and should be estimated based on the number of logins that will incur a verification challenge.",
@@ -269,7 +269,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) uses a Security Assertion Markup Language (SAML)-based Identity Provider (idP) to authenticate employees to all systems. The IdP authenticates users against a Lightweight Directory Access Protocol (LDAP) directory and has access to user information. NTO wants to minimize Salesforce license usage since only a small percentage of users need Salesforce.\n       What is recommended to ensure new employees have immediate access to Salesforce using their current IdP?",
+        "Northern Trail Outfitters (NTO) uses a Security Assertion Markup Language (SAML)-based Identity Provider (idP) to authenticate employees to all systems. The IdP authenticates users against a Lightweight Directory Access Protocol (LDAP) directory and has access to user information. NTO wants to minimize Salesforce license usage since only a small percentage of users need Salesforce. What is recommended to ensure new employees have immediate access to Salesforce using their current IdP?",
       options: [
         "A. Build an integration that queries LDAP periodically and creates new active users in Salesforce.",
         "B. Build an integration that queries LDAP and creates new inactive users in Salesforce and use a login flow to activate the user at first login.",
@@ -294,7 +294,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers allows employees to use a mobile device to access Salesforce for daily operations using a hybrid mobile app. This app uses Mobile software development kits (SDK), leverages refresh token to regenerate access token when required and is distributed as a private app.\n       The chief security officer is rolling out an org wide compliance policy to enforce re-venfication of devices if an employee has not logged in from that device in the last week.\n       Which connected app setting should be leveraged to comply with this policy change?",
+        "Universal Containers allows employees to use a mobile device to access Salesforce for daily operations using a hybrid mobile app. This app uses Mobile software development kits (SDK), leverages refresh token to regenerate access token when required and is distributed as a private app. The chief security officer is rolling out an org wide compliance policy to enforce re-venfication of devices if an employee has not logged in from that device in the last week. Which connected app setting should be leveraged to comply with this policy change?",
       options: [
         "A. Permitted User - Ask admins to maintain a list of users who are permitted based on last login date.",
         "B. Scope - Deny refresh_token scope for this connected app.",
@@ -306,7 +306,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers would like its customers to register and log in to a portal built on Salesforce Experience Cloud. Customers should be able to use their Facebook or Linkedln credentials for ease of use.\n       Which three steps should an identity architect take to implement social sign-on?\n       Choose 3 answers",
+        "Universal Containers would like its customers to register and log in to a portal built on Salesforce Experience Cloud. Customers should be able to use their Facebook or Linkedln credentials for ease of use. Which three steps should an identity architect take to implement social sign-on? Choose 3 answers",
       options: [
         "A. Create authentication providers for both Facebook and Linkedln.",
         "B. Update the default registration handlers to create and update users.",
@@ -319,7 +319,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container's (UC) is using Salesforce Experience Cloud site for its container wholesale business. The identity architect wants to an authentication provider for the new site.\n       Which two options should be utilized in creating an authentication provider?\n       Choose 2 answers",
+        "Universal Container's (UC) is using Salesforce Experience Cloud site for its container wholesale business. The identity architect wants to an authentication provider for the new site. Which two options should be utilized in creating an authentication provider? Choose 2 answers",
       options: [
         "A. A custom registration handier can be set.",
         "B. The default authentication provider certificate can be set.",
@@ -367,7 +367,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has a Customer Community that uses Facebook for Authentication. UC would like to ensure that Changes in the Facebook profile are reflected on the appropriate Customer Community user:\n       How can this requirement be met?",
+        "Universal Containers (UC) has a Customer Community that uses Facebook for Authentication. UC would like to ensure that Changes in the Facebook profile are reflected on the appropriate Customer Community user: How can this requirement be met?",
       options: [
         "A. Use information in the signed Request that is received from facebook.",
         "B. Develop a scheduled job that calls out to Facebook on a nightly basis.",
@@ -379,7 +379,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) currently uses Salesforce Sales Cloud and an external billing application. Both Salesforce and the billing application are accessed several times a day to manage customers. UC would like to configure single sign-on and leverage Salesforce as the identity provider. Additionally, UC would like the billing application to be accessible from Salesforce. A redirect is acceptable.\n       Which two Salesforce tools should an identity architect recommend to satisfy the requirements?\n       Choose 2 answers",
+        "Universal Containers (UC) currently uses Salesforce Sales Cloud and an external billing application. Both Salesforce and the billing application are accessed several times a day to manage customers. UC would like to configure single sign-on and leverage Salesforce as the identity provider. Additionally, UC would like the billing application to be accessible from Salesforce. A redirect is acceptable. Which two Salesforce tools should an identity architect recommend to satisfy the requirements? Choose 2 answers",
       options: [
         "A. salesforce Canvas",
         "B. Connected Apps",
@@ -398,7 +398,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) wants to give customers the ability to submit and manage issues with their purchases. It is important for NTO to give its customers the ability to login with their Amazon credentials.\n       What should an identity architect recommend to meet these requirements?",
+        "Northern Trail Outfitters (NTO) wants to give customers the ability to submit and manage issues with their purchases. It is important for NTO to give its customers the ability to login with their Amazon credentials. What should an identity architect recommend to meet these requirements?",
       options: [
         "A. Configure an OpenID Connect Authentication Provider for Amazon.",
         "B. Configure Amazon as a connected app.",
@@ -410,7 +410,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) has an off-boarding process where a terminated employee is first disabled in the Lightweight Directory Act Protocol (LDAP) directory, then requests are sent to the various application support teams to finish user deactivations. A terminated employee recently was able to login to NTO's Salesforce instance 24 hours after termination, even though the user was disabled in the corporate LDAP directory.\n       What should an identity architect recommend to prevent this from happening in the future?",
+        "Northern Trail Outfitters (NTO) has an off-boarding process where a terminated employee is first disabled in the Lightweight Directory Act Protocol (LDAP) directory, then requests are sent to the various application support teams to finish user deactivations. A terminated employee recently was able to login to NTO's Salesforce instance 24 hours after termination, even though the user was disabled in the corporate LDAP directory. What should an identity architect recommend to prevent this from happening in the future?",
       options: [
         "A. use a login flow to make a callout to the LDAP directory before authenticating the user to Salesforce.",
         "B. Create a Just-in-Time provisioning registration handler to ensure users are deactivated in Salesforce as they are disabled in LDAP.",
@@ -422,7 +422,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers wants to implement Single Sign-on for a Salesforce org using an external Identity Provider and corporate identity store.\n       What type of authentication flow is required to support deep linking'",
+        "Universal Containers wants to implement Single Sign-on for a Salesforce org using an external Identity Provider and corporate identity store. What type of authentication flow is required to support deep linking'",
       options: [
         "A. StartURL on Identity Provider",
         "B. Web Server OAuth SSO flow",
@@ -434,7 +434,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) wants to improve its engagement with existing customers to boost customer loyalty. To get a better understanding of its customers, NTO establishes a single customer view including their buying behaviors, channel preferences and purchasing history. All of this information exists but is spread across different systems and formats.\n       NTO has decided to use Salesforce as the platform to build a 360 degree view. The company already uses Microsoft Active Directory (AD) to manage its users and company assets.\n       What should an Identity Architect do to provision, deprovision and authenticate users?",
+        "Northern Trail Outfitters (NTO) wants to improve its engagement with existing customers to boost customer loyalty. To get a better understanding of its customers, NTO establishes a single customer view including their buying behaviors, channel preferences and purchasing history. All of this information exists but is spread across different systems and formats. NTO has decided to use Salesforce as the platform to build a 360 degree view. The company already uses Microsoft Active Directory (AD) to manage its users and company assets. What should an Identity Architect do to provision, deprovision and authenticate users?",
       options: [
         "A. A Salesforce Identity can be included but NTO will require Identity Connect.",
         "B. Salesforce Identity can be included but NTO will be required to build a custom integration with Microsoft AD.",
@@ -458,7 +458,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A company wants to provide its employees with a custom mobile app that accesses Salesforce. Users are required to download the internal native IOS mobile app from corporate intranet on their mobile device. The app allows flexibility to access other Non Salesforce internal applications once users authenticate with Salesforce. The apps self-authorize, and users are permitted to use the apps once they have logged into Salesforce.\n       How should an identity architect meet the above requirements with the privately distributed mobile app?",
+        "A company wants to provide its employees with a custom mobile app that accesses Salesforce. Users are required to download the internal native IOS mobile app from corporate intranet on their mobile device. The app allows flexibility to access other Non Salesforce internal applications once users authenticate with Salesforce. The apps self-authorize, and users are permitted to use the apps once they have logged into Salesforce. How should an identity architect meet the above requirements with the privately distributed mobile app?",
       options: [
         "A. Configure Mobile App settings in connected app and Salesforce as identity provider for non-Salesforce internal apps.",
         "B. Create a new hybrid mobile app and use the connected app with OAuth to authenticate users for Salesforce and non-Salesforce internal apps.",
@@ -470,7 +470,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) uses Salesforce Experience Cloud sites (previously known as Customer Community) to provide a digital portal where customers can login using their Google account.\n       NTO would like to automatically create a case record for first time users logging into Salesforce Experience Cloud.\n       What should an Identity architect do to fulfill the requirement?",
+        "Northern Trail Outfitters (NTO) uses Salesforce Experience Cloud sites (previously known as Customer Community) to provide a digital portal where customers can login using their Google account. NTO would like to automatically create a case record for first time users logging into Salesforce Experience Cloud. What should an Identity architect do to fulfill the requirement?",
       options: [
         "A. Create an authentication provider for Social Login using Google and leverage standard registration handler.",
         "B. Implement a Just-in-Time handler class that has logic to create cases upon first login.",
@@ -542,7 +542,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) operates in Asia, Europe and North America regions. There is one Salesforce org for each region. UC is implementing Customer 360 in Salesforce and has procured External Identity and Customer Community licenses in all orgs.\n       Customers of UC use Community to track orders and create inquiries. Customers also tend to move across regions frequently.\n       What should an identity architect recommend to optimize license usage and reduce maintenance overhead?",
+        "Universal Containers (UC) operates in Asia, Europe and North America regions. There is one Salesforce org for each region. UC is implementing Customer 360 in Salesforce and has procured External Identity and Customer Community licenses in all orgs. Customers of UC use Community to track orders and create inquiries. Customers also tend to move across regions frequently. What should an identity architect recommend to optimize license usage and reduce maintenance overhead?",
       options: [
         "A. Merge three orgs into one instance of Salesforce. This will no longer require maintaining three separate copies of the same customer.",
         "B. Delete contact/ account records and deactivate user if user moves from a specific region; Sync will no longer be required.",
@@ -566,7 +566,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A technology enterprise is planning to implement single sign-on login for users. When users log in to the Salesforce User object custom field, data should be populated for new and existing users.\n       Which two steps should an identity architect recommend?\n       Choose 2 answers",
+        "A technology enterprise is planning to implement single sign-on login for users. When users log in to the Salesforce User object custom field, data should be populated for new and existing users. Which two steps should an identity architect recommend? Choose 2 answers",
       options: [
         "A. Implement RegistrationHandler Interface.",
         "B. Implement SesslonManagement Class.",
@@ -602,7 +602,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An Identity and Access Management (IAM) Architect is recommending Identity Connect to integrate Microsoft Active Directory (AD) with Salesforce for user provisioning, deprovisioning and single sign-on (SSO).\n       Which feature of Identity Connect is applicable for this scenano?",
+        "An Identity and Access Management (IAM) Architect is recommending Identity Connect to integrate Microsoft Active Directory (AD) with Salesforce for user provisioning, deprovisioning and single sign-on (SSO). Which feature of Identity Connect is applicable for this scenano?",
       options: [
         "A. If the number of provisioned users exceeds Salesforce licence allowances, identity Connect will start disabling the existing Salesforce users in First-in, First-out (FIFO) fashion.",
         "B. When configured, Identity Connect acts as an identity provider to both Active Directory and Salesforce, thus providing SSO as a default feature.",
@@ -626,7 +626,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The security team at Universal containers(UC) has identified exporting reports as a high-risk action and would like to require users to be logged into salesforce with their active directory (AD) credentials when doing so.\n       For all other uses of Salesforce, Users should be allowed to use AD credentials or salesforce credentials. What solution should be recommended to prevent exporting reports except when logged in using AD credentials while maintaining the ability to view reports when logged in with salesforce credentials?",
+        "The security team at Universal containers(UC) has identified exporting reports as a high-risk action and would like to require users to be logged into salesforce with their active directory (AD) credentials when doing so. For all other uses of Salesforce, Users should be allowed to use AD credentials or salesforce credentials. What solution should be recommended to prevent exporting reports except when logged in using AD credentials while maintaining the ability to view reports when logged in with salesforce credentials?",
       options: [
         "A. Use SAML Federated Authentication and Custom SAML jit provisioning to dynamically add or remove a permission set that grants the Export Reports permission.",
         "B. Use SAML Federated Authentication, treat SAML sessions as high assurance, and raise the session level required for exporting reports.",
@@ -638,7 +638,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "An identity architect's client has a homegrown identity provider (IdP). Salesforce is used as the service provider (SP). The head of IT is worried that during a SP initiated single sign-on (SSO), the Security Assertion Markup Language (SAML) request content will be altered.\n       What should the identity architect recommend to make sure that there is additional trust between the SP and the IdP?",
+        "An identity architect's client has a homegrown identity provider (IdP). Salesforce is used as the service provider (SP). The head of IT is worried that during a SP initiated single sign-on (SSO), the Security Assertion Markup Language (SAML) request content will be altered. What should the identity architect recommend to make sure that there is additional trust between the SP and the IdP?",
       options: [
         "A. Ensure that there is an HTTPS connection between IDP and SP.",
         "B. Ensure that the Issuer and Assertion Consumer service (ACS) URL is property configured between SP and IDP.",
@@ -650,7 +650,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) has a number of employees who do NOT need access Salesforce objects. Trie employees should sign in to a custom Benefits web app using their Salesforce credentials.\n       Which license should the identity architect recommend to fulfill this requirement?",
+        "Northern Trail Outfitters (NTO) has a number of employees who do NOT need access Salesforce objects. Trie employees should sign in to a custom Benefits web app using their Salesforce credentials. Which license should the identity architect recommend to fulfill this requirement?",
       options: [
         "A. Identity Connect License",
         "B. Identity Verification Credits Add-on License",
@@ -686,7 +686,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has implemented SAML-based Single Sign-On to provide seamless access to its Salesforce Orgs, financial system, and CPQ system. Below is the SSO implementation landscape.\n       \n       \n       What role combination is represented by the systems in this scenario''",
+        "Universal Containers (UC) has implemented SAML-based Single Sign-On to provide seamless access to its Salesforce Orgs, financial system, and CPQ system. Below is the SSO implementation landscape.   What role combination is represented by the systems in this scenario''",
       options: [
         "A. Salesforce Org1 and Salesforce Org2 are the only Service Providers.",
         "B. Financial System and CPQ System are the only Service Providers.",
@@ -698,7 +698,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters is implementing a busmess-to-business (B2B) collaboration site using Salesforce Experience Cloud. The partners will authenticate with an existing identity provider and the solution will utilize Security Assertion Markup Language (SAML) to provide single sign-on to Salesforce. Delegated administration will be used in the Expenence Cloud site to allow the partners to administer their users' access.\n       How should a partner identity be provisioned in Salesforce for this solution?",
+        "Northern Trail Outfitters is implementing a busmess-to-business (B2B) collaboration site using Salesforce Experience Cloud. The partners will authenticate with an existing identity provider and the solution will utilize Security Assertion Markup Language (SAML) to provide single sign-on to Salesforce. Delegated administration will be used in the Expenence Cloud site to allow the partners to administer their users' access. How should a partner identity be provisioned in Salesforce for this solution?",
       options: [
         "A. Create only a contact.",
         "B. Create a contactless user.",
@@ -710,7 +710,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Refer to the exhibit.\n       \n       \n       Outfitters (NTO) is using Experience Cloud as an Identity for its application on Heroku. The application on Heroku should be able to handle two brands, Northern Trail Shoes and Northern Trail Shirts.\n       A user should select either of the two brands in Heroku before logging into the community. The app then performs Authorization using OAuth2.0 with the Salesforce Experience Cloud site.\n       NTO wants to make sure it renders login page images dynamically based on the user's brand preference selected in Heroku before Authorization.\n       what should an identity architect do to fulfill the above requirements?",
+        "Refer to the exhibit.   Outfitters (NTO) is using Experience Cloud as an Identity for its application on Heroku. The application on Heroku should be able to handle two brands, Northern Trail Shoes and Northern Trail Shirts. A user should select either of the two brands in Heroku before logging into the community. The app then performs Authorization using OAuth2.0 with the Salesforce Experience Cloud site. NTO wants to make sure it renders login page images dynamically based on the user's brand preference selected in Heroku before Authorization. what should an identity architect do to fulfill the above requirements?",
       options: [
         "A. For each brand create different communities and redirect users to the appropriate community using a custom Login controller written in Apex.",
         "B. Authorize third-party service by sending authorization requests to the community-url/services/oauth2/authonze/expid_value.",
@@ -722,7 +722,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The executive sponsor for an organization has asked if Salesforce supports the ability to embed a login widget into its service providers in order to create a more seamless user experience.\n       What should be used and considered before recommending it as a solution on the Salesforce Platform?",
+        "The executive sponsor for an organization has asked if Salesforce supports the ability to embed a login widget into its service providers in order to create a more seamless user experience. What should be used and considered before recommending it as a solution on the Salesforce Platform?",
       options: [
         "A. Embedded Login. Identify what level of UI customization will be required to make it match the service providers look and feel.",
         "B. Embedded Login. Consider whether or not it relies on third party cookies which can cause browser compatibility issues.",
@@ -734,7 +734,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Container's (UC) identity architect needs to recommend a license type for their new Experience Cloud site that will be used by external partners (delivery providers) for reviewing and updating their accounts, downloading files provided by UC and obtaining scheduled pickup dates from their calendar.\n       UC is using their Salesforce production org as the identity provider for these users and the expected number of individual users is 2.5 million with 13.5 million unique logins per month.\n       Which of the following license types should be used to meet the requirement?",
+        "Universal Container's (UC) identity architect needs to recommend a license type for their new Experience Cloud site that will be used by external partners (delivery providers) for reviewing and updating their accounts, downloading files provided by UC and obtaining scheduled pickup dates from their calendar. UC is using their Salesforce production org as the identity provider for these users and the expected number of individual users is 2.5 million with 13.5 million unique logins per month. Which of the following license types should be used to meet the requirement?",
       options: [
         "A. Partner Community Login License",
         "B. Partner Community License",
@@ -746,7 +746,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) is planning to roll out a partner portal for its distributors using Experience Cloud. NTO would like to use an external identity provider (idP) and for partners to register for access to the portal. Each partner should be allowed to register only once to avoid duplicate accounts with Salesforce.\n       What should a identity architect recommend to create partners?",
+        "Northern Trail Outfitters (NTO) is planning to roll out a partner portal for its distributors using Experience Cloud. NTO would like to use an external identity provider (idP) and for partners to register for access to the portal. Each partner should be allowed to register only once to avoid duplicate accounts with Salesforce. What should a identity architect recommend to create partners?",
       options: [
         "A. Create a custom page m Experience Cloud to self register partner with Experience Cloud and Ping identity store.",
         "B. Create a custom web page in the Portal and create users in the IdP and Experience Cloud using published APIs.",
@@ -782,7 +782,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Uwversal Containers (UC) is building a custom employee hut) application on Amazon Web Services (AWS) and would like to store their users' credentials there. Users will also need access to Salesforce for internal operations. UC has tasked an identity architect with evaluating Afferent solutions for authentication and authorization between AWS and Salesforce.\n       How should an identity architect configure AWS to authenticate and authorize Salesforce users?",
+        "Uwversal Containers (UC) is building a custom employee hut) application on Amazon Web Services (AWS) and would like to store their users' credentials there. Users will also need access to Salesforce for internal operations. UC has tasked an identity architect with evaluating Afferent solutions for authentication and authorization between AWS and Salesforce. How should an identity architect configure AWS to authenticate and authorize Salesforce users?",
       options: [
         "A. Develop a custom Auth server in AWS.",
         "B. Configure the custom employee app as a connected app.",
@@ -818,7 +818,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers is using OpenID Connect to enable a connection from their new mobile app to its production Salesforce org.\n       What should be done to enable the retrieval of the access token status for the OpenID Connect connection?",
+        "Universal Containers is using OpenID Connect to enable a connection from their new mobile app to its production Salesforce org. What should be done to enable the retrieval of the access token status for the OpenID Connect connection?",
       options: [
         "A. Create a custom OAuth scope.",
         "B. Query using OpenID Connect discovery endpoint.",
@@ -830,7 +830,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has an Experience Cloud site (Customer Community) where customers can authenticate and place orders, view the status of orders, etc. UC allows guest checkout.\n       Mow can a guest register using data previously collected during order placement?",
+        "Universal Containers (UC) has an Experience Cloud site (Customer Community) where customers can authenticate and place orders, view the status of orders, etc. UC allows guest checkout. Mow can a guest register using data previously collected during order placement?",
       options: [
         "A. Enable Security Assertion Markup Language Sign-On and use a login flow to collect only order details to retrieve customer data.",
         "B. Enable Facebook as an authentication provider and use a registration handler to collect only order details to retrieve customer data.",
@@ -842,7 +842,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) has an existing custom business-to-consumer (B2C) website that does NOT support single sign-on standards, such as Security Assertion Markup Language (SAMi) or OAuth. NTO wants to use Salesforce Identity to register and authenticate new customers on the website.\n       Which two Salesforce features should an identity architect use in order to provide username/password authentication for the website?\n       Choose 2 answers",
+        "Northern Trail Outfitters (NTO) has an existing custom business-to-consumer (B2C) website that does NOT support single sign-on standards, such as Security Assertion Markup Language (SAMi) or OAuth. NTO wants to use Salesforce Identity to register and authenticate new customers on the website. Which two Salesforce features should an identity architect use in order to provide username/password authentication for the website? Choose 2 answers",
       options: [
         "A. Embedded Login",
         "B. Connected Apps",
@@ -854,7 +854,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) uses Salesforce for its customer service agents. UC has a proprietary system for order tracking which supports Security Assertion Markup Language (SAML) based single sign-on. The VP of customer service wants to ensure only active Salesforce users should be able to access the order tracking system which is only visible within Salesforce.\n       What should be done to fulfill the requirement?\n       Choose 2 answers",
+        "Universal Containers (UC) uses Salesforce for its customer service agents. UC has a proprietary system for order tracking which supports Security Assertion Markup Language (SAML) based single sign-on. The VP of customer service wants to ensure only active Salesforce users should be able to access the order tracking system which is only visible within Salesforce. What should be done to fulfill the requirement? Choose 2 answers",
       options: [
         "A. Customize Order Tracking to initiate a REST call to validate users in Salesforce after login.",
         "B. Set up the Corporate Identity store as an identity provider (IdP) for Order Tracking,",
@@ -878,7 +878,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters recently acquired a company. Each company will retain its Identity Provider (IdP).\n       Both companies rely extensively on Salesforce processes that send emails to users to take specific actions in Salesforce.\n       How should the combined companys' employees collaborate in a single Salesforce org, yet authenticate to the appropriate IdP?",
+        "Northern Trail Outfitters recently acquired a company. Each company will retain its Identity Provider (IdP). Both companies rely extensively on Salesforce processes that send emails to users to take specific actions in Salesforce. How should the combined companys' employees collaborate in a single Salesforce org, yet authenticate to the appropriate IdP?",
       options: [
         "A. Have generated links append a querystnng parameter indicating the IdP. The login service will redirect to the appropriate IdP.",
         "B. Enable each IdP as a login option in the MyDomain Authentication Service settings. Users will then click on the appropriate IdP button.",
@@ -902,7 +902,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) is planning to implement a community for its customers using Salesforce Experience Cloud . Customers are not able to self-register. NTO would like to have customers set their own passwords when provided access to the community.\n       Which two recommendations should an identity architect make to fulfill this requirement?\n       Choose 2 answers",
+        "Northern Trail Outfitters (NTO) is planning to implement a community for its customers using Salesforce Experience Cloud . Customers are not able to self-register. NTO would like to have customers set their own passwords when provided access to the community. Which two recommendations should an identity architect make to fulfill this requirement? Choose 2 answers",
       options: [
         "A. Enable Welcome emails while configuring the Experience Cloud site.",
         "B. Use Login Flows to allow users to reset password in Experience Cloud site.",
@@ -914,7 +914,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Northern Trail Outfitters (NTO) wants its customers to use phone numbers to log in to their new digital portal, which was designed and built using Salesforce Experience Cloud. In order to access the portal, the user will need to do the following:\n       1. Enter a phone number and/or email address\n       2. Enter a verification code that is to be sent via email or text.\n       What is the recommended approach to fulfill this requirement?",
+        "Northern Trail Outfitters (NTO) wants its customers to use phone numbers to log in to their new digital portal, which was designed and built using Salesforce Experience Cloud. In order to access the portal, the user will need to do the following: 1. Enter a phone number and/or email address 2. Enter a verification code that is to be sent via email or text. What is the recommended approach to fulfill this requirement?",
       options: [
         "A. Create a custom login page with an Apex controller. The controller has logic to send and verify the identity.",
         "B. Create a custom login flow that uses an Apex controller to verify the phone numbers with the company's verification service.",
@@ -939,7 +939,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers is creating a web application that will be secured by Salesforce Identity using the OAuth\n       2.0 Web Server Flow uses the OAuth 2.0 authorization code grant type).\n       Which three OAuth concepts apply to this flow?\n       Choose 3 answers",
+        "Universal Containers is creating a web application that will be secured by Salesforce Identity using the OAuth 2.0 Web Server Flow uses the OAuth 2.0 authorization code grant type). Which three OAuth concepts apply to this flow? Choose 3 answers",
       options: [
         "A. Access Token",
         "B. Client Secret",

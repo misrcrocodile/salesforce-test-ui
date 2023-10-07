@@ -10,7 +10,7 @@ window.testContent[testName].testList.push({
   content: [
     {
       content:
-        "To address different compliance requirements, such as general data protection regulation (GDPR), personally identifiable information (PII), of health insurance Portability and Accountability Act (HIPPA) and others, a SF customer decided to categorize each data element in SF with the following:Data ownerSecurity Level, such as confidentialCompliance types such as GDPR, PII, HIPPAA compliance audit would require SF admins to generate reports to manage compliance. What should a data architect recommend to address this requirement?",
+        "To address different compliance requirements, such as general data protection regulation (GDPR), personally identifiable information (PII), of health insurance Portability and Accountability Act (HIPPA) and others, a SF customer decided to categorize each data element in SF with the following:\n　1. Data owner \n　2. Security Level, such as confidential \n　3. Compliance types such as GDPR, PII, HIPPAA \n A compliance audit would require SF admins to generate reports to manage compliance.\nWhat should a data architect recommend to address this requirement?",
       options: [
         "A. Build reports for field information, then export the information to classify and report for Audits.",
         "B. Use field metadata attributes for compliance categorization, data owner, and data sensitivity level.",
@@ -22,7 +22,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "A large multinational B2C Salesforce customer is looking to implement their distributor management application is Salesforce. the application has the following capabilities:1.Distributor create sales order in salesforce2.Sales order are based on product prices applicable to their region3. Sales order are closed once they are fulfilled4. It is decided to maintain the order in opportunity objectHow should the data architect model this requirement?",
+        "A large multinational B2C Salesforce customer is looking to implement their distributor management application is Salesforce. the application has the following capabilities:\n　1.Distributor create sales order in salesforce\n　2.Sales order are based on product prices applicable to their region\n　3. Sales order are closed once they are fulfilled\n　4. It is decided to maintain the order in opportunity object\nHow should the data architect model this requirement?",
       options: [
         "A. Configure price Books for each region and share with distributors.",
         "B. Add custom fields in Opportunity and use triggers to update prices.",
@@ -65,7 +65,7 @@ window.testContent[testName].testList.push({
         "C. Use a custom built extract job to extract operational data to on-premise systems.",
         "D. Use Weekly Export to extract transactional data to on-premise systems.",
       ],
-      answer: "C",
+      answer: "B,C",
       title: "Question 5",
     },
     {
@@ -94,7 +94,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Universal Containers (UC) has a complex system landscape and is implementing a data governance program for the first time Which two first steps would be appropriate for UC to initiate an assessment of data architecture? Choose 2 answers",
+        "Universal Containers (UC) has a complex system landscape and is implementing a data governance program for the first time. Which two first steps would be appropriate for UC to initiate an assessment of data architecture? Choose 2 answers",
       options: [
         "A. Engage with executive sponsorship to assess enterprise data strategy and goals.",
         "B. Engage with database administrators to assess current database performance metrics.",
@@ -106,7 +106,7 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "NTO has implemented salesforce for its sales users. The opportunity management in salesforce is implemented as follows:1. Sales users enter their opportunities in salesforce for forecasting and reporting purposes.2. NTO has a product pricing system (PPS) that is used to update opportunity amount field on opportunities on a daily basis.3. PPS is the trusted source within the NTO for opportunity amount.4. NTO uses opportunity forecast for its sales planning and management.Sales users have noticed that their updates to the opportunity amount field are overwritten when PPS updates their opportunities. How should a data architect address this overriding issue?",
+        "NTO has implemented salesforce for its sales users. The opportunity management in salesforce is implemented as follows:\n　1. Sales users enter their opportunities in salesforce for forecasting and reporting purposes.\n　2. NTO has a product pricing system (PPS) that is used to update opportunity amount field on opportunities on a daily basis.\n　3. PPS is the trusted source within the NTO for opportunity amount.\n　4. NTO uses opportunity forecast for its sales planning and management.\nSales users have noticed that their updates to the opportunity amount field are overwritten when PPS updates their opportunities. How should a data architect address this overriding issue?",
       options: [
         "A. Create a custom field for opportunity amount that PPS updates separating the field that sales user updates.",
         "B. Change PPS integration to update only opportunity amount fields when values is NULL.",
