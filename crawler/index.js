@@ -4,11 +4,14 @@ const fs = require("fs");
 const Promise = require("bluebird");
 var mainLinks = [
   {
-    name: "Salesforce.Data-Architect.v2023-09-04.q115",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Data-Architect.v2023-09-04.q115.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Salesforce-Certified-Administrator.v2023-10-02.q113",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Salesforce-Certified-Administrator.v2023-10-02.q113.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Salesforce-Certified-Administrator.v2023-04-27.q85",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Salesforce-Certified-Administrator.v2023-04-27.q85.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
 ];
-
 async function crawlLink(url) {
   let res = await curl(url);
   let $ = cheerio.load(res);
@@ -34,13 +37,35 @@ async function getQuestionData(url) {
     var item = $(option[i]);
     optionList.push(item.text());
   }
+  function normalizeString(text) {
+    if (!text) {
+      return text;
+    }
+    text = text.replaceAll("\n      ", "\n");
+    text = text.replaceAll("\n       ", "\n");
+    text = text.replaceAll("\n ", "\n");
+    text = text.trim();
+
+    if (text[0] === "\n") {
+      text = text.slice(1);
+    }
+
+    if (text[text.length - 1] === "\n") {
+      text = text.substring(0, text.length - 1);
+    }
+
+    return text;
+  }
+
   return {
-    content: $(".qa-question").text(),
+    content: normalizeString($(".qa-question").text()),
     options: optionList,
-    answer: $(".qa-answerexp").text(),
-    title: $(".qa h4").first().text(),
+    answer: $(".qa-answerexp>div>span").text(),
+    title: "Question " + $(".qa h4 .text-danger").first().text(),
+    explanation: normalizeString($(".qa_explanation").text()),
   };
 }
+
 async function getData(mainLink) {
   var url = mainLink.url;
   console.log("Get data from url:", url);
