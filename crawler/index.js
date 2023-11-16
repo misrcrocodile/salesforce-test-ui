@@ -4,12 +4,120 @@ const fs = require("fs");
 const Promise = require("bluebird");
 var mainLinks = [
   {
-    name: "Salesforce.Salesforce-Certified-Administrator.v2023-10-02.q113",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Salesforce-Certified-Administrator.v2023-10-02.q113.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.ADM-201.v2023-11-02.q102",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2023-11-02.q102.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.Salesforce-Certified-Administrator.v2023-04-27.q85",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Salesforce-Certified-Administrator.v2023-04-27.q85.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.ADM-201.v2023-10-09.q118",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2023-10-09.q118.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2023-03-15.q176",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2023-03-15.q176.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-12-19.q89",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-12-19.q89.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-11-27.q96",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-11-27.q96.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-09-24.q73",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-09-24.q73.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-08-25.q79",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-08-25.q79.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-08-16.q84",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-08-16.q84.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-05-04.q74",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-05-04.q74.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-05-02.q104",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-05-02.q104.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-05-02.q74",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-05-02.q74.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-03-11.q103",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-03-11.q103.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-02-01.q72",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-02-01.q72.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2022-01-17.q124",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2022-01-17.q124.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-12-20.q58",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-12-20.q58.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-12-15.q124",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-12-15.q124.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-11-27.q128",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-11-27.q128.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-09-08.q111",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-09-08.q111.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-07-13.q106",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-07-13.q106.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2021-03-14.q392",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2021-03-14.q392.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2020-12-24.q67",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2020-12-24.q67.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2020-10-30.q61",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2020-10-30.q61.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2020-08-03.q52",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2020-08-03.q52.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2020-06-24.q351",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2020-06-24.q351.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2020-06-17.q52",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2020-06-17.q52.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2019-02-19.q581",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2019-02-19.q581.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2018-04-22.q1010",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2018-04-22.q1010.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2018-03-18.q603",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2018-03-18.q603.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.ADM-201.v2018-03-15.q40",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.ADM-201.v2018-03-15.q40.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
 ];
 async function crawlLink(url) {
