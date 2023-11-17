@@ -93,7 +93,8 @@ window.testContent[testName].testList.push({
         "Explanation\n To identify new leads entered by interns from existing leads, the administrator should define a record type and assign it to the interns. This will allow them to select a different record type when creating leads, and distinguish them from other leads based on record type. Setting up Web-to-Lead form will not work if the interns are entering leads manually in Salesforce. Creating a separate Lead Lightning App or updating the active Lead Assignment Rules will not affect lead identification. References:\n https://help.salesforce.com/s/articleView?id=sf.customize_recordtype.htm&type=5",
     },
     {
-      content: "What will happen to the Chatter post in this situation?",
+      content:
+        "Universal Containers created a new job posting on the first of the month. It triggered a process scheduled action that will send a Chatter post to the department VP th in 30 days if the position is still open and the status is NOT equal to Interviewing. On the 10 of the month, an application interviews, and the job posting status is updated to Interviewing.\nWhat will happen to the Chatter post in this situation?",
       options: [
         "A. The pending Chatter post will be canceled.",
         "B. The pending Chatter post will be sent on the 10th of the month",
