@@ -96,12 +96,12 @@ window.testContent[testName].testList.push({
       content:
         "Which two actions should an administrator perform with Case escalation rules? Choose 2 answers",
       options: [
-        "A. Change the Case Priority.",
+        "A. Re-open the Case.",
         "B. Re-assign the Case.",
-        "C. Re-open the Case.",
+        "C. Change the Case Priority.",
         "D. Send email notifications.",
       ],
-      answer: "B,D",
+      answer: "B,C",
       title: "Question 8",
     },
     {
@@ -233,7 +233,7 @@ window.testContent[testName].testList.push({
         "C. Review the Password policies.",
         "D. Review the Security token.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 19",
     },
     {
@@ -306,7 +306,7 @@ window.testContent[testName].testList.push({
         "D. Dashboards",
         "E. Lightning App Pages",
       ],
-      answer: "A,B,D",
+      answer: "A,D,E",
       title: "Question 25",
     },
     {
@@ -445,12 +445,12 @@ window.testContent[testName].testList.push({
       content:
         "Users at Dreamhouse Reality are only allowed to see opportunities they own. Leadership wants an enterprise- wide dashboard of all open opportunities in the pipeline so that users can see how the company is performing at any point in time. How should an administrator create the dashboard without changing any sharing setting?",
       options: [
-        "A. Create a dashboard with the running User set as someone who can see all Opportunities",
-        "B. Update the dashboard to folder settings to manager for the sales reps role.",
-        "C. Add a filter to the dashboard to filter the opportunities by owner role.",
-        "D. Build individual dashboards for profiles that need to see the enterprise results.",
+        "A. Add a filter to the dashboard to filter the opportunities by owner role.",
+        "B. Create a dashboard with the running User set as someone who can see all Opportunities",
+        "C. Build individual dashboards for profiles that need to see the enterprise results.",
+        "D. Update the dashboard to folder settings to manager for the sales reps role.",
       ],
-      answer: "D",
+      answer: "B",
       title: "Question 37",
     },
     {
@@ -542,12 +542,12 @@ window.testContent[testName].testList.push({
       content:
         "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. Which two tools should and administrator configure? Choose 2 answers",
       options: [
-        "A. Outbound Message",
-        "B. Approval Process",
-        "C. Email Alert Action",
-        "D. Quick Action",
+        "A. Quick Action",
+        "B. Outbound Message",
+        "C. Approval Process",
+        "D. Email Alert Action",
       ],
-      answer: "A,B",
+      answer: "B,C",
       title: "Question 45",
     },
     {
@@ -595,7 +595,7 @@ window.testContent[testName].testList.push({
         "C. Create a Permission Set",
         "D. Assign permission set group to Users",
       ],
-      answer: "A,D",
+      answer: "C,D",
       title: "Question 49",
     },
     {
@@ -626,10 +626,10 @@ window.testContent[testName].testList.push({
       content:
         "A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting one event per month and want to be able to report on campaign ROI by month and series. How should the administrator set up the Campaign to simplify reporting?",
       options: [
-        "A. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
-        "B. Add different record types for the monthly event types.",
-        "C. Create individual Campaigns that all have the same name.",
-        "D. Configure campaign Member Statuses to record which event members attended.",
+        "A. Configure campaign Member Statuses to record which event members attended.",
+        "B. Create individual Campaigns that all have the same name.",
+        "C. Add different record types for the monthly event types.",
+        "D. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
       ],
       answer: "D",
       title: "Question 52",
@@ -648,14 +648,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request?",
+        "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request? Choose 3 Answers.",
       options: [
         "A. Process builder",
         "B. Flow builder",
         "C. Workflow rule",
         "D. Task assignment",
       ],
-      answer: "C",
+      answer: "A,B,C",
       title: "Question 54",
     },
     {
@@ -667,7 +667,7 @@ window.testContent[testName].testList.push({
         "C. Organization-wide defaults",
         "D. Field-level security",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 55",
     },
     {
@@ -686,12 +686,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud kicks intends to protect with backups by using the data by using the data export Service. Which two considerations should the administrator remember when Scheduling the export? Choose 2 Answers.",
       options: [
-        "A. Metadata backups must be run via a separate process.",
+        "A. Metadata Backups are limited a sandbox refresh intervals.",
         "B. Data Backups are limited to weekly or monthly intervals.",
         "C. Data export service should be run from a sandbox.",
-        "D. Metadata Backups are limited a sandbox refresh intervals.",
+        "D. Metadata backups must be run via a separate process.",
       ],
-      answer: "B,D",
+      answer: "A,B",
       title: "Question 57",
     },
     {
@@ -735,12 +735,12 @@ window.testContent[testName].testList.push({
       content:
         "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?",
       options: [
-        "A. Create a queue and a criteria-based sharing rule.",
-        "B. Create a user-based sharing rule and an ad-hoc case team.",
-        "C. Create an auto-response rule and a public group.",
-        "D. Create a predefined case team and an assignment rule.",
+        "A. Create a user-based sharing rule and an ad-hoc case team.",
+        "B. Create a queue and a criteria-based sharing rule.",
+        "C. Create a predefined case team and an assignment rule.",
+        "D. Create an auto-response rule and a public group.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 61",
     },
     {

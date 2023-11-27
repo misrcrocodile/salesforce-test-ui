@@ -89,7 +89,7 @@ window.testContent[testName].testList.push({
         "C. The available for input checkbox was unchecked.",
         "D. The field type is unsupported by debugging.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 7",
     },
     {
@@ -275,12 +275,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the questions that is needed. How should an administrator complete this?",
       options: [
-        "A. Use a conditional visibility to hide the unnecessary question",
-        "B. Use branching in the flow screen to show the proper scenario",
-        "C. Use a decision element and a new screen to show the proper question",
-        "D. Use a new version of the flow for each scenario.",
+        "A. Use a new version of the flow for each scenario.",
+        "B. Use a decision element and a new screen to show the proper question",
+        "C. Use a conditional visibility to hide the unnecessary question",
+        "D. Use branching in the flow screen to show the proper scenario",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 23",
     },
     {
@@ -289,11 +289,10 @@ window.testContent[testName].testList.push({
       options: [
         "A. Folder access",
         "B. Field level security",
-        "C. Report subscription",
-        "D. Custom report type",
-        "E. Role hierarchy",
+        "C. Custom report type.",
+        "D. Report subscription",
       ],
-      answer: "A,B,E",
+      answer: "A,B,C",
       title: "Question 24",
     },
     {
@@ -421,12 +420,12 @@ window.testContent[testName].testList.push({
         "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need? Choose Three answers",
       options: [
         "A. Enable guided selling.",
-        "B. Mark fields required on the page layout.",
-        "C. Use Flow to mark fields required.",
-        "D. Use Validation Rules.",
-        "E. Configure Opportunity Path.",
+        "B. Use Validation Rules.",
+        "C. Configure Opportunity Path.",
+        "D. Use Flow to mark fields required.",
+        "E. Mark fields required on the page layout.",
       ],
-      answer: "B,D,E",
+      answer: "B,C,E",
       title: "Question 35",
     },
     {
@@ -534,7 +533,7 @@ window.testContent[testName].testList.push({
         "C. Use the Standard Object for designs.",
         "D. Create a Custom Object for shoe design.",
       ],
-      answer: "B,D",
+      answer: "A,D",
       title: "Question 44",
     },
     {
@@ -601,12 +600,12 @@ window.testContent[testName].testList.push({
       content:
         "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request?",
       options: [
-        "A. Flow builder",
-        "B. Workflow rule",
-        "C. Task assignment",
-        "D. Process builder",
+        "A. Process builder",
+        "B. Flow builder",
+        "C. Workflow rule",
+        "D. Task assignment",
       ],
-      answer: "B",
+      answer: "A,B,C",
       title: "Question 50",
     },
     {
@@ -830,12 +829,12 @@ window.testContent[testName].testList.push({
       content:
         "The administrator for AW Computing is working with a user who is having trouble logging in to salesforce. What should the administrator do to identify why the user is unable to login?",
       options: [
-        "A. Review the Security token.",
+        "A. Review the password history.",
         "B. Review the Login history",
         "C. Review the Password policies.",
-        "D. Review the password history.",
+        "D. Review the Security token.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 69",
     },
     {

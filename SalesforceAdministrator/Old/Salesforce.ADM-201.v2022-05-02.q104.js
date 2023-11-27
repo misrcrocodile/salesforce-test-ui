@@ -177,12 +177,12 @@ window.testContent[testName].testList.push({
         "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage. Which three options should the administrator use to address this need? Choose Three answers",
       options: [
         "A. Enable guided selling.",
-        "B. Configure Opportunity Path.",
-        "C. Mark fields required on the page layout.",
-        "D. Use Validation Rules.",
-        "E. Use Flow to mark fields required.",
+        "B. Use Validation Rules.",
+        "C. Configure Opportunity Path.",
+        "D. Use Flow to mark fields required.",
+        "E. Mark fields required on the page layout.",
       ],
-      answer: "B,D,E",
+      answer: "B,C,E",
       title: "Question 17",
     },
     {
@@ -293,12 +293,12 @@ window.testContent[testName].testList.push({
       content:
         "Which two capabilities are considerations when marking a field as required In Object Manager? Choose 2 answers",
       options: [
-        "A. The field Is optional when saving records via web-to-lead and web-to-case.",
-        "B. The field Is not required to save records via the API onthat object.",
-        "C. The fieldIs added to every page layout on that object.",
-        "D. The field Is universally required to save a record on that object.",
+        "A. The field Is not required to save records via the API on that object.",
+        "B. The field Is optional when saving records via web-to-lead and web-to-case.",
+        "C. The field Is universally required to save a record on that object.",
+        "D. The field Is added to every page layout on that object.",
       ],
-      answer: "C,D",
+      answer: "B,C",
       title: "Question 29",
     },
     {
@@ -698,7 +698,7 @@ window.testContent[testName].testList.push({
         "C. Create a predefined case team and an assignment rule.",
         "D. Create an auto-response rule and a public group.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 70",
     },
     {
@@ -897,7 +897,7 @@ window.testContent[testName].testList.push({
         "C. Subscribe",
         "D. Validation rule",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 89",
     },
     {

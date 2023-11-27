@@ -116,7 +116,7 @@ window.testContent[testName].testList.push({
         "D. Use Flow to mark fields required.",
         "E. Mark fields required on the page layout.",
       ],
-      answer: "A,B,E",
+      answer: "B,C,E",
       title: "Question 8",
       explanation:
         "Explanation\n Guided selling, validation rules, and required fields on the page layout are three options that can be used to ensure sales reps fill out key fields when working on an opportunity through the process. Guided selling allows administrators to add prompts and guidance at each stage of the path to help reps move forward with confidence. Validation rules allow administrators to enforce data quality and business logic by preventing reps from saving records that do not meet certain criteria. Required fields on the page layout allow administrators to make certain fields mandatory for reps to enter before saving records. Configuring opportunity path can help reps visualize and update key fields at each stage, but it does not make them required or prevent them from moving forward without entering them. Using flow to mark fields required is not possible because flows cannot modify page layouts or field properties. References:\n https://help.salesforce.com/s/articleView?id=sf.path_guided_selling.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.validation_rules.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.fields_defining_field_properties.htm&type=5",
@@ -173,7 +173,7 @@ window.testContent[testName].testList.push({
         "D. Decimal Places",
         "E. Field name",
       ],
-      answer: "A,B,D",
+      answer: "A,B,C",
       title: "Question 12",
       explanation:
         "Explanation\n Picklist values, help text, and decimal places are three aspects of standard fields that an administrator can customize to suit their business needs. Picklist values are the options that users can choose from a picklist field; they can be added, edited, or deleted by administrators. Help text is the text that appears when users hover over a field; it can be customized by administrators to provide additional information or guidance for users. Decimal places are the number of digits that appear after the decimal point in a number or currency field; they can be changed by administrators to adjust the precision of the field values. Field history tracking and field name are not aspects of standard fields that can be customized; they are only available for custom fields. References: https://help.salesforce.com/s/articleView?id=sf.customize_picklists.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.customize_fields_edit.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.customize_fields_number.htm&type=5",
@@ -229,7 +229,7 @@ window.testContent[testName].testList.push({
         "C. Data export service should be run from a sandbox.",
         "D. Metadata backups must be run via a separate process.",
       ],
-      answer: "B,D",
+      answer: "A,B",
       title: "Question 16",
       explanation:
         "Explanation\n To protect data with backups by using Data Export Service, two considerations that the administrator should remember when scheduling export are:\n Data Backups are limited to weekly or monthly intervals depending on edition and license type Metadata backups must be run via a separate process such as Metadata API or change sets because Data Export Service only exports data (records) Metadata backups are not limited by sandbox refresh intervals. Data Export Service should be run from production orgs unless testing purposes require otherwise. References: https://help.salesforce.com/s/articleView?id=sf.data_export.htm&type=5",
@@ -378,12 +378,12 @@ window.testContent[testName].testList.push({
       content:
         "The administrator at cloud kicks is trying to debug a screen flow that create contacts. One of the variables in the flow is missing on the debug screen.\nWhat could cause this issue?",
       options: [
-        "A. The available for input checkbox was unchecked.",
-        "B. The flow is an inactive version",
-        "C. The field type is unsupported by debugging.",
-        "D. The available for output checkbox was unchecked.",
+        "A. The flow is an inactive version",
+        "B. The available for output checkbox was unchecked.",
+        "C. The available for input checkbox was unchecked.",
+        "D. The field type is unsupported by debugging.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 27",
       explanation:
         "Explanation\n To debug a screen flow that creates contacts, one of the possible causes for a variable missing on the debug screen is that the available for input checkbox was unchecked for that variable. This means that variable cannot be set by external sources such as debug inputs or URL parameters. To fix this issue, check this checkbox for any variable that needs to be set externally. The flow version or field type does not affect variable availability for input. The available for output checkbox only affects whether variables can be passed out of flows or subflows. References:\n https://help.salesforce.com/s/articleView?id=sf.flow_ref_variables.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.flow_debugging.htm&type=5",
@@ -504,13 +504,13 @@ window.testContent[testName].testList.push({
       content:
         "Which three items are available in the mobile navigation menu?\nChoose 3 answers",
       options: [
-        "A. Lightning App Pages",
-        "B. Lightning Home Page",
-        "C. Chatter",
-        "D. Utility Bar",
-        "E. Dashboards",
+        "A. Chatter",
+        "B. Utility Bar",
+        "C. Lightning Home Page",
+        "D. Dashboards",
+        "E. Lightning App Pages",
       ],
-      answer: "A,C,E",
+      answer: "A,D,E",
       title: "Question 36",
       explanation:
         "Explanation\n Lightning app pages, Chatter, and dashboards are three items that are available in the mobile navigation menu.\n The mobile navigation menu allows users to access different items in the Salesforce mobile app, such as objects, apps, or utilities. Users can customize their mobile navigation menu by adding or removing items and changing their order. References: https://help.salesforce.com/s/articleView?id=sf.app_nav_setup.htm&type=5",
@@ -545,14 +545,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Clod Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the questions that is needed.\nHow should an administrator complete this?",
+        "Cloud Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the questions that is needed.\nHow should an administrator complete this?",
       options: [
         "A. Use a new version of the flow for each scenario.",
         "B. Use a decision element and a new screen to show the proper question",
         "C. Use a conditional visibility to hide the unnecessary question",
         "D. Use branching in the flow screen to show the proper scenario",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 39",
       explanation:
         "Explanation\n Conditional visibility is a feature that allows administrators to show or hide screen components in a flow based on certain conditions or criteria. For example, conditional visibility can show only one question on a screen depending on the value of another field or variable. Conditional visibility consists of one or more rules that define when to show or hide a component based on an expression that evaluates to true or false. In this case, the administrator can use conditional visibility to hide the unnecessary question on the screen flow based on the scenario. References:\n https://help.salesforce.com/s/articleView?id=sf.flow_ref_elements_screencmp.htm&type=5",
@@ -675,11 +675,11 @@ window.testContent[testName].testList.push({
         "Which two actions should an administrator perform with Case escalation rules?\nChoose 2 answers",
       options: [
         "A. Re-open the Case.",
-        "B. Send email notifications.",
+        "B. Re-assign the Case.",
         "C. Change the Case Priority.",
-        "D. Re-assign the Case.",
+        "D. Send email notifications.",
       ],
-      answer: "B,D",
+      answer: "B,C",
       title: "Question 48",
       explanation:
         "Explanation\n Case escalation rules are used to escalate cases that have not been resolved within a certain time frame by changing the case owner, sending email notifications, or triggering workflow actions. You can use these actions to alert the appropriate users or groups when a case needs urgent attention or escalation. References:\n https://help.salesforce.com/s/articleView?id=sf.customize_caseesc.htm&type=5",
@@ -805,7 +805,7 @@ window.testContent[testName].testList.push({
         "C. Approval Process",
         "D. Email Alert Action",
       ],
-      answer: "A,C",
+      answer: "B,C",
       title: "Question 57",
       explanation:
         "Explanation\n Quick actions allow you to initiate expense reports from Salesforce to an external HR system. Approval processes allow you to review the expense reports by managers and directors.\n References: https://help.salesforce.com/s/articleView?id=sf.approvals_considerations.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.quick_actions_overview.htm&type=5",
@@ -847,7 +847,7 @@ window.testContent[testName].testList.push({
         "C. Add a validation rule to ensure the Expiration Date field is populated.",
         "D. Include the warranty Expiration Date field on the mobile page layout.",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 60",
       explanation:
         "Explanation\n To capture the expiration date of warranty based on installation date and warranty length (1 year by default), the administrator should use a formula as the default value of Warranty Expiration Date field on Installation object. The formula can calculate one year from installation date using DATE function or DATEVALUE function. For example, DATE(YEAR(Installation_Date__c) + 1 , MONTH(Installation_Date__c) , DAY(Installation_Date__c)) will return one year from installation date. Creating a formula field, adding a validation rule, or including Warranty Expiration Date field on mobile page layout will not capture expiration date based on installation date and warranty length. References:\n https://help.salesforce.com/s/articleView?id=sf.formula_using_date_datetime.htm&type=5",
@@ -889,7 +889,7 @@ window.testContent[testName].testList.push({
         "C. The Show Closed Statuses m Case Status Field checkbox is set to the default.",
         "D. The Support Process being used omits Closed as a status choice.",
       ],
-      answer: "D",
+      answer: "A",
       title: "Question 63",
       explanation:
         "Explanation\n A support process is a feature that allows administrators to define and enforce the stages that a case or work order must go through based on its record type. A support process determines which values are available for the status field for each record type. If a support process omits a certain value for the status field, such as Closed, then users will not be able to see or select that value when working with cases or work orders of that record type. References: https://help.salesforce.com/s/articleView?id=sf.customize_supporthome.htm&type=5",
@@ -959,7 +959,7 @@ window.testContent[testName].testList.push({
         "C. Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions.",
         "D. Restrict U2F Security Keys on the user's profile to enforce login hours.",
       ],
-      answer: "A,D",
+      answer: "A,C",
       title: "Question 68",
       explanation:
         "Explanation\n Two considerations for preventing users from accessing Salesforce from outside of their network are:\n IP address restrictions are set on the profile or globally for the org, which limit login access based on IP ranges specified by an administrator Restrict U2F Security Keys on the user's profile to enforce login hours, which require users to use security keys during certain hours of day Assigning single sign-on to a permission set or enforcing Login IP Ranges on Every Request will not prevent users from accessing Salesforce from outside of their network. References:\n https://help.salesforce.com/s/articleView?id=sf.security_networkaccess.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.security_keys_restrict.htm&type=5",
@@ -1026,11 +1026,11 @@ window.testContent[testName].testList.push({
       options: [
         "A. Chatter",
         "B. Utility Bar",
-        "C. Lightning App Pages",
-        "D. Lightning Home Page",
-        "E. Dashboards",
+        "C. Lightning Home Page",
+        "D. Dashboards",
+        "E. Lightning App Pages",
       ],
-      answer: "A,C,E",
+      answer: "A,D,E",
       title: "Question 73",
       explanation:
         "Explanation\n Lightning app pages, Chatter, and dashboards are three items that are available in the mobile navigation menu.\n The mobile navigation menu allows users to access different items in the Salesforce mobile app, such as objects, apps, or utilities. Users can customize their mobile navigation menu by adding or removing items and changing their order. References: https://help.salesforce.com/s/articleView?id=sf.app_nav_setup.htm&type=5",

@@ -41,7 +41,7 @@ window.testContent[testName].testList.push({
         "C. Change the Case Priority.",
         "D. Send email notifications.",
       ],
-      answer: "A,D",
+      answer: "B,C",
       title: "Question 3",
     },
     {
@@ -85,11 +85,11 @@ window.testContent[testName].testList.push({
         "Northern Trail Outfitters is using one profile for all of its marketing users, providing read-only access to the Campaign object. A few marketing users now require comprehensive edit access on Campaigns. How should an administrator fulfil this request?",
       options: [
         "A. Marketing user checkbox",
-        "B. Organization-wide defaults",
-        "C. Permission sets",
+        "B. Permission sets",
+        "C. Organization-wide defaults",
         "D. Field-level security",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 7",
     },
     {
@@ -181,9 +181,9 @@ window.testContent[testName].testList.push({
         'The administrator at universal containers has a screen flow that helps users create new leads.When lead source is "Search Engine", the administrator needs to require the user to choose a specific a search engine from a picklist. If lead source is not "Search Engine", this picklist should be hidden. How should the administrator complete this requirement?',
       options: [
         'A. Configure a picklist for specific search engine, and use a validation rule to conditionally show only when lead source is "Search Engine"',
-        'B. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
-        'C. Use an assignment element, one for when lead source is "Search Engine" and one for everything else.',
-        'D. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
+        'B. Use an assignment element, one for when lead source is "Search Engine" and one for everything else.',
+        'C. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
+        'D. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
       ],
       answer: "D",
       title: "Question 15",
@@ -482,11 +482,11 @@ window.testContent[testName].testList.push({
         "Cloud kicks intends to protect with backups by using the data by using the data export Service. Which two considerations should the administrator remember when Scheduling the export? Choose 2 Answers.",
       options: [
         "A. Metadata Backups are limited a sandbox refresh intervals.",
-        "B. Data export service should be run from a sandbox.",
-        "C. Metadata backups must be run via a separate process.",
-        "D. Data Backups are limited to weekly or monthly intervals.",
+        "B. Data Backups are limited to weekly or monthly intervals.",
+        "C. Data export service should be run from a sandbox.",
+        "D. Metadata backups must be run via a separate process.",
       ],
-      answer: "A,D",
+      answer: "A,B",
       title: "Question 40",
     },
     {
@@ -527,14 +527,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Clod Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the questions that is needed. How should an administrator complete this?",
+        "Cloud Kicks has a screen flow with two questions on the same screen, but only one is necessary at a time. The administrator has been asked to show only the questions that is needed. How should an administrator complete this?",
       options: [
-        "A. Use a conditional visibility to hide the unnecessary question",
-        "B. Use a new version of the flow for each scenario.",
-        "C. Use branching in the flow screen to show the proper scenario",
-        "D. Use a decision element and a new screen to show the proper question",
+        "A. Use a new version of the flow for each scenario.",
+        "B. Use a decision element and a new screen to show the proper question",
+        "C. Use a conditional visibility to hide the unnecessary question",
+        "D. Use branching in the flow screen to show the proper scenario",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 44",
     },
     {
@@ -577,13 +577,13 @@ window.testContent[testName].testList.push({
       content:
         "Which three items are available in the mobile navigation menu? Choose 3 answers",
       options: [
-        "A. Lightning App Pages",
-        "B. Lightning Home Page",
-        "C. Chatter",
+        "A. Chatter",
+        "B. Utility Bar",
+        "C. Lightning Home Page",
         "D. Dashboards",
-        "E. Utility Bar",
+        "E. Lightning App Pages",
       ],
-      answer: "C,D,E",
+      answer: "A,D,E",
       title: "Question 48",
     },
     {
@@ -614,13 +614,13 @@ window.testContent[testName].testList.push({
       content:
         "The Cloud kicks sales manager wants to boost productivity by providing insights at the start of each day. Which three sales-specific standard Lightning components should administrator add to the homepage to meet this requirement? Choose 3 Answers.",
       options: [
-        "A. Activities",
-        "B. Assistant",
-        "C. Path",
-        "D. Performance chart.",
-        "E. Key Deals",
+        "A. Path",
+        "B. Key Deals",
+        "C. Activities",
+        "D. Assistant",
+        "E. Performance chart",
       ],
-      answer: "C,D,E",
+      answer: "B,D,E",
       title: "Question 51",
     },
     {
@@ -784,12 +784,12 @@ window.testContent[testName].testList.push({
       content:
         "An administrator needs to create a one-to-many relationship between two objects with limited access to child records. What type of field should the administrator use?",
       options: [
-        "A. Roll-up summary",
-        "B. Cross Object formula",
-        "C. Master-detail field",
-        "D. Lookup field",
+        "A. Master-detail field",
+        "B. Lookup field",
+        "C. Roll-up summary",
+        "D. Cross Object formula",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 65",
     },
     {
@@ -844,7 +844,7 @@ window.testContent[testName].testList.push({
         "C. Add different record types for the monthly event types.",
         "D. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 70",
     },
     {

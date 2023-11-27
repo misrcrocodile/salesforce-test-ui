@@ -29,7 +29,7 @@ window.testContent[testName].testList.push({
         'C. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
         'D. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 2",
     },
     {
@@ -108,12 +108,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud kicks intends to protect with backups by using the data by using the data export Service. Which two considerations should the administrator remember when Scheduling the export? Choose 2 Answers.",
       options: [
-        "A. Data Backups are limited to weekly or monthly intervals.",
-        "B. Metadata backups must be run via a separate process.",
-        "C. Metadata Backups are limited a sandbox refresh intervals.",
-        "D. Data export service should be run from a sandbox.",
+        "A. Metadata Backups are limited a sandbox refresh intervals.",
+        "B. Data Backups are limited to weekly or monthly intervals.",
+        "C. Data export service should be run from a sandbox.",
+        "D. Metadata backups must be run via a separate process.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 9",
     },
     {
@@ -135,7 +135,7 @@ window.testContent[testName].testList.push({
         "A. A junction object is required to support the lookup.",
         "B. The lookup field in all the records contains a value.",
         "C. The Look-Up field is required for Saving Records.",
-        "D. Roll-Up summary field sexist on the master object.",
+        "D. Roll-Up summary field exist on the master object.",
       ],
       answer: "D",
       title: "Question 11",
@@ -156,24 +156,24 @@ window.testContent[testName].testList.push({
       content:
         "A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting one event per month and want to be able to report on campaign ROI by month and series. How should the administrator set up the Campaign to simplify reporting?",
       options: [
-        "A. Create individual Campaigns that all have the same name.",
-        "B. Configure campaign Member Statuses to record which event members attended.",
-        "C. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
-        "D. Add different record types for the monthly event types.",
+        "A. Configure campaign Member Statuses to record which event members attended.",
+        "B. Create individual Campaigns that all have the same name.",
+        "C. Add different record types for the monthly event types.",
+        "D. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 13",
     },
     {
       content:
         "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR system. This process needs to be reviewed by managers and directors. Which two tools should and administrator configure? Choose 2 answers",
       options: [
-        "A. Email Alert Action",
+        "A. Quick Action",
         "B. Outbound Message",
-        "C. Quick Action",
-        "D. Approval Process",
+        "C. Approval Process",
+        "D. Email Alert Action",
       ],
-      answer: "B,D",
+      answer: "B,C",
       title: "Question 14",
     },
     {
@@ -185,7 +185,7 @@ window.testContent[testName].testList.push({
         "C. Use a Kanban list view for Opportunity.",
         "D. Add a path for stage to the opportunity record page.",
       ],
-      answer: "B,C",
+      answer: "C,D",
       title: "Question 15",
     },
     {
@@ -269,7 +269,7 @@ window.testContent[testName].testList.push({
         "C. Create a Custom Object for shoe design.",
         "D. Use the Standard Object for designs.",
       ],
-      answer: "B,C",
+      answer: "A,C",
       title: "Question 22",
     },
     {
@@ -317,7 +317,7 @@ window.testContent[testName].testList.push({
         "C. Roll-up summary",
         "D. Cross Object formula",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 26",
     },
     {
@@ -353,7 +353,7 @@ window.testContent[testName].testList.push({
         "C. Build individual dashboards for profiles that need to see the enterprise results.",
         "D. Update the dashboard to folder settings to manager for the sales reps role.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 29",
     },
     {
@@ -444,12 +444,12 @@ window.testContent[testName].testList.push({
       content:
         "The administrator at cloud kicks is trying to debug a screen flow that create contacts. One of the variables in the flow is missing on the debug screen. What could cause this issue?",
       options: [
-        "A. The field type is unsupported by debugging.",
+        "A. The flow is an inactive version",
         "B. The available for output checkbox was unchecked.",
         "C. The available for input checkbox was unchecked.",
-        "D. The flow is an inactive version",
+        "D. The field type is unsupported by debugging.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 37",
     },
     {
@@ -505,13 +505,13 @@ window.testContent[testName].testList.push({
       content:
         "Which three items are available in the mobile navigation menu? Choose 3 answers",
       options: [
-        "A. Lightning Home Page",
+        "A. Chatter",
         "B. Utility Bar",
-        "C. Lightning App Pages",
+        "C. Lightning Home Page",
         "D. Dashboards",
-        "E. Chatter",
+        "E. Lightning App Pages",
       ],
-      answer: "B,D,E",
+      answer: "A,D,E",
       title: "Question 42",
     },
     {
@@ -567,11 +567,11 @@ window.testContent[testName].testList.push({
         "Which two actions should an administrator perform with Case escalation rules? Choose 2 answers",
       options: [
         "A. Re-open the Case.",
-        "B. Send email notifications.",
+        "B. Re-assign the Case.",
         "C. Change the Case Priority.",
-        "D. Re-assign the Case.",
+        "D. Send email notifications.",
       ],
-      answer: "A,B",
+      answer: "B,C",
       title: "Question 47",
     },
     {
@@ -795,11 +795,11 @@ window.testContent[testName].testList.push({
         "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?",
       options: [
         "A. Create a user-based sharing rule and an ad-hoc case team.",
-        "B. Create a predefined case team and an assignment rule.",
-        "C. Create an auto-response rule and a public group.",
-        "D. Create a queue and a criteria-based sharing rule.",
+        "B. Create a queue and a criteria-based sharing rule.",
+        "C. Create a predefined case team and an assignment rule.",
+        "D. Create an auto-response rule and a public group.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 66",
     },
     {

@@ -84,12 +84,12 @@ window.testContent[testName].testList.push({
       content:
         "Which two actions should an administrator perform with Case escalation rules? Choose 2 answers",
       options: [
-        "A. Change the Case Priority.",
+        "A. Re-open the Case.",
         "B. Re-assign the Case.",
-        "C. Re-open the Case.",
-        "D. Send email notifications-",
+        "C. Change the Case Priority.",
+        "D. Send email notifications.",
       ],
-      answer: "B,D",
+      answer: "B,C",
       title: "Question 7",
     },
     {
@@ -314,7 +314,7 @@ window.testContent[testName].testList.push({
         "C. Assign the record type to the appropriate profiles",
         "D. Add the record type to the required user records",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 26",
     },
     {
@@ -481,7 +481,7 @@ window.testContent[testName].testList.push({
         "C. Map custom lead fields to standard contact fields.",
         "D. Map custom lead fields to custom contact fields.",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 40",
     },
     {
@@ -567,7 +567,7 @@ window.testContent[testName].testList.push({
         "C. Auto-response rule",
         "D. Case escalation rule",
       ],
-      answer: "A",
+      answer: "D",
       title: "Question 48",
     },
     {
@@ -845,7 +845,7 @@ window.testContent[testName].testList.push({
         "C. The data in the username field needs to resemble an email address.",
         "D. The locale settings are based on the computer's locate settings.",
       ],
-      answer: "A,B",
+      answer: "B,C",
       title: "Question 72",
     },
     {
@@ -973,7 +973,7 @@ window.testContent[testName].testList.push({
         "C. Change the Opportunity stage field to read only on the page layout,",
         "D. Modify the Opportunity stage a dependent picklist to the Lead source field.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 83",
     },
     {
@@ -985,7 +985,7 @@ window.testContent[testName].testList.push({
         "C. Data Import Wizard",
         "D. Mass edit from lists",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 84",
     },
     {
@@ -1065,13 +1065,13 @@ window.testContent[testName].testList.push({
       content:
         "Under which three conditions should a validation rule be used to prevent invalid data? Choose 3 answers",
       options: [
-        "A. When records are edited and saved by a user.",
-        "B. When records are updated by a workflow rule",
-        "C. When records are deleted by a user.",
-        "D. When records are submitted using web -to -lead.",
-        "E. When records are imported.",
+        "A. When records are submitted using web -to -lead.",
+        "B. When records are imported.",
+        "C. When records are edited and saved by a user.",
+        "D. When records are updated by a workflow rule",
+        "E. When records are deleted by a user.",
       ],
-      answer: "B,C,E",
+      answer: "A,B,E",
       title: "Question 91",
     },
     {
@@ -1083,7 +1083,7 @@ window.testContent[testName].testList.push({
         "C. Sales Rep B needs to be assigned to the Sales Rep permission set.",
         "D. Sales Rep B needs to be assigned to the Sales Rep queue.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 92",
     },
     {

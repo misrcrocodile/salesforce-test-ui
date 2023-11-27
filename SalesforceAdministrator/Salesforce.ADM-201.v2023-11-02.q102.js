@@ -336,12 +336,12 @@ window.testContent[testName].testList.push({
       content:
         'The administrator at universal containers has a screen flow that helps users create new leads.\nWhen lead source is "Search Engine", the administrator needs to require the user to choose a specific a search engine from a picklist. If lead source is not "Search Engine", this picklist should be hidden.\nHow should the administrator complete this requirement?',
       options: [
-        'A. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
+        'A. Configure a picklist for specific search engine, and use a validation rule to conditionally show only when lead source is "Search Engine"',
         'B. Use an assignment element, one for when lead source is "Search Engine" and one for everything else.',
-        'C. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
-        'D. Configure a picklist for specific search engine, and use a validation rule to conditionally show only when lead source is "Search Engine"',
+        'C. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
+        'D. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 24",
       explanation:
         'Explanation\n To require users to choose a specific search engine from a picklist when lead source is "Search Engine", and hide it otherwise, the administrator should create a picklist for specific search engine on the same screen as lead source, and set conditional visibility so that it is only shown when lead source is "Search Engine". This will make sure that users see only relevant fields based on their input. A decision element will create an extra screen that may disrupt user experience. An assignment element will not affect field visibility. A validation rule will not hide fields but only show errors when values are invalid. References:\n https://help.salesforce.com/s/articleView?id=sf.flow_ref_elements_screen_components_picklist.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.flow_ref_elements_screen_components_conditional_visibility.ht',
@@ -966,12 +966,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud kicks has the organization-wide sharing default set to private on the shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team.\nWhich 3 items should the administrator configure to provide appropriate access to the report?\nChoose 3 answers",
       options: [
-        "A. Custom report type.",
-        "B. Folder access",
-        "C. Report subscription",
-        "D. Field level security",
+        "A. Folder access",
+        "B. Field level security",
+        "C. Custom report type.",
+        "D. Report subscription",
       ],
-      answer: "A,B,D",
+      answer: "A,B,C",
       title: "Question 70",
       explanation:
         "Explanation\n To provide appropriate access to a report that contains shoe records for all of the sales reps on their team, the administrator should configure three items:\n A custom report type that includes the shoe object and its fields\n A folder access that grants access to the sales manager and their team members to view and run reports in that folder A field level security that allows the sales manager and their team members to see all the fields on the shoe object Report subscription, while useful for scheduling and delivering reports, does not affect access to the report itself. References:\n https://help.salesforce.com/s/articleView?id=sf.reports_builder_create_report_type.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.reports_manage_folders.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.admin_fls.htm&type=5",
@@ -1084,7 +1084,7 @@ window.testContent[testName].testList.push({
         "C. Add a custom master detail field for shoe design on the Product Object.",
         "D. Use the Standard Object for designs.",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 78",
       explanation:
         "Explanation\n Custom object and master detail field are two steps that should be configured to meet this requirement.\n Custom object can be used to create a new object for shoe design that can store information about different designs and stages. Master detail field can be used to create a relationship between Product and Shoe Design that prevents deletion of Shoe Design records and allows multiple designs for one product. References:\n https://help.salesforce.com/s/articleView?id=sf.customize_customobjects.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5",
@@ -1168,7 +1168,7 @@ window.testContent[testName].testList.push({
         "C. Data export service should be run from a sandbox.",
         "D. Metadata backups must be run via a separate process.",
       ],
-      answer: "B,D",
+      answer: "A,B",
       title: "Question 84",
       explanation:
         "Explanation\n To protect data with backups by using Data Export Service, two considerations that the administrator should remember when scheduling export are:\n Data Backups are limited to weekly or monthly intervals depending on edition and license type Metadata backups must be run via a separate process such as Metadata API or change sets because Data Export Service only exports data (records) Metadata backups are not limited by sandbox refresh intervals. Data Export Service should be run from production orgs unless testing purposes require otherwise. References: https://help.salesforce.com/s/articleView?id=sf.data_export.htm&type=5",
@@ -1420,7 +1420,7 @@ window.testContent[testName].testList.push({
         "C. Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions.",
         "D. Restrict U2F Security Keys on the user's profile to enforce login hours.",
       ],
-      answer: "A,D",
+      answer: "A,C",
       title: "Question 102",
       explanation:
         "Explanation\n Two considerations for preventing users from accessing Salesforce from outside of their network are:\n IP address restrictions are set on the profile or globally for the org, which limit login access based on IP ranges specified by an administrator Restrict U2F Security Keys on the user's profile to enforce login hours, which require users to use security keys during certain hours of day Assigning single sign-on to a permission set or enforcing Login IP Ranges on Every Request will not prevent users from accessing Salesforce from outside of their network. References:\n https://help.salesforce.com/s/articleView?id=sf.security_networkaccess.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.security_keys_restrict.htm&type=5",

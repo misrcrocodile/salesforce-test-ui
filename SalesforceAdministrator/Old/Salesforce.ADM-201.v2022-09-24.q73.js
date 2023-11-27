@@ -12,12 +12,12 @@ window.testContent[testName].testList.push({
       content:
         "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?",
       options: [
-        "A. Create an auto-response rule and a public group.",
-        "B. Create a predefined case team and an assignment rule.",
-        "C. Create a queue and a criteria-based sharing rule.",
-        "D. Create a user-based sharing rule and an ad-hoc case team.",
+        "A. Create a user-based sharing rule and an ad-hoc case team.",
+        "B. Create a queue and a criteria-based sharing rule.",
+        "C. Create a predefined case team and an assignment rule.",
+        "D. Create an auto-response rule and a public group.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 1",
     },
     {
@@ -292,12 +292,12 @@ window.testContent[testName].testList.push({
       content:
         "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request?",
       options: [
-        "A. Flow builder",
-        "B. Process builder",
+        "A. Process builder",
+        "B. Flow builder",
         "C. Workflow rule",
         "D. Task assignment",
       ],
-      answer: "C",
+      answer: "A,B,C",
       title: "Question 24",
     },
     {
@@ -388,10 +388,10 @@ window.testContent[testName].testList.push({
       content:
         "A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting one event per month and want to be able to report on campaign ROI by month and series. How should the administrator set up the Campaign to simplify reporting?",
       options: [
-        "A. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
-        "B. Add different record types for the monthly event types.",
-        "C. Create individual Campaigns that all have the same name.",
-        "D. Configure campaign Member Statuses to record which event members attended.",
+        "A. Configure campaign Member Statuses to record which event members attended.",
+        "B. Create individual Campaigns that all have the same name.",
+        "C. Add different record types for the monthly event types.",
+        "D. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
       ],
       answer: "D",
       title: "Question 32",
@@ -400,10 +400,10 @@ window.testContent[testName].testList.push({
       content:
         "The administrator for AW Computing is working with a user who is having trouble logging in to salesforce. What should the administrator do to identify why the user is unable to login?",
       options: [
-        "A. Review the Password policies.",
-        "B. Review the password history.",
-        "C. Review the Security token.",
-        "D. Review the Login history",
+        "A. Review the password history.",
+        "B. Review the Login history",
+        "C. Review the Password policies.",
+        "D. Review the Security token.",
       ],
       answer: "C",
       title: "Question 33",
@@ -474,10 +474,10 @@ window.testContent[testName].testList.push({
       options: [
         "A. Master-detail field",
         "B. Lookup field",
-        "C. Cross Object formula",
-        "D. Roll-up summary",
+        "C. Roll-up summary",
+        "D. Cross Object formula",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 39",
     },
     {
@@ -485,12 +485,12 @@ window.testContent[testName].testList.push({
         "The Cloud kicks sales manager wants to boost productivity by providing insights at the start of each day. Which three sales-specific standard Lightning components should administrator add to the homepage to meet this requirement? Choose 3 Answers.",
       options: [
         "A. Path",
-        "B. Activities",
-        "C. Key Deals",
+        "B. Key Deals",
+        "C. Activities",
         "D. Assistant",
-        "E. Performance chart.",
+        "E. Performance chart",
       ],
-      answer: "A,C,E",
+      answer: "B,D,E",
       title: "Question 40",
     },
     {
@@ -598,7 +598,7 @@ window.testContent[testName].testList.push({
         "C. Configure a custom lookup field for shoe designs on the Product object.",
         "D. Use the standard object for designs.",
       ],
-      answer: "A,B",
+      answer: "B,C",
       title: "Question 49",
     },
     {
@@ -798,10 +798,10 @@ window.testContent[testName].testList.push({
       content:
         "Northern Trail Outfitters is using one profile for all of its marketing users, providing read-only access to the Campaign object. A few marketing users now require comprehensive edit access on Campaigns. How should an administrator fulfil this request?",
       options: [
-        "A. Organization-wide defaults",
-        "B. Marketing user checkbox",
-        "C. Field-level security",
-        "D. Permission sets",
+        "A. Marketing user checkbox",
+        "B. Permission sets",
+        "C. Organization-wide defaults",
+        "D. Field-level security",
       ],
       answer: "B",
       title: "Question 66",

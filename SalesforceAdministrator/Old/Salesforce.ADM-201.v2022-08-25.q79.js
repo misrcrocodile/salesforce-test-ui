@@ -107,14 +107,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "★Sales users at Universal Containers are reporting that it is taking a long time to edit opportunity records. Normally, the only field they are editing is the Stage field. Which two options should the administrator recommend to help simplify the process? Choose 2 answers",
+        "Sales users at Universal Containers are reporting that it is taking a long time to edit opportunity records. Normally, the only field they are editing is the Stage field. Which two options should the administrator recommend to help simplify the process? Choose 2 answers",
       options: [
         "A. Create a simplified Opportunity page layout.",
         "B. Configure an auto launched flow for Opportunity editing.",
-        "C. Add a path for stage to the opportunity record page.",
-        "D. Use a Kanban list view for Opportunity.",
+        "C. Use a Kanban list view for Opportunity.",
+        "D. Add a path for stage to the opportunity record page.",
       ],
-      answer: "B,D",
+      answer: "C,D",
       title: "Question 9",
     },
     {
@@ -193,12 +193,12 @@ window.testContent[testName].testList.push({
       content:
         "Universal Containers introduced a new product and wants to track all associated cases that get logged. They are looking for an automated solution that would give the product's two lead engineers read/write access to all new cases that reference the new product. What should an administrator do to satisfy this requirement?",
       options: [
-        "A. Create an auto-response rule and a public group.",
-        "B. Create a predefined case team and an assignment rule.",
-        "C. Create a user-based sharing rule and an ad-hoc case team.",
-        "D. Create a queue and a criteria-based sharing rule.",
+        "A. Create a user-based sharing rule and an ad-hoc case team.",
+        "B. Create a queue and a criteria-based sharing rule.",
+        "C. Create a predefined case team and an assignment rule.",
+        "D. Create an auto-response rule and a public group.",
       ],
-      answer: "B",
+      answer: "A",
       title: "Question 16",
     },
     {
@@ -387,7 +387,7 @@ window.testContent[testName].testList.push({
         "C. Create a custom object to capture popular case resolutions.",
         "D. Use an interview flow to capture Case details.",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 32",
     },
     {
@@ -406,12 +406,12 @@ window.testContent[testName].testList.push({
       content:
         "The administrator for Cloud Kicks needs to give access to a new custom object with custom fields to more than one user. Which two options should an administrator use to meet this requirement? Choose 2 answers",
       options: [
-        "A. Create a Permission Set",
-        "B. Add to manual sharing list",
-        "C. Assign permission set group to Users",
-        "D. Edit organization-wide defaults",
+        "A. Add to manual sharing list",
+        "B. Edit organization-wide defaults",
+        "C. Create a Permission Set",
+        "D. Assign permission set group to Users",
       ],
-      answer: "B,C",
+      answer: "C,D",
       title: "Question 34",
     },
     {
@@ -478,12 +478,12 @@ window.testContent[testName].testList.push({
       content:
         "A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting one event per month and want to be able to report on campaign ROI by month and series. How should the administrator set up the Campaign to simplify reporting?",
       options: [
-        "A. Create individual Campaigns that all have the same name.",
-        "B. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
-        "C. Configure campaign Member Statuses to record which event members attended.",
-        "D. Add different record types for the monthly event types.",
+        "A. Configure campaign Member Statuses to record which event members attended.",
+        "B. Create individual Campaigns that all have the same name.",
+        "C. Add different record types for the monthly event types.",
+        "D. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 40",
     },
     {
@@ -623,10 +623,10 @@ window.testContent[testName].testList.push({
       content:
         "Which two capabilities are considerations when marking a field as required in Object Manager? Choose 2 answers",
       options: [
-        "A. The field is optional when saving records via web-to-lead and web-to-case",
-        "B. The field is universally required to save a record on that object.",
-        "C. The field is added to every page layout on that object.",
-        "D. The field is not required to save records via the API on that object.",
+        "A. The field Is not required to save records via the API on that object.",
+        "B. The field Is optional when saving records via web-to-lead and web-to-case.",
+        "C. The field Is universally required to save a record on that object.",
+        "D. The field Is added to every page layout on that object.",
       ],
       answer: "B,C",
       title: "Question 52",
@@ -671,13 +671,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud kicks has the organization-wide sharing default set to private on the shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team. Which 3 items should the administrator configure to provide appropriate access to the report? Choose 3 answers",
       options: [
-        "A. Custom report type.",
-        "B. Folder access",
-        "C. Report subscription",
-        "D. Field level security",
-        "E. Role hierarchy",
+        "A. Folder access",
+        "B. Field level security",
+        "C. Custom report type.",
+        "D. Report subscription",
       ],
-      answer: "B,D,E",
+      answer: "A,B,C",
       title: "Question 56",
     },
     {
@@ -720,9 +719,9 @@ window.testContent[testName].testList.push({
       content:
         "An administrator needs to create a one-to-many relationship between two objects with limited access to child records. What type of field should the administrator use?",
       options: [
-        "A. Roll-up summary",
-        "B. Master-detail field",
-        "C. Lookup field",
+        "A. Master-detail field",
+        "B. Lookup field",
+        "C. Roll-up summary",
         "D. Cross Object formula",
       ],
       answer: "B",
@@ -841,11 +840,11 @@ window.testContent[testName].testList.push({
         "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message. What should the administrator utilize to satisfy the request?",
       options: [
         "A. Process builder",
-        "B. Task assignment",
+        "B. Flow builder",
         "C. Workflow rule",
-        "D. Flow builder",
+        "D. Task assignment",
       ],
-      answer: "C",
+      answer: "A,B,C",
       title: "Question 70",
     },
     {
@@ -907,7 +906,7 @@ window.testContent[testName].testList.push({
         "D. Assistant",
         "E. Performance chart",
       ],
-      answer: "B,C",
+      answer: "B,D,E",
       title: "Question 75",
     },
     {
@@ -955,7 +954,7 @@ window.testContent[testName].testList.push({
         "C. Build individual dashboards for profiles that need to see the enterprise results.",
         "D. Update the dashboard to folder settings to manager for the sales reps role.",
       ],
-      answer: "C",
+      answer: "B",
       title: "Question 79",
     },
   ],

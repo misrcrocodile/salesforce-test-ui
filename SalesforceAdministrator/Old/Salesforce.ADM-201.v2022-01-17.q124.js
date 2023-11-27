@@ -70,15 +70,14 @@ window.testContent[testName].testList.push({
     },
     {
       content:
-        "Cloud Kicks wants to track shoe designs by products. Shoe designs should be unable to be deleted, and there can be multiple designs for one | | product across various stages. Which two steps should the administrator configure to meet this requirement?",
+        "Cloud kicks wants to track shoe designs by products. Shoe designs should be unable to be deleted, and there can be multiple design for one product across various stages.\nWhich two steps should the administration configure to meet this requirement?\nChoose 2 answers",
       options: [
-        "A. Add a custom master-detail field for shoe designs on the Product object.",
-        "B. Choose 2 answers",
-        "C. Configure a custom lookup field for shoe designs on the Product object.",
-        "D. Use the standard object for designs.",
-        "E. Create a custom object for shoe designs.",
+        "A. Create a Custom Object for shoe design.",
+        "B. Configure a Custom Lookup Field for shoe design on the product object.",
+        "C. Add a custom master detail field for shoe design on the Product Object.",
+        "D. Use the Standard Object for designs.",
       ],
-      answer: "B,E",
+      answer: "A,B",
       title: "Question 6",
     },
     {
@@ -102,7 +101,7 @@ window.testContent[testName].testList.push({
         "C. Sales Rep B needs to be assigned to the Sales Rep permission set.",
         "D. Sales Rep B needs to be assigned to the Sales Rep queue.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 8",
     },
     {
@@ -114,7 +113,7 @@ window.testContent[testName].testList.push({
         "C. Lightning Sync",
         "D. Data Import Wizard",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 9",
     },
     {
@@ -245,7 +244,7 @@ window.testContent[testName].testList.push({
         "C. A knowledge base that uses Alto generate an article to solve customer support issues",
         "D. An automated tool that closes Cases based on historical information",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 20",
     },
     {
@@ -329,7 +328,7 @@ window.testContent[testName].testList.push({
         "C. Create a new Record type and a new sales process.",
         "D. Create a new Record type and a page layout.",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 27",
     },
     {
@@ -403,7 +402,7 @@ window.testContent[testName].testList.push({
         "D. When records are updated by a workflow rule",
         "E. When records are deleted by a user.",
       ],
-      answer: "B,D,E",
+      answer: "A,B,E",
       title: "Question 33",
     },
     {
@@ -447,7 +446,7 @@ window.testContent[testName].testList.push({
         "D. Restoring the field will also restore the data.",
         "E. It is not possible to restore the field without recreating it.",
       ],
-      answer: "A,D",
+      answer: "A,B,D",
       title: "Question 37",
     },
     {
@@ -603,7 +602,7 @@ window.testContent[testName].testList.push({
         "C. Use a scheduled flow.",
         "D. Use a scheduled Process Builder",
       ],
-      answer: "B",
+      answer: "C",
       title: "Question 50",
     },
     {
@@ -614,7 +613,7 @@ window.testContent[testName].testList.push({
         "C. Create a new page layout for the record type",
         "D. Set the field-level security for the record type",
       ],
-      answer: "A",
+      answer: "B",
       title: "Question 51",
     },
     {
@@ -658,13 +657,12 @@ window.testContent[testName].testList.push({
         "What are three considerations when a user is importing data via Data Loader? Choose 3 answers",
       options: [
         "A. Importing data into checkbox fields allows for the use of TRUE/FALSE.",
-        "B. Field -Level Security access determines which fields will be visible.",
+        "B. Field-Level Security access determines which fields will be visible.",
         "C. Unrestricted picklists, a new picklist value will be applied but will not be added to the picklist.",
         "D. Validation rules do not execute when importing data.",
         "E. Restricted picklists, a new picklist value will be Ignored and the default value applied.",
       ],
-      answer:
-        "A,B,C  The true/false use is definitely allowed while importing data into the checkbox fields. Also field level security decides the fields that will be visible to all, and the restricted picklists, a new picklist value is never set to the default value. However, in case of the unrestricted picklists, a new picklist value is definitely going to be applied however, it will not be added to the picklist. And there is no option to stop the validation rules from executing while importing the data. ",
+      answer: "A,B,C",
       title: "Question 55",
     },
     {
@@ -922,12 +920,12 @@ window.testContent[testName].testList.push({
       content:
         'The administrator at Universal Containers has a screen flow that helps users create new leads. When Lead Source is "Search Engine", the administrator needs to require the user to choose a specific search engine from a picklist. If Lead Source is not "Search Engine", this picklist should be hidden. How should the administrator complete this requirement?',
       options: [
-        'A. Create a picklist for Specific Search Engine, and set conditional visibility so that it is only shown when Lead Source is "Search Engine".',
-        'B. Configure a picklist for Specific Search Engine, and use a validation rule to conditionally show only when Lead Source is "Search Engine".',
-        'C. Assign a decision element to direct the user to a second screen to hold Specific Search Engine only when Lead Source is "Search Engine".',
-        'D. Use an assignment element, one for when Lead Source is "Search Engine" and one for everything else.',
+        'A. Configure a picklist for specific search engine, and use a validation rule to conditionally show only when lead source is "Search Engine"',
+        'B. Use an assignment element, one for when lead source is "Search Engine" and one for everything else.',
+        'C. Assign a decision element to direct the user to a second screen to hold specific search engine only when a lead source is "Search Engine".',
+        'D. Create a picklist for specific search engine, and set conditional visibility so that is only shown when lead source is "Search Engine".',
       ],
-      answer: "C",
+      answer: "D",
       title: "Question 77",
     },
     {
@@ -1007,13 +1005,13 @@ window.testContent[testName].testList.push({
       content:
         "Which three items are available in the mobile navigation menu? Choose 3 answers",
       options: [
-        "A. Lightning Home Page",
+        "A. Chatter",
         "B. Utility Bar",
-        "C. Lightning App Pages",
-        "D. Chatter",
-        "E. Dashboards",
+        "C. Lightning Home Page",
+        "D. Dashboards",
+        "E. Lightning App Pages",
       ],
-      answer: "A",
+      answer: "A,D,E",
       title: "Question 84",
     },
     {
@@ -1081,13 +1079,12 @@ window.testContent[testName].testList.push({
       content:
         "Cloud Kicks has the organization-wide sharing default set to private on the Shoe object. The sales manager should be able to view a report containing shoe records for all of the sales reps on their team. Which three items should the administrator configure to provide appropriate access to the report? Choose 3 answers",
       options: [
-        "A. Role Hierarchy",
-        "B. Report Subscription",
-        "C. Custom Report Type",
-        "D. Field-Level Security",
-        "E. Folder Access",
+        "A. Folder access",
+        "B. Field level security",
+        "C. Custom report type.",
+        "D. Report subscription",
       ],
-      answer: "A,D,E",
+      answer: "A,B,C",
       title: "Question 90",
     },
     {
@@ -1142,12 +1139,12 @@ window.testContent[testName].testList.push({
       content:
         "The administrator at Cloud Kicks is trying to debug a screen flow that creates contacts. One of the variables in the flow is missing on the debug screen. What could cause this issue?",
       options: [
-        "A. The Available for Input checkbox was unchecked.",
-        "B. The flow is an inactive version.",
-        "C. The Available for Output checkbox was unchecked.",
-        "D. The field type is unsupported by Debugging.",
+        "A. The flow is an inactive version",
+        "B. The available for output checkbox was unchecked.",
+        "C. The available for input checkbox was unchecked.",
+        "D. The field type is unsupported by debugging.",
       ],
-      answer: "D",
+      answer: "C",
       title: "Question 95",
     },
     {
@@ -1432,12 +1429,12 @@ window.testContent[testName].testList.push({
       content:
         "An Administrator at Ursa Major Solar is converting a lead and needs to capture custom lead data on the converted contact, what should the administrator do to accomplish this goal?",
       options: [
-        "A. Map custom lead fields to custom contact fields.",
-        "B. Map custom lead fields to standard contact fields.",
-        "C. Utilize the lead conversion wizard to select the fields.",
-        "D. Utilize the data loader to move the custom lead data.",
+        "A. Utilize the lead conversion wizard to select the fields.",
+        "B. Utilize the data loader to move the custom lead data.",
+        "C. Map custom lead fields to standard contact fields.",
+        "D. Map custom lead fields to custom contact fields.",
       ],
-      answer: "B",
+      answer: "D",
       title: "Question 120",
     },
     {
@@ -1468,12 +1465,12 @@ window.testContent[testName].testList.push({
       content:
         "The VP of Marketing wants Sales Reps to get updates when materials are updated in the Marketing library. What feature should an Administrator recommend?",
       options: [
-        "A. Email alert",
-        "B. Approval process",
+        "A. Approval process",
+        "B. Email alert",
         "C. Subscribe",
         "D. Validation rule",
       ],
-      answer: "A",
+      answer: "C",
       title: "Question 123",
     },
     {
