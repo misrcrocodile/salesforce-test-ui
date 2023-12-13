@@ -4,64 +4,72 @@ const fs = require("fs");
 const Promise = require("bluebird");
 var mainLinks = [
   {
-    name: "Salesforce.CPQ-Specialist.v2023-10-26.q90",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2023-10-26.q90.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2023-07-29.q129",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2023-07-29.q129.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2023-06-08.q165",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2023-06-08.q165.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2023-03-06.q159",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2023-03-06.q159.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2023-03-01.q73",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2023-03-01.q73.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2023-01-14.q90",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2023-01-14.q90.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-12-15.q85",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-12-15.q85.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2022-08-31.q151",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2022-08-31.q151.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-11-02.q79",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-11-02.q79.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2022-08-02.q159",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2022-08-02.q159.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-08-08.q70",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-08-08.q70.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2022-05-13.q125",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2022-05-13.q125.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-07-04.q99",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-07-04.q99.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2022-03-30.q110",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2022-03-30.q110.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-06-11.q122",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-06-11.q122.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2022-01-19.q148",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2022-01-19.q148.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-04-22.q97",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-04-22.q97.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2021-09-03.q110",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2021-09-03.q110.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-02-18.q96",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-02-18.q96.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2021-08-03.q110",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2021-08-03.q110.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2022-01-11.q94",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2022-01-11.q94.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2021-05-12.q109",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2021-05-12.q109.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2020-11-28.q94",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2020-11-28.q94.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2021-01-05.q103",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2021-01-05.q103.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2020-09-26.q91",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2020-09-26.q91.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2020-11-22.q105",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2020-11-22.q105.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2020-07-26.q87",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2020-07-26.q87.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2020-08-09.q94",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2020-08-09.q94.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.CPQ-Specialist.v2020-06-21.q91",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.CPQ-Specialist.v2020-06-21.q91.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Platform-App-Builder.v2020-04-01.q60",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2020-04-01.q60.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Platform-App-Builder.v2019-10-25.q63",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2019-10-25.q63.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Platform-App-Builder.v2019-10-20.q99",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Platform-App-Builder.v2019-10-20.q99.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
 ];
 async function crawlLink(url) {
