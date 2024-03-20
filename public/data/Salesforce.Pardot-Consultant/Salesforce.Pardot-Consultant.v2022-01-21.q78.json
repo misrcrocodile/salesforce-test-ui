@@ -1,0 +1,894 @@
+[
+  {
+    "content": "Is it possible to split Dynamic Lists into more than two Static Lists?",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has a training portal for customers. A Pardot page action changes a Prospect's Engagement custom field to Engaged for any prospects who views the page. Customer who regularly engage with the portal have more success with the platform, and those with low engagement have a high rate of attrition. To encourage engagement with the portal, Lenoxsoft wishes to use this custom field as the basis to develop a Training Engagement Program that encourages prospects to sign up for a live webinar which promotes the portal. They have the following requirements. - Prospects with no Engagement custom field value should be added to the Training Engagement Program - If Prospects register for the Webinar and view the training portal, they are removed from the Training Engagement Program What steps should Lenoxsoft take to achieve these requirements?",
+    "options": [
+      "A. Create a dynamic list with the criteria :: Webinar:: Successful & Custom Prospect custom field::\n         engagement:: engaged :: Action of:: Remove from list\n         Create an automation rule with the criteria :: Prospect custom field : engagement:: blank:: Action if::\n         Add to List",
+      "B. Create an automation rule : Prospect custom field [Engagement] is blank | Add to List Create an automation rule: Prospect webinar is attended webinar AND Prospect custom field\n         [Engagement] is engaged | Remove from list",
+      "C. Create an automation rule with the criteria :: Prospect custom field : engagement:: blank :: Action if::\n         Add to List",
+      "D. Create a completion action with the criteria :: Webinar:: Successful & Custom Prospect custom field ::\n         engagement:: engaged :: Action of:: Remove from list\n         Create an automation rule with the criteria :: Prospect custom field : engagement:: blank :: Action if::\n         Add to List\n         Create a segmentation rule with the criteria :: Webinar:: Successful & Custom Prospect custom field ::\n         engagement:: engaged :: Action of:: Remove from list"
+    ],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to create a re-engagement program that will nurture prospects if they're last activity is greater than 90 days. Once they begin the re-engagement program, if they become active, the prospects need to remain in the program. Which solution would you recommend ?",
+    "options": [
+      "A. Static or Dynamic list",
+      "B. Static List",
+      "C. Dynamic List",
+      "D. Test List"
+    ],
+    "answer": "B",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "A customer has a CSV file of existing leads and contacts they want to import into Pardot as new prospects.\nTheir Salesforce org contains duplicate leads and contacts with the same email address. They want to make sure the newly created prospects in Pardot are linked to specific lead and contact records in Salesforce. Their Pardot account allows multiple prospects with the same email address.\nWhat import method should be recommended?",
+    "options": [
+      "A. Match records by CRM ID",
+      "B. Q Match records by email address",
+      "C. Match records by fuzzy match rules",
+      "D. Match records by Account ID"
+    ],
+    "answer": "A",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft currently has prospect and customer data located in their current email provider, spreadsheets from events, Salesforce, and LenoxSoft proprietary software. Specifically regarding their current email provider, what do you need to know before importing into Pardot to ensure a high deliverability rate in their initial Pardot email sends. Choose 2 answers:",
+    "options": [
+      "A. When was the last time a prospect was emailed in their current email provider.",
+      "B. The date LenoxSoft last compared data between the email provider and Salesforce.",
+      "C. How many emails a month were sent from the current email provider.",
+      "D. Identify the currently mailable and unmailable prospects in their current email provider."
+    ],
+    "answer": "A,D",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "Pardot's Permission Based Marketing Policy helps ensure your emails don't get flagged as spam. CAN-SPAM provisions include",
+    "options": [
+      "A. Monitor what others are doing on your behalf",
+      "B. Honor opt-out requests promptly",
+      "C. Don't use deceptive subject lines",
+      "D. Tell recipients how to opt out of receiving future email from you",
+      "E. Identify the message as an ad",
+      "F. Tell recipients where you're located",
+      "G. Don't use false or misleading header information"
+    ],
+    "answer": "A,B,C,D,E,F,G",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "What is important to remember when creating custom prospect fields in Pardot? [Choose one answer]",
+    "options": [
+      "A. The matching field in Salesforce must have the exactly the same name on the lead and contact object in order for Pardot to synch to both objects.",
+      "B. Pardot cannot sync with formula fields in Salesforce",
+      "C. Pardot cannot sync with multi picklist in Salesforce",
+      "D. You can only create 50 custom fields in Pardot."
+    ],
+    "answer": "A",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "Can Marketing both Import and Export Prospects?",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has a Pardot form on their website that adds prospects to their monthly newsletter list upon completion. Recently, they have noticed some of the prospects on this list have invalid email addresses.\nWhat method should be used to only add valid email addresses to their list moving forward?",
+    "options": [
+      "A. Allow the assigned sales rep to call prospects upon form submission to confirm their email address.",
+      "B. Send an autoresponder to prospects who complete the form with a link to click to confirm opt-in status.",
+      "C. Use the list to send a permission pass email and remove all hard bounces.",
+      "D. Edit the completion action on the form to only add to the list if the email address is valid."
+    ],
+    "answer": "B",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "What is available to choose within Repeat Rule",
+    "options": [
+      "A. Repetition Order",
+      "B. Limit rule matches",
+      "C. Certain Prospects",
+      "D. Days before eligible to repeat rule"
+    ],
+    "answer": "B,D",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has completed testing in a Salesforce Sandbox org. What steps will ensure a successful move to the Salesforce Production org?",
+    "options": [
+      "A. Install the Pardot AppExchange package for Production Environments",
+      "B. Unverified and delete the Salesforce connector for the Sandbox org",
+      "C. Delete all data from the Sandbox org",
+      "D. Rename the Salesforce connector for the Sandbox org",
+      "E. Create a new Salesforce Connector for the Production org"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to see all the Accounts that were closed last month on the Account Based Marketing dashboard in B2B Marketing Analytics.\nWhat dashboard feature should be used?",
+    "options": [
+      "A. Filter the dashboard by the highest sales activity in the Sales Activities by Accounts chart.",
+      "B. Select the \"Accounts\" filter that allows filtering by accounts created within the last month.",
+      "C. Select the dropdown filter \"Closed Date\" and \"Last Month\" to view all Accounts closed in the last month.",
+      "D. Select the win percentage in the Revenue Win Percentage donut chart so the Accounts will be faceted by won deals."
+    ],
+    "answer": "C",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "When warming a dedicated IP, what would support good delivery rates with initial email sends and build the IP's sending reputation?",
+    "options": [
+      "A. Segment the best and most active contacts for initial email sends.",
+      "B. Segment prospects with free email service providers for initial email sends.",
+      "C. Segment internal employees with high scores for initial email sends.",
+      "D. Segment cold prospects with a low score to reengage for initial email sends."
+    ],
+    "answer": "C",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft wants individual engagement programs for each of their sales 'Status' field values. They want to ensure as Status field values change, the prospect will automatically stop receiving the previous program and move to the next program to receive only the relevant content. What solution would you recommend",
+    "options": [
+      "A. Dynamic list",
+      "B. Test list",
+      "C. Static list or Dynamic, both list can be used",
+      "D. Static list"
+    ],
+    "answer": "C",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "Which are true about Pardot Recycle Bin",
+    "options": [
+      "A. Content files are permanently deleted and cannot be undeleted, but they are listed in the recycle bin",
+      "B. Admins can permanently delete prospects in the recycle bin. Pardot no longer tracks prospects when they're permanently deleted",
+      "C. Tags are deleted permanently and don't appear in the recycle bin",
+      "D. Content files are permanently deleted and cannot be undeleted and they are not listed in the recycle bin",
+      "E. A deleted prospect is restored when the Salesforce record it's syncing with is undeleted",
+      "F. Items in the recycle bin don't count toward usage limits",
+      "G. If you delete a campaign, the prospects associated with the campaign remain in the system tagged with the deleted campaign"
+    ],
+    "answer": "A,B,C,F,G",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "Select Assets that allow to Adjust prospects score",
+    "options": [
+      "A. Tables",
+      "B. Engagement Programs",
+      "C. Segmentation Rules",
+      "D. Automation Rules",
+      "E. PI Completion Actions"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "Which objects are synched between Pardot and Salesforce? [Choose two answers]",
+    "options": ["A. Order", "B. Opportunity", "C. Case", "D. Account"],
+    "answer": "B,D",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "The LenoxSoft sales team has received an influx of leads from the Product Interest form. Many of the leads are not located in the United States. LenoxSoft only sells to customers in the United States so the sales team has requested that these inbound leads get qualified based on country before being assigned.\nHow should they ensure only qualified prospects who submit the form are sent to the sales team as new leads?",
+    "options": [
+      "A. Create an automation rule set to match all with the criteria of Product Interest form completed and Country field equal to United States with an action to assign prospects.",
+      "B. Add a completion action to the Product Interest form to assign prospects only if their Country field is United States.",
+      "C. Create an automation rule set to match any with the criteria of Product Interest form completed and Country field equal to United States with an action to assign prospects.",
+      "D. Add a completion action to the Product Interest form to assign prospects, then have sales users delete those not in the United States."
+    ],
+    "answer": "A",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "Select available User Roles",
+    "options": [
+      "A. Sales Manager",
+      "B. CD Marketing",
+      "C. Sales",
+      "D. Marketing Manager",
+      "E. Administrator",
+      "F. Sales User"
+    ],
+    "answer": "A,B,C,E",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "How many Social Posting Connectors is it possible to create",
+    "options": [
+      "A. Many but only one type",
+      "B. You can create as many Social Posting connectors as you want",
+      "C. You can't use any Social Posting connector",
+      "D. One each type"
+    ],
+    "answer": "B",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to give users from their sales and marketing teams the power to explore and visualize important data by using the Engagement History Embedded Dashboard.\nWhich two steps should be completed so their users can begin exploring Pardot engagement data on the Salesforce campaign and Account records?\nChoose 2 answers",
+    "options": [
+      "A. Create a custom Salesforce dashboard using both standard and custom Salesforce reports for each team.",
+      "B. Assign the Analytics View Only Embedded App permission set to each user who wants to see the dashboard.",
+      "C. Place the Embedded Engagement History Dashboards on the desired object page layout using the Lightning App Builder.",
+      "D. Have each team member log in and reference the dashboard in the Analytics Studio app."
+    ],
+    "answer": "B,C",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "It is possible to assign certain Prospect to selected Scoring Category",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has very specific lead qualification criteria that must be met before assigning prospects to a sales rep:\n* The prospects must be located in Georgia or Florida.\n* The prospects must submit their \"Request a Demo\" form.\nWhen this criteria is met, they want to automatically assign the prospects to a sales rep. \"State\" is a required field on the \"Request a Demo\" form.\nHow should LenoxSoft automate assigning these leads?",
+    "options": [
+      "A. Add a completion action on the form to notify Admin, who manually assigns the prospect.",
+      "B. Run an automation rule to assign based on the \"Request a Demo\" submission and State field.",
+      "C. Export the form submission report and import, assigning to the correct user upon import.",
+      "D. Create a completion action on the \"Request a Demo\" form with the action to assign to user."
+    ],
+    "answer": "B",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft using Pardot Pro is rolling out a new lead generation campaign where prospects register for a trade show on a Pardot-hosted landing page. The consultant suggests creating two versions of the landing page and using a multivariate test, but LenoxSoft is unfamiliar with the feature. What is the primary benefits of using a multivariate test in this campaign?",
+    "options": [
+      "A. Pardot will give you content ideas for each landing page.",
+      "B. Pardot will automatically populate personalized information of each unique prospect.",
+      "C. Pardot will automatically send underperforming landing page to recycle bin",
+      "D. Pardot will determine which version of the landing page generated most conversions"
+    ],
+    "answer": "D",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "There is Custom Field Type in Pardot called Email",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "Which is true about Pardot Flile Hosting limits",
+    "options": [
+      "A. No limits at all",
+      "B. Pardot Growth Edition: 100MB Pardot Plus Edition: 500MB Pardot Advanced Edition: 10GB",
+      "C. Pardot Growth Edition: 1GB Pardot Plus Edition: 5GB Pardot Advanced Edition: 10GB",
+      "D. Pardot Growth Edition: 500MB Pardot Plus Edition: 2GB Pardot Advanced Edition: 5GB"
+    ],
+    "answer": "B",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft operates in both North America and Europe and has separate Pardot Business Units (PBUs) for each country within each region. The Chief Marketing Officer who oversees both regions wants to ensure that the assets are as personalized as possible to their respective country.\nWhat could LenoxSoft marketers create for each region to meet this requirement?",
+    "options": [
+      "A. Assets that adhere to GDPR best practices in the European BUs and CAN-SPAM best practices in the North American BUs.",
+      "B. A tracker domain that is not specific to any given region or country and apply it to the assets used in both the European and North American BUs.",
+      "C. A tracker domain specific to the European region and an additional tracker domain specific to the North American region.",
+      "D. Multiple tracker domains within each BU that are country specific. Apply country relative tracker domains to assets delivered in each country."
+    ],
+    "answer": "D",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "There is limitation of 50 forms and 50 landing pages in Pardot Growth Edition and also you can't create more than one Scoring Category in this edition",
+    "options": ["A. False\n         S", "B. True"],
+    "answer": "B",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft needs to sync their Salesforce custom objects to Pardot prospects in order to run an automation rule.\nWhat is the first step in the process of setting up custom object syncing between the two systems?",
+    "options": [
+      "A. Perform a full Pardot database sync, prior to creating the Salesforce custom object",
+      "B. Adjust the sync behavior on the pardot custom object to use the Salesforce value",
+      "C. Create the Pardot custom object on the prospect level before the prospect Account level",
+      "D. Configure the Salesforce custom object to relate to th< account, lead, or contact"
+    ],
+    "answer": "D",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "Prior to starting implementation, LenoxSoft wishes to consolidate all their data within Salesforce. They currently use three different systems, including Salesforce, to manage their customer data. All data does NOT currently reside in one system, and Lenoxsoft wants Salesforce to be the primary system for customer records.\nWhat is the first step Lenoxsoft should take to allow Salesforce to become the primary recordholder?",
+    "options": [
+      "A. Import and merge existing records from all systems to Salesforce",
+      "B. Add custom prospect fields to Pardot and map to Salesforce.",
+      "C. Import and merge existing records from all systems to Pardot",
+      "D. Add custom account fields to Pardot and map to Salesforce"
+    ],
+    "answer": "A",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has a service portal for customers. A Pardot page action set by the admin will change a prospects engagement custom field to \"Engaged\" for any prospect who views this service portal page. Customers who visit this portal more often have a higher company satisfaction rate. Those who rarely visit the portal have a high rate of attrition. LenoxSoft wants to encourage customers to engage with the service portal and has the following requirements: * Prospects with no Engagement custom field value should be added to the Engagement Program. * If prospects registers for an upcoming webinar and views the training portal they should be removed from the engagement program. What steps do you recommend to achieve those requirements?",
+    "options": [
+      "A. Automation Rule with blank critera and add action & Completion action rules with attended webinar and remove action",
+      "B. Automation Rule with blank critera and add action & Dynamic List with attended webinar and remove action",
+      "C. Automation rules with attended webinar and remove action",
+      "D. Automation Rule with blank critera and add action &",
+      "E. Automation Rule with blank critera and add action & segmentation rules with attended webinar and remove action"
+    ],
+    "answer": "D",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft mentions that they would like to invest in a content strategy but is afraid they don't have the resources. What do you advise?",
+    "options": [
+      "A. Hire an agency to create content.",
+      "B. Start a company blog and promote a few high-quality pieces of content.",
+      "C. Post content from other websites on your own site.",
+      "D. Focus on creating as much content as possible."
+    ],
+    "answer": "B",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "You are creating a new series of pay per click ads and want to track where a prospect originates when they arrive at your website. How would you set this up?",
+    "options": [
+      "A. Create a custom redirect for each pay per click ad and use an automation rule to add the prospects to a list",
+      "B. Create a Pardot campaign for each pay per click ad and place the tracking code on the landing page",
+      "C. Create a custom redirect for each pay per ad click and and select a Pardot campaign for each custom redirect",
+      "D. Create a custom redirect for each pay per click ad and use a completion action to add the prospects to a list"
+    ],
+    "answer": "C",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "Which editions of Pardot provides Buisness Units and Einstein functionalities",
+    "options": [
+      "A. All",
+      "B. Only Pardot Advanced Edition and it includes unlimited Buisness Units",
+      "C. Only Pardot Advanced Edition and it includes 2 Buisness Units, then each subsequent costs 2\n         000$/month",
+      "D. Pardot Plus Edition and Pardot Advanced Edition"
+    ],
+    "answer": "C",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft currently uses a Salesforce workflow to continually look for old and new leads that meet certain criteria under Job title and Industry, and adds them to a Salesforce campaign. The Pardot connector is verified and their existing Salesforce records have been reviewed, but they have yet to sync this data to Pardot. Lenox wishes to replicate this process within Pardot with the following requirements: - Prospects with a job title of\n\"CEO\" and Industry of \"Software\" are added to the Salesforce campaign. Based on those requirements, which steps should Lenoxsoft prioritize to replicate their process?",
+    "options": [
+      "A. Import a .csv file of prospects. Build an Segmentation rule with criteria :: Job Title:: CEO :: Industry ::\n         Software, action :: add to Salesforce Campaign",
+      "B. Create a dynamic list to sync prospects from Salesforce. Build a segmentation rule with the criteria ::\n         Job Title :: CEO :: Industry :: Software, action :: add to the Salesforce campaign.",
+      "C. Create a dynamic list to sync prospects from Salesforce. Build an Automation rule with criteria :: Job Title:: CEO :: Industry:: Software, action :: add to the Salesforce campaign.",
+      "D. Import a .csv file of prospects. Build an Automation rule with criteria :: Job Title :: CEO :: Industry ::\n         Software, action :: add to Salesforce Campaign"
+    ],
+    "answer": "C,D",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has had a Product Interest form live on their website for the past 3 months. They would like to make sure that, moving forward, every time the form is submitted, a custom field is updated. They also want to update that custom field for anyone who has submitted the form before today. What combination of automation tools should LenoxSoft use to achieve this?",
+    "options": [
+      "A. Dynamic list and automation rule",
+      "B. Segmentation rule and completion action",
+      "C. Completion action and dynamic list",
+      "D. Automation rule and completion action"
+    ],
+    "answer": "D",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has two Pardot accounts: Account A and Account B.\nBoth accounts are syncing with the same Salesforce org. Their marketing teams have consolidated and have decided to merge Account B into Account A.\nWhat action should they take to successfully complete the migration?",
+    "options": [
+      "A. Include prospect activity history from Account B in their prospect import if they want to retain it.",
+      "B. Get a brand new Pardot org and migrate both Account A and Account B into it.",
+      "C. Export existing custom field mappings to import desired fields into Account A.",
+      "D. Manually rebuild any automations built in Account B in Account A."
+    ],
+    "answer": "D",
+    "title": "Question 37",
+    "explanation": "Explanation\n https://help.salesforce.com/articleView?id=000318300&type=1&mode=1"
+  },
+  {
+    "content": "The marketing team you consult with wants to assign prospects to a sales user when the prospects meets at least one of the following criteria: * Successfully complete a \"Request a Quote\" form, OR * Has a score above\n175 and a grade above B+ Which assignment model will best achieve their goals?",
+    "options": [
+      "A. Automation rule match Any",
+      "B. Completion Action",
+      "C. Automation rule match All",
+      "D. Page Action"
+    ],
+    "answer": "A",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft asks yOu about whether filtered prospects will be affected if they are registering for an event using your WebEx connector. What advice do you give them? You simply remind them that since registering for an event is a completion action it will always run when a form is filled out.",
+    "options": [
+      "A. Filtered prospects for the webinar either by removing the filter or having the filtered prospects register through the WebEx registration form itself.",
+      "B. Filtered prospects will not be registered for a webinar through a Pardot form, but you can still register your",
+      "C. That may happen occasionally, but they shouldn't worry too much since most filtered prospects are usually staff members.",
+      "D. Filtered prospects will not be registered for a webinar through a Pardot form since \"Register for a webinar\" completion action and Pardot prospects who are filtered do not have completion actions applied to them."
+    ],
+    "answer": "A",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft currently has prospect data in another email-sending platform, and they want to migrate it over to Pardot. The system has a list of mailable prospects and a list of unmailable prospects who unsubscribed/opted-out that do NOT exist in Salesforce. The marketing team wants to make sure that they stay complaint with the permission-based Marketing Policy while maintaining their database of unsubscribed/opted out prospects when they migrate this data over to Pardot. How should the data be imported?",
+    "options": [
+      "A. Import unmailable prospects in Pardot; mark as global opt-out.",
+      "B. Import all prospect data and create a suppression list.",
+      "C. Import unavailable prospects in Pardot; perform permission pass.",
+      "D. Import only the list of mailable prospects in Pardot."
+    ],
+    "answer": "A",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to add 50 points to the scores for prospects who attended a webinar last month. How would you advise them to accomplish this?",
+    "options": [
+      "A. Create a new segmentation rule.",
+      "B. Select all prospects in the webinar attendees table and use the table action at the bottom to add to their scores.",
+      "C. Create a new automation rule.",
+      "D. Add a completion action to the form the prospects completed to register for the webinar."
+    ],
+    "answer": "C",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "A Pardot administrator finds that all of the email addresses for their Pardot users have changed. What would be the root cause of this change?",
+    "options": [
+      "A. Pardot Admin changed each email address",
+      "B. Table action updated users",
+      "C. User sync mapped email address",
+      "D. Import and update users"
+    ],
+    "answer": "C",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "How many Scoring Categories is it possible to create",
+    "options": ["A. 25", "B. 100", "C. 15", "D. 50"],
+    "answer": "D",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about grading? [Choose two answers]",
+    "options": [
+      "A. All prospects start with a grade of D.",
+      "B. A prospect can be associated to multiple profiles.",
+      "C. You cannot change the default profile criteria",
+      "D. Matching or unmatching a criteria will result in an increase or decrease of the grade by , or 3/3 of a grade."
+    ],
+    "answer": "A,D",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "What is critical in achieving good email deliverabillty?",
+    "options": [
+      "A. Having a text only version of email content",
+      "B. Setting up email authentication",
+      "C. Sending email through dedicated IP",
+      "D. Using personalization in email content"
+    ],
+    "answer": "B",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants a custom user role in Pardot that will allow a user to perform imports, but not to configure fields. In order to create this custom user role, they will copy an existing default user role that already has these permissions.\nWhich default user role should be copied in order to maintain these permissions?",
+    "options": [
+      "A. Sales",
+      "B. Marketing",
+      "C. Administrator",
+      "D. Sales Manager"
+    ],
+    "answer": "B",
+    "title": "Question 46",
+    "explanation": "Explanation\n https://help.salesforce.com/articleView?id=sf.pardot_default_user_roles.htm&type=5"
+  },
+  {
+    "content": "LenoxSoft has two primary groups of contacts in their Salesforce account, managed separately using Pardot Business Units (PBUs). They have one marketing team that needs to manage campaigns for both business units (BUs).\nHow should this be configured?",
+    "options": [
+      "A. Create one Salesforce user connected to one Pardot user, then use Pardot user groups to use the business unit switcher.",
+      "B. Create multiple Salesforce users with the same email address connected to one Pardot user, then use the business unit switcher.",
+      "C. Create Pardot user records in each business unit connected to the same Salesforce users, then use the business unit switcher.",
+      "D. Create Pardot user records in one business unit, then use the business unit switcher to access each account."
+    ],
+    "answer": "C",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft is considering moving from a shared IP address to a dedicated IP address.\nWhat requirement would support advising them to move to a dedicated IP?",
+    "options": [
+      "A. LenoxSoft's database growing by 500,000 prospects",
+      "B. LenoxSoft sending a quarterly emails to 100,000 prospects",
+      "C. LenoxSoft creating 20 new Engagement Programs",
+      "D. LenoxSoft sending more than 100,000 emails a month"
+    ],
+    "answer": "D",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "Is it possible for many users to edit exact same Email Template simultaneously?",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 49",
+    "explanation": ""
+  },
+  {
+    "content": "It is recommended that Email Preference Center should use more than one page level depth",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "During the kickoff call, the LenoxSoft Marketing Manager expressed an immediate need to re-engage with older leads that went cold. Given this requirement, which Pardot features are the minimum requirement for a successful Engagement Program?",
+    "options": [
+      "A. CNAME > Email Authentication > Email templates > Lists > Engagement program",
+      "B. CNAME > Salesforce connector > Email Templates > Lists > Engagement program",
+      "C. Email Authentication > Salesforce Connector > Email templates > Users > Engagement program",
+      "D. Tracking Code > CNAME > Email Templates > Dynamic Lists > Engagement program"
+    ],
+    "answer": "A",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to measure their brand awareness to raise their brand recognition for their company. The company wants to use Pardot to increase the number of impressions across their online channels. Which are the best reports to monitor impressions to help measure LenoxSoft's brand awareness of a period of time?",
+    "options": [
+      "A. Monitor no of prospects, form submission and email open rate reports month over month",
+      "B. Monitor no of visitors, social post enagements and natural search reports month over month",
+      "C. Monitor no of prospects, social post enagements and paid search reports month over month",
+      "D. Monitor no of visitors, form conversion and email click-through rate reports month over month"
+    ],
+    "answer": "B",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "What are available Data Formats in Pardot Form Fields",
+    "options": [
+      "A. Password",
+      "B. Email not from ISPs and free email providers",
+      "C. Phone",
+      "D. Email",
+      "E. Number",
+      "F. Text",
+      "G. Email with valid mail server",
+      "H. Date"
+    ],
+    "answer": "B,D,E,F,G",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "A marketing user needs to recreate the same form in each of LenoxSoft's two business units (BUs).\nHow should the marketing user handle this task?",
+    "options": [
+      "A. Create the form in one BU, then logout. Next, login to the second BU, recreate the form and logout.",
+      "B. Create the form in one BU, then use the BU switcher and manually recreate the form in the second BU.",
+      "C. Create the form in the first BU, then export the form and import it into each of the other two BUs.",
+      "D. Create the form in the first BU, then ask marketing users to copy the form into their separate BUs."
+    ],
+    "answer": "C",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to automatically nurture prospects who complete any of their white paper forms. There is a particular form for a high-value white paper. They want to ensure prospects who complete this form are sent down a particular path in the nurture program.\nHow should this be set up?",
+    "options": [
+      "A. Add completion actions to the form: add to list and assign to user > add the list as the recipient list in an engagement program > add a step checking for the Salesforce campaign membership related to the white paper",
+      "B. Add completion actions to the form: add to list and add tag > add the list as the recipient list in an engagement program > add a step checking for if the prospect has the tag related to the white paper download",
+      "C. Add completion actions to the form: add to list and add to Salesforce campaign > add the list as the recipient list in an engagement program > add a step checking if the prospect downloaded the white paper file successfully6"
+    ],
+    "answer": "B",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "Which is true about Visitor Filters?",
+    "options": [
+      "A. You can't filter your own company IP",
+      "B. Use filters to exclude some types of visits, clicks, or other actions from your campaign results and email notifications",
+      "C. You can the filter by IP",
+      "D. You can filter by a hostname wildcard",
+      "E. You can filter by a hostname"
+    ],
+    "answer": "B,C,D,E",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "How often does Pardot check for changes in Salesforce",
+    "options": ["A. 5 minutes", "B. 10 minutes", "C. 1 hour", "D. 2 minutes"],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft currently uses a manual sales engagement process where assigned users manually add leads to lists based on a lead status value of \"New\". The Sales Manager wishes to develop a Sales Engagement Program that streamlines this process and has the following requirements: - Only leads with a status of \"New\" can be added to the Program. A lead with a status of \"In Progress\" CANNOT be added. - Assigned users should be notified when a lead has opened an email. Based on the above requirements, which is the best way to segment prospects for Lenoxsoft's Sales Engagement Program?",
+    "options": [
+      "A. Create a completion action based on the Lead Status field value.",
+      "B. Create a segmentation rule based on the Lead Status field value",
+      "C. Create a dynamic list based on the Lead Status field value",
+      "D. Create an automation rule based on the Lead Status field value"
+    ],
+    "answer": "C",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "The LenoxSoft sales and marketing teams are looking for more insights into which leads are most likely to buy based off of their engagements.\nWhat feature should be recommended?",
+    "options": [
+      "A. Pardot Grade field",
+      "B. Einstein Behavior Score",
+      "C. Einstein Lead Score",
+      "D. Pardot Score field"
+    ],
+    "answer": "B",
+    "title": "Question 59",
+    "explanation": "Explanation\n https://help.salesforce.com/articleView?id=sf.pardot_einstein_behavior_scoring.htm&type=5"
+  },
+  {
+    "content": "LenoxSoft wants to evenly assign prospects to their Sales team that meets either set of qualification criteria:\nQualified & Semi-Engaged Grade is greater than B+ and score is greater than 50. Mostly Qualified & Engaged Grade is greater than C+ and score is greater than 150. What ways would you recommend in this scenario?",
+    "options": [
+      "A. Rules -Rule Group - Match all: Prospect Grade great than B+ Prospect Score is greater than 50 -Rule Group - Match All: Prospect Grade Greater than C+ Prospect Score is greater than 150 -Actions Assign prospect to user in group: Sales Round Robin",
+      "B. Rules -Rule Group - Match any: Prospect Grade great than B+ Prospect Score is greater than 50 -Rule Group - Match any: Prospect Grade Greater than C+ Prospect Score is greater than 150 -Actions Assign prospect to user in group: Sales Round Robin",
+      "C. Rules -Rule Group - Match all: Prospect Grade great than B+ Prospect Score is greater than 50 -Rule Group - Match All: Prospect Grade Greater than C+ Prospect Score is greater than 150 -Actions Assign prospect to user: Sales Round Robin",
+      "D. Rules -Rule Group - Match all: Prospect Grade great less than A+ Prospect Score is greater than 50\n         -Rule Group - Match All: Prospect Grade Greater than D+ Prospect Score is greater than 150 -Actions Assign prospect to user in group: Sales Round Robin"
+    ],
+    "answer": "B",
+    "title": "Question 60",
+    "explanation": ""
+  },
+  {
+    "content": "With Pardot, what is the recommended way to measure the success of an email campaign?",
+    "options": [
+      "A. Email Complain Rate",
+      "B. Spam complaints.",
+      "C. Click Through rate",
+      "D. HTML Open Rate"
+    ],
+    "answer": "C",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft is transitioning from their current marketing automation platform to Pardot. They have a landing page that they wish to migrate over to Pardot and need to understand what steps are involved in order to maintain the page's existing look and feel. What are the necessary first steps to migrate this landing page over to Pardot while maintaining the page's existing look and feel?",
+    "options": [
+      "A. Create a Pardot landing page and import HTML from the landing page HTML",
+      "B. Create layout template and import HTML from the landing page URL",
+      "C. Import the HTML file into Pardot and apply it to the landing page",
+      "D. Import the HTML file into Pardot and apply it to the layout template"
+    ],
+    "answer": "D",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wanted to deduct a prospect's score by 100 points if they visited their careers page on the website, what would be the best recommendation to implement?",
+    "options": [
+      "A. Automation rule",
+      "B. Completion action",
+      "C. Custom redirect",
+      "D. Page action"
+    ],
+    "answer": "D",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "Which actions can be achieved with completion actions? [Choose three answers]",
+    "options": [
+      "A. Set profile",
+      "B. Assign to queue",
+      "C. Notify account owner",
+      "D. Increment prospect field value"
+    ],
+    "answer": "A,B,D",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft sends an operational email to all prospects, but finds there are some prospects that did not receive the email.\nWhy would this happen?",
+    "options": [
+      "A. The prospects were on a suppression list used on the operational list email send.",
+      "B. The prospects were set to \"false\" for opted out and set to \"true\" for do not email.",
+      "C. The prospects were set to \"true\" for opted out and set to \"false\" for do not email.",
+      "D. The prospects are opted out of the list used on the operational list email send."
+    ],
+    "answer": "B",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "The marketing team likes to thoroughly test emails before sending them. This includes being able to view the links and variable tags as prospects will see them. What Pardot feature of email now can be used to run these tests?",
+    "options": [
+      "A. Create a dynamic list of approved users to use as the recipient list in the sending tab.",
+      "B. Create a test list of approved users to use in the testing tab of the email now.",
+      "C. Create a static list of approved users to use as the recipient list in the sending tab.",
+      "D. Create a one off email test send by entering an email address in the Send to Emails section of the testing tab"
+    ],
+    "answer": "B",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft is a global company interested in creating Pardot Business Units (PBUs) to support their regional needs. How should they to access PBU features?",
+    "options": [
+      "A. Move all users to Salesforce Lightning",
+      "B. Purchase separate Pardot accounts",
+      "C. Enable \"Business Unit'connector setting",
+      "D. Use the Pardot Lightning App"
+    ],
+    "answer": "D",
+    "title": "Question 67",
+    "explanation": "Explanation\n https://help.salesforce.com/articleView?id=sf.pardot_sf_connector_pbus_parent.htm&type=5"
+  },
+  {
+    "content": "What should be enabled on a Pardot form if an Administrator wants to sign many people up on the same computer at a trade show booth?",
+    "options": [
+      "A. Progressive Profiling",
+      "B. \"Not you?\" Link",
+      "C. Kiosk/Data Entry Mode",
+      "D. ReCAPTCHA"
+    ],
+    "answer": "C",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "There is Custom Field Type in Pardot called Phone",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "A consultant wants to design an automated grading system to increase efficiency and lead relevancy for LenoxSoft. Relevant leads have a 'Director' job title and are in the 'Technology' industry.\nHow should they design this automation strategy?",
+    "options": [
+      "A. Create a 'Director' profile, an automation rule to set the profile, and a second automation rule to increase their score if industry is Technology'.",
+      "B. Create a 'Director' scoring category, an automation rule to set the profile, and a second automation rule to increase their grade if industry is Technology'.",
+      "C. Create a Director' profile, an automation rule to set the profile, and click the thumbs up or thumbs down icons on a prospect's Profile tab to set criteria matches.",
+      "D. Create a Director' profile, an automation rule to set the profile, and a second automation rule to increase their grade if industry is 'Technology'."
+    ],
+    "answer": "D",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "What is required when sending a Pardot email from an assigned user?",
+    "options": [
+      "A. All prospects on the recipient list must be assigned to a user.",
+      "B. There must also be a general or specific user as a sender.",
+      "C. The email must also contain assigned user merge fields.",
+      "D. The assigned user must be connected through user sync."
+    ],
+    "answer": "A",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "Which three Pardot asset types allow for embedded advanced dynamic content?\nChoose 3 answers",
+    "options": [
+      "A. List Emails",
+      "B. Social Posts",
+      "C. Landing Pages",
+      "D. Content Files",
+      "E. Layout Templates"
+    ],
+    "answer": "B",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft is migrating prospects from an external email vendor Into Pardot. They have record of which prospects have hard bounced within the last 6 months.\nWhat should they do after importing the bounced prospects into Pardot in order to maintain their data integrity, but still be able to track the prospects?",
+    "options": [
+      "A. Delete the prospects so they can't be emailed through Pardot.",
+      "B. Send the prospects an email to see if their email addresses are valid.",
+      "C. Add the prospects to a \"Bounced Prospects\" list for suppression.",
+      "D. Ensure the Do Not Email field on the prospects is selected."
+    ],
+    "answer": "B",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "Which one is Pardot Video Connector",
+    "options": ["A. YouTube", "B. Vimeo", "C. Wistia", "D. Dailymotion"],
+    "answer": "C",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to view only opportunities within a certain fiscal year on the Pipeline Dashboard using B2B Marketing Analytics.\nHow could this be accomplished?",
+    "options": [
+      "A. Use the 'fiscal year' filter on the Pipeline Dashboard.",
+      "B. Create a custom dataset using only data from the fiscal year.",
+      "C. Apply the \"tag\" filter on the Pipeline Dashboard using the fiscal year.",
+      "D. Develop a new lens that includes only data from the fiscal year."
+    ],
+    "answer": "C",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "A company's sales reps use the \"Status\" field in Salesforce to indicate where the lead is in the sales funnel. A Pardot administrator wants to send each prospect a series of nurture emails when their sales rep updates their\n\"Status\" field to \"Nurture.\" The administrator wants to automate this entirely inside of Pardot.\nHow should this workflow be automated?",
+    "options": [
+      "A. Create a custom field for \"Lead Status\" > Map it to the \"Status\" field in Salesforce > Create a dynamic list to detect the \"Nurture\" value > Add as recipient list on engagement program to send emails",
+      "B. Create a custom field for \"Lead Status\" > Map it to the \"Status\" field in Salesforce > Create an automation rule to detect the \"Nurture\" value > Automation rule sends an autoresponder email",
+      "C. Create a report in Salesforce based on lead status of \"Nurture\" > Export and import into Pardot > Create a list from import > Add as recipient list on engagement program",
+      "D. Create a CRM Visible list in Pardot > Have sales also add these \"Nurture\" leads to that list in Salesforce\n         > Create an automation rule to send email based on list membership"
+    ],
+    "answer": "A",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft currently operates with two Pardot Business Units (PBUs), one for their United States division and another for their European division. In the new year, each business unit (BU) is planning on building the same set of marketing assets and will use them to run the similar campaigns.\nOnce connected campaigns have been enabled, what approach should be recommended?",
+    "options": [
+      "A. Add the Engagement History component to campaign page layouts > Create a parent campaign that is not related to any BUs and create two child campaigns, each related to a single BU > Enable \"Include child campaigns\" on the parent campaign",
+      "B. Create a separate campaign for each BU > Create a new dataset in Salesforce reports that only includes the created campaign > Open a dashboard using this dataset to display an aggregated view of the campaign performance metrics from across both BUs",
+      "C. Add the Einstein Campaign Insights component to campaign page layouts > Create a parent campaign that is not related to any BUs and create two child campaigns, each related to a single BU > Enable 'Include child campaigns\" on the parent campaign",
+      "D. Create a campaign that is related to both BUs > Create a new dataset in B2B Marketing Analytics that only includes the created campaign > Open a dashboard using this dataset to display an aggregated view of the campaign performance metrics from across both BUs"
+    ],
+    "answer": "A",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about custom redirects? [Choose two answers]",
+    "options": [
+      "A. Custom redirects will continue to work if they are deleted in Pardot.",
+      "B. When a visitor clicks a custom redirect any completion actions associated with the custom redirect will trigger.",
+      "C. Custom redirects are great for linking to files or pages you do not host.",
+      "D. When a visitor converts to a prospect completion actions on a custom redirect will trigger"
+    ],
+    "answer": "A,C",
+    "title": "Question 78",
+    "explanation": ""
+  }
+]

@@ -1,0 +1,551 @@
+[
+  {
+    "content": "LenoxSoft has a training portal for customers. A Pardot page action changes a Prospect's Engagement custom field to Engaged for any prospects who views the page. Customer who regularly engage with the portal have more success with the platform, and those with low engagement have a high rate of attrition. To encourage engagement with the portal, Lenoxsoft wishes to use this custom field as the basis to develop a Training Engagement Program that encourages prospects to sign up for a live webinar which promotes the portal. They have the following requirements. - Prospects with no Engagement custom field value should be added to the Training Engagement Program - If Prospects register for the Webinar and view the training portal, they are removed from the Training Engagement Program What steps should Lenoxsoft take to achieve these requirements?",
+    "options": [
+      "A. Create an automation rule : Prospect custom field [Engagement] is blank | Add to List Create an automation rule: Prospect webinar is attended webinar AND Prospect custom field\n         [Engagement] is engaged | Remove from list",
+      "B. Create an automation rule with the criteria :: Prospect custom field : engagement:: blank :: Action if::\n         Add to List",
+      "C. Create a completion action with the criteria :: Webinar:: Successful & Custom Prospect custom field ::\n         engagement:: engaged :: Action of:: Remove from list\n         Create an automation rule with the criteria :: Prospect custom field : engagement:: blank :: Action if::\n         Add to List\n         Create a segmentation rule with the criteria :: Webinar:: Successful & Custom Prospect custom field ::\n         engagement:: engaged :: Action of:: Remove from list",
+      "D. Create a dynamic list with the criteria :: Webinar:: Successful & Custom Prospect custom field::\n         engagement:: engaged :: Action of:: Remove from list\n         Create an automation rule with the criteria :: Prospect custom field : engagement:: blank:: Action if::\n         Add to List"
+    ],
+    "answer": "D",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "There is Custom Field Type in Pardot called Date/Time",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "How are prospect that have started a wait step impacted when an entire engagement program is paused?",
+    "options": [
+      "A. They will NOT continue to progress through the wait step and once the egagement program is resumed, they will start the wait step from the beginning.",
+      "B. They will continue through the wait step until they hit the end of it and once the engagement program is resumed, the prospect will immediately move on to the next step even if the engagement program pause was shorter than the wait step.",
+      "C. They will NOT continue to progress through the wait step and\n         once the engagement program is resumed the wait step will start where it left off.",
+      "D. They will continue to progress through the wait step until they hit the end of it and once the engagement program resumed, if it has been beyond the length of the wait step logic, the prospect will immediately move on to the next step."
+    ],
+    "answer": "A",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "Choose required fields while creating a Prospect",
+    "options": [
+      "A. Assign To",
+      "B. CD Campaign",
+      "C. Score",
+      "D. Company",
+      "E. Email",
+      "F. Grade",
+      "G. Profile"
+    ],
+    "answer": "B,C,E,G",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "With Pardot, what is the recommended way to measure the success of an email campaign?",
+    "options": [
+      "A. HTML Open Rate",
+      "B. Click Through rate",
+      "C. Spam complaints.",
+      "D. Email Complain Rate"
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "Which activity appears on a prospect's record when they submit a Pardot form named 'Contact Us' that resides on a Pardot landing page?",
+    "options": [
+      "A. Pardot Successfully submitted the \"Contact Us\" landing page.",
+      "B. Pardot Successfully submitted the \"Contact Us\" landing page and form",
+      "C. Nothing will display",
+      "D. Pardot Successfully submitted the \"Contact Us\" form"
+    ],
+    "answer": "D",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "What activities can be done in Pardot's engagement program? [Choose one answer]",
+    "options": [
+      "A. Trigger, activity and rule",
+      "B. Trigger, activity and check",
+      "C. Trigger, listen and check",
+      "D. Trigger, action and rule"
+    ],
+    "answer": "D",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "There is Custom Field Type in Pardot called Email",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "When mapping fields between Pardot and Salesforce how can you control the synchronization? [Choose one answer]",
+    "options": [
+      "A. All of the above",
+      "B. Use the most recently updated record",
+      "C. Use Pardot's value",
+      "D. Use Salesforce's value"
+    ],
+    "answer": "A",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "How many Social Posting Connectors is it possible to create",
+    "options": [
+      "A. You can create as many Social Posting connectors as you want",
+      "B. You can't use any Social Posting connector",
+      "C. Many but only one type",
+      "D. One each type"
+    ],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "Which are Actions Available with Salesforce Connector (Choose three)",
+    "options": [
+      "A. Delete a Salesforce task",
+      "B. Assign prospect to queue",
+      "C. Create a Salesforce event",
+      "D. Add to Salesforce campaign",
+      "E. Assign prospect via Salesforce active assignment rule"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "Can we connect Twilio SMS Center via Pardot Connector?",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Is it possible for many users to edit exact same Email Template simultaneously?",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "There are a number of unassigned prospects in the Lenoxsoft database that have not been active in more than\n60 days. An automation rule is set to assign prospects once they reach a score of 100. What automatic workflow can be created to prevent them from getting assigned?",
+    "options": [
+      "A. Create a segmentation rule based on the prospects time to adjust their score to 0 if they haven't been active in 60 days.",
+      "B. Create a dynamic list based on the prospects time to adjust their score to 0 if they haven't been active in\n         60 days.",
+      "C. Create a completion action based on the prospects time to adjust their score to 0 if they haven't been active in 60 days.",
+      "D. Create an automation rule based on the prospects time to adjust their score to 0 if they haven't been active in 60 days"
+    ],
+    "answer": "D",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about Dynamic Content? [Choose three answers]",
+    "options": [
+      "A. You can base variations on Scoring Categories",
+      "B. You can use dynamic content in subject lines",
+      "C. You can add up to 25 variations of content",
+      "D. You can add dynamic content to web pages"
+    ],
+    "answer": "B,C,D",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "While creating Layout Templates it is possible to Import Layout from certain URL",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "How many CRM connectors can be active simultaneously in Pardot?",
+    "options": [
+      "A. There are no restrictions about that",
+      "B. One",
+      "C. Many, but only Salesforce",
+      "D. One each type"
+    ],
+    "answer": "B",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "What is available to choose within Repeat Rule",
+    "options": [
+      "A. Days before eligible to repeat rule",
+      "B. Certain Prospects",
+      "C. Repetition Order",
+      "D. Limit rule matches"
+    ],
+    "answer": "A,D",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft wants to continue to use their existing forms. Pardot form handlers cannot be used due to the encryption placed on them. However, Lenoxsoft wants all future leads or contacts converted via their existing forms to be created as prospects in Pardot with their Pardot campaign set to Salesforce connector. With this restriction outlines, Lenoxsoft wants to build an automated process with the following requirements: - New prospects are added to the New Lead engagement program and remain until they reach a score of 100 - Once prospects reach a score of 100, they should no longer receive emails from the New Lead engagement program.\nBased on the above, which process should the Consultant recommend?",
+    "options": [
+      "A. Build a Dynamic List:: Prospect Campaign is :: Salesforce Connector and prospect score:: is less than::\n         100, Action:: add to list.",
+      "B. Build an Automation rule :: Prospect Campaign is :: Salesforce is:: Salesforce Connector and prospect score :: is less than :: 100, Action :: add to list",
+      "C. Build a Segmentation rule :: Prospect Campaign is :: Salesforce Connector and Prospect Score :: is more than :: 100, Action :: add to list",
+      "D. Build an Automation rule :: Prospect Created Date ago is :: 100 :: and prospect score:: is less than :: 10, Action :: add to list"
+    ],
+    "answer": "A",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Select all available User Email Preferences",
+    "options": [
+      "A. Send daily visitor activity emails",
+      "B. Send weekly inactive automations report email",
+      "C. Send an email when a prospect is assigned",
+      "D. Send weekly search marketing email (sent on Fridays)",
+      "E. Send daily prospect activity emails (for all prospects)",
+      "F. Send monthly inactive automations report email",
+      "G. Send daily prospect assignment emails",
+      "H. Send daily visitor assignment emails",
+      "I. Send starred prospect activity alerts",
+      "J. Send daily prospect activity emails (for my prospects)",
+      "K. Send weekly search marketing email (sent on Mondays)"
+    ],
+    "answer": "A,C,E,F,G,I,J,K",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "Which one is Pardot Video Connector",
+    "options": ["A. YouTube", "B. Wistia", "C. Vimeo", "D. Dailymotion"],
+    "answer": "B",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "Which one is not an email template you can create in Pardot? [Choose one answer]",
+    "options": [
+      "A. \"Autoresponder emails\" template",
+      "B. \"One to one emails\" template",
+      "C. \"List emails\" template",
+      "D. \"Engage\" template"
+    ],
+    "answer": "D",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about custom redirects? [Choose two answers]",
+    "options": [
+      "A. When a visitor converts to a prospect completion actions on a custom redirect will trigger",
+      "B. When a visitor clicks a custom redirect any completion actions associated with the custom redirect will trigger.",
+      "C. Custom redirects are great for linking to files or pages you do not host.",
+      "D. Custom redirects will continue to work if they are deleted in Pardot."
+    ],
+    "answer": "C,D",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "Can Email Preference Center demand for logging in",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "Which are true about Custom Objects in Pardot",
+    "options": [
+      "A. You can create and sync a custom object from anything that is linked lead and contact, but can't be linked to account due to high risk of errors",
+      "B. You can create and sync a custom object from any object in Salesforce",
+      "C. You can create and sync a custom object from anything that is linked to a contact, lead, or account in your CRM",
+      "D. You can create and sync a custom object from anything that is linked to a contact, lead and account in your CRM at the same time"
+    ],
+    "answer": "C",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft just purchased Pardot and will be migrating to Pardot from another marketing automation tool. On the initial kickoff call, the Marketing Manager shares their existing tool's contract ends in 3 weeks. Given the accelerated timeframe, what is the recommended first step?",
+    "options": [
+      "A. Complete the technical setup items and create Pardot users. Conduct a Strengths Weaknesses Opportunities and Threats (SWOT) analysis of their current marketing strategies",
+      "B. Salesforce Connector User has 'Read1 permission to the custom object",
+      "C. Export all the data and assets from the existing tool",
+      "D. Install the Salesforce AppExchange Package and verify the Salesforce connector"
+    ],
+    "answer": "C",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "Select available Social Posting Connectors",
+    "options": [
+      "A. Facebook",
+      "B. Linkedln",
+      "C. WhatsApp",
+      "D. Instagram",
+      "E. Twitter",
+      "F. Zone",
+      "G. Tumblr"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has purchased a list of prospects and wants to send emails to those prospects in Pardot immediately.\nWhat is the correct way to handle this?",
+    "options": [
+      "A. Recommend that they must receive explicit permission from those prospects on the purchased list before they can upload that prospect list into Pardot.",
+      "B. Have LenoxSoft split their purchased list into multiple sends so as to not affect the IP's reputation.",
+      "C. Recommend that it is okay to send to purchased lists in Pardot.",
+      "D. Run a permissions pass on the purchased lists to get permission quickly before sending them a marketing email."
+    ],
+    "answer": "A",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about scoring? [Choose one answer]",
+    "options": [
+      "A. Pardot will automatically assign prospects a score from F- to A+.",
+      "B. Salesforce opportunities can influence a prospect's score.",
+      "C. It is not possible to reset a prospect's score to 0.",
+      "D. Pardot comes with a scoring model that cannot be adjusted or changed."
+    ],
+    "answer": "B",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "Which is true about Pardot API limits",
+    "options": [
+      "A. Pardot Growth Edition: 25 000 Pardot Plus Edition: 50 000 Pardot Advanced Edition: 100 000",
+      "B. No limits at all",
+      "C. All editions have 10 000 API limit",
+      "D. Pardot Growth Edition: Pardot Plus Edition: 25 000 Pardot Advanced Edition: 100 000"
+    ],
+    "answer": "D",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft is transitioning from their current marketing automation platform to Pardot. They have a landing page that they wish to migrate over to Pardot and need to understand what steps are involved in order to maintain the page's existing look and feel. What are the necessary first steps to migrate this landing page over to Pardot while maintaining the page's existing look and feel?",
+    "options": [
+      "A. Import the HTML file into Pardot and apply it to the landing page",
+      "B. Import the HTML file into Pardot and apply it to the layout template",
+      "C. Create layout template and import HTML from the landing page URL",
+      "D. Create a Pardot landing page and import HTML from the landing page HTML"
+    ],
+    "answer": "C",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "You have been asked to create a form that gathers information from prospects. This information should be available in Pardot as well as a custom build community site. How would you achieve this?",
+    "options": [
+      "A. Create a Pardot form and via completion actions submit the details to the community site.",
+      "B. Create a Pardot form and via an automation rule submit the details to the community site.",
+      "C. Create a website form that submits the details to the community site and integrate it with a Pardot form handler.",
+      "D. Create a website form that integrates with a Pardot form handler, details are submitted to the community site using Pardot API."
+    ],
+    "answer": "C",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to create Contacts instead of Leads or sync with Person Account records. What step should the consultant recommend?",
+    "options": [
+      "A. Update your field mappings by going to Admin > Configure Fields",
+      "B. Locate the relevant documentation and follow the steps to enable.",
+      "C. Update your Salesforce connector user permissions",
+      "D. Contact Pardot Support to enable the necessary connector behavior"
+    ],
+    "answer": "D",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "What factors are involved in determining email deliverability?",
+    "options": [
+      "A. Sender Policy Framework (SPF)",
+      "B. Whitelist",
+      "C. Sender ID",
+      "D. Domain Keys",
+      "E. CAN-SPAM"
+    ],
+    "answer": "A,D,E",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "Which is not a standard role in Pardot? [Choose one answer]",
+    "options": [
+      "A. Sales User",
+      "B. Marketing",
+      "C. Administrator",
+      "D. Sales Manager"
+    ],
+    "answer": "A",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "How many automation rules can you have",
+    "options": [
+      "A. Always 100",
+      "B. Pardot Growth Edition: 50 Pardot Plus Edition: 100 Pardot Advanced Edition: 200",
+      "C. Pardot Growth Edition: 50 Pardot Plus Edition: 100 Pardot Advanced Edition: 150",
+      "D. Pardot Growth Edition: 100 Pardot Plus Edition: 150 Pardot Advanced Edition: 200"
+    ],
+    "answer": "C",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "How many variations of Dynamic Content it is possible to create",
+    "options": ["A. A/B (2)", "B. 10", "C. A-C (3)", "D. A-Z (25)"],
+    "answer": "D",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to test all elements of their email, including variable tags, link clicks, and how the email looks on all email. Which testing strategy should you recommend to the all the elements?",
+    "options": [
+      "A. Use multivariate test & Review email preview",
+      "B. Use A/B test",
+      "C. Use individual email test",
+      "D. Use rendering test and send to Test List"
+    ],
+    "answer": "D",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has a grading profile for business units in both United States and Canada. Both profiles contain options for the industry field and several prospects with the grade of \"A\". What do we know about LenofSoft current grading strategy?",
+    "options": [
+      "A. LenoxSoft uses an automation rule to match the criteria US or canada to make a grading impact.",
+      "B. LenoxSoft must add prospect to a dynamic list",
+      "C. LenoxSoft added location based criteria",
+      "D. LenoxSoft uses location based scoring categories ."
+    ],
+    "answer": "A",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft's ideal buyer is a C-level executive with an employee base over 500. Their department should either be technology or finance. C-level is the best fit but managers should also be included as they may make purchasing decisions. Which is the correct profile criteria for grading used to give the ideal buyer an \"A\" grade.",
+    "options": [
+      "A. Job title - C-level 3/3 Job title - Manager 3/3 Size 3/3 Dept 2/3",
+      "B. Job title - C-level 3/3 Job title - Manager 3/3 Size 2/3 Dept 3/3",
+      "C. Job title - C-level 3/3 Job title - Manager 3/3 Size 3/3 Dept 3/3",
+      "D. Job title - C-level 3/3 Job title - Manager 2/3 Size 3/3 Dept 3/3"
+    ],
+    "answer": "D",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about the Salesforce connector [Choose two answers]",
+    "options": [
+      "A. Email is the unique identifier unless \"allow multiple Prospects with same email address\" is enabled.",
+      "B. You can connect Pardot to a Salesforce sandbox or production environment",
+      "C. When connecting Pardot and Salesforce you only need to follow a connection wizard in Pardot.",
+      "D. Only lead, contacts and accounts are synchronized from Salesforce to Pardot"
+    ],
+    "answer": "A,B",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "Administrators can reset passwords for users",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "Prior to starting implementation, LenoxSoft wishes to consolidate all their data within Salesforce. They currently use three different systems, including Salesforce, to manage their customer data. All data does NOT currently reside in one system, and Lenoxsoft wants Salesforce to be the primary system for customer records.\nWhat is the first step Lenoxsoft should take to allow Salesforce to become the primary recordholder?",
+    "options": [
+      "A. Import and merge existing records from all systems to Salesforce",
+      "B. Import and merge existing records from all systems to Pardot",
+      "C. Add custom account fields to Pardot and map to Salesforce",
+      "D. Add custom prospect fields to Pardot and map to Salesforce."
+    ],
+    "answer": "A",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "You have setup an automation rule to add 50 points to prospects who have had activity in the last 30 days and have submitted a specific landing page. You decide that you want to change this up to reflect more recent activity and open it up to all landing pages. You edit the rule criteria to reflect prospect last activity of 10 days or less and submission of any landing page and update the action to add 75 points instead. Which of the following statements is true?",
+    "options": [
+      "A. For all prospects who have already matched the rule, they will receive the 75 point completion action instead of the 50 points they already received.",
+      "B. For prospects who have already matched but also meet the new criteria, they will receive the 75 points in addition to the 50 points they already received.",
+      "C. For all prospects who have already matched the rule, they will receive the 75 point completion action in addition to the 50 points they already received.",
+      "D. For all prospects who have already matched, no new actions will be applied."
+    ],
+    "answer": "D",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "There is Custom Field Type in Pardot called Phone",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "Which standard connectors can be activated in Pardot [Choose two answers]",
+    "options": ["A. Olark", "B. GoToWebinar", "C. Survey Monkey", "D. Youtube"],
+    "answer": "A,B",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has had a Product Interest form live on their website for the past 3 months. They would like to make sure that, moving forward, every time the form is submitted, a custom field is updated. They also want to update that custom field for anyone who has submitted the form before today. What combination of automation tools should LenoxSoft use to achieve this?",
+    "options": [
+      "A. Automation rule and completion action",
+      "B. Completion action and dynamic list",
+      "C. Segmentation rule and completion action",
+      "D. Dynamic list and automation rule"
+    ],
+    "answer": "A",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "How can an interested lead that comes to Lenoxsoft's website and fills out the Contact Us form receive a follow-up email each time he or she submits?",
+    "options": [
+      "A. Send using the form's completion actions.",
+      "B. Send using a segmentation rule.",
+      "C. Use a dynamic list to use as a recipient list on an email send.",
+      "D. Send using an automation rule"
+    ],
+    "answer": "A",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft has completed testing in a Salesforce Sandbox org. What steps will ensure a successful move to the Salesforce Production org?",
+    "options": [
+      "A. Delete all data from the Sandbox org",
+      "B. Install the Pardot AppExchange package for Production Environments",
+      "C. Rename the Salesforce connector for the Sandbox org",
+      "D. Unverified and delete the Salesforce connector for the Sandbox org",
+      "E. Create a new Salesforce Connector for the Production org"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 49",
+    "explanation": ""
+  }
+]

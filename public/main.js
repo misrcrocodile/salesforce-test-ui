@@ -149,6 +149,18 @@ var testList = [
     ],
   },
   {
+    name: "PARDOT CONSULTANT",
+    value: "Salesforce.Pardot-Consultant",
+    testList: [
+      "Salesforce.Pardot-Consultant.v2021-07-19.q70",
+      "Salesforce.Pardot-Consultant.v2021-08-17.q49",
+      "Salesforce.Pardot-Consultant.v2022-01-21.q78",
+      "Salesforce.Pardot-Consultant.v2022-05-19.q95",
+      "Salesforce.Pardot-Consultant.v2022-08-03.q81",
+      "Salesforce.Pardot-Consultant.v2023-02-28.q88",
+    ],
+  },
+  {
     name: "DATA ARCHITECT",
     value: "Salesforce.Data-Architect",
     testList: [
