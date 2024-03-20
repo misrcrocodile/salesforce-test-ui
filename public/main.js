@@ -131,6 +131,9 @@ var testList = [
       "Salesforce.JsDevI.v2022-07-10.q70",
       "Salesforce.JsDevI.v2022-08-01.q60",
       "Salesforce.JsDevI.v2023-02-25.q75",
+      "Salesforce.JsDevI.v2022-04-15.q59",
+      "Salesforce.JsDevI.v2021-07-31.q56",
+      "Salesforce.JsDevI.v2021-03-07.q50",
     ],
   },
   {
