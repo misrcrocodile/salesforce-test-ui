@@ -1,0 +1,1015 @@
+[
+  {
+    "content": "The VP of sales wants to require that the next step field is always updated when an opportunity stage is changed.\nHow can this process be automated?",
+    "options": [
+      "A. Create a validation rule with the following formula:\n         AND(ISCHANGED(ISPICKVAL(StageName)),NOT(ISCHANGED(NextStep))).",
+      "B. Create a workflow rule with the following formula:\n         AND(ISCHANGED(StageName),NOT(ISCHANGED(NextStep))",
+      "C. Create a validation rule with the following formula:\n         AND(ISCHANGED(StageName),NOT(ISCHANGED(NextStep))).",
+      "D. Create a workflow rule with the following formula:\n         AND(ISCHANGED(ISPICKVAL(StageName)),ISCHANGED(NextStep))."
+    ],
+    "answer": "D",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users? * (1 Point)",
+    "options": ["A. Read and Edit", "B. Delete", "C. View All", "D. Merge"],
+    "answer": "C",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "A sales manager cannot view a contact owned by a salesperson. The salesperson is below the sales manager in the role hierarchy. Why is the sales manager unable to view the contact?",
+    "options": [],
+    "answer": "",
+    "title": "Question 3",
+    "explanation": "Contact sharing settings have grant access using hierarchies unchecked"
+  },
+  {
+    "content": "How can you, as a System Administrator, enforce standardization of tags in libraries?\nChoosetwoanswers.* (1 Point)",
+    "options": [
+      "A. Enable restrictive tagging",
+      "B. Guided tags",
+      "C. Enable workflow to send email alert for unnamed tags",
+      "D. Change Tagging Field to multi select picklist"
+    ],
+    "answer": "A,B",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement? * (1 Point)",
+    "options": [
+      "A. Create a criteria-based sharing rule for the 5 users",
+      "B. Remove the record type access for all users except the 5 mentioned",
+      "C. Create a new profile and assign the 5 users to the new profile",
+      "D. Givethe\"ViewAllData\"permissiontothe5mentionedusersusingpermissionsets"
+    ],
+    "answer": "A",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "The VP of Sales wants to require that the Next Step Field is always updated when an opportunity stage is changed. How can this process be automated?",
+    "options": [
+      "A. Create a validation rule with the following formula: AND( ISCHANGED(ISPICKVAL(StageName)), NOT(ISCHANGED(NextStep)))",
+      "B. Create a workflow rule with the following formula: AND( ISCHANGED(StageName), NOT(ISCHANGED(NextStep))",
+      "C. Create a workflow rule with the following formula: AND( ISCHANGED(ISPICKVAL(StageName)), NOT(ISCHANGED(NextStep))",
+      "D. Create a validation rule with the following formula: AND( ISCHANGED(StageName), NOT(ISCHANGED(NextStep))"
+    ],
+    "answer": "D",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "The Marketing Manager at Universal Containers wants to change the column headings for several of the fields on opportunity reports.\nWhat approach should and administrator take to meet the requirements?",
+    "options": [
+      "A. Create bucket fields for each field and enter the new column heading in the Bucket Name Field.",
+      "B. User Rename tabs and labels to change the field labels as needed.",
+      "C. Build a Custom Report type and use Display As in Edit Layouts to make the requested changes.",
+      "D. Edit the fields Available for Reports sections in the Opportunities report type to make the changed."
+    ],
+    "answer": "A",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "A growing number of duplicate leads are being entered into salesforce.\nuniversal containers IT department wants to give all marketing team members the ability to leverage the \"find duplicates\" functionality in saleforce to reduce the number of duplicate leads in the system through merges.\nwhat lead object level permission is needed to allow the marketing team members to complete this task?",
+    "options": ["A. Merge", "B. Delete", "C. Read and edit", "D. View all"],
+    "answer": "B",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "Users report that the industry picklist field is no longer visible on account records. What test can an administrator use to troubleshoot the issue?",
+    "options": [
+      "A. Setup audit trail",
+      "B. Field history tracking",
+      "C. Field audit history",
+      "D. Debug log"
+    ],
+    "answer": "A",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to implement a new entitlement process for premier support accounts. This support includes phone contact with the customer every 24 hours from the time the case is created for as long as it remains open.\nHow should an administrator configure this requirement?",
+    "options": [
+      "A. Build a sequential milestone",
+      "B. Create an independent milestone",
+      "C. Enable milestone tracker",
+      "D. Configure an escalation rule"
+    ],
+    "answer": "C",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to convert a lookup relationship to a master detail relationship.\nWhat action should the administrator take prior to converting the relationship?",
+    "options": [
+      "A. Select the allow re-parenting option on the master-detail relationship field.",
+      "B. Ensure all existing records have a value in the current lookup field.",
+      "C. Delete the current lookup field before adding the new master-detail field.",
+      "D. Remove roll-up summary fields on the parent prior to changing the field type."
+    ],
+    "answer": "B",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "Sales Rep Phil Smith has an opportunity for 55,000 in the Commit stage. Which aggregates on Phil'sforecast willinclude this amount? Choose three answers.* (1 Point)",
+    "options": ["A. Best Case", "B. Pipeline", "C. Commit", "D. Closed"],
+    "answer": "A,B,C",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "What can an administrator do to enable customer-submitted service requests? Choose two answers.* (1 Point)",
+    "options": [
+      "A. Enable the service cloud console on the company website",
+      "B. Enable live agent on the company website",
+      "C. Enable case feed on the company website",
+      "D. Enable chatter answers"
+    ],
+    "answer": "B,D",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "What is a capability of Territory management? Choose 2 answers",
+    "options": [
+      "A. Support for complex and frequently changed sales organization structures",
+      "B. The ability to use account criteria to expand a private sharing model",
+      "C. Territory hierarchy replaces the role hierarchy for sharing",
+      "D. The ability to use opportunity criteria to expand a private sharing model"
+    ],
+    "answer": "A,B",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks wants to understand the implications of archived Activities.\nWhich two considerations should an administrator communicate regarding archived Activities?\nChoose 2 answers.",
+    "options": [
+      "A. Archived activities are deleted after 365 days.",
+      "B. Events created more than 365 days ago are archived.",
+      "C. Events that ended more than 365 days ago are archived.",
+      "D. Closed tasks created more than 365 days ago with no due date are archived."
+    ],
+    "answer": "A,B",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "Which three capabilities should an administrator consider about change sets?\nChoose 3 answers.",
+    "options": [
+      "A. When custom fields are added to a change set, field-level security is automatically included.",
+      "B. When a component is added to a change set, all dependent components automatically get added.",
+      "C. To use change sets, at least one Inbound and one outbound connection must exist.",
+      "D. There is a feature that allows the user to validate a change set before deploying it.",
+      "E. When a change set is deployed to production, by default, all unmanaged Apex tests will automatically be run."
+    ],
+    "answer": "A,C,D",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following is NOT true about article types in Salesforce Knowledge? * (1 Point)",
+    "options": [
+      "A. Article Types should enable 'actionable' content.",
+      "B. Article Types are typically short HTML documents.",
+      "C. An organization must have 2 article types to enable Knowledge.",
+      "D. Article Types may include attachments."
+    ],
+    "answer": "C",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "A sales manager would like access to the following:\nAll closed/won opportunities in the last six months for each account the manager owns.\nAll cases created within the last six months for each account the manager owns.\nWhat can the administrator create to meet these requirements ?",
+    "options": [
+      "A. Create a custom report type to combine the data into a single report.",
+      "B. Create an Account report that groups by both opportunities and cases.",
+      "C. Create a single report using the Joined Reports feature.",
+      "D. Create an Account report and add Opportunity and Case cross filters."
+    ],
+    "answer": "D",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator consider when setting up and maintaining Salesforce Knowledge? Choose three answers. * (1 Point)",
+    "options": [
+      "A. Solution category browsing must be enabled in Solution settings.",
+      "B. Data category visibility is assigned through roles and profiles",
+      "C. Article version numbers must be assigned by a Knowledge Manager for tracking",
+      "D. Knowledge settings must be configured to allow users to create an article from a case",
+      "E. Enabling certain Knowledge features on a user record requires licensing."
+    ],
+    "answer": "B,D,E",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "A member of Universal Container's support team is assisting a sales rep in managing a top customer. The sales rep has manually shared an opportunity with the support member in hopes that the support member can update some of the technical sales fields on the record. But the support member is unable to edit the opportunity.\nWhat is the recommended solution to provide edit access to the opportunity?",
+    "options": [
+      "A. Create a permission set for opportunity edit and add it to the support member's user record.",
+      "B. Add the support team member to the opportunity team. Assign read/write access to the member.",
+      "C. Change the Organization Wide Default internal access for opportunity to public read/write.",
+      "D. Change the support team member's role to a above the sales rep in the org's role hierarchy."
+    ],
+    "answer": "C",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "Recruiters at universal containers wants to associate positions with their related job applications using two custom objects position and job application. a job application must always have a related position. if a position is deleted, the corresponding job applications are deleted.\nwhat type of object relation ship will meet this requirement?",
+    "options": [
+      "A. Lookup",
+      "B. Master detail",
+      "C. Hierarchical",
+      "D. junction"
+    ],
+    "answer": "B",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users?",
+    "options": ["A. Read and Edit", "B. Delete", "C. View All", "D. Merge"],
+    "answer": "B",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator consider when setting up salesforce entitlements? choose 2",
+    "options": [
+      "A. Salesforce entitlements require an entitlement process with milestones and milestone actions.",
+      "B. The entitlement model dictates the level of detail for the entitlement process.",
+      "C. The service level agreements related list on a case gives support agents access to contract details.",
+      "D. Salesforce entitlements require service cloud user feature licensing."
+    ],
+    "answer": "A,C",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator consider when enabling territory management? choose 3",
+    "options": [
+      "A. It is permanent and cannot be disabled.(100%)",
+      "B. It limits the type of forecasting that can be used.(100%)",
+      "C. Users can only be a member of one territory at a time.",
+      "D. Territory hierarchy must match the organization's role hierarchy.",
+      "E. Sharing for accounts,contacts, opportunities and cases is impacted.(100%)"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint.\nWhat types of relationship can be used to accomplish this?",
+    "options": [
+      "A. Master-detail",
+      "B. Hierarchical",
+      "C. Lookup",
+      "D. Junction"
+    ],
+    "answer": "C",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "The Marketing Manager has requested that a field be added to each account that displays the number of contacts associated with that account. The manager wants to use this field as part of an email marketing segmentation strategy. How can this requirement be met?",
+    "options": [
+      "A. Create a custom field on the account. Use a workflow rule to update the field when contacts are added or deleted.",
+      "B. Create a custom formula field on the account using the count() function to count the number of related contacts.",
+      "C. Create a roll-up summary field that counts the number of contacts and displays that count on the account.",
+      "D. Create a custom field on the account. Use an Apex trigger to update the field when contacts are added or deleted."
+    ],
+    "answer": "C",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "How can content types be used in CRM Content? (Choose two answers.) * (1 Point)",
+    "options": [
+      "A. With validation rules, to capture complete data",
+      "B. With library rules, to limit the number of libraries created",
+      "C. With content fields, to control the content detail page layout",
+      "D. With upload rules, to limit the size of content files."
+    ],
+    "answer": "A,C",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator has been asked to create a report showing all newly created chatter groups by a custom designation divided by the four departments that maintain chatter groups- partners, corporate, practices and solutions.\nHow can an administrator meet this reporting requirement?",
+    "options": [
+      "A. Create a report type for chatter groups and create a summary report for newly- created chatter group.",
+      "B. Use a multi-select picklist field to bucket chatter groups in the report according to department.",
+      "C. Use a bucket in the chatter groups report to categorize the four different departments. (100%)",
+      "D. Create tags for chatter groups and create a summary report for newly created chatter groups."
+    ],
+    "answer": "C",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement? * (1 Point)",
+    "options": [
+      "A. Hierarchical",
+      "B. Junction",
+      "C. Master-detail",
+      "D. Lookup"
+    ],
+    "answer": "C",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book? * (1 Point)",
+    "options": [
+      "A. Enter a Product Code.",
+      "B. Check the Active checkbox.",
+      "C. Enter a Product Description.",
+      "D. Select a Product Family"
+    ],
+    "answer": "B",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator notices that there are two account records in the system with the same name. A contact record with the same name is associated with each account.\nWhich set of steps should be taken lo merge these accounts using the Salesforce merge feature?",
+    "options": [
+      "A. Merge the duplicate accounts and the duplicate contacts will be merged automatically.",
+      "B. Merge the duplicate accounts and check the box that optionally merges the duplicate contacts.",
+      "C. Merge the duplicate accounts and then merge the duplicate contacts.",
+      "D. Merge the duplicate contacts and then merge the duplicate accounts."
+    ],
+    "answer": "C",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "What permissions would you need if you want to merge accounts with related lists of cases and opportunity? * (1 Point)",
+    "options": [
+      "A. delete on the Account object",
+      "B. deletion Account objects and edition Opportunities and Cases",
+      "C. edit on Account objects and edit on Opportunities and Cases",
+      "D. edit on Account objects and delete on Opportunities and Cases",
+      "E. edition Opportunity and Cases objects"
+    ],
+    "answer": "B",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants customers who buy the Freight Container product to be billed in monthly installments. How should an administrator meet this requirement?",
+    "options": [
+      "A. Create custom fields on the product.",
+      "B. Create a workflow rule on the product.",
+      "C. Create a default revenue schedule on the product.",
+      "D. Create a default quantity schedule on the product"
+    ],
+    "answer": "C",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "Which three features are supported in delegated administration?",
+    "options": [
+      "A. Manage custom objects",
+      "B. Unlock non-Communities users",
+      "C. Unlock Communities users",
+      "D. Set org-wide sharing defaults",
+      "E. Create and edit users"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "an administrator has been asked to set up two custom objects named issues and tickets. multiple tickets can be associated with each issue, and each issue may be associated with multiple tickets.\nhow should the administrator set up the relationship between issues and tickets?",
+    "options": [
+      "A. Create a lookup relationship with tickets as the master object.",
+      "B. Create a master detail relationship with issues as the master object",
+      "C. Create a lookup relationship on both the tickets and issues object.",
+      "D. Create a junction object with both tickets and issues as master objects."
+    ],
+    "answer": "D",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "What type of data can be migrated between environments using change sets? Choose 2 answers",
+    "options": [
+      "A. Account team roles",
+      "B. Email templates",
+      "C. Custom fields",
+      "D. Field type changes"
+    ],
+    "answer": "B,C",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to ensure that the following opportunity fields are present on each record at the negotiation/review or won stages:\nAmount (Currency) us populated.\nThe Ready to Close (Checkbox) must also be true.\nWhich validation rule error condition should the administrator configure to meet these requirements?\nA)\nB)\nC)\nD)",
+    "options": ["A. Option C", "B. Option D", "C. Option A", "D. Option B"],
+    "answer": "A",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Universal Containers has been asked to create an account management dashboard displaying opportunities and activities for each of its top five clients.\nWhich dashboard feature should the Administrator use to meet this requirement?",
+    "options": [
+      "A. Joined reports on a dashboard",
+      "B. Dashboard Filter",
+      "C. Dynamic dashboard",
+      "D. Matrix reports on a dashboard"
+    ],
+    "answer": "C",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to allow community visitors to submit support cases without logging into the community.\nWhich two features are required to implement this request?\nChoose 2 answers",
+    "options": [
+      "A. web-to-case",
+      "B. Case feed actions",
+      "C. New case quick action",
+      "D. Case assignment rules"
+    ],
+    "answer": "A,C",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "pay grade on the custom Position object need updating and require frequent change. Because frequent changes have to be made to these Position fields, they are requesting the ability to update these picklist values.\nWhich feature should the administrator consider that allows for this?",
+    "options": [
+      "A. A permission set containing the modify all data permission for the Position object.",
+      "B. Screen Flow using custom metadata types",
+      "C. Delegated administration for the Position object",
+      "D. Field accessibility set to editable for the picklists for the Position object."
+    ],
+    "answer": "C",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "Sales management wants a small subset of users with different profiles and roles to be able to view all data for compliance purposes. How can an administrator meet this requirement?",
+    "options": [
+      "A. Create a permission set with the View All Data permission for the subset of users.",
+      "B. Enable the View All Data permission for the roles of the subset of users.",
+      "C. Create a new profile and role for the subset of users with the View All Data permission.",
+      "D. Assign delegated administrator to the subset of users to View All Data."
+    ],
+    "answer": "A",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "When the delete permission is selected in a muting permission set, which other permission is automatically muted?",
+    "options": [
+      "A. Modify All Records",
+      "B. New Al Records",
+      "C. View Al Data",
+      "D. Modify All Data"
+    ],
+    "answer": "A",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step? * (1 Point)",
+    "options": [
+      "A. Leave the organization-wide default setting, but change the Sales Reps' access rights.",
+      "B. Change the Sales Reps' access rights to Use.",
+      "C. Change the organization-wide default setting to No Access.",
+      "D. Change the organization-wide default setting to View Only."
+    ],
+    "answer": "C",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "Which two requirements must be met for a user to view knowledge Articles within a Salesforce organization?\nCheck 2 answers.",
+    "options": [
+      "A. The user must have access to the articles tab.",
+      "B. The user must have the manage articles permission on the profile.",
+      "C. The user must be assigned a Salesforce Knowledge license.",
+      "D. The user's profile must have the read permission for the at lease one article type."
+    ],
+    "answer": "A,D",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "Which deployment tool can be used to deploy metadata from a developer\nedition organization to another organization? choose 2",
+    "options": [
+      "A. Change sets",
+      "B. Force.com IDE",
+      "C. Force.com Migration tool(100%)(salesforce extensions for visual studio code)",
+      "D. Data loader."
+    ],
+    "answer": "B,C",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "Which two should an administrator consider when setting up Salesforce CRM Content ? Choose 2 answers.",
+    "options": [
+      "A. An approval process can ensure that all product-related content is reviewed.",
+      "B. The content type determines which fields appear on the Content Detail page layout.",
+      "C. The library type determines the size of files that can be contributed to content.",
+      "D. A validation rule can ensure a description is required for all contributed content."
+    ],
+    "answer": "B,D",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to create a Job Application custom object related to a Job Posting custom object. They would also like a no-code solution to calculate the number of Job Applications for each Job Posting.\nWhat type of field should an administrator create on the Job Application to enable this functionality?",
+    "options": [
+      "A. Roll-up Summary",
+      "B. Formula",
+      "C. Master-Detail",
+      "D. Lookup"
+    ],
+    "answer": "C",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production? * (1 Point)",
+    "options": [
+      "A. Partial Data Sandbox",
+      "B. Developer Pro Sandbox",
+      "C. Full Sandbox",
+      "D. Developer Sandbox"
+    ],
+    "answer": "B",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator has been asked to create a new field called region code on the opportunity object. this field should only be visible to users with the outside sales, Manager and system Administrator profiles and editable by users with the system administrator and manager profiles.\nHow should the administrator ensure this field is accessible to only these users?",
+    "options": [
+      "A. Create a new page layout for the opportunity object for these three profiles.",
+      "B. Edit the role hierarchy and move the outside sales and manager roles lower in the hierarchy.",
+      "C. Edit the field-level security on the region code field for these three profiles.",
+      "D. Create a new record type and page layout for the opportunity object for these three profiles."
+    ],
+    "answer": "C",
+    "title": "Question 49",
+    "explanation": ""
+  },
+  {
+    "content": "How would you configure a profile to find duplicate records? * (1 Point)",
+    "options": ["A. Delete", "B. read,edit", "C. view all", "D. merge"],
+    "answer": "C",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Container has an active process that assigns a task to sales operations once an opportunity is won. Sales Ops is reporting that he tasks are missing.\nWhich two tools should the administrator use to determine the problem?\nChoose 2 answers",
+    "options": [
+      "A. Email Log",
+      "B. Debug Log",
+      "C. Monitor time based workflow",
+      "D. Paused flow interview list"
+    ],
+    "answer": "A,B",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers uses a Private Sharing model for Accounts. User A is onboarded to User B's team and given the same Profile and Role. Both users own 20 Accounts but User B is able to see 40 Accounts, whereas User A can only see the 20 they own.\nWhat are two possible reasons for this?\nChoose 2 answers.",
+    "options": [
+      "A. User B had the records manually shared with them.",
+      "B. User B is a member of a Group that gained access to the records through a Sharing Rule.",
+      "C. User B had the records shared with them through a Permission Set.",
+      "D. User B is a member of a Queue that gained access to the records through a sharing Rule."
+    ],
+    "answer": "B,C",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers uses a custom object to track resources called Supply Items with a lookup to Accounts. The Supply Items records should only be visible by users that own the Account records. What sharing setting provides the correct visibility?",
+    "options": [
+      "A. Private",
+      "B. Controlled by Parent",
+      "C. Public Read Only",
+      "D. Public Read/Write/Transfer"
+    ],
+    "answer": "B",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "The sales operations team at Universal Containers wants to ensure that when an opportunity is won the custom shipment date field is populated.\nHow should the administrator configure salesforce to meet this requirement?",
+    "options": [
+      "A. Create a dependency between the stage and shipment date fields.",
+      "B. Make the shipment date field required on the opportunity page layout.",
+      "C. Add a default value to the shipment date using the Today() function.",
+      "D. Create a validation rule on the opportunity using the ISBLANK() function."
+    ],
+    "answer": "D",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "A Recruiting User needs to setup an object relationship between the Position object and the Job Applicant object so that a Position record can have many applicants and Job Applicant can apply for many positions.\nHe also needs this in a setup where deleting a Job Application record will delete all information related to the job applicant in the Position object. What can a system administrator do to fulfill the requirement? * (1 Point)",
+    "options": [
+      "A. Create a master-detail relationship only on the child object",
+      "B. Create a many-to-many master-detail relationship using a junction object.",
+      "C. Create a lookup relationship only on the parent object",
+      "D. Create a lookup relationship using a junction object."
+    ],
+    "answer": "B",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time? * (1 Point)",
+    "options": ["A. 3", "B. 2", "C. 4", "D. 1"],
+    "answer": "D",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "The recruiting manager at universal containers has requested a new picklist value in the type field on the position object by the end of the week.\nIf the administrator is unable to complete this request in the desired timeline, what type of access will allow the recruiting manager to make the changes in salesforce?",
+    "options": [
+      "A. Delegated administration over the position object.",
+      "B. Delegated administration to manage recruiting users.",
+      "C. Modify all and view all access to the position object.",
+      "D. Create, Read, Edit and Delete access to the position object."
+    ],
+    "answer": "A",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "a salesforce user has created a lightning report that lists all customer support cases. other users can change the date range but are NOT allowed to changed case statuses.\nhow can the report creator configure the report to meet these requirements?",
+    "options": [
+      "A. Save the report in public folder and lock the status filter on the report.",
+      "B. Save the report in private folder and lock the status filter on the report.",
+      "C. Save the report in private folder and grant Read Only access to the folder.",
+      "D. Save the report in public folder and grant Read Only access to the folder."
+    ],
+    "answer": "C",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "A user has pore with read-only permissions for the case object.\nHow can the user be granted edit permission for cases?",
+    "options": [
+      "A. Add the user in a role hierarchy above the users with edit permissions on the case object.",
+      "B. Create a public group with edit permissions for the case object.",
+      "C. Create a sharing rule on the case object with read/write level of access.",
+      "D. Create permission set with edit permissions for the case object."
+    ],
+    "answer": "D",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "In order to provide customer support agents with a 360 view of the customer, UC wants support agents to continue to have read only access to accounts but allow create and edit access to contacts and cases. the current OWD for contacts is\n\"Controlled by parent\".\nwhat solution should be implemented?",
+    "options": [
+      "A. Create read/write sharing rules to share all contacts to all support agents and grant read only access to cases on agent profile.",
+      "B. Grant create/edit access to contacts and cases on support agent profile.",
+      "C. Change OWD of contacts to public read only and grant create/edit access to cases on support agent profile.",
+      "D. Change the OWD of contacts and cases to private and create read/write sharing for all support agents."
+    ],
+    "answer": "B",
+    "title": "Question 60",
+    "explanation": ""
+  },
+  {
+    "content": "In Lightning, an opportunity pipeline report listing opportunities by sales representative shows multiple opportunities written for the same account. The sales Manager would like to know how many individual account each representative has written business for.\nHow should the report be identified to include the number of individual accounts represented by representative?",
+    "options": [
+      "A. Create a custom summary formula and group by account.",
+      "B. Select Show Unique Count on the Account Name Column in the report builder.",
+      "C. Add a bucket field for Account Name and group by the bucket field.",
+      "D. Group by Account and summarize a custom checkbox defaulted to checked."
+    ],
+    "answer": "A",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers purchased Field Service Lightning Licenses in Production and wants to make these license available in an active development sandbox with the minimum development impact.\nHow should an administrator create these licenses in the sandbox?",
+    "options": [
+      "A. Submit a Salesforce support case.",
+      "B. Merge Production and the sandbox using a template.",
+      "C. Use the Match Production Licenses tool.",
+      "D. Refresh the sandbox from production."
+    ],
+    "answer": "D",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "A member of Universal container's support team is assisting as a lesrep in managing a top customer. The sales rep has manually shared an opportunity with the support member in hopes that the support member can update some of the technical sales fields on the record, but the support member is unable to edit the opportunity, Which solution would provide edit access to the opportunity?* (1 Point)",
+    "options": [
+      "A. Change the support team member's role to a role above the sales rep in the org's role hierarchy",
+      "B. Create a permission set for opportunity edit and add it to the support member's user record",
+      "C. Add the support team member to the opportunity team and assign read/write access to the member",
+      "D. Change the Organization-Wide Defaults internal access for opportunities to public read/write"
+    ],
+    "answer": "C",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "On a monthly basis, an administrator would like to pull data related to service contracts from Salesforce to store elsewhere. Which two ways can an administrator accomplish this? Choose 2 answers",
+    "options": [
+      "A. Use the \"Object Export\" feature under Data Management",
+      "B. Use Data Exporter to export the data each month.",
+      "C. Configure the \"Schedule Export\" options under Data Export",
+      "D. Use Data Loader to export the data each month."
+    ],
+    "answer": "C,D",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement is true about the creation of entitlement processes?\nChoose 2 answers",
+    "options": [
+      "A. Entitlements have their own organization-wide default settings.",
+      "B. The Manage Entitlements permission must be enabled.",
+      "C. Milestones can be created dynamically based on other fields.",
+      "D. Entitlement versioning allows changes to existing entitlement processes."
+    ],
+    "answer": "B,C",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "Which capability is available in both customizable Forecasting and collaborative forecasting? choose 2",
+    "options": [
+      "A. Ability to customize the forecast object with custom fields.",
+      "B. Ability to track forecasts against sales quotas.(100%)",
+      "C. Ability to rename forecast categories.",
+      "D. Ability to choose to forecast either monthly or quarterly.(100%)"
+    ],
+    "answer": "B,D",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "Which two types of data should a sales representative access from the Forecasts tab when using Collaborative Forecasts?\nChoose 2 answers.",
+    "options": [
+      "A. Forecast amount for each forecast category",
+      "B. Forecast amount for each opportunity stage",
+      "C. Forecast amount for other representatives on their team",
+      "D. Opportunities that make up each forecast amount"
+    ],
+    "answer": "A,B",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants only users from the sales department to have access to price books. How can an administrator meet this requirement?",
+    "options": [
+      "A. Create a sharing rule to share all price books to sales users.",
+      "B. Clone all custom price books from the standard price book.",
+      "C. Manually share each price book to the sales users roles.",
+      "D. Set the organization-wide default for price book to Use."
+    ],
+    "answer": "B",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers is working on an implementation strategy for Salesforce CRM content and wants to ensure consistent tagging across and within its libraries, minimizing accidental duplicate tags.\nWhat action can be taken to ensure this consistent tagging in universal containers libraries? choose 2",
+    "options": [
+      "A. Create a workflow email alert for unrelated tags within a library.",
+      "B. Change the tag field to a pre-populated picklist.",
+      "C. Establish tag names with contributors upon the creation of library.(100%)",
+      "D. Enable restricted tagging upon the creation of library.(100%)"
+    ],
+    "answer": "C,D",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "North Trail Outfitters want to automate the assignment of territories to opportunities.\nWhich two features are needed to meet this requirement.",
+    "options": [
+      "A. Create an Apex Class",
+      "B. Create Assignment Rules",
+      "C. Enable opportunity owner-based sharing",
+      "D. Enable filter-based Opportunity Territory Assignment"
+    ],
+    "answer": "B,D",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator consider when moving approval processes using a change set? * (1 Point)",
+    "options": [
+      "A. Change sets do NOT include the approval and rejection actions from the source organization",
+      "B. Change sets do NOT include the order of active approval processes from the source organization",
+      "C. The unique name of the approval process is NOT allowed to be changed once deployed in the target organization",
+      "D. Custom fields on standard objects will need to be manually added in the target organization."
+    ],
+    "answer": "B",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has a requirement to report on opportunities where the probability has dropped beneath 50%. The administrator has created a custom checkbox as a way to identify these records.\nWhat else should the administrator do to meet this requirement? * (1 Point)",
+    "options": [
+      "A. Build a validation rule that displays an error",
+      "B. Enable field history tracking on the field and include the history in the report filter",
+      "C. Create an approval process that submits the opportunity for approval when the custom checkbox is true",
+      "D. Create a workflow rule that updates the field when the probability drops below 50%"
+    ],
+    "answer": "D",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following options would be used to limit the number of records and assist with data consistency? * (1 Point)",
+    "options": [
+      "A. Workflow field updates",
+      "B. Picklist and dependent picklist fields",
+      "C. Custom formula fields",
+      "D. Record types and page layouts",
+      "E. Custom lookup fields and lookup filters"
+    ],
+    "answer": "E",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "A sales manager would like a report of accounts with no closed/won opportunities in the last year. How can this requirement be met?",
+    "options": [
+      "A. Create a customer report type for Accounts without Opportunities.",
+      "B. Create a joined report using the Accounts report type and the Opportunities report types.",
+      "C. Create a summary report using the Accounts report type with a formula field for opportunity count.",
+      "D. Create a tabular report using the Account report type and add a cross filter using Opportunities."
+    ],
+    "answer": "B",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "The sales operations team has required a new custom object with the\nfollowing requirement:\n. The sales managers should have full access to all records created\n. The object's sharing default should be set to private.\n. No new sharing rules should be created.\nhow can the system administrator set up the security for this object? choose 2",
+    "options": [
+      "A. Create a Record type with \"Modify all\" checked, and assign this Record type to the sales manager profile.",
+      "B. Add the \"modify all\" permission to the sales manager profile for the new object",
+      "C. Create a permission set for all sales Manager users with \"modify all\" checked for the object.",
+      "D. create a role for all sales Manager users with \"Modify all\" checked for the object."
+    ],
+    "answer": "D",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers uses Enterprise Territory Management to manage its sales territories. The sales managers want to see who the account is manually shared outside of territory rules. How can the system administrator meet this requirement? * (1 Point)",
+    "options": [
+      "A. Add \"Assign Territories\" permission to the sales manager's profile",
+      "B. Add \"Manage Territories\" permission to the sales manager's profile",
+      "C. Add the \"Assigned Territories\" related list to the sales page layout",
+      "D. Add the \"Users in Assigned Territories\" related list to the sales page layout"
+    ],
+    "answer": "D",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "A system administrator wants to change the field type from a lookup field to a master-detail field. What must the system administrator check in order for the change To be implemented successfully? * (1 Point)",
+    "options": [
+      "A. Make sure that all lookup fields in all records contain a value",
+      "B. Make sure that the lookup field has a related record",
+      "C. Make sure that the lookup value is set to Required"
+    ],
+    "answer": "A",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length. * (1 Point)",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 78",
+    "explanation": ""
+  },
+  {
+    "content": "Universal containers uses a private sharing model for accounts. A user who owns an account record needs to temporarly grant delete access to this records associated contacts to another user. how can this be accomplished?",
+    "options": [
+      "A. Transfer ownership of the account record to the user.",
+      "B. Add the user to the owner's default account team",
+      "C. Use the manual sharing button on the account.",
+      "D. Manually add the user to the account team."
+    ],
+    "answer": "A",
+    "title": "Question 79",
+    "explanation": ""
+  },
+  {
+    "content": "what should an administrator do before case feeds can be enabled? choose 2",
+    "options": [
+      "A. Enable default email templates",
+      "B. Enable feed tracking on cases.",
+      "C. Enable case assignment rules.",
+      "D. Enable chatter."
+    ],
+    "answer": "B,D",
+    "title": "Question 80",
+    "explanation": ""
+  },
+  {
+    "content": "Which feature license is required to use Content? * (1 Point)",
+    "options": [
+      "A. Salesforce CRM Content Creator",
+      "B. Salesforce CRM Content Manager",
+      "C. Salesforce CRM Content Contributor",
+      "D. Salesforce CRM Content User"
+    ],
+    "answer": "D",
+    "title": "Question 81",
+    "explanation": ""
+  },
+  {
+    "content": "Which forecasting schedule type would you use if you wanted a benchmark of how much should be sold within a certain time frame? * (1 Point)",
+    "options": ["A. Quota", "B. Pipeline", "C. Forecast"],
+    "answer": "A",
+    "title": "Question 82",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers created a few new fields on the account object as well as a new section on the page layout in the config sandbox. After positive test results, the administrator created and uploaded a change set with the new fields from the sandbox to production. Unfortunately, the administrator forgot to add the page layout.\nWhich two options can the administrator take to deploy the page layout?\nChoose 2 answers.",
+    "options": [
+      "A. Deploy the existing change set. create and deploy a new change set containing the page layout.",
+      "B. Add the page layout to the existing change set in the sandbox and upload the change set again.",
+      "C. Edit the change set in production to add the new page layout before deploying the change set.",
+      "D. Clone the change set in the sandbox, add the new page layout to it and upload to production."
+    ],
+    "answer": "A,B",
+    "title": "Question 83",
+    "explanation": ""
+  },
+  {
+    "content": "List the different prices that are available for a product. Choose three answers. * (1 Point)",
+    "options": [
+      "A. Discounted List Price",
+      "B. List Price",
+      "C. Standard Price",
+      "D. Product Price",
+      "E. Sales Price"
+    ],
+    "answer": "B,C,E",
+    "title": "Question 84",
+    "explanation": ""
+  },
+  {
+    "content": "How can an administrator ensure article managers use specified values for custom article field?",
+    "options": [
+      "A. Create a record type containing preset values",
+      "B. Create field dependecies on article types.",
+      "C. Create different article types for different requirements.",
+      "D. Create a required field on the article page layout."
+    ],
+    "answer": "A",
+    "title": "Question 85",
+    "explanation": ""
+  },
+  {
+    "content": "Which three password options are available for the administrator to set on content deliveries? Choose 3 answers",
+    "options": [
+      "A. Password protection is required",
+      "B. Password protection Is optional and defaults to ON",
+      "C. Administrator-provided default password",
+      "D. Password complexity rules",
+      "E. Password protection Is optional and defaults to OFF"
+    ],
+    "answer": "A,D,E",
+    "title": "Question 86",
+    "explanation": ""
+  },
+  {
+    "content": "How can you make sure that a field will be visible on 2 profiles only? * (1 Point)",
+    "options": [
+      "A. validation rules",
+      "B. create a page layout and hide the field",
+      "C. Field-Level Security",
+      "D. workflow field update"
+    ],
+    "answer": "C",
+    "title": "Question 87",
+    "explanation": ""
+  },
+  {
+    "content": "Sales representatives are reporting trouble syncing quotes with their related opportunities.\nWhat is a possible explanation for this problem? Choose two",
+    "options": [
+      "A. The user does not have Edit permissions on the quote.",
+      "B. The attached currency is no longer active.",
+      "C. The quote contains an archived list price.",
+      "D. The quote is attached to a closed opportunity."
+    ],
+    "answer": "B",
+    "title": "Question 88",
+    "explanation": ""
+  }
+]

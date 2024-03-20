@@ -1,0 +1,1238 @@
+[
+  {
+    "content": "Sales reps at Ursa Major Solar often give discounts depending on the configuration of the solar panel system. Customers want to know what the different configuration options are. Sales management wants to ensure the opportunity pipeline is as accurate as possible.\nWhat should sales reps do to ensure their quotes and opportunities reflect their sales?",
+    "options": [
+      "A. Update the quote record each time the customer requests a different product configuration, and clicks the sync button to update the opportunity.",
+      "B. Create a new quote record for each of the different product configurations. Sync the most likely to be purchased back to the opportunity.",
+      "C. Create new opportunities for each quote request. Change the forecast category to omitted for all except the most likely to be purchased.",
+      "D. Use the products related list to associate the different configurations with the opportunity. Update the Amount field with the most likely purchase price."
+    ],
+    "answer": "B",
+    "title": "Question 1",
+    "explanation": "Creating a new quote record for each of the different product configurations and syncing the most likely to be purchased back to the opportunity will ensure that their quotes and opportunities reflect their sales. This way, sales reps can show customers different options and prices, and keep track of which one is most likely to close. Syncing a quote with an opportunity will update the opportunity amount, stage, and expected revenue fields based on the quote information. Reference: https://help.salesforce.com/s/articleView?id=sf.quotes_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.quotes_syncing.htm&type=5"
+  },
+  {
+    "content": "AW Computing wants to enable a backup resource to assign permissions while restricting the backup resource's ability to create or modify permission sets.\nWhich feature should be employed to accomplish this request?",
+    "options": [
+      "A. Assignment Rules",
+      "B. Delegated Administrator",
+      "C. View All Users Permission",
+      "D. Customize Application Permission"
+    ],
+    "answer": "B",
+    "title": "Question 2",
+    "explanation": "Delegated Administration allows administrators to delegate certain user management tasks to non-administrators. For example, a delegated administrator can assign permissions sets to users in specified roles or public groups without having full access to modify permission sets. Reference: https://help.salesforce.com/s/articleView?id=sf.admin_usermgt_delegated.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks wants its sales reps to always use the same full zip code format with a hyphen where applicable.\nWhat should the administrator implement to help ensure consistent formatting?",
+    "options": [
+      "A. Edit the standard field length to five characters.",
+      "B. Add a quick create function for the sales reps to use.",
+      "C. Create a REGEX function to use in a validation rule on the field.",
+      "D. Add a help text instructing the sales rep on how to enter this field."
+    ],
+    "answer": "C",
+    "title": "Question 3",
+    "explanation": "REGEX is a function that allows administrators to check whether a text value matches a regular expression pattern. Regular expressions are a way to define complex patterns of characters using symbols and operators. REGEX can be used to enforce consistent formatting for a field value by specifying the required length, characters, and separators."
+  },
+  {
+    "content": "Cloud Kicks needs to automate several updates to lead records and update unrelated records. Select changes should happen every time a record is created or updated, Put other changes should only happen when the record is updated.\nWhich two options should the administrator use to automate these updates?\nChoose 2 answers",
+    "options": [
+      "A. Use a Decision element with the \"Only if the record that triggered the flow to run is updated to meet the condition requirements\" option.",
+      "B. Create a Process Builder that runs when a record is changed.",
+      "C. Create a flow that runs when a record is created or updated.",
+      "D. Use \"formula evaluates to true\" workflow rule with the ISCHANCEO function to make changes when the record Is updated."
+    ],
+    "answer": "B,C",
+    "title": "Question 4",
+    "explanation": "Process Builder and Flow Builder are tools that allow administrators to automate business processes in Salesforce without writing code. Process Builder and Flow Builder can perform actions such as creating records, updating fields, sending emails, posting to Chatter, invoking Apex classes, calling flows, etc.\n To automate several updates to lead records and update unrelated records at Cloud Kicks, an administrator can use two options:\n B) Create a Process Builder that runs when a record is changed\n Process Builder is a tool that allows administrators to create processes that consist of criteria nodes and action groups. Criteria nodes define the conditions that trigger the process and action groups define the actions that the process performs. Processes can run when a record is created or when a record is created or edited.\n By creating a Process Builder that runs when a record is changed, an administrator can automate updates to lead records based on certain criteria and perform actions such as updating fields, sending emails, posting to Chatter, invoking Apex classes, calling flows, etc. Reference: https://help.salesforce.com/s/articleView?id=sf.process_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.process_considerations.htm&type=5 C) Create a flow that runs when a record is created or updated Flow Builder is a tool that allows administrators to create flows that consist of elements such as screens, assignments, decisions, loops, etc. Elements define the logic and user interface of the flow. Flows can run in different ways such as when a user clicks a button, when a record is updated by Process Builder, when an event occurs in the system (such as record creation), etc."
+  },
+  {
+    "content": "At Cloud Kicks, the Sales team uses a specific dashboard to see how they are doing daily. The team has asked the administrator for an easier way to see this dashboard.\nWhat should the administrator recommend?",
+    "options": [
+      "A. Add the dashboard to the Sales team's home page.",
+      "B. Create a custom app with a dashboard.",
+      "C. Email the dashboard to the Sales Team every morning.",
+      "D. Update the Sales team's app with a new dashboard."
+    ],
+    "answer": "A",
+    "title": "Question 5",
+    "explanation": "A dashboard is a visual display of key metrics and trends for records in your org. Dashboards allow users to quickly monitor performance and identify trends or issues at a glance. To make it easier for users to see a dashboard they use frequently, administrators can add it to their home page using Lightning App Builder. This way, users can see their dashboard every time they log in or go to their home tab without having to navigate elsewhere. Reference: https://help.salesforce.com/s/articleView?id=sf.dashboards_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.dashboards_add_to_home_page.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has organization-wide snaring defaults on the opportunity set to prvete. However, members of the finance team need to see closed won opportunities. The Drama team members all have roles under the finance director, while the sales team members have roles under the sales marager.\nWhich two options should the administrator use to meet these criteria?\nChoose 2 answers",
+    "options": [
+      "A. Share with roles and subordinates of the finance cirector role.",
+      "B. Make an owner-based sharing rule where the wnn field - true.",
+      "C. Create a criteria-based sharing rule where the won field = true.",
+      "D. Select all opportunities owned by the sales manager role."
+    ],
+    "answer": "A,C",
+    "title": "Question 6",
+    "explanation": "Two options that the administrator should use to meet these criteria are:\n Share with roles and subordinates of the finance director role. This option allows you to grant access to records based on the role hierarchy of your org. You can share records with users who are in a specific role or in roles below that role in the hierarchy. In this case, you can share records with roles and subordinates of the finance director role, which includes all the members of the finance team.\n Create a criteria-based sharing rule where the won field = true. This option allows you to grant access to records based on certain field values or formulas. You can create a criteria-based sharing rule on opportunities that grants access to records where the won field is true, which means that the opportunity stage is closed won.\n The other two options are incorrect because:\n Make an owner-based sharing rule where the won field = true is not an option because owner-based sharing rules do not allow you to specify field values or formulas as criteria. Owner-based sharing rules only allow you to share records based on who owns them or what role or group they belong to.\n Select all opportunities owned by the sales manager role is not an option because it does not meet the criteria of sharing all closed won opportunities. It only shares opportunities that are owned by users who are in the sales manager role, regardless of their stage."
+  },
+  {
+    "content": "A sales rep at Ursa Major Solar was assigned to a role under their manager and is the record owner of several opportunities; however, the sales rep is missing from the manager's forecast.\nWhat should the administrator review to solve this issue?",
+    "options": [
+      "A. Enable owner adjustment",
+      "B. Enable manager adjustments",
+      "C. Allow Forecasting",
+      "D. Allow Override Forecasts"
+    ],
+    "answer": "C",
+    "title": "Question 7",
+    "explanation": "Allow Forecasting is what the administrator should review to solve this issue. Allow Forecasting is a user permission that enables users to access and edit forecasts. If a user does not have this permission, they will not be able to see their own forecast or any forecasts below them in the role hierarchy. Therefore, the administrator should make sure that the sales rep has this permission enabled on their profile or permission set."
+  },
+  {
+    "content": "AW Computing uses a custom Invoice object to track invoices related to accounts. The administrator wants to use roll-up summary fields to view high-level information at a glance on the account record.\nWhich two considerations should an administrator remember about roll-up summary fields?\nChoose 2 answers",
+    "options": [
+      "A. Roll-up types include COUNT, SUM, and AVG.",
+      "B. Roll-up summary fields are created on the master side of a master-detail relationship.",
+      "C. Roll-up summary fields prevent the conversion of a master-detail relationship to a lookup.",
+      "D. Rollup fields are calculated prior to save."
+    ],
+    "answer": "A,B",
+    "title": "Question 8",
+    "explanation": "Two considerations that the administrator should remember about roll-up summary fields are:\n Roll-up types include COUNT, SUM, and AVG. A roll-up type is a function that determines how the data from the child records is aggregated and displayed on the parent record. The available roll-up types are COUNT, which counts the number of child records; SUM, which adds up the values of a numeric field on the child records; AVG, which calculates the average value of a numeric field on the child records; MIN, which displays the lowest value of a field on the child records; and MAX, which displays the highest value of a field on the child records.\n Roll-up summary fields are created on the master side of a master-detail relationship. A master-detail relationship is a type of relationship that links two objects together such that the master object controls certain behaviors of the detail object, such as security and deletion. A roll-up summary field is a type of field that displays a value that is calculated from child records related to a parent record. Roll-up summary fields can only be created on the master object of a master-detail relationship or on a lookup relationship if it is set as required.\n The other two options are incorrect because:\n Roll-up summary fields do not prevent the conversion of a master-detail relationship to a lookup. They only prevent it if they reference a formula field that includes another relationship.\n Rollup fields are not calculated prior to save. They are calculated after save and may take some time to update."
+  },
+  {
+    "content": "Cloud Kicks needs to track government-issued identification numbers for its customers. The security team requires that the identification number cannot changed by users and must be masked when displayed, except the last two digits.\nWhich two recommended configurators should administrator create? Choose 2 answers",
+    "options": [
+      "A. Use a field with Classic Encryption.",
+      "B. Enable Shield Platform Encryption.",
+      "C. Configure a Field Encryption Policy",
+      "D. SetRead-Only Field-Level Security in the user Profile"
+    ],
+    "answer": "B,C",
+    "title": "Question 9",
+    "explanation": "Shield Platform Encryption is a Salesforce feature that allows you to encrypt sensitive data at rest while preserving critical platform functionality. It uses a combination of tenant secrets, encryption keys, and masking policies to protect your data. A field encryption policy is a set of rules that defines which fields are encrypted and how they are masked when displayed. A field encryption policy can be used to encrypt and mask the identification number field, except for the last two digits. Reference: https://help.salesforce.com/s/articleView?id=sf.security_pe_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.security_pe_field_encryption_policies.htm&type=5"
+  },
+  {
+    "content": "The sales team at Cloud Kicks is noticing that sales reps are misusing the new Screen Flow tool for data entry, since they are viewed the initial screen after clicking finish.\nWhat should the administrator do to fix this?",
+    "options": [
+      "A. Use a lightning action to redirect the user",
+      "B. Create a new flow to redirect the user when the other flow finishes.",
+      "C. Add a trigger to redirect the user to a new page.",
+      "D. Update the flow with a local redirect action."
+    ],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": "A lightning action is a type of quick action that can invoke a Lightning component, a Visualforce page, or a URL. The administrator can use a lightning action to redirect the user to a different page after they finish the screen flow. This way, the user will not see the initial screen again and will not misuse the flow tool.\n Reference:\n https://help.salesforce.com/s/articleView?id=sf.lightning_component_actions.htm&type=5\n https://help.salesforce.com/s/articleView?id=sf.flow_distribute_lex.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks is looking for a way to back up its data dally.\nWhat should the administrator recommend?",
+    "options": [
+      "A. Set up Salesforce's Data Export Service and store the data In the target destination.",
+      "B. Extract the data with the Import Wizard and push it to the target destination.",
+      "C. Schedule a report and have the data emailed to the admin to put In the target destination.",
+      "D. Use an ETL tool that can be scheduled to extract the data ard push it to the target destination."
+    ],
+    "answer": "A",
+    "title": "Question 11",
+    "explanation": "Salesforce's Data Export Service is a tool that allows you to export your organization's data to a set of comma-separated values (CSV) files and store them in a backup location of your choice. You can schedule this service to run weekly or monthly and receive an email notification when your files are ready to download. This is one way to back up your data daily without using any external tools or services. Reference: https://help.salesforce.com/s/articleView?id=sf.data_export.htm&type=5"
+  },
+  {
+    "content": "The administrator at Universal Containers recently rolled out Email-to-Case functionality. Even though a new record type was created and specified in the Email-to-Case settings, all incoming cases are receiving a different record type.\nWhat is likely causing the record type discrepancy?",
+    "options": [
+      "A. The new Case Owner needs permissions to the new record type.",
+      "B. The Automated Case User needs permissions to the new record type.",
+      "C. A Case assignment rule is preventing the record type from being updated.",
+      "D. A validation rule is preventing the record type from being updated."
+    ],
+    "answer": "B",
+    "title": "Question 12",
+    "explanation": "The Automated Case User is the default user for cases created via Email-to-Case. This user needs to have permissions to the new record type in order to assign it to the incoming cases. If the Automated Case User does not have the permissions, the cases will receive a different record type based on the organization-wide default settings. Reference: https://help.salesforce.com/s/articleView?id=sf.case_email_to_case.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.case_automated_user.htm&type=5"
+  },
+  {
+    "content": "AW Computing has implemented the Contacts to Multiple Accounts functionality. Users should be able to distinguish between contacts and related contacts.\nWhat should the administrator do to configure the account page layout?",
+    "options": [
+      "A. Display both the contacts and the related contacts related lists.",
+      "B. Display the related accounts related list on the page layout.",
+      "C. Display the related contacts related list and add the direct field.",
+      "D. Display the contacts related list and add the related field."
+    ],
+    "answer": "C",
+    "title": "Question 13",
+    "explanation": "Displaying the related contacts related list and adding the direct field will allow users to distinguish between contacts and related contacts. The related contacts related list shows all contacts that are related to an account, either directly or indirectly. The direct field indicates whether a contact is directly associated with an account or not. By adding this field to the related list, users can easily see which contacts are direct and which are not. Reference: https://help.salesforce.com/s/articleView?id=sf.contacts_multiple_accounts.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.contacts_multiple_accounts_direct_field.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar (UMS) receives hundred of cases every week from both consumers and retail partners. UMS wants to ensure it's meeting all service-level agreements to maintain high levels of customer satisfaction.\nWhat should the administrator do to help meet this goal?",
+    "options": [
+      "A. Set up and configure Entitlement Process to design timelines and track issue resolution.",
+      "B. Configure the Milestones object on Service Contracts to sequential milestones for common case issues.",
+      "C. Design a Net Promoter Score survey using Surveys that is automatically sent when a case is closed.",
+      "D. Expose the Service Contracts object in the Service Console for an agent to view when working a case."
+    ],
+    "answer": "A",
+    "title": "Question 14",
+    "explanation": "An entitlement process is a feature that allows you to define and enforce service-level agreements (SLAs) for your customers based on certain criteria and timelines. An entitlement process consists of milestones and actions that represent required steps and time limits for resolving customer issues. You can use entitlement processes to track if your support team is meeting your SLAs and provide consistent service quality to your customers. In this case, you can set up and configure entitlement processes for different types of cases and assign them to accounts or contacts based on their service contracts or warranties. Reference: https://help.salesforce.com/s/articleView?id=sf.entitlements_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.entitlements_process.htm&type=5"
+  },
+  {
+    "content": "The administrator at Cloud Kicks has been requested to provide access to the Leads object to a contractor. The contractor currently has a profile that has access to a project management app within Salesforce. The contractor should only have View access to all of the Lead records.\nWhat should the administrator handle this request?",
+    "options": [
+      "A. Assign a permission set that has View All on Leads.",
+      "B. Add an app with the Leads tab to the user's profile.",
+      "C. Assign the contractor a public group with Lead access.",
+      "D. Create a profile with Read Only for all Leads."
+    ],
+    "answer": "A",
+    "title": "Question 15",
+    "explanation": "Permission sets are collections of settings and permissions that give users access to various tools and functions without changing their profile or requiring multiple profiles for users who perform different tasks across apps in your org. By assigning a permission set that has View All on Leads to the contractor, Cloud Kicks can grant them view access to all lead records without modifying their profile or creating a new one. Reference: https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm&type=5"
+  },
+  {
+    "content": "A sales rep needs to help cross-sell an opportunity but is unable to make updates on the record or update the opportunity team.\nWhich two options would be required for a sales rep to add a rep to the opportunity team?\nChoose 2 answers",
+    "options": [
+      "A. Transferred ownership of the Opportunity to the sales rep",
+      "B. A permission with Edit access on the Account object",
+      "C. A role above the Opportunity owner in the role hierarchy",
+      "D. Transferred ownership of the Account to the sales rep"
+    ],
+    "answer": "B,C",
+    "title": "Question 16",
+    "explanation": "To add a user to an opportunity team, you need Edit access on the account associated with the opportunity and either own the opportunity or be above the owner in the role hierarchy. Reference: https://help.salesforce.com/s/articleView?id=sf.teams_adding.htm&type=5"
+  },
+  {
+    "content": "AW Computing organizes Its sales regions as East, Central, and West. Each region has sales reps, a sales director, and sales operations members. The organization-wide default for all objects is set to Private. Members of the operations team for the East region need access to all the accounts and opportunities in the region.\nHow should the administrator configure this requirement?",
+    "options": [
+      "A. Instruct the operations team members to add themselves to the account teams.",
+      "B. Share an Opportunity sharing the with a public group containing the East operations profile.",
+      "C. Assign to a role in the role hierarchy positioned above the East sales director.",
+      "D. Utilize territory management to add the operations team to the East territory."
+    ],
+    "answer": "D",
+    "title": "Question 17",
+    "explanation": "Territory management is a feature that allows you to grant access to accounts and opportunities based on criteria such as geography, industry, product line, or customer size. A territory is a grouping of accounts and users that represents a market segment or business unit. In this case, the administrator should utilize territory management to add the operations team to the East territory, which contains all the accounts and opportunities in the East region. This way, the operations team members can access all the records in their territory regardless of who owns them or what the organization-wide default is. Reference: https://help.salesforce.com/s/articleView?id=sf.territories_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.territories_define.htm&type=5"
+  },
+  {
+    "content": "The distributors at Cloud Kicks are eligible for support based on a specific service contract-How should the administrator show this in Salesforce?",
+    "options": [
+      "A. Use entitlement management.",
+      "B. Add a service contract to the record.",
+      "C. Turn on Service Cloud.",
+      "D. Build a new custom object."
+    ],
+    "answer": "A",
+    "title": "Question 18",
+    "explanation": "Entitlement management lets you create and maintain service contracts that specify the support terms for each account. You can use entitlement processes to automatically apply the correct service contract to a case based on criteria you define. Reference: https://trailhead.salesforce.com/en/content/learn/modules/entitlements/entitlements_overview"
+  },
+  {
+    "content": "An administrator has a request to write a report listing accounts that have sales from this year and that have a completed activity in the last 30 days.\nWhat reporting feature should the administrator employ to provide only the list of accounts, without listing the details of the opportunities?",
+    "options": [
+      "A. Joined Report",
+      "B. Cross-Filter",
+      "C. Summary Report",
+      "D. Filter Logic"
+    ],
+    "answer": "B",
+    "title": "Question 19",
+    "explanation": "A cross-filter lets you filter records based on related objects and their fields. For example, you can filter accounts that have at least one opportunity from this year and at least one completed activity in the last 30 days. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_cross_filters.htm&type=5"
+  },
+  {
+    "content": "Northern Trail Outfitters requires the sales user to input a use case before moving the opportunity stage to qualified. A consultant has reviewed the business requirement and ran a report to check the state of data completion. When pulling a report for opportunities in the qualified stage or beyond, it appears that only 30% of records have a use case filled out with varying text strings.\nWhat should the administrator recommend?",
+    "options": [
+      "A. Write a record-triggered flow that populates the Use Case field when an opportunity is closed.",
+      "B. Create a validation rule and add the Use Case field to the Stage Guidance in Path.",
+      "C. Make the Use Case field required on the master Opportunity layout.",
+      "D. Use a quick action with the Use Case field in the layout, and add it as a Lightning component."
+    ],
+    "answer": "B",
+    "title": "Question 20",
+    "explanation": "A validation rule and a stage guidance in Path are two features that can help ensure that users input a use case before moving the opportunity stage to qualified.\n A validation rule is a formula that validates the data entered by users and prevents records from being saved if they do not meet certain criteria. In this case, a validation rule can be used to check if the Use Case field is blank when the Stage field is changed to Qualified, and display an error message if so.\n A stage guidance in Path is a feature that displays helpful information or tips for each stage of a sales process on an opportunity record page. In this case, adding the Use Case field to the stage guidance in Path can remind users to fill out this field before moving to the next stage."
+  },
+  {
+    "content": "The administrator at Cloud Kicks created a flow in a sandbox that walks service agents through the Return Merchandise Authorization creation process. The administrator deployed the flow to production with a Change Set. Users are unable to use the flow in production.\nWhich step should the administrator take?\nActivate the flow administrator take?",
+    "options": [
+      "A. Activate the flow manually after deployment.",
+      "B. Include the active and prior inactive flow version in the Change Set.",
+      "C. Ensure there is an active flow version in the sandbox.",
+      "D. Deployment the flow, with the Metadata API instead of Change Sets"
+    ],
+    "answer": "A",
+    "title": "Question 21",
+    "explanation": "A flow is an automation tool that allows you to create processes that perform actions based on user input or record changes. A flow can be triggered by a user who launches it from a button, link, or Lightning page, or by the system when a record is created or updated. A flow has different versions that can be active or inactive. An active version is the one that runs when the flow is triggered, while an inactive version is the one that is saved but not running. When you deploy a flow to production with a change set, the flow version is deployed as inactive by default. This means that you need to activate the flow manually after deployment if you want it to run in production. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.flow_distribute_changesets.htm&type=5"
+  },
+  {
+    "content": "Select power users want the ability to make configuration changes to a specific custom object.\nWhat tool should the administrator assign to the power users to enable this?",
+    "options": [
+      "A. View Setup and Configuration",
+      "B. Delegated Administration",
+      "C. Sharing Rule",
+      "D. Modify All Data"
+    ],
+    "answer": "B",
+    "title": "Question 22",
+    "explanation": "Delegated Administration is a feature that allows administrators to delegate some administrative tasks to other users without giving them full access to Setup. Delegated administrators can manage users and assign permissions for specific custom objects, tabs, apps, and fields. This can help reduce the workload of the system administrator and empower power users to make configuration changes to a specific custom object"
+  },
+  {
+    "content": "Cloud Kicks is a large company with many divisions. Some divisions have a higher turnover, so each division wants to be able to create and manage users only within their division.\nWhat should the administrator do to set this up?",
+    "options": [
+      "A. Set up delegated administrators for the division leaders.",
+      "B. Assign a flat territory role hierarchy for the divisions.",
+      "C. Create a permission set group for the division leaders.",
+      "D. Customize and assign profiles for the division teams."
+    ],
+    "answer": "A",
+    "title": "Question 23",
+    "explanation": "Delegated administration allows administrators to delegate certain user management tasks to other users without granting them full administrative privileges. Delegated administrators can create and manage users only within specified roles or public groups. This option will meet the requirement of allowing each division to create and manage users only within their division. Reference: https://help.salesforce.com/articleView?id=delegated_administration_overview.htm&type=5"
+  },
+  {
+    "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
+    "options": [
+      "A. Security Health Check",
+      "B. Setup Audit Trail",
+      "C. Session Security Settings",
+      "D. Object Manager"
+    ],
+    "answer": "C",
+    "title": "Question 24",
+    "explanation": "The data masking tool is a tool that allows you to mask sensitive data in your full sandbox by replacing it with fictitious data. This can help you protect your data privacy and comply with regulations while testing in a realistic environment. You can use the data masking tool to mask data for standard and custom objects, including person accounts, and choose from different masking formats and options. Reference: https://help.salesforce.com/s/articleView?id=sf.data_mask.htm&type=5"
+  },
+  {
+    "content": "An administrator is receiving cases that users are getting logged out of Salesforce without notice.\nWhat should the administrator do to address this issue?",
+    "options": [
+      "A. Deselect disable session timeout warning popup.",
+      "B. Select force logout on session timeout.",
+      "C. Remove the session timeout settings.",
+      "D. Enable Remember me until logout."
+    ],
+    "answer": "A",
+    "title": "Question 25",
+    "explanation": "Deselecting disable session timeout warning popup enables a warning message to appear before a user's session expires due to inactivity. This gives the user a chance to extend their session or save their work before being logged out. This can help prevent users from being logged out of Salesforce without notice"
+  },
+  {
+    "content": "users at Northern Trail Outfitters have a lot of fields on their new account records because they track their accounts and competitors on the Account object. For accounts created for customers, they need access to different fields than the accounts used to track competitors. For partner accounts, they need different values in the Industry field.\nWhat should the administrator use to resolve the issues?",
+    "options": [
+      "A. Business Processes",
+      "B. Required Fields",
+      "C. Flow Builder",
+      "D. Record Types"
+    ],
+    "answer": "D",
+    "title": "Question 26",
+    "explanation": "record types allow administrators to offer different business processes, picklist values, and page layouts to different users based on their profiles. By using record types for accounts and contacts at AW Computing, administrators can track their accounts and competitors on different record types with different fields on their page layouts. For partner accounts, they can also use record types to specify different values in the Industry picklist field. Reference: https://help.salesforce.com/s/articleView?id=sf.customize_recordtype.htm&type=5"
+  },
+  {
+    "content": "At Ursa Major Solar, there is an account owner by a user with the role of Galaxy manager. Two users with the same profile are both assigned to the sub-role, Galaxy Subordinate. However, only one can access the account.\nWhat is the reason only one user can see the account record?",
+    "options": [
+      "A. Workflow Rule",
+      "B. Manual Sharing",
+      "C. Queues",
+      "D. Role Hierarchy"
+    ],
+    "answer": "B",
+    "title": "Question 27",
+    "explanation": "Manual sharing is a way of granting access to individual records by manually sharing them with other users, roles, or groups. Manual sharing can override the organization-wide default and role hierarchy settings and give additional access to specific records. In this case, manual sharing could be the reason why only one user can see the account record, even though they have the same profile and role as another user who cannot see it. Reference: https://help.salesforce.com/s/articleView?id=sf.security_sharing_manual.htm&type=5"
+  },
+  {
+    "content": "When should an administrator consider when using Person Accounts'",
+    "options": [
+      "A. In a complex business model and the users find it easiest to record Opportunity information on Contacts rather than Accounts.",
+      "B. In a B2B business model and is selling to the primary contact at a business organization.",
+      "C. In a B2C business model and the consumer is the intended recipient of sates and marketing attention.",
+      "D. In a business model that needs a separate Contact and Account to be included on all Case records submitted."
+    ],
+    "answer": "C",
+    "title": "Question 28",
+    "explanation": "An administrator should consider using Person Accounts when they have a B2C business model and the consumer is the intended recipient of sales and marketing attention. Person Accounts allow administrators to store information about individual consumers without requiring a separate account record for each contact. Reference: https://help.salesforce.com/s/articleView?id=sf.account_person_behavior.htm&type=5"
+  },
+  {
+    "content": "AW Computing has been advertising a new keyboard that was released at the beginning of the month. The sales team has an additional incentive to add the keyboards to every sale. The administrator already added the product to Salesforce but the reps are unable to select the product on the opportunity.\nWhich two options should an administrator check to ensure the product is available?\nChoose 2 answers",
+    "options": [
+      "A. Confirm the correct price book is selected on the opportunity.",
+      "B. Make sure the price book Is in the company currency.",
+      "C. Ensure the product is associated with the correct price book.",
+      "D. Verify the product has a start date entered."
+    ],
+    "answer": "A,C",
+    "title": "Question 29",
+    "explanation": "Two options that the administrator should check to ensure the product is available are:\n Confirm the correct price book is selected on the opportunity. A price book is a list of products and their prices that can be added to an opportunity. An opportunity can have only one price book at a time, and the products that are available for selection depend on the price book that is chosen. Therefore, the administrator should check if the opportunity has the right price book that contains the new keyboard product.\n Ensure the product is associated with the correct price book. A product is a good or service that can be sold in Salesforce. A product can be associated with one or more price books, depending on how it is priced for different markets or segments. Therefore, the administrator should check if the new keyboard product is added to the appropriate price book that is used by the opportunity.\n The other two options are incorrect because:\n Making custom fields does not affect the availability of products on an opportunity. Custom fields are used to store additional information or calculations on an object, but they do not determine which products can be selected from a price book.\n Turning on field tracking does not affect the availability of products on an opportunity. Field tracking is used to monitor changes to certain fields on an object and display them in a history related list, but it does not determine which products can be selected from a price book."
+  },
+  {
+    "content": "The Service team at Cloud Kicks needs a way to show the current status from the Account on the Case. This value should be on the page and is used in validation rules.\nWhat should the administrator recommend to solve this?",
+    "options": [
+      "A. Create a cross-object formula.",
+      "B. Use a picklist field.",
+      "C. Make a Rollup Summary.",
+      "D. Add a lookup field to Account."
+    ],
+    "answer": "A",
+    "title": "Question 30",
+    "explanation": "A cross-object formula is a formula that references fields from related objects. The administrator can create a cross-object formula field on the Case object that displays the current status from the Account. This field can be used in validation rules and other processes. Reference: https://help.salesforce.com/s/articleView?id=sf.tips_on_building_formulas_cross_object_formulas.htm&type=5"
+  },
+  {
+    "content": "Users report that the industry picklist field is no longer visible on account records. What test can an administrator use to troubleshoot the issue?",
+    "options": [
+      "A. Field audit history",
+      "B. Setup audit trail",
+      "C. Field history tracking",
+      "D. Debug log"
+    ],
+    "answer": "B",
+    "title": "Question 31",
+    "explanation": "The setup audit trail tracks the recent setup changes that you and other administrators have made to your org. It can help you troubleshoot issues by showing you what changes were made, who made them, and when. In this case, the setup audit trail can help the administrator identify if someone changed the field-level security, page layout, or profile settings for the industry picklist field. Reference: https://help.salesforce.com/s/articleView?id=sf.monitorsetup.htm&type=5"
+  },
+  {
+    "content": "The sale VP notices several sales reps generating a contract too early in the sales stage. The help correct this Behavior, the has requested the Create Contract button only be available when the opportunity reach... negotiation stage.\nHow should the administrator meet this requirement?",
+    "options": [
+      "A. Create a validation rule.",
+      "B. Configure dynamic action.",
+      "C. Create a custom permission.",
+      "D. Modify page layout."
+    ],
+    "answer": "B",
+    "title": "Question 32",
+    "explanation": "Dynamic actions are a way to conditionally display actions on a record page based on criteria such as field values, user profile, device type, or record type. Dynamic actions can help streamline the user interface and guide users to take the right actions at the right time. Dynamic actions can be used to show or hide the Create Contract button based on the opportunity stage value"
+  },
+  {
+    "content": "Cloud Kicks users report receiving an \"Apex CPU time limit exceeded\" error message when attempting to close certain opportunity records. This does not occur on every opportunity record change or for every user.\nWhat is the recommended method for the administrator to identify the cause?",
+    "options": [
+      "A. Monitor with Login Forensics.",
+      "B. Enable Debug Logging for users.",
+      "C. Review the Setup Audit Trail.",
+      "D. Set up Apex Exception Email alerts"
+    ],
+    "answer": "B",
+    "title": "Question 33",
+    "explanation": "Debug logs capture database operations, system processes, and errors that occur when executing a transaction or running unit tests. Debug logs can help identify the cause of Apex CPU time limit exceeded errors by showing the execution time of each Apex statement and trigger. Reference: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_debugging_debug_logs.htm"
+  },
+  {
+    "content": "The Cloud Kicks online Lead Intake form was recently updated to allow for new choices on some older picklist fields. The leads are all being created properly in Salesforce, but reps are getting errors as they try to work the leads.\nWhat tool should the administrator use to evaluate what is causing the errors?",
+    "options": [
+      "A. Login History",
+      "B. Debug Log",
+      "C. Setup Audit Log",
+      "D. Record History"
+    ],
+    "answer": "B",
+    "title": "Question 34",
+    "explanation": "Debug Log is a tool that captures information about database operations, system processes, and errors that occur when executing a transaction or running a unit test. Debug Log can help troubleshoot issues related to triggers, workflows, validation rules, or other custom logic by showing the order of execution and the values of variables and expressions"
+  },
+  {
+    "content": "An administrator is Informed that an employee has Just resigned and needs all access removed Immediately. This user is the owner of 4,000 records and the sole recipient or 57 email alerts. Management will need at least a month to find a replacement. The email administrator has already revoked their email access.\nWhat action should be taken to ensure the user's access is immediately revoked?",
+    "options": [
+      "A. Go into the user record and uncheck the Lightning User checkbox.",
+      "B. Go into the user record and freeze the user.",
+      "C. Go into the user record and set the login hours to None'.",
+      "D. Go into the user record and delete the user,"
+    ],
+    "answer": "B",
+    "title": "Question 35",
+    "explanation": "Go into the user record and freeze the user is the action that should be taken to ensure the user's access is immediately revoked. Freezing a user is a way to temporarily prevent a user from logging in to Salesforce without deactivating their user record or changing their profile. Freezing a user can be useful when an employee has resigned or left the company and their access needs to be removed immediately. Freezing a user does not affect the ownership of records or email alerts that are assigned to them"
+  },
+  {
+    "content": "What are three options available to the administrator to help with this issue? Choose 3 answers",
+    "options": [
+      "A. Move some page components behind a tab.",
+      "B. Remove some of the fields displayed.",
+      "C. Deactivate unnecessary validation rules.",
+      "D. Convert all Process builders to flows.",
+      "E. Reduce the number of related lists displayed."
+    ],
+    "answer": "A,B,E",
+    "title": "Question 36",
+    "explanation": "Move some page components behind a tab, remove some of the fields displayed, and reduce the number of related lists displayed are three options available to the administrator to help with this issue. Moving some page components behind a tab can help reduce the loading time of a record page by hiding some components until they are needed by the user."
+  },
+  {
+    "content": "Ursa Major Solar (UMS) wants to improve Its customers' ability to search for knowledge articles. UMS has already created categories for articles.\nWhich two additional chances should be made to improve search capabilities?\nChoose 2 answers",
+    "options": [
+      "A. Configure Global Search for specific search terms.",
+      "B. Create synonyms for specific search terms.",
+      "C. Configure Einstein Search for specific search terms.",
+      "D. Promote specific search terms for specific articles."
+    ],
+    "answer": "B,D",
+    "title": "Question 37",
+    "explanation": "Knowledge is a feature that allows administrators to create, manage, and share articles that provide information and solutions for common issues or questions. Knowledge articles can be searched by users using keywords or phrases.\n To improve its customers' ability to search for knowledge articles, UMS can use two options:\n B) Create synonyms for specific search terms.\n Synonyms are words or phrases that have the same or similar meanings, such as \"TV\" and \"television\" or \"fix\" and \"repair\". By creating synonyms for specific search terms, administrators can ensure that customers can find relevant articles even if they use different words or spellings than the ones used in the articles. Reference: https://help.salesforce.com/s/articleView?id=sf.knowledge_search_synonyms.htm&type=5 D) Promote specific search terms for specific articles.\n Promoted search terms are keywords or phrases that administrators can associate with specific articles to boost their relevance and ranking in search results. By promoting specific search terms for specific articles, administrators can ensure that customers can find the most helpful or popular articles for their queries. Reference: https://help.salesforce.com/s/articleView?id=sf.knowledge_search_promotion.htm&type=5"
+  },
+  {
+    "content": "An administrator is planning he release process for the year. The team will be using change sets to process deployment to production.\nWhich three best practices should be considered?",
+    "options": [
+      "A. Plan your deployments around the production and sandbox maintenance schedules.",
+      "B. Use matching names for global publisher layouts and Outlook publisher layouts.",
+      "C. Be sure to test only after business hours the data after deployment.",
+      "D. Make sure to deploy all dependent components.",
+      "E. Make sure change sets are limited to 10,000 files."
+    ],
+    "answer": "A,D,E",
+    "title": "Question 38",
+    "explanation": "Planning deployments around maintenance schedules ensures that there are no interruptions or delays in the deployment process. Deploying all dependent components ensures that there are no missing metadata or references that could cause errors or failures in the deployment. Limiting change sets to 10,000 files ensures that the deployment does not exceed the maximum size limit for change sets"
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) wants to start using Salesforce for its HR recruiting process. NTO needs to ensure that every application is linked to both a job posting and an applicants can apply for more one job posting, and each job posting can have more than one application.\nHow should an administrator configure the objects?",
+    "options": [
+      "A. Make Job Application as a junction object with a master-detail relationship to Applications and a lookup relationship to Job Posting.",
+      "B. Create Application as a junction object with a master- detail relations to Job Postings and a lookup relationship to Job Applications.",
+      "C. Add applicants as a junction object with master-detail relationship to both Posting and Job Applications.",
+      "D. Configure Job Application as a Junction object with master-detail relationship to both Application and Job Postings."
+    ],
+    "answer": "D",
+    "title": "Question 39",
+    "explanation": "A junction object is a custom object with two master-detail relationships that allows you to create many-to-many relationships between two objects. In this case, the Job Application object can be used as a junction object to link the Application object and the Job Posting object, so that each application can be related to one or more job postings, and each job posting can have one or more applications. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_manytomany.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks (CK) completed a project in a sandbox environment and wants to migrate the changes to production. CK split the deployment into two distinct change sets. Change set 1 has new custom objects and fields. Change set 2 has updated profiles and automation.\nWhat should the administrator consider before deploying the change sets?",
+    "options": [
+      "A. The Field-Level Security will not be deployed with the profiles in change set 2.",
+      "B. Change set 2 needs to be deployed first.",
+      "C. Automations need to be deployed in the same change set in order to be activated.",
+      "D. Both change sets must be deployed simultaneously."
+    ],
+    "answer": "A",
+    "title": "Question 40",
+    "explanation": "When deploying profiles using change sets, the field-level security settings are not included unless the fields themselves are also part of the change set. Therefore, the administrator should consider adding the new custom fields to change set 2 along with the profiles, or manually adjust the field-level security after deployment. Reference: https://help.salesforce.com/articleView?id=changesets_about_components.htm&type=5"
+  },
+  {
+    "content": "Users at Ursa Major Solar want to create complex dashboards with supporting charts based on data to come from a variety of sources, some of which live on the Internal company shared drives.\nWhich product should the administrator recommend to meet the users' needs?",
+    "options": [
+      "A. Lightning Dashboard Builder",
+      "B. Report Bulkier",
+      "C. List views",
+      "D. Tableau CKM"
+    ],
+    "answer": "D",
+    "title": "Question 41",
+    "explanation": "Tableau CRM is a product that allows you to create complex dashboards with supporting charts based on data from a variety of sources, including Salesforce data and external data sources. Tableau CRM uses an analytics platform that stores data in datasets and lets you explore and visualize data using lenses and dashboards. You can also use artificial intelligence and machine learning features to discover insights and make predictions from your data. Tableau CRM is integrated with Salesforce and can be accessed from various apps and objects. Reference: https://help.salesforce.com/s/articleView?id=sf.bi_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.bi_data_overview.htm&type=5"
+  },
+  {
+    "content": "Administrator has been tasked with creating a new custom field on the Account object called Government Der. The compliance department has determined that this field contains sensitive Information and needs to be encrypted using Classic Encryption.\nHow will this impact users when reading, editing, or reporting on Accounts?",
+    "options": [
+      "A. Encrypted fields can be added to a list view and rule filters.",
+      "B. Users will need the View Encrypted Data permission to edit the field.",
+      "C. Encrypted fields are unable to be used the report criteria or list views filters.",
+      "D. Users with the View Encrypted Data permission can see the field, regardless of Field-Level Security."
+    ],
+    "answer": "C",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "The sales manager at Cloud Kicks wants a way to report on information from a form their clients fill out during the sales cycle. Once a form has been submitted, the client is unable to access it. This form may need to be filled out more than once during the sales cycle. There are more than 30 fields on this form, and the sales team needs to be able to see what changed from one submission to the next.\nWhich two options should an administrator use to solve this scenario?\nChoose 2 answers",
+    "options": [
+      "A. Add forms as attachments.",
+      "B. Make custom fields.",
+      "C. Create a custom object.",
+      "D. Turn on Field Tracking."
+    ],
+    "answer": "C,D",
+    "title": "Question 43",
+    "explanation": "Two options that the administrator can use to solve this scenario are:\n Create a custom object. A custom object is an object that you define to store information that is specific to your organization or industry. In this case, you can create a custom object for the form that has more than 30 fields and relates to the account or opportunity object. This way, you can store multiple submissions of the form for each account or opportunity and track their changes over time.\n Turn on Field Tracking. Field tracking is a feature that allows you to monitor changes to certain fields on an object and display them in a history related list. In this case, you can turn on field tracking for the fields on the form custom object and see what values were changed from one submission to another."
+  },
+  {
+    "content": "Cloud Kicks has a very large knowledge base in Salesforce, Service reps are having a hard the finding the most reviewing articles because there are too many search results.\nWhat should the administrator do to help service reps quickly narrow down the number of articles?",
+    "options": [
+      "A. Implement and configure Data Categories.",
+      "B. Delete and remove old Knowledge articles.",
+      "C. Update Knowledge to auto-search the case's subject.",
+      "D. Activate and configure Einstein Search."
+    ],
+    "answer": "A",
+    "title": "Question 44",
+    "explanation": "Data Categories are a way to organize and classify knowledge articles into a hierarchical structure based on topics or criteria. Data Categories can help service reps quickly narrow down the number of articles by filtering or browsing by category. Data Categories can also be used to control the visibility and access of articles for different users or roles."
+  },
+  {
+    "content": "On the Planet custom object, Ursa Major Solar's sales director wants only certain action buttons to appear depending on if a given planet is defined as gaseous.\nWhich Lightning component should the administrator define dynamic action buttons?",
+    "options": [
+      "A. Record Detail",
+      "B. Highlights Panel",
+      "C. Activities",
+      "D. Related Lists"
+    ],
+    "answer": "B",
+    "title": "Question 45",
+    "explanation": "The Highlights Panel is a Lightning component that displays key information about a record at the top of the page. You can customize the Highlights Panel to show different actions based on the record type or other criteria. In this case, you can define dynamic action buttons for the Planet object that appear only if the gaseous field is true or false. This way, you can show different actions for different types of planets. Reference: https://help.salesforce.com/s/articleView?id=sf.lex_page_layouts_highlights_panel.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.dynamic_actions_considerations.htm&type=5"
+  },
+  {
+    "content": "A user at Universal Containers wants to load records Into a custom object named Location from a .csv file. While using Data Loader, they cannot find the Location object.\nWhat are two reasons this is happening?\nChoose 2 answers",
+    "options": [
+      "A. The label of Location may have been changed.",
+      "B. Data Loader should only be used with standard objects.",
+      "C. Location has a master-detail field to Account.",
+      "D. The users profile needs create access to Location."
+    ],
+    "answer": "A,D",
+    "title": "Question 46",
+    "explanation": "Two reasons why the user cannot find the Location object while using Data Loader are:\n The label of Location may have been changed. The label of an object is the name that is displayed in the user interface and can be different from the API name that is used by Data Loader and other tools. If the label of Location has been changed to something else, such as Site or Venue, then the user may not be able to find it by searching for Location in Data Loader. The user should check the API name of the object in Object Manager or use the Describe Global operation in Data Loader to see all available objects and their labels.\n The user's profile needs create access to Location. The user's profile determines what objects and fields they can access and what actions they can perform on them, such as creating, reading, updating, or deleting records. If the user's profile does not have create access to Location, then they will not be able to load records into that object using Data Loader. The user should check their profile permissions in Setup or ask their administrator to grant them create access to Location.\n The other two options are incorrect because:\n Data Loader should only be used with standard objects is not a reason because Data Loader can be used with both standard and custom objects, as long as they are accessible and queryable via the API.\n Location has a master-detail field to Account is not a reason because having a master-detail field does not prevent an object from being available in Data Loader, as long as it meets the other requirements such as accessibility and queryability."
+  },
+  {
+    "content": "AW Computing has a 4-hour SLA in its support guarantee. The company recently received feed that customers art reporting long wait times before an agent responds to a new case after it has been submitted.\nHow should an administrator ensure cases are properly prioritized?",
+    "options": [
+      "A. Auto-Response Rules",
+      "B. Escalation Rules",
+      "C. Assignment Rules",
+      "D. Workflow Rules"
+    ],
+    "answer": "C",
+    "title": "Question 47",
+    "explanation": "Escalation rules are rules that automatically escalate cases if they have not been resolved within a certain time frame or meet certain criteria such as priority or status. Escalation rules can perform actions such as changing ownership of cases, sending email notifications, or creating tasks for users or queues. By using escalation rules, AW Computing can ensure that cases are properly prioritized and handled within their SLA time limit.\n Assignment rules are rules that automatically assign cases to users or queues based on criteria such as case origin, type, or product. Assignment rules can also send email notifications to users or customers when a case is assigned. By using assignment rules, AW Computing can ensure that cases are routed to the right agents or teams based on their skills and availability. Reference: https://help.salesforce.com/s/articleView?id=sf.case_escalation_rules_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.customize_caseassign.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has an export of Order and Order Item data from an enterprise resource planning (ERP) system. The data must be imported into the Salesforce Order and Order Product objects, while maintaining the relationships in the data.\nWhat are two ways the administrator should load the data?\nChoose 2 answers",
+    "options": [
+      "A. Use an Upsert operation to load data.",
+      "B. Use an Insert operation to load data.",
+      "C. Replace the Salesforce record ID with the External ID.",
+      "D. Map an External ID data value to the object."
+    ],
+    "answer": "B,D",
+    "title": "Question 48",
+    "explanation": "Use an Insert operation to load data because the data is not already in Salesforce and does not need to be updated or deleted3. Map an External ID data value to the object because External IDs are used to create relationships between records that are being imported and records that already exist in Salesforce4. Reference: 3 https://help.salesforce.com/s/articleView?id=sf.data_loader_insert.htm&type=5 4 https://help.salesforce.com/s/articleView?id=sf.data_loader_relationships.htm&type=5"
+  },
+  {
+    "content": "Dream house Realty has created a custom object to track its Open Houses with a master-detail relationship up to a custom object for Properties. Agents need to quickly calculate the number of Open House records in a status or Pending so they can see the value from the Property record.\nWhat feature should the administrator implement?",
+    "options": [
+      "A. Lightning Component",
+      "B. Formula Fields",
+      "C. Roll-Up Summary",
+      "D. visualforce Page"
+    ],
+    "answer": "C",
+    "title": "Question 49",
+    "explanation": "A roll-up summary field is used to display a value in a master record based on the values of a set of related detail records. In this case, the administrator can create a roll-up summary field on the Properties object that counts the number of Open House records in a Pending status. Reference: https://help.salesforce.com/s/articleView?id=sf.fields_about_roll_up_summary_fields.htm&type=5 A permission set is a collection of settings and permissions that give users access to various tools and functions. The View All Data permission allows users to view all data, regardless of sharing settings. By creating a permission set with this permission and assigning it to the subset of users, the administrator can meet the requirement without changing their profiles or roles. Reference: https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.admin_general_permissions.htm&type=5"
+  },
+  {
+    "content": "When configuring a change set, which two practices should an administrator adhere to in order to ensure a successful deployment to production?\nChoose 2 answers",
+    "options": [
+      "A. Clone a change set to add forgotten dependent components to an uploaded change set.",
+      "B. Add permissions and access settings to outbound change sets in addition to the dependent component list.",
+      "C. Run deployment validations on the change set in the sandbox prior to uploading to production.",
+      "D. When deploying a new record type, ensure the new record type is the only component in the change set."
+    ],
+    "answer": "B,C",
+    "title": "Question 50",
+    "explanation": "Two practices that the administrator should adhere to in order to ensure a successful deployment to production are:\n Add permissions and access settings to outbound change sets in addition to the dependent component list. This can help avoid deployment errors or access issues caused by missing permissions or settings for the components in the change set. For example, if the change set includes a new custom object, the administrator should also include the object permissions, field-level security, page layouts, and record types for that object.\n Run deployment validations on the change set in the sandbox prior to uploading to production. This can help test the change set for any errors or conflicts before deploying it to production. Deployment validations simulate the deployment without actually making any changes and report any issues or warnings.\n The other two options are incorrect because:\n Cloning a change set does not add forgotten dependent components to an uploaded change set. It only creates a copy of the existing change set that can be modified before uploading.\n When deploying a new record type, it is not necessary to have it as the only component in the change set. It can be deployed along with other components as long as they are compatible and have the required dependencies."
+  },
+  {
+    "content": "Which two ways can an administrator review the page performance for a Lightning record page?\nChoose 2 answers",
+    "options": [
+      "A. Lightning Usage App",
+      "B. Analyze Button",
+      "C. Activation Button",
+      "D. Pages Menu"
+    ],
+    "answer": "B,D",
+    "title": "Question 51",
+    "explanation": "The Analyze button is a tool that allows administrators to view the performance metrics of a Lightning record page, such as load time, component count, and component type. The Pages menu is a tool that allows administrators to access the Lightning Page Performance Optimizer app, which provides recommendations and best practices for improving the performance of a Lightning record page"
+  },
+  {
+    "content": "The administrator at Universal Containers does a soft launch of the Salesforce Authenticator app and allows users to optionally use it to log In. The administrator would now like to look at how many users have successfully used it since It was rolled out.\nWhat are two ways the administrator can get this Information?\nChoose 2 answers",
+    "options": [
+      "A. Create a new view In Identity Verification History, specifying Method.",
+      "B. Open the Login Access Policies In Setup which shows how many users are using MFA.",
+      "C. Run a session setting report, specifying login methods by user.",
+      "D. Export Login History and filter based off of Authentication Method Reference,"
+    ],
+    "answer": "A,D",
+    "title": "Question 52",
+    "explanation": "Salesforce Authenticator is an app that adds an extra layer of security for logging into Salesforce by requiring users to verify their identity using their mobile device after entering their username and password on Salesforce login page. To see how many users have successfully used Salesforce Authenticator since it was rolled out, an administrator can use two methods:\n A) Create a new view In Identity Verification History, specifying Method.\n Identity Verification History is a tool that shows information about each identity verification event for users in your org, such as the date and time, the verification method used, the IP address, and the status of the verification. By creating a new view in Identity Verification History and specifying the method as Salesforce Authenticator, an administrator can see how many users have used the app to verify their identity when logging in. Reference: https://help.salesforce.com/s/articleView?id=sf.identity_verification_history.htm&type=5 D) Export Login History and filter based off of Authentication Method Reference.\n Login History is a tool that shows information about each login attempt for users in your org, such as the date and time, the username, the source IP address, the login type, and the status of the login. By exporting Login History as a CSV file and filtering based on the Authentication Method Reference column, an administrator can see how many users have used Salesforce Authenticator as their authentication method when logging in. Reference: https://help.salesforce.com/s/articleView?id=sf.monitoring_login_history.htm&type=5"
+  },
+  {
+    "content": "An administrator need a business process automated, but only for certain user and profiles. The administrator will need to frequently update which users and profiles will use the process. After evaluating the declarative options, it was determined that this functionality must be done via an Apex trigger.\nWhat software requirement should the administrator request so that process execution can be declaratively controlled?",
+    "options": [
+      "A. Use Process Automation Setting in Setup to the appropriate users or profiles.",
+      "B. Use a System permission that is assigned to the user or profile.",
+      "C. Use Apex Class Access to assign the Apex code to the user or profile.",
+      "D. Use a custom permission set that is assigned to the user."
+    ],
+    "answer": "D",
+    "title": "Question 53",
+    "explanation": "Use a custom permission set that is assigned to the user because custom permissions are a way to grant access to custom processes or functionality based on user profiles or permission sets. Custom permissions can be referenced by Apex code, validation rules, flows, or other logic to control whether a process should run for a user or not. Custom permissions can be used to declaratively control process execution by assigning them to users or profiles."
+  },
+  {
+    "content": "DreamHouse Realty has a rental team and a real estate team. The two teams have different safes processes and capture different client information on their opportunities.\nHow should an administrator extend the Opportunity object to meet the teams' different needs?",
+    "options": [
+      "A. Leverage Opportunities for the Real Estate Team and create a new custom object for the Rental Team Opportunities.",
+      "B. Use separate record types, page layouts, and sales processes for the Rental and Real Estate Teams.",
+      "C. Create Opportunity Teams for the Rental and Real Estate Teams and make appropriate fields visible to only the necessary team.",
+      "D. Add a section for Rental and a section for Real Estate on the Opportunity Master Record Type to keep the information separate."
+    ],
+    "answer": "B",
+    "title": "Question 54",
+    "explanation": "As explained in question 4, record types allow administrators to offer different business processes, picklist values, and page layouts to different users based on their profiles. By using separate record types for rental and real estate opportunities, DreamHouse Realty can capture different client information on their opportunities using custom page layouts for each record type. The record types can also determine which sales processes and paths are available for each opportunity type. Reference: https://help.salesforce.com/s/articleView?id=sf.customize_recordtype.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks tracks project details in a custom Project object. Project Milestones are tracked in a second custom object, with a reference to the parent Project record. Users need to automatically create a standard set of related Project Milestones when a Project record is created.\nWhat is the recommended automation solution?",
+    "options": [
+      "A. Field Service flow",
+      "B. Scheduled flow",
+      "C. Before-save autolaunched flow",
+      "D. After-save autolaunched flow"
+    ],
+    "answer": "D",
+    "title": "Question 55",
+    "explanation": "An after-save autolaunched flow is a type of flow that runs in the background when a record is saved and performs actions based on the record data or changes. An after-save autolaunched flow does not require user input or interaction and can be triggered by a record-triggered flow element or by an Apex trigger. In this case, you can create an after-save autolaunched flow that runs when a Project record is created and creates a standard set of related Project Milestone records based on predefined values or variables. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_trigger_types.htm&type=5 https://help.sales"
+  },
+  {
+    "content": "How should an administrator ensure the appropriate number of digits are entered Into the custom encrypted field created to capture credit card numbers on the Opportunity object?",
+    "options": [
+      "A. Use the credit card number mask type.",
+      "B. Define the number of mask characters.",
+      "C. Enter the number of digits at the field level.",
+      "D. Create a validation rule to ensure the length."
+    ],
+    "answer": "D",
+    "title": "Question 56",
+    "explanation": "A validation rule is a formula that validates the data entered by a user and prevents the record from being saved if the data does not meet certain criteria. In this case, the administrator can create a validation rule to ensure that the custom encrypted field for credit card numbers has exactly 16 digits. The other options are not applicable for encrypted fields. Reference: https://help.salesforce.com/s/articleView?id=sf.fields_about_encrypted_fields.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.validation_rules.htm&type=5"
+  },
+  {
+    "content": "An administrator has a request to create a Next Steps field for users to document what they need to do next on a lead. The field should allow users to format the text and be mapped to an opportunity when converted.\nWhat type of field will satisfy these requirements?",
+    "options": [
+      "A. Formula (Text)",
+      "B. Text Area (Long)",
+      "C. Text Area",
+      "D. Text Area (Rich)"
+    ],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": "A Text Area (Rich) field allows users to format the text with fonts, colors, images, and hyperlinks. It also supports mapping to an opportunity when converting a lead. Reference: https://help.salesforce.com/s/articleView?id=sf.fields_using_rich_text_area.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has created a new flow that deletes records.\nWhat should the administrator consider when testing the flow?",
+    "options": [
+      "A. Flows with delete elements cannot be debugged by the Flow debugged tool.",
+      "B. Even if the flow is inactive, debugging the flow will delete the test record.",
+      "C. Record deleted by Flow when debugging are hard deleted.",
+      "D. Flow with delete elements need to ne inactivate to ensure that the test record is not actually deleted."
+    ],
+    "answer": "B",
+    "title": "Question 58",
+    "explanation": "Debugging a flow allows administrators to test how a flow behaves before activating it or making changes to it. Debugging a flow runs it in real time using test data provided by the administrator or default values from the flow. However, debugging a flow also performs any actions defined in the flow, such as creating, updating, or deleting records. Therefore, if a flow has a delete element that deletes a record based on certain criteria, debugging the flow will delete the test record even if the flow is inactive. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_debug.htm&type=5"
+  },
+  {
+    "content": "An administrator has been tasked with sending an email notification to all project team members when project status is changed to Allocated. Project teams contain users from different departments and different roles.\nHow should an administrator ensure the proper users will receive the email?",
+    "options": [
+      "A. Configure a queue for the project team and have members view the queue's list view.",
+      "B. Use sharing rules to automatically share with the individual users in the project team.",
+      "C. Move the project users to the same role and send the email alert to everyone in the role.",
+      "D. Create public groups for each project team and send the email alert to the project group."
+    ],
+    "answer": "D",
+    "title": "Question 59",
+    "explanation": "Public groups let you share records with a set of users defined by criteria such as role, profile, or individual users. You can use public groups as recipients for email alerts in workflow rules or process builder. Reference: https://trailhead.salesforce.com/en/content/learn/modules/administration_essentials_for_new_admins_in_lightning_experience/administration_essentials_for_new_admins_in_lightning_experience_security_sharing"
+  },
+  {
+    "content": "Cloud Kicks has just released a new Process Builder on the Account in production. The end users keep getting error messages that prevent them from completing their updates to the Account.\nWhich three things should the administrator do to resolve this issue?\nChoose 3 answers",
+    "options": [
+      "A. Review the Error Email for the Process Builder and rectify the issues.",
+      "B. Manually make the updates to the Account as the logged-in user.",
+      "C. Deactivate the Process Builder in production.",
+      "D. Have the users refresh the Account page so they get the current Process Builder.",
+      "E. Fix the Process Builder in a sandbox and migrate the change to production."
+    ],
+    "answer": "A,C,E",
+    "title": "Question 60",
+    "explanation": "To resolve the issue with the Process Builder, the administrator should do the following steps:\n Review the Error Email for the Process Builder and rectify the issues. The error email contains information about what caused the error and how to fix it.\n Deactivate the Process Builder in production. This will prevent further errors from occurring while the administrator fixes the Process Builder.\n Fix the Process Builder in a sandbox and migrate the change to production. This will ensure that the Process Builder is tested and validated before deploying it to production. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_troubleshoot_error_email.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.flow_deploy.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar allows accounts to apply for loans to purchase solar panrts. Financial information will be stored in a custom object. Only finance team members should see the related financial information about the account.\nWhat kind of field should the administrator create in the custom object?",
+    "options": [
+      "A. Lookup Relationship",
+      "B. External Relationship",
+      "C. Hierarchical Relationship",
+      "D. Master-Detail Reiatic"
+    ],
+    "answer": "A",
+    "title": "Question 61",
+    "explanation": "A lookup relationship is a type of field that links one object to another object. It allows you to access related data from another object and display it on a record page. A lookup relationship can be used to link the custom object that stores financial information to the Account object, so that only finance team members can see the related financial information about the account. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_lookup.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
+    "options": [
+      "A. Check the debug logs found in the Environment section of Setup.",
+      "B. Click Analyze from the Lightning App Builder toolbar.",
+      "C. Review the debug logs from the Developer Console.",
+      "D. Use the Apex debugger while loading a customer record."
+    ],
+    "answer": "B",
+    "title": "Question 62",
+    "explanation": "The Analyze feature in the Lightning App Builder toolbar is a tool that helps you optimize the performance of your record pages by providing recommendations and insights on how to improve page load time and user experience. It can help you identify which fields and components are taking the most time to load and suggest ways to reduce their impact. You can also compare your page performance with other pages in your org or with Salesforce best practices. Reference: https://help.salesforce.com/s/articleView?id=sf.lightning_page_optimize.htm&type=5"
+  },
+  {
+    "content": "AW Computing has a new requirement from its security team where audit information relating to an account must be recorded in a new custom object called Audit. Audit records need to be preserved for 10 years and only accessible by the audit team.\nWhat relationship should be used to relate the Audit object to the Account object?",
+    "options": ["A. Master-Detail", "B. Lookup", "C. Many-To-Many", "D. Self"],
+    "answer": "B",
+    "title": "Question 63",
+    "explanation": "A lookup relationship creates a link between two objects. The child object can have its own security settings and does not inherit them from the parent object. This is suitable for audit records that need to be preserved and accessed by a specific team. Reference: https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/relationships"
+  },
+  {
+    "content": "A user at Cloud Kicks has informed the administrator that they are unable to log in to Salesforce via multi-factor authentication.\nWhich two area should the administrator review to understand potential root causes?\nChoose 2 answers",
+    "options": [
+      "A. Identity Verification History",
+      "B. Login History",
+      "C. Debug Logs",
+      "D. Setup Audit Trail"
+    ],
+    "answer": "A,B",
+    "title": "Question 64",
+    "explanation": "Identity Verification History is a tool that tracks the verification methods used by users when they log in to Salesforce via multi-factor authentication. It can help identify any issues or errors related to verification methods such as email, phone, or app. Login History is a tool that tracks the login attempts and status of users who access Salesforce. It can help identify any issues or errors related to login credentials, IP addresses, browser types, or locations."
+  },
+  {
+    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.",
+    "options": [
+      "A. Who will be able to edit this new contact record?",
+      "B. Users above the sales manager in the role hierarchy",
+      "C. All users in the organization",
+      "D. The owner and users below the owner in the role hierarchy",
+      "E. Sales manager and system administrator"
+    ],
+    "answer": "E",
+    "title": "Question 65",
+    "explanation": "The sales manager and system administrator will be able to edit this new contact record because they are either the owner or have Modify All Data permission respectively. Users above or below the sales manager in the role hierarchy will not be able to edit this contact record because contacts are controlled by parent and accounts are set to Public Read Only. All users in the organization will be able to view but not edit this contact record because accounts are set to Public Read Only. Reference: https://help.salesforce.com/s/articleView?id=sf.admin_sharing.htm&type=5"
+  },
+  {
+    "content": "The salts team at Universal Containers has asked the administrator to build functionality to automatically update the account checkbox field 'Opportunity Created' to checked when at least one related opportunity has been created.\nWhat feature should the administrator use to build this functionality?",
+    "options": [
+      "A. Screen flow",
+      "B. Workflow rule",
+      "C. Record-triggered flow",
+      "D. Assignment rule"
+    ],
+    "answer": "C",
+    "title": "Question 66",
+    "explanation": "Record-triggered flow is a feature that allows administrators to automate actions that occur when a record is created or updated. Record-triggered flow can perform actions such as updating fields, creating records, sending emails, or invoking Apex code. Record-triggered flow can be used to update the account checkbox field 'Opportunity Created' when at least one related opportunity has been created"
+  },
+  {
+    "content": "A sales user is assigned to a permission set group that gives them Modify All access to Accounts. An administrator assigns the same user to a muting permission set that mutes Deletes access on Account.\nWhat level of access will the sales user have on the Account object?",
+    "options": [
+      "A. Read-only",
+      "B. Modify All",
+      "C. Read, Create, and Edit",
+      "D. No Access"
+    ],
+    "answer": "B",
+    "title": "Question 67",
+    "explanation": "Permission set groups are a combination of permission sets that grant users access to various tools and functions. Muting permission sets are used to remove access that is granted by other permission sets in the group. However, muting permission sets cannot remove object-level access that is granted by Modify All or View All permissions. Therefore, if a user is assigned to a permission set group that gives them Modify All access to Accounts, a muting permission set that mutes Delete access on Account will not have any effect. The user will still have Modify All access on the Account object, which includes Delete access. Reference: https://help.salesforce.com/s/articleView?id=sf.perm_sets_groups_muting.htm&type=5"
+  },
+  {
+    "content": "An administrator needs to create a junction object called Account Region to link the standard Account object with a custom object called Region.\nOnce the junction object is created, what are the next two steps the administrator should take?\nChoose 2 answers",
+    "options": [
+      "A. Make a master-detail relationship field on the junction object to the Region object.",
+      "B. Build a master-detail relationship field on the Region object to the junction object.",
+      "C. Create a master-detail relationship field on the Account object to the junction object.",
+      "D. Configure a master-detail relationship field on the junction object to the Account object."
+    ],
+    "answer": "A,D",
+    "title": "Question 68",
+    "explanation": "A junction object is a custom object that has two master-detail relationships with two other objects. A junction object allows administrators to create many-to-many relationships between objects, such as relating multiple accounts to multiple regions.\n To create a junction object called Account Region to link the standard Account object with a custom object called Region, an administrator needs to do the following steps:\n A) Make a master-detail relationship field on the junction object to the Region object.\n A master-detail relationship field is a field that links a child record to a parent record. The child record inherits the sharing and security settings of the parent record. By making a master-detail relationship field on the junction object to the Region object, an administrator can link each Account Region record to one Region record and make Region the first master of the junction object. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5 D) Configure a master-detail relationship field on the junction object to the Account object.\n By configuring a master-detail relationship field on the junction object to the Account object, an administrator can link each Account Region record to one Account record and make Account the second master of the junction object. This allows administrators to relate multiple accounts to multiple regions through the junction object. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks wants to force its users to set a value for a custom called Tier by answering a series of questions.\nWhat two functions should the administrator use to ensure that users cannot bypass answering these questions in order to determine their Tier value.\nChoose 2 answers",
+    "options": [
+      "A. Set up a list view for the list of questions.",
+      "B. Make the field Read Only on the page layout.",
+      "C. Set up a restriction rule on the field.",
+      "D. Use a screen flow to ask the question."
+    ],
+    "answer": "B,D",
+    "title": "Question 69",
+    "explanation": "Making the field Read Only on the page layout prevents users from manually entering or editing the field value on the record page. This ensures that users cannot bypass answering the questions in order to determine their Tier value. Using a screen flow to ask the questions allows administrators to create an interactive user interface that guides users through a series of screens based on their inputs and logic. A screen flow can be used to ask questions and set the field value based on the answers"
+  },
+  {
+    "content": "AW Computers has enabled the feature for Contact to multiple Accounts. A rep is trying to remove the primary Account from a Contact but is unable to do so. The administrator has already updated the page layout to no longer require an Account.\nWhat could be the issue?",
+    "options": [
+      "A. Private Contacts need to be enabled in Setup.",
+      "B. A primary Account relationship is required on a Contact regardless of the page layout settings.",
+      "C. The Contact has indirect relationships to other Accounts.",
+      "D. The Account Contact relationship record needs to be deleted first in order to disassociate the Contact from the Account."
+    ],
+    "answer": "B",
+    "title": "Question 70",
+    "explanation": "A primary account relationship is a feature that allows you to link a contact to a single account as its primary account. A primary account relationship is required on a contact regardless of the page layout settings or the contact to multiple accounts feature. This means that you cannot remove the primary account from a contact, but you can change it to another account. You can also add secondary accounts to a contact if you have enabled the contact to multiple accounts feature. Reference: https://help.salesforce.com/s/articleView?id=sf.contacts_multiple_accounts.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.contacts_fields.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar (UMS) wants to identify customers that need to install a new solar panel monitor system it recently released. UMS tracks the installed products as Asset records that art related to the Account. Sales management has asked the administrator to create a report for users.\nWhat is the recommended method for the administrator to meet the requirement?",
+    "options": [
+      "A. Use PREVGROUPVAL() in Report Builder.",
+      "B. Use Role Hierarchy filter to restrict related records.",
+      "C. Use a Summary report with Bucket Columns.",
+      "D. Use a Cross Filter with WITHOUT logic."
+    ],
+    "answer": "D",
+    "title": "Question 71",
+    "explanation": "A cross filter with WITHOUT logic is a method for creating a report that shows accounts that are missing certain related records. A cross filter is a filter that lets you include or exclude records in your report based on related objects and their fields. You can use cross filters to create reports on accounts with or without opportunities, contacts, cases, or other related objects. In this case, you can use a cross filter with WITHOUT logic to show accounts without assets that have a certain product name or code. This way, you can identify customers that need to install a new solar panel monitor system. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_cross_filters.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.reports_examples_cross_filters.htm&type=5"
+  },
+  {
+    "content": "An administrator has been asked to enable permissions for users on the account services team to be able to edit and change ownership of Accounts owned by any of the team members.\nWhat should the administrator configure?",
+    "options": [
+      "A. Set organization-wide sharing for Account as Public Read Only.",
+      "B. Create a Sharing Rule on the Account object for all members of the account services role to have Read/Write access.",
+      "C. Update the profile Account object to Modify All.",
+      "D. Enable Account Teams and grant Read record-level access to account team members for the Account object"
+    ],
+    "answer": "B",
+    "title": "Question 72",
+    "explanation": "Sharing rules are automatic exceptions to organization-wide sharing settings that grant additional access to records based on record ownership or criteria. By creating a sharing rule on the Account object for all members of the account services role to have Read/Write access, the administrator can allow users in that role to edit and change ownership of Accounts owned by any of their team members, regardless of the organization-wide sharing setting for Account. Reference: https://help.salesforce.com/s/articleView?id=sf.security_sharing_rules.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar's administrator has configured multiple record-triggered flows to run before or after the record is saved on the Account object.\nWhat should the administrator consider when a record-triggered flow executes first?",
+    "options": [
+      "A. Assign the highest priority to the record-triggered flow which should execute first.",
+      "B. The flow with the longest execution time will execute first.",
+      "C. The flow with the shortest execution time will execute first.",
+      "D. The order in which those flows are executed is not guaranteed."
+    ],
+    "answer": "D",
+    "title": "Question 73",
+    "explanation": "The order in which record-triggered flows are executed is not guaranteed. If there are multiple record-triggered flows on the same object and trigger type, Salesforce does not guarantee which one runs first. Therefore, the administrator should consider this when designing record-triggered flows that depend on each other's outcomes. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_concepts_trigger_order.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has o custom object called Membership Details that records information about customers' preferences for their memberships. Depending, on the membership level, different data needs to be displayed.\n* when cue running user has the Market no profile, all data should be visible.\n* When the running user has the Support profile, only the Support preference fields should be visible.\n* Both Marketing and Support users should be able to report on all data.\nHow should the administrator deliver this solution?",
+    "options": [
+      "A. Create two record types und two page layouts.",
+      "B. Set up Dynamic forms to conditionally show data.",
+      "C. Make a permission set with a Muting permission.",
+      "D. Use Field-Level Security to control data access."
+    ],
+    "answer": "B",
+    "title": "Question 74",
+    "explanation": "Use Field-Level Security to control data access is how the administrator should deliver this solution. Field-Level Security is a way to restrict users' access to view or edit specific fields on an object based on their profile or permission set. Field-Level Security can be used to make fields visible or hidden, and editable or read-only for different users. By using Field-Level Security, the administrator can ensure that only Marketing users can see all data on the Membership Details object, while Support users can only see the Support preference fields."
+  },
+  {
+    "content": "Management at Ursa Major Solar wants to understand how many accounts have opportunities in the overall pipeline.\nWhat should the administrator use to create a report showing all open opportunities and the total number of accounts represented?",
+    "options": [
+      "A. The row count on a summary report grouped by account name",
+      "B. A Cross Filter selecting opportunities with accounts",
+      "C. A custom report type showing opportunities with accounts",
+      "D. The Show Unique Count option on the account name column"
+    ],
+    "answer": "D",
+    "title": "Question 75",
+    "explanation": "The Show Unique Count option on the account name column will create a report showing all open opportunities and the total number of accounts represented. This option will count each account only once, even if it has multiple opportunities. The report can be grouped by account name or any other field to show more details. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_builder_unique_count.htm&type=5"
+  },
+  {
+    "content": "At Ursa Major Solar, there is a custom object called Galaxy. The sales director wants users to only see certain field market.\nWhat Lightning will satisfy this requirement?",
+    "options": [
+      "A. Record Detail Component",
+      "B. Fields component",
+      "C. Highlights Panel Component",
+      "D. Path Component"
+    ],
+    "answer": "B",
+    "title": "Question 76",
+    "explanation": "The Fields component is a Lightning component that allows administrators to display fields from a record on a Lightning page based on certain conditions or criteria. For example, administrators can use filter logic to show or hide fields based on field values or user profiles. In this case, the administrator can use the Fields component to display fields that only apply to condos based on the value of a field that indicates the type of property. Reference: https://help.salesforce.com/s/articleView?id=sf.lightning_app_builder_fields.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks (CK) has an email parsing tool. CK wants to ensure that when certain field are updated, the Case Owner is notified by email.\nWhat should the administrator use to email the Case Owner?",
+    "options": [
+      "A. Email-to-Case",
+      "B. Outbound Message",
+      "C. Before Save Flow",
+      "D. After Save Flow"
+    ],
+    "answer": "D",
+    "title": "Question 77",
+    "explanation": "An after save flow is a type of flow that runs in the background after a record is saved and performs actions based on the record data or changes. An after save flow does not require user input or interaction and can be triggered by a record-triggered flow element or by an Apex trigger. In this case, you can create an after save flow that runs when a case record is updated and delivers status update email to customers based on certain criteria or conditions. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_trigger_types.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.flow_concepts_trigger.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks (CK) wants the forecast numbers to be shown by territory regardless of who owns the record. CK also wants a way to forecast based on role hierarchy.\nWhich three options should an administrator recommend?\nChoose 3 answers",
+    "options": [
+      "A. Have the user select the forecast type listed under the Forecast Type in the Display Settings.",
+      "B. Enable Territory Forecast.",
+      "C. Make a custom field to track the amounts for Territory and Hierarchy Forecast.",
+      "D. Modify the Territory Forecast to match the Hierarchy Forecast model.",
+      "E. Enable Role Hierarchy Forecast."
+    ],
+    "answer": "B,D,E",
+    "title": "Question 78",
+    "explanation": "To show forecast numbers by territory regardless of who owns the record, CK should enable Territory Forecast. To forecast based on role hierarchy, CK should enable Role Hierarchy Forecast. To match the Territory Forecast to the Hierarchy Forecast model, CK should modify the Territory Forecast accordingly. Reference: https://help.salesforce.com/s/articleView?id=sf.forecasts3_territory_forecasts.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.forecasts3_enable.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has been tracking how many participants wear the company's shoes in each marathon. The administrator creates two custom objects: Races and Runners. There is a master-detail relationship between them as well as a Roll-up Summary field on the Races object to show the count of runners in each race. Requirements have changed, and the administrator wants to delete the Master-detail Relationship field without deleting the Runners records.\nWhat action should an administrator take before the Relationship field can be deleted?",
+    "options": [
+      "A. Change the field type to a Lookup Relationship.",
+      "B. Select the Allow Reparenting' checkbox on the Master-detail field.",
+      "C. Uncheck 'Delete this record also' to turn off cascading deletes.",
+      "D. Delete the Roll-up Summary field on the parent."
+    ],
+    "answer": "A",
+    "title": "Question 79",
+    "explanation": "Changing the field type to a Lookup Relationship will allow deleting the Relationship field without deleting the Runners records. A lookup relationship creates a loose association between two objects, where the child records do not depend on the parent records for their existence. A lookup relationship can be deleted without affecting the child records, unlike a master-detail relationship that enforces cascading deletes. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_considerations.htm&type=5"
+  },
+  {
+    "content": "An administrator at Universal Containers has been asked to configure product schedules.\nWhat should the administrator consider before enabling this feature?",
+    "options": [
+      "A. The Product Schedule is unavailable in Process Builder and Flow.",
+      "B. Line Item Schedule is unavailable In Process Builder and Workflow.",
+      "C. Customizable product schedule page layouts cannot be modified.",
+      "D. To remove o product schedule completely, remove It from the standard price book."
+    ],
+    "answer": "B",
+    "title": "Question 80",
+    "explanation": "Product schedules are features that allow administrators to track revenue or quantity over time for products in opportunities or orders. Product schedules can be either revenue schedules or quantity schedules, depending on whether the product is sold by amount or by quantity. Product schedules can be either standard or customizable, depending on whether they use predefined settings or custom settings.\n Line item schedules are records that represent each installment of revenue or quantity for a product over time. Line item schedules are created automatically when a product with a product schedule is added to an opportunity line item or an order product.\n One limitation of product schedules is that line item schedules are unavailable in Process Builder and Workflow. This means that administrators cannot use these tools to automate actions based on line item schedules, such as sending email alerts, creating tasks, updating fields, or invoking flows. Reference: https://help.salesforce.com/s/articleView?id=sf.forecasts3_product_schedules.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.orders_line_item_schedules.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.product_schedule_considerations.htm&type=5"
+  },
+  {
+    "content": "When should an administrator apply a permission set to a user or group of users versus configuring the user's profile with the necessary access?",
+    "options": [
+      "A. When a user is part of a team with an assigned profile that covers the majority of their needs but requires just a little less access than the rest of their team.",
+      "B. When a user is part of a team with an assigned profile that covers the majority of their needs but requires more access than the rest of their team.",
+      "C. When an organization's sharing model is too broad and they need to restrict access beyond what their sharing model and existing profiles provide.",
+      "D. When an organization has opted out of using the standard profiles and created custom profiles."
+    ],
+    "answer": "B",
+    "title": "Question 81",
+    "explanation": "As explained in question 13, permission sets are collections of settings and permissions that give users access to various tools and functions without changing their profile or requiring multiple profiles for users who perform different tasks across apps in your org. Permission sets are useful when a user is part of a team with an assigned profile that covers the majority of their needs but requires more access than the rest of their team for some specific tasks or functions. For example, a user may need access to a custom object or field that is not available to their profile, but only for a limited time or project. In this case, assigning a permission set to the user can grant them the additional access they need without affecting their profile or other users with the same profile. Reference: https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks would like to reassign ownership of all leads that are open and more than 60 days old. The system administrator has written an assignment rule to distribute these leads to the correct owners or queues.\nWhich two tools should the administrator use to update the owner of these leads?\nChoose 2 answers",
+    "options": [
+      "A. Bulk API",
+      "B. Mass Update",
+      "C. Dataloader.io",
+      "D. Import Wizard"
+    ],
+    "answer": "A,C",
+    "title": "Question 82",
+    "explanation": "Bulk API and Dataloader.io are both tools that can be used to update large numbers of records in Salesforce. Bulk API is a RESTful API that allows you to create, update, delete, or query millions of records asynchronously by submitting batches of data. Dataloader.io is a web-based data loader tool that allows you to import, export, or delete data using a simple user interface. Reference: https://developer.salesforce.com/docs/atlas.en-us.api_asynch.meta/api_asynch/asynch_api_intro.htm https://dataloader.io/"
+  },
+  {
+    "content": "Cloud Kicks (CK) has introduced its new Alpha Shoe line. Customers create cases from CK's website. Managers receive a report of all cases created last week. Managers would like a way to easily see in the report if the customer refers to the new shoe line in the case subject.\nHow should the system administrator modify thr report meet this request?",
+    "options": [
+      "A. Add a cross-filter and a with' sub-filter.",
+      "B. Build a row-level formula.",
+      "C. Change the format to a joined repi",
+      "D. Include a contains filter on Subject."
+    ],
+    "answer": "B",
+    "title": "Question 83",
+    "explanation": "A row-level formula is a formula that evaluates each row in a report and returns a value based on one or more fields in that row. A row-level formula can be used to create a new column in a report that indicates whether the case subject contains the words 'Alpha Shoe' or not. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_row_level_formulas.htm&type=5"
+  },
+  {
+    "content": "DreamHouse Realty wants better insights into potential revenue in the next quarter and is considering using Collaborative Forecasts.\nWhat should the administrator consider when setting up Collaborative Forecasts?",
+    "options": [
+      "A. Opportunity Split data cannot be viewed in a forecast.",
+      "B. A forecast can be either revenue-based or quantity-based.",
+      "C. A single org can have up to six different types of forecasts.",
+      "D. The default forecast categories cannot be customized."
+    ],
+    "answer": "B",
+    "title": "Question 84",
+    "explanation": "A forecast is a projection of how much revenue or quantity you can generate from your sales pipeline for a given period of time. A forecast can be either revenue-based or quantity-based, depending on what you want to measure and track. A revenue-based forecast shows the amount of money expected from closed sales, while a quantity-based forecast shows the number of units expected from closed sales. You can choose the forecast type that best suits your business needs and goals when you set up Collaborative Forecasts in Salesforce. Reference: https://help.salesforce.com/s/articleView?id=sf.forecasts3_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.forecasts3_forecast_types.htm&type=5"
+  },
+  {
+    "content": "The sales department has asked to limit access to the Amount field on the Opportunity to only tnose users. In the sales department and on the executtve team, Northern Trail Outfitters uses six custom profiles including Sales User. Marketing user, call Center user. Executive User Sales Manager user, ana call Center Manager user. Field level access is removed from three or the profiles In the sandbox.\nWhat action should an administrator take to make sure this change is in production?",
+    "options": [
+      "A. Create a sandbox template and push it to production to reflect the update.",
+      "B. Manually restrict access to this field for each profile via Setup Just like the sandbox.",
+      "C. Deploy a change set from tht sandbox to prodUGBOffl including the Amount field with all the custom profiles.",
+      "D. Process a change set with the profiles that should no longer have access to the field."
+    ],
+    "answer": "C",
+    "title": "Question 85",
+    "explanation": "A change set is a tool that allows you to send customizations from one Salesforce org to another. A change set can contain components such as objects, fields, profiles, permission sets, workflows, and more. You can use change sets to migrate changes from a sandbox org to a production org or between two sandbox orgs that are affiliated with the same production org. In this case, you can deploy a change set from the sandbox to production that includes the Amount field and all the custom profiles that need access to it. This way, you can update the field-level security settings for the field on each profile in one deployment. Reference: https://help.salesforce.com/s/articleView?id=sf.changesets.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.changesets_components_field.htm&type=5"
+  },
+  {
+    "content": "The administrator at Cloud Kicks recently replaced several case workflow rules with a single before save flow. Since this change, some cases are routing In unexpected ways.\nWhat could be the cause or the charges to routing?",
+    "options": [
+      "A. The old workflow rules are still active and impacting routing.",
+      "B. The flow precedes assignment rules; workflow rules are after assignment rules.",
+      "C. Assignment rules no longer reference the correct fields.",
+      "D. Multiple automation tools have been used and the automation is executed in a different order."
+    ],
+    "answer": "B",
+    "title": "Question 86",
+    "explanation": "One possible reason for the changes to case routing is the difference in the order of execution between before save flow triggers and workflow rules. Before save flow triggers run before assignment rules, which means that any field updates made by the flow can affect how the assignment rules assign the case. Workflow rules run after assignment rules, which means that any field updates made by the workflow do not affect how the assignment rules assign the case. Therefore, replacing workflow rules with before save flow triggers can change the case routing logic. Reference: https://help.salesforce.com/s/articleView?id=sf.flow_concepts_trigger.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.order_of_execution.htm&type=5"
+  },
+  {
+    "content": "AW Computing wants to embed a report chart on the Account record page that shows the value of closed sales for that account. The chart should be limited to users in the Sales Manager role on the Account record pages.\nhow should this be accomplished?",
+    "options": [
+      "A. Create a new report and assign it to the component.",
+      "B. Create a new page layout for the Sales Manager role.",
+      "C. Filter component visibility for the Account ID.",
+      "D. Filter component visibility for the Sales Manager role."
+    ],
+    "answer": "C",
+    "title": "Question 87",
+    "explanation": "To embed a report chart on a record page, you need to use a lightning component that displays report charts. You can filter the component visibility by setting conditions based on record fields, user attributes, or device type. In this case, you can filter the component visibility by matching the Account ID field on the report chart with the Account ID field on the record page. This will ensure that only the relevant data for that account is shown on the chart. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_embed_chart_lightning.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.app_builder_set_component_visibility.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks (CK) typically sells Its products direct to consumer and tracks sales using the Order object In Salesforce. The head of sales has now decided that CK will also sell to retail locations for resale. The administrator wants to leverage opportunities and opportunity products for these new deals.\nWhat should the administrator do to track accurate sales data on opportunities?",
+    "options": [
+      "A. Create new Products with the new retail pricing.",
+      "B. Add a new Order Process for Orders generated from opportunities.",
+      "C. Create a new Price Book for the new retail pricing.",
+      "D. Add a required lookup field from the Order to the opportunity."
+    ],
+    "answer": "C",
+    "title": "Question 88",
+    "explanation": "A price book is a list of products and their prices that can be added to an opportunity. A product can have different prices for different markets or segments, and these prices are stored in different price books. In this case, the administrator should create a new price book for the new retail pricing and add the products that are sold to retail locations for resale. This way, the users can select the appropriate price book and products for their opportunities based on the type of customer they are selling to. Reference: https://help.salesforce.com/s/articleView?id=sf.products_pricebooks.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.products_define.htm&type=5"
+  },
+  {
+    "content": "The administrator at Cloud Kicks noticed that a before trigger, which handles saving the original version of a record to an external database, fails. However, a flow configured for fast field updates runs successfully.\nHow should the administrator advise the developer?",
+    "options": [
+      "A. Record-triggered flows that are configured to run before save execute prior to all before triggers.",
+      "B. A validation rule could be preventing records from ever meeting the conitions in the trigger.",
+      "C. The trigger is writing the data to the wrong place in the external data archive.",
+      "D. The code could be trying to create duplicates in the archieve when it is unable to."
+    ],
+    "answer": "D",
+    "title": "Question 89",
+    "explanation": "One possible reason why the before trigger fails is that the code could be trying to create duplicates in the archive when it is unable to. A before trigger is a type of trigger that executes before a record is saved and can be used to validate or modify record data. In this case, the before trigger is supposed to save the original version of a record to an external database before it is updated or deleted in Salesforce. However, if the code does not handle errors or exceptions properly, it could try to create duplicate records in the external database when it is not allowed or possible. This could cause the trigger to fail and prevent the record from being saved in Salesforce. Reference: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers.htm https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_triggers_context_variables.htm"
+  },
+  {
+    "content": "Northen trail Outfitters (NTO) wants to change the current master-detail relationship between Shipments and Opportunity to a lookup relationship. The system administrator has made the necessary changes in a full sandbox and has successfully tested them against NTO's data.\nNow that the changes are ready to implement in production, what should the system administrator do next?",
+    "options": [
+      "A. Make the changes directly in the production org.",
+      "B. Create an Unmanaged Package to distribute to production.",
+      "C. Use Data Loader to export the changes to the production org.",
+      "D. Add the components to an outbound change set and deploy it to production."
+    ],
+    "answer": "D",
+    "title": "Question 90",
+    "explanation": "To make sure that the changes are in production, you need to add the components to an outbound change set and deploy it to production. A change set is a tool that allows you to send customizations from one Salesforce org to another. A change set can contain components such as objects, fields, profiles, permission sets, workflows, and more. You can use change sets to migrate changes from a sandbox org to a production org or between two sandbox orgs that are affiliated with the same production org. In this case, you need to add the master-detail field and all the affected profiles to an outbound change set in your sandbox org and then deploy it to your production org. Reference: https://help.salesforce.com/s/articleView?id=sf.changesets.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.changesets_components_field.htm&type=5"
+  },
+  {
+    "content": "An administrator at Universal Containers has been asked by the compliance team to understand end track various sensitivity levels for its data In Salesforce. The administrator has enabled Data Classification end configured appropriate sensitivity levels. The compliance team would Ike a report showing field level sensitivity and classification.\nWhat should the administrator recommend?",
+    "options": [
+      "A. Run the standard Data Classification report.",
+      "B. Create a custom Entity Definition and Held Definitions report type.",
+      "C. Use the Data Classification Metadata list view.",
+      "D. Configure a custom Data Classification and Metadata report type."
+    ],
+    "answer": "A",
+    "title": "Question 91",
+    "explanation": "Run the standard Data Classification report is what the administrator should recommend to the compliance team. Data Classification is a feature that allows administrators to flag where sensitive information is stored in Salesforce by assigning sensitivity and classification levels to fields. Data Classification also provides a standard report that shows field level sensitivity and classification for all fields in an org. The administrator can run this report and share it with the compliance team to meet their requirement."
+  },
+  {
+    "content": "Dreamhouse Realty recently learned that the major listing service it utilizes can accept messages to a specific endpoint. The realtors want to utilize this to be able to quickly update the listing price on properties after it has been approved.\nWhat automation tool should the administrator configure?",
+    "options": [
+      "A. Flow",
+      "B. Platform Event",
+      "C. Process Builder",
+      "D. Email Alert"
+    ],
+    "answer": "A",
+    "title": "Question 92",
+    "explanation": "Flow is the automation tool that should be configured to utilize the major listing service endpoint. Flow is a tool that allows administrators to automate complex business processes by building flows that can collect, update, or delete data, invoke Apex code, call external services, and more. Flow can use an Apex action or an HTTP request action to send messages to an external endpoint using REST API"
+  },
+  {
+    "content": "Users at AW Computing are receiving a duplicate message when they enter contacts with common first and last names. Management wants to improve the user experience but also keep the data Integrity of contacts.\nWhat should an administrator implement for this issue?",
+    "options": [
+      "A. Update the matching method on the rule from fuzzy to exact for First Name and Last Name.",
+      "B. Change the duplicate rule to report Instead of alert so the message is avoided.",
+      "C. Include the Email field to the existing matching rule for a more exact match.",
+      "D. Add a secondary matching rule to the duplicate rule to match on the associated customer."
+    ],
+    "answer": "C",
+    "title": "Question 93",
+    "explanation": "A matching rule is a rule that defines how records are compared for duplication based on certain fields or fuzzy logic. By including more fields or changing the matching method, you can make the matching rule more or less strict and reduce false positives or negatives. In this case, including the email field to the existing matching rule for contacts can help avoid duplicate messages for common names by checking if the email addresses are also identical. Reference: https://help.salesforce.com/s/articleView?id=sf.matching_rules_create.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.matching_rules_considerations.htm&type=5"
+  },
+  {
+    "content": "A custom object called Item has a many-to-many relationship with the Account and Quota objects. At Cloud Kicks, account owners are changed frequently while ownership of Quota records remains unchanged. When an account owner is updated, the new account owner can only see Item records if they are also the owner of the Quota record.\nWhat step should the administrator take to give access to all Item records?\nChange the data format of the Quota relationship field from master-detail to lookup.",
+    "options": [
+      "A. Re-assign the Quota master-detail to the primary and the",
+      "B. Account master-detail to secondary.",
+      "C. Create a Quota criteria-based sharing rule using ISCHANGED for the Account Owner field.",
+      "D. Give the account owner Read access to both the Account and the Quota objects"
+    ],
+    "answer": "D",
+    "title": "Question 94",
+    "explanation": "Giving the account owner Read access to both the Account and the Quota objects will give access to all Item records. Since Item is a junction object between Account and Quota, users need to have at least Read access to both parent objects to see Item records. If users have access to only one parent object, they will not be able to see Item records related to the other parent object. Reference: https://help.salesforce.com/s/articleView?id=sf.relationships_manytomany.htm&type=5"
+  },
+  {
+    "content": "An administrator at AW Computing is trying to track the login history for a specific user. The AW Computing org has 150,000 users and multi-factor authentication (MFA) is enabled and enforced for all users. In reviewing the Identity Verification History data, the administrator is unable to find any information for the mentioned user. The user used to log in regularly but has been inactive this quarter.\nWhich two reasons explain why the user's data is missing from Identity Verification History?\nChoose 2 answers",
+    "options": [
+      "A. Identity Verification History stores the last year's worth of data.",
+      "B. User belongs to a specific role for which identity verification data is not stored.",
+      "C. Up to 20,000 records of users' identity verification attempts are stored.",
+      "D. The last 6 months worth of data is stored in the Identity Verification History."
+    ],
+    "answer": "C,D",
+    "title": "Question 95",
+    "explanation": "Identity Verification History stores up to 20,000 records of users' identity verification attempts for various features that require MFA, such as logging in from an unknown browser or device, resetting a password, or changing personal information. The data is stored for up to 6 months and then deleted automatically. Therefore, if a user has been inactive for more than 6 months or if there are more than 20,000 records in total, their data may be missing from Identity Verification History. Reference: https://help.salesforce.com/articleView?id=sf.identity_verification_history.htm&type=5"
+  },
+  {
+    "content": "Ursa Major Solar uses the custom object Product Development to track Ideas R&D is wording on. A former administrator added the custom object Potential Name with a lookup to Product Development to allow R&D to track names under consideration for those product. The R&D manager recently ran a record and noticed several potential names where the relationship to the Product Development record was missing. The current administrator needs to change this relationship to master detail to ensure a potential name only exists when there is product development.\nWhich two options are available for altering the existing Potential Name records for the deployment of this change to be successful?\nChoose 2 answers",
+    "options": [
+      "A. Move any Potential Name records with blank lookup fields to the recycle bin.",
+      "B. Assign any Potential Name records with blank lookup fields to an existing record from Product Development.",
+      "C. Remove any existing data in the lookup field n Potential Name records",
+      "D. Remove the lookup field from the page layout so the data is maintained without changes."
+    ],
+    "answer": "A,B",
+    "title": "Question 96",
+    "explanation": "Move any Potential Name records with blank lookup fields to the recycle bin or assign any Potential Name records with blank lookup fields to an existing record from Product Development are two options available for altering the existing Potential Name records for the deployment of this change to be successful. Changing a lookup relationship to a master-detail relationship requires that all child records have a parent record. Therefore, any Potential Name records that have blank lookup fields to Product Development need to be either deleted or assigned to a valid Product Development record before changing the relationship type"
+  },
+  {
+    "content": "An administrator is asked to create a report to calculate the year-over-year changed in the dollar amount of a company's opportunities.\nWhat reporting tool should be used to complete this request?",
+    "options": [
+      "A. A row-level formula to compare amounts grouped by year.",
+      "B. A joined report with two report blocks for each year",
+      "C. A custom summary formula with PARENTGROUPVAL function",
+      "D. A custom summary formula with the PREVGROUPVAL function."
+    ],
+    "answer": "D",
+    "title": "Question 97",
+    "explanation": "A custom summary formula is a formula that calculates values from summary fields in reports such as sums, averages, counts, etc. Custom summary formulas can use functions such as PREVGROUPVAL which returns the value of a field from the previous row at the same grouping level. By using a custom summary formula with the PREVGROUPVAL function, an administrator can create a report to calculate the year-over-year change in the dollar amount of a company's opportunities by subtracting the amount from the previous year from the amount from the current year and dividing by the amount from the previous year. Reference: https://help.salesforce.com/s/articleView?id=sf.reports_builder_summary_formulas.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.reports_builder_functions.htm&type=5"
+  },
+  {
+    "content": "Support staff at Cloud Kicks work on multiple accounts and opportunities at the same time, Currently, they are switching between browser tabs, which is tedious and confusing. Support managers put in a request for a better agent experience.\nWhat should an administrator recommend?",
+    "options": [
+      "A. Create a screen flow to pull all related opportunities onto one page.",
+      "B. Enable Subtab Record Browsing in the Setup menu.",
+      "C. Configure Split Lit Views.",
+      "D. Implement Service Console."
+    ],
+    "answer": "D",
+    "title": "Question 98",
+    "explanation": "Implement Service Console is what the administrator should recommend to support staff at Cloud Kicks for a better agent experience. Service Console is a Salesforce app that provides a unified interface for agents to manage multiple customer interactions and records at once. Service Console can help agents work more efficiently and productively by providing features such as tabs, subtabs, list views, related lists, highlights panel, interaction log, macros, keyboard shortcuts, and more"
+  },
+  {
+    "content": "Cloud Kicks (CK) has deployed several new custom apps that use Lightning Web components. The administrator is now concerned that they may need to make some adjustments to CK's org to make it more secure.\nWhich tools should the administrator use to expose possible security risks within a Lightning web component?",
+    "options": [
+      "A. Health Check",
+      "B. Master Encryption Keys",
+      "C. Salesforce Optimizer",
+      "D. Self-signed Certificates"
+    ],
+    "answer": "C",
+    "title": "Question 99",
+    "explanation": "Salesforce Optimizer is a tool that analyzes your Salesforce implementation across multiple features such as security health check scores, API usage limits, field usage, and more, and provides recommendations for improvement. Salesforce Optimizer can also scan your Lightning web components and identify potential security risks such as cross-site scripting (XSS) vulnerabilities, insecure content delivery network (CDN) references, or missing locker service compatibility. Reference: https://help.salesforce.com/s/articleView?id=sf.optimizer.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.optimizer_security.htm&type=5"
+  },
+  {
+    "content": "AW Computers has created a custom field called Government ID on a custom object. Most users with a custom Sales profile should be unable to access this field. A select group of Sales users called the Institutional Team should be able to access the Government ID field via reports.\nHow should an administrator accommodate this request?",
+    "options": [
+      "A. Create a permission set with Read access to the field. Assign the permission set to the Institutional Team.",
+      "B. Configure a report type with the Government ID field. Assign this report type to the Institutional Team via a permission set.",
+      "C. Mark the field as Read Only on the sales profile. Create a permission set to re-enable reporting for the Institution Team.",
+      "D. Make a report with the Government ID field included. Share this report to the Institutional Team in a public reports folder."
+    ],
+    "answer": "A",
+    "title": "Question 100",
+    "explanation": "A permission set is a collection of settings and permissions that give users access to various tools and functions in Salesforce. A permission set can be used to extend users' functional access without changing their profiles. You can assign permission sets to individual users or groups of users based on their business needs. In this case, you can create a permission set with Read access to the Government ID field on the custom object and assign it to the Institutional Team users who need access to this field via reports. Reference: https://help.salesforce.com/s/articleView?id=sf.perm_sets_overview.htm&type=5 https://help.salesforce.com/s/articleView?id=sf.perm_sets_create.htm&type=5"
+  },
+  {
+    "content": "As part of their yearly audit, the compliance team at Cloud Kicks would like to track when a user's profile has been changed and who changed the data.\nWhat should the administrator review to meet this requirement?",
+    "options": [
+      "A. Field History Tracking",
+      "B. Setup Audit Trail",
+      "C. Historical Trending",
+      "D. Analytic Snapshot"
+    ],
+    "answer": "B",
+    "title": "Question 101",
+    "explanation": "The Setup Audit Trail is a tool that allows you to view and download a log of changes made in your org's Setup area. The log shows up to 20 fields of information for each change, such as who made it, when it was made, what type of change it was, and what values were changed. You can use the Setup Audit Trail to track configuration changes directly in production and identify any unauthorized or problematic changes. One of the changes that the Setup Audit Trail tracks is when a user's profile is changed and who changed it. This means that you can use the Setup Audit Trail to see when a user's profile has been changed and who changed the data. Reference: https://help.salesforce.com/s/articleView?id=sf.monitorsetup.htm&type=5"
+  },
+  {
+    "content": "Cloud Kicks has updated several profiles and created a new app in the sandbox. After testing, everything is working as expected. Which two options should the administrator use to migrate these changes to production from the sandbox?\nChoose 2 answers",
+    "options": [
+      "A. Package deployment",
+      "B. Change Data Capture",
+      "C. Outbound Change Set",
+      "D. Inbound Change Set"
+    ],
+    "answer": "C,D",
+    "title": "Question 102",
+    "explanation": "Change sets are tools that allow administrators to move customizations such as fields, page layouts, profiles, permission sets, etc. from one Salesforce org to another. To use change sets, administrators need to establish a deployment connection between a source org (such as a sandbox) and a target org (such as production). Then, administrators can create an outbound change set in the source org that contains the components they want to deploy, and upload it to the target org. In the target org, administrators can view and validate the inbound change set before deploying it to their org. Reference: https://help.salesforce.com/s/articleView?id=sf.changesets.htm&type=5"
+  },
+  {
+    "content": "An administrator created a new custom object. When trying to upload new records to the custom object using.\nDate Loader, they are unable to see the new custom object in the list of available objects.\nWhat should the administrator do to resolve the issue?",
+    "options": [
+      "A. Assign a permission set to give them access to the new object.",
+      "B. Check the Field-Level Security of the new custom object's Name field.",
+      "C. Ensure Allow Sharing is checked on the custom object.",
+      "D. Confirm the object us marked as deployed and not in development."
+    ],
+    "answer": "D",
+    "title": "Question 103",
+    "explanation": "When creating a new custom object, administrators can choose to mark it as deployed or in development. If an object is marked as in development, it is not visible to users or available in tools such as Data Loader, even if they have access to it through their profile or permission set. To make the object available for data import, the administrator needs to mark it as deployed. Reference: https://help.salesforce.com/s/articleView?id=sf.customize_deployment_status.htm&type=5"
+  }
+]

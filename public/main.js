@@ -55,6 +55,11 @@ var testList = [
       "Salesforce.Advanced-Administrator.v2023-01-12.q71",
       "Salesforce.Advanced-Administrator.v2023-02-06.q62",
       "Salesforce.Advanced-Administrator.v2023-06-10.q141",
+      "Salesforce.CRT-211.v2023-10-17.q103",
+      "Salesforce.CRT-211.v2022-12-22.q60",
+      "Salesforce.CRT-211.v2022-12-08.q61",
+      "Salesforce.CRT-211.v2022-08-28.q164",
+      "Salesforce.CRT-211.v2021-11-01.q88",
     ],
   },
   {
