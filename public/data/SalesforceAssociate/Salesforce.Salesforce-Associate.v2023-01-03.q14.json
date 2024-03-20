@@ -1,0 +1,140 @@
+[
+  {
+    "content": "A Salesforce standard profile end user is looking for specific information on an Opportunity record page. They are overwhelmed by the required scrolling to see the page.\nWhat should the user do to simplify the page to see only what they want?",
+    "options": [
+      "A. Remove activities.",
+      "B. Change page layout assignment.",
+      "C. Collapse detail sections."
+    ],
+    "answer": "C",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "A sales manager requests a report that shows total opportunity amounts grouped by:\n* Small opportunities - Amount is less than $50,000.\n* Medium opportunities - Amount is between $50,000 and 5100,000.\n* Large opportunities - Amount is more than $100,000.\nHow should the Salesforce associate create a field to show the amount as described above?",
+    "options": [
+      "A. Create a bucket field off of Amount,",
+      "B. Create a custom field in Setup.",
+      "C. Create a formula field off of Amount."
+    ],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "A Salesforce associate has received a request to create new users for a group of new employees.\nWhere can the associate check the number of licenses available to be assigned to the new employees7",
+    "options": [
+      "A. User Management Settings",
+      "B. Company Information",
+      "C. Salesforce Help"
+    ],
+    "answer": "B",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) has recently been onboarded as a Salesforce customer. GCC wants to enroll its in-house IT administration team in a Salesforce instructor-led training workshop.\nWhich resource provides virtual and in-person learning that should help the team accelerate their Salesforce knowledge?",
+    "options": [
+      "A. Salesforce Help",
+      "B. Trailhead Academy",
+      "C. Trailhead Community"
+    ],
+    "answer": "C",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "A manager can see all of the records owned by their team, but not records owned by other teams.\nHow is access to the records being controlled?",
+    "options": ["A. Profiles", "B. Permission Sets", "C. Role Hierarchy"],
+    "answer": "C",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "A Salesforce associate wants to add a new related list of cases to Account.\nWhere should the associate go to add the related list to Account?",
+    "options": [
+      "A. Case Record page",
+      "B. Account Record page",
+      "C. Page Layout"
+    ],
+    "answer": "C",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "A nonprofit organization wants to help ensure residents in their area receive health checkups. The nonprofit also wants to ensure resident tracking history and all data are stored in a way that complies with local privacy laws.\nWhich Salesforce cloud solution should help meet these needs?",
+    "options": ["A. Health Cloud", "B. Nonprofit Cloud", "C. Service Cloud"],
+    "answer": "A",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "How should a Salesforce associate ensure a dashboard has the most current data?",
+    "options": [
+      "A. By opening the dashboard",
+      "B. By refreshing the browser",
+      "C. By clicking refresh"
+    ],
+    "answer": "C",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "What should the account owner at Get Cloudy Consulting use to learn the sum of the amount for each opportunity?",
+    "options": [
+      "A. The Opportunity related list",
+      "B. A custom report type",
+      "C. A Roll-Up Summary field"
+    ],
+    "answer": "C",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) currently supports its customers via calls and emails. GCC wants to meet the needs of digitally savvy customers by offering support via web chat as well as SMS, Facebook Messenger, and whatsApp.\nWhich Salesforce product should meet this need?",
+    "options": ["A. Service Cloud", "B. Sales Cloud", "C. Experience Cloud"],
+    "answer": "B",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "A Salesforce associate tries to create a new user in a sandbox using Astrogetdoudy.org as the username and it fails.\nWhat is the problem with creating the Astro3getcloudy.org' username?",
+    "options": [
+      "A. Salesforce usernames must be unique across all Salesforce orgs and that one is already in use.",
+      "B. Salesforce usernames must include the user s full name and be formatted like an email address.",
+      "C. Salesforce usernames must be formatted like an email address with .com at the end."
+    ],
+    "answer": "A",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "An organization wants to implement Salesforce into its business model. The requirements include:\n* Operations management\n* Program management\n* Grantmaking\n* Fundraising\n* Marketing\n* Engagement\nWhich cloud is preconfigured to handle all of these requirements?",
+    "options": ["A. Nonprofit", "B. Analytics", "C. Experience"],
+    "answer": "A",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) plans to migrate from a legacy CRM system to Salesforce. GCC currently uses a dedicated single-tenant, on-premise system and wants to utilize a multi-tenant architecture like Salesforce uses.\nWhat is one feature of multi-tenant architecture?",
+    "options": [
+      "A. Resources are shared but tenants cannot claim each others resources.",
+      "B. Resources are shared and tenants can claim each other's resources.",
+      "C. Resources are limited to each tenant."
+    ],
+    "answer": "A",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "A Salesforce associate wants to connect with other Salesforce associates in their local area.\nWhich Salesforce resource allows them to network and collaborate with others based on role and location?",
+    "options": [
+      "A. Trailblazer Connect",
+      "B. Salesforce Interest Groups",
+      "C. Trailblazer Community Groups"
+    ],
+    "answer": "C",
+    "title": "Question 14",
+    "explanation": ""
+  }
+]

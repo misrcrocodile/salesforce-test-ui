@@ -1,0 +1,443 @@
+[
+  {
+    "content": "Two users in the same opportunity record are seeing different fields.\nWhat is the reason for this?",
+    "options": [
+      "A. The missing fields are marked as hidden in Object Manager.",
+      "B. The users are assigned different profiles and page layouts.",
+      "C. The users have been configured with different Locales."
+    ],
+    "answer": "B",
+    "title": "Question 1",
+    "explanation": "Explanation\n The users are assigned different profiles and page layouts, which determine the fields they can see and edit on the opportunity record."
+  },
+  {
+    "content": "A Salesforce standard profile end user is looking for specific information on an Opportunity record page. They are overwhelmed by the required scrolling to see the page.\nWhat should the user do to simplify the page to see only what they want?",
+    "options": [
+      "A. Collapse detail sections.",
+      "B. Remove activities.",
+      "C. Change page layout assignment."
+    ],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": "Explanation\n Collapsing detail sections is a way to simplify the page to see only what the user wants, as it will hide the fields in that section and reduce the scrolling."
+  },
+  {
+    "content": "A salesforce associate wants to retrieve a record for a business but only remembers a portion of the business name.\nUsing the fewest clicks, how should the associate search the account records for the desired business?",
+    "options": [
+      "A. The global Search box",
+      "B. A list view of all accounts",
+      "C. A report of all accounts"
+    ],
+    "answer": "A",
+    "title": "Question 3",
+    "explanation": "Explanation\n Using the global search box is the best way to search the account records for the desired business using the fewest clicks. The global search box is a feature that allows the user to search for records across multiple objects and fields using keywords or phrases. The global search box also supports wildcards, operators, and filters to refine the search results. For example, the user could enter \"Get*\" in the global search box to find all account records that start with \"Get\". Using a list view of all accounts would not work, because a list view is a filtered set of records that display data in a tabular format. A list view does not support wildcards or operators, and it requires more clicks to apply filters and sort the records. Using a report of all accounts would not work, because a report is a tool that displays data from one or more objects in a tabular or graphical format. A report does not support wildcards or operators, and it requires more clicks to create, run, and filter the report."
+  },
+  {
+    "content": "How should a Salesforce associate ensure a dashboard has the most current data?",
+    "options": [
+      "A. By refreshing the browser",
+      "B. By clicking refresh",
+      "C. By opening the dashboard"
+    ],
+    "answer": "B",
+    "title": "Question 4",
+    "explanation": "Explanation\n To ensure a dashboard has the most current data, you need to click refresh on the dashboard page. Refreshing the browser or opening the dashboard will not update the data in the dashboard components3. You can also schedule a dashboard to refresh automatically at regular intervals"
+  },
+  {
+    "content": "Get Cloudy Consulting trains its new employee in a partial sandbox named New Employee; An employee competes the training in the sandbox and is ready to sign in to the production org. However, an error message pops ip indicating an invalid username or password. The employee is using their sandbox username and password to sign in to production.\nWhat is needed to solve this error?",
+    "options": [
+      "A. Creating a new username for the production org",
+      "B. Removing. New Employee appendix from the sandbox username",
+      "C. Creating a different password for the production org"
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": "Explanation\n The solution to the error is to remove. New Employee appendix from the sandbox username. When you create a sandbox, Salesforce appends the sandbox name to all usernames in the sandbox copy, so that they don't conflict with usernames in the production org. To sign in to the production org, the employee needs to use their original username without the sandbox name."
+  },
+  {
+    "content": "Which Salesforce role produces data-driven solutions by eliciting, documenting, and examining requirements around organizational challenges?",
+    "options": [
+      "A. Business Analyst",
+      "B. User Experience Designer",
+      "C. Platform Developer"
+    ],
+    "answer": "A",
+    "title": "Question 6",
+    "explanation": "Explanation\n A business analyst produces data-driven solutions by eliciting, documenting, and examining requirements around organizational challenges. A business analyst also helps design and implement solutions using Salesforce tools and best practices"
+  },
+  {
+    "content": "A sales manager at Get Cloudy Consulting wants a report that shows their top-selling product families by quantity.",
+    "options": [
+      "A. Group by opportunity stage> Filter by product family > Sum the total number sold",
+      "B. Group by product family > Filter to show only Closed Won opportunities >Sum the total number sold",
+      "C. Croup by active products > Filter to show opportunities this year > Sum the quantity"
+    ],
+    "answer": "B",
+    "title": "Question 7",
+    "explanation": "Explanation\n The steps that the sales manager should follow to create a report that shows their top-selling product families by quantity are:\n Group by product family > Filter to show only Closed Won opportunities > Sum the total number sold These steps will allow the sales manager to see how many products from each product family were sold in the closed opportunities, and compare the performance of different product families."
+  },
+  {
+    "content": "A marketing manager wants to make the Reason Lost field required on the opportunity when he stage is changed to Closed Lost.\nWhat should the salesforce associate do to enforce this requirement?",
+    "options": [
+      "A. Make the field required on the page layout.",
+      "B. Create a validation rule on the Opportunity object.",
+      "C. Make the field universally required."
+    ],
+    "answer": "B",
+    "title": "Question 8",
+    "explanation": "Explanation\n A validation rule on the Opportunity object is the best way to enforce the requirement that the Reason Lost field is required when the stage is changed to Closed Lost. A validation rule can specify a condition and an error message to display when the condition is not met. For example, the condition could be AND(ISPICKVAL(StageName, \"Closed Lost\"), ISBLANK(Reason_Lost__c)) and the error message could be \"Please enter a reason for losing the opportunity.\" Making the field required on the page layout or universally required would not work, because the field should only be required when the stage is changed to Closed Lost, not for other stages."
+  },
+  {
+    "content": "A college wants to incorporate Salesforce into its admissions program using Program Enrollment and Course Connections.\nWhich Salesforce cloud provides these features as standard offerings?",
+    "options": [
+      "A. Experience Cloud",
+      "B. Education Cloud",
+      "C. Marketing Cloud"
+    ],
+    "answer": "B",
+    "title": "Question 9",
+    "explanation": "Explanation\n The Education Cloud is the cloud that provides Program Enrollment and Course Connections as standard offerings. The Education Cloud is a set of products and solutions designed specifically for educational institutions, such as schools, colleges, and universities. The Education Cloud includes the Education Data Architecture (EDA), which is a managed package that adds pre-built objects, fields, workflows, and reports to the standard Salesforce platform. Program Enrollment and Course Connections are two features of EDA that allow the user to manage the enrollment and connection of students to academic programs and courses. The Experience Cloud is a cloud that allows the creation of digital experiences, such as websites, portals, and mobile apps, for customers, partners, and employees. The Marketing Cloud is a cloud that provides tools for creating and managing personalized marketing campaigns across multiple channels, such as email, social media, web, and mobile."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) is experiencing significant performance degradation.\nWhat should GCC do to quickly verify if a performance incident has been reported on its instance of Salesforce?",
+    "options": [
+      "A. Ask a question on the Trailblazer Community.",
+      "B. Check System Status on the Trust site.",
+      "C. Open a case with Salesforce Support."
+    ],
+    "answer": "B",
+    "title": "Question 10",
+    "explanation": "Explanation\n The best way for GCC to quickly verify if a performance incident has been reported on its instance of Salesforce is to check System Status on the Trust site. The Trust site is a website that provides real-time information on the availability, performance, security, and compliance of the Salesforce platform and services.\n GCC can use the Trust site to check the current and historical status of its instance, as well as to subscribe to notifications and alerts on any issues or maintenance events"
+  },
+  {
+    "content": "Which Trailhead feature should Get Cloudy Consulting use to create a custom teaming path for its employees?",
+    "options": ["A. Projects", "B. Trail mixes", "C. Modules"],
+    "answer": "B",
+    "title": "Question 11",
+    "explanation": "Explanation\n Trailmixes are the Trailhead feature that Get Cloudy Consulting should use to create a custom learning path for its employees. Trailmixes are collections of learning content that users can create, customize, and share with others. Users can add modules, projects, trails, superbadges, and even external links to their trailmixes and assign due dates and points"
+  },
+  {
+    "content": "What should the account owner at Get Cloudy Consulting use to learn the sum of the amount for each opportunity?",
+    "options": [
+      "A. The Opportunity related list",
+      "B. A custom report type",
+      "C. A Roll-Up Summary field"
+    ],
+    "answer": "C",
+    "title": "Question 12",
+    "explanation": "Explanation\n A roll-up summary field is a field on the parent object that calculates the sum, average, min, or max of a field on the child records. It can be used to learn the sum of the amount for each opportunity related to an account."
+  },
+  {
+    "content": "A sales manager requests a report that shows total opportunity amounts grouped by:\n* Small opportunities - Amount is less than $50,000.\n* Medium opportunities - Amount is between $50,000 and 5100,000.\n* Large opportunities - Amount is more than $100,000.\nHow should the Salesforce associate create a field to show the amount as described above?",
+    "options": [
+      "A. Create a bucket field off of Amount,",
+      "B. Create a custom field in Setup.",
+      "C. Create a formula field off of Amount."
+    ],
+    "answer": "A",
+    "title": "Question 13",
+    "explanation": "Explanation\n The best way to create a field that shows the amount as described in the question is to use a bucket field off of Amount. A bucket field lets you group report values into categories without creating a formula or a custom field2. You can create a bucket field for any numeric, picklist, or text field in a report."
+  },
+  {
+    "content": "A Salesforce associate recently relocated from Get Cloudy Consulting s San Francisco office to its new London office. The associate wants to change their work hours information in the Salesforce org to reflect their new time zone.\nWhich method is easiest to change these settings?",
+    "options": [
+      "A. Go to Settings -> Personal Information -> My Work Information",
+      "B. Submit a case with Salesforce support",
+      "C. Go to Setup -> Company Information -> Default Time Zone"
+    ],
+    "answer": "A",
+    "title": "Question 14",
+    "explanation": "Explanation\n The easiest method to change the work hours information in the Salesforce org to reflect the new time zone is to go to Settings -> Personal Information -> My Work Information, and select the appropriate time zone from the drop-down menu."
+  },
+  {
+    "content": "An online retail company uses Sales Cloud and Marketing Cloud. The company's Salesforce associate needs help while working in Marketing Cloud and wants to hear other Salesforce professionals' opinions. They would like to post a question that anyone around the globe who is familiar with Salesforce can answer.\nWhich resource should they use?",
+    "options": [
+      "A. Trailblazer Community",
+      "B. Trailhead Academy",
+      "C. Salesforce Help"
+    ],
+    "answer": "A",
+    "title": "Question 15",
+    "explanation": "Explanation\n The Trailblazer Community is the resource that the Salesforce associate should use to post a question that anyone around the globe who is familiar with Salesforce can answer. The Trailblazer Community is an online platform where Salesforce users, partners, employees, and experts can connect, collaborate, and learn from each other. The Trailblazer Community allows the user to ask questions, join groups, share ideas, access resources, and earn badges. Trailhead Academy is a resource that provides training courses, certifications, and learning paths for Salesforce users who want to enhance their skills and knowledge. Salesforce Help is a resource that provides documentation, guides, videos, and support for Salesforce users who need assistance with using or troubleshooting Salesforce products and features."
+  },
+  {
+    "content": "Refer to the image below:\nA Salesforce associate reviews a report that shows more information than they need. The associated see individual records but only wants to see the Record Count.\nWhich switches should the associated toggle to only show the Record Count?",
+    "options": [
+      "A. Row Counts and Grand Total",
+      "B. Subtotals and Detail Rows",
+      "C. Grand Total and Subtotals"
+    ],
+    "answer": "A",
+    "title": "Question 16",
+    "explanation": "Explanation\n The switches that the associate should toggle to only show the Record Count are Row Counts and Grand Total.\n Row Counts is a switch that shows the number of rows in the report, which is the same as the number of records. Grand Total is a switch that shows the sum, average, minimum, maximum, or other aggregate functions of a numeric field in the report. By toggling these two switches on and the other two switches off, the associate can see the Record Count and the Grand Total of the report, without seeing the individual records or the subtotals. Subtotals and Detail Rows are switches that show the breakdown and the details of the records in the report, which are not needed for the Record Count."
+  },
+  {
+    "content": "An organization wants to implement Salesforce into its business model. The requirements include:\n* Operations management\n* Program management\n* Grantmaking\n* Fundraising\n* Marketing\n* Engagement\nWhich cloud is preconfigured to handle all of these requirements?",
+    "options": ["A. Experience", "B. Analytics", "C. Nonprofit"],
+    "answer": "C",
+    "title": "Question 17",
+    "explanation": "Explanation\n The Nonprofit Cloud is preconfigured to handle all of the requirements listed, such as operations management, program management, grantmaking, fundraising, marketing, and engagement. The Nonprofit Cloud is a set of solutions that helps nonprofits drive greater impact through connected experiences."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) currently supports its customers via calls and emails. GCC wants to meet the needs of digitally savvy customers by offering support via web chat as well as SMS, Facebook Messenger, and WhatsApp.\nWhich Salesforce product should meet this need?",
+    "options": ["A. Service Cloud", "B. Experience Cloud", "C. Sales Cloud"],
+    "answer": "A",
+    "title": "Question 18",
+    "explanation": "Explanation\n Service Cloud is the Salesforce product that should meet the need of Get Cloudy Consulting to offer support via web chat and other digital channels. Service Cloud is a cloud-based customer service platform that allows agents to deliver fast and personalized service across multiple channels, such as phone, email, web, social media, and messaging apps. Service Cloud also provides tools for case management, knowledge base, self-service, and analytics."
+  },
+  {
+    "content": "Which tool creates a visual representation of objects and their relationships?",
+    "options": ["A. App Launcher", "B. Object Manager", "C. Schema Builder"],
+    "answer": "C",
+    "title": "Question 19",
+    "explanation": "Explanation\n Schema Builder is a tool that creates a visual representation of objects and their relationships, and allows you to modify them."
+  },
+  {
+    "content": "Where should field dependencies for an object be reviewed?",
+    "options": ["A. Object Manager", "B. Profiles", "C. App Builder"],
+    "answer": "A",
+    "title": "Question 20",
+    "explanation": "Explanation\n The Object Manager is where field dependencies for an object can be reviewed. The Object Manager allows the user to view and manage the metadata of standard and custom objects in Salesforce, such as fields, page layouts, record types, buttons, and actions. Field dependencies are a type of metadata that define the relationship between a controlling field and a dependent field. For example, a field dependency could be set up so that the values available in a picklist field called Region depend on the value selected in another picklist field called Country. Profiles are used to define the baseline access and permissions for users based on their license type and job function. App Builder is a tool that allows the user to create and customize apps and pages in Salesforce using drag-and-drop components."
+  },
+  {
+    "content": "A Salesforce associate wants to refresh a report and email it to an executive team each week.\nWhich functionality of Salesforce Reports should the associate use?",
+    "options": ["A. Refresh", "B. Notifications", "C. Subscriptions"],
+    "answer": "C",
+    "title": "Question 21",
+    "explanation": "Explanation\n The functionality of Salesforce Reports that the associate should use to refresh a report and email it to an executive team each week is subscriptions. Subscriptions let you schedule reports to run at regular intervals and send notifications to you or other recipients by email or Chatter5. You can also set conditions for when the notifications are sent, such as when the report returns no results or the results change."
+  },
+  {
+    "content": "Which sharing type shares a single, common infrastructure and code base?",
+    "options": ["A. Metadata", "B. Multitenant", "C. Trust"],
+    "answer": "B",
+    "title": "Question 22",
+    "explanation": "Explanation\n Multitenant is the sharing type that shares a single, common infrastructure and code base. Multitenant means that multiple customers (tenants) share the same hardware, software, and infrastructure resources, but their data and configurations are isolated and secure. This allows Salesforce to deliver high performance, scalability, and availability to its customers4"
+  },
+  {
+    "content": "A Salesforce associate is working from a custom Contact list view and noticed key information is missing.\nWhat should they do to add the missing information?",
+    "options": [
+      "A. Edit sharing settings",
+      "B. Select Fields to Display",
+      "C. Edit list filters"
+    ],
+    "answer": "B",
+    "title": "Question 23",
+    "explanation": "Explanation\n The thing that they should do to add the missing information to the custom Contact list view is to select Fields to Display. Fields to Display is an option that allows the user to customize which columns appear in the list view, based on the fields that are associated with the object. The user can access the Fields to Display option by clicking on the List View Controls menu and then clicking on Select Fields to Display. There, they can add, remove, and reorder the fields that they want to see in the list view. Editing sharing settings or editing list filters are not the correct actions to add the missing information to the list view, because they affect the visibility and the criteria of the records, not the columns."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) provides consulting services to small and medium-sized business in the financial services space. GCC wants a solution for customer service where complaints can be logged through a web from and email.\nWhich Salesforce solution should GCC use?",
+    "options": ["A. Commerce Cloud", "B. Experience Cloud", "C. Service cloud"],
+    "answer": "C",
+    "title": "Question 24",
+    "explanation": "Explanation\n The Salesforce solution that GCC should use for customer service where complaints can be logged through a web form and email is Service Cloud. Service Cloud is a product that helps companies deliver fast and personalized customer service across multiple channels, such as phone, email, web, chat, and social media. Service Cloud allows GCC to create cases from web forms and emails, assign them to agents, track their status, and resolve them efficiently"
+  },
+  {
+    "content": "A salesforce associate is excited to find they can combine the challenge of learning new skills with the chance of winning prizes?",
+    "options": ["A. Super badges", "B. Quests", "C. Ranks"],
+    "answer": "C",
+    "title": "Question 25",
+    "explanation": "Explanation\n The Salesforce feature that allows an associate to combine the challenge of learning new skills with the chance of winning prizes is Ranks. Ranks are a way to measure your progress and compare it with other learners on Trailhead. You can earn ranks by completing modules, projects, superbadges, and trails. Each rank has a minimum number of points and badges required to achieve it. You can also win prizes by participating in quests, which are time-limited challenges that reward you with swag, certifications, or other goodies1. Superbadges are not a feature that offers prizes, but they are a way to showcase your advanced skills and earn real-world scenario credentials2"
+  },
+  {
+    "content": "What type of relationship do Account and Contact objects have?",
+    "options": ["A. Lookup", "B. Self", "C. Master-detail"],
+    "answer": "A",
+    "title": "Question 26",
+    "explanation": "Explanation\n The Account and Contact objects have a lookup relationship. A lookup relationship is a type of relationship that links two objects together, but does not affect security, ownership, or deletion. A lookup relationship allows the user to select a record from another object and link it to the current record. For example, the Account field on the Contact object allows the user to select an account that the contact is related to. A self relationship is a type of lookup relationship that links an object to itself, creating a hierarchy of records. For example, the Reports To field on the Contact object allows the user to select another contact that the contact reports to. A master-detail relationship is a type of lookup relationship that creates a parent-child relationship between two objects, where the child records inherit the security and ownership of the parent record, and are deleted when the parent record is deleted. For example, the Account field on the Opportunity object is a master-detail relationship that links the opportunity to the account."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) plans to migrate from a legacy CRM system to Salesforce. GCC currently uses a dedicated single-tenant, on-premise system and wants to utilize a multi-tenant architecture like Salesforce uses.\nWhat is one feature of multi-tenant architecture?",
+    "options": [
+      "A. Resources are shared but tenants cannot claim each other's resources.",
+      "B. Resources are shared and tenants can claim each other's resources.",
+      "C. Resources are limited to each tenant."
+    ],
+    "answer": "A",
+    "title": "Question 27",
+    "explanation": "Explanation\n One feature of multi-tenant architecture is that resources are shared but tenants cannot claim each other's resources. Multi-tenant architecture means that multiple customers (tenants) share the same hardware, software, and infrastructure resources, but their data and configurations are isolated and secure. This allows Salesforce to deliver high performance, scalability, and availability to its customers"
+  },
+  {
+    "content": "Which Salesforce role should help companies increase campaign effectiveness, reengage inactive customers, and grow their customer base?",
+    "options": ["A. Consultant", "B. Marketer", "C. Designer"],
+    "answer": "B",
+    "title": "Question 28",
+    "explanation": "Explanation\n The marketer role is the role that should help companies increase campaign effectiveness, reengage inactive customers, and grow their customer base. A marketer is a person who plans, executes, and analyzes marketing strategies and campaigns to promote a product, service, or brand. A marketer uses tools such as Marketing Cloud, Pardot, and Social Studio to create and manage personalized marketing campaigns across multiple channels, such as email, social media, web, and mobile. A marketer also uses tools such as Audience Studio, Datorama, and Tableau to segment, target, and measure the impact of marketing campaigns. A consultant is a person who provides expert advice and guidance to clients on how to use Salesforce products and solutions to achieve their business goals. A consultant uses tools such as Service Cloud, Field Service, and MuleSoft to help clients improve their customer service, field operations, and data integration. A designer is a person who creates and develops the visual and interactive elements of digital experiences, such as websites, portals, and mobile apps. A designer uses tools such as Experience Cloud, Heroku, and Lightning Web Components to design and build engaging and responsive digital experiences for customers, partners, and employees."
+  },
+  {
+    "content": "An employee at Get Consulting recently changed their name and received a new username.\nWhere should these changes be updated?",
+    "options": [
+      "A. Contact Record page",
+      "B. User Record page from Setup",
+      "C. User profile page"
+    ],
+    "answer": "B",
+    "title": "Question 29",
+    "explanation": "Explanation\n The user record page from Setup is where the changes should be updated. The user record page from Setup allows the user to view and edit the information and settings of a user, such as name, username, email, profile, role, and license. The user record page from Setup can be accessed by clicking the Setup icon in the header, then clicking Users > Users, and then clicking the name of the user. The contact record page is where the user can view and edit the information of a contact, such as name, phone, email, account, and address. The contact record page does not affect the user's username or login access. The user profile page is where the user can view and edit their personal information, such as name, email, password, and language. The user profile page does not allow the user to change their username or license."
+  },
+  {
+    "content": "Salesforce is built on objects like Account, Contact, and Opportunity.\nWhat is a representation of an object?",
+    "options": [
+      "A. A spreadsheet where the records are rows and the fields are columns",
+      "B. Physical visualization of an Account, Contact, or Opportunity",
+      "C. A set of relationships that link an Account, Contact, or Opportunity"
+    ],
+    "answer": "A",
+    "title": "Question 30",
+    "explanation": "Explanation\n A spreadsheet is a representation of an object, where the records are rows and the fields are columns. An object is a collection of records that have the same fields, such as account, contact, or opportunity."
+  },
+  {
+    "content": "Get Cloudy Consulting wants to confirm the data type of the Account Sources field on Account object. Which editing the Account, the Account Sources field has several predefined values that can be selected.\nWhich type of field is Account Source?",
+    "options": ["A. Picklist", "B. Formula", "C. Text.Area"],
+    "answer": "A",
+    "title": "Question 31",
+    "explanation": "Explanation\n The Account Source field is a picklist type of field. A picklist field is a type of field that allows the user to select a value from a predefined list of values, which ensures data consistency and accuracy. For example, the Account Source field could have values such as Web, Phone, Referral, and so on. A formula field is a type of field that calculates a value based on an expression or formula, which can reference other fields, functions, or constants. For example, a formula field could calculate the commission amount based on the opportunity amount and the commission rate. A text area field is a type of field that allows the user to enter up to 255 characters of free-form text, which can include multiple lines and spaces. For example, a text area field could capture the description or notes of an account or an opportunity."
+  },
+  {
+    "content": "A Salesforce associate wants a visual summary of opportunities in a list view. The associate would like to summarize, filter, and move opportunities along the pipeline.\nWhat should they do to meet this requirement?",
+    "options": [
+      "A. Create an Opportunity Summary report.",
+      "B. Create an Opportunity List View.",
+      "C. Create an Opportunities Kanban View."
+    ],
+    "answer": "C",
+    "title": "Question 32",
+    "explanation": "Explanation\n The opportunities Kanban view is a visual summary of opportunities in a list view, where the associate can summarize, filter, and move opportunities along the pipeline by dragging and dropping them."
+  },
+  {
+    "content": "Which action(s) must be taken for Salesforce updates?",
+    "options": [
+      "A. Updates are automatic; nothing needs to be downloaded or installed.",
+      "B. Updates require purchasing an updated license.",
+      "C. Updates need to be downloaded with each release"
+    ],
+    "answer": "A",
+    "title": "Question 33",
+    "explanation": "Explanation\n Updates are automatic; nothing needs to be downloaded or installed is the correct action for Salesforce updates. Salesforce updates are a feature that allows the user to benefit from the latest features and functionality of the Salesforce platform without any hassle or interruption. Salesforce updates are delivered automatically to all orgs three times a year, in spring, summer, and winter. The user does not need to download or install anything to receive the updates, and the user's data and customization are preserved and compatible with the updates. Updates do not require purchasing an updated license, because the user's existing license covers the updates. Updates do not need to be downloaded with each release, because the updates are applied automatically to the user's org."
+  },
+  {
+    "content": "A Salesforce associate wants to locate a record within the custom object called Shipment'.\nWhat is the most efficient way to find a record within this object?",
+    "options": ["A. Global Search", "B. App Launcher", "C. Object Manager"],
+    "answer": "A",
+    "title": "Question 34",
+    "explanation": "Explanation\n The global search box is the most efficient way to find a record within the custom object called Shipment. The global search box is a feature that allows the user to search for records across multiple objects and fields using keywords or phrases. The global search box also supports wildcards, operators, and filters to refine the search results. For example, the user could enter \"Shipment*\" in the global search box to find all records that start with \"Shipment\" in the Shipment object. The App Launcher is a feature that allows the user to access all the apps and objects in Salesforce, such as Sales, Service, Marketing, and so on. The App Launcher does not allow the user to search for records within an object, but only to navigate to the object's home page. The Object Manager is a feature that allows the user to view and manage the metadata of standard and custom objects in Salesforce, such as fields, page layouts, record types, buttons, and actions. The Object Manager does not allow the user to search for records within an object, but only to configure the object's settings and customization."
+  },
+  {
+    "content": "A Salesforce associate at Get Cloudy Consulting needs a list of all active contacts grouped by Account. What is the first step in building this report?",
+    "options": [
+      "A. Create a new report using the Contacts & Accounts report type.",
+      "B. Create a Contacts report with a filter on Account.",
+      "C. Create a joined report with accounts and contacts."
+    ],
+    "answer": "A",
+    "title": "Question 35",
+    "explanation": "Explanation\n The first step in building a report that shows all active contacts grouped by account is to create a new report using the Contacts & Accounts report type. The report type determines the objects and fields that are available for the report. The Contacts & Accounts report type allows users to report on contacts and their related accounts, as well as account fields such as industry, annual revenue, and number of employees"
+  },
+  {
+    "content": "Salesforce associate received a promotion and needs Edit access to fields on opportunity records across the organization.\nWhich user setting need updating to allow Edit access?",
+    "options": ["A. Queue", "B. Permission Set", "C. Public Group"],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": "Explanation\n Permission sets are used to grant additional access to users based on their functional or departmental needs. A permission set can be assigned to multiple users, regardless of their profile. A permission set can include field-level security settings that allow edit access to specific fields on an object. Queues are used to group records and assign them to a team of users who can work on them. Public groups are used to group users, roles, or other groups for the purpose of sharing records or sending email."
+  },
+  {
+    "content": "Get Cloud Consulting (GCC) currently uses separate platform for marketing sales, commerce, service, and information technology. As GCC continues to grow, it decides to move all departments onto Salesforce.\nWhat would provide GCC the most benefit by mobbing to the Salesforce Platform?",
+    "options": [
+      "A. Salesforce increases security by only requiring employees to remember one password.",
+      "B. Salesforce saves companies money by eliminating the need to purchase licenses for multiple systems.",
+      "C. Salesforce provides a complete view of a company's customers on one unified platform."
+    ],
+    "answer": "C",
+    "title": "Question 37",
+    "explanation": "Explanation\n The most benefit that GCC would get by moving to the Salesforce Platform is that it provides a complete view of a company's customers on one unified platform. This means that GCC can access and manage all the data and processes related to its marketing, sales, commerce, service, and IT departments from one place, without having to switch between different systems or platforms. This also enables GCC to have a 360-degree view of its customers, which helps it deliver personalized and consistent experiences across all touchpoints."
+  },
+  {
+    "content": "To which Team should a Salesforce associate be added to gain access to an Account and its related opportunities?",
+    "options": ["A. Opportunity Team", "B. Lead Team", "C. Account Team"],
+    "answer": "C",
+    "title": "Question 38",
+    "explanation": "Explanation\n The account team is the team that a Salesforce associate should be added to gain access to an account and its related opportunities. The account team is a feature that allows the user to share an account and its related records, such as contacts, opportunities, and cases, with other users who play a role in the account. The account team can include different team members with different roles and access levels. For example, the account team could include a sales rep, a sales manager, a product specialist, and a customer service agent.\n The opportunity team is a feature that allows the user to share an opportunity and its related records, such as products, quotes, and activities, with other users who work on the opportunity. The opportunity team does not grant access to the account or its other related records, such as contacts or cases. The lead team is a feature that allows the user to share a lead and its related records, such as tasks, events, and notes, with other users who work on the lead. The lead team does not grant access to the account or its related records, such as contacts or opportunities."
+  },
+  {
+    "content": "Where can a new user set up an email signature in Salesforce?",
+    "options": ["A. Personal Settings", "B. User Profile", "C. Email Setup"],
+    "answer": "A",
+    "title": "Question 39",
+    "explanation": "Explanation\n The place where the new user can set up an email signature in Salesforce is the Personal Settings. The Personal Settings are where the user can customize their preferences, such as language, locale, time zone, display, security, and email. The user can access the Personal Settings by clicking on their profile icon and then clicking Settings. Then, they can click on Email under My Personal Information and then click on My Email Settings. There, they can enter their email signature in the Email Signature field and click Save. The User Profile and the Email Setup are not the correct places to set up an email signature in Salesforce."
+  },
+  {
+    "content": "A manager is creating a dashboard for their team and wants each team member to receive a copy of the dashboard results by email each week.\nWhat should the team members do to ensure they receive they weekly results?",
+    "options": [
+      "A. Like the dashboard.",
+      "B. Subscribe to the dashboard",
+      "C. Follow the dashboard"
+    ],
+    "answer": "B",
+    "title": "Question 40",
+    "explanation": "Explanation\n The action that the team members should do to ensure they receive the weekly results of the dashboard by email is to subscribe to the dashboard. Subscriptions let users schedule dashboards to run at regular intervals and send notifications to them or other recipients by email or Chatter. Users can also set conditions for when the notifications are sent, such as when the dashboard returns no results or the results change."
+  },
+  {
+    "content": "Get Cloudy Consulting wants to group its contacts by region. On most records, this text field is blank or misspelled.\nWhich action is recommended to ensure there is correct data for this field?",
+    "options": [
+      "A. Convert the Region field to a picklist field.",
+      "B. Create a validation rule to enforce correct spelling.",
+      "C. Email users a list of region names with correct spelling."
+    ],
+    "answer": "A",
+    "title": "Question 41",
+    "explanation": "Explanation\n Converting the Region field to a picklist field is the recommended action to ensure there is correct data for this field. A picklist field allows the user to select a value from a predefined list of values, which ensures data consistency and accuracy. For example, the Region field could have values such as North America, Europe, Asia, and so on. Creating a validation rule to enforce correct spelling would not work, because it would not prevent the field from being blank, and it would not account for different spellings or variations of the same region. Emailing users a list of region names with correct spelling would not work, because it would rely on the users to manually enter the correct values, which is prone to human error and inconsistency."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) will show its data on a dashboard where the data is visualized within a range.\nWhich dashboard component type should GCC use?",
+    "options": ["A. Gauge", "B. Metric", "C. Chart"],
+    "answer": "A",
+    "title": "Question 42",
+    "explanation": "Explanation\n A gauge is a dashboard component type that shows a single value within a range of custom values. A gauge is useful for showing whether a metric, such as revenue or customer satisfaction, is within a desired range. For example, a gauge could show the current revenue as a needle pointing to a green, yellow, or red zone, indicating whether the revenue is above, below, or on target. A metric is a dashboard component type that shows a single value, such as the total number of accounts or the average deal size. A metric does not show a range of values. A chart is a dashboard component type that shows data in a graphical format, such as a pie chart, a bar chart, or a line chart. A chart is useful for showing the distribution or trend of data, but not a single value within a range."
+  },
+  {
+    "content": "Get Cloudy Consulting (GCC) has recently been onboarded as a Salesforce customer. GCC wants to enroll its in-house IT administration team in a Salesforce instructor-led training workshop.\nWhich resource provides virtual and in-person learning that should help the team accelerate their Salesforce knowledge?",
+    "options": [
+      "A. Trailhead Community",
+      "B. Salesforce Help",
+      "C. Trailhead Academy"
+    ],
+    "answer": "C",
+    "title": "Question 43",
+    "explanation": "Explanation\n Trailhead Academy is the resource that provides virtual and in-person learning that should help the in-house IT administration team of Get Cloudy Consulting accelerate their Salesforce knowledge. Trailhead Academy offers instructor-led training workshops, certification preparation courses, and custom learning programs for various Salesforce roles and products"
+  },
+  {
+    "content": "A nonprofit organization wants to help ensure residents in their area receive health checkups. The nonprofit also wants to ensure resident tracking history and all data are stored in a way that complies with local privacy laws.\nWhich Salesforce cloud solution should help meet these needs?",
+    "options": ["A. Health Cloud", "B. Service Cloud", "C. Nonprofit Cloud"],
+    "answer": "A",
+    "title": "Question 44",
+    "explanation": "Explanation\n Health Cloud is the Salesforce cloud solution that should help meet the needs of a nonprofit organization that wants to ensure residents receive health checkups and comply with local privacy laws. Health Cloud is a cloud-based software solution that allows healthcare providers to manage patient relationships, care coordination, and engagement"
+  },
+  {
+    "content": "Get Cloudy Consulting wants to evaluate a new feature that requires a specific license before purchasing.\nWhich environment should be used?",
+    "options": ["A. Developer org", "B. Developer sandbox", "C. Scratch org"],
+    "answer": "A",
+    "title": "Question 45",
+    "explanation": "Explanation\n A developer org should be used to evaluate a new feature that requires a specific license before purchasing. A developer org is a free, full-featured copy of the Salesforce platform that allows developers to create and test applications and features. A developer org can have access to all the licenses and features that are available in the Salesforce platform"
+  },
+  {
+    "content": "Get Cloudy Consulting is rolling out Salesforce to its organization.\nWhat should be used to allow additional field-level access to individual employees based on the their job duties?",
+    "options": [
+      "A. Individual profiles",
+      "B. Permission sets",
+      "C. Role Hierarchy"
+    ],
+    "answer": "B",
+    "title": "Question 46",
+    "explanation": "Explanation\n Permission sets are what should be used to allow additional field-level access to individual employees based on their job duties. Permission sets are a type of metadata that grant additional access and permissions to users based on their functional or departmental needs. Permission sets can include field-level security settings that allow read or edit access to specific fields on an object. Permission sets can be assigned to multiple users, regardless of their profile. Individual profiles are a type of metadata that define the baseline access and permissions for users based on their license type and job function. Profiles include field-level security settings that allow read or edit access to fields on an object. Profiles cannot be assigned to individual users, but to a group of users who share the same license and job function. Role hierarchy is a type of metadata that define the level of access and visibility of records for users based on their position in the organization. Role hierarchy allows users to access records owned by or shared with users below them in the hierarchy. Role hierarchy does not affect field-level access, but record-level access."
+  },
+  {
+    "content": "A Salesforce associate at Get Cloudy Consulting is working with a user to view multiple records and their related records on the same screen. Currently, the user uses multiple browser tabs.\nWhich app should the associate recommend for the user to view multiple records and their related records on one screen?",
+    "options": [
+      "A. Salesforce Lightning Page",
+      "B. Salesforce Lightning Console",
+      "C. Salesforce Dashboard"
+    ],
+    "answer": "B",
+    "title": "Question 47",
+    "explanation": "Explanation\n The Salesforce Lightning Console is an app that allows the user to view multiple records and their related records on one screen, using tabs and subtabs. This can improve the user's productivity and efficiency."
+  }
+]

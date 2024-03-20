@@ -3,6 +3,8 @@ var testList = [
     name: "SALESFORCE ASSOCIATE",
     value: "SalesforceAssociate",
     testList: [
+      "Salesforce.Salesforce-Associate.v2023-01-03.q14",
+      "Salesforce.Salesforce-Associate.v2024-01-01.q47",
       "ExamTopics.Associate.2023-09-30",
       "Salesforceben.Associate.datamodel.q30",
       "Salesforceben.Associate.ecosystem.q39",
