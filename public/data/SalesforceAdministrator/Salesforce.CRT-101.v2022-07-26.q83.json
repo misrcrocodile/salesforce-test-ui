@@ -1,0 +1,1003 @@
+[
+  {
+    "content": "The DreamHouse Realty team has a master-detail relationship set up with open house as the\nparent object and visitors as the child object.\nWhat type of field should the administrator add to the open house object to track number of visitors?",
+    "options": [
+      "A. Indirect lookup",
+      "B. Multi-select Picklist",
+      "C. Cross-object formula",
+      "D. Roll-up Summary."
+    ],
+    "answer": "D",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Cloud Kicks wants to deactivate a User who has left the company.\nWhat are two reasons that would prevent a user from being deactivated?\nChoose 2 answers",
+    "options": [
+      "A. The use is part of a territory hierarchy.",
+      "B. The User is in a Custom hierarchy field.",
+      "C. The User is assigned in workflow email alert.",
+      "D. The User is the highest role in the role hierarchy"
+    ],
+    "answer": "A,C",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "The VP of Sales at Cloud Kicks is receiving an error message that prevents them form saving an\nOpportunity. The administrator attempted the same edit without receiving an error.\nHow can the administrator validate the error the user is receiving?",
+    "options": [
+      "A. Edit the page layout.",
+      "B. View the setup audit trail.",
+      "C. Review the sharing model",
+      "D. Log in as the user"
+    ],
+    "answer": "D",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "Aw Computing needs to capture a loss reason in rich text field when an opportunity is Closed\nlost.\nHow should an administrator configure this requirement?",
+    "options": [
+      "A. Select the requirement checkbox next to the loss reason field on the page layout.",
+      "B. Configure a workflow rule to display an error if Loss Reason is blank",
+      "C. Create a validation rule to display an error if stage is Closed lost and Loss Reason is blank.",
+      "D. Check the required checkbox on the Loss Reason field in Object Manger."
+    ],
+    "answer": "C",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "Sales raps at Ursa Solar are having difficulty managing deals. The leadership team has asked\nthe administrator to help sales reps prioritize and close more deals.\nWhat should the administrator and close more deals.",
+    "options": [
+      "A. Einstein Lead Scoring",
+      "B. Einstein Activity Capture",
+      "C. Einstein Opportunity Scoring",
+      "D. Einstein Search Personalization"
+    ],
+    "answer": "C",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "A sales rep has a list of 300 accounts with contacts that they want to load at one time.\nWhich tool should the administrator utilize to import the records to salesforce?",
+    "options": [
+      "A. Data Loader",
+      "B. Data Import Wizard",
+      "C. Dataloader.io",
+      "D. Manual Import"
+    ],
+    "answer": "B",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks (CK) is partnering with a used shoe store and second-hand bicycle emporium. CK\nhas an automated business process it wants to run once a week to count the number of open cases related to an account.\nHow should the administrator recommend automating this business process?",
+    "options": [
+      "A. Configure a scheduled flow in flow Builder.",
+      "B. Set up a scheduled process in Process Builder.",
+      "C. Create a workflow rule with an outbound message.",
+      "D. Use a process to update the account when it is edited"
+    ],
+    "answer": "C",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has a custom object named shoe. The administrator has been asked to ensure that when\na relationship is created between Account and shoe to prevent orphaned shoe records.\nWhat should the administrator do to complete this requirement?",
+    "options": [
+      "A. Create an encrypted lookup",
+      "B. Create a master-detail lookup.",
+      "C. Create an indirect lookup",
+      "D. Create a hierarchical lookup"
+    ],
+    "answer": "B",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "An Administrator supporting global team of salesforce users has been asked to configure the\ncompany settings\nWhich two options should the administrator configure?\nChoose 2 Answers",
+    "options": [
+      "A. Currency Local",
+      "B. Login Hours",
+      "C. Password Policy",
+      "D. Default Language"
+    ],
+    "answer": "A,D",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "A sales rep at Ursa Major Solar has launched a series of networking events. They are hosting\none event per month and want to be able to report on campaign ROI by month and series.\nHow should the administrator set up the Campaign to simplify reporting?",
+    "options": [
+      "A. Configure campaign Member Statuses to record which event members attended.",
+      "B. Use Campaign Hierarchy where the monthly events roll up to a parent Campaign",
+      "C. Create individual Campaigns that all have the same name.",
+      "D. Add different record types for the monthly event types."
+    ],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "AW Computing has six sales teams in a region. These teams always consists of the same account\nmanager, engineer, and assistant.\nWhat should the administrator configure to make it easier for teams to collaborate with the same\ncustomer?",
+    "options": [
+      "A. Enable account teams and show the users how to set up a default account team.",
+      "B. Create a queue for each team and assign account ownership to the queue.",
+      "C. Propose the users manually share all their accounts with their teammates.",
+      "D. Enable and configure standard opportunity teams with splits."
+    ],
+    "answer": "A",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks wants to update a screen flow so that if the checkbox field High Value Customer\nis set to true, the first screen is skipped and the user is directed to the second screen.\nHow should the administrator configure the decision element?",
+    "options": [
+      "A. Use the equals operator and \"High Value Customer\" as the value.",
+      "B. Use the contains operator and \"High Value Customer\" as the value",
+      "C. Use the equals operator and {!$GlobalConstant.True} as the value.",
+      "D. Use the contains operator and {!$GlobalConstant.False} as the value."
+    ],
+    "answer": "C",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities.\nThe VP of Sales requested that this information be accessible on the opportunity and available for\nreporting.\nWhich two options should the administrator configure to meet these requirements?\nChoose 2 answers",
+    "options": [
+      "A. Add the Opportunity Contact Role related list to the Opportunity page layout.",
+      "B. Customize Campaign Member Role.",
+      "C. Customize Opportunity Contact Role.",
+      "D. Add the Campaign Member related list to the Opportunity page layout.",
+      "E. Customize Campaign Role."
+    ],
+    "answer": "A,C",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at AW Computing has been asked to help the Support team with report folders. They want a folder called Support Reports and two folders underneath called Helpdesk and R&D. The Support organization uses public groups for Support Agents, R&D, and Managers. Support agents should be able to run Helpdesk reports, but should not be able to view R&D reports. Support managers should be able to view and edit all reports.\nWhich two ways should these folders be shared?\nChoose 2 answers",
+    "options": [
+      "A. hare the Support Reports folder with Support Agents with View Access.",
+      "B. Share the Support Reports folder with Support Managers with Edit Access.",
+      "C. Share the Helpdesk folder with Support Agents with View access.",
+      "D. Share the R&D folder with Support Managers with Edit Access."
+    ],
+    "answer": "B,C",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Ursa Major Solar has been asked to change the work Item and Project Custom\nObject Relationship from a master detail to a Lookup.\nWhich Scenario Could prevent the administrator from fulfilling this requirement?",
+    "options": [
+      "A. The Look-Up field is required for Saving Records.",
+      "B. The lookup field in all the records contains a value.",
+      "C. Roll-Up summary field sexist on the master object.",
+      "D. A junction object is required to support the lookup."
+    ],
+    "answer": "C",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks wants to allow customers to create their own cases while visiting its public\nhomepage.\nWhat should the administrator recommend?",
+    "options": [
+      "A. Omni-Channel",
+      "B. Web-to-Case",
+      "C. SMS Response",
+      "D. Email-to-Case"
+    ],
+    "answer": "B",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Dreamhouse Reality needs to Create Customized pages for the salesforce\nmobile app.\nWhich two types of pages could an administrator build and customize using the Lightning App Builder?\nChoose 2 Answers",
+    "options": [
+      "A. Record Page",
+      "B. Dashboard page",
+      "C. App page",
+      "D. User Page"
+    ],
+    "answer": "A,C",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a\nway to is identify these new records from existing Leads.\nWhat approach should an administrator take to meet this requirement?",
+    "options": [
+      "A. Set up Web-to-Lead form the interns use.",
+      "B. Define a record type and assign it to the interns.",
+      "C. Update the active Leas Assignment Rules.",
+      "D. Create a separate Lead Lightning App."
+    ],
+    "answer": "D",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "Dreamhouse realty wants to offer a form on its experience cloud site where inspectors will submit\nfindings from a property inspection.\nWhich feature should an administrator place on the page to fulfill this requirement?",
+    "options": [
+      "A. Related List",
+      "B. Screen Flow",
+      "C. Autolaunched Flow",
+      "D. Record Detail"
+    ],
+    "answer": "A",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks users are seeing error messages when they use one of their screen flows. The error\nmessages are confusing but could be resolved if the users entered more information on the account\nbefore starting the flow.\nHow should the administrator address this issues?",
+    "options": [
+      "A. use a fault connector and display a screen with text explaining what went wrong and how to correct\n         it.",
+      "B. Create a permission set to allow users to bypass the error.",
+      "C. Uncheck the end user Flow Errors box in setup.",
+      "D. Remove validation rules so that the users are able to process without complete records."
+    ],
+    "answer": "A",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator for Cloud Kicks has created a screen flow to help service reps ask the same set\nof questions when customers call in with issues. This screen should be visible from cases.\nHow should the screen flow be distributed?",
+    "options": [
+      "A. Component Filter",
+      "B. Lightning page",
+      "C. Home page",
+      "D. Page Layout"
+    ],
+    "answer": "B",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "What are two considerations an administrator should keep in mind when working with Salesforce objects?\nChoose 2 answers",
+    "options": [
+      "A. Only standard objects support master-detail relationships.",
+      "B. Custom and standard objects have standard fields.",
+      "C. Standard objects are included with Salesforce.",
+      "D. A new standard object can be created."
+    ],
+    "answer": "B,C",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Universal Containers needs a simple way to trigger an alert to the director of\nsales when opportunities reach an amount of $500,000.\nWhat should the administrator configure to meet this requirement?",
+    "options": [
+      "A. Enable Opportunity Update Reminders",
+      "B. Opportunity warning in Kanban View.",
+      "C. Key Deals component on the homepage",
+      "D. Set up Big Deal Alerts for the amount."
+    ],
+    "answer": "D",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "Executives at Cloud Kicks have reported that their dashboards are showing inaccurate dat\na. The\nadministrator has discovered been changing the source reports.\nWhich two actions should the administrator take to preserve the integrity of the source reports?\nChoose 2 answers",
+    "options": [
+      "A. Create a new report folder with viewer access.",
+      "B. Change the dashboard to be a dynamic dashboard",
+      "C. Move the dashboard to the user's private folder.",
+      "D. Move the dashboard reports to the view-only folder."
+    ],
+    "answer": "A,D",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Universal Containers has been asked to prevent users from accessing Salesforce from outside of their network.\nWhat are two considerations for this configuration?\nChoose 2 answers",
+    "options": [
+      "A. Assign single sign-on to a permission set to allow users to log in when outside the network.",
+      "B. Restrict U2F Security Keys on the user's profile to enforce login hours.",
+      "C. IP address restrictions are set on the profile or globally for the org.",
+      "D. Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions."
+    ],
+    "answer": "C,D",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to encourage employees to choose secure and appropriate passwords for their Salesforce accounts.\nWhich three password policies should an administrator configure?\nChoose 3 answers",
+    "options": [
+      "A. Require use of Password Manager App",
+      "B. Password complexity requirements",
+      "C. Prohibited password values",
+      "D. Maximum invalid login attempts",
+      "E. Number of days until expiration"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "A user at Cloud Kicks is having issues logging in to Salesforce. The user asks the administrator\nto reset their password.\nWhich two options should the administrator consider when resetting the user's password?\nChoose 2 answers",
+    "options": [
+      "A. Resetting the password will change the user's password policy.",
+      "B. Single sign-on users can reset their own passwords using the forgot password link.",
+      "C. Resetting a locked-out user's password automatically unlocks the user's account.",
+      "D. After resetting a password, the user may be required to activate their device to successfully log"
+    ],
+    "answer": "C,D",
+    "title": "Question 27",
+    "explanation": "in to Salesforce."
+  },
+  {
+    "content": "The Cloud kicks sales manager wants to boost productivity by providing insights at the start\nof each day.\nWhich three sales-specific standard Lightning components should administrator add to the homepage\nto meet this requirement?\nChoose 3 Answers.",
+    "options": [
+      "A. Assistant",
+      "B. Performance chart.",
+      "C. Path",
+      "D. Activities",
+      "E. Key Deals"
+    ],
+    "answer": "C",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator use as an identifier when importing and updating records from a\nseparate financial system?",
+    "options": [
+      "A. Record ID",
+      "B. Rich text field",
+      "C. Auto-Number field?",
+      "D. External ID"
+    ],
+    "answer": "D",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator Creates a custom text area field on the Account object and adds it to the service\nteam's page layout. The services team manager loves the addition of this field and wants it to appear\nin the highlights panel so that the services reps can quickly find it when on the Account Page\nHow should the administrator accomplish this?",
+    "options": [
+      "A. Make the field required and move it to the top of the page.",
+      "B. Create a new page layout and a new section titled highlights panel.",
+      "C. From the page layout editor, drag the field to the highlights panel.",
+      "D. In the Account object manager, create a custom compact layout."
+    ],
+    "answer": "D",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "Which three aspects of standard fields should an administrator customize?\nChoose 3 answers",
+    "options": [
+      "A. Picklist Values",
+      "B. Field name",
+      "C. Help Text",
+      "D. Decimal Places",
+      "E. Field history tracking"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "Sales Users at Cloud Kicks are requesting that the data in the industry field on the Account object\ndisplays on the Opportunity page layout.\nWhich type of the field should an administrator create to accomplish this?",
+    "options": [
+      "A. Cross Object Formula Field",
+      "B. Standard Account Field.",
+      "C. Custom Account Field",
+      "D. Master detail relationship Field"
+    ],
+    "answer": "A",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers is trying to improve the user experience when searching for the tight status on a case. The company currently has one support process that is used for all record types on cases. The\nsupport process has 10 status values. Service reps say they never need more than five depending on what kind of case they are working on.\nHow should the administrator improve on the current implementation?",
+    "options": [
+      "A. Create a Screen Flow that shows only the correct values for status and surface the flow in the utility\n         bar of the console.",
+      "B. Review which status choices are needed for each record type and create support processes for each\n         that is necessary.",
+      "C. Reduce the number of case status values to five.",
+      "D. Edit the status choices directly on the record type."
+    ],
+    "answer": "B",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Cloud Kicks has created an approval process for time off requests.\nWhich two automated actions are available to be added as part of the approval process?\nChoose 2 answers",
+    "options": [
+      "A. Chatter Post",
+      "B. Email Alert",
+      "C. Auto launched Flow",
+      "D. Field Update"
+    ],
+    "answer": "B,D",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar wants to know which of its marketing efforts are helping the team win Opportunities.\nWhat should an administrator configure to provide these insights?",
+    "options": [
+      "A. Map Custom Lead Fields",
+      "B. Campaign Influence",
+      "C. Campaign Hierarchy.",
+      "D. List Email Activities"
+    ],
+    "answer": "B",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "The Call centre manager in Ursa Major Solar wants to provide agents with a case dashboard\nthat can be drilled down by case origin, status and owner.\nWhat should an Administrator add to the dashboard to fulfil the request?",
+    "options": [
+      "A. Bucket column",
+      "B. Dashboard Filter",
+      "C. Combination Chart",
+      "D. Dashboard component"
+    ],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud kicks wants to track shoe designs by products. Shoe designs should be unable to be deleted,\nand there can be multiple design for one product across various stages.\nWhich two steps should the administration configure to meet this requirement?\nChoose 2 answers",
+    "options": [
+      "A. Create a Custom Object for shoe design.",
+      "B. Use the Standard Object for designs.",
+      "C. Configure a Custom Lookup Field for shoe design on the product object.",
+      "D. Add a custom master detail field for shoe design on the Product Object."
+    ],
+    "answer": "A,D",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers requires a different Lightning page to be displayed when Accounts are\nviewed in the Sales Console and in the Service Console.\nHow should an administrator meet this requirement?",
+    "options": [
+      "A. Update page layout assignments.",
+      "B. Define multiple record types.",
+      "C. Assign Lightning pages as app default.",
+      "D. Create different user profiles."
+    ],
+    "answer": "A",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "The service manager at Ursa Major Solar wants to let customers know that they have received\ntheir cases via email and their websites. Medium-priority and high-priority cases should receive different\nemail notifications than low-priority cases. The administrator has created three email templates for this\npurpose.\nHow should an administrator configure this requirement?",
+    "options": [
+      "A. Create one auto-response rule. Configure three rule entry criteria and set a filter for case priority.\n         Select the appropriate email template for each rule entry.",
+      "B. Add three auto-response rules. Configure one rule entry criteria for each rule and set a filter for case\n         priority. Select the appropriate email template for each rule entry.",
+      "C. Include three assignment rules that fire when cases are created. Add a filter for case priority. Select\n         the appropriate email template for each rule.",
+      "D. Configure one workflow rule that fires when cases are created. Add a filter for case priority. Select\n         the appropriate email template for the rule."
+    ],
+    "answer": "A",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Universal Containers is reviewing current security settings in the company's\nSalesforce org.\nWhat Should the administrator do to prevent unauthorized access to Salesforce?",
+    "options": [
+      "A. Enable multi factor authentication",
+      "B. Customize organization wide default",
+      "C. Disable TLS requirements for sessions.",
+      "D. Enable caching and autocomplete on login page"
+    ],
+    "answer": "A",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has asked the administrator to test a new screen flow that create contacts.\nWhat are two key components of testing the flow?\nChoose 2 answers",
+    "options": [
+      "A. Use Debug to test the flow in Flow Builder.",
+      "B. Set Up a flow interview to test the flow.",
+      "C. Run the flow using it to create contacts.",
+      "D. Test the flow in a sandbox."
+    ],
+    "answer": "C,D",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at cloud kicks has been told that users are unable to add repeating tasks\nin salesforce.\nWhich two solutions the administrator use to ensure users are able to do this?\nChoose 2 Answers",
+    "options": [
+      "A. Turn on Task Notifications service.",
+      "B. Add create Recurring series of Tasks field on Page Layouts",
+      "C. Enable creation of Recurring Tasks in Activity Settings",
+      "D. Disable shares Activities."
+    ],
+    "answer": "B,C",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has enabled Data Protection and Privacy for its org.\nWhich page layouts will have the Individual field available for tracking data privacy information?",
+    "options": [
+      "A. Account and User",
+      "B. Case and Opportunity",
+      "C. Individual, User, and Account",
+      "D. Contact, Lead, and Person Account"
+    ],
+    "answer": "A",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "The Administrator at Cloud Kicks need to automatically route support cases, regardless of\nhow they are created, to a queue based on case priority.\nWhat tool should the administrator use?",
+    "options": [
+      "A. Auto-Response Rules",
+      "B. Assignment Rules",
+      "C. Email-to-Case",
+      "D. Web-to-case"
+    ],
+    "answer": "B",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar wants to automatically notify a manager about any cases awaiting a response\nfrom an agent for more than 2 hours after case creation.\nWhich feature should an administrator use to fulfill this requirement?",
+    "options": [
+      "A. Assignment Rule",
+      "B. Omni-Channel Supervisor",
+      "C. Formula Field",
+      "D. Case Escalation Rule"
+    ],
+    "answer": "D",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Ursa Major Solar has created a custom report type and built a report for\nsales operation team. However, none of the user are able to access the report.\nWhich two options could cause this issue?\nChoose 2 Answers",
+    "options": [
+      "A. The user's profile is missing view access.",
+      "B. The report is saved in a private folder",
+      "C. The custom report type is in development.",
+      "D. The org has reached its limit of custom report types."
+    ],
+    "answer": "A,B",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers administrator has been asked to create a many-to-many relationship\nbetween two existing custom objects.\nWhich two steps should the administrator take when enabling the many-to-many relationship?\nChoose 2 answers",
+    "options": [
+      "A. Create two lookup relationships on the new object.",
+      "B. Create a junction with a custom object.",
+      "C. Create URL fields on a custom object.",
+      "D. Create two master detail relationships on the new object."
+    ],
+    "answer": "B,D",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud kicks has the organization-wide sharing default set to private on the shoe object. The\nsales manager should be able to view a report containing shoe records for all of the sales reps on their\nteam.\nWhich 3 items should the administrator configure to provide appropriate access to the report?\nChoose 3 answers",
+    "options": [
+      "A. Custom report type.",
+      "B. Field level security",
+      "C. Report subscription",
+      "D. Folder access"
+    ],
+    "answer": "B,D",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to\nmove forward Win unable to enter previous stage.\nWhich three options should the administrator use to address this need?\nChoose Three answers",
+    "options": [
+      "A. Mark fields required on the page layout.",
+      "B. Enable guided selling.",
+      "C. Use Flow to mark fields required.",
+      "D. Configure Opportunity Path.",
+      "E. Use Validation Rules."
+    ],
+    "answer": "C,D,E",
+    "title": "Question 49",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Reality needs to use consistent picklist value on a category filed on accounts\nand cases, with value respective to record types.\nWhich two features should the administrator use to fulfill this requirement?\nChoose 2 Answers",
+    "options": [
+      "A. Custom Picklist",
+      "B. Dependent Picklist",
+      "C. Multi-Select Picklist",
+      "D. Global Picklist"
+    ],
+    "answer": "A,D",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has a custom object called Shipments. The Company wants to see all the\nshipment items from an Account page. When an Account is deleted, the shipments should remain.\nWhat type of relationship should the administrator make between Shipments and Account?",
+    "options": [
+      "A. Accounts should have a master-detail to Shipments.",
+      "B. Shipments should have a lookup to Account.",
+      "C. Accounts should have a lookup to Shipments.",
+      "D. Shipments should have a master-detail to Accounts."
+    ],
+    "answer": "B",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar uses two different page layouts for Account records. One page layout reflects the\nfields related to customer accounts and another page layout includes fields for partner accounts. The\nadministrator has assigned the customer account page layout to sales and support users and the partner\naccount layout to the partner management team.\nWhat should the administrator configure to meet this requirement?",
+    "options": [
+      "A. Grant create, read, edit and delete access to customer accounts on the partner team profile.",
+      "B. Create one record type for customer accounts and one record type for partner accounts.",
+      "C. Use a public group and a criteria-based sharing rule to share customer accounts with the partner\n         team.",
+      "D. Add members of the partner management team to the default Account team for the customer\n         accounts."
+    ],
+    "answer": "B",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar has service level agreements (SLA) that are routed to support queues. Cases that meet the 24 hour SLA need to be automatically re-assigned to the next tier queue.\nWhich feature should be used to fulfill this requirement?",
+    "options": [
+      "A. Case escalation rule",
+      "B. Case assignment rule",
+      "C. Auto-response rule",
+      "D. Einstein Case Routing"
+    ],
+    "answer": "A",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "AW Computing (AWC) occasionally works with independent contractors, who the company\nstores as Contacts in Salesforce. Contractors often change agencies, and AWC wants to maintain the\nhistorical accuracy of the record.\nWhat should AWC use to track Contacts?",
+    "options": [
+      "A. Create a new Contact record for each agency.",
+      "B. Create a Junction object to track many-to-many relationship.",
+      "C. Use a partner community to track the Contacts.",
+      "D. Enable Contacts to multiple Accounts."
+    ],
+    "answer": "D",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks want to have consistency when communication with customers on cases. The\ncompany has requested messages to be sent in an email channel with categories to help search for the\nproper message.\nwhich Solution Should be administrator suggest to meet this requirement?",
+    "options": [
+      "A. Prebuilt Email Templates.",
+      "B. Prebuilt Quick Texts",
+      "C. Prebuilt Auto-Responses.",
+      "D. Prebuilt Flow Templates."
+    ],
+    "answer": "C",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse reality has an approval process. A manager attempts to approve the record but\nreceives an error.\nWhat should an administrator review to troubleshoot this request?",
+    "options": [
+      "A. Review the page layout to ensure, the fields updated in the process are visible",
+      "B. Add a delegated approver for the next approver in the process.",
+      "C. Update the field level security to view on fields that are updated in the process.",
+      "D. Check if the user in the next approver is inactive or missing"
+    ],
+    "answer": "D",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "Dreamhouse Realty agents are double-booking open house event nights. The evet manager\nwants to event submission process to help agents fill in event details and request dates.\nHow should an administrator accomplish the request?",
+    "options": [
+      "A. Create an approval process on the Campaign object.",
+      "B. Create a sharing rule so that other agents can view events.",
+      "C. Create a workflow role to update the Event Date Field.",
+      "D. Create a campaign for agents to request event dates."
+    ],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Cloud Kicks has been asked to replace two old workflow rules that are doing\nsimple field updated when a lead is created to improve processing time.\nWhat tool should the administrator use to replace the workflow rules?",
+    "options": [
+      "A. Scheduled Flow",
+      "B. Screen Flow",
+      "C. Quick Action Flow",
+      "D. Before Save Flow"
+    ],
+    "answer": "D",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator created a record trigger flow to update contacts.\nHow should the administrator reference the values of the active record the flow is running on?",
+    "options": [
+      "A. Use the {!Account.Id} record variable.",
+      "B. Use the Get Records element to find the Id.",
+      "C. Use the {!Contact.Id} global variable.",
+      "D. Use the $Record global variable."
+    ],
+    "answer": "D",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator for AW Computing is working with a user who is having trouble logging\nin to salesforce.\nWhat should the administrator do to identify why the user is unable to login?",
+    "options": [
+      "A. Review the Login history",
+      "B. Review the Password policies.",
+      "C. Review the Security token.",
+      "D. Review the password history."
+    ],
+    "answer": "C",
+    "title": "Question 60",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks wants users to only be able to choose Opportunity stage closed won if the Lead\nsource has been selected.\nHow should the administrator accomplish this goal?",
+    "options": [
+      "A. Change the Opportunity stage field to read only on the page layout.",
+      "B. Modify the Opportunity stage a dependent picklist to the Lead source field.",
+      "C. Make Lead Source a dependent picklist to the Opportunity stage field.",
+      "D. Configure a validation rule requiring Lead Source when the stage is set to closed won."
+    ],
+    "answer": "D",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Container wants to prevent its service team from accessing deal records. While\nservice users are unable to access deal list views, they are able to find the deal records via a search.\nWhat options should the administrator adjust to fully restrict access?",
+    "options": [
+      "A. App permissions and search terms",
+      "B. Permissions and tab visibility",
+      "C. Record setting and search index",
+      "D. Page layouts and field- level security"
+    ],
+    "answer": "D",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "At Universal Containers, there is a custom field on the Lead named Product Category. Management wants this information to be part of the Opportunity upon lead conversion.\nWhat action should the administrator take to satisfy the request?",
+    "options": [
+      "A. Create a custom field on the Opportunity and map the two fields.",
+      "B. Map the lead custom field to the product's product category field.",
+      "C. Create a workflow to update Opportunity fields based on the lead.",
+      "D. Configure the product categories picklist field on the product."
+    ],
+    "answer": "B",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "The business development team at Cloud Kicks thinks the account creation process has too many\nfields to fill out and the page feels cluttered. They have requested the administrator to simplify the\nprocess.\nWhich automation tool should an administrator use?",
+    "options": [
+      "A. Approval process",
+      "B. Workflow rule",
+      "C. Validation rule",
+      "D. Flow builder"
+    ],
+    "answer": "D",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Ursa Major Solar has Created a new record type for customer warranty cases\nwhich two assignments should the administrator use to display the new record type to users?\nChoose 2 answers",
+    "options": [
+      "A. Profile Assignment",
+      "B. Page layout Assignment.",
+      "C. App Manager Assignment.",
+      "D. Role Assignment"
+    ],
+    "answer": "B",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "The marketing team wants a new picklist value added to the Campaign Member Status field for\nthe upsell promotional campaign.\nWhich two solutions should the administrator use to modify the picklist field values?\nChoose 2 answers",
+    "options": [
+      "A. Edit the picklist values for the Campaign Status in object Manager.",
+      "B. Mass modify the Campaign Member Statuses related list.",
+      "C. Modify the picklist value on the Campaign Member Statuses related list",
+      "D. Add the Campaign Member Statuses related list to the Page Layout."
+    ],
+    "answer": "A,D",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks wants to try out an app from the AppExchange to ensure that the app meets its needs.\nWhich two options should the administrator suggest?\nChoose two answers",
+    "options": [
+      "A. Install in a sandbox.",
+      "B. Check edition compatibility.",
+      "C. Download into a Trailhead Playground.",
+      "D. Test Drive in a production org."
+    ],
+    "answer": "A,C",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "New Leads needs to be routed to the correct sales person based on the lead address.\nHow should the administrator configure this requirement?",
+    "options": [
+      "A. Configure a validation rule",
+      "B. Use lead assignment rules.",
+      "C. Assign with an escalation rule.",
+      "D. Create formula field."
+    ],
+    "answer": "B",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at AW Computing wants to send off client welcome tasks and a welcome email to\nthe primary contact automatically when an Opportunity is Closed won.\nWhat automation tool best accomplishes this?",
+    "options": [
+      "A. Approval Process",
+      "B. Outbound Message",
+      "C. Process Builder",
+      "D. Validation Rule"
+    ],
+    "answer": "C",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "The events manager at dream house realty has a hot lead from a successful open house that\nneeds to become a contact with an associated opportunity.\nHow should this be accomplished from the campaign keeping the associated campaign member\nhistory?",
+    "options": [
+      "A. Add a contact from a campaign member detail page.",
+      "B. Clone the lead and convert the cloned record to a contact.",
+      "C. Delete the lead and create a new contact and opportunity.",
+      "D. Convert the lead from the campaign member detail page."
+    ],
+    "answer": "D",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "The sales manager at cloud Kicks approves time off for their employees. They asked the\nadministrator to ensure these requests are seen and responded to by a backup manager while the sales\nmanager is out on vacation.\nWhat should administrator use to fulfill the requirement?",
+    "options": [
+      "A. Approval history related list",
+      "B. Two step Approval process",
+      "C. Delegated approver",
+      "D. Delegated Administrator"
+    ],
+    "answer": "C",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has a Customer success agent going on leave and needs to change ownership on multiple\ncases.\nWhich two users are able to fulfill this request?\nChoose 2 answers",
+    "options": [
+      "A. A user with manager role above the agent.",
+      "B. A user with the Manage Cases Permission",
+      "C. A user with Read Permission on account.",
+      "D. A user with the System Administrator profile."
+    ],
+    "answer": "B,D",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "When users log in to Salesforce via the user interface, which two settings does the system check\nfor authentication?\nChoose 2 answers",
+    "options": [
+      "A. The role IP address restrictions",
+      "B. The user's profile login hours restrictions",
+      "C. The user's Two-Factor Authentication for API Logins permission",
+      "D. The user's Two-Factor Authentication for User Interface Logins permission"
+    ],
+    "answer": "A,C",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters has a new flow that automatically sets the field values when a new\naccount is created. That the flow is launched by a process, But the flow is not working properly.\nWhat should administrator do to identify the problem?",
+    "options": [
+      "A. Review debug logs with the login level.",
+      "B. View the setup audit Trail and review for errors.",
+      "C. Setup Email logs and review the send error log.",
+      "D. Use the native debug feature in the flow builder."
+    ],
+    "answer": "D",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "Dreamhouse Reality just announced its new home concierge offering. This product is unlike\nanything the company has offered in the past and follows a different business model.\nWhat Should the administrator Configure to meet this requirement?",
+    "options": [
+      "A. Create a new Opportunity product.",
+      "B. Create a quick action.",
+      "C. Create a new sales process.",
+      "D. Create a new approval process."
+    ],
+    "answer": "C",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to initiate expense reports from Salesforce to the external HR\nsystem. This process needs to be reviewed by managers and directors.\nWhich two tools should and administrator configure?\nChoose 2 answers",
+    "options": [
+      "A. Approval Process",
+      "B. Outbound Message",
+      "C. Email Alert Action",
+      "D. Quick Action"
+    ],
+    "answer": "A,B",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) customers have provided feedback that their support cases are not\nbeing responded to quickly enough. UC wants to send all unassigned Cases that have been open for\nmore than two hours to an urgent Case queue and alert the support manager.\nWhich feature should an administrator configure to meet this requirement?",
+    "options": [
+      "A. Case Dashboard Refreshes",
+      "B. Case Scheduled Report",
+      "C. Case Escalation Rules",
+      "D. Case Assignment Rules"
+    ],
+    "answer": "D",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "Northern trail Outfitter wants to use contract hierarchy in its or to display contact association.\nWhat should the administrator take into consideration regarding the contact hierarchy?",
+    "options": [
+      "A. Sharing setting are ignored by contacts displayed in the Contact Hierarchy.",
+      "B. Contact Hierarchy is limited to only 3,000 contacts at one time.",
+      "C. Customizing hierarchy columns changes the recently viewed Contacts list view.",
+      "D. Contacts displays in the contact hierarchy are limited to record-level access by User."
+    ],
+    "answer": "D",
+    "title": "Question 78",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Northern Trail Outfitters is unable to add a new user in salesforce.\nWhat could cause this issue?",
+    "options": [
+      "A. The Username is already in use.",
+      "B. The Username is a fake email address.",
+      "C. The Username is not a corporate email address",
+      "D. The username is less than 80 characters."
+    ],
+    "answer": "A",
+    "title": "Question 79",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator has been asked to change the data type of an auto number to text field.\nWhat should the administrator be aware of before changing the field?",
+    "options": [
+      "A. Existing field values will remain unchanged.",
+      "B. Existing field values will be Converted.",
+      "C. Existing auto number field to Text is prevented.",
+      "D. Existing field values will be deleted."
+    ],
+    "answer": "A",
+    "title": "Question 80",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator has been asked to update a flow that was created as part of a recent update. When\nthe administrator opens the flow for editing, the Flow toolbox offers only four elements: Assignment,\nDecision, Get Records, and Loop.\nWhat would cause this?",
+    "options": [
+      "A. The flow is a before save flow.",
+      "B. The flow is a screen flow.",
+      "C. The version of the flow is inactive.",
+      "D. The version of the flow is activated."
+    ],
+    "answer": "A",
+    "title": "Question 81",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to calculate how much revenue has been generated for each of its\nmarketing campaigns.\nHow should an administrator deliver this information?",
+    "options": [
+      "A. Perform periodic data job to update campaign records.",
+      "B. Create a roll-up summary field on Opportunity to Campaign.",
+      "C. Add a Total Value Field on campaign and use a workflow rule to update the value when an opportunity is won.",
+      "D. Design a standard Campaign report and add the value Won Opportunities in Campaign field."
+    ],
+    "answer": "D",
+    "title": "Question 82",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters has requested that when the Referral Date field is updated on the\ncustom object Referral Source, the parent object Referral also needs to be updated.\nWhich automation solution should an administrator use to meet this request?",
+    "options": [
+      "A. Lightning Web Component",
+      "B. Approval Process",
+      "C. Process Builder",
+      "D. Workflow Field Update"
+    ],
+    "answer": "C",
+    "title": "Question 83",
+    "explanation": ""
+  }
+]

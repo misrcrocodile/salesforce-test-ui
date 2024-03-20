@@ -1,0 +1,2355 @@
+[
+  {
+    "content": "There are many dashboard components from SF Labs including the Apex Dashboard Kit which can be installed:",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "Customizable Forecasting cannot be enabled for use with Custom Fiscal Years",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a way to is identify these new records from existing Leads.\nWhat approach should an administrator take to meet this requirement?",
+    "options": [
+      "A. Set up Web-to-Lead form the interns use.",
+      "B. Create a separate Lead Lightning App.",
+      "C. Update the active Leas Assignment Rules.",
+      "D. Define a record type and assign it to the interns."
+    ],
+    "answer": "D",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "AW Computing has six sales teams in a region. These teams always consists of the same account manager, engineer, and assistant.\nWhat should the administrator configure to make it easier for teams to collaborate with the same customer?",
+    "options": [
+      "A. Create a queue for each team and assign account ownership to the queue.",
+      "B. Enable account teams and show the users how to set up a default account team.",
+      "C. Enable and configure standard opportunity teams with splits.",
+      "D. Propose the users manually share all their accounts with their teammates."
+    ],
+    "answer": "B",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "In order to enable multi-currency feature in Salesforce, you must",
+    "options": [
+      "A. Check the Enable Multi-currency checkbox in your Chatter profile",
+      "B. Contact Salesforce.com",
+      "C. You cannot enable this feature once you've implemented Salesforce.",
+      "D. Operate your business in at least two different countries"
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "Who can invite Chatter customers into a Chatter group?",
+    "options": [
+      "A. Group owner",
+      "B. The system admin",
+      "C. All Chatter users",
+      "D. None of the above"
+    ],
+    "answer": "A,B",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "On which of these areas Data Validation rules are enforced but no feedback is given to users?",
+    "options": [
+      "A. SalesForce Mobile",
+      "B. Self Service Portal",
+      "C. Web-TO-Case",
+      "D. Lead Convert",
+      "E. Record Merger"
+    ],
+    "answer": "C",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "Dreamhouse Reality just announced its new home concierge offering. This product is unlike anything the company has offered in the past and follows a different business model.\nWhat Should the administrator Configure to meet this requirement?",
+    "options": [
+      "A. Create a quick action.",
+      "B. Create a new approval process.",
+      "C. Create a new Opportunity product.",
+      "D. Create a new sales process."
+    ],
+    "answer": "D",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following records can not be mass transferred?",
+    "options": [
+      "A. Closed Activities",
+      "B. Open Cases",
+      "C. Open Activities",
+      "D. Closed Cases"
+    ],
+    "answer": "A",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "An Approval Process begins when a record is:",
+    "options": [
+      "A. Edited",
+      "B. Created",
+      "C. Saved",
+      "D. Submitted for Approval"
+    ],
+    "answer": "D",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "An Administrator at DreamHouse Realty wants an easier way to assign an agent capacity and\nskill set. Which feature should the administrator enable to meet this requirement?",
+    "options": [
+      "A. Knowledge Management.",
+      "B. Escalation Rules",
+      "C. Territory Manag",
+      "D. Omni-Channel"
+    ],
+    "answer": "D",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "A sales rep has a list of 300 accounts with contacts that they want to load at one time.\nWhich tool should the administrator utilize to import the records to salesforce?",
+    "options": [
+      "A. Manual Import",
+      "B. Data Import Wizard",
+      "C. Dataloader.io",
+      "D. Data Loader"
+    ],
+    "answer": "B",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Which Type of Reports can't be used to create groups of data or charts?",
+    "options": [
+      "A. Matrix",
+      "B. None of the Above",
+      "C. Summary",
+      "D. Tabular"
+    ],
+    "answer": "D",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "When a Lead is converted, an Account, Contact and _______ record are created.",
+    "options": ["A. Case", "B. Opportunity", "C. Lead", "D. Campaign"],
+    "answer": "B",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at universal containers has a screen flow that helps users create new leads.\nWhen lead source is \"Search Engine\", the administrator needs to require the user to choose a specific\na search engine from a picklist. If lead source is not \"Search Engine\", this picklist should be hidden.\nHow should the administrator complete this requirement?",
+    "options": [
+      "A. Configure a picklist for specific search engine, and use a validation rule to conditionally show only\n         when lead source is \"Search Engine\"",
+      "B. Assign a decision element to direct the user to a second screen to hold specific search engine only\n         when a lead source is \"Search Engine\".",
+      "C. Create a picklist for specific search engine, and set conditional visibility so that is only shown\n         when lead source is \"Search Engine\".",
+      "D. Use an assignment element, one for when lead source is \"Search Engine\" and one for everything\n         else."
+    ],
+    "answer": "B",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to track ROI for contacts that are key stakeholders for opportunities.\nThe VP of Sales requested that this information be accessible on the opportunity and available for reporting.\nWhich two options should the administrator configure to meet these requirements?\nChoose 2 answers",
+    "options": [
+      "A. Customize Opportunity Contact Role.",
+      "B. Add the Opportunity Contact Role related list to the Opportunity page layout.",
+      "C. Add the Campaign Member related list to the Opportunity page layout.",
+      "D. Customize Campaign Member Role.",
+      "E. Customize Campaign Role."
+    ],
+    "answer": "A,B",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "According to Sales Force, console is not for occasional users of SalesForce. The console is best set up for users who view SalesForce for 3 or more hours a day.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "Define the Matrix Report.",
+    "options": [],
+    "answer": "",
+    "title": "Question 18",
+    "explanation": "Summarizes\n data in a grid against\n horizontal and vertical\n criteria. Matrix reports\n provid\n totals for both rows and columns. Matrix reports may also be used to support dashboard components."
+  },
+  {
+    "content": "An administrator at Dreamhouse Reality needs to Create Customized pages for the salesforce mobile app.\nWhich two types of pages could an administrator build and customize using the Lightning App Builder?\nChoose 2 Answers",
+    "options": [
+      "A. Dashboard page",
+      "B. Record Page",
+      "C. App page",
+      "D. User Page"
+    ],
+    "answer": "B,C",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Maximum number of values allowed in a controlling field is:",
+    "options": ["A. 100", "B. 200", "C. 300", "D. 500"],
+    "answer": "C",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "The sales team at Ursa Major Solar has asked the administrator to automate an outbound message.\nWhat should the administrator utilize to satisfy the request?",
+    "options": [
+      "A. Flow builder",
+      "B. Task assignment",
+      "C. Workflow rule",
+      "D. Process builder"
+    ],
+    "answer": "A",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) has a queue that is used for managing tasks that need to be worked by the\nUC customer support team. The same team will now be working some of UC's Cases.\nWhich two options should the administrator use to help the support team?\nChoose 2 answers",
+    "options": [
+      "A. Add Cass to the existing queue as available object.",
+      "B. Configure a flow to assign the cases to the queue.",
+      "C. Use assignment rules to set the queue as the owner of the case.",
+      "D. Create a new queue and add Cases as an available object."
+    ],
+    "answer": "B,C",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "You can create the following Email Template Formats: Choose 4",
+    "options": [
+      "A. XML Templates",
+      "B. Text",
+      "C. HTML with Letterhead",
+      "D. Custom HTML",
+      "E. Visual Force"
+    ],
+    "answer": "B,C,D,E",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following can be used to create a back up of data from Salesforce?",
+    "options": [
+      "A. Weekly Data Export",
+      "B. Dashboards",
+      "C. Reports",
+      "D. Import Wizard",
+      "E. Data Loader"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "As a system administrator you can create page layout in the console and assign it to profiles.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "Which two objects are customizable the Stage Setup Flow?\nChoose 2 answers",
+    "options": [
+      "A. Leads",
+      "B. Campaigns",
+      "C. Campaign Members",
+      "D. Opportunities"
+    ],
+    "answer": "A,D",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "A Look-up field can look up to what?",
+    "options": ["A. A field", "B. A report", "C. A record", "D. An Object"],
+    "answer": "C",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "Is it possible for a Page layout to be associated with a Record Type.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "A _________ defines a collection of settings and permissions that determines what users can see in the user interface, and what they can do.",
+    "options": [
+      "A. Chatter feed",
+      "B. Company Profile",
+      "C. Role",
+      "D. Profile"
+    ],
+    "answer": "D",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "Roles are available in Personal and Group edition",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "Clod Kicks has the organization wide defaults for Opportunity set to private.\nwhich two features should the administrator use to open up access to Opportunity records for sales users working on collaborative deals?\nChoose 2 answers",
+    "options": [
+      "A. Profiles",
+      "B. Sharing set",
+      "C. Role hierarchy",
+      "D. Sharing rules"
+    ],
+    "answer": "C,D",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Container wants to prevent its service team from accessing deal records. While service users are unable to access deal list views, they are able to find the deal records via a search.\nWhat options should the administrator adjust to fully restrict access?",
+    "options": [
+      "A. App permissions and search terms",
+      "B. Record setting and search index",
+      "C. Page layouts and field- level security",
+      "D. Permissions and tab visibility"
+    ],
+    "answer": "C",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "Where do you go to create a List View so that you can see it on the Console, under the Accounts object?",
+    "options": [
+      "A. Create a list view on the Console",
+      "B. Create a field on the Console",
+      "C. Create a list view on Accounts",
+      "D. Create a list view on Contacts"
+    ],
+    "answer": "C",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "Which of following is granted by the Manage Cases Permission (Select all that apply)?",
+    "options": [
+      "A. Set support business hours",
+      "B. Create,Edit, and Delete custom fields on the Case Object",
+      "C. Edit the Support settings",
+      "D. Mass Transfer Cases",
+      "E. Set up Email-to-Case"
+    ],
+    "answer": "A,C,D,E",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "The org wide default is set to private. Phil smith the owner of ABC account is a US Sales Rep reporting to the US Sales Director. The users in the US sales rep role can edit ALL opportunities associated with the accounts they own. Tim an EMEA sales rep owns an opportunity associated with the ABC account. Identify the correct role access.",
+    "options": [
+      "A. TIM cannot VIEW / EDIT phils account",
+      "B. Tim can VIEW but cannot EDIT phils account.",
+      "C. Phil can EDIT and VIEW Tims ABC opportunity",
+      "D. Phil can view but cannot edit Tims ABC opportunity",
+      "E. Tim can VIEW and EDIT Phils account"
+    ],
+    "answer": "B,C",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "When looking at a vertical column chart, what can a user click on to drill down to a filtered source report? Choose 3 answers",
+    "options": [
+      "A. The X- axis",
+      "B. Individual groups",
+      "C. Legend entries",
+      "D. The Y - axis",
+      "E. Component header"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "Can you set Standard and Custom fields as unique or required using the Property feature?",
+    "options": [],
+    "answer": "",
+    "title": "Question 37",
+    "explanation": "No, only\n custom fields."
+  },
+  {
+    "content": "In order to import Opportunity records into Salesforce, a system administrator may use the Import Wizard.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "When using Territory Management, can an opportunity be associated with multiple territories?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "B",
+    "title": "Question 39",
+    "explanation": "Accounts and Users can be associated with multiple opportunities but Opportunities can only be in one territory."
+  },
+  {
+    "content": "DreamHouse Realty regularly processes customer requests for warranty work and would like to offer customers a self-serve option to generate cases.\nWhich two solutions should an administrator use to meet this request?\nChoose 2 answers",
+    "options": [
+      "A. Web-to-Case",
+      "B. Case Escalation",
+      "C. Email-to-Case",
+      "D. Case Queues"
+    ],
+    "answer": "A,C",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "What type of relationship must exist if you would like the child record to remain if the parent is deleted?",
+    "options": [],
+    "answer": "",
+    "title": "Question 41",
+    "explanation": "1-1"
+  },
+  {
+    "content": "Which of the following settings directly affects Date fields to display as MM/DD/YYYY?",
+    "options": [
+      "A. Language",
+      "B. Local",
+      "C. Default Currency",
+      "D. Time Zone"
+    ],
+    "answer": "B",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "How many workflow rules can you create per entity?",
+    "options": ["A. 20", "B. 25", "C. 10", "D. 15"],
+    "answer": "B",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "Do opportunities or cases have import wizards?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "B",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "Select which is Not Applicable. What does a Page Layout control Select the choice which in NOT applicable",
+    "options": [
+      "A. How detail and edit pages are organized",
+      "B. Page section customizations",
+      "C. Rollup summary",
+      "D. Which fields, related lists, and Custom Links a users sees",
+      "E. Field properties - visible, read-only and required"
+    ],
+    "answer": "C",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has created a screen flow for their sales team to use when they add new leads. The screen\nflow collect name, email and shoe preference.\nwhich two things should the administrator do to display the screen flow?\nChoose 2 answers",
+    "options": [
+      "A. Create a tab and add the screen flow to the page.",
+      "B. install an app from the AppExchange",
+      "C. Add the flow in the utility bar of the console",
+      "D. use a flow element and add the screen flow to the record page."
+    ],
+    "answer": "A,D",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "Partner portal and customer portal users aren't required to activate computers to log in.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement is TRUE regarding look up filters? Choose 2 answers",
+    "options": [
+      "A. Lookup filters can restrict lookup dialog results based on fields on the source object",
+      "B. The special date values \"Today\" and \"This Month\" are valid criteria options.",
+      "C. Lookup filters are available in the Partner and Customer Portals",
+      "D. Lookup filters are case sensitive"
+    ],
+    "answer": "C,D",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "YOU are working with a Professional Edition organization. They wish to install the Expense Tracker which requires the use of 4 custom tabs, 3 custom objects, and one custom app. If the company is already using 4 applications, 36 custom objects, and 7 custom tabs, what will happen when they try to install Expense Tracker?",
+    "options": [
+      "A. The installation will succeed",
+      "B. The installation will succeed, but only the reports,",
+      "C. They will not be able to complete the installation process as they have reached the maximum number of custom tabs",
+      "D. They will not be able to complete the installation process as they have reached the maximum number of custom objects"
+    ],
+    "answer": "C",
+    "title": "Question 49",
+    "explanation": ""
+  },
+  {
+    "content": "How many Editions are there in Salesforce.com",
+    "options": ["A. 2", "B. 4", "C. 5", "D. 3"],
+    "answer": "C",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks users are seeing error messages when they use one of their screen flows. The error\nmessages are confusing but could be resolved if the users entered more information on the account\nbefore starting the flow.\nHow should the administrator address this issues?",
+    "options": [
+      "A. use a fault connector and display a screen with text explaining what went wrong and how to correct\n         it.",
+      "B. Uncheck the end user Flow Errors box in setup.",
+      "C. Create a permission set to allow users to bypass the error.",
+      "D. Remove validation rules so that the users are able to process without complete records."
+    ],
+    "answer": "A",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "To minimize the number of sharing rules, use \"Roles and Subordinates\" over \"Roles\" where possible.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "Which is a consideration when creating a drill-to-detail dashboard component?",
+    "options": [
+      "A. The source report must be grouped by record name, record owner, or feed post.",
+      "B. The dashboard component type must be a gauge.",
+      "C. Drill-to-detail must be enabled on the custom report type.",
+      "D. The source report must be stored in the drill-to-detail folder."
+    ],
+    "answer": "A",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "Lookup fields allow users to select a record from another object during data entry, creating a parent- child relationship.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "Which statements are true about business processes?",
+    "options": [
+      "A. Each record type is associated with one or more business processes",
+      "B. Record types implement business processes through page layouts",
+      "C. For opportunity objects records are created before business processes",
+      "D. Each business process is associated with one or more record types",
+      "E. Record types help track sales lifecycle s across divisions, groups and markets."
+    ],
+    "answer": "B,D",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) has a queue that is used for managing tasks that need to be worked by the UC customer support team. The same team will now be working some of UC's Cases.\nWhich two options should the administrator use to help the support team?\nChoose 2 answers",
+    "options": [
+      "A. Add Cass to the existing queue as available object.",
+      "B. Configure a flow to assign the cases to the queue.",
+      "C. Create a new queue and add Cases as an available object.",
+      "D. Use assignment rules to set the queue as the owner of the case."
+    ],
+    "answer": "B,D",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "Workflow rules are triggered when a standard object in a master-detail relationship is re-parented, even if the object's evaluation criteria is set to When a record is created, or when a record is edited and did not previously meet the rule criteria.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar offers amazing experiences for all of it employees. The Employee engagement\ncommittee wants to post updates while restricting other employees from posting.\nWhat should the administrator create to meet this request?",
+    "options": [
+      "A. Chatter Broadcast Group",
+      "B. Chatter Stream.",
+      "C. Chatter Recommendations.",
+      "D. Chatter Unlisted Group"
+    ],
+    "answer": "A",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "If your org is configured for data export, you can generate backup files manually how often?",
+    "options": [
+      "A. Once every 6 days",
+      "B. Once every 15 days",
+      "C. Everyday",
+      "D. Once every 5 days"
+    ],
+    "answer": "A",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "Using the following hierarchy, if a sharing rule exists granting Operations Person Read/Write access to Sales Management on the Account Object, what access does Operations Management have to Sales Management's accounts?\nDefault access for the\nAccount object is Public Read Only.\nExecutive Management\nSales Management\nSales Person\nOperations Management\nOperations Person",
+    "options": [
+      "A. None",
+      "B. Read Only",
+      "C. Read/Write",
+      "D. Read/Write/Transfer"
+    ],
+    "answer": "C",
+    "title": "Question 60",
+    "explanation": "Read/Write is granted through role hierarchy permissions from the sharing rule. If the sharing rule referenced a sharing group then the Grant Access Using Hierarchies would not apply. This could also be true for a custom object; all standard objects require Grant Access Using Hierarchies."
+  },
+  {
+    "content": "Use ____________ to filter or segment picklist values based on the user's profile.",
+    "options": [
+      "A. Field Level Security",
+      "B. Role Hierarchy",
+      "C. Record Types",
+      "D. User Profiles",
+      "E. Business Processes"
+    ],
+    "answer": "C",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following is the new workflow feature of Spring'11 Release?",
+    "options": [
+      "A. Flows",
+      "B. Workflow Rules",
+      "C. Field Update",
+      "D. Outbound messages"
+    ],
+    "answer": "A",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "Standard users can import a maximum of how many account records in a session",
+    "options": ["A. 500000", "B. 500", "C. 50000", "D. 5000"],
+    "answer": "B",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "A public group is a grouping of all Except?",
+    "options": [
+      "A. Queue",
+      "B. Roles and Subordinates",
+      "C. Roles",
+      "D. Users",
+      "E. Public Groups"
+    ],
+    "answer": "A",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "Export to Excel is available for Printable Lists:",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "To log into the Data Loader, the IP address must be a trusted IP or the User must know their security token.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following is not a valid business process in Salesforce.com?",
+    "options": [
+      "A. Solution Processes",
+      "B. Marketing Process",
+      "C. Lead Processes",
+      "D. Support Processes",
+      "E. Sales Processes"
+    ],
+    "answer": "B",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "What is the maximum of actions per time trigger you can have in a Workflow Rule?",
+    "options": ["A. 50", "B. 40", "C. 33", "D. 20", "E. 10", "F. 80"],
+    "answer": "B",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar has a path on Case. The Company wants to require its users to follow the status values as they are on the path. Agents should be prohibited from preventing the case back to a previous status.\nWhich Feature Should an administrator use to fulfill this request?",
+    "options": [
+      "A. Dependent Picklists.",
+      "B. Predefined field Values.",
+      "C. Global Value Picklists",
+      "D. Validation rules."
+    ],
+    "answer": "D",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator use as an identifier when importing and updating records from a separate system?",
+    "options": [
+      "A. External ID",
+      "B. Record ID",
+      "C. Auto-Number field",
+      "D. Rich Text field"
+    ],
+    "answer": "A",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "Folders are used to organize the following (choose all that apply)",
+    "options": [
+      "A. Documents",
+      "B. None of the above",
+      "C. All of the above",
+      "D. Email templates",
+      "E. Dashboards",
+      "F. Reports"
+    ],
+    "answer": "C",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator wants to create a form in Salesforce for users to fill out when they lose a client.\nWhich automation tool supports creating a wizard to accomplish this goal?",
+    "options": [
+      "A. Approval Process",
+      "B. Outbound Message",
+      "C. Flow Builder",
+      "D. Process Builder"
+    ],
+    "answer": "C",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "Following are the Custom Business Objects EXCEPT:",
+    "options": [
+      "A. All of the above",
+      "B. Correlate to tables in the database",
+      "C. Capture key, related information that applies to your business",
+      "D. Use Force.com builder to build your own objects",
+      "E. Standard Salesforce.com Objects"
+    ],
+    "answer": "E",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major classifies its accounts as Silver, Gold, or Platinum Level. When a new case is created for a Silver or Gold partner, it should to the Regular Support Queue. When an account is Platinum Level, it should automatically go to the Priority Support Queue.\nWhat should the administrator use to achieve this?",
+    "options": [
+      "A. Workflow Rules",
+      "B. Assignment Rules",
+      "C. Case Rules",
+      "D. Escalation Rules"
+    ],
+    "answer": "B",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "Folders are used to manage:",
+    "options": [
+      "A. Either Reports, Dashboards, Documents, or Email templates",
+      "B. Either Reports, Price Books, Documents. or Email templates",
+      "C. Either Reports, Dashboards, Documents, or Products",
+      "D. Either Reports, Dashboards, Documents, or Other Folders"
+    ],
+    "answer": "A",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following are formats that you can use for creating a custom report?\nA: Hierarchical\nB: Matrix\nC: Summary\nD: Tabular",
+    "options": ["A. A, B, C", "B. A, B, D", "C. A, C, D", "D. B, C, D"],
+    "answer": "D",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "How many app exchange apps can you install in EE?",
+    "options": ["A. 10", "B. 5", "C. 15", "D. 20"],
+    "answer": "A",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters wants to calculate how much revenue has been generated for each of its marketing campaigns.\nHow should an administrator deliver this information?",
+    "options": [
+      "A. Add a Total Value Field on campaign and use a workflow rule to update the value when an opportunity is won.",
+      "B. Design a standard Campaign report and add the value Won Opportunities in Campaign field.",
+      "C. Perform periodic data job to update campaign records.",
+      "D. Create a roll-up summary field on Opportunity to Campaign."
+    ],
+    "answer": "B",
+    "title": "Question 78",
+    "explanation": ""
+  },
+  {
+    "content": "What should an administrator use as an identifier when importing and updating records from a\nseparate financial system?",
+    "options": [
+      "A. Rich text field",
+      "B. Auto-Number field?",
+      "C. Record ID",
+      "D. External ID"
+    ],
+    "answer": "D",
+    "title": "Question 79",
+    "explanation": ""
+  },
+  {
+    "content": "Which of these has many-to-many relationship?",
+    "options": [
+      "A. Each solution can be associated with multiple cases, but a case can be associated with only one case",
+      "B. Each solution is associated with one case, but a case can be associated with multiple solutions",
+      "C. Each solution is associated with one case, one case associated with only one solution",
+      "D. Each solution can be associated with multiple cases and a case can be associated with multiple solutions"
+    ],
+    "answer": "D",
+    "title": "Question 80",
+    "explanation": ""
+  },
+  {
+    "content": "When you add a custom object tab, all of the following will be accessible with the object EXCEPT",
+    "options": [
+      "A. Sidebar Search",
+      "B. Custom Object Reports",
+      "C. Recent Items",
+      "D. Added to New Link/Create New Object Drop Down"
+    ],
+    "answer": "B",
+    "title": "Question 81",
+    "explanation": ""
+  },
+  {
+    "content": "You can use standard reports when creating Dashboards",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 82",
+    "explanation": ""
+  },
+  {
+    "content": "If the company locale is set to US English, all users will have a default locale of US English and this cannot be changed.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 83",
+    "explanation": ""
+  },
+  {
+    "content": "The Salesforce Console is an example of what?",
+    "options": [
+      "A. Java Script",
+      "B. UI",
+      "C. Third Party Web integration/Application",
+      "D. API"
+    ],
+    "answer": "B",
+    "title": "Question 84",
+    "explanation": ""
+  },
+  {
+    "content": "The value in a Custom Field called Salary is 50,000. What would the formula, ISNUMBER (Salary_c), return",
+    "options": [
+      "A. FALSE",
+      "B. Depends on the Users Locale",
+      "C. 50.000",
+      "D. TRUE"
+    ],
+    "answer": "D",
+    "title": "Question 85",
+    "explanation": ""
+  },
+  {
+    "content": "Which tool should be used to Import more then 65000 records in Salesforce.com?",
+    "options": ["A. Data Loader", "B. SFDC Import Wizard"],
+    "answer": "A",
+    "title": "Question 86",
+    "explanation": ""
+  },
+  {
+    "content": "Is the DataLoader Cloud based?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "B",
+    "title": "Question 87",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator created a record trigger flow to update contacts.\nHow should the administrator reference the values of the active record the flow is running on?",
+    "options": [
+      "A. Use the {!Contact.Id} global variable.",
+      "B. Use the $Record global variable.",
+      "C. Use the Get Records element to find the Id.",
+      "D. Use the {!Account.Id} record variable."
+    ],
+    "answer": "B",
+    "title": "Question 88",
+    "explanation": ""
+  },
+  {
+    "content": "On the page layout, some standard fields have properties which cannot be changed (e.g. the Created By and Modified By fields)",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 89",
+    "explanation": ""
+  },
+  {
+    "content": "Which of these is NOT true: it is possible to import my existing contacts from Outlook by:",
+    "options": [
+      "A. Clicking \"set-up\" and using the import wizard",
+      "B. Sending emails to myself",
+      "C. Connecting SFDC with Outlook and submitting contacts and leads to SFDC directly from my email"
+    ],
+    "answer": "B",
+    "title": "Question 90",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator needs to create a one-to-many relationship between two objects with limited access to child records.\nWhat type of field should the administrator use?",
+    "options": [
+      "A. Lookup field",
+      "B. Roll-up summary",
+      "C. Master-detail field",
+      "D. Cross Object formula"
+    ],
+    "answer": "C",
+    "title": "Question 91",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks want to have consistency when communication with customers on cases. The company has requested messages to be sent in an email channel with categories to help search for the proper message.\nWhich Solution Should be administrator suggest to meet this requirement?",
+    "options": [
+      "A. Prebuilt Flow Templates.",
+      "B. Prebuilt Quick Texts",
+      "C. Prebuilt Auto-Responses.",
+      "D. Prebuilt Email Templates."
+    ],
+    "answer": "C",
+    "title": "Question 92",
+    "explanation": ""
+  },
+  {
+    "content": "Adding a user to the sales team group will give access to opportunity records that was previously a restricted account.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 93",
+    "explanation": ""
+  },
+  {
+    "content": "AW Computing (AWC) occasionally works with independent contractors, who the company\nstores as Contacts in Salesforce. Contractors often change agencies, and AWC wants to maintain the\nhistorical accuracy of the record.\nWhat should AWC use to track Contacts?",
+    "options": [
+      "A. Use a partner community to track the Contacts.",
+      "B. Enable Contacts to multiple Accounts.",
+      "C. Create a Junction object to track many-to-many relationship.",
+      "D. Create a new Contact record for each agency."
+    ],
+    "answer": "B",
+    "title": "Question 94",
+    "explanation": ""
+  },
+  {
+    "content": "Which Step is not a part of creating custom application?",
+    "options": [
+      "A. Selecting profiles",
+      "B. Selecting tabs",
+      "C. Creating a custom object",
+      "D. Adding a logo"
+    ],
+    "answer": "C",
+    "title": "Question 95",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator installed a managed package that contains a permission set group. The\npermission set group that was installed includes Delete access on several objects, and the administrator\nneeds to prevent users in the permission set group from being able to delete records.\nWhat should the administrator do to control Delete access?",
+    "options": [
+      "A. Use a muting permission set with a permission set group to mute selected permissions.",
+      "B. Create a new permission set that has Delete access deselected for the objects.",
+      "C. Edit the profile for the users to remove Delete access from the objects.",
+      "D. Create a new role that prevents Delete permissions from rolling up to the users."
+    ],
+    "answer": "A",
+    "title": "Question 96",
+    "explanation": ""
+  },
+  {
+    "content": "Sales and Customer Care at Ursa Major Solar need to see different fields on the Case related list\nfrom the Account record. Sales users want to see Case created date and status while Customer Care\nwould like to see owner, status, and contact.\nWhat should the administrator use to achieve this?",
+    "options": [
+      "A. Search Layout Editor",
+      "B. Compact Layout Editor",
+      "C. Page Layout editor",
+      "D. Related Lookup Filters"
+    ],
+    "answer": "C",
+    "title": "Question 97",
+    "explanation": ""
+  },
+  {
+    "content": "The Self Service Portal and Customer Portal are the same technology?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "B",
+    "title": "Question 98",
+    "explanation": ""
+  },
+  {
+    "content": "Queues cannot be created on which Object in salesforce.com?",
+    "options": ["A. Case", "B. Custom Object", "C. Account", "D. Lead"],
+    "answer": "C",
+    "title": "Question 99",
+    "explanation": ""
+  },
+  {
+    "content": "Adding Records: I must always search for a company or contact record BEFORE adding a new lead, opportunity, contact, or account into Salesforce.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 100",
+    "explanation": ""
+  },
+  {
+    "content": "This helps you manage the complete lifecycle of customer service,from logging cases to suggesting and delivering solutions across multiple channels, including Web self-service and live agent support:",
+    "options": [
+      "A. Sales Cloud",
+      "B. None of the Above",
+      "C. Community",
+      "D. Sales Cloud2",
+      "E. Ideas",
+      "F. Service Cloud2"
+    ],
+    "answer": "F",
+    "title": "Question 101",
+    "explanation": ""
+  },
+  {
+    "content": "What is true about a Web-to-Lead?",
+    "options": [
+      "A. Determines which Email Template to send to leads generated via Web-to-Lead",
+      "B. Email Template response content published on your web site",
+      "C. Contains Rule Entries that determine criteria for determining",
+      "D. An online form to capture lead information"
+    ],
+    "answer": "B,D",
+    "title": "Question 102",
+    "explanation": ""
+  },
+  {
+    "content": "What does a profile control?",
+    "options": [
+      "A. Fields available for view in related lists",
+      "B. Relationship between two objects",
+      "C. Tasks that users can perform on records they access",
+      "D. View of records that users access"
+    ],
+    "answer": "C,D",
+    "title": "Question 103",
+    "explanation": ""
+  },
+  {
+    "content": "What is the Impact on a User of the Organization level Locale Changes?",
+    "options": [
+      "A. From a new session, user will see everything in the New Organization Locale",
+      "B. The User is asked for a Choice; if he would like to choose New Organization Locale or his own Locale",
+      "C. The default Locale of the user is also set to the new Organization Level locale",
+      "D. No Impact on the User as he keeps using his own default Locale"
+    ],
+    "answer": "D",
+    "title": "Question 104",
+    "explanation": ""
+  },
+  {
+    "content": "An Administrator wants to trigger a follow-up task for the opportunity owner when they close an opportunity as won and another task after 60 days to check in with the customer.\nwhich two automation tools should the administrator use?\nChoose 2 answers",
+    "options": [
+      "A. Outbound Message",
+      "B. Field Update",
+      "C. workflow Rule",
+      "D. process builder"
+    ],
+    "answer": "B,D",
+    "title": "Question 105",
+    "explanation": ""
+  },
+  {
+    "content": "When are the formula fields Re - Calculated?",
+    "options": [
+      "A. Every 15 minutes",
+      "B. Admin can set the time of Refresh",
+      "C. After every DML Operation",
+      "D. Every time they are seen"
+    ],
+    "answer": "D",
+    "title": "Question 106",
+    "explanation": ""
+  },
+  {
+    "content": "You can use a Custom Lookup field to create a relationship between an opportunity and a contact.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 107",
+    "explanation": ""
+  },
+  {
+    "content": "Editing Records: If I see a magnifying glass icon next to any field in SFDC, this means I can start typing into the field and matches will automatically appear to choose from. Or, I can click on the magnifying glass icon and look up data to fill the field with.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 108",
+    "explanation": ""
+  },
+  {
+    "content": "When creating a custom list view you can display fields that are not on your page layout for that object?",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 109",
+    "explanation": ""
+  },
+  {
+    "content": "The maximum number of values in controlling picklists is the same as in dependent picklists.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 110",
+    "explanation": ""
+  },
+  {
+    "content": "Aw Computing needs to capture a loss reason in rich text field when an opportunity is Closed lost.\nHow should an administrator configure this requirement?",
+    "options": [
+      "A. Check the required checkbox on the Loss Reason field in Object Manger.",
+      "B. Create a validation rule to display an error if stage is Closed lost and Loss Reason is blank.",
+      "C. Configure a workflow rule to display an error if Loss Reason is blank",
+      "D. Select the requirement checkbox next to the loss reason field on the page layout."
+    ],
+    "answer": "B",
+    "title": "Question 111",
+    "explanation": ""
+  },
+  {
+    "content": "You can use standard reports when creating",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 112",
+    "explanation": ""
+  },
+  {
+    "content": "How many fields can be enabled for tracking on a custom Object?",
+    "options": ["A. 40", "B. 30", "C. 10", "D. 20"],
+    "answer": "D",
+    "title": "Question 113",
+    "explanation": ""
+  },
+  {
+    "content": "Which one of these is NOT a recorded \"activity\" in SFDC?",
+    "options": [
+      "A. Events",
+      "B. Dials",
+      "C. Emails",
+      "D. Tasks",
+      "E. Log a Call (after call completion)"
+    ],
+    "answer": "B",
+    "title": "Question 114",
+    "explanation": ""
+  },
+  {
+    "content": "Which definition best describes \"accounts\" and their relationships with other record types in SFDC?",
+    "options": [
+      "A. Accounts represent sales deals that your company is pursuing. An account may have only one opportunity associated with it.",
+      "B. Accounts are the backbone of information and represent prospective, existing, and former customers. An account may have multiple opportunities",
+      "C. Accounts are created after you have closed an opportunity or deal. An account must have a closed opportunity associated with it."
+    ],
+    "answer": "B",
+    "title": "Question 115",
+    "explanation": ""
+  },
+  {
+    "content": "Is it possible for users to override their own forecasts and forecasts for users below them in the forecast hierarchy?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "A",
+    "title": "Question 116",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) has deployed my domain. The Chief Marketing Officer wants to make sure that all of the Salesforce users log in using the branded login URL. There needs to be a grace period for the user's bookmarks to be updated.\nHow should the administrator configure the policies in my domain settings?",
+    "options": [
+      "A. Set the redirect policy to Redirect with a warning to the same page within the domain.",
+      "B. Set the login policy to require login from https://nto.my.salesforce.com",
+      "C. Set the login policy to prevent login from https://login.salesforce.com",
+      "D. Set the Redirect policy to Do Not redirect."
+    ],
+    "answer": "D",
+    "title": "Question 117",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Cloud kicks deleted a custom field but realized there is a business unit that still uses the field.\nWhat should an administrator take into consideration when undeleting the field?",
+    "options": [
+      "A. The field needs to be re-added to reports.",
+      "B. The field needs to be restored from the recycle bin.",
+      "C. The field history will remain deleted.",
+      "D. The field needs to be re-added to page Layouts."
+    ],
+    "answer": "A",
+    "title": "Question 118",
+    "explanation": ""
+  },
+  {
+    "content": "Recent item and Lookup Hovers use the Record Mini Page.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 119",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Solar Major is evaluating Salesforce for its service team and would like to know what objects\nwere available out of the box.\nWhich three of the standard objects are available to an administrator considering a support use case?\nChoose 3 answers",
+    "options": [
+      "A. Account",
+      "B. Contract",
+      "C. Case",
+      "D. Ticket",
+      "E. Request"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 120",
+    "explanation": ""
+  },
+  {
+    "content": "How many objects may be imported or updated using the Data Loader?",
+    "options": ["A. 6", "B. 5", "C. 3", "D. 2", "E. 1", "F. 4"],
+    "answer": "E",
+    "title": "Question 121",
+    "explanation": ""
+  },
+  {
+    "content": "I can email opportunities, accounts, leads, or contacts directly from SFDC, and all of these communications will be automatically saved in my activity history.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 122",
+    "explanation": ""
+  },
+  {
+    "content": "How many people can you send an invite to at a time using Cloud Scheduler?",
+    "options": [
+      "A. You can invite up to 20 people to a meeting.",
+      "B. You can invite up to 55 people to a meeting.",
+      "C. You can invite up to 25 people to a meeting.",
+      "D. You can invite up to 50 people to a meeting."
+    ],
+    "answer": "D",
+    "title": "Question 123",
+    "explanation": ""
+  },
+  {
+    "content": "During a lead import, you can choose to enable active assignment rules as part of the import",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 124",
+    "explanation": ""
+  },
+  {
+    "content": "A Profile is a collection of settings and permissions that determine what the user can do with records they have access to and how they view those records.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 125",
+    "explanation": ""
+  },
+  {
+    "content": "Which Feature is not available in Salesforce.com?",
+    "options": [
+      "A. Profile based Login Hours",
+      "B. Organization based Login Hours",
+      "C. Organization based Login IP ranges",
+      "D. Profile based Login IP Ranges"
+    ],
+    "answer": "B",
+    "title": "Question 126",
+    "explanation": ""
+  },
+  {
+    "content": "The User Interface Settings can be adjusted for individual users.",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 127",
+    "explanation": ""
+  },
+  {
+    "content": "If a profile does not have access to an application, that profile will also not have access to the tabs and objects of that application",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 128",
+    "explanation": ""
+  },
+  {
+    "content": "When can inactive assignment rules be run on leads?",
+    "options": [],
+    "answer": "",
+    "title": "Question 129",
+    "explanation": "During lead\n import"
+  },
+  {
+    "content": "What is not true about sharing Rules?",
+    "options": [
+      "A. U can edit the access levels for any sharing rule. You can change the specified groups / roles for the rule",
+      "B. Sharing rules open up access whereas org wide defaults restrict access",
+      "C. Sharing rules apply to all new and existing records owned by the specified role / group members",
+      "D. When u delete a sharing rule, the sharing access created by that rule is automatically removed",
+      "E. When u modify which users are in a group rule, the sharing rules are re-evaluated to add/remove access as necessary."
+    ],
+    "answer": "A",
+    "title": "Question 130",
+    "explanation": ""
+  },
+  {
+    "content": "The Create New Folder link will only be visible to users with which permission",
+    "options": [
+      "A. Manage Public Documents",
+      "B. Create Public Documents",
+      "C. Edit Documents",
+      "D. Manage Documents"
+    ],
+    "answer": "A",
+    "title": "Question 131",
+    "explanation": ""
+  },
+  {
+    "content": "Based solely on the role hierarchy a manager can do all of the following EXCEPT:",
+    "options": [
+      "A. View records his subordinate does not own but can view",
+      "B. View, edit, delete, and transfer his/her and his/her subordinates records",
+      "C. View all folders his/her Subordinate has access to, i.e., Reports, Documents, and Email Templates",
+      "D. Extend sharing on both his/her and his/her subordinate's records"
+    ],
+    "answer": "C",
+    "title": "Question 132",
+    "explanation": ""
+  },
+  {
+    "content": "The marketing team wants a new picklist value added to the Campaign Member Status field for the upsell promotional campaign.\nWhich two solutions should the administrator use to modify the picklist field values?\nChoose 2 answers",
+    "options": [
+      "A. Edit the picklist values for the Campaign Status in object Manager.",
+      "B. Mass modify the Campaign Member Statuses related list.",
+      "C. Add the Campaign Member Statuses related list to the Page Layout.",
+      "D. Modify the picklist value on the Campaign Member Statuses related list"
+    ],
+    "answer": "A,C",
+    "title": "Question 133",
+    "explanation": ""
+  },
+  {
+    "content": "A Sales user is trying to manage Campaign Members for an upcoming networking event. The user can view the Campaign, but add new Campaign Members or update Member statuses.\nHow can an administrator troubleshoot this problem?",
+    "options": [
+      "A. Run a Campaign report and update any Member information via Data Loader.",
+      "B. Create a permission set to allow the user to edit Campaign Members.",
+      "C. Provide the user access to both Leads and Contacts to edit all Members.",
+      "D. Make sure the Marketing User Checkbox is checked on the user record page."
+    ],
+    "answer": "D",
+    "title": "Question 134",
+    "explanation": ""
+  },
+  {
+    "content": "If using Customizable forecasting there is a seperate forecast role hierarchy",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 135",
+    "explanation": ""
+  },
+  {
+    "content": "Queues can be made up of the following",
+    "options": [
+      "A. Public Groups",
+      "B. Roles",
+      "C. Users",
+      "D. Profiles",
+      "E. External Chatter Users"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 136",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following are true about the field type \"Text Area(Long)\" ?",
+    "options": [
+      "A. 1) Maximum length of 32,000 chars. 2) Any length from 256 to 32,000 chars. is allowed 3) Line breaks count towards the max length of the field\n         4) This data type is not available for activities or products on opportunities",
+      "B. 1) Maximum length of 32,000 chars. 2) Any length from 256 to 32,000 chars. is allowed 3) Line breaks count towards the max length of the field\n         4) This data type is available for activities or products on opportunities",
+      "C. 1) Maximum length of 3200 chars. 2) Any length from 256 to 32,000 chars. is allowed 3) Line breaks do not count towards the max length of the field\n         4) This data type is not available for activities or products on opportunities",
+      "D. 1) Maximum length of 32,000 chars. 2) Any length from 0 to 32,000 chars. is allowed 3) Line breaks do not count towards the max length of the field 4) This data type is not available for activities or products on opportunities"
+    ],
+    "answer": "A",
+    "title": "Question 137",
+    "explanation": ""
+  },
+  {
+    "content": "Who can view campaigns?",
+    "options": [
+      "A. Administrator",
+      "B. All users",
+      "C. Administrator and Marketing Users only",
+      "D. Marketing User only"
+    ],
+    "answer": "B",
+    "title": "Question 138",
+    "explanation": ""
+  },
+  {
+    "content": "Once an opportunity reaches the negotiation stage at cloud kicks, The Amount fields becomes required for sales users. Sales managers need to be able to move opportunities inti this stage without knowing the amount.\nHow should the administrator require this field during the negotiation stage for sales users but allow their managers to make changes?",
+    "options": [
+      "A. Create to formula field to fill in the field for managers.",
+      "B. Make the field required for all users.",
+      "C. Configure a validation rule to meet the criteria.",
+      "D. Assign the administrator profile to the managers."
+    ],
+    "answer": "C",
+    "title": "Question 139",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at DreamHouse Realty added an email quick action to the Case page layout and is unable to see the action on the case feed.\nWhich feature must be enabled to ensure the quick action will be displayed as expected?",
+    "options": [
+      "A. Email Notifications",
+      "B. Email Alerts",
+      "C. Email-to-Case",
+      "D. Email Templates"
+    ],
+    "answer": "C",
+    "title": "Question 140",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator has been asked to automate a simple field update on the account. When a support agent changes the status of the account to 'Audited', they would like the system to automatically update the Audited date field on the account with today's date.\nWhich tool should the administrator use to complete this automation?",
+    "options": [
+      "A. Validation Rule",
+      "B. Flow Builder",
+      "C. Approval process",
+      "D. Formula Field"
+    ],
+    "answer": "B",
+    "title": "Question 141",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters is using one profile for all of its marketing users, providing read-only access to the Campaign object. A few marketing users now require comprehensive edit access on Campaigns.\nHow should an administrator fulfil this request?",
+    "options": [
+      "A. Permission sets",
+      "B. Marketing user checkbox",
+      "C. Organization-wide defaults",
+      "D. Field-level security"
+    ],
+    "answer": "B",
+    "title": "Question 142",
+    "explanation": ""
+  },
+  {
+    "content": "When I convert a lead to an Opportunity, I must give the opportunity a unique name so I know what it is (ex: Pacific Bank - Red Package).",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 143",
+    "explanation": ""
+  },
+  {
+    "content": "Manual sharing allows administrators to grant one-off access to individual records, users cannot grant this access even if they own the record.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 144",
+    "explanation": ""
+  },
+  {
+    "content": "What is required to create a new user?",
+    "options": [
+      "A. Unique Username in email format.",
+      "B. Role",
+      "C. Profile - Standard or Custom",
+      "D. Locale Settings"
+    ],
+    "answer": "A,B,C,D",
+    "title": "Question 145",
+    "explanation": ""
+  },
+  {
+    "content": "You cannot delete a standard report.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 146",
+    "explanation": ""
+  },
+  {
+    "content": "What are the three report types available when creating custom reports?",
+    "options": [],
+    "answer": "",
+    "title": "Question 147",
+    "explanation": "Tabular,\n Summary and Matrix"
+  },
+  {
+    "content": "The administrator at cloud kicks has been ask to change the company's Shoe style field to prevent users from selecting more than one style on a record.\nWhich two steps should an administrator do to accomplish this?\nChoose 2 answers",
+    "options": [
+      "A. Reactivate the appropriate Shoe Style values after the field type changes.",
+      "B. Change the field type from a multi-select picklist field to a picklist field.",
+      "C. Back-up the Shoe Style values in existing records.",
+      "D. Select the \"Choose only one value \"checkbox on the pick list field."
+    ],
+    "answer": "B,D",
+    "title": "Question 148",
+    "explanation": ""
+  },
+  {
+    "content": "Dreamhouse realty wants to offer a form on its experience cloud site where inspectors will submit findings from a property inspection.\nWhich feature should an administrator place on the page to fulfill this requirement?",
+    "options": [
+      "A. Record Detail",
+      "B. Autolaunched Flow",
+      "C. Screen Flow",
+      "D. Related List"
+    ],
+    "answer": "D",
+    "title": "Question 149",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator has created new users for ten new employees at Northern Trail Outfitters.\nWhy are these users unable to access the account object in the Salesforce or?",
+    "options": [
+      "A. Users' profile requires a sharing rule for Accounts.",
+      "B. Users' profile requires permission to the Account object.",
+      "C. Organization-wide defaults are set to private.",
+      "D. Users' roles are low on the role hierarchy."
+    ],
+    "answer": "B",
+    "title": "Question 150",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Cloud Kicks has a Custom picklist field on Lead, Which is missing on the\nContact when leads are converted.\nWhich two items should the administrator do to make sure these values are populated?\nChoose 2 answers",
+    "options": [
+      "A. Map the picklist field on the Lead to the Contact.",
+      "B. Create a custom picklist field on Contact.",
+      "C. Update the picklist value with a validation rule.",
+      "D. Set the picklist field to be required on the Lead Object."
+    ],
+    "answer": "A,B",
+    "title": "Question 151",
+    "explanation": ""
+  },
+  {
+    "content": "Determine if the description is Master/Detail or Lookup: Up to 25 such relationships",
+    "options": [],
+    "answer": "",
+    "title": "Question 152",
+    "explanation": "Lookup"
+  },
+  {
+    "content": "What is the purpose API Token field on the User object?",
+    "options": [
+      "A. Indicates whether an API token has ever been reset.",
+      "B. Displays the users API token",
+      "C. Enables users to receive an API token"
+    ],
+    "answer": "A",
+    "title": "Question 153",
+    "explanation": ""
+  },
+  {
+    "content": "Data validation ensures the integrity of data when data is exported in SF",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 154",
+    "explanation": ""
+  },
+  {
+    "content": "The administrator at Ursa Major Solar imported records into an object by mistake.\nWhich two tools should be used to undo this import?\nChoose 2 answers",
+    "options": [
+      "A. Weekly Data Export",
+      "B. Data Import Wizard",
+      "C. Mass Delete Records",
+      "D. Data Loader"
+    ],
+    "answer": "C,D",
+    "title": "Question 155",
+    "explanation": ""
+  },
+  {
+    "content": "Field Level Security cannot be used to make a field required.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 156",
+    "explanation": ""
+  },
+  {
+    "content": "Formatting of report is maintained when it is exported via Printable View?",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 157",
+    "explanation": ""
+  },
+  {
+    "content": "Formula cannot reference any field that is restricted by Field level security",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 158",
+    "explanation": ""
+  },
+  {
+    "content": "How many other fields may a custom lead field be mapped to when converting a lead?",
+    "options": [
+      "A. Custom lead fields cannot be mapped",
+      "B. Three custom fields",
+      "C. Two custom fields",
+      "D. One custom field"
+    ],
+    "answer": "B",
+    "title": "Question 159",
+    "explanation": ""
+  },
+  {
+    "content": "Adding Records: If I add a duplicate record because I haven't searched before adding a new one, the following events will be likely to happen:",
+    "options": [
+      "A. I will need to delete the duplicate record I have added, or merge the 2 duplicate records together.",
+      "B. All of the above",
+      "C. The data quality in Salesforce.com will start to suck, and head office reports will no longer be accurate",
+      "D. I will feel so guilty that I will be compelled to sign over my commissions to Bill, who needs more money to save homeless cats in the city of Boston",
+      "E. I will complain when I inevitably end up adding notes or events to the wrong record"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 160",
+    "explanation": ""
+  },
+  {
+    "content": "A new Sales Rep at Ursa Major has a qualified lead that is ready for conversation.\nWhen using the Lead Conversion process, which two records can be Created?\nChoose 2 answers",
+    "options": ["A. Campaign", "B. Account", "C. Contact", "D. Case"],
+    "answer": "B,C",
+    "title": "Question 161",
+    "explanation": ""
+  },
+  {
+    "content": "What is the limit on the compiled size of the Formula Field Select the correct choice?",
+    "options": ["A. 3k", "B. 4k", "C. 1k", "D. 2k"],
+    "answer": "B",
+    "title": "Question 162",
+    "explanation": ""
+  },
+  {
+    "content": "To enable Field History Tracking for an object, the system administrator must also add the related list to the page layout.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 163",
+    "explanation": ""
+  },
+  {
+    "content": "If you delete a case, which two also get deleted?",
+    "options": ["A. Solution", "B. Event", "C. Attachments", "D. Account"],
+    "answer": "B,C",
+    "title": "Question 164",
+    "explanation": ""
+  },
+  {
+    "content": "Custom formula fields can reference other custom formula fields including themselves.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 165",
+    "explanation": ""
+  },
+  {
+    "content": "Is it possible to report on the converted Leads?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "A",
+    "title": "Question 166",
+    "explanation": ""
+  },
+  {
+    "content": "When you insert a record using the API, Do Validation rules are expected?",
+    "options": ["A. No", "B. Yes"],
+    "answer": "B",
+    "title": "Question 167",
+    "explanation": ""
+  },
+  {
+    "content": "Who can manually share records?",
+    "options": [
+      "A. The system administrator",
+      "B. The record owner's manager's manager",
+      "C. The record owner",
+      "D. None of the above",
+      "E. The record owner's manager",
+      "F. All of the above"
+    ],
+    "answer": "F",
+    "title": "Question 168",
+    "explanation": ""
+  },
+  {
+    "content": "What type of relationship should be built for a one-to-one?",
+    "options": [
+      "A. Look-up Field",
+      "B. Master-Detail Field",
+      "C. Look-up Relationship",
+      "D. Master-Detail Relationship"
+    ],
+    "answer": "A,C",
+    "title": "Question 169",
+    "explanation": ""
+  },
+  {
+    "content": "You cannot mass remove records from an approval process; removal of records must be done one by one.",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 170",
+    "explanation": ""
+  },
+  {
+    "content": "Workflow rules never trigger on converted leads",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 171",
+    "explanation": "Workflow rules only trigger on converted leads if validation and triggers for lead convert are enabled in your organization."
+  },
+  {
+    "content": "The administrator at Ursa Major Solar has been asked to change the work Item and Project Custom Object Relationship from a master detail to a Lookup.\nWhich Scenario Could prevent the administrator from fulfilling this requirement?",
+    "options": [
+      "A. Roll-Up summary field sexist on the master object.",
+      "B. The Look-Up field is required for Saving Records.",
+      "C. A junction object is required to support the lookup.",
+      "D. The lookup field in all the records contains a value."
+    ],
+    "answer": "A",
+    "title": "Question 172",
+    "explanation": ""
+  },
+  {
+    "content": "What is the maximum length of any auto-number field?",
+    "options": ["A. 40", "B. 20", "C. 30", "D. 50", "E. 60"],
+    "answer": "C",
+    "title": "Question 173",
+    "explanation": ""
+  },
+  {
+    "content": "The automated case user will be listed on the case history for all actions that are system defined, including:",
+    "options": [
+      "A. When a case is escalated",
+      "B. When a case is created online via Web-to-Case",
+      "C. When a Workflow is Triggered",
+      "D. When a case is automatically assigned using assignment rules"
+    ],
+    "answer": "A,B,D",
+    "title": "Question 174",
+    "explanation": ""
+  },
+  {
+    "content": "What are two considerations an administrator should keep in mind when working with Salesforce objects?\nChoose 2 answers",
+    "options": [
+      "A. Only standard objects support master-detail relationships.",
+      "B. Custom and standard objects have standard fields.",
+      "C. Standard objects are included with Salesforce.",
+      "D. A new standard object can be created."
+    ],
+    "answer": "B,C",
+    "title": "Question 175",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters has a custom quick action on Account that creates a new Case.\nHow should an administrator make the quick action available on the Salesforce mobile app?",
+    "options": [
+      "A. Modify compact Case page layout to include the action.",
+      "B. Add the Salesforce Mobile and Lightning Experience action to the page layout.",
+      "C. Include the action in the Salesforce Mobile Navigation menu.",
+      "D. Create a custom Lightning App with the action."
+    ],
+    "answer": "B",
+    "title": "Question 176",
+    "explanation": ""
+  },
+  {
+    "content": "The following can be done by a System Admin to a standard field.",
+    "options": [
+      "A. Change the field label",
+      "B. All of the above",
+      "C. Delete the field",
+      "D. None of the above",
+      "E. Add help text",
+      "F. Add/edit values of a picklist"
+    ],
+    "answer": "A,E,F",
+    "title": "Question 177",
+    "explanation": ""
+  },
+  {
+    "content": "When you define a Data Validation Rule, what else must you also define?",
+    "options": [
+      "A. Whether or not the record gets deleted",
+      "B. An Error Message",
+      "C. What email gets sent if the Rule triggers",
+      "D. Whether or not the field is required"
+    ],
+    "answer": "B",
+    "title": "Question 178",
+    "explanation": ""
+  },
+  {
+    "content": "Related Lists display the many side of a one-to-many relationship",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 179",
+    "explanation": ""
+  },
+  {
+    "content": "Salesforce.com instance has Multiple Currencies as Activated. What is the maximum granularity available for tracking changes in Currency Rates",
+    "options": ["A. 1 Week", "B. 1 Minute", "C. 1 Hour", "D. 1 Day"],
+    "answer": "D",
+    "title": "Question 180",
+    "explanation": ""
+  },
+  {
+    "content": "Even a user with \"View all data\" (VAD) permission cannot view hidden folders as well as folders shared to no one.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 181",
+    "explanation": ""
+  },
+  {
+    "content": "The _______ determines if a user can read, create and edit Contact records, the __________ determines if he can see/edit contact records owned by his subordinates.",
+    "options": [
+      "A. OWD, Sharing rules",
+      "B. Profile, Role",
+      "C. Role, Profile",
+      "D. Sharing rules, Role Hierarchy"
+    ],
+    "answer": "B",
+    "title": "Question 182",
+    "explanation": ""
+  },
+  {
+    "content": "The sales manager at Cloud Kicks wants to set up a business process where opportunity discounts over 30% need to be approved by the VP of sales. Any discounts above 10% need to be approved by the user's manager. The administrator has been tasked with creating an approval process.\nWhich are two considerations the administrator needs to review before setting up this approval process?\nChoose 2 answers",
+    "options": [
+      "A. Populate the Manager standard field on the sales users' User Detail page.",
+      "B. Create a custom Discount field on the opportunity to capture the discount amount",
+      "C. Allow the submitter choose the approver manually.",
+      "D. Configure two separate approval processes."
+    ],
+    "answer": "A,B",
+    "title": "Question 183",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following is true if you remove the \"Read\" permission from a users profile for a standard object?",
+    "options": [
+      "A. Tabs of that object type will be visible, Fields of that type will not be visible on other tabs, related lists of that type will be visible on other tabs, search results will not return records of that type, report data for records of that type will not be available, merge fields of that type will not be available, and custom links of that type will not be visible",
+      "B. Tabs of that object type will not be visible, Fields of that type will not be visible on other tabs, related lists of that type will not be visible on other tabs, search results will not return records of that type, report data for records of that type will not be available, merge fields of that type will not be available, and custom links of that type will not be visible",
+      "C. Tabs of that object type will not be visible, Fields of that type will be visible on other tabs, related lists of that type will not be visible on other tabs, search results will not return records of that type, report data for records of that type will not be available, merge fields of that type will not be available, and custom links of that type will not be visible"
+    ],
+    "answer": "B",
+    "title": "Question 184",
+    "explanation": ""
+  },
+  {
+    "content": "You must be a user of salesforce.com in order to Receive an email notification in the case escalation process:",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 185",
+    "explanation": ""
+  },
+  {
+    "content": "A sales team is a set of users that normally work together on _________ ?",
+    "options": [
+      "A. Accounts",
+      "B. Contacts",
+      "C. Opportunities",
+      "D. Leads",
+      "E. Cases"
+    ],
+    "answer": "C",
+    "title": "Question 186",
+    "explanation": ""
+  },
+  {
+    "content": "Can the DataLoader access all objects?",
+    "options": ["A. Yes", "B. No"],
+    "answer": "A",
+    "title": "Question 187",
+    "explanation": ""
+  },
+  {
+    "content": "AW Computing has added a new custom text field called Market Segment on the Lead object. When a Lead is converted, the new field is not getting copied to the Account record.\nWhat should the administrator do to ensure the Market Segment field from a Lead is copied to the converted Account record in routine?",
+    "options": [
+      "A. Ensure Account has a field that has the exact same name as the new Lead field.",
+      "B. Write a record-triggered flow to copy the custom field from Lead to Account.",
+      "C. Write a Validation Rule to ensure the Account has a value in that field.",
+      "D. Ensure the Market Segment field on the Lead is mapped to right field on Account."
+    ],
+    "answer": "B",
+    "title": "Question 188",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar has a path on Case. The company wants to require its users to follow the status values as they are on the path. Agents should be prohibited from reverting the Case back to a previous status.\nWhich feature should an administrator use to fulfill this request?",
+    "options": [
+      "A. Validation Rules",
+      "B. Dependent Picklists",
+      "C. Global Value Picklists",
+      "D. Predefined Field Values"
+    ],
+    "answer": "A",
+    "title": "Question 189",
+    "explanation": ""
+  },
+  {
+    "content": "Which function is available in the report builder interface, prior to running the report?",
+    "options": [
+      "A. Export details",
+      "B. Printable view",
+      "C. Schedule future runs",
+      "D. Save",
+      "E. Show/hide details"
+    ],
+    "answer": "D,E",
+    "title": "Question 190",
+    "explanation": ""
+  },
+  {
+    "content": "Sales reps miss key fields when filling out on opportunity record through the process. Reps need to move forward Win unable to enter previous stage.\nWhich three options should the administrator use to address this need?\nChoose Three answers",
+    "options": [
+      "A. Use Validation Rules.",
+      "B. Configure Opportunity Path.",
+      "C. Mark fields required on the page layout.",
+      "D. Enable guided selling.",
+      "E. Use Flow to mark fields required."
+    ],
+    "answer": "A,B,E",
+    "title": "Question 191",
+    "explanation": ""
+  },
+  {
+    "content": "Which statements are true for the integrated campaign builder?",
+    "options": [
+      "A. The maximum number of Leads/Contacts that can be added from the wizard at one time is 250",
+      "B. Cannot filter views by more than one campaign at a time",
+      "C. Integrated Campaign Builder views are not exposed through the Force.com API",
+      "D. Can add converted leads to a campaign",
+      "E. The maximum number of Leads/Contacts that can be added from a report at one time is 50,000"
+    ],
+    "answer": "A,B,C,E",
+    "title": "Question 192",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator at Universal Containers has been asked to prevent users from accessing\nSalesforce from outside of their network.\nWhat are two considerations for this configuration?\nChoose 2 answers",
+    "options": [
+      "A. Enforce Login IP Ranges on Every Request must be selected to enforce IP restrictions.",
+      "B. IP address restrictions are set on the profile or globally for the org.",
+      "C. Single sign-on will allow users to log in from anywhere.",
+      "D. Users can change their password to avoid login IP restrictions."
+    ],
+    "answer": "A,B",
+    "title": "Question 193",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) would like to count the number of open cases associated with each account and update the account with this value every Friday evening. UC has several hundred open cases at any given time.\nWhat should the administrator use to complete this request?",
+    "options": [
+      "A. Use a scheduled process builder.",
+      "B. Use a record trigger flow.",
+      "C. Use a Roll-Up summary.",
+      "D. Use a scheduled flow"
+    ],
+    "answer": "D",
+    "title": "Question 194",
+    "explanation": ""
+  },
+  {
+    "content": "You can use conditional highlighting for summary and matrix report only.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 195",
+    "explanation": ""
+  },
+  {
+    "content": "With sharing rules one can make automatic exceptions to the organization-wide default for defined sets of users.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 196",
+    "explanation": ""
+  },
+  {
+    "content": "Which function can be performed using enhanced profile management? Choose 2 answers",
+    "options": [
+      "A. Edit profile permissions directly in a list view",
+      "B. Make mass permission modifications across multiple profiles",
+      "C. Merge profiles",
+      "D. Make mass profile name changes"
+    ],
+    "answer": "A,B",
+    "title": "Question 197",
+    "explanation": ""
+  },
+  {
+    "content": "You must meet the following prerequisites before enabling territory management? Choose 2 answers",
+    "options": [
+      "A. Follow the steps in the Deploying Territory Management Guide to prepare your organization for territory management.",
+      "B. You must have the Marketing User Profile",
+      "C. Your organization must be using customizable forecasting",
+      "D. You must have the Territory Manager Profile"
+    ],
+    "answer": "A,C",
+    "title": "Question 198",
+    "explanation": ""
+  },
+  {
+    "content": "On deleting a Tab from an Application ___________.",
+    "options": [
+      "A. Deletes the tab from that Application",
+      "B. Deletes that particular Object of whose Tab is deleted",
+      "C. Deletes the Tab from Salesforce.com",
+      "D. All of the Above"
+    ],
+    "answer": "A",
+    "title": "Question 199",
+    "explanation": ""
+  },
+  {
+    "content": "A Lookup Field Relationship Select the correct choice",
+    "options": [
+      "A. Links two objects together",
+      "B. Links two formulas together",
+      "C. Links two page layouts together",
+      "D. Links two Salesforce.com instances together"
+    ],
+    "answer": "A",
+    "title": "Question 200",
+    "explanation": ""
+  },
+  {
+    "content": "Standard profile permissions cannot be edited.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 201",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar has its business hours set from 9:00 AM to 5:00 PM for the reps that are on pacific time. The reps on Eastern Time need business hours set to start 3 hours earlier to cover for support.\nHow should an administrator solve for this issue?",
+    "options": [
+      "A. Create one set of business hours per time zone.",
+      "B. Adjust the currant business hours to accommodate the Eastern Time Zone.",
+      "C. Set temporary business hours for each time zone.",
+      "D. Allow the reps to set business hours manually."
+    ],
+    "answer": "A",
+    "title": "Question 202",
+    "explanation": ""
+  },
+  {
+    "content": "How should an administrator support this request?",
+    "options": [
+      "A. Refresh weekly reporting snapshots for Closed Opportunities.",
+      "B. Add Formula Fields to track Stages on each Opportunity.",
+      "C. Run the Opportunity Stage Duration report.",
+      "D. Use process builder to capture the daily average on each opportunity."
+    ],
+    "answer": "C",
+    "title": "Question 203",
+    "explanation": ""
+  },
+  {
+    "content": "A System Administrator can edit a profile to:",
+    "options": [
+      "A. Deny a user access to other users leads",
+      "B. Prevent a user from viewing custom tabs",
+      "C. Prevent the use of Mass email"
+    ],
+    "answer": "C",
+    "title": "Question 204",
+    "explanation": ""
+  },
+  {
+    "content": "All of the following objects may have a queue EXCEPT",
+    "options": ["A. Leads", "B. Accounts", "C. Custom Objects", "D. Cases"],
+    "answer": "B",
+    "title": "Question 205",
+    "explanation": ""
+  },
+  {
+    "content": "On which OWD sharing defaults the Sharing Rules can't be defined?",
+    "options": [
+      "A. OWD is Public Read Write",
+      "B. Sharing rules can be created on any of the above",
+      "C. OWD is Private",
+      "D. OWD is Public Read Only"
+    ],
+    "answer": "A",
+    "title": "Question 206",
+    "explanation": ""
+  },
+  {
+    "content": "When you delete a product, the opportunity associated with that product will be suspended until further action is taken.",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 207",
+    "explanation": ""
+  },
+  {
+    "content": "A user at Cloud Kicks is having issues logging in to Salesforce. The user asks the administrator\nto reset their password.\nWhich two options should the administrator consider when resetting the user's password?\nChoose 2 answers",
+    "options": [
+      "A. Resetting the password will change the user's password policy.",
+      "B. Single sign-on users can reset their own passwords using the forgot password link.",
+      "C. Resetting a locked-out user's password automatically unlocks the user's account.",
+      "D. After resetting a password, the user may be required to activate their device to successfully log"
+    ],
+    "answer": "C,D",
+    "title": "Question 208",
+    "explanation": "in to Salesforce."
+  },
+  {
+    "content": "All the following are Main Setup areas in Salesforce.com EXCEPT?",
+    "options": [
+      "A. Personal Setup",
+      "B. Administration Setup",
+      "C. Data Setup",
+      "D. App Setup"
+    ],
+    "answer": "C",
+    "title": "Question 209",
+    "explanation": ""
+  },
+  {
+    "content": "How is the expected revenue calculated in the opportunity?",
+    "options": [
+      "A. The sales price on any line item times the probability of the opportunity",
+      "B. Amount multiplied by the discount percent",
+      "C. Opportunity Amount multiplied by the probability",
+      "D. Amount multiplied by the total price of all opportunity line items"
+    ],
+    "answer": "C",
+    "title": "Question 210",
+    "explanation": ""
+  },
+  {
+    "content": "Can a user create his or her own Default Sales Team?",
+    "options": ["A. No", "B. Yes"],
+    "answer": "B",
+    "title": "Question 211",
+    "explanation": ""
+  },
+  {
+    "content": "What data loss considerations should an administrator keep in mind when changing a custom field type from Text to Picklist?\nChoose 2 answers",
+    "options": [
+      "A. Auto updates will be made to Visualforce references to prevent data loss.",
+      "B. Assignment and escalation rules may be affected.",
+      "C. There will be no data loss with use of a global value set.",
+      "D. Any list view based on the custom field is deleted."
+    ],
+    "answer": "D",
+    "title": "Question 212",
+    "explanation": ""
+  },
+  {
+    "content": "Which report type must be used to create dashboard components?",
+    "options": [],
+    "answer": "",
+    "title": "Question 213",
+    "explanation": "Summary /\n matrix"
+  },
+  {
+    "content": "Field-level security can be used to make a field required",
+    "options": ["A. False", "B. True"],
+    "answer": "A",
+    "title": "Question 214",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following types of packages can be upgraded?",
+    "options": [
+      "A. Unmanaged Packages",
+      "B. Both A & B",
+      "C. Managed Packages",
+      "D. None of the Above"
+    ],
+    "answer": "C",
+    "title": "Question 215",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers administrator has been asked to create a many-to-many relationship\nbetween two existing custom objects.\nWhich two steps should the administrator take when enabling the many-to-many relationship?\nChoose 2 answers",
+    "options": [
+      "A. Create a junction with a custom object.",
+      "B. Create two master detail relationships on the new object.",
+      "C. Create URL fields on a custom object.",
+      "D. Create two lookup relationships on the new object."
+    ],
+    "answer": "A,B",
+    "title": "Question 216",
+    "explanation": ""
+  },
+  {
+    "content": "What steps are part of the process to enable Multi-Currency in an organization?",
+    "options": [
+      "A. Enable Advanced Currency Management",
+      "B. Choose a default currency",
+      "C. Create a Sandbox",
+      "D. Contact salesforce.com to enable multiple currencies"
+    ],
+    "answer": "B,D",
+    "title": "Question 217",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Realty (DHR) wants a templated process with a mortgage calculator that generated leads for loans. DHR needs to complete the project within 30 days and has maxed out its budget for the year.\nWhich AppExchange item should help the administrator to meet the request?",
+    "options": [
+      "A. Lightning Data",
+      "B. Flow Solutions",
+      "C. Lightning Community",
+      "D. Bolt Solutions"
+    ],
+    "answer": "B",
+    "title": "Question 218",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters has the Case Object set to private. The support manager raised a concern the reps have a boarder view of data than expected and can see all cases on their groups dashboards.\nWhat could be Causing reps to have inappropriate access to data on dashboards?",
+    "options": [
+      "A. Public Dashboards.",
+      "B. Dashboard Filters",
+      "C. Dashboard Subscriptions",
+      "D. Dynamic Dashboards"
+    ],
+    "answer": "D",
+    "title": "Question 219",
+    "explanation": ""
+  },
+  {
+    "content": "How long does a backup data export remain on Salesforce CRM before it is automatically deleted?",
+    "options": ["A. 48 hours", "B. 24 hours", "C. 12 hours"],
+    "answer": "B",
+    "title": "Question 220",
+    "explanation": ""
+  },
+  {
+    "content": "If the lead has a record type, the default record type of the new owner is assigned to records created during lead conversion.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 221",
+    "explanation": ""
+  },
+  {
+    "content": "Which statements are true about standard fields?",
+    "options": [
+      "A. You can change the std field labels",
+      "B. You can remove required std fields from a page layout",
+      "C. Std fields are created by Admin",
+      "D. You can delete std fields"
+    ],
+    "answer": "A",
+    "title": "Question 222",
+    "explanation": ""
+  },
+  {
+    "content": "Dated exchange rates can be set in the time range of",
+    "options": [
+      "A. As short as an hour and as long as a month",
+      "B. As short as a month and as long as an year",
+      "C. As short as a day and as long as a forever",
+      "D. As short as a month and as long as a quarter",
+      "E. As short as a minute and as long as a day"
+    ],
+    "answer": "C",
+    "title": "Question 223",
+    "explanation": ""
+  },
+  {
+    "content": "You will need a security token to access Salesforce via (choose all that apply)",
+    "options": [
+      "A. Import Wizard",
+      "B. Data Loader",
+      "C. All of the above",
+      "D. Salesforce for Outlook"
+    ],
+    "answer": "B,D",
+    "title": "Question 224",
+    "explanation": ""
+  },
+  {
+    "content": "Record type picklist filtering applies to dependent picklists.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 225",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud kicks intends to protect with backups by using the data by using the data export\nService.\nWhich two considerations should the administrator remember when Scheduling the export?\nChoose 2 Answers.",
+    "options": [
+      "A. Data export service should be run from a sandbox.",
+      "B. Data Backups are limited to weekly or monthly intervals.",
+      "C. Metadata backups must be run via a separate process.",
+      "D. Metadata Backups are limited a sandbox refresh intervals."
+    ],
+    "answer": "B,D",
+    "title": "Question 226",
+    "explanation": ""
+  },
+  {
+    "content": "How many custom fields can be created on an object in an unlimited Edition?",
+    "options": ["A. 200", "B. 100", "C. 500", "D. Unlimited Fields"],
+    "answer": "C",
+    "title": "Question 227",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator needs to create a one-to-many relationship between two objects with\nlimited access to child records.\nWhat type of field should the administrator use?",
+    "options": [
+      "A. Lookup field",
+      "B. Master-detail field",
+      "C. Roll-up summary",
+      "D. Cross Object formula"
+    ],
+    "answer": "B",
+    "title": "Question 228",
+    "explanation": ""
+  },
+  {
+    "content": "Which of the following objects cannot be imported via the Salesforce.com Import Wizard?",
+    "options": ["A. Opportunities", "B. Accounts", "C. Solutions", "D. Leads"],
+    "answer": "A",
+    "title": "Question 229",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail outfitters has hired interns to enter Leads into Salesforce and has requested a\nway to is identify these new records from existing Leads.\nWhat approach should an administrator take to meet this requirement?",
+    "options": [
+      "A. Create a separate Lead Lightning App.",
+      "B. Update the active Leas Assignment Rules.",
+      "C. Define a record type and assign it to the interns.",
+      "D. Set up Web-to-Lead form the interns use."
+    ],
+    "answer": "A",
+    "title": "Question 230",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar offers amazing experiences for all of it employees. The Employee engagement committee wants to post updates while restricting other employees from posting.\nWhat should the administrator create to meet this request?",
+    "options": [
+      "A. Chatter Broadcast Group",
+      "B. Chatter Unlisted Group",
+      "C. Chatter Stream.",
+      "D. Chatter Recommendations."
+    ],
+    "answer": "A",
+    "title": "Question 231",
+    "explanation": ""
+  }
+]

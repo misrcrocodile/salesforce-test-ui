@@ -34,6 +34,10 @@ var testList = [
       "Salesforce.ADM-201.v2023-10-02.q113.json",
       "Salesforce.ADM-201.v2023-10-09.q118.json",
       "Salesforce.ADM-201.v2023-11-02.q102.json",
+      "Salesforce.CRT-101.v2023-05-18.q231",
+      "Salesforce.CRT-101.v2023-02-11.q82",
+      "Salesforce.CRT-101.v2022-07-26.q83",
+      "Salesforce.CRT-101.v2021-01-04.q351",
     ],
   },
   {
