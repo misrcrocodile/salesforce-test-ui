@@ -1,0 +1,467 @@
+[
+  {
+    "content": "Consider the controller code above that is called from a Lightning component and returns data wrapped in a class.Consider the controller code above that is called from a Lightning component and returns data wrapped in a class. The developer verified that the Queries return a single record each and there is error handing in the Lightning component, but the component is not getting anything back when calling the controller getSomeData(). What is wrong?",
+    "options": [
+      "A. Instances of Apex classes such as MyDataWrapper cannot be returned to a Lightning component.",
+      "B. The member's Name and Option should not have getter and setter.",
+      "C. The member's Name and Option of the class MyDataWrapper should be annotated with @AuraEnabled too.",
+      "D. The member's Name and Option should not be declared public."
+    ],
+    "answer": "C",
+    "title": "Question 1"
+  },
+  {
+    "content": "A company has a web page that needs to get Account record information, given its Salesforce record ID, from JavaScript on the page and then display it. Which method of integration is optimal?",
+    "options": [
+      "A. Apex REST Web Service",
+      "B. SOAP API",
+      "C. REST API",
+      "D. Apex SOAP Web Service"
+    ],
+    "answer": "A",
+    "title": "Question 2"
+  },
+  {
+    "content": "A developer receives the exception 'SOQL query not selective enough' when performing a query on an object with a large amount of dat a. Which step should be taken to resolve the issue?",
+    "options": [
+      "A. Perform the SOQL query via a call to the REST API.",
+      "B. Move the SOQL query to within an asynchronous process.",
+      "C. Perform the SOQL query as part of a FOR loop.",
+      "D. Use an ID in the WHERE clause of the SOQL query."
+    ],
+    "answer": "D",
+    "title": "Question 3"
+  },
+  {
+    "content": "How should a developer verify that a specific Account record is being tested in a test class for a visualforce controller?",
+    "options": [
+      "A. Insert the Account in the test class, instantiate the page reference in the test class, then use System.currentPageReference().getParameters{}.put() to set the Account ID.",
+      "B. Instantiate the page reference in the test class, insert the Account in the test class, then use seeAHData-true to view the Account.",
+      "C. Insert the Account into Salesforce, instantiate the page reference in the test class, then use System.setParentRecordId().get() to set the Account ID.",
+      "D. Instantiate the page reference in the test class, insert the Account in the test class, then use System.setParentRecordld().get() to set the Account ID."
+    ],
+    "answer": "D",
+    "title": "Question 4"
+  },
+  {
+    "content": "A company manages information about their product offerings in custom objects named Catalog and Catalog Item. Catalog Item has a master-detail field to Catalog, and each Catalog may have as many as 100,000 Catalog Items.Both custom objects have a CurrencylsoCode Text field that contains the currency code they should use. If a Catalog's CurrencylsoCode changes, all of its Catalog Items' CurrencylsoCodes should be changed as well. What should a developer use to update the CurrencylsoCodes on the Catalog Items when the Catalog's CurrencylsoCode changes^5",
+    "options": [
+      "A. A Database.Schedulable and Database.Batchable class that queries the Catalog Item object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
+      "B. A Database.Schedulable and Database.Batchable class that queries the Catalog object and updates the Catalog Items if the Catalog CurrencylsoCode is different",
+      "C. An after insert trigger on Catalog Item that updates the Catalog Items if the Catalog's CurrencylsoCode is different",
+      "D. An after insert trigger on Catalog that updates the Catalog Items if the Catalog's CurrencylsoCode is different"
+    ],
+    "answer": "B",
+    "title": "Question 5"
+  },
+  {
+    "content": "A company notices that their unit tests in a test class with many methods to create many records for prerequisite reference data are slow. What can a developer to do address the issue?",
+    "options": [
+      "A. Move the prerequisite reference data setup to the constructor for the test class.",
+      "B. Move the prerequisite reference data setup to a TestDataFactory and call that from each test method.",
+      "C. Move the prerequisite reference data setup to a @testSetup method in the test class.",
+      "D. Move the prerequisite reference data setup to a static method in the test class and call that from each test method."
+    ],
+    "answer": "C",
+    "title": "Question 6"
+  },
+  {
+    "content": "A developer creates an application event that has triggered an infinite loop. What may have caused this problem?",
+    "options": [
+      "A. The event Is fired from a custom renderer.",
+      "B. An event is fired ontouchend\" and is unhandled.",
+      "C. The event has multiple handlers registered in the project.",
+      "D. The event handler calls a trigger."
+    ],
+    "answer": "D",
+    "title": "Question 7"
+  },
+  {
+    "content": "A developer sees test failures in the sandbox but not in production. No code or metadata changes have been actively made to either environment since the sandbox was created. Which consideration should be checked to resolve the issue?",
+    "options": [
+      "A. Ensure Workflow Rules are inactive.",
+      "B. Ensure the sandbox is on the same release as production.",
+      "C. Ensure Process Builder processes are inactive.",
+      "D. Ensure the Apex Classes are on the same API version."
+    ],
+    "answer": "B",
+    "title": "Question 8"
+  },
+  {
+    "content": "An Apex Trigger creates a Contract record every time an Opportunity record is marked as Closed and Won. This trigger is working great, except (due to a recent acquisition) historical Opportunity records need to be loaded into the Salesforce instance. When a test batch of records are loaded, the Apex Trigger creates Contract records. A developer is tasked with preventing Contract records from being created when mass loading the Opportunities, but the daily users still need to have the Contract records created. What is the most extendable way to update the Apex Trigger to accomplish this?",
+    "options": [
+      "A. add the Profile Id of the user who does the data loading to the Trigger so the Trigger won't fire for this user.",
+      "B. Use a Hierarchy Custom Setting to disable the Trigger for the user who does the data loading.",
+      "C. Use a List Custom Setting to disable the Trigger for the user who does the data loading.",
+      "D. Add a Validation Rule to the Contract to prevent Contract creation by the user who does the data loading."
+    ],
+    "answer": "B",
+    "title": "Question 9"
+  },
+  {
+    "content": "There are user complaints about slow render times of a custom data table within a visualforce page that loads thousands of Account records at once. What can a developer do to help alleviate such issues?",
+    "options": [
+      "A. Use the transient keyword in the Apex code when querying the Account records.",
+      "B. Use the standard Account List controller and implement pagination.",
+      "C. Upload a third-party data table library as a static resource.",
+      "D. Use JavaScript remoting to query the accounts."
+    ],
+    "answer": "B",
+    "title": "Question 10"
+  },
+  {
+    "content": "A company uses Opportunism to track sales to their customers and their org has millions of Opportunities. They want to begging to track revenue over time through a related Revenue object.As part of their initial implementation, they want to perform a one-time seeding of their data by automatically creating and populating Revenue records for Opportunities, based on complex logic. They estimate that roughly 100,000 Opportunities will have revenue records and populated. What is the optimal way to automate this?",
+    "options": [
+      "A. Use Database.executeBatch() to invoke a Queueable dass.",
+      "B. Use System.scheduleJob() to schedule a Database.Scheduleable class.",
+      "C. Use Database.txtcuteBatch() to invoke a Database.Batchable class.",
+      "D. Use System.enqueueJob>() to Invoke a Queueable class."
+    ],
+    "answer": "B",
+    "title": "Question 11"
+  },
+  {
+    "content": "Universal Containers needs to integrate with a Heroku service that resizes product images submitted by users. What are two alternatives to implement the integration and protect against malicious calls to the Heroku app's endpoint? Choose 2 answers",
+    "options": [
+      "A. Create a Workflow Rule with an Outbound Message allowing the Heroku app to automatically store the resized images in Salesforce",
+      "B. Create a Workflow Rule with an Outbound Message and select Send Session ID so that the Heroku app can use it to send the re images back to Salesforce.",
+      "C. Create a trigger that uses an ©future Apex HTTP callout passing JSON serialized data; therefore the Heroku app can automatically reply back to the callout with the resized images in Salesforce.",
+      "D. Create a trigger that uses an ©future Apex HTTP callout passing JSON serialized data and some form of pre-shared secret key, so that the Heroku app can authenticate requests and store the resized images in Salesforce."
+    ],
+    "answer": "B,D",
+    "title": "Question 12"
+  },
+  {
+    "content": "A developer created a new trigger that inserts a Task when a new Lead is created. After deploying to production, an outside integration is periodically reporting errors. Which change should the developer make to ensure the integration is not affected with minimal impact to business logic?",
+    "options": [
+      "A. Deactivate the Trigger before the Integration runs.",
+      "B. Use the Database method with allOrNone set to False.",
+      "C. Use a Try/Catch block after the insert statement.",
+      "D. Remove the Apex Class from the Integration User's Profile."
+    ],
+    "answer": "B",
+    "title": "Question 13"
+  },
+  {
+    "content": "A developer wants to integrate invoice and invoice line data into Salesforce from a custom billing system. The developer decides to make realtime callouts from the billing system using the SOAP API. Unfortunately, the developer is getting a lot of errors when inserting the invoice line data because the invoice header record doesn't exist yet. What will help ensure ne transactional Integrity of the integration?",
+    "options": [
+      "A. Create the invoice header and the related invoice lines in the same create() call leveraging External Ids.",
+      "B. Use an ETL tool and the Bulk API running nightly, thus ensuring all of the data is handled at the same time.",
+      "C. Set the AIIOrNoneHeader to true when calling each of create() for invoice headers and create() for invoice lines.",
+      "D. Develop a custom Apex web service to handle a custom JSON data structure with both invoice header and related invoice lines."
+    ],
+    "answer": "D",
+    "title": "Question 14"
+  },
+  {
+    "content": "Exhibit:What should be added to the setup, in the location indicated, for the unit test above to create the controller extension for the test?A)B)C)D)",
+    "options": ["A. Option A", "B. Option D", "C. Option C", "D. Option B"],
+    "answer": "C",
+    "title": "Question 15"
+  },
+  {
+    "content": "The use of the transient keyword In Visualforce Page Controllers helps with which common performance issued?",
+    "options": [
+      "A. Improves Query Performance",
+      "B. Reduces View State",
+      "C. Improves Page Transfers",
+      "D. Reduces Load Times"
+    ],
+    "answer": "B",
+    "title": "Question 16"
+  },
+  {
+    "content": "A managed package uses a list of country ISO codes and country names as references data in many different places.. managed package Apex code. What is the optimal way to store and retrieve the list?",
+    "options": [
+      "A. Store the information in a list Custom Setting and access it with the getAll() method",
+      "B. Store the information in Custom Metadata and query it with SOQL.",
+      "C. Store the information in a List Custom Setting and query it with SOQL.",
+      "D. Store the information in Custom Metadata and access it with the getAll() method."
+    ],
+    "answer": "B",
+    "title": "Question 17"
+  },
+  {
+    "content": "A developer is trying to decide between creating a Visualforce component or a Lightning component for a custom screen. Which functionality consideration impacts the final decision?",
+    "options": [
+      "A. Will the screen make use of a JavaScript framework?",
+      "B. Will the screen be accessed via a mobile app?",
+      "C. Does the screen need to be accessible from the Lightning Experience UI?",
+      "D. Does the screen need to be rendered as a PDF?"
+    ],
+    "answer": "C",
+    "title": "Question 18"
+  },
+  {
+    "content": "Sometimes events on Salesforce need to be handled by an external system due to the scale or type of process being executed. Consider the use case of a user in Salesforce needing to get pricing for an order they are building in Salesforce while on the phone with a customer. The pricing logic already exists in a third-party system. Instead of recreating this logic in Salesforce, it will be leveraged by making a request of the third-party system. The response, in this case the pricing, will be returned and stored back in Salesforce. What is the optimal solution?",
+    "options": [
+      "A. A Visualforce page that can make a real-time Apex callout to display and save the pricing back in Salesforce",
+      "B. A Process Builder process and Outbound Message to fetch the pricing upon save and store the pricing in Salesforce",
+      "C. An ETL tool to process batches of newly saved Orders every few minutes to store the pricing back in Salesforce",
+      "D. An Apex trigger that upon saving the Order will make a real-time Apex callout, saving the pricing back in Salesforce"
+    ],
+    "answer": "D",
+    "title": "Question 19"
+  },
+  {
+    "content": "A Visualforce Page throws an Attempt to dereference a null object error for a Contact. What change In the controller will fix the error?",
+    "options": [
+      "A. Use a condition in the getter to return a new Contact if it is null.",
+      "B. Change the setters signature to return a Contact.",
+      "C. Declare a static final Contact at the top of the controller.",
+      "D. Change the getter's signature to be static Contact."
+    ],
+    "answer": "A",
+    "title": "Question 20"
+  },
+  {
+    "content": "What is a benefit of JavaScript remoting over Visualforce Remote Objects?",
+    "options": [
+      "A. Supports complex server-side application logic",
+      "B. Allows for specified re-render targets",
+      "C. Does not require any JavaScript code",
+      "D. Does not require any Apex code"
+    ],
+    "answer": "C",
+    "title": "Question 21"
+  },
+  {
+    "content": "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page. Which Apex code feature is required to facilitate this solution'",
+    "options": [
+      "A. Dynamic variable binding",
+      "B. Report API",
+      "C. Dynamic SOQL",
+      "D. Streaming API"
+    ],
+    "answer": "C",
+    "title": "Question 22"
+  },
+  {
+    "content": "Which annotation exposes an Apex class as a RESTful neb service?",
+    "options": [
+      "A. @RestRtsoorct",
+      "B. @RemoteAction",
+      "C. @HttpInvocabte",
+      "D. @AuraEnaWed"
+    ],
+    "answer": "A",
+    "title": "Question 23"
+  },
+  {
+    "content": "Example 1: AggregateResult[] groupedResults = [SELECT Campaignid, AVG(Amount) FROM Opportunity GROUP BY CampaignId]; for (AggregateResult ar : groupedResuits) { System.debug ('Campaign ID' + ar.get('CampaignId'-); System.debug ('Average amount' + ar.get('exprd')); } Example 2: AggregateResult[] groupedResults = [SELECT Campaignid, AVG(Amount) theAverage FROM Opportunity GROUP BY Campaignid]; for (AggregateResult ar : groupedResuits) { System.debug(*Campaign ID' + ar.get('CampaignId')); System.debug ('Average amount' + ar.get('theAverage')); } Example 3: AggregateResult[] groupedResults = [SELECT CampaignId, AVG(Amount) FROM Opportunity GROUP BY CampaignId]; for (AggregateResult ar : groupedResuits) System.debug(*Campaign ID' + ar.get('CampaignId')); System.debug('Average amount' + ar.get.AVG(-); } Example 4:AggregateResult[] groupedResults = [SELECT CampaigniId, AVG(Amount) theAverage FROM Opportunity GROUP BY Campaignid]; for (AggregateResult ar : groupedResults) { System.debug('Campaign ID' + ar.get('CampaignId')); System.debug ('Average amount' + ar.theAverage-; } Which two of the examples above have correct System.debug statements? Choose 2 answers",
+    "options": ["A. Example 1", "B. Example 4", "C. Example 2", "D. Example 3"],
+    "answer": "B,C",
+    "title": "Question 24"
+  },
+  {
+    "content": "messages are rendering on the page. Which component should be added to the Visualforce page to display the message?",
+    "options": ["A. ", "B. ", "C. ", "D. "],
+    "answer": "C",
+    "title": "Question 25"
+  },
+  {
+    "content": "Which method should be used to convert a Date to a String in the current user's locale?",
+    "options": [
+      "A. Date.format",
+      "B. String.format",
+      "C. Date.parse",
+      "D. String. valueOf"
+    ],
+    "answer": "D",
+    "title": "Question 26"
+  },
+  {
+    "content": "What is a benefit of using a WSDL with Apex?",
+    "options": [
+      "A. Enables the user to not pass a Session ID where it is not necessary",
+      "B. Reduces the number of callouts to third-party web services",
+      "C. Allows for classes to be imported into Salesforce",
+      "D. Allows for web services to be tested and achieve code coverage"
+    ],
+    "answer": "C",
+    "title": "Question 27"
+  },
+  {
+    "content": "Consider the code above.When a user dicks on the Link of a Contact's name, what happens'",
+    "options": [
+      "A. Nothing happens: the commandLink is missing an action attribute.",
+      "B. The page refreshes, showing the Contact's details.",
+      "C. The outputPanel refreshes, showing the Contacts details.",
+      "D. A new page opens, showing the Contact's details."
+    ],
+    "answer": "A",
+    "title": "Question 28"
+  },
+  {
+    "content": "Which scenario requires a developer to use an Apex callout instead of Outbound Messaging?",
+    "options": [
+      "A. The Target system uses a REST API.",
+      "B. The callout needs to be asynchronous.",
+      "C. The callout needs to be invoked from a Workflow Rule.",
+      "D. The Target system uses a SOAP API."
+    ],
+    "answer": "A",
+    "title": "Question 29"
+  },
+  {
+    "content": "An Apex trigger and Apex class increment a counter, Edit_Count_c, any time that the Case is changed.A new process on the case object was just created in production for when a Case is created or updated< since the process was created, they are reports that the Count is being incremented by more than one on Case edit. Which change in the Apex code will fix the problem?A)B)C)D)",
+    "options": ["A. Option D", "B. Option A", "C. Option C", "D. Option B"],
+    "answer": "B",
+    "title": "Question 30"
+  },
+  {
+    "content": "A developer needs to implement a system audit feature that allows users, assigned to a custom profile named \"Auditors\", to perform searches against the historical records in the Account object. The developer must ensure the search is able to return history records that are between 12 and 24 months old.Given the code below, which select statement should be inserted below as a valid way to retrieve the Account History records ranging from 12 to 24 month old?A)B)C)D)",
+    "options": ["A. Option D", "B. Option C", "C. Option B", "D. Option A"],
+    "answer": "A",
+    "title": "Question 31"
+  },
+  {
+    "content": "A Lightning Component has a section that displays some information about an Account and it works well on the desktop, but users have to scroll horizontally to see the Description field output on their mobile devices and tablets. Which option has the changes to make the component responsive for mobile and tablet devices?",
+    "options": ["A. ", "B. ", "C. ", "D. "],
+    "answer": "D",
+    "title": "Question 32"
+  },
+  {
+    "content": "Universal Containers allows customers to log into a Salesforce Community and update their orders via a custom Visualforce page. Universal Containers' sales representatives can edit the orders on the same Visualforce page. What should a developer use in an Apex test class to test that record sharing is enforced on the Visualforce page?",
+    "options": [
+      "A. Use System.profllels() to test as an administrator and a community user,",
+      "B. Use System.runAs() to test as an administrator and a community user.",
+      "C. Use System.runAs() to test as a sales rep and a community user.",
+      "D. Use System.profilels() to test as a sales rep and a community user."
+    ],
+    "answer": "C",
+    "title": "Question 33"
+  },
+  {
+    "content": "A developer is writing a Visualforce page that queries accounts in the system and presents a data table with the results. The users want to be able to filter the results based on up to five fields. However, the users want to pick the five fields to use as filter fields when they run the page. Which feature of Apex code is required to facilitate this solution?",
+    "options": [
+      "A. REST API",
+      "B. Dynamic Schema binding",
+      "C. SOSL queries",
+      "D. describeSObjects()"
+    ],
+    "answer": "D",
+    "title": "Question 34"
+  },
+  {
+    "content": "For compliance purposes, a company is required to track long-term product usage in their org. The information that they need to log will be collected from more than one object and. over time, they predict they will have hundreds of millions of records. What should a developer use to implement this?",
+    "options": [
+      "A. Bin objects",
+      "B. Field History Tracking",
+      "C. Setup Audit Trail",
+      "D. Field Audit Trail"
+    ],
+    "answer": "A",
+    "title": "Question 35"
+  },
+  {
+    "content": "Exhibit:The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Account are simultaneously updated to be customer. The test method fails at the Line 20 because of too many SOQL queriesWhat is the correct way to fix this?The test method above tests an Apex trigger that the developer knows will make a lot of queries when a lot of Accounts are simultaneously updated to be customers. The test method fails at the Line 20 because of too many SOQL queries. What is the correct way to fix this?",
+    "options": [
+      "A. Add TesLstartTest() before and Test.stop Test() after both Line 7 of the code and Line 20 of the code.",
+      "B. Change the DataFactory class to create fewer Accounts so that the number of queries in the trigger is reduced.",
+      "C. Add TeststartTest() before Line 18 of the code and add Test.stopTest() after line 18 of the code.",
+      "D. Replace most of the Apex Trigger with Process Builder processes to reduce the number of queries in the trigger."
+    ],
+    "answer": "A",
+    "title": "Question 36"
+  },
+  {
+    "content": "A company has many different unit test methods that create Account records as part of their data setup. A new required field was added to the Account and now all of the unit tests fail. What is the optimal way for a developer to fix the issue?",
+    "options": [
+      "A. Change the required field to be a validation rule that excludes the System Administrator profile.",
+      "B. Add a before insert trigger on Account to set the value of the required field.",
+      "C. Add the required field to the data setup for all of the unit tests.",
+      "D. Create a TestDataFactory class that serves as the single place to create Accounts for unit tests and set the required field there."
+    ],
+    "answer": "D",
+    "title": "Question 37"
+  },
+  {
+    "content": "The test method above calls an @future method that increments the Number_of_Times_Viewed__c value. The assertion is failing because the Number_of_Times_Viewed__c equals 0. What is the optimal way to fix this?",
+    "options": [
+      "A. Add Test.startTest() before and Test.stopTest() after insert acct",
+      "B. Change the assertion to System.assertEquals(0, acctAfter.Number_Of_Times_Viewed__c).",
+      "C. Change the initialization to acct.Number_Of_Times_Viewed__c = 1.",
+      "D. Add Test.startTest() before and Test.stopTest() after AuditUtil.incrementViewed."
+    ],
+    "answer": "C",
+    "title": "Question 38"
+  },
+  {
+    "content": "An org has a requirement that an Account must always have one and only one Contact listed as Primary. So selecting one Contact will de-select any others. The client wants a checkbox on the Contact called 'Is Primary' to control this feature. The client also wants to ensure that the last name of every Contact is stored entirely in uppercase characters. What is the optimal way to implement these requirements?",
+    "options": [
+      "A. write an after update trigger on Account for the Is Primary logic and a before update trigger on Contact for the last name logic.",
+      "B. write a Validation Rule on the Contact for the Is Primary logic and a before update trigger on Contact for the last name logic.",
+      "C. write a single trigger on Contact for both after update and before update and callout to helper classes to handle each set of logic.",
+      "D. Write an after update trigger on Contact for the Is Primary logic and a separate before update trigger on Contact for the last name logic."
+    ],
+    "answer": "C",
+    "title": "Question 39"
+  },
+  {
+    "content": "A company has a custom object Sales_Help_Request__c that has a Lookup relationship to Opportunity. The Sales_Help_Request__c has a number field, Number_of_Hours__c, that represents the amount of time spent on the Sales_Help_Request__c.A developer is tasked with creating a field, Total_Hours__c, on Opportunity that should be the sum of all of the Number_of_Hours__c values for the Sales_Help_Request__c records related to that Opportunity. What should the developer use to implement this?",
+    "options": [
+      "A. A trigger on Sales_Help_Request__c",
+      "B. A trigger on the Opportunity object",
+      "C. A workflow rule on the Sales_Help_Request__c object",
+      "D. A roll-up summary field on the Opportunity object"
+    ],
+    "answer": "A",
+    "title": "Question 40"
+  },
+  {
+    "content": "How should a developer assert that a trigger with an asynchronous process has successfully run?",
+    "options": [
+      "A. Create all test data, use @future In the test class, then perform assertions.",
+      "B. Insert records into Salesforce, use seeAllData-true, then perform assertions.",
+      "C. Create all test data in the test class, invoke Test.startTest() and Test.stopTest() and then perform assertions,",
+      "D. Create at test data in the test class, use System.runAs() to invoke the trigger, then perform assertions."
+    ],
+    "answer": "C",
+    "title": "Question 41"
+  },
+  {
+    "content": "A developer Is asked to develop a new AppExthange application. A feature of the program creates Survey records when a Case reaches a certain stage and Is of a certain Record Type. This feature needs to be configurable, as different Salesforce instances require Surveys at different times. Additionally, the out-of-the-box AppExchange app needs to come with a set of best practice settings that apply to most customers. What should the developer use to store and package the custom configuration settings for the app?",
+    "options": [
+      "A. Custom Metadata",
+      "B. Custom Settings",
+      "C. Custom Objects",
+      "D. Process Builder"
+    ],
+    "answer": "A",
+    "title": "Question 42"
+  },
+  {
+    "content": "A user receives the generic \"An internal server error has occurred\" while interacting with a custom Lightning Component. What should the developer do to ensure a more meaningful message?",
+    "options": [
+      "A. Use ProcessBuilder to catch the error.",
+      "B. Add an error-view component to the markup.",
+      "C. Use an AuraHandledException in a try/catch block.",
+      "D. Add an onerror event handler to the tag."
+    ],
+    "answer": "C",
+    "title": "Question 43"
+  },
+  {
+    "content": "A developer needs to send Account records to an external system for backup purposes. The process must take a snapshot of Accounts as they are saved and then make a callout to a RESTful web service. The web service can only receive, at most, one record per call. Which feature should be used to implement these requirements?",
+    "options": [
+      "A. Process Builder",
+      "B. Queueable",
+      "C. @future",
+      "D. workflow"
+    ],
+    "answer": "A",
+    "title": "Question 44"
+  },
+  {
+    "content": "UC Loans is a small company with a part time Salesforce administrator. UC Loans wants to create a Loan__c record whenever an Opportunity is won. What is the optimal solution for UC Loans to accomplish this?",
+    "options": [
+      "A. Workflow Rule",
+      "B. Quick Action",
+      "C. Apex Trigger",
+      "D. Process Builder"
+    ],
+    "answer": "D",
+    "title": "Question 45"
+  }
+]

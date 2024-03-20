@@ -1,0 +1,322 @@
+[
+  {
+    "content": "You require a new field that automatically calculates the commission on a deal, based on the opportunity amount. What type of field would be best to use?",
+    "options": ["A. Currency", "B. Formula", "C. Roll-Up Summary"],
+    "answer": "B",
+    "title": "Question 1"
+  },
+  {
+    "content": "What type of relationship is required to support roll-up summary fields?",
+    "options": ["A. Master-Detail", "B. Lookup", "C. Junction"],
+    "answer": "B",
+    "title": "Question 2"
+  },
+  {
+    "content": "Your organization would like to see the earliest date an opportunity was created related to an account. How should this be achieved?",
+    "options": [
+      "A. Date Field",
+      "B. Roll-Up Summary Field",
+      "C. Date/Time Field"
+    ],
+    "answer": "A",
+    "title": "Question 3"
+  },
+  {
+    "content": "What happens when the parent record in a Master-Detail relationship is deleted?",
+    "options": [
+      "A. A parent record with child records cannot be deleted.",
+      "B. The child record remains.",
+      "C. The child record is deleted."
+    ],
+    "answer": "A",
+    "title": "Question 4"
+  },
+  {
+    "content": "What sort of object is required for a Many-to-Many relationship?",
+    "options": ["A. Junction", "B. Master", "C. Child"],
+    "answer": "A",
+    "title": "Question 5"
+  },
+  {
+    "content": "What feature of Salesforce would enable collaboration on account records by Salesforce users?",
+    "options": ["A. Account Teams", "B. Case Teams", "C. Account Hierarchies"],
+    "answer": "A",
+    "title": "Question 6"
+  },
+  {
+    "content": "How can you control a user’s access to standard objects?",
+    "options": [
+      "A. Use the object settings in the user’s Profile",
+      "B. Use the object settings in the user’s Role",
+      "C. Remove the object tabs from the user’s App"
+    ],
+    "answer": "B",
+    "title": "Question 7"
+  },
+  {
+    "content": "Which feature sets the base level of access to an object’s records?",
+    "options": [
+      "A. Organization-Wide Defaults",
+      "B. Public Groups",
+      "C. Profiles"
+    ],
+    "answer": "A",
+    "title": "Question 8"
+  },
+  {
+    "content": "What feature of Salesforce grants record access to a user’s manager?",
+    "options": ["A. Role Hierarchy", "B. Permission Set", "C. Profile"],
+    "answer": "C",
+    "title": "Question 9"
+  },
+  {
+    "content": "You require a field on the opportunity object to be required on every opportunity record. What is the most appropriate way to make the field mandatory?",
+    "options": [
+      "A. Universally Required",
+      "B. Required at Page Level",
+      "C. Validation Rule"
+    ],
+    "answer": "C",
+    "title": "Question 10"
+  },
+  {
+    "content": "What feature would enable you to easily visualize what stage an opportunity is in, and move it using drag and drop?",
+    "options": ["A. Dashboard", "B. Split List View", "C. Kanban List View"],
+    "answer": "A",
+    "title": "Question 11"
+  },
+  {
+    "content": "How can you change the default list view when navigating to an object’s tab?",
+    "options": ["A. Favorite", "B. Pin", "C. Clone"],
+    "answer": "A",
+    "title": "Question 12"
+  },
+  {
+    "content": "A user would like to switch to the Marketing App. Where can they select an app?",
+    "options": ["A. App Launcher", "B. Setup", "C. Homepage"],
+    "answer": "A",
+    "title": "Question 13"
+  },
+  {
+    "content": "A user would like to create a new list view. Where can this be done?",
+    "options": ["A. Reports Tab", "B. Object Tab", "C. Setup"],
+    "answer": "B",
+    "title": "Question 14"
+  },
+  {
+    "content": "You need to be able to see an additional field in a custom list view you created. How can this be achieved?",
+    "options": [
+      "A. Create a new list view",
+      "B. Edit List Filters",
+      "C. Select Fields to Display"
+    ],
+    "answer": "A",
+    "title": "Question 15"
+  },
+  {
+    "content": "Where in Setup do you go to create a custom field on an object?",
+    "options": ["A. Home", "B. Object Manager", "C. Field Manager"],
+    "answer": "B",
+    "title": "Question 16"
+  },
+  {
+    "content": "Where can a user change details such as their last name, email, or phone number?",
+    "options": [
+      "A. My Email Settings",
+      "B. User Record",
+      "C. Personal Information"
+    ],
+    "answer": "A",
+    "title": "Question 17"
+  },
+  {
+    "content": "A user would like a more spacious view in Salesforce Lightning Experience, with more space between elements for easier viewing. Which display density setting would you recommend?",
+    "options": ["A. Comfy", "B. Dense", "C. Compact"],
+    "answer": "A",
+    "title": "Question 18"
+  },
+  {
+    "content": "Andy uses the Recruitment App which includes several custom objects including jobs, applications, and candidates. However, he also frequently uses the reports tab. The reports tab is not included in the Recruitment App. What could Andy do to improve navigation?",
+    "options": [
+      "A. Add the Reports tab to Favorites.",
+      "B. Add the Reports tab to the navigation bar by clicking the pencil icon.",
+      "C. Add the Reports tab to the App via Setup."
+    ],
+    "answer": "B",
+    "title": "Question 19"
+  },
+  {
+    "content": "Objects such as account, lead, and opportunity that come out-of-the-box with Salesforce are known as what?",
+    "options": [
+      "A. Lightning Objects",
+      "B. Standard Objects",
+      "C. Custom Objects"
+    ],
+    "answer": "B",
+    "title": "Question 20"
+  },
+  {
+    "content": "What is TRUE about Salesforce usernames on the user record?",
+    "options": [
+      "A. Usernames must be in email format.",
+      "B. The username does not need to be unique.",
+      "C. The username must be a real email address."
+    ],
+    "answer": "A",
+    "title": "Question 21"
+  },
+  {
+    "content": "What dashboard property can be configured to ensure a user will only see data they have access to based on their security and sharing settings?",
+    "options": [
+      "A. View Dashboard as \"The dashboard viewer\"",
+      "B. View Dashboard as \"Me\"",
+      "C. View Dashboard as \"Another person\""
+    ],
+    "answer": "A",
+    "title": "Question 22"
+  },
+  {
+    "content": "You would like to see a report of opportunities with or without products. How can this be achieved?",
+    "options": [
+      "A. Use standard report \"Opportunities\"",
+      "B. Use standard report \"Opportunities with Products\"",
+      "C. Create a custom report"
+    ],
+    "answer": "C",
+    "title": "Question 23"
+  },
+  {
+    "content": "The VP of Sales would like to receive a dashboard daily. Her team should also receive the dashboard. A role hierarchy has been created so that the role of the VP of Sales is above her subordinate’s role. How can this be achieved?",
+    "options": [
+      "A. Create a dashboard subscription and share with the VP of Sales role and subordinates.",
+      "B. Create a dashboard subscription and share with a public group.",
+      "C. Create a dashboard subscription and share with individual users."
+    ],
+    "answer": "A",
+    "title": "Question 24"
+  },
+  {
+    "content": "The telemarketing team needs to generate reports on telemarketing leads. Only certain fields should be available on the report. The Telemarketing Manager would also like several default columns to be included every time a report is created. What is needed to fulfill this requirement? (Select 2)",
+    "options": [
+      "A. Use standard report \"Leads\"",
+      "B. Select which fields are available and set as default",
+      "C. Create a custom report"
+    ],
+    "answer": "A,C",
+    "title": "Question 25"
+  },
+  {
+    "content": "The Sales Users would like to be able to quickly update record values during the sales meeting. What feature would you recommend?",
+    "options": [
+      "A. Inline editing for reports",
+      "B. Inline editing for dashboards",
+      "C. Favorites"
+    ],
+    "answer": "A",
+    "title": "Question 26"
+  },
+  {
+    "content": "How many filters can a Lightning dashboard have?",
+    "options": ["A. 2", "B. 3", "C. 10"],
+    "answer": "B",
+    "title": "Question 27"
+  },
+  {
+    "content": "A Salesforce professional whose focus is configuring Salesforce via declarative programming is typically known as what?",
+    "options": [
+      "A. Salesforce Business Analyst",
+      "B. Salesforce Administrator",
+      "C. Salesforce Developer"
+    ],
+    "answer": "B",
+    "title": "Question 28"
+  },
+  {
+    "content": "Where can you go to meet your local Salesforce peers?",
+    "options": [
+      "A. Trailhead Community Group",
+      "B. Trailblazer Community Group",
+      "C. Dreamforce"
+    ],
+    "answer": "A",
+    "title": "Question 29"
+  },
+  {
+    "content": "Where should you build and test new functionality for your Salesforce org?",
+    "options": ["A. Production Org", "B. Sandbox", "C. Playground"],
+    "answer": "B",
+    "title": "Question 30"
+  },
+  {
+    "content": "A company would like to be able to manage their helpdesk, create cases, and direct customers towards self-service options. What Salesforce Clouds should they use? (Select 2)",
+    "options": [
+      "A. Service Cloud",
+      "B. Marketing Cloud",
+      "C. Experience Cloud"
+    ],
+    "answer": "A,C",
+    "title": "Question 31"
+  },
+  {
+    "content": "Which Salesforce product allows IT teams to integrate data from any system and automate complex tasks and processes?",
+    "options": ["A. CRM Analytics", "B. MuleSoft", "C. Slack"],
+    "answer": "A",
+    "title": "Question 32"
+  },
+  {
+    "content": "Salesforce’s free learning platform – providing engaging, bite-sized, on-demand content – is called what?",
+    "options": ["A. AppExchange", "B. Pathways", "C. Trailhead"],
+    "answer": "C",
+    "title": "Question 33"
+  },
+  {
+    "content": "What Trailhead rank do you receive if you get 100 badges and 50,000 points?",
+    "options": ["A. Scout", "B. Adventurer", "C. Ranger"],
+    "answer": "C",
+    "title": "Question 34"
+  },
+  {
+    "content": "What is NOT a core value of Salesforce?",
+    "options": ["A. Profit", "B. Equality", "C. Trust"],
+    "answer": "C",
+    "title": "Question 35"
+  },
+  {
+    "content": "Developing using code is known as?",
+    "options": [
+      "A. Clicks, Not Code",
+      "B. Declarative Programming",
+      "C. Imperative Programming"
+    ],
+    "answer": "A",
+    "title": "Question 36"
+  },
+  {
+    "content": "What does SaaS stand for?",
+    "options": [
+      "A. Salesforce as a Service",
+      "B. Sales as a Service",
+      "C. Software as a Service"
+    ],
+    "answer": "A",
+    "title": "Question 37"
+  },
+  {
+    "content": "What is NOT an example of metadata?",
+    "options": ["A. Field", "B. Report", "C. First Name"],
+    "answer": "C",
+    "title": "Question 38"
+  },
+  {
+    "content": "What is NOT a type of Salesforce credential?",
+    "options": ["A. Superbadge", "B. Project", "C. Salesforce Certification"],
+    "answer": "B",
+    "title": "Question 39"
+  },
+  {
+    "content": "Where can you find the Salesforce release notes?",
+    "options": ["A. IdeaExchange", "B. Trailhead", "C. Salesforce Help"],
+    "answer": "C",
+    "title": "Question 40"
+  }
+]
