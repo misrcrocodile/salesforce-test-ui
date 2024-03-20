@@ -1,0 +1,1762 @@
+[
+  {
+    "content": "DreamHouse Realty (DR) has many properties for sale and wants to identify the highest value of all Offer__c records on each Property__c record.\nWhat solution should the app builder use to meet DreamHouse Realty's needs?",
+    "options": [
+      "A. Master-Detail Child Object",
+      "B. Lookup Object",
+      "C. Multi-select Pickllst",
+      "D. Text Area (Long)"
+    ],
+    "answer": "A",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "Which of these actions are executed after a re-evaluated workflow? (Choose 3 answers)",
+    "options": [
+      "A. Active Escalation rules",
+      "B. Previously fired workflow rules",
+      "C. Criteria-based sharing rules",
+      "D. Cross-object workflow rules",
+      "E. Active Validation rules"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "How would you ensure that records of a particular object are visible only to the user, and users higher in the role hierarchy? choose 2 answers.",
+    "options": [
+      "A. Set org wide sharing default for the object as private",
+      "B. Define a role hierarchy",
+      "C. Define a profile list",
+      "D. Set org wide sharing default for the object as manager view"
+    ],
+    "answer": "A,B",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "UVC needs to flag leads with one or more business areas. They need to add a field to capture these to the Lead Record. There is no need to report on this field. What is the appropriate field type?",
+    "options": [
+      "A. Picklist (Multi-Select)",
+      "B. Radio Buttons (Multi-select)",
+      "C. Picklist",
+      "D. Text Area"
+    ],
+    "answer": "A",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "Accounts at Universal Containers are currently readable by all users but editable only by their owners. Management wants to designate some Accounts as VIP Accounts. Only Account owners should have read access to these VIP accounts.\nWhich two actions should an app builder take to meet the requirements?\nChoose 2 answers",
+    "options": [
+      "A. Set up an Account Team.",
+      "B. Configure a permission set.",
+      "C. Change organization-wide defaults.",
+      "D. Implement a sharing rule."
+    ],
+    "answer": "A,D",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers would like to embed a chart of all related Opportunities, by stage, on the Account detail page. Which type of report should the App Builder create to add to the Account page layout?",
+    "options": [
+      "A. A tabular report on the Opportunity object.",
+      "B. A summary report on the Opportunity object.",
+      "C. A summary report on the Account object.",
+      "D. A tabular report on the Account object."
+    ],
+    "answer": "B",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "Which use case can be accomplished using a custom link? Choose 3 answers",
+    "options": [
+      "A. Navigate to a custom visual flow to update the current record",
+      "B. Navigate to a process to update the current record",
+      "C. Navigate to an external system using data in salesforce",
+      "D. Navigate to an Apex Trigger to update the current record",
+      "E. Navigate to a create a record page with field pre-populated"
+    ],
+    "answer": "B,C,E",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "The VP of marketing wants to broadcast an emailto 10,000 contacts insalesforce on a regular basis, but realizes salesforce'smass email functionality has alimitation on the number of emails that can besent each day",
+    "options": [
+      "A. Download all contacts to a CSV file and use an email client to send the emails",
+      "B. Request salesforce increase the number of maximum daily emails",
+      "C. Develop apex code and Visualforce pages to sent the emails",
+      "D. Research and evaluate products available on appExchange to send mass emails"
+    ],
+    "answer": "D",
+    "title": "Question 8",
+    "explanation": "Explanation: Tabular, Summary, or Matrix to Joined The existing report becomes the first block in the joined report, and the report type becomes the principle report type for the joined report. Joined report blocks are formatted as summary reports, so if you switch from a summary to a joined report, your groupings stay the same. If you switch from a matrix to a joined report, groupings are converted the same way as when you switch from a matrix to a summary report. The following items aren't supported in joined reports, and aren't converted: Bucket fields Cross filters The Rows to Display filter https://help.salesforce.com/htviewhelpdoc?id=reports_changing_format.htm&siteLang=en_US"
+  },
+  {
+    "content": "UC would like to embed a chart of all related opportunities, by stage, on the account details page. Which type of report should use",
+    "options": [
+      "A. A summary report on the account object",
+      "B. A tabular report on the opportunity object",
+      "C. A tabular report on the account object",
+      "D. A summary report on the opportunity object"
+    ],
+    "answer": "D",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers is rolling out a new customer service process. Customer service managers will need to edit cases for their subordinates, but not cases for other groups. Managers and users should be able to view all cases. What is the recommended solution to configure this? Choose 2 answers",
+    "options": [
+      "A. Set organization-wide sharing defaults to public read/only.",
+      "B. Create standard role hierarchies",
+      "C. Create criteria-based sharing rules.",
+      "D. Set organization-wide sharing defaults to private."
+    ],
+    "answer": "A,B",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "The app builder at Ursa Major Solar has just created a master-detail relationship between a parent object Galaxy__c and child object Star__c.\nWhat would be the effect of creating this type of relationship if users want to report on Galaxy__c with Star__c?",
+    "options": [
+      "A. A new custom report type will need to be created for Star__c with lookup fields from Galaxy__c.",
+      "B. A Galaxy__c with Star__c report type will be automatically created.",
+      "C. A new custom report type will need to be created for Galaxy__c with Star__c.",
+      "D. A Star__c report type with Galaxy__c as a field will be automatically created."
+    ],
+    "answer": "C",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) has a custom Invoice object and a custom Invoice Line Item object. TTie Invoice Line Item object has a lookup relationship to the Invoice. UC would like to convert the lookup relationship to a master-detail relationship but is unable to do so.\nWhich two reasons could be preventing this relationship conversion?\nChoose 2 answers",
+    "options": [
+      "A. Custom objects are unable to be on the detail side of a master-detail relationship.",
+      "B. Invoice Line Item records exist without having the Invoice lookup field populated.",
+      "C. There is a roll-up summary field on the Invoice object.",
+      "D. There are already two master-detail relationships on the Invoice Line Item."
+    ],
+    "answer": "B,D",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Realty wants to import its property records from an external system into Salesforce. The app builder will use an external ID field to house the property ID from the external system.\nWhich two details should the app builder know when using external ID fields?\nChoose 2 answers",
+    "options": [
+      "A. An external ID field can be a phone field.",
+      "B. An external ID field can be a number field.",
+      "C. An external ID field can be a text field.",
+      "D. An external ID field can be a URL field."
+    ],
+    "answer": "B,C",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder has deployed a change set from a sandbox to production. There is a long delay in the deployment.\nWhat can be causing the delay?",
+    "options": [
+      "A. Profiles are included in the change set.",
+      "B. Roles are included in the change set.",
+      "C. Dependent fields are included in the change set.",
+      "D. A field type change is included in the change set."
+    ],
+    "answer": "D",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "Universal containers would like to use a chatter group for their mergers and acquisition team to collaborate on potential new projects. This group should not be visible for non-members to see or join, and can be accessed by invite only. Which chatter Group type should the App Builder recommend?",
+    "options": [
+      "A. Public Group",
+      "B. Unlisted Group",
+      "C. Member Group",
+      "D. Private Group"
+    ],
+    "answer": "B",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "Duplicate management for Leads has been Implemented at Universal Containers that it seems duplicate leads are still being created, the org Wide Default (WOD) is set to ''Private'' for Leads.\nWhich two actions help prevent duplicate leads from being created?\nChoose 2 answers",
+    "options": [
+      "A. Change OWD for Leads to public Read.",
+      "B. Change the lead Matching Rule to Block on Create.",
+      "C. Change the Lead Duplicate Rule details to Bypass Sharing Rules.",
+      "D. Change OWD for Leads to Public Edit."
+    ],
+    "answer": "A,B",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to build a recruiting app that allows for multiple positions to appear on custom objects websites and postings. UC requires a report that shows the related custom objects of postings. Which two items should an app builder configure to implement this?",
+    "options": [
+      "A. Configure a postings object with lookup field to both positions and websites",
+      "B. Create two new custom report type",
+      "C. Utilize the standard report type",
+      "D. Configure a postings object with master detail field to both positions and websites"
+    ],
+    "answer": "B",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "What are two reason to create an unmanaged package? Choose 2 answers",
+    "options": [
+      "A. Distributing open-source projects on the AppExchange.",
+      "B. Distributing upgradeable components to other Salesforce org",
+      "C. Publishing an application for sale on the AppExchange",
+      "D. Deploying from a Developer Edition environment"
+    ],
+    "answer": "A,B",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "universal containers has implemented multi currency. There are several products that universal containers sells exclusively in europe and the UK. Opportunities for these products need to be written in euros or british pounds. Which solution should an app builder recommend ?",
+    "options": [
+      "A. Create a new record type for these products and include only the EUR and GBP currencies from the opportunity currency picklist",
+      "B. Create a new validation rule that allows only EUR or GBP to be selected from all active currencies when an opportunity is created for these products.",
+      "C. Create a new page layout for these products that shows only the EUR and GRP currencies in the opportunity currency picklist.",
+      "D. Create a new sales process that includes only the EUR and GBP currencies for these products."
+    ],
+    "answer": "D",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to test code against a subnet of production data that is under 5 GB, Additionally, Universal Containers wants to refresh this sandbox every weekend.\nWhich type of sandbox should be used to accomplish this?",
+    "options": [
+      "A. Developer Pro",
+      "B. Developer",
+      "C. partial Copy",
+      "D. Full"
+    ],
+    "answer": "C",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement is true when using record types to control picklist value. (Select 2)",
+    "options": [
+      "A. If a picklist value is removed from the master, then it is no longer available when records assigned to that value are unchanged",
+      "B. If values are added to the Opportunity Stage, Case Status, and Lead Status fields, then the values must be manually adjusted for each record type",
+      "C. If a picklist value is added to the master picklist, then the new value must be manually included in the appropriate record types",
+      "D. If a record type is renamed, then the list of values included in that record type are also changed to newly renamed record types"
+    ],
+    "answer": "A,C",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "An App Builder wants to deploy a new version of an auto launched flow to production in an active state so that the new functionality Is immediately available to users What should the App Builder rake Into consideration when planning the deployment?",
+    "options": [
+      "A. Manually activate the Flow after deployment",
+      "B. Verify there is an Apex test that provides test coverage for the Flow.",
+      "C. Grant user access to the Flow.",
+      "D. Include the Process Builder calling the Flow In the deployment"
+    ],
+    "answer": "B",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks (CK) tracks the support level of its customers on the account record page. CK wants to show a text notification on a case record page when the related account is a platinum-level customer.\nHow could an app builder meet this requirement?",
+    "options": [
+      "A. Clone the Case Lightning page > Add a rich text area to the new page, and assign this page to platinum accounts.",
+      "B. Create a text-only Visualforce page > Drag the Visualforce component into the Case page layout > Set its visibility to show when the account support level is platinum.",
+      "C. Add a rich text area to the Case Lighting page > Set the component visibility of the rich text area to show when the account support level is platinum.",
+      "D. Create a text-only Visualforce page > Clone the case page layout > Drag the Visualforce component into the page, and assign the layout to platinum cases."
+    ],
+    "answer": "C",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "What can be done after workflow field re-evaluation?",
+    "options": [
+      "A. Option 1",
+      "B. Trigger another rule",
+      "C. Invalid data",
+      "D. Out of hour limit (loop)"
+    ],
+    "answer": "D",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "Universal containers wants to display the real time stock price for each account on the account record page. How should an app builder implement this request?",
+    "options": [
+      "A. Create a lightning web component",
+      "B. Add a dynamic report to the page layout",
+      "C. Install a solution from the appexchange",
+      "D. Build a visual flow that users API calls"
+    ],
+    "answer": "C",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder has created a custom Lightning App and wants to make it available to the internal users at Universal Containers.\nWhich two steps are necessary to accomplish this task7\nChoose 2 answers",
+    "options": [
+      "A. Upload the app to Static Resources.",
+      "B. Create a subdomain using My Domain.",
+      "C. Add the app to a Visualforce page.",
+      "D. Build a Custom Tab for the app."
+    ],
+    "answer": "C,D",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder notices several Accounts converted from Leads are missing information they expected to be caught via Account validation rules.\nWhat could be the source of this issue?",
+    "options": [
+      "A. Account validation rules fail to validate on records converted from a lead.",
+      "B. Lead validation rules fail to validate on records when they are being converted.",
+      "C. The lead settings are allowing users to intentionally bypass validation rules.",
+      "D. The lead settings are unchecked to require validation for converted leads."
+    ],
+    "answer": "A",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers uses a custom picklist called Account_Region__c on the Account object. The vice president of sales has asked that the value of this field is visible on Opportunities.\nHow should an app builder create this solution?",
+    "options": [
+      "A. Field history tacking",
+      "B. Field-level security",
+      "C. Cross-object formula field",
+      "D. Lookup field"
+    ],
+    "answer": "A",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "Manage at Universal Containers want a quick to create additional accounts to form a hierarchy from a parent account record. They want to auto-populate five fields based on the parent to make it easier for users to create the child accounts quickly.",
+    "options": [
+      "A. Custom action on Account",
+      "B. Custom Global Quick Account.",
+      "C. Custom link on Account",
+      "D. Custom Global Quick Action"
+    ],
+    "answer": "B",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "UVC uses a custom object called Candidates to track information about people who are being recruited for jobs within the company. When an employee refers a recruiting candidate, that employee should have access to the Candidate record, however, only HR users should be able to view, edit, and report on the Salary field. Which action should be recommended for controlling who can view the Salary field?",
+    "options": [
+      "A. Restrict access to the \"Salary\" field for general employee users using field-level security",
+      "B. Create and assign separate Candidate record types for general employee users and HR users",
+      "C. Restrict access to the \"Salary\" field for general employee users using custom sharing settings",
+      "D. Create and assign separate Candidate page layouts for general employee users and HR users"
+    ],
+    "answer": "A",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "What is a feature that can extend record access beyond the organization-wide defaults? Choose 2 Answers",
+    "options": [
+      "A. Public or private groups.",
+      "B. Dynamic role hierarchy",
+      "C. Owner-based sharing rules.",
+      "D. Criteria-based sharing rules."
+    ],
+    "answer": "C,D",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "Sales reps at Universal Containers create multiple quotes per opportunity.\nWhat automation tool should an app builder recommend to delete rejected quotes?",
+    "options": [
+      "A. Workflow rule",
+      "B. Approval process",
+      "C. Flow",
+      "D. Validation rule"
+    ],
+    "answer": "C",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "SERVICE AGENTS ARE REQUIRED TO CONFIRM A USER IDENTITY BEFORE PROVIDING SUPPORT INFORMATION OVER THE PHONE. WHAT FEATURE CAN AN APP BUILDER USE TO HELP AGENTS MEET THIS REQUIREMENT?",
+    "options": [
+      "A. Add Path to the top of the Case layout",
+      "B. Include Surveys as a Case related list",
+      "C. Case Validation Rules",
+      "D. Guided Action Flows on the record page"
+    ],
+    "answer": "D",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "To increase adoption, Universal Containers is proposing changes to its Salesforce data model to allow easier visibility for sales reps into key metrics. The proposal has three custom objects related to the Account object, one with a master-detail, and two that are not. Each of these objects has 15 fields they would like to summarize on the Account object.\nWhat are two considerations for this proposal?\nChoose 2 answers",
+    "options": [
+      "A. An object can have 20 object references.",
+      "B. An object can have 25 roll-up summaries.",
+      "C. Roll-up summaries allow MAX, MIN, SUM, COUNT, and AVG.",
+      "D. Roll-up summaries are limited to master-detail relationships."
+    ],
+    "answer": "B,D",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to understand return on investment for the latest advertising buy. They currently use a private security model for all objects.\nWhat should an app builder recommend?",
+    "options": [
+      "A. Utilize Account Hierarchies and Roil-Up Summary fields",
+      "B. Run an opportunities pipeline report",
+      "C. Change to a public security model",
+      "D. Configure Campaign Hierarchies and Campaign statistics"
+    ],
+    "answer": "D",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has created a custom object called Interests which is joined to Accounts by way of a junction object called Account Interest.\nWhat is the impact to users attempting to view an Account and the associated Account Interest records if they are without read access to the Interest object?",
+    "options": [
+      "A. Users will be unable to view Account records that have a related Account Interest record.",
+      "B. Users will be able to view the Account Interest records and will have read-only access to the Interest records.",
+      "C. Users will be able to view the Account Interest record, but unable to view the field or any information relating back to the Interest record.",
+      "D. Users will be unable to view the Account Interest records or the Interest records."
+    ],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "Which sandbox type allows for the use of a sandbox template?",
+    "options": [
+      "A. Config Sandbox",
+      "B. Developer Pro Sandbox",
+      "C. Partial Sandbox",
+      "D. Developer Sandbox"
+    ],
+    "answer": "C",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has a workflow on opportunity that will change the status field to \"In Progress\" when the Stage field is changed \"Negotiation.\" In addition, there is a validation rule on Status that will prevent the status being set to \"In Progress\" if the amount of the opportunity is less than $10,000.A user named Frank does not have FLS to see status. When Frank changes opportunities to a stage of \"Negotiation\" the status is still being changed to \"In Progress\", why is this occurring?",
+    "options": [
+      "A. Workflow rules occur after validation rules and thus override validation rules.",
+      "B. Workflow rules cannot trigger a validation rule",
+      "C. Field Level Security prevents the validation rule from running."
+    ],
+    "answer": "B",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "The marketing team at UVC has a list of 400 leads it wants to upload to Salesforce. The team need to avoid creating duplicate records. Which two actions should be taken to meet this requirement? Choose 2 answers",
+    "options": [
+      "A. Use Data Loader's update function to import lead and match to existing records based on e-mail address.",
+      "B. Utilize a Lead Matching Rule and corresponding Duplicate Rule to block newly created duplicate leads.",
+      "C. Upload the lead list using the import wizard and select a Matching type to prevent duplicate lead creation.",
+      "D. Enable Duplicate Matching in the Data Management section in Setup and activate the Lead-to_Lead scenario."
+    ],
+    "answer": "B,C",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "You want to use an External Data Object Table from Heroku carrying Product Category information. The data need to be included in Salesforce and searchable. What do you have to do before you can use the connection. (Choose 2)",
+    "options": [
+      "A. Choose \"include as index field\"",
+      "B. Choose \"include in Salesforce searches\" option",
+      "C. URL / choose the URL",
+      "D. Press \"validate and sync\""
+    ],
+    "answer": "B,D",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers's app builder has been tasked with replacing workflow rules and Apex triggers with Process Builders where possible.\nWhat are two important considerations an app builder should know before the project is started?\nChoose 2 answers",
+    "options": [
+      "A. Avoid generating infinite loops.",
+      "B. Create a process for each workflow rule.",
+      "C. Combine actions when possible.",
+      "D. Apex has a different SOQL query limit than Flow."
+    ],
+    "answer": "A,C",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "Which report types may be used with Analytic Snapshots?(2)",
+    "options": ["A. Joined", "B. Summary", "C. Matrix", "D. Tabular"],
+    "answer": "B,D",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "A custom field contains a feedback score which is on a scale of one to five. End users would like a visual indicator of one to five stars based on the number found in the feedback score custom field. How can this visual indicator be displayed?",
+    "options": [
+      "A. Use a custom formula field.",
+      "B. Use a custom number field.",
+      "C. Use a custom image field.",
+      "D. Use a custom text field"
+    ],
+    "answer": "A",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "Which two relationship types can be defined with external object? Choose 2 answers",
+    "options": [
+      "A. External Master-Detail",
+      "B. External Lookup",
+      "C. Indirect Lookup",
+      "D. Cross-Organization Lookup"
+    ],
+    "answer": "B,C",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has a Lightning record page that supports both the mobile app and desktop. An app builder has downloaded a custom Lightning component from AppExchange, but users are unable to view the component on mobile devices.\nWhat can be the issue?",
+    "options": [
+      "A. The record page needs to be activated.",
+      "B. The record page template is unable to support mobile devices.",
+      "C. The component needs to be activated.",
+      "D. The component has been developed for Desktop Pages."
+    ],
+    "answer": "B",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "Universal con has purchased a lighting component on the appExchange. Where can that component be utilized? (Choose 2)",
+    "options": [
+      "A. Visual workflow",
+      "B. Salesforce lighting app",
+      "C. Lightning process builder",
+      "D. Salesforce1 mobile app"
+    ],
+    "answer": "B,D",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to test code against a subject of production data that is under 5 GB. They want to refresh a sandbox weekly. Which type of sandbox should be used?",
+    "options": [
+      "A. Partial Copy Sandbox",
+      "B. Developer Sandbox",
+      "C. Full Sandbox",
+      "D. Developer Pro Sandbox",
+      "E. Enterprise Sandbox"
+    ],
+    "answer": "A",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "When an opportunity close date is delayed by more than 60 days, the manager and the VP sales must approve the change. How can this requirement be met? Choose 2 answers",
+    "options": [
+      "A. Create a workflow rule that checks for close date less that 60 days and add an email alert.",
+      "B. Create a lightning process builder flow that submits the record for an approval process",
+      "C. Build a validation rule that does not allow a user to save the opportunity record.",
+      "D. Build an approval process that requires unanimous approval from the manager and VP of sales."
+    ],
+    "answer": "B,D",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "What are the recommendations for unmanaged packages? (Choose 2)",
+    "options": [
+      "A. For sale in App Ex",
+      "B. Should be deployed from Dev Edition",
+      "C. For move to production",
+      "D. For open source"
+    ],
+    "answer": "B,D",
+    "title": "Question 49",
+    "explanation": ""
+  },
+  {
+    "content": "What is a key consideration when using unmanaged packages? Choose 2 answers",
+    "options": [
+      "A. A namespace is not required to create an unmanaged package.",
+      "B. The person who created the unmanaged package can change or update installed components",
+      "C. The person who created the unmanaged package has no control over the installed components",
+      "D. A namespace is required to create an unmanaged package."
+    ],
+    "answer": "A,C",
+    "title": "Question 50",
+    "explanation": "Explanation - Namespaces are not used in unmanaged packages. In fact, even if your organization is namespace, the namespace is removed from all components when it is uploaded as an unmanaged package.\n https://developer.salesforce.com/page/An_Introduction_to_Packaging\n Once the components are installed from an unmanaged package, the components can be edited in the organization they are installed in. The developer who created and uploaded the unmanaged package has no control over the installed components, and can't change or upgrade them. https://help.salesforce.com/apex/HTViewHelpDoc?id=sharing_apps.htm"
+  },
+  {
+    "content": "What the true statement is in regards to converting a tabular, summary, or matrix report to a joined report? Choose 3 answers",
+    "options": [
+      "A. The rows to display filter is not supported in Joined reports",
+      "B. Bucket fields are not supported in joined reports.",
+      "C. Joined report blocks are formatted as matrix reports.",
+      "D. Report formula fields are nor supported in Joined reports",
+      "E. Cross filters are not supported in joined reports"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "The developer at Universal Containers wants to test code in a sandbox environment. In order to ensure the code works properly, the sandbox needs to have at least half a gigabyte of dat a. The sandbox will need to be refreshed after each three-day sprint.\nWhat type of sandbox should the App Builder provision to the developer?",
+    "options": [
+      "A. Full Copy",
+      "B. Developer Pro",
+      "C. Developer",
+      "D. Partial Data"
+    ],
+    "answer": "B",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "A manager wants to calculate the number of days since an account was last contacted through email. Which field type should be used to accomplish this?",
+    "options": ["A. Number", "B. Formula", "C. Date", "D. Roll-up Summary"],
+    "answer": "B",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "A junction object has two Master-Detail relationships. What happens to a junction object record when either associated master record is deleted?",
+    "options": [
+      "A. The record is deleted and placed in the recycle bin.",
+      "B. The record is permanently deleted and can't be restored.",
+      "C. The look-up field on the junction object record is cleared.",
+      "D. The master record can't be deleted if it has a child record."
+    ],
+    "answer": "A",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "A custom object named Assignment has a private sharing setting that grants access using hierarchies. The organization has a role hierarchy where the \"Specialist\" role reports to a \"Manager\" role which reports to a \"Director\" role. The director role is at the top of the role hierarchy. A user who is the manager role creates a new Assignment record. Who can send this record?",
+    "options": [
+      "A. The record owner and the directors in their hierarchy.",
+      "B. The record owner and the managers in their hierarchy",
+      "C. The record owner and the specialists in their hierarchy",
+      "D. The record owner and those above the specialist role in their hierarchy"
+    ],
+    "answer": "A",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has created two custom objects called Seminars and Attendees. Organization-wide defaults for those objects have been set to private. Universal Containers wants to set up a new junction object between these objects. A select group of users should be able to edit records in the junction object.\nWhich two steps should an app builder take to configure the proper security?",
+    "options": [
+      "A. Set Sharing Settings to Read Only on both master-detail relationship fields.",
+      "B. Create owner-based sharing rules that give Read access to the master objects.",
+      "C. Create an owner-based sharing rule that gives Read access to the junction object.",
+      "D. Set lookup filters on both junction object relationship fields."
+    ],
+    "answer": "B,D",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "A custom field contains a feedback score which is on a scale of one to five. Endusers would like a visual indicator of one to five stars based on the number found inthe feedback score customer field.",
+    "options": ["A. Number", "B. Text", "C. Use a custom image", "D. Formula"],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers provide access to Salesforce for their sales, service and marketing teams. Management wants to ensure that when user login, their home tab provides access to links and documentation that are specifically relevant to their job function. How can this requirement be met?",
+    "options": [
+      "A. Create separate home page custom components and layouts; assign to user by profile.",
+      "B. Expose specific elements within a home page custom component determined by profile.",
+      "C. Expose specific elements within a home page custom component determined by role.",
+      "D. Create separate home page custom components and layouts; assign to user by role."
+    ],
+    "answer": "A",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks works on an annual subscription model. When a sales rep marks an opportunity as closed won, a new opportunity should automatically be created for the renewal. The contracts team works outside of Salesforce but also needs to be notified about closed deals in order to initiate the contract process with the customer.\nWhich automation solution would meet these requirements?",
+    "options": [
+      "A. Approval Process",
+      "B. Process Builder",
+      "C. Validation Rule",
+      "D. Workflow Rule"
+    ],
+    "answer": "B",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) has large data volumes and is nearing data storage limits. The planned solution is to archive historical data to reduce data storage in Salesforce; however, UC would still like to use reports, queries, and lookups on the archived information.\nWhich two options could meet this requirement?\nChoose 2 answers",
+    "options": [
+      "A. Related objects",
+      "B. Big objects",
+      "C. Custom objects",
+      "D. External objects"
+    ],
+    "answer": "B,D",
+    "title": "Question 60",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers allows all employees to submit reviews for leadership using a custom object called Review. These Reviews should only be visible to the HR department and the employee who submitted the record.\nWhich three steps should an app builder take to properly control access to Reviews?\nChoose 3 answers",
+    "options": [
+      "A. Add a Master-Detail(User; field on the Review object.",
+      "B. Set organization-wide default to Private.",
+      "C. Create a criteria-based Sharing Rule for the HR Department.",
+      "D. Remove Review Read permission from non-HR Department user Profiles.",
+      "E. Disable Grant Access Using Hierarchies."
+    ],
+    "answer": "B,C,E",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers created a 'New Task' custom action on the Opportunity object. The action was added to all page layouts in the Mobile & Lightning Actions section.\nWhich Lightning component should the app builder add to the layout to display the action?",
+    "options": [
+      "A. Activities",
+      "B. Highlights panel",
+      "C. Related record",
+      "D. Related lists"
+    ],
+    "answer": "A",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "To synchronize accounts, orders, and shipments in real time, a developer hasbuilt a custom interface between an external system and salesforce. Prior todeployment, the developer needs to confirm that the interface can sustain thesyncing of thousands of records at a time. Which sandbox environment isrecommended to complete performance and load testing?",
+    "options": [
+      "A. Partial sandbox",
+      "B. Full sandbox",
+      "C. Developer pro sandbox",
+      "D. Developer sandbox"
+    ],
+    "answer": "D",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers would like to collaborate with its customers within Salesforce, and has decided to enable the \"Allow Customer Invitations\" Chatter setting. What permission is granted to Customers when invited to Chatter Group?",
+    "options": [
+      "A. The ability to request access to public groups",
+      "B. The ability to invite members to groups of which they are a member",
+      "C. The ability to @mention accounts of which they are a contact.",
+      "D. The ability to interact with members of their groups"
+    ],
+    "answer": "D",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder needs to deploy a new account detail page layout from sandbox to production.\nWhich three components should an app builder include in the Change Set to ensure it deploys successfully and visually as expected?\nChoose 3 answers",
+    "options": [
+      "A. Custom fields",
+      "B. System administrator profile",
+      "C. Custom actions",
+      "D. Detail page layout",
+      "E. Lightning App Builder"
+    ],
+    "answer": "A,C,D",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks (CK) switched to Lightning Experience and started using Chatter across its global workforce to support its fast-paced sales cycle. CK loves Chatter but struggle with gathering feedback from core team members, including understanding who is available to respond.\nWhich two ways could CK use Chatter to solve this problem?\nChoose 2 answers",
+    "options": ["A. Polls", "B. Out of Office", "C. Topics", "D. Streams"],
+    "answer": "A,B",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "User at Universal Containers needs to be able to quickly create a contact record from the Account record's Chatter feed. How should the App Builder enable the functionality?",
+    "options": [
+      "A. By creating a custom \"Create a Record\" Action on the Account.",
+      "B. By creating a custom \"Detail Page\" Button on the Contract.",
+      "C. By creating a custom \"Detail Page\" Button on the Account.",
+      "D. By creating a custom \"Create a Record\" Action on the Contract"
+    ],
+    "answer": "A",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "A customer service representative at Cloud Kicks wants to be able to collect information from customers using a prompts. Once the questions are completed, an email should be sent to the customer with a feedback form.\nWhat should be used to accomplish this?",
+    "options": [
+      "A. Apex Trigger",
+      "B. Einstein Next Best Action",
+      "C. Lightning Flow",
+      "D. Process Builder"
+    ],
+    "answer": "C",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "What is recommended to refresh a full sandbox?",
+    "options": [
+      "A. After a major production release.",
+      "B. Whenever a new production user is added.",
+      "C. After a UAT sign-off",
+      "D. Within 3 hours of when it is needed."
+    ],
+    "answer": "A",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has a custom picklist called Support Level on the Account object. They would like to show the real-time value of Support Level on all case records.\nHow should an app builder implement this requirement?",
+    "options": [
+      "A. Create a Process Builder and use a field update on the Case object.",
+      "B. Create a formula field on the Account object using the ISPICKVAL function.",
+      "C. Create a formula field on the Case object using the TEXT function.",
+      "D. Create a roll-up summary field using Support Level on the Account object."
+    ],
+    "answer": "C",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "What determines whether a user can create a new record using a specific record type?",
+    "options": [
+      "A. Sharing",
+      "B. Page Layout",
+      "C. Field level security",
+      "D. Profile"
+    ],
+    "answer": "D",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "The customer service team at Universal containers uses a custom Project object to track their customer projects. An App builder needs to create a relationship between the project object and the related client Account record. A private sharing model is in place for both Accounts and projects. Which statement is true when creating an Account lookup field on the Project object? Choose 2 answers",
+    "options": [
+      "A. The account lookup field on the project record can be made optional.",
+      "B. The account record can include roll-up summary field with data from the project records",
+      "C. Users can only delete Accounts if they have access to related projects records",
+      "D. Cross-object field updates between the Project and Account records are not supported"
+    ],
+    "answer": "A,C",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has deployed custom tabs to Production via changes sets, without including the profile settings or permission sets.\nWhat is the settings for the visibility of custom tabs?",
+    "options": [
+      "A. Custom tabs are default on for all uses.",
+      "B. Custom tabs are default off for all users.",
+      "C. Custom tabs are NOT deployed.",
+      "D. Custom tabs are hidden for all users."
+    ],
+    "answer": "B",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "The director of marketing has asked the app builder to create a formula field that tracks how many days have elapsed since a contact was sent a marketing communication. The director is only interested in whole units. Which function should be used to calculate the difference?",
+    "options": ["A. Date()", "B. Now()", "C. Datevalue()", "D. Today()"],
+    "answer": "D",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "Ursa Major Solar wants to provide sales console users with an Incredible experience, with the most-used components easily accessible at all times.\nWhat solution can enable reps to see and access these components from anywhere within the app without leaving the pagere where the team is working?",
+    "options": [
+      "A. Home page",
+      "B. Global actions",
+      "C. Favorites",
+      "D. Utility bar"
+    ],
+    "answer": "D",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "Actions on a Lightning Page allow you to do which of the following?",
+    "options": [
+      "A. Clone records, add users, and assign permissions.",
+      "B. Send email, create a task, and create or update records.",
+      "C. Send email and delete or clone records.",
+      "D. Send email, send outbound messages, and launch a flow."
+    ],
+    "answer": "B",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Container wants customers to be able to open cases from a public-facing website.\nWhat should the app builder use to enable visitors to the website?",
+    "options": [
+      "A. Web-to-case",
+      "B. Screen flow",
+      "C. Email-to-case",
+      "D. Outbound message"
+    ],
+    "answer": "C",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "Representatives at Universal Con use salesforce to record information for new Leads. When new prospects are added, an outbound message is sent to SAP with the Lead's info.",
+    "options": [
+      "A. Create a process using lightning process builder",
+      "B. Create a workflow rule",
+      "C. Use Visual Workflow",
+      "D. Design an approval process"
+    ],
+    "answer": "B",
+    "title": "Question 78",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Realty (DR) has a policy that requires the phone number on Contact to be deleted when the DoNotCall checkbox is checked.\nWhat automation tool should the app builder recommend?",
+    "options": [
+      "A. Quick action",
+      "B. Workflow rule",
+      "C. Approval process",
+      "D. Validation rule"
+    ],
+    "answer": "D",
+    "title": "Question 79",
+    "explanation": ""
+  },
+  {
+    "content": "Where can a custom button be placed? Choose 3 answers",
+    "options": [
+      "A. On a Person Account",
+      "B. On a Web-to-Case form",
+      "C. On a related list",
+      "D. On the Custom List View",
+      "E. On the User Object"
+    ],
+    "answer": "A,C,D",
+    "title": "Question 80",
+    "explanation": ""
+  },
+  {
+    "content": "UVC has deployed custom tabs to Production via change sets, without including the profiles settings. What is true about the visibility of custom tabs in Enterprise Edition?",
+    "options": [
+      "A. Custom tabs are not deployed",
+      "B. Custom tabs are hidden for all users",
+      "C. Custom tabs are default off for all the users.",
+      "D. Custom tabs are default on for all the users"
+    ],
+    "answer": "B",
+    "title": "Question 81",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Realty (DR) employees started using company-owned airplanes for work travel after Ursa Major Solar was acquired. DR executives want to automate the submission travel request forms to enforce the Internal policy.\nHow should an app builder automate travel requests based on these criteria?",
+    "options": [
+      "A. Apex",
+      "B. Process Builder",
+      "C. Approval process",
+      "D. Workflow rule"
+    ],
+    "answer": "C",
+    "title": "Question 82",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers generates leads from three different sources: web, trade shows, and partners. Some of the information collected is applicable to all sources, there is also information that is unique to each type of lead. What should an app builder configure to meet these requirements?",
+    "options": [
+      "A. Create three lead record types each with its own page layout containing the relevant fields",
+      "B. Create three sections on the lead layout and instruct users to collapse the non-relevant fields",
+      "C. Create a partner community and a record type for web and trade show leads",
+      "D. Create custom page payouts for each type of lead only containing the relevant fields"
+    ],
+    "answer": "B",
+    "title": "Question 83",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder has created a new report type but users are unable to select it from the Report Type list when making a new report for records they own.\nWhat could be causing this issue?",
+    "options": [
+      "A. Access to Create and Customize Reports is disabled.",
+      "B. The report type is in a status of Deployed.",
+      "C. The report type is in a status of In Development.",
+      "D. Access to the necessary object is unavailable."
+    ],
+    "answer": "C",
+    "title": "Question 84",
+    "explanation": ""
+  },
+  {
+    "content": "What is true regarding the user interface for external object data? Choose 1 answer.",
+    "options": [
+      "A. External object data can be accessed via detail pages",
+      "B. External object data can be accessed via lists views",
+      "C. Chatter Feeds can be enabled on external object pages",
+      "D. All of the above",
+      "E. External object data can be accessed via custom tabs"
+    ],
+    "answer": "D",
+    "title": "Question 85",
+    "explanation": ""
+  },
+  {
+    "content": "What metadata can be made manually in production without deployment? (Choose 2)",
+    "options": [
+      "A. Reports and Dashboards",
+      "B. Visualforce",
+      "C. Apex trigger",
+      "D. Apex class"
+    ],
+    "answer": "A,B",
+    "title": "Question 86",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers needsto send an Outbound Message to an external system whenrecord has been updated.\nWhat is recommended feature to meet this requirement?",
+    "options": [
+      "A. Visual Workflow",
+      "B. Lightning Connect",
+      "C. Workflow",
+      "D. Process Builder"
+    ],
+    "answer": "C",
+    "title": "Question 87",
+    "explanation": ""
+  },
+  {
+    "content": "A new custom object called Invoices need to have an invoice date for the date and time itwas invoiced.\nWhich field type should be selected for this?",
+    "options": ["A. Date/Timestamp", "B. Time", "C. Date/Time", "D. Date"],
+    "answer": "C",
+    "title": "Question 88",
+    "explanation": ""
+  },
+  {
+    "content": "UVC is importing 1000 records into salesforce. They want to avoid any duplicate records from being created during the import. How can these requirement met?",
+    "options": [
+      "A. Use \"prevent duplicates\"",
+      "B. Manually merge",
+      "C. Run duplicate check",
+      "D. Include a column in the import file that has other record name"
+    ],
+    "answer": "D",
+    "title": "Question 89",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement is true about field update actions from workflow rules and approval processes? Choose 2 answers",
+    "options": [
+      "A. Field update with \"re-evaluate workflow rules\" selected can cause a recursive loop if the updated field is included in a workflow.",
+      "B. Field update are not available on currency field if the organization uses multi-currency.",
+      "C. Field updates to records based on workflow rules and approval processes do not trigger validation rules",
+      "D. Field updates are tracked in the history related list of a record regardless of whether or not History tracking is set for those fields."
+    ],
+    "answer": "A,C",
+    "title": "Question 90",
+    "explanation": "Explanation: https://help.salesforce.com/apex/HTViewHelpDoc?id=workflow_field_update_considerations.h tm&language=en"
+  },
+  {
+    "content": "Which three Salesforce functionalities are ignored when process field updates in workflow rules and approval processes?",
+    "options": [
+      "A. Field-Level Security",
+      "B. Decimal places and character limits",
+      "C. Multiple currencies",
+      "D. Validation Rules",
+      "E. Record type picklist value assignments"
+    ],
+    "answer": "A,D,E",
+    "title": "Question 91",
+    "explanation": ""
+  },
+  {
+    "content": "When a user creates a record by using an object-specific create action, what feed item for that record appears? (Choose 3 answers)",
+    "options": [
+      "A. As the first entry in the feed for the new record",
+      "B. In the user profile feed for all users who can view the record",
+      "C. In the Chatter feed of the user who created the record",
+      "D. In the Chatter feed of the first user who follows the record on which the record was created",
+      "E. In the feed for the record on which the new record was created"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 92",
+    "explanation": ""
+  },
+  {
+    "content": "Which is correctly referencing a field on the Force.com custom object Position__c?",
+    "options": [
+      "A. [&Position__c.Status__c]",
+      "B. [!Position__c.Status__c]",
+      "C. {!Position__c.Status__c}",
+      "D. {&Position__c.Status__c}"
+    ],
+    "answer": "C",
+    "title": "Question 93",
+    "explanation": ""
+  },
+  {
+    "content": "When a user creates an account report, the user does not see industry as an available field in the report builder. However, this same user is able to see in the account page layout. What scenario would cause this?",
+    "options": [
+      "A. The user uses a custom report type which does not include the industry field",
+      "B. The industry field is not enabled for the particular record type",
+      "C. The user does not have industry field visibility in the field level security",
+      "D. The industry field has no record values in the account."
+    ],
+    "answer": "D",
+    "title": "Question 94",
+    "explanation": ""
+  },
+  {
+    "content": "DreamHouse Realty (DR) is expanding into subsidized housing by partnering with local government entitles. DR uses Sales Cloud and has enabled field history tracking on the Opportunity object. Due to increased Information requirements, the App Dev team is changing Text Area (Long) fields to Rich Text fields to allow for up to 1,000 characters and better descriptions.\nWhich two considerations should be made by the team?\nChoose 2 answers",
+    "options": [
+      "A. Audit Trail is available through REST API extracts.",
+      "B. Rich text field values of all lengths are displayed fully in reports.",
+      "C. Data loss may occur when changing custom field types.",
+      "D. Field History Tracking records value changes of 255 characters or less."
+    ],
+    "answer": "C,D",
+    "title": "Question 95",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to streamline its data capture process by linking fields together. They wish to do this so that the available value on dependents fields are driven by value selected on controlling fields. Which consideration supports the stated requirements? Choose 3 answers",
+    "options": [
+      "A. The import wizard only allows value to be imported into a dependent picklist if they match the appropriate controlling field",
+      "B. Multi select picklist can be dependent picklist but not controlling fields",
+      "C. Standard and custom picklist fields can be dependent fields.",
+      "D. Checkbox fields can be controlling fields but not dependent fields",
+      "E. Custom picklist field can be either controlling or dependent field"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 96",
+    "explanation": ""
+  },
+  {
+    "content": "The VP of Sales has requested that Account Site information should be visible onall Opportunity records.\nWhat is the recommended solution to meet this requirement?",
+    "options": [
+      "A. Cross-Object Formula Field",
+      "B. Process Builder",
+      "C. Workflow Rule",
+      "D. Roll-Up Summary Field"
+    ],
+    "answer": "A",
+    "title": "Question 97",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has Public Read/Write as the Account organization-wide default (OWD) setting. Visitors to the customer community site report that they can see all of the company's account records.\nHow should an app builder configure Account sharing so that community users only see their own Account?",
+    "options": [
+      "A. Define a permission set for external accounts.",
+      "B. Create an account record type for external accounts.",
+      "C. Define an owner-based sharing rule for external accounts.",
+      "D. Set the account external OWD to private."
+    ],
+    "answer": "D",
+    "title": "Question 98",
+    "explanation": ""
+  },
+  {
+    "content": "A production org includes custom objects containing confidential information. A sandbox ix needed that includes data records, excludes all of the confidential objects, and can be refreshed weekly?",
+    "options": [
+      "A. Create a developer pro sandbox and schedule loader to download selected object data weekly",
+      "B. Create a full sandbox and use a sandbox template",
+      "C. Create a developer sandbox and schedule data loader to download selected object data weekly.",
+      "D. Create a partial copy sandbox and use a sandbox template"
+    ],
+    "answer": "D",
+    "title": "Question 99",
+    "explanation": ""
+  },
+  {
+    "content": "The app builder at UVC has been asked to ensure that the amount field ispopulated when the stage is set to closed won. What can be used to meet this requirement?",
+    "options": [
+      "A. Workflow",
+      "B. Lighting process builder",
+      "C. Approval process",
+      "D. Validation rule"
+    ],
+    "answer": "A",
+    "title": "Question 100",
+    "explanation": ""
+  },
+  {
+    "content": "Which two field types can be referenced by a Roll-Up Summary field using MIN or MAX?\nChoose 2 answers",
+    "options": ["A. Formula", "B. Percent", "C. Date/time", "D. Checkbox"],
+    "answer": "B,C",
+    "title": "Question 101",
+    "explanation": ""
+  },
+  {
+    "content": "Universal containers uses a custom called reviews to capture information generated by interviews during the candidate process. The review records are visible to any user that has access to the related custom candidate record. The VP of human resources wants the comment field on the review to be private to anyone outside of the HR department.",
+    "options": [
+      "A. Create a page layout with the field for HR users and another page layout without the field for all other users",
+      "B. Create a page layout with the field and use field level security to hide the from all others users",
+      "C. Create a sharing rule to share the filed with the VP of HR with role and subordinates",
+      "D. Create an apex sharing rule to share the field with users that have HR in their role"
+    ],
+    "answer": "B",
+    "title": "Question 102",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder would like to streamline the user experience by reflecting summarized calculations of specific fields on various objects. Which field types could be used in roll-up summary fields to accomplish this? Choose 3 answers",
+    "options": [
+      "A. Checkbox",
+      "B. Time",
+      "C. Date",
+      "D. Currency",
+      "E. Percent"
+    ],
+    "answer": "C,D,E",
+    "title": "Question 103",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers introduces a custom object called Service, which has a lookup to Account. Field enter Service using the Salesforce1 mobile app. Operators create new Service records when viewing Account name which needs to automatically display the current Account. How can this be accomplished?",
+    "options": [
+      "A. Create an action in the Service object and add it to the Account page layout",
+      "B. Create an action in the Account object and add it to the Account page layout.",
+      "C. Create an action in the Service object and add it to the Service page layout",
+      "D. Create an action in the Account object and add it to the Service page layout."
+    ],
+    "answer": "B",
+    "title": "Question 104",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) has created a picklist field called Status on three separate custom objects. UC has a requirement to share the list of values for this field across each object.\nWhich feature would an app builder use?",
+    "options": [
+      "A. Global Picklist Value Set",
+      "B. Dynamic Action",
+      "C. Field Update",
+      "D. Dependent Picklist"
+    ],
+    "answer": "A",
+    "title": "Question 105",
+    "explanation": ""
+  },
+  {
+    "content": "What rules can be used to Opportunity object? (2)",
+    "options": [
+      "A. Validation",
+      "B. Workflow",
+      "C. Assignment",
+      "D. Auto-response"
+    ],
+    "answer": "A,B",
+    "title": "Question 106",
+    "explanation": ""
+  },
+  {
+    "content": "Which object can be member of a campaign? (Choose 2)",
+    "options": ["A. Account", "B. Opportunity", "C. Contact", "D. Lead"],
+    "answer": "C,D",
+    "title": "Question 107",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder needs to create new automation on an object.\nWhat best practice should the app builder follow when building out automation7",
+    "options": [
+      "A. One Flow per object.",
+      "B. One invocable process per object.",
+      "C. One record change process per object.",
+      "D. One Workflow rule per object."
+    ],
+    "answer": "B",
+    "title": "Question 108",
+    "explanation": ""
+  },
+  {
+    "content": "At Universal Containers, each admin and developer use a separate developer pro sandbox. Configuration and code are then migrated to a partial data sandbox for combination and initial testing. Once approved the configuration and code are then migrated to a full sandbox for final toad and regression testing before going to production.\nWhen should the full sandbox be refreshed?",
+    "options": [
+      "A. After each major release to production.",
+      "B. After user acceptance testing is complete.",
+      "C. After a new user is added to production.",
+      "D. After each push from the partial data sandbox."
+    ],
+    "answer": "D",
+    "title": "Question 109",
+    "explanation": ""
+  },
+  {
+    "content": "In a real estate app, if a listing is sold, all related inspections for the listing must be cancelled. What business logic feature best caters to this requirement? Choose 1 answer.",
+    "options": [
+      "A. Use Visual Workflow to define a flow to iterate through the related inspection records and update the status to 'Cancelled'",
+      "B. Create a standard workflow on the Listing object with a workflow record update action on the related Inspection records",
+      "C. Use a trigger to update the status of the related inspection records when the listing status is updated",
+      "D. Use Process Builder to define a process action to update related records based on the listing status change"
+    ],
+    "answer": "D",
+    "title": "Question 110",
+    "explanation": ""
+  },
+  {
+    "content": "What is a true statement regarding master-detail relationships? Choose 3 answers",
+    "options": [
+      "A. Master-detail relationship can be convert to a lookup relationship if no roll-up summary fields exist on the master object",
+      "B. Standard objects can be on the detail side of a custom object in a master-details relationship",
+      "C. Deleting a master record in a master-detail relationship deletes all related detail records",
+      "D. Master-detail relationships cannot be converted to a look-up relationship",
+      "E. A master-detail relationship cannot be created if the custom object on the detail side already contains data"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 111",
+    "explanation": ""
+  },
+  {
+    "content": "Sales managers want to be automatically notified any time there is a change to an opportunity close date and want these changes to be tracked on the opportunity. Which two configurations should an app builder recommend? Choose 2 answers",
+    "options": [
+      "A. Activate historical trending for opportunities",
+      "B. Create an opportunity outbound message",
+      "C. Use process builder on opportunities and a chatter post action",
+      "D. Enable feed tracking on opportunities"
+    ],
+    "answer": "C,D",
+    "title": "Question 112",
+    "explanation": ""
+  },
+  {
+    "content": "What should an app builder do to upgrade an unmanaged package that has been installed into production?",
+    "options": [
+      "A. Click the update link on the Installed Packages page.",
+      "B. Uninstall the current version and install the new version.",
+      "C. Install the new version in a sandbox then deploy to production",
+      "D. Install the new version to a Developer org then deploy to production."
+    ],
+    "answer": "C",
+    "title": "Question 113",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement is true about converting a lead? Choose 3 answers",
+    "options": [
+      "A. Users can convert leads that are associated with an active approval process.",
+      "B. Administrators may choose whether to enforce validation rules & triggers",
+      "C. The lead's most recent campaign record is automatically applied to the \"PRIMARY campaign source\" field on the opportunity",
+      "D. Multi-select picklist values on lead records overwrite values on the contact's corresponding field.",
+      "E. The system automatically maps standard lead fields to standard account, contact, and opportunity fields."
+    ],
+    "answer": "B,C,E",
+    "title": "Question 114",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers created a custom object called Component to capture details about products sold.\nWhat approach should an app builder take to show Component as a related list on Product?",
+    "options": [
+      "A. Create a junction object to relate Component and Product. Add the Component related list to the Product page layout.",
+      "B. Create a lookup relationship on Component to Product. Add the Component related list to the Product page layout.",
+      "C. Create a roll-up on Product. Add the Component related list to the Product page layout.",
+      "D. Create a master-detail relationship on Product to Component. Add the Component related list to the Product page layout."
+    ],
+    "answer": "B,D",
+    "title": "Question 115",
+    "explanation": ""
+  },
+  {
+    "content": "UC has a requirement that an opportunity should have a field showing the value of its associated account's billing state. This value should not change after the opportunity has been created. Is there a recommended solution to configure this automated behavior?",
+    "options": [
+      "A. Formula field",
+      "B. Apex",
+      "C. Workflow",
+      "D. Roll-up summary field"
+    ],
+    "answer": "C",
+    "title": "Question 116",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers would like to show different picklist values to different groups of user in a custom picklist field. What should be configured?",
+    "options": [
+      "A. Record Types",
+      "B. Page Layouts",
+      "C. Field-level security",
+      "D. Permission sets"
+    ],
+    "answer": "A",
+    "title": "Question 117",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks (CK) wants to track orders against inventory, ensuring its ability to fulfill order requests. CK created a junction object called Request Inventory to enable many-to-many relationships with the Inventory and Order objects.\nWhat does the app builder need to provide to ensure users can view Request Inventory records?",
+    "options": [
+      "A. Read access to the first master object.",
+      "B. Sharing rules on Request Inventory object.",
+      "C. Apex-based sharing on the first master object.",
+      "D. Read access to both master objects."
+    ],
+    "answer": "D",
+    "title": "Question 118",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has two types of applicants, hourly and salary. There are separate record types for each. While all members of the human resource department need to be able to view all applicant records, only the hiring Manager and VP of HR should be able to create salary applicant records.\nWhat should the app builder recommend to meet this requirement?",
+    "options": [
+      "A. Configure the hourly record type as the default and instruct non-management users to accept the default record type.",
+      "B. Remove \"create\" permission for the salary applicant object for everyone except the manager and VP.",
+      "C. Create a permission set containing the salary record type and assign it to the appropriate users.",
+      "D. Update the org-wide default to private and create a sharing rule for the role of recruiting manager."
+    ],
+    "answer": "C",
+    "title": "Question 119",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder received a request to extend record access beyond the organization-wide defaults configured. Which two features satisfy this requirement?\nChoose 2 answers",
+    "options": [
+      "A. Permission Set Groups",
+      "B. Public Groups",
+      "C. Sharing Rules",
+      "D. Manual Sharing Rules"
+    ],
+    "answer": "B,C",
+    "title": "Question 120",
+    "explanation": ""
+  },
+  {
+    "content": "Universal containers requires that all users specify a contract is sent on each opportunity prior to marking it as closed won. uc wants to be able to report on how many opportunities have sent contracts compared to how many have a missing contract when the opportunities closed. what type of field should an app builder configure to fulfill this requirement ?",
+    "options": ["A. Checkbox", "B. Picklist", "C. Text", "D. Text Area"],
+    "answer": "A",
+    "title": "Question 121",
+    "explanation": ""
+  },
+  {
+    "content": "UVC wants their Field Sales team to only see the accounts that they own. Separate North American and European marketing teams should only see accounts in their respective regions. The Inside Sales Team needs to see all accounts in Salesforce. How can this be accomplished?",
+    "options": [
+      "A. Set the OWD to Private for accounts. Create permission sets for each Marketing team, and create an Inside Sales team profile with the \"View All\" setting for accounts",
+      "B. Set the OWD to Private for all accounts. Create Criteria-based sharing rules for each Marketing Team, and create an Inside Sales Team Profile with the \"View All\" setting for accounts",
+      "C. Set the OWD to Public for accounts. Create profiles for each Marketing team, and create an Inside Sales Team role that is at the top of the Role Hierarchy",
+      "D. Set the OWD to Public for all accounts. Create criteria-based sharing rules for each Marketing Team, and create an Inside Sales Team permission set with the \"View All\" settings for accounts"
+    ],
+    "answer": "B",
+    "title": "Question 122",
+    "explanation": ""
+  },
+  {
+    "content": "What is true statement regarding master - detail relationship? Choose 3 answers",
+    "options": [
+      "A. Deleting a master record in a master detail relationship deletes all related detail records",
+      "B. A master-detail relationship cannot be created if the custom object on the detail side already contains data.",
+      "C. Master-detail relationship can convert to a look -up relationship if no roll-up summary field exist on the master object",
+      "D. Standard objects can be on the detail side of the custom object in a master-detail relationship",
+      "E. A master - detail relationship cannot be converted to a look-up relationship"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 123",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers wants to rollout new product bundles with several pricing options. Pricing options include product-price bundles, account specific pricing and more. Which product satisfies the needs?",
+    "options": [
+      "A. Lightning process builder",
+      "B. Workflow on Opportunity/Opportunity Product",
+      "C. Custom AppExchange-app for product-pricing",
+      "D. Formula fields on Opportunity/Opportunity Product"
+    ],
+    "answer": "A,B,D",
+    "title": "Question 124",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has separated business requirements for consumer and Business Opportunities. The sales team work with both types of Opportunities. The app builder created two record types on the Opportunity Object. Which action can now be performed? Choose 2 answers",
+    "options": [
+      "A. Enable field validation by sales process.",
+      "B. Prevent access to secure data fields by sales process.",
+      "C. Specify a different page layout by sales process.",
+      "D. Create unique Opportunity stages by sales process."
+    ],
+    "answer": "A,C",
+    "title": "Question 125",
+    "explanation": ""
+  },
+  {
+    "content": "At Universal Containers, the VP of Service has requested a visual indicator flag on each case, based on the case priority. High-priority cases should be flagged red, medium-priority should be flagged yellow, and low-priority cases should be flagged green. Which formula would accomplish this requirement? Choose 2 answers",
+    "options": [
+      "A. IF(ISPICKVAL(Priority, \"Low\"), \"img/samples/flag_green.gif\", IF(ISPICKVAL(Priority, \"Medium\"), \"img/samples/flag_yellow.gif\", IF(ISPICKVAL(Priority, \"High\"), \"img/samples/flag_red.gif\", \"/s.gif\")))",
+      "B. CASE( Priority, \"Low\", \"img/samples/flag_green.gif\", \"Medium\", \"img/samples/flag_yellow.gif\", \"High\", \"img/samples/flag_red.gif\", \"/s.gif\")",
+      "C. IMAGE(CASE( Priority, \"Low\", \"img/samples/flag_green.gif\", \"Medium\", \"img/samples/flag_yellow.gif\", \"High\", \"img/samples/flag_red.gif\", \"Priority Flag\")",
+      "D. IMAGE( IF(ISPICKVAL(Priority, \"Low\"), \"img/samples/flag_green.gif\", IF(ISPICKVAL(Priority, \"Medium\"), \"img/samples/flag_yellow.gif\", IF(ISPICKVAL(Priority, \"High\"), \"img/samples/flag_red.gif\"))), \"Priority Flag\")"
+    ],
+    "answer": "C,D",
+    "title": "Question 126",
+    "explanation": ""
+  },
+  {
+    "content": "What should an app builder consider when choosing a template for a new Lightning record page?",
+    "options": [
+      "A. A Page structure will automatically adapt to the device being used to view the record page.",
+      "B. Select a new template for each type of device users use to view the record page.",
+      "C. The template is unable to be changed after the initial save.",
+      "D. To view the record page, users need \"View All Data\" permissions for the object."
+    ],
+    "answer": "A",
+    "title": "Question 127",
+    "explanation": ""
+  },
+  {
+    "content": "UC would like to automatically assign a specific permission set to new users. How can they do that?",
+    "options": [
+      "A. Option 4",
+      "B. Create a flow on the user object to assign permission set",
+      "C. Create a workflow rule on the user object to assign a permission set",
+      "D. Create a lighting process on the user object to launch a flow"
+    ],
+    "answer": "B",
+    "title": "Question 128",
+    "explanation": ""
+  },
+  {
+    "content": "What is a true statement when deleting a dashboard?",
+    "options": [
+      "A. Deleting a dashboard also deletes the components within it, as well as the custom reports used by the components",
+      "B. Deleting a dashboard requires a user to first edit the components to remove the underlying reports",
+      "C. Deleting a dashboard also deletes the components within it. It does not delete the custom reports used by the components.",
+      "D. Deleting a dashboard does not move the dashboard to the recycle bin and therefore the dashboard cannot be recovered."
+    ],
+    "answer": "C",
+    "title": "Question 129",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks has five years of sales data and would like to track when customers made their first purchase. How should an app builder use a roll-up summary to meet the requirements?",
+    "options": [
+      "A. Create a new roll-up summary field called First Order Date, using Type SUM on Opportunity Close Date.",
+      "B. Create a new date field called First Order Date, create a new Workflow to set the date, and roll up the value with a filter where IsWon = TRUE.",
+      "C. Create a new roll-up summary field called First Order Date, using Type MIN on the Opportunity Close Date with a filter where IsWon = TRUE.",
+      "D. Create a new date field called First Order Date, then create a roll-up summary to update the field using Type MIN."
+    ],
+    "answer": "C",
+    "title": "Question 130",
+    "explanation": ""
+  },
+  {
+    "content": "Users at Cloud Kicks provided feedback that the time card custom page layout has too many fields on it, and some fields are only needed if other fields are entered.\nWhat should an app builder configure to help with this issue?",
+    "options": [
+      "A. Separate page layouts",
+      "B. Dependent picklists",
+      "C. Dynamic forms",
+      "D. Lightning web components"
+    ],
+    "answer": "C",
+    "title": "Question 131",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder at Cloud Kicks created a custom object and related fields in the schema builder.\nWhat next steps should the app build take to ensure users can access the new object and fields7",
+    "options": [
+      "A. Add the fields to the page layout on the object.",
+      "B. Assign data types to the fields on the object.",
+      "C. Create a permission set for access to the object and fields.",
+      "D. Allow reporting for the object and fields."
+    ],
+    "answer": "A",
+    "title": "Question 132",
+    "explanation": ""
+  },
+  {
+    "content": "accounts and a secondary master detail relationship with contacts. The app builder has requirement to change the primary master relationship to lookup. What happens to the master detail relationship with contacts?",
+    "options": [
+      "A. The contacts master detail becomes the primary",
+      "B. The contacts master detail values are cleared from invoice",
+      "C. The contacts master detail also converts to lookup",
+      "D. The contacts master detail field is deleted from the object"
+    ],
+    "answer": "A",
+    "title": "Question 133",
+    "explanation": ""
+  },
+  {
+    "content": "Which two statements are true about an External ID field? Choose 2 answers",
+    "options": [
+      "A. The field can be unique based on case-sensitive or case-insensitive values.",
+      "B. The field can be used to contain unique record identifiers from a system outside of Salesforce.",
+      "C. The field must be unique since duplicates are NOT allowed within Salesforce.",
+      "D. The field must contain at least one number and at least one letter."
+    ],
+    "answer": "A,B",
+    "title": "Question 134",
+    "explanation": ""
+  },
+  {
+    "content": "UVC wants to automate a business process using workflow. They are aware that workflow rules may cause recursive behavior, and as a result certain actions will only cause workflow rules that didn't fire previously to be retriggered. Which workflow action might cause this behavior?",
+    "options": [
+      "A. Workflow Outbound messages with the \"Protected Component\" field selected",
+      "B. Workflow Field Updates with the \"Re-evaluate Workflow Rules After Field Changes\" field selected",
+      "C. Workflow Emails containing hard coded links with Salesforce IDs referencing specific workflow rules",
+      "D. Workflow Tasks where the \"Due Date\" field is set to \"Rule Trigger Date\" minus X days"
+    ],
+    "answer": "B",
+    "title": "Question 135",
+    "explanation": ""
+  },
+  {
+    "content": "What is the capability of sandbox template ? Select 2",
+    "options": [
+      "A. Save a template for re-use when creating a partial copy sandbox environment",
+      "B. Specify the data range for data being replicated in a partial copy sandbox environment",
+      "C. Specify the objects whose data should be replicated in the partial copy sandbox environment",
+      "D. Create a partial copy sandbox from a partial copy sandboxes environment"
+    ],
+    "answer": "A,C",
+    "title": "Question 136",
+    "explanation": ""
+  },
+  {
+    "content": "UVC's CFO has asked that all deals with more than a 40% discount get automatically sent to the VP of Finance. He will review these deals without the sales rep needing to take action. Which two ways can this be accomplished without building code? Choose two answer",
+    "options": [
+      "A. Launch a new approval process that has automatic submission enabled as an initial submission action",
+      "B. Create a new approval process that has automatic submission enabled in the entry criteria",
+      "C. Launch a flow that uses the submit for approval action to submit deals for approval",
+      "D. Create a new process with a submit for approval action to automatically submit deals for approval"
+    ],
+    "answer": "B,D",
+    "title": "Question 137",
+    "explanation": ""
+  },
+  {
+    "content": "An app builder has been asked to provide users a way to identify a contact's \"preferred contact method\" directly on the contact record. users need to be able to identify whether a phone number or an email, is the contact's preferred communication method. Which field type will allow the app builder to accomplish this with the fewest fields possible?",
+    "options": ["A. Formula", "B. Checkboxes", "C. Picklist", "D. Email"],
+    "answer": "C",
+    "title": "Question 138",
+    "explanation": ""
+  },
+  {
+    "content": "What should be done to provide managers access to records of which they are not the owner in a private sharing model?",
+    "options": [
+      "A. Create a Manager profile and select the \"View My Teams Data\" option.",
+      "B. Set the Manger field for each User Record on the Manager's team.",
+      "C. Define a Role Hierarchy and use the Grant Access Using Hierarchies option",
+      "D. Create a Manager Permission set and select the \"View All Data\" option"
+    ],
+    "answer": "D",
+    "title": "Question 139",
+    "explanation": ""
+  },
+  {
+    "content": "UVC needs to send an outbound message to an external system when a record has been updated. What is the recommended feature to meet this requirement?",
+    "options": [
+      "A. Workflow",
+      "B. Process Builder",
+      "C. Visual Workflow",
+      "D. Lightning Component"
+    ],
+    "answer": "A",
+    "title": "Question 140",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers manages leads in a Lead qualification queue where sales reps can accept ownership of the Lead. Campaign members are required to have a sales owner.\nWhat validation rule should an app builder configure?",
+    "options": [
+      "A. AND( ISBLANK(Lead.Owner.Id) )",
+      "B. AND(ISNEW(), ISBLANK(Lead.Owner:User.Id))",
+      "C. NOT(ISNEW() && ISBLANK(Lead.Owner:Queue.Id))",
+      "D. NOT( ISBLANK(Lead.Owner:Queue.Id))"
+    ],
+    "answer": "D",
+    "title": "Question 141",
+    "explanation": ""
+  },
+  {
+    "content": "A company wants to invite customers to chatter, what options can a customerhave?",
+    "options": [
+      "A. Invite other members to groups they are a part of",
+      "B. Request to join public groups",
+      "C. @mention other members of the group",
+      "D. Add them on FB,Twitter and Instagram"
+    ],
+    "answer": "A",
+    "title": "Question 142",
+    "explanation": ""
+  },
+  {
+    "content": "Which statements are true regarding Roll-Up Summary fields? (select all thatapply)",
+    "options": [
+      "A. Validation errors can display when saving either the detail or master record.",
+      "B. Advanced currency management has no affect on roll-up summary fields.",
+      "C. Once created, you cannot change the detail object selected or delete any field referenced in your roll-up summary definition.",
+      "D. Because roll-up summary fields are not displayed on edit pages, you can use them in validation rules."
+    ],
+    "answer": "A,C,D",
+    "title": "Question 143",
+    "explanation": ""
+  },
+  {
+    "content": "Cloud Kicks received a new requirement to calculate summaries from child objects of a standard object. The team would prefer to solve this declaratively.\nWhat are two considerations an app builder should evaluate?\nChoose 2 answers",
+    "options": [
+      "A. A value is required in all records of the lookup field prior to converting to a master-detail relationship.",
+      "B. An object can have up to two master-detail relationships.",
+      "C. A trigger on save or update can kick off calculations.",
+      "D. An app builder is unable to change a lookup to a master-detail relationship."
+    ],
+    "answer": "B,D",
+    "title": "Question 144",
+    "explanation": ""
+  },
+  {
+    "content": "",
+    "options": [],
+    "answer": "",
+    "title": "Question ",
+    "explanation": ""
+  },
+  {
+    "content": "What metadata changes can be made directly in a production environment without deploying from sandbox? Choose 2 answers",
+    "options": [
+      "A. Visualforce Pages",
+      "B. Validation Rules",
+      "C. Apex Triggers",
+      "D. Apex Classes"
+    ],
+    "answer": "A,B",
+    "title": "Question 146",
+    "explanation": ""
+  },
+  {
+    "content": "The VP of account management at Universal Containers has requested that all contacts mailing postal codes match the associated accounts shipping postal code. How can this be enforced using validation rules?",
+    "options": [
+      "A. Create a validation rule using the geolocation() function",
+      "B. Create a validation rule using a compare operator",
+      "C. Create a validation rule using the distance() function",
+      "D. Create a validation rule using a not equal operator"
+    ],
+    "answer": "D",
+    "title": "Question 147",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers needs to update a field on an Account when an Opportunity Stage is changed to Closed Lost. What tools can we use to accomplish this requirement? (Choose 2)",
+    "options": [
+      "A. Workflow Rule",
+      "B. Assignment Rule",
+      "C. Lightning Process Builder",
+      "D. Approval Process"
+    ],
+    "answer": "A,C",
+    "title": "Question 148",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers has a customer base where many customers have the same or similar company names.\nWhich functionality should be configured to improve an end user`s search experience?\nChoose 2 answers",
+    "options": [
+      "A. Update the account search filter fields.",
+      "B. Update the account search layouts search results columnsdisplayed.",
+      "C. Update the account search layouts view filtersettings.",
+      "D. Update the account search layouts accounts tab columns displayed."
+    ],
+    "answer": "A,B",
+    "title": "Question 149",
+    "explanation": ""
+  },
+  {
+    "content": "Person Accounts Choose 2 answers",
+    "options": [
+      "A. Can only be merged with other person accounts",
+      "B. Are enabled via feature license",
+      "C. Have the same icon as Business accounts",
+      "D. Are enabled by default",
+      "E. Do use space in both account and contacts table"
+    ],
+    "answer": "A,E",
+    "title": "Question 150",
+    "explanation": ""
+  }
+]

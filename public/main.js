@@ -121,6 +121,11 @@ var testList = [
       "Salesforce.Platform-App-Builder.v2023-01-14.q90",
       "Salesforce.Platform-App-Builder.v2023-03-06.q159",
       "Salesforce.Platform-App-Builder.v2023-07-29.q129",
+      "Salesforce.CRT-403.v2022-08-18.q150",
+      "Salesforce.CRT-403.v2022-07-22.q144",
+      "Salesforce.CRT-403.v2022-04-30.q150",
+      "Salesforce.CRT-403.v2022-04-13.q112",
+      "Salesforce.CRT-403.v2022-03-18.q118",
     ],
   },
   {
