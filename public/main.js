@@ -401,3 +401,11 @@ function shuffleArray(array) {
   }
   return array;
 }
+
+// Trick glitch for do not turn off server
+function fetchOrigin() {
+  return fetch(`${window.location.origin}?query=${Date.now()}`);
+}
+
+// Set up fetchData() to be called every 3 minutes (180000 milliseconds)
+setInterval(fetchOrigin, 180000);
