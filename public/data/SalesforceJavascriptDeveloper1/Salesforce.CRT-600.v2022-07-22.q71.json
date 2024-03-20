@@ -1,0 +1,786 @@
+[
+  {
+    "content": "Given the code below:\nconst delay = async delay =>{\nreturn new Promise((resolve,reject)=>{\nconsole.log(1);\nsetTimeout(resolve,deleay);\n});\n};\nconst callDelay = async ()=>{\nconsole.log(2);\nconst yup = await delay(1000);\nconsole.log(3);\n}\nconsole.log(4);\ncallDelay();\nconsole.log(5);\nWhat is logged to the console?",
+    "options": ["A. 4 2 1 5 3"],
+    "answer": "A",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following object:\nconst cat ={\nfirstName: 'Fancy',\nlastName: ' Whiskers',\nGet fullName() {\nreturn this.firstName + ' ' + this.lastName;\n}\n};\nHow can a developer access the fullName property for cat?",
+    "options": [
+      "A. cat.fullName",
+      "B. cat.fullName()",
+      "C. cat.get.fullName",
+      "D. cat.function.fullName()"
+    ],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "A developer is asked to fix some bugs reported by users. To do that, the developer adds a breakpoint for debugging.\nFunction Car (maxSpeed, color){\nThis.maxspeed =masSpeed;\nThis.color = color;\nLet carSpeed = document.getElementById(' CarSpeed');\nDebugger;\nLet fourWheels =new Car (carSpeed.value, 'red');\nWhen the code execution stops at the breakpoint on line 06, which two types of information are available in the browser console ?\nChoose 2 answers:",
+    "options": [
+      "A. The values of the carSpeed and fourWheels variables",
+      "B. The style, event listeners and other attributes applied to the carSpeed DOM element",
+      "C. A variable displaying the number of instances created for the Car Object.",
+      "D. The information stored in the window.localStorage property"
+    ],
+    "answer": "B,D",
+    "title": "Question 3",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to HTML below:\n<p> The current status of an Order: <span id =\"status\"> In Progress </span> </p>.\nWhich JavaScript statement changes the text 'In Progress' to 'Completed' ?",
+    "options": [
+      "A. document.getElementById(\".status\").innerHTML = 'Completed' ;",
+      "B. document.getElementById(\"#status\").innerHTML = 'Completed' ;",
+      "C. document.getElementById(\"status\").innerHTML = 'Completed' ;",
+      "D. document.getElementById(\"status\").Value = 'Completed' ;"
+    ],
+    "answer": "C",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "A developer is wondering whether to use, Promise.then or Promise.catch, especially when a Promise throws an error?\nWhich two promises are rejected?\nWhich 2 are correct?",
+    "options": [
+      "A. Promise.reject('cool error here').then(error => console.error(error));",
+      "B. Promise.reject('cool error here').catch(error => console.error(error));",
+      "C. New Promise(() => (throw 'cool error here'}).then(null, error => console.error(error)));",
+      "D. New Promise((resolve, reject) => (throw 'cool error here'}).catch(error => console.error(error)) ;"
+    ],
+    "answer": "B,D",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "Given the following code:\nLet x =null;\nconsole.log(typeof x);\nWhat is the output of the line 02?",
+    "options": ["A. \"undefined\"", "B. \"X\"", "C. \"Object\"", "D. \"Null\""],
+    "answer": "C",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to HTML below:\n<div id =\"main\">\n<div id = \" card-00\">This card is smaller.</div>\n<div id = \"card-01\">The width and height of this card is determined by its contents.</div>\n</div>\nWhich expression outputs the screen width of the element with the ID card-01?",
+    "options": [
+      "A. document.getElementById(' card-01 ').style.width",
+      "B. document.getElementById(' card-01 ').getBoundingClientRest().width",
+      "C. document.getElementById(' card-01 ').width",
+      "D. document.getElementById(' card-01 ').innerHTML.lenght*e"
+    ],
+    "answer": "B",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "Given the HTML below:\nWhich statement adds the priority-account css class to the Applied Shipping row?",
+    "options": [
+      "A. document.querySelector('#row-as').classList.add('priority-account');"
+    ],
+    "answer": "A",
+    "title": "Question 8",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code declarations below:\nWhich three expressions return the string JavaScript?\nChoose 3 answers",
+    "options": [
+      "A. $(str1) $ (str2} ';",
+      "B. Str1 + str2;",
+      "C. Str1.concat (str2);",
+      "D. Concat (str1, str2);",
+      "E. Str1.join (str2);"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "Given the code below:\nconst delay = sync delay => {\nReturn new Promise((resolve, reject) => {\nsetTimeout (resolve, delay);});};\nconst callDelay =async () =>{\nconst yup =await delay(1000);\nconsole.log(1);\nWhat is logged to the console?",
+    "options": ["A. 2 3 1", "B. 1 3 2", "C. 2 1 3", "D. 1 2 3"],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "Given the code below:\n01 function GameConsole (name) {\n02 this.name = name;\n03 }\n04\n05 GameConsole.prototype.load = function(gamename) {\n06 console.log( ` $(this.name) is loading a game : $(gamename) ...`);\n07 )\n08 function Console 16 Bit (name) {\n09 GameConsole.call(this, name) ;\n10 }\n11 Console16bit.prototype = Object.create ( GameConsole.prototype) ;\n12 //insert code here\n13 console.log( ` $(this.name) is loading a cartridge game : $(gamename) ...`);\n14 }\n15 const console16bit = new Console16bit(' SNEGeneziz ');\n16 console16bit.load(' Super Nonic 3x Force ');\nWhat should a developer insert at line 15 to output the following message using the method ?\n> SNEGeneziz is loading a cartridge game: Super Monic 3x Force . . .",
+    "options": [
+      "A. Console16bit = Object.create(GameConsole.prototype).load = function\n         (gamename) {",
+      "B. Console16bit.prototype.load = function(gamename) {",
+      "C. Console16bit.prototype.load(gamename) = function() {",
+      "D. Console16bit.prototype.load(gamename) {"
+    ],
+    "answer": "B",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "The developer wants to test the array shown:\nconst arr = Array(5).fill(0)\nWhich two tests are the most accurate for this array ?\nChoose 2 answers:",
+    "options": [
+      "A. console.assert( arr.length === 5 );",
+      "B. arr.forEach(elem => console.assert(elem === 0)) ;",
+      "C. console.assert(arr[0] === 0 && arr[ arr.length] === 0);",
+      "D. console.assert (arr.length >0);"
+    ],
+    "answer": "A,B",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code snippet below:\nLet array = [1, 2, 3, 4, 4, 5, 4, 4];\nFor (let i =0; i < array.length; i++){\nif (array[i] === 4) {\narray.splice(i, 1);\n}\n}\nWhat is the value of the array after the code executes?",
+    "options": [
+      "A. [1, 2, 3, 5]",
+      "B. [1, 2, 3, 4, 4, 5, 4]",
+      "C. [1, 2, 3, 4, 5, 4]",
+      "D. [1, 2, 3, 4, 5, 4, 4]"
+    ],
+    "answer": "C",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nWhich value can a developer expect when referencing country,capital,cityString?",
+    "options": ["A. undefined", "B. An error", "C. 'London'", "D. 'NaN'"],
+    "answer": "D",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "Refer of the string below:\nConst str = 'sa;esforce'=;\nWhich two statement result in the word 'Sale'?\nChoose 2 answers",
+    "options": [
+      "A. str, substr(1,5) ;",
+      "B. str, substring(1,5) ;",
+      "C. str, substr(0,5) ;",
+      "D. str, substring (0,5) ;"
+    ],
+    "answer": "C,D",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "developer creates a new web server that uses Node.js. It imports a server library that uses events and callbacks for handling server functionality.\nThe server library is imported with require and is made available to the code by a variable named server. The developer wants to log any issues that the server has while booting up.\nGiven the code and the information the developer has, which code logs an error at boost with an event?",
+    "options": [
+      "A. Server.catch ((server) => {\n         console.log('ERROR', error);\n         });",
+      "B. Server.error ((server) => {\n         console.log('ERROR', error);\n         });",
+      "C. Server.on ('error', (error) => {\n         console.log('ERROR', error);\n         });",
+      "D. Try{\n         server.start();\n         } catch(error) {"
+    ],
+    "answer": "C",
+    "title": "Question 16",
+    "explanation": "console.log('ERROR', error);\n }"
+  },
+  {
+    "content": "GIven a value, which three options can a developer use to detect if the value is NaN?\nChoose 3 answers !",
+    "options": [
+      "A. Object.is(value, NaN)",
+      "B. value == NaN",
+      "C. Number.isNaN(value)",
+      "D. value ! == value",
+      "E. value === Number.NaN"
+    ],
+    "answer": "B,C",
+    "title": "Question 17",
+    "explanation": ""
+  },
+  {
+    "content": "A developer is setting up a Node,js server and is creating a script at the root of the source code, index,js, that will start the server when executed. The developer declares a variable that needs the folder location that the code executes from.\nWhich global variable can be used in the script?",
+    "options": [
+      "A. _dirname",
+      "B. this.path",
+      "C. _filename",
+      "D. window.location"
+    ],
+    "answer": "C",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following code:\n<html lang=\"en\">\n<body>\n<div onclick = \"console.log('Outer message') ;\">\n<button id =\"myButton\">CLick me<button>\n</div>\n</body>\n<script>\nfunction displayMessage(ev) {\nev.stopPropagation();\nconsole.log('Inner message.');\n}\nconst elem = document.getElementById('myButton');\nelem.addEventListener('click' , displayMessage);\n</script>\n</html>\nWhat will the console show when the button is clicked?",
+    "options": [
+      "A. Inner message\n         Outer message",
+      "B. Inner message",
+      "C. Outer message\n         Inner message",
+      "D. Outer message"
+    ],
+    "answer": "B",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Teams at Universal Containers (UC) work on multiple JavaScript projects at the same time.\nUC is thinking about reusability and how each team can benefit from the work of others.\nGoing open-source or public is not an option at this time.\nWhich option is available to UC with npm?",
+    "options": [
+      "A. Private registries are not supported by npm, but packages can be installed via URL.",
+      "B. Private packages are not supported, but they can use another package manager like yarn.",
+      "C. Private packages can be scored, and scopes can be associated to a private registries.",
+      "D. Private registries are not supported by npm, but packages can be installed via git."
+    ],
+    "answer": "C",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to following code:\nclass Vehicle {\nconstructor(plate) {\nThis.plate =plate;\n}\n}\nClass Truck extends Vehicle {\nconstructor(plate, weight) {\n//Missing code\nThis.weight = weight;\n}\ndisplayWeight() {\nconsole.log('The truck ${this.plate} has a weight of ${this.weight} lb.');}} Let myTruck = new Truck('123AB', 5000); myTruck.displayWeight(); Which statement should be added to line 09 for the code to display 'The truck 123AB has a weight of 5000lb.'?",
+    "options": [
+      "A. This.plate =plate;",
+      "B. super(plate);",
+      "C. Vehicle.plate = plate;",
+      "D. Super.plate =plate;"
+    ],
+    "answer": "B",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "Which two console logs outputs NaN ?\nChoose 2 answers",
+    "options": [
+      "A. console.log(10/ ''five);",
+      "B. console.log(parseInt('two'));",
+      "C. console.log(10/ Number('5'));",
+      "D. console.log(10/0);"
+    ],
+    "answer": "A,B",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following code block:\nclass Animal{\nconstructor(name){\nthis.name = name;\n}\nmakeSound(){\nconsole.log(`${this.name} is making a sound.`)\n}\n}\nclass Dog extends Animal{\nconstructor(name){\nsuper(name)\nthis.name = name;\n}\nmakeSound(){\nconsole.log(`${this.name} is barking.`)\n}\n}\nlet myDog = new Dog('Puppy');\nmyDog.makeSound();\nWhat is the console output?",
+    "options": ["A. Puppy is barking"],
+    "answer": "A",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "Consider type coercion, what does the following expression evaluate to?\nTrue + 3 + '100' + null",
+    "options": ["A. '4100null'", "B. 4100", "C. '3100null'", "D. 104"],
+    "answer": "A",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "A developer is setting up a new Node.js server with a client library that is built using events and callbacks.\nThe library:\n* Will establish a web socket connection and handle receipt of messages to the server\n* Will be imported with require, and made available with a variable called we.\nThe developer also wants to add error logging if a connection fails.\nGiven this info, which code segment shows the correct way to set up a client with two events that listen at execution time?",
+    "options": [
+      "A. try{\n         ws.connect (( ) => {\n         console.log('connected to client'); });\n         } catch(error) { console.log('ERROR' , error); };\n         }",
+      "B. ws.on ('connect', ( ) => {\n         console.log('connected to client'); ws.on('error', (error) => { console.log('ERROR' , error); });\n         });",
+      "C. ws.on ('connect', ( ) => { console.log('connected to client'); }}; ws.on('error', (error) => { console.log('ERROR' , error); }};",
+      "D. ws.connect (( ) => {\n         console.log('connected to client'); }).catch((error) => { console.log('ERROR' , error); }};"
+    ],
+    "answer": "C",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "A developer writers the code below to calculate the factorial of a given number.\nFunction factorial(number) {\nReturn number + factorial(number -1);\n}\nfactorial(3);\nWhat is the result of executing line 04?",
+    "options": ["A. -Infinity", "B. 6", "C. 0", "D. RuntimeError"],
+    "answer": "D",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "A developer implements and calls the following code when an application state change occurs:\nConst onStateChange =innerPageState) => {\nwindow.history.pushState(newPageState, ' ', null);\n}\nIf the back button is clicked after this method is executed, what can a developer expect?",
+    "options": [
+      "A. The page is navigated away from and the previous page in the browser's history is loaded.",
+      "B. A navigate event is fired with a state property that details the previous application state.",
+      "C. The page reloads and all Javascript is reinitialized.",
+      "D. A popstate event is fired with a state property that details the application's last state."
+    ],
+    "answer": "A",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "Given the code below:\nWhat is logged to the console'",
+    "options": ["A. 1 2 5 3 4", "B. 2 5 1 3 4", "C. 2 5 3 4 1", "D. 1 2 3 4 5"],
+    "answer": "C",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "Given the requirement to refactor the code above to JavaScript class format, which class definition is correct?\nA)\nB)\nC)\nD)",
+    "options": ["A. Option C", "B. Option D", "C. Option B", "D. Option A"],
+    "answer": "D",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "developer wants to use a module named universalContainersLib and them call functions from it.\nHow should a developer import every function from the module and then call the fuctions foo and bar ?",
+    "options": [
+      "A. import * from '/path/universalContaineraLib.js';\n         universalContainersLib.foo();\n         universalContainersLib.bar();",
+      "B. import * ad lib from '/path/universalContainersLib.js';\n         lib.foo();\n         lib.bar();",
+      "C. import (foo, bar) from '/path/universalContainersLib.js';\n         foo();\n         bar();",
+      "D. import all from '/path/universalContaineraLib.js';\n         universalContainersLib.foo();\n         universalContainersLib.bar();"
+    ],
+    "answer": "B",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following code:\nWhich statement should be added to line 09 for the code to display 'The boat has a capacity of 10 people?",
+    "options": [
+      "A. ship.size size;",
+      "B. super.size = size;",
+      "C. super (size);",
+      "D. this.size = size;"
+    ],
+    "answer": "D",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to code below:\nLet productSKU = '8675309' ;\nA developer has a requirement to generate SKU numbers that are always 19 characters lon, starting with 'sku', and padded with zeros.\nWhich statement assigns the values sku0000000008675309 ?",
+    "options": [
+      "A. productSKU = productSKU .padEnd (16. '0').padstart('sku');",
+      "B. productSKU = productSKU .padStart (16. '0').padstart(19, 'sku');",
+      "C. productSKU = productSKU .padStart (19. '0').padstart('sku');",
+      "D. productSKU = productSKU .padEnd (16. '0').padstart(19, 'sku');"
+    ],
+    "answer": "B",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) just launched a new landing page, but users complain that the website is slow. A developer found some functions any that might cause this problem. To verify this, the developer decides to execute everything and log the time each of these three suspicious functions consumes.\nWhich function can the developer use to obtain the time spent by every one of the three functions?",
+    "options": [
+      "A. console.timeStamp ()",
+      "B. console. timeLog ()",
+      "C. console.trace()",
+      "D. console.getTime ()"
+    ],
+    "answer": "B",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nConst resolveAfterMilliseconds = (ms) => Promise.resolve (\nsetTimeout (( => console.log(ms), ms ));\nConst aPromise = await resolveAfterMilliseconds(500);\nConst bPromise = await resolveAfterMilliseconds(500);\nAwait aPromise, wait bPromise;\nWhat is the result of running line 05?",
+    "options": [
+      "A. aPromise and bPromise run sequentially.",
+      "B. Neither aPromise or bPromise runs.",
+      "C. Only aPromise runs.",
+      "D. aPromise and bPromise run in parallel."
+    ],
+    "answer": "B",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "A developer implements a function that adds a few values.\nFunction sum(num) {\nIf (num == undefined) {\nNum =0;\n}\nReturn function( num2, num3){\nIf (num3 === undefined) {\nNum3 =0 ;\n}\nReturn num + num2 + num3;\n}\n}\nWhich three options can the developer invoke for this function to get a return value of 10 ?\nChoose 3 answers",
+    "options": [
+      "A. Sum (5, 5) ()",
+      "B. sum(10) ()",
+      "C. sum() (5, 5)",
+      "D. sum(5)(5)",
+      "E. Sum () (20)"
+    ],
+    "answer": "C,D",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "Given the following code:\nCounter = 0;\nconst logCounter = () => {\nconsole.log(counter);\n);\nlogCounter();\nsetTimeout(logCOunter, 1100);\nsetInterval(() => {\nCounter++\nlogCounter();\n}, 1000);\nWhat is logged by the first four log statements?",
+    "options": ["A. 0 1 2 2", "B. 0 1 1 2", "C. 0 0 1 2", "D. 0 1 2 3"],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": ""
+  },
+  {
+    "content": "A developer has a web server running with Node.js. The command to start the web server is node server.js. The web server started having latency issues. Instead of a one second turnaround for web requests, the developer now sees a five second turnaround.\nWhich command can the web developer run to see what the module is doing during the latency period?",
+    "options": [
+      "A. NODE_DEBUG=http,https node server.js",
+      "B. NODE_DEBUG=true node server.js",
+      "C. DEBUG=true node server.js",
+      "D. DEBUG=http, https node server.js"
+    ],
+    "answer": "C",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to code below:\nLet first = 'who';\nLet second = 'what';\nTry{\nTry{\nThrow new error('Sad trombone');\n}catch (err){\nFirst ='Why';\n}finally {\nSecond ='when';\n} catch (err) {\nSecond ='Where';\n}\nWhat are the values for first and second once the code executes ?",
+    "options": [
+      "A. First is Who and second is When",
+      "B. First is why and second is when",
+      "C. First is who and second is where",
+      "D. First is why and second is where"
+    ],
+    "answer": "B",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code snippet:\nFunction getAvailabilityMessage(item) {\nIf (getAvailability(item)){\nVar msg =\"Username available\";\n}\nReturn msg;\n}\nA developer writes this code to return a message to user attempting to register a new username. If the username is available, variable.\nWhat is the return value of msg hen getAvailabilityMessage (\"newUserName\" ) is executed and getAvailability(\"newUserName\") returns false?",
+    "options": [
+      "A. \"newUserName\"",
+      "B. \"Username available\"",
+      "C. \"Msg is not defined\"",
+      "D. undefined"
+    ],
+    "answer": "D",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nLet car1 = new Promise((_ , reject) =>\nsetTimeout(reject, 2000, \"car 1 crashed in\" =>\nLet car2 =new Promise(resolve => setTimeout(resolve, 1500, \"car 2 completed\") Let car3 =new Promise(resolve => setTimeout(resolve, 3000, \"car 3 completed\") Promise.race(( car1, car2, car3))\n.then (value => (\nLet result = '$(value) the race.';)}\n.catch(arr => {\nconsole.log(\"Race is cancelled.\", err);\n});\nWhat is the value of result when Promise.race executes?",
+    "options": [
+      "A. Car 2 completed the race.",
+      "B. Car 3 completes the race",
+      "C. Car 1 crashed in the race.",
+      "D. Race is cancelled."
+    ],
+    "answer": "A",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to code below:\nConst objBook = {\nTitle: 'Javascript',\n};\nObject.preventExtensions(objBook);\nConst newObjBook = objBook;\nnewObjectBook.author = 'Robert';\nWhat are the values of objBook and newObjBook respectively ?",
+    "options": [
+      "A. [title: \"javaScript\"] [title: \"javaScript\"]",
+      "B. {author: \"Robert\"}\n         {author: \"Robert\", title: \"javaScript}",
+      "C. {author: \"Robert\", title: \"javaScript}\n         {author: \"Robert\", title: \"javaScript}",
+      "D. {author: \"Robert\", title: \"javaScript}\n         Undefined"
+    ],
+    "answer": "A",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "A developer has the function, shown below, that is called when a page loads.\nfunction onload() {\nconsole.log(\"Page has loaded!\");\n}\nWhere can the developer see the log statement after loading the page in the browser?",
+    "options": [
+      "A. Browser javaScript console",
+      "B. Browser performance toots",
+      "C. On the webpage.",
+      "D. Terminal running the web server."
+    ],
+    "answer": "A",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "A team that works on a big project uses npm to deal with projects dependencies.\nA developer added a dependency does not get downloaded when they execute npm install.\nWhich two reasons could be possible explanations for this?\nChoose 2 answers",
+    "options": [
+      "A. The developer added the dependency as a dev dependency, and\n         NODE_ENV\n         Is set to production.",
+      "B. The developer added the dependency as a dev dependency, and\n         NODE_ENV is set to production.",
+      "C. The developer missed the option --save when adding the dependency.",
+      "D. The developer missed the option --add when adding the dependency."
+    ],
+    "answer": "A,B,C",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "A developer wants to iterate through an array of objects and count the objects and count the objects whose property value, name, starts with the letter N.\nConst arrObj = [{\"name\" : \"Zach\"} , {\"name\" : \"Kate\"},{\"name\" : \"Alise\"},{\"name\" : \"Bob\"},{\"name\" :\n\"Natham\"},{\"name\" : \"nathaniel\"}\nRefer to the code snippet below:\n01 arrObj.reduce(( acc, curr) => {\n02 //missing line 02\n02 //missing line 03\n04 ). 0);\nWhich missing lines 02 and 03 return the correct count?",
+    "options": [
+      "A. Const sum = curr.name.startsWith('N') ? 1: 0;\n         Return acc +sum",
+      "B. Const sum = curr.startsWith('N') ? 1: 0;\n         Return acc +sum",
+      "C. Const sum = curr.startsWIth('N') ? 1: 0;\n         Return curr+ sum",
+      "D. Const sum = curr.name.startsWIth('N') ? 1: 0;\n         Return curr+ sum"
+    ],
+    "answer": "A",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below\nlet inArray = [[1,2],[3,4,5]];\nwhich two statements results in the array [1,2,3,4,5]?\nchoose 2 answer",
+    "options": [
+      "A. [ ].concat([...inArray])",
+      "B. [ ].concat.apply([ ],inArray);",
+      "C. [ ].concat(...inArray);",
+      "D. [ ].concat.apply(inArray,[ ]);"
+    ],
+    "answer": "B,C",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "A Developer wrote the following code to test a sum3 function that takes in an array of numbers and returns the sum of the first three number in the array, The test passes:\nLet res = sum2([1, 2, 3 ]) ;\nconsole.assert(res === 6 );\nRes = sum3([ 1, 2, 3, 4]);\nconsole.assert(res=== 6);\nA different developer made changes to the behavior of sum3 to instead sum all of the numbers present in the array. The test passes:\nWhich two results occur when running the test on the updated sum3 function ?\nChoose 2 answers",
+    "options": [
+      "A. The line 05 assertion fails.",
+      "B. The line 02 assertion passes.",
+      "C. The line 05 assertion passes.",
+      "D. The line 02 assertion fails"
+    ],
+    "answer": "A,B",
+    "title": "Question 46",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following code:\nclass Vehicle{\nconstructor(plate){\nthis.plate = plate;\n}\n}\nclass Truck extends Vehicle{\nconstructor(plate, weight){\n//Missing code\nthis.weight = weight;\n}\ndisplayWeight(){\nconsole.log(`The truck ${this.plate} has a weight of ${this.weight}lb.`);\n}\n}let myTruck = new Truck('123Ab',5000);\nmyTruck.displayWeight();\nWhich statement should be added to missing code for the code to display 'The truck 123AB has a weight of 5000lb.",
+    "options": [
+      "A. this.plate = plate",
+      "B. super.plate = plate",
+      "C. Vehicle.plate = plate",
+      "D. super(plate)"
+    ],
+    "answer": "D",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nfunction foo () {\nconst a =2;\nfunction bat() {\nconsole.log(a);\n}\nreturn bar;\n}\nWhy does the function bar have access to variable a ?",
+    "options": [
+      "A. Prototype chain",
+      "B. Inner function's scope",
+      "C. Outer function's scope",
+      "D. Hoisting"
+    ],
+    "answer": "C",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the string below.\nConst str='Salesforce';\nWhich two statements results in the word 'Sales'?",
+    "options": [],
+    "answer": "",
+    "title": "Question 49",
+    "explanation": "Str.substring(0,5);\n Str.substr(0,5);"
+  },
+  {
+    "content": "A developer at Universal Containers is creating their new landing page based on HTML, CSS, and JavaScript. The website includes multiple external resources that are loaded when the page is opened.\nTo ensure that visitors have a good experience, a script named personalizeWebsiteContent needs to be executed when the webpage Is loaded and there Is no need to wait for the resources to be available.\nWhich statement should be used to call personalizeWebsiteContent based on the above business requirement?",
+    "options": [
+      "A. windows,addEventListener('onload', personalizeWebsiteContent);",
+      "B. windows,addEventListener('onDOMCContentLoaded', personalizeWebsiteContent);",
+      "C. windows,addEventListener('load', personalizeWebsiteContent);",
+      "D. windows,addEventListener('DOMContent Loaded ', personalizeWebsiteContent);"
+    ],
+    "answer": "C",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "A developer receives a comment from the Tech Lead that the code given below has error:\nconst monthName = 'July';\nconst year = 2019;\nif(year === 2019) {\nmonthName = 'June';\n}\nWhich line edit should be made to make this code run?",
+    "options": [
+      "A. 03 if (year == 2019) {",
+      "B. 02 const year = 2020;",
+      "C. 02 let year =2019;",
+      "D. 01 let monthName ='July';"
+    ],
+    "answer": "D",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "A developer has the following array of student test grades:\nLet arr = [ 7, 8, 5, 8, 9 ];\nThe Teacher wants to double each score and then see an array of the students who scored more than 15 points.\nHow should the developer implement the request?",
+    "options": [
+      "A. Let arr1 = arr.map((num) => num*2). Filter (( val) => val > 15);",
+      "B. Let arr1 = arr.map((num) => ( num *2)).filterBy((val) => ( val >15 ));",
+      "C. Let arr1 = arr.filter(( val) => ( return val > 15 )) .map (( num) => ( return num *2 ))",
+      "D. Let arr1 = arr.mapBy (( num) => ( return num *2 )) .filterBy (( val ) => return val > 15 )) ;"
+    ],
+    "answer": "A",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "A developer wrote a fizzbuzz function that when passed in a number, returns the following:\n* 'Fizz' if the number is divisible by 3.\n* 'Buzz' if the number is divisible by 5.\n* 'Fizzbuzz' if the number is divisible by both 3 and 5.\n* Empty string if the number is divisible by neither 3 or 5.\nWhich two test cases will properly test scenarios for the fizzbuzz function?\nChoose 2 answers",
+    "options": [
+      "A. let res = fizzbuzz(Infinity);\n         console.assert ( res === ' ' )",
+      "B. let res = fizzbuzz(15);\n         console.assert ( res === ' fizzbuzz ' )",
+      "C. let res = fizzbuzz(3);\n         console.assert ( res === ' buzz ' )",
+      "D. let res = fizzbuzz(5);\n         console.assert ( res === ' ' );"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following code:\nWhat is the value of output on line 11?",
+    "options": [
+      "A. [''foo'', ''bar'']",
+      "B. [1, 2]",
+      "C. [''foo'':1, ''bar'':2'']",
+      "D. An error will occur due to the incorrect usage of the for...of statement on line 07."
+    ],
+    "answer": "D",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "A developer wants to create an object from a function in the browser using the code below:\nFunction Monster() { this.name = 'hello' };\nConst z = Monster();\nWhat happens due to lack of the new keyword on line 02?",
+    "options": [
+      "A. Window.m is assigned the correct object.",
+      "B. The z variable is assigned the correct object but this.name remains undefined.",
+      "C. The z variable is assigned the correct object.",
+      "D. Window.name is assigned to 'hello' and the variable z remains undefined."
+    ],
+    "answer": "D",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\n01 let car1 = new promise((_, reject) =>\n02 setTimeout(reject, 2000, \"Car 1 crashed in\"));\n03 let car2 = new Promise(resolve => setTimeout(resolve, 1500, \"Car 2\ncompleted\"));\n04 let car3 = new Promise(resolve => setTimeout (resolve, 3000, \"Car 3\nCompleted\"));\n05 Promise.race([car1, car2, car3])\n06 .then(value => (\n07 let result = $(value) the race. `;\n08 ))\n09 .catch( arr => (\n10 console.log(\"Race is cancelled.\", err);\n11 ));\nWhat is the value of result when Promise.race executes?",
+    "options": [
+      "A. Car 1 crashed in the race.",
+      "B. Race is cancelled.",
+      "C. Car 3 completed the race.",
+      "D. Car 2 completed the race."
+    ],
+    "answer": "D",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the expression below:\nLet x = ('1' + 2) == (6 * 2);\nHow should this expression be modified to ensure that evaluates to false?",
+    "options": [
+      "A. Let x = ('1' + ' 2') == ( 6 * 2);",
+      "B. Let x = (1 + 2) == ( '6' / 2);",
+      "C. Let x = (1 + 2 ) == ( 6 / 2);",
+      "D. Let x = ('1' + 2) == ( 6 * 2);"
+    ],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "Which two console logs output NaN?\nChoose 2 answers | |",
+    "options": [
+      "A. console.loeg(10 / 'five');",
+      "B. console.log(10 / 0);",
+      "C. console.log(10 / Number('5) ) ;",
+      "D. console.log(parseInt ' (\"two')) ;"
+    ],
+    "answer": "C,D",
+    "title": "Question 58",
+    "explanation": ""
+  },
+  {
+    "content": "A developer has a formatName function that takes two arguments, firstName and lastName and returns a string. They want to schedule the function to run once after five seconds.\nWhat is the correct syntax to schedule this function?",
+    "options": [
+      "A. setTimout(() => { formatName(\"John', 'Doe') }, 5000);",
+      "B. setTimeout ('formatName', 5000, 'John\", \"Doe');",
+      "C. setTimeout (formatName(), 5000, \"John\", \"BDoe\");",
+      "D. setTimeout (formatName('John', ''Doe'), 5000);"
+    ],
+    "answer": "B",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the string below:\nconst str = 'Salesforce';\nWhich two statements result in the word 'Sales'?\nChoose 2 answers",
+    "options": [
+      "A. str.substr(1, 5);",
+      "B. str.substring (1, 5);",
+      "C. str.substring (0, 5);",
+      "D. str.substr (0, 5);"
+    ],
+    "answer": "C,D",
+    "title": "Question 60",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the following array:\nLet arr = [1, 2, 3, 4, 5];\nWhich three options result in x evaluating as [1, 2]?\nChoose 3 answer",
+    "options": [
+      "A. let x = arr. slice (0, 2);",
+      "B. let x = arr. slice (2);",
+      "C. let x arr.filter((a) => (return a <= 2 });",
+      "D. let x = arr.filter ((a) => 2 }) ;",
+      "E. let x =arr.splice(0, 2);"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "Given the code below:\nconst copy = JSON.stringify([ new String(' false '), new Bollean( false ), undefined ]); What is the value of copy?",
+    "options": [
+      "A. -- [ \\\"false\\\" ,false, null ]--",
+      "B. -- [ \\\"false\\\" , false, undefined ]--",
+      "C. -- [ false, { } ]--",
+      "D. -- [ \\\"false\\\" , { } ]--"
+    ],
+    "answer": "A",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "At Universal Containers, every team has its own way of copying JavaScript objects. The code Snippet shows an implementation from one team:\nFunction Person() {\nthis.firstName = \"John\";\nthis.lastName = 'Doe';\nThis.name =() => (\nconsole.log('Hello $(this.firstName) $(this.firstName)');\n)}\nConst john = new Person ();\nConst dan = JSON.parse(JSON.stringify(john));\ndan.firstName ='Dan';\ndan.name();\nWhat is the Output of the code execution?",
+    "options": [
+      "A. Hello Dan Doe",
+      "B. TypeError: dan.name is not a function",
+      "C. TypeError: Assignment to constant variable.",
+      "D. Hello John DOe"
+    ],
+    "answer": "B",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nWhich replacement for the conditional statement on line 02 allows a developer to correctly determine that a specific element, myElement on the page had been clicked?",
+    "options": ["A. event.target.id =='myElement'"],
+    "answer": "A",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "Which statement can a developer apply to increment the browser's navigation history without a page refresh?\nWhich statement can a developer apply to increment the browser's navigation history without a page refresh?",
+    "options": [
+      "A. window.history.pushState(newStateObject);",
+      "B. window.history.replaceState(newStateObject,' ', null);",
+      "C. window.history.state.push(newStateObject);",
+      "D. window.history.pushStare(newStateObject, ' ', null);"
+    ],
+    "answer": "B",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "Refer the following code\nwhat is the value of array after code executes?",
+    "options": ["A. [ 1, 2, 3, 5 ]"],
+    "answer": "A",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "A developer creates a class that represents a blog post based on the requirement that a Post should have a body author and view count.\nThe Code shown Below:\nClass Post {\n// Insert code here\nThis.body =body\nThis.author = author;\nthis.viewCount = viewCount;\n}\n}\nWhich statement should be inserted in the placeholder on line 02 to allow for a variable to be set to a new instanceof a Post with the three attributes correctly populated?",
+    "options": [
+      "A. Function Post (body, author, viewCount) {",
+      "B. super (body, author, viewCount) {",
+      "C. constructor (body, author, viewCount) {",
+      "D. constructor() {"
+    ],
+    "answer": "C",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "A developer creates a simple webpage with an input field. When a user enters text in the input field and clicks the button, the actual value of the field must be displayed in the console.\nHere is the HTML file content:\n<input type =\" text\" value=\"Hello\" name =\"input\">\n<button type =\"button\" >Display </button>\nThe developer wrote the javascript code below:\nConst button = document.querySelector('button');\nbutton.addEvenListener('click', () => (\nConst input = document.querySelector('input');\nconsole.log(input.getAttribute('value'));\nWhen the user clicks the button, the output is always \"Hello\".\nWhat needs to be done make this code work as expected?",
+    "options": [
+      "A. Replace line 03 with const input = document.getElementByName('input');",
+      "B. Replace line 04 with console.log(input .value);",
+      "C. Replace line 02 with button.addEventListener(\"onclick\", function() {",
+      "D. Replace line 02 with button.addCallback(\"click\", function() {"
+    ],
+    "answer": "B",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "Considering the implications of 'use strict' on line 04, which three statements describe the execution of the code?\nChoose 3 answers",
+    "options": [
+      "A. z is equal to 3.14.",
+      "B. 'use strict' is hoisted, so it has an effect on all lines.",
+      "C. Line 05 throws an error.",
+      "D. 'use strict' has an effect only on line 05.",
+      "E. 'use strict' has an effect between line 04 and the end of the file."
+    ],
+    "answer": "A,C,D",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\n<html lang=\"en\">\n<table onclick=\"console.log(Table log');\">\n<tr id=\"row1\">\n<td>Click me!</td>\n</tr>\n<table>\n<script>\nfunction printMessage(event) {\nconsole.log('Row log');\n}\nLet elem = document.getElementById('row1');\nelem.addEventListener('click', printMessage, false);\n</script>\n</html>\nWhich code change should be made for the console to log only Row log when 'Click me! ' is clicked?",
+    "options": [
+      "A. Add.event.stopPropagation(); to window.onLoad event handler.",
+      "B. Add event.removeEventListener(); to window.onLoad event handler.",
+      "C. Add event.removeEventListener(); toprintMessage function.",
+      "D. Add event.stopPropagation(); to printMessage function."
+    ],
+    "answer": "D",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "Refer to the code below:\nfunction changeValue(param) {\nParam =5;\n}\nLet a =10;\nLet b =5;\nchangeValue(b);\nConst result = a+ \" - \"+ b;\nWhat is the value of result when code executes?",
+    "options": ["A. 5 -5", "B. 5 - 10", "C. 10 - 5", "D. 10 -10"],
+    "answer": "D",
+    "title": "Question 71",
+    "explanation": ""
+  }
+]

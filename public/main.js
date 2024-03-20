@@ -144,6 +144,12 @@ var testList = [
       "Salesforce.JsDevI.v2022-04-15.q59",
       "Salesforce.JsDevI.v2021-07-31.q56",
       "Salesforce.JsDevI.v2021-03-07.q50",
+      "Salesforce.CRT-600.v2023-03-27.q85",
+      "Salesforce.CRT-600.v2022-05-24.q52",
+      "Salesforce.CRT-600.v2023-02-18.q86",
+      "Salesforce.CRT-600.v2022-07-22.q71",
+      "Salesforce.CRT-600.v2022-02-02.q56",
+      "Salesforce.CRT-600.v2021-03-30.q50",
     ],
   },
   {
