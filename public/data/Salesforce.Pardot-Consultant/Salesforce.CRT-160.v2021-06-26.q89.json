@@ -1,0 +1,1056 @@
+[
+  {
+    "content": "New feature alerts can be found at the top of the dashboard.",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 1",
+    "explanation": ""
+  },
+  {
+    "content": "By default, which two objects does Pardot write to in Salesforce? Choose 2 answers",
+    "options": [
+      "A. Lead records",
+      "B. Opportunity records",
+      "C. Account records",
+      "D. Case records",
+      "E. Contact records"
+    ],
+    "answer": "A,E",
+    "title": "Question 2",
+    "explanation": ""
+  },
+  {
+    "content": "What activities are completion actions available for?",
+    "options": [
+      "A. Custom Redirects",
+      "B. Emails",
+      "C. Forms",
+      "D. Automation rules",
+      "E. Files",
+      "F. Page actions"
+    ],
+    "answer": "A,B,C,E,F",
+    "title": "Question 3",
+    "explanation": "Explanation\n https://www.pardot.com/blog/completion-actions/"
+  },
+  {
+    "content": "An administrator includes a link to a file on a web page that the company does not own on the company website.\nHow should they track the number of visitors who access this file?",
+    "options": [
+      "A. Pardot tracking code",
+      "B. Pardot form",
+      "C. Page actions",
+      "D. Custom redirects"
+    ],
+    "answer": "D",
+    "title": "Question 4",
+    "explanation": ""
+  },
+  {
+    "content": "A user creates a copy of Email Template A, makes changes and saves as Email Template B. They send a list email using Email Template B. The user finds that Email Template As reporting metrics are not changing as a result of the new list email send.\nWhy would this occur?",
+    "options": [
+      "A. The metrics would be attributed to Email Template B.",
+      "B. An email template's metrics do not change after the template is used one time.",
+      "C. Email Template A should have been deleted after creating the copy.",
+      "D. The user should have made Email Template A the primary template."
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to create a Pardot landing page that matches the exact look and feel of their website. Which method would produce the closest results?",
+    "options": [
+      "A. Use above form and below form content to create the layout",
+      "B. Use a stock layout provided in Pardot",
+      "C. Embed the campaign tracking code on their website",
+      "D. Import layout using a URL from their website"
+    ],
+    "answer": "D",
+    "title": "Question 6",
+    "explanation": ""
+  },
+  {
+    "content": "A Marketing Manager wants to send out an email to a list of prospects that are assigned to several different sales raps. Some of these prospects are syncing with Leads In Salesforce, and some are syncing with Contacts.\nEach prospect should receive the email from their prospects assigned rep.\nHow should the Marketing Manager accomplish this?",
+    "options": [
+      "A. Select Specified User for the Sender of the email",
+      "B. Select Assigned User for the Sender of the email",
+      "C. Select General User for the Sender of the email",
+      "D. Select Account Owner for the Sender of the email"
+    ],
+    "answer": "B",
+    "title": "Question 7",
+    "explanation": ""
+  },
+  {
+    "content": "None of the above\nEmail, First Name, and Last Name are required fields in order for GoToWebinar to register a new user to an event.",
+    "options": ["A. True", "B. False"],
+    "answer": "B",
+    "title": "Question 8",
+    "explanation": "Explanation\n When creating a Pardot form to register a prospect for a webinar, you must, at a minimum, include these three required fields to successfully register the prospect for a webinar."
+  },
+  {
+    "content": "What must be true for a Salesforce Opportunity to sync to Pardot?",
+    "options": [
+      "A. The Opportunity must have a Contact Role that is syncing to a prospect in Pardot",
+      "B. The Opportunity must have the \"Pardot\" record type.",
+      "C. The Opportunity must be sourced by Pardot marketing activities.",
+      "D. The Opportunity must be created by a Sales user who is also a user in Pardot."
+    ],
+    "answer": "D",
+    "title": "Question 9",
+    "explanation": ""
+  },
+  {
+    "content": "A prospect believed to be on a drip program did not receive an email. What troubleshooting step could an Administrator take to determine why the prospect did not receive the email?\nChoose 3 answers",
+    "options": [
+      "A. Check the Overview tab to determine whether the prospect is unmailable.",
+      "B. Check the Audits tab to see if the prospect was on the correct lists when the email was sent.",
+      "C. Check the Lists tab to determine whether the prospect is on the recipient list or any suppression lists.",
+      "D. Check the Profile tab to make sure the prospect has the right drip program profile.",
+      "E. Check the Lifecycle tab to confirm whether the prospect entered the drip program before the email was sent."
+    ],
+    "answer": "A,B,C",
+    "title": "Question 10",
+    "explanation": ""
+  },
+  {
+    "content": "Which scenario would convert an anonymous visitor into an identified prospect?",
+    "options": [
+      "A. Opening email sent by a sales rep using the Send Pardot Email functionality in Salesforce",
+      "B. Scanning the badge of someone who visited a booth at a recent event",
+      "C. Submitting a Web2Lead form that is linked to Pardot via a form handler",
+      "D. Creating a Lead in Salesforce which syncs to Pardot as a new prospect record"
+    ],
+    "answer": "C",
+    "title": "Question 11",
+    "explanation": ""
+  },
+  {
+    "content": "A user is experiencing errors when trying to save their email.\nWhat three items should they check for in order to successfully save their email draft? Choose 3 answers",
+    "options": [
+      "A. The email contains at least one variable tag",
+      "B. The email designates a general or specific sender",
+      "C. The email contains a text version",
+      "D. The email contains an unsubscribe link",
+      "E. The email uses dynamic content"
+    ],
+    "answer": "B,C,D",
+    "title": "Question 12",
+    "explanation": ""
+  },
+  {
+    "content": "Which three activities can increase or decrease a score in the baseline scoring system? (Choose three answers.)",
+    "options": [
+      "A. Form submission",
+      "B. Landing page error",
+      "C. Unsubscribed from email",
+      "D. Webinar attended",
+      "E. Assigned to a user"
+    ],
+    "answer": "A,B,D",
+    "title": "Question 13",
+    "explanation": ""
+  },
+  {
+    "content": "What is the difference between a visitor and a prospect?",
+    "options": [
+      "A. A prospect has submitted a Pardot form, while a visitor has not submitted a Pardot form.",
+      "B. A prospect has an assigned user, while a visitor does not have an assigned user.",
+      "C. A prospect has an opportunity associated with it. while a visitor does not have an opportunity associated with it.",
+      "D. A prospect has an identified email address, while a visitor does not have an identified email address."
+    ],
+    "answer": "D",
+    "title": "Question 14",
+    "explanation": ""
+  },
+  {
+    "content": "What are the daily system generated emails?",
+    "options": [
+      "A. Daily prospect activity emails (for all prospects)",
+      "B. Daily visitor activity emails",
+      "C. Daily prospect assignment emails",
+      "D. Starred prospect activity alerts",
+      "E. Prospect assignment notification",
+      "F. Daily prospect activity emails (for my prospects)",
+      "G. Weekly search marketing email (sent on Mondays)"
+    ],
+    "answer": "A,B,C,F",
+    "title": "Question 15",
+    "explanation": ""
+  },
+  {
+    "content": "You want to get some insight into a prospects score at each stage in their lifecycle. What Pardot report can you use?",
+    "options": [
+      "A. Conversions report",
+      "B. List email report",
+      "C. Form report",
+      "D. Prospect lifecycle report"
+    ],
+    "answer": "D",
+    "title": "Question 16",
+    "explanation": ""
+  },
+  {
+    "content": "Where would an administrator go to check if the Email Sending Domains are set up properly after updating the DNS?",
+    "options": [
+      "A. The Dashboard",
+      "B. The Sent Emails Page",
+      "C. The System Preferences Page",
+      "D. Admin-Domain Management"
+    ],
+    "answer": "D",
+    "title": "Question 17",
+    "explanation": "Explanation\n The correct answer is: Admin-Domain Management."
+  },
+  {
+    "content": "A form is used to capture prospect data for a yearly conference. The form needs to add prospects to a list after the submit, but it should not retroactively apply actions to prospects that have already filled out the form.\nWhat automation tool would effectively achieve this goal?",
+    "options": [
+      "A. Use an automation rule to add prospects to a list",
+      "B. Use a completion action to add prospects to a list",
+      "C. Use a segmentation rule to add prospects to a list",
+      "D. Use a dynamic list to add prospects to a list"
+    ],
+    "answer": "B",
+    "title": "Question 18",
+    "explanation": ""
+  },
+  {
+    "content": "A Pardot administrator would like to enable bot protection on their forms.\nWhich two Pardot form actions would accomplish this?\nChoose 2 answers",
+    "options": [
+      "A. Honeypot Technique",
+      "B. Enable HTTPS",
+      "C. Dependent Fields",
+      "D. reCaptcha"
+    ],
+    "answer": "A,D",
+    "title": "Question 19",
+    "explanation": ""
+  },
+  {
+    "content": "Completion actions only affect prospects not visitors?",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 20",
+    "explanation": ""
+  },
+  {
+    "content": "Which two activities can automatically increase a prospects score using the default scoring model? Choose 2 answers",
+    "options": [
+      "A. A prospect sending an email to their assigned user",
+      "B. A prospect submitting a form on a landing page",
+      "C. A prospect clicking on a tracked link in an email",
+      "D. A prospect being converted from a Lead to a Contact"
+    ],
+    "answer": "B,C",
+    "title": "Question 21",
+    "explanation": ""
+  },
+  {
+    "content": "Which standard dashboard shows the total submission across all Pardot landing pages in B2B Marketing Analytics?",
+    "options": [
+      "A. Account-Based Marketing dashboard",
+      "B. Pipeline dashboard",
+      "C. Engagement dashboard",
+      "D. Multi-Touch Attribution dashboard"
+    ],
+    "answer": "C",
+    "title": "Question 22",
+    "explanation": ""
+  },
+  {
+    "content": "Why is a reCAPTCHA displayed when I did not choose to display it?",
+    "options": [
+      "A. At form submission Pardot pings a database of known spammers and when a match is found automatically displays a reCAPTCHA.",
+      "B. At form submission Pardot pings a database of known prospects and when a match is found automatically displays a reCAPTCHA."
+    ],
+    "answer": "A",
+    "title": "Question 23",
+    "explanation": ""
+  },
+  {
+    "content": "How can an action be applied to a prospect who views a specific page of a website?",
+    "options": [
+      "A. Through automation rules",
+      "B. Through completion actions",
+      "C. Through scoring",
+      "D. Through page actions",
+      "E. None of the above"
+    ],
+    "answer": "D",
+    "title": "Question 24",
+    "explanation": ""
+  },
+  {
+    "content": "What is the fastest way for an Administrator to create a one-time of prospects who match specific criteria?",
+    "options": [
+      "A. Use a dynamic list.",
+      "B. Use a completion action.",
+      "C. Use an automation rule.",
+      "D. Use a segmentation rule."
+    ],
+    "answer": "D",
+    "title": "Question 25",
+    "explanation": ""
+  },
+  {
+    "content": "Users can be imported into Pardot",
+    "options": ["A. False", "B. True"],
+    "answer": "B",
+    "title": "Question 26",
+    "explanation": ""
+  },
+  {
+    "content": "How can you preview/test matches for automation rules before you run them?",
+    "options": [
+      "A. Run the automation rule to see how many matches there are.",
+      "B. Use the automation preview option.",
+      "C. Create a list and see how many prospects are affected.\n         You can preview which prospects will be matches by your Automation Rules. After creating or editing your rules, click the Preview button while the rules are in Paused mode. You will receive an email notification when the preview is finished or you can wait on the page for it to finish in real-time (this is very fast for most rules - often under a minute). The preview will tell you how many prospects will be matched. If you adjust criteria on existing automation rules, please note that automation previews will identify only prospects who have not already had the rule's actions applied to them."
+    ],
+    "answer": "B",
+    "title": "Question 27",
+    "explanation": ""
+  },
+  {
+    "content": "A Pardot administrator wants to export a .csv of prospects that purchased a certain product within the last year.\nThe product is captured in a Product Name field on the prospect record. The company's product will soon be changing names, therefore they need a one-time export of all prospects that have this specific product currently listed in the Product Name field.\nWhat is the recommended way to identify these prospects to export to .csv?",
+    "options": [
+      "A. Create a segmentation rule based on Product Name.",
+      "B. Create an automation rule based on product Name.",
+      "C. Create a dynamic list based on Product Name.",
+      "D. Create a completion action based on Product Name."
+    ],
+    "answer": "A",
+    "title": "Question 28",
+    "explanation": ""
+  },
+  {
+    "content": "What form handler setting allows prospects to receive multiple autoresponders from form hour period?",
+    "options": [
+      "A. Disable Visitor Activity Throttling and send autoresponder emails after every submission",
+      "B. Kiosk/Data Entry Mode: Do not cookie browser as submitted prospect",
+      "C. Execute form handler in real time after every submission",
+      "D. Attribute all prospect activities to prospect record after every submission"
+    ],
+    "answer": "A",
+    "title": "Question 29",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft conducted a database clean-up project and mass updated their prospects. A few of their prospects were updated incorrectly and they need to investigate what happened.\nWhat three data points can be found in the prospect's Audits tab to help determine what updates were made?\nChoose 3 answers",
+    "options": [
+      "A. The Lifecycle Report filtered by timeframe",
+      "B. The data and time when a prospect was assigned",
+      "C. The prospect fields that were updated",
+      "D. The amount of time the prospect spent viewing the website",
+      "E. The lists that that prospect was added to or removed from"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 30",
+    "explanation": ""
+  },
+  {
+    "content": "When is a prospect automatically removed from future email sends?",
+    "options": [
+      "A. After 5 Soft Bounces",
+      "B. None",
+      "C. Soft Bounce",
+      "D. Any Bounce",
+      "E. Hard Bounce"
+    ],
+    "answer": "A,E",
+    "title": "Question 31",
+    "explanation": ""
+  },
+  {
+    "content": "When would a completion action on a custom redirect be triggered?",
+    "options": [
+      "A. Completion actions for custom redirects will only apply to prospects once they have been assigned.",
+      "B. Completion actions will apply to visitors on the first time a custom redirect is clicked.",
+      "C. Completion actions will apply to visitors who convert to prospects after clicking on a custom redirect.",
+      "D. Completion actions for custom redirects will only apply to existing prospects."
+    ],
+    "answer": "D",
+    "title": "Question 32",
+    "explanation": ""
+  },
+  {
+    "content": "Which Salesforce custom fields will sync with Pardot?",
+    "options": [
+      "A. Custom Record Type fields",
+      "B. Custom Prospect fields",
+      "C. Custom Account fields",
+      "D. Custom Opportunity fields"
+    ],
+    "answer": "B,C,D",
+    "title": "Question 33",
+    "explanation": ""
+  },
+  {
+    "content": "What report allows you to see how successful or active a form has been on your site?",
+    "options": [
+      "A. Landing Page reports",
+      "B. Conversion reports",
+      "C. None of the abovec",
+      "D. Form reports",
+      "E. Campaign reports"
+    ],
+    "answer": "D",
+    "title": "Question 34",
+    "explanation": ""
+  },
+  {
+    "content": "What should you do when multiple users are editing an email template at the same time?",
+    "options": [
+      "A. Multiple users cannot edit the same email template at the same time",
+      "B. Update the same draft at the same time since the system will recognize updates made by both users",
+      "C. Create two different drafts and merge them through the Email flow process to bring updates from both drafts into one",
+      "D. Always click Save and Exit or Save Draft and Exit to commit your changes and close your session before ' someone else edits it"
+    ],
+    "answer": "D",
+    "title": "Question 35",
+    "explanation": ""
+  },
+  {
+    "content": "How can you delete a prospect?",
+    "options": [
+      "A. Through a completion action.",
+      "B. Through an automation rule.",
+      "C. You can't delete prospects.",
+      "D. Through the prospect table actions."
+    ],
+    "answer": "D",
+    "title": "Question 36",
+    "explanation": "Explanation\n When you delete a prospect, the record is moved to the recycle bin. From the recycle bin, you can restore the prospect or permanently delete the record at any time. Deleting a prospect in Pardot does not delete the record it's syncing with in Salesforce. You can delete a prospect in several ways."
+  },
+  {
+    "content": "The VP of Marketing wants to see all automation rules and engagement studio programs that a prospect has been a member of. Where should the VP of Marketing look to find this information?",
+    "options": [
+      "A. Scoring rules",
+      "B. Automation settings",
+      "C. Lifecycle report",
+      "D. Prospect's Audits tab"
+    ],
+    "answer": "D",
+    "title": "Question 37",
+    "explanation": ""
+  },
+  {
+    "content": "What is a difference between a dynamic list and a static list?",
+    "options": [
+      "A. You cannot manually update list membership of a static list but you can manually update list membership of a dynamic list",
+      "B. You can add an action to a dynamic list that will trigger when a prospect is added but you cannot add an action to trigger on a static list when a prospect is added",
+      "C. Dynamic lists are retroactive while a static list cannot be retroactive",
+      "D. You cannot manually update list membership of a dynamic list but you can manually update list membership of a static list"
+    ],
+    "answer": "D",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "Lenoxsoft is interested in folding up with IT professional that are actively engine with their marking materials.",
+    "options": [
+      "A. The Score as it shows activities taken by the prospect.",
+      "B. The Profile as It reflects LenoxSoft's ideal customer.",
+      "C. The Campaign as it references the prospect's first touch point.",
+      "D. The Grade as it includes personal information about the prospect."
+    ],
+    "answer": "A",
+    "title": "Question 39",
+    "explanation": ""
+  },
+  {
+    "content": "A marketer wants to create different Pardot lists to correspond with the different stages of the buying cycle.\nWhen an Opportunity stage changes in Salesforce. the prospect list membership automatically updates to reflect that m Pardot. example, if an opportunity moves from Negotiations to Closed Won, the prospects associated with that opportunity. Should be removed from the Negotiations list, and added to the Closed won list.\nHow could the marketer accomplish this?",
+    "options": [
+      "A. Completion Action",
+      "B. Page Action",
+      "C. Dynamic List",
+      "D. Automation Rule"
+    ],
+    "answer": "C",
+    "title": "Question 40",
+    "explanation": ""
+  },
+  {
+    "content": "Arrange these events in sequence:",
+    "options": [
+      "A. Visitors access your company website",
+      "B. A D E C B",
+      "C. E B A D C",
+      "D. E C B A D",
+      "E. The prospect's activity history is available to view in Pardot",
+      "F. C B A D E",
+      "G. The visitor is now a prospect.",
+      "H. A cookie is applied",
+      "I. A visitor submits a conversion form"
+    ],
+    "answer": "G",
+    "title": "Question 41",
+    "explanation": ""
+  },
+  {
+    "content": "There are a number of unassigned prospects in the Lenoxsoft database that have NOT been active in more than\n60 days. An automation rule is set to assign prospects once they reach a score of 100.\nWhat automatic workflow can be created to prevent them from getting assigned?",
+    "options": [
+      "A. Create a dynamic list based on the prospects time to adjust their score to 0 if they haven't been active in\n         60 days.",
+      "B. Create a segmentation rule based on the prospects time to adjust their score to 0 if they haven't been active in 60 days.",
+      "C. Create a completion action based on the prospects time to adjust their score to 0 if they haven't been active in 60 days.",
+      "D. Create an automation rule based on the prospects time to adjust their score to 0 if they haven't been active in 60 days."
+    ],
+    "answer": "D",
+    "title": "Question 42",
+    "explanation": ""
+  },
+  {
+    "content": "Which landing page report metric represents the number of individual prospects who submitted the landing page at least once?",
+    "options": [
+      "A. Unique submissions",
+      "B. Total submissions",
+      "C. unique clicks",
+      "D. Conversions"
+    ],
+    "answer": "A",
+    "title": "Question 43",
+    "explanation": ""
+  },
+  {
+    "content": "In which two ways does a Pardot prospect sync with a Salesforce Lead or Contact record?\nChoose 2 answers",
+    "options": [
+      "A. Shared CRM ID",
+      "B. Shared Assigned User ID",
+      "C. Shared email address",
+      "D. Shared tracking pixel"
+    ],
+    "answer": "A,B",
+    "title": "Question 44",
+    "explanation": ""
+  },
+  {
+    "content": "A user edits a running and non-repeating engagement studio program by pausing it and adding a new Send Email step at the beginning of the program.\nWhich prospects will process through the new step once the program is started again?",
+    "options": [
+      "A. All prospects on the recipient list",
+      "B. All prospects on the suppression list",
+      "C. All prospects in the program",
+      "D. All prospects new to the program"
+    ],
+    "answer": "D",
+    "title": "Question 45",
+    "explanation": ""
+  },
+  {
+    "content": "Which three variable tags can be used on layout templates for landing pages?\n(Choose three answers.)",
+    "options": [
+      "A. %%description%%",
+      "B. %%name%%",
+      "C. %%tittle%%",
+      "D. %%form%%",
+      "E. %%content%%"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 46",
+    "explanation": "Explanation\n https://www.pardot.com/blog/layout-templates/"
+  },
+  {
+    "content": "What is one way a sales rep can convert a visitor to a prospect?",
+    "options": [
+      "A. The sales rep manually associates the visitor with a prospect.",
+      "B. The sales rep gives the visitor a phone call.",
+      "C. The sales rep increases the visitor s score to 100.",
+      "D. The sales rep walks the visitor through a demo."
+    ],
+    "answer": "A",
+    "title": "Question 47",
+    "explanation": ""
+  },
+  {
+    "content": "The \"related\" tab of the prospect record displays prospects that have what in common?\nChoose one answer",
+    "options": [
+      "A. Company",
+      "B. Assigned user",
+      "C. Email Domain",
+      "D. Score"
+    ],
+    "answer": "D",
+    "title": "Question 48",
+    "explanation": ""
+  },
+  {
+    "content": "What type of fields are not supported by the Pardot sync?",
+    "options": [
+      "A. Record Type fields",
+      "B. Formula fields",
+      "C. Number fields",
+      "D. Geolocation fields",
+      "E. Text Area (rich) fields"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 49",
+    "explanation": "Explanation\n For More Info Refer These links:\n http://help.pardot.com/customer/portal/articles/2127364-mapping-salesforce-and-pardot-custom-fields\n https://help.salesforce.com/articleView?id=Why-is-my-field-not-syncing&language=en_US&type=1"
+  },
+  {
+    "content": "How can a visitor convert to a prospect?",
+    "options": [
+      "A. Visiting a tracked website",
+      "B. Viewing an embedded form",
+      "C. Submitting a form on a landing page",
+      "D. Receiving a marketing email"
+    ],
+    "answer": "C",
+    "title": "Question 50",
+    "explanation": ""
+  },
+  {
+    "content": "Viewing your pricing page is considered a valuable buying signal. LenoxSoft would like to be able to report on and segment prospects who have visited your pricing page. What automation tool would best achieve this?",
+    "options": [
+      "A. Create a Dynamic List based on page view to segment automatically",
+      "B. Create a Form with a Completion Action to send a pricing sheet",
+      "C. Create a Page Action set to Tag prospects as having viewed it and add them to a list",
+      "D. Create a special campaign to track pricing pageviews"
+    ],
+    "answer": "C",
+    "title": "Question 51",
+    "explanation": ""
+  },
+  {
+    "content": "What is tracked by the custom email links generated by Pardot?",
+    "options": [
+      "A. Unsubscribe",
+      "B. Page visits",
+      "C. Form completions",
+      "D. Link clicks",
+      "E. Email opens"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 52",
+    "explanation": ""
+  },
+  {
+    "content": "Opportunities in Salesforce must be tied to a Contact syncing with Pardot for them the opportunity to be created in Pardot.",
+    "options": ["A. True", "B. False"],
+    "answer": "A",
+    "title": "Question 53",
+    "explanation": ""
+  },
+  {
+    "content": "If the information in Salesforce differs from the information in Pardot, by default what information will be kept?",
+    "options": [
+      "A. All information will be kept, which may result in two records for one person",
+      "B. The differing information will be deleted from both Salesforce and Pardot, which may result in blank records\n         https://help.salesforce.com/articleView?id=pardot_default_prospect_field_mapping.htm&type=5",
+      "C. The information in Pardot will override the information in Salesforce",
+      "D. The information in Salesforce will override the information in Pardot"
+    ],
+    "answer": "D",
+    "title": "Question 54",
+    "explanation": ""
+  },
+  {
+    "content": "What information cannot be displayed as a graph (line or bar) on the dashboard?",
+    "options": [
+      "A. Opportunities Created",
+      "B. All Prospects",
+      "C. Opportunities Lost",
+      "D. Prospects Created",
+      "E. Conversions"
+    ],
+    "answer": "D,E",
+    "title": "Question 55",
+    "explanation": ""
+  },
+  {
+    "content": "What is the baseline grade assigned to a prospect?",
+    "options": ["A. B", "B. D", "C. C", "D. A"],
+    "answer": "B",
+    "title": "Question 56",
+    "explanation": ""
+  },
+  {
+    "content": "Which two requirements must be met in order to have both e Lead end a Contact field sync with the same Pardot prospect field? Choose 2 answers",
+    "options": [
+      "A. The Lead and Contact fields must have the same API name.",
+      "B. The Pardot field must be a drop-down field.",
+      "C. The Lead and Contact fields must have the same Salesforce field label.",
+      "D. The Pardot field must be mapped to the Salesforce field."
+    ],
+    "answer": "A,D",
+    "title": "Question 57",
+    "explanation": ""
+  },
+  {
+    "content": "What triggers a prospect record to sync from Pardot to the CRM? Choose 2 answers",
+    "options": [
+      "A. Landing page submission",
+      "B. Mapping new custom fields",
+      "C. Form submission",
+      "D. Opening an email"
+    ],
+    "answer": "A,C",
+    "title": "Question 58",
+    "explanation": "Explanation\n https://help.salesforce.com/articleView?id=pardot_activities_that_trigger_a_sync_from_pardot_to_salesforce.htm"
+  },
+  {
+    "content": "A Pardot administrator wants to keep the first value submitted in a field even if the prospect completes additional forms with different values for that field.\nWhich form field option should be enabled?",
+    "options": [
+      "A. Include \"Not you?\" link to allow visitors to reset the form",
+      "B. Always display even if previously completed",
+      "C. Kiosk/Data Entry Mode: Do not cookie browser as submitted prospect",
+      "D. Maintain the initial value upon subsequent form submissions"
+    ],
+    "answer": "B",
+    "title": "Question 59",
+    "explanation": ""
+  },
+  {
+    "content": "How can you ensure your email doesn't get stuck in spam?",
+    "options": [
+      "A. Create clear calls-to-action",
+      "B. Create mobile-friendly version of the email",
+      "C. Create a text version of the email",
+      "D. Remove the unsubscribe from the email",
+      "E. Add domain keys and SPF"
+    ],
+    "answer": "C",
+    "title": "Question 60",
+    "explanation": "Explanation\n - create a text version\n - avoid spammy words in the email copy\n - Check image to text ratio\n - Add domain keys and SPF"
+  },
+  {
+    "content": "What does Pardot use to track HTML email opens?",
+    "options": [
+      "A. A tracking link is used as soon as a prospect clicks to open the email.",
+      "B. A tracking pixel loads on HTML emails when images are downloaded.",
+      "C. A tracking pixel loads on text emails when images are downloaded.",
+      "D. Opens are only tracked if a link is clicked; otherwise they are NOT tracked."
+    ],
+    "answer": "B",
+    "title": "Question 61",
+    "explanation": ""
+  },
+  {
+    "content": "What does a marketing user have access to in Pardot?",
+    "options": [
+      "A. Can only import prospects",
+      "B. None of the above",
+      "C. Creating new lists, forms, landing pages and send list emails.",
+      "D. Prospect management",
+      "E. Can see users and groups"
+    ],
+    "answer": "A,C,D,E",
+    "title": "Question 62",
+    "explanation": ""
+  },
+  {
+    "content": "A marketing manager sent an email template last week to their \"Hot Prospects\" list, which is populated dynamically based on the prospects' scores. They want to send the same email template again this week to the same list, but make sure that the prospects that received it last week do not get it again.\nHow should they accomplish this?",
+    "options": [
+      "A. Send the email template to the \"Hot Prospects\" list like last time; the prospects that received it before will be automatically suppressed from receiving the same email template.",
+      "B. Create a new list of the prospects that received the email last week and then use it as a suppression list when sending the email template to the \"Hot Prospects\" list.",
+      "C. Create a new dynamic list using the criteria \"Prospect email template\", the template name, and \"was not received\" and then use it as the recipient list when sending the email template.",
+      "D. Send the email template to the \"Hot Prospects\" list, but select the \"deduplicate\" option to remove recipients that already received the email last week."
+    ],
+    "answer": "B",
+    "title": "Question 63",
+    "explanation": ""
+  },
+  {
+    "content": "A Pardot form is placed onto a Pardot landing page to register prospects for an upcoming tradeshow. A Pardot administrator wants to know how many unique submissions they have so far.\nWhich report should they check to see the number of unique submissions for the form on the landing page?",
+    "options": [
+      "A. Event report",
+      "B. Form handler report",
+      "C. Landing page report",
+      "D. Form report"
+    ],
+    "answer": "C",
+    "title": "Question 64",
+    "explanation": ""
+  },
+  {
+    "content": "A marketer receives a request to permanently delete a prospect from Pardot.\nHow does the marketer satisfy this request?",
+    "options": [
+      "A. The marketer deletes the prospect in Salesforce, which then permanently deletes the prospect in Pardot.",
+      "B. The marketer archives the prospect, but cannot permanently delete their data.",
+      "C. The marketer archives the prospect and then selects \"Permanently Delete\" from the recycle bin.",
+      "D. The marketer goes to the prospect record and chooses the \"Permanently Delete'' menu option."
+    ],
+    "answer": "C",
+    "title": "Question 65",
+    "explanation": ""
+  },
+  {
+    "content": "What factors are involved with and determine email deliverability?\n(Choose 2)",
+    "options": [
+      "A. Sender Policy Framework (SPF)",
+      "B. CAN-SPAM",
+      "C. Whitelist",
+      "D. Sender ID",
+      "E. Domain Keys"
+    ],
+    "answer": "A,E",
+    "title": "Question 66",
+    "explanation": ""
+  },
+  {
+    "content": "What step type would be used in engagement studio to add prospects to another engagement studio program's recipient list?",
+    "options": ["A. Action", "B. Trigger", "C. Rule", "D. End"],
+    "answer": "A",
+    "title": "Question 67",
+    "explanation": ""
+  },
+  {
+    "content": "How can a prospect's score be changed?",
+    "options": [
+      "A. All of the above.",
+      "B. Through scoring model changes.",
+      "C. Through completion actions.",
+      "D. Through automation rules."
+    ],
+    "answer": "A",
+    "title": "Question 68",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator wants to create a list that contains all prospects who complete the Contact Us form, but will later remove any prospects if they become marked as opted out. If a prospect later opts back in, they should be added back to the list.\nHow should the list be created?",
+    "options": [
+      "A. Use a dynamic list to automatically add or remove prospects based on the form completion and their opt out status.",
+      "B. Use a completion action on the form to automatically add anyone who completes it to the list.",
+      "C. Use table actions to add prospects to the list if they've filled out the form, but haven't opted out from communications.",
+      "D. Use an automation rule to automatically add or remove prospects to the list if they submit the form, but aren't opted out."
+    ],
+    "answer": "A",
+    "title": "Question 69",
+    "explanation": ""
+  },
+  {
+    "content": "What feature In Salesforce can be enabled to show landing page engagement data on a Salesforce Campaign page layout?",
+    "options": [
+      "A. Advanced Dynamic Content",
+      "B. B2B Marketing Analytics",
+      "C. Engagement History",
+      "D. Pardot Activities Visualforce page"
+    ],
+    "answer": "D",
+    "title": "Question 70",
+    "explanation": ""
+  },
+  {
+    "content": "What could cause standard sync actions from occurring?",
+    "options": [
+      "A. All of the above",
+      "B. Salesforce API limit has been reached",
+      "C. Connector is not verified or has become unverified",
+      "D. A large sync queue"
+    ],
+    "answer": "A",
+    "title": "Question 71",
+    "explanation": ""
+  },
+  {
+    "content": "How do you use an automation rule to opt out prospects?",
+    "options": [
+      "A. Change prospect field value to Opt-out",
+      "B. You can't use an automation rule to opt-out prospects.",
+      "C. Change prospect field value: 'Do Not Email' to 'Do Not Email"
+    ],
+    "answer": "C",
+    "title": "Question 72",
+    "explanation": ""
+  },
+  {
+    "content": "How can you set a prospect's first touch campaign?",
+    "options": [
+      "A. Using segmentation rules.",
+      "B. Using completion actions",
+      "C. None of the above",
+      "D. Using automation rules."
+    ],
+    "answer": "B",
+    "title": "Question 73",
+    "explanation": ""
+  },
+  {
+    "content": "A client submits their Pardot form to test the form's completion actions. After they submit the form, none of the completion actions are applied to their prospect record. What explanation do you give as to why the actions did not occur?",
+    "options": [
+      "A. Kiosk mode was enabled on the form, so completion actions did not run.",
+      "B. The 'email' form field was set up to exclude free email addresses, so even though they submitted the form successfully, the Gmail address they used prevented the completion actions from running.",
+      "C. The client has a visitor filter set up to filter activities from their IP address. Completion actions do not occur on filtered visitors.",
+      "D. The client did not un-pause the completion actions."
+    ],
+    "answer": "C",
+    "title": "Question 74",
+    "explanation": ""
+  },
+  {
+    "content": "A Pardot administrator wants to use progressive profiling to collect information on a prospect over time.\nWhat It the recommended Pardot asset to use?",
+    "options": [
+      "A. Third party form",
+      "B. Pardot form",
+      "C. Pardot form handler",
+      "D. Pardot landing page without a form"
+    ],
+    "answer": "B",
+    "title": "Question 75",
+    "explanation": ""
+  },
+  {
+    "content": "Which three activities can be used to trigger an increase or decrease in a prospect's score? (Choose three answers.)",
+    "options": [
+      "A. Unsubscribing from an email",
+      "B. Clicking a link in an email",
+      "C. Printing an email",
+      "D. Forwarding an email",
+      "E. Opening an email"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 76",
+    "explanation": ""
+  },
+  {
+    "content": "Which three user role security limits can be added to an individual user account? (Choose three answers.)",
+    "options": [
+      "A. Max number of prospects the user can manually create.",
+      "B. Max number of prospects the user can manually delete.",
+      "C. Max number of emails the user can send.",
+      "D. Max number of records a user can import.",
+      "E. Max number of prospects the user can export."
+    ],
+    "answer": "C,D,E",
+    "title": "Question 77",
+    "explanation": ""
+  },
+  {
+    "content": "How can a Prospects score be changed?",
+    "options": [
+      "A. Manually",
+      "B. Completion Actions",
+      "C. Segmentation rule",
+      "D. Profile"
+    ],
+    "answer": "A,B",
+    "title": "Question 78",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft enabled the \"Always Display Form After Submission\" setting on their Pardot form.\nWhat would be the expected behavior if a prospect refreshes the page after initially submitting the form?",
+    "options": [
+      "A. The prospect would receive an error message.",
+      "B. The form would be displayed on the page once again.",
+      "C. The thank-you content would continue to be shown.",
+      "D. The prospect would be redirected to a thank-you page."
+    ],
+    "answer": "B",
+    "title": "Question 79",
+    "explanation": ""
+  },
+  {
+    "content": "The drip program \"New Client Onboarding\" is set to \"Only send emails during business hours (10am - 4pm M-F).\" The drip logic is outlined below:Start Step 1: Send email \"Welcome.\"Step 2: Pause 3 days.Step 3: Send email \"Getting Started.\"Step 4: Pause 7 days.Step 5: Send email \"Tech Setup.\"Step 6: Pause 7 days.Step 7:\nSend email \"Complete Configuration.\" EndIf a prospect starts the drip program on Wednesday, when will the email in Step 3: Send email \"Getting Started\" be received by the prospect?",
+    "options": [
+      "A. The prospect will receive the email Tuesday.",
+      "B. The prospect will receive the email Monday.",
+      "C. The prospect will receive the email Saturday.",
+      "D. The prospect will receive the email Friday."
+    ],
+    "answer": "B",
+    "title": "Question 80",
+    "explanation": ""
+  },
+  {
+    "content": "How can an admin find the number of mailable prospects in their database?",
+    "options": [
+      "A. Navigate to the prospect list and select \"Mailable Prospects\"",
+      "B. View the sync queue",
+      "C. View all Segmentation lists",
+      "D. Navigate to the overview section"
+    ],
+    "answer": "A",
+    "title": "Question 81",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants to understand how many different prospects registered for their most recent webinar. Which Pardot form report metric should be reviewed?",
+    "options": [
+      "A. Total Submissions",
+      "B. Conversions",
+      "C. Total clicks",
+      "D. Unique Submissions"
+    ],
+    "answer": "D",
+    "title": "Question 82",
+    "explanation": ""
+  },
+  {
+    "content": "What user role must a Pardot user have in order to verify the Salesforce connector?",
+    "options": [
+      "A. Administrator",
+      "B. Sales",
+      "C. Sales manager",
+      "D. Marketing"
+    ],
+    "answer": "A",
+    "title": "Question 83",
+    "explanation": ""
+  },
+  {
+    "content": "If a form is added to a landing page, where will the submissions be reported?",
+    "options": [
+      "A. On the landing page",
+      "B. On the form's layout template",
+      "C. On the form",
+      "D. On the landing page's layout template"
+    ],
+    "answer": "A",
+    "title": "Question 84",
+    "explanation": ""
+  },
+  {
+    "content": "LenoxSoft wants the \"State\" field to appear in real-time whenever a prospect selects \"United States\" for the\n\"Country\" field when completing their Pardot form.\nWhich form feature should be utilized?",
+    "options": [
+      "A. Dependent fields",
+      "B. Email Validation",
+      "C. Progressive Profiling",
+      "D. Kiosk/Data Entry Mode"
+    ],
+    "answer": "C",
+    "title": "Question 85",
+    "explanation": ""
+  },
+  {
+    "content": "A user creates and resumes a new automation rule.\nWhich two statements are true about that rule?\nChoose 2 answers",
+    "options": [
+      "A. The rule will unmatch prospects that no longer match the criteria.",
+      "B. The rule will run once and must be re-run for prospects to match again.",
+      "C. The rule will evaluate their entire prospect database for matches.",
+      "D. The rule will continuously look for prospects who match the criteria."
+    ],
+    "answer": "C,D",
+    "title": "Question 86",
+    "explanation": ""
+  },
+  {
+    "content": "An administrator wants to create a dynamic list of all prospects who have accessed a certain file have a specific value, but there are more prospects than anticipated in the preview.\nWhat could be happening?",
+    "options": [
+      "A. Match type is set to \"Match All.\"",
+      "B. Field value is not mapped.",
+      "C. Match Type is set to \"Match Any.\"",
+      "D. This is not possible with dynamic lists."
+    ],
+    "answer": "D",
+    "title": "Question 87",
+    "explanation": ""
+  },
+  {
+    "content": "Does an automation rule ever match a prospect more than once?",
+    "options": [
+      "A. Yes, automation rules run every time.",
+      "B. No, an automation rule will only affect a prospect one time\n         An automation rule can match a prospect more than once if you enable Repeat Rule. Otherwise, an automation rule will only affect a prospect one time."
+    ],
+    "answer": "B",
+    "title": "Question 88",
+    "explanation": ""
+  },
+  {
+    "content": "Your client is looking for a way to increase the quality of leads that are being passed from marketing to sales.\nWhat advice do you offer?",
+    "options": [
+      "A. Automatically assign all leads to sales reps in a round-robin system.",
+      "B. Implement a blended lead scoring and grading system.",
+      "C. Add more landing pages and forms to your site to increase the number of conversion opportunities.",
+      "D. Only pass on leads that are very active on your site no matter the company profile."
+    ],
+    "answer": "B",
+    "title": "Question 89",
+    "explanation": ""
+  }
+]

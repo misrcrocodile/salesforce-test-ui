@@ -174,6 +174,10 @@ var testList = [
       "Salesforce.Pardot-Consultant.v2022-05-19.q95",
       "Salesforce.Pardot-Consultant.v2022-08-03.q81",
       "Salesforce.Pardot-Consultant.v2023-02-28.q88",
+      "Salesforce.CRT-160.v2023-02-14.q95",
+      "Salesforce.CRT-160.v2021-06-26.q89",
+      "Salesforce.CRT-160.v2021-01-06.q71",
+      "Salesforce.CRT-160.v2019-04-26.q39",
     ],
   },
   {
