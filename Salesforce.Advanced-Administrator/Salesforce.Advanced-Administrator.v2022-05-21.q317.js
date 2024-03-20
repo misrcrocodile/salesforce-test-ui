@@ -556,7 +556,7 @@ window.testContent[testName].testList.push({
         "C. Change sets",
         "D. Data Loader",
       ],
-      answer: "A,C",
+      answer: "A,B",
       title: "Question 42",
       explanation: "",
     },

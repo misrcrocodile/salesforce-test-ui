@@ -55,7 +55,7 @@ window.testContent[testName].testList.push({
         "C. Salesforce Extensions for Visual Studio Code",
         "D. Ant Migration Tool",
       ],
-      answer: "A,C",
+      answer: "A,D",
       title: "Question 4",
       explanation: "",
     },
