@@ -19,21 +19,21 @@ var testList = [
     name: "CERTIFIED ADMINISTRATOR",
     value: "SalesforceAdministrator",
     testList: [
-      "Certlibrary.ADM-201.v2023-12-09.q1181.json",
-      "Salesforce.ADM-201.v2022-01-17.q124.json",
-      "Salesforce.ADM-201.v2022-02-01.q72.json",
-      "Salesforce.ADM-201.v2022-03-11.q103.json",
-      "Salesforce.ADM-201.v2022-05-02.q104.json",
-      "Salesforce.ADM-201.v2022-05-02.q74.json",
-      "Salesforce.ADM-201.v2022-05-04.q74.json",
-      "Salesforce.ADM-201.v2022-08-16.q84.json",
-      "Salesforce.ADM-201.v2022-08-25.q79.json",
-      "Salesforce.ADM-201.v2022-09-24.q73.json",
-      "Salesforce.ADM-201.v2023-03-15.q176.json",
-      "Salesforce.ADM-201.v2023-04-27.q85.json",
-      "Salesforce.ADM-201.v2023-10-02.q113.json",
-      "Salesforce.ADM-201.v2023-10-09.q118.json",
-      "Salesforce.ADM-201.v2023-11-02.q102.json",
+      "Certlibrary.ADM-201.v2023-12-09.q1181",
+      "Salesforce.ADM-201.v2022-01-17.q124",
+      "Salesforce.ADM-201.v2022-02-01.q72",
+      "Salesforce.ADM-201.v2022-03-11.q103",
+      "Salesforce.ADM-201.v2022-05-02.q104",
+      "Salesforce.ADM-201.v2022-05-02.q74",
+      "Salesforce.ADM-201.v2022-05-04.q74",
+      "Salesforce.ADM-201.v2022-08-16.q84",
+      "Salesforce.ADM-201.v2022-08-25.q79",
+      "Salesforce.ADM-201.v2022-09-24.q73",
+      "Salesforce.ADM-201.v2023-03-15.q176",
+      "Salesforce.ADM-201.v2023-04-27.q85",
+      "Salesforce.ADM-201.v2023-10-02.q113",
+      "Salesforce.ADM-201.v2023-10-09.q118",
+      "Salesforce.ADM-201.v2023-11-02.q102",
       "Salesforce.CRT-101.v2023-05-18.q231",
       "Salesforce.CRT-101.v2023-02-11.q82",
       "Salesforce.CRT-101.v2022-07-26.q83",
@@ -410,7 +410,7 @@ function getJsonData() {
   var url = `${window.location.origin}/data/${testTypeValue}/${testDetailName}.json`;
 
   return fetchJSON(url).then((data) => {
-    console.log("data", data);
+    console.log("Finish fetching data.");
     return data;
   });
 }
