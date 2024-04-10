@@ -28,7 +28,7 @@
       "B. The child record remains.",
       "C. The child record is deleted."
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 4"
   },
   {
@@ -202,7 +202,7 @@
       "B. Select which fields are available and set as default",
       "C. Create a custom report"
     ],
-    "answer": "A,C",
+    "answer": "B,C",
     "title": "Question 25"
   },
   {
@@ -260,7 +260,7 @@
   {
     "content": "Which Salesforce product allows IT teams to integrate data from any system and automate complex tasks and processes?",
     "options": ["A. CRM Analytics", "B. MuleSoft", "C. Slack"],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 32"
   },
   {
@@ -278,7 +278,7 @@
   {
     "content": "What is NOT a core value of Salesforce?",
     "options": ["A. Profit", "B. Equality", "C. Trust"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 35"
   },
   {
@@ -288,7 +288,7 @@
       "B. Declarative Programming",
       "C. Imperative Programming"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 36"
   },
   {
@@ -298,7 +298,7 @@
       "B. Sales as a Service",
       "C. Software as a Service"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 37"
   },
   {

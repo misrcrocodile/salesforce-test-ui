@@ -170,13 +170,13 @@
       "B. No action is required.",
       "C. The user record should be deactivated."
     ],
-    "answer": "B",
+    "answer": "C",
     "title": "Question 21"
   },
   {
     "content": "The Marketing Manager has asked you to generate a list of contacts for a mailing list. What type of report would be the most appropriate to use?",
     "options": ["A. Tabular", "B. Summary", "C. Matrix"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 22"
   },
   {
