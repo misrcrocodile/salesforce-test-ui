@@ -8,7 +8,7 @@
   {
     "content": "What type of relationship is required to support roll-up summary fields?",
     "options": ["A. Master-Detail", "B. Lookup", "C. Junction"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 2"
   },
   {
@@ -18,7 +18,7 @@
       "B. Roll-Up Summary Field",
       "C. Date/Time Field"
     ],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 3"
   },
   {
@@ -66,7 +66,7 @@
   {
     "content": "What feature of Salesforce grants record access to a user’s manager?",
     "options": ["A. Role Hierarchy", "B. Permission Set", "C. Profile"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 9"
   },
   {
@@ -76,19 +76,19 @@
       "B. Required at Page Level",
       "C. Validation Rule"
     ],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 10"
   },
   {
     "content": "What feature would enable you to easily visualize what stage an opportunity is in, and move it using drag and drop?",
     "options": ["A. Dashboard", "B. Split List View", "C. Kanban List View"],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 11"
   },
   {
     "content": "How can you change the default list view when navigating to an object’s tab?",
     "options": ["A. Favorite", "B. Pin", "C. Clone"],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 12"
   },
   {
@@ -110,7 +110,7 @@
       "B. Edit List Filters",
       "C. Select Fields to Display"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 15"
   },
   {
@@ -126,7 +126,7 @@
       "B. User Record",
       "C. Personal Information"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 17"
   },
   {
@@ -238,7 +238,7 @@
       "B. Trailblazer Community Group",
       "C. Dreamforce"
     ],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 29"
   },
   {

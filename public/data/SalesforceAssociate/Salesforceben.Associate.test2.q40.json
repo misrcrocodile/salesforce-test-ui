@@ -110,7 +110,7 @@
       "B. Change the Search layout in Setup.",
       "C. Add an Object search filter."
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 13"
   },
   {
@@ -154,13 +154,13 @@
       "B. Change the default locale and time zone via the Company Information page in Setup.",
       "C. Have each European user change their locale and time zone via Personal Settings."
     ],
-    "answer": "B",
+    "answer": "C",
     "title": "Question 19"
   },
   {
     "content": "Data about an individual Company, Contact, or Opportunity is stored in what?",
     "options": ["A. Record", "B. Field", "C. Object"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 20"
   },
   {
@@ -192,7 +192,7 @@
       "B. Add a bucket column",
       "C. Add a filter"
     ],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 24"
   },
   {
@@ -240,7 +240,7 @@
   {
     "content": "TDX stands for?",
     "options": ["A. TrailheadDX", "B. TrailblazerDX", "C. TechDX"],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 30"
   },
   {

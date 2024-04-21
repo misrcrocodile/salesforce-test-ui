@@ -60,7 +60,7 @@
       "B. All dashboard viewers will see dashboard data based on the access level of the \"View Dashboard As\" user.",
       "C. The data displayed on the dashboard will change according to the access level of the user viewing the dashboard."
     ],
-    "answer": "A,B",
+    "answer": "B,C",
     "title": "Question 8"
   },
   {
