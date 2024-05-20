@@ -44,7 +44,7 @@
       "B. Account Relationships",
       "C. Account Teams"
     ],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 6"
   },
   {
@@ -100,7 +100,7 @@
       "B. The list view sharing needs to be set to \"All users can see this list view\".",
       "C. Ash does not have access to some or all of the fields displayed in the list view."
     ],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 12"
   },
   {
@@ -214,7 +214,7 @@
   {
     "content": "What function in Salesforce reports can help you identify how many distinct values are in a column?",
     "options": ["A. Unique Count", "B. Distinct Count", "C. Average"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 27"
   },
   {
@@ -288,7 +288,7 @@
       "B. Salesforce Sales Cloud",
       "C. The full breadth of the Salesforce portfolio, including core applications, platform, services, and connected ecosystem"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 36"
   },
   {
@@ -308,7 +308,7 @@
       "B. Lack of security",
       "C. Governor limits"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 38"
   },
   {
