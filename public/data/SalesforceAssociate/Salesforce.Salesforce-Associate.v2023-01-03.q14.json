@@ -93,7 +93,7 @@
   {
     "content": "Get Cloudy Consulting (GCC) currently supports its customers via calls and emails. GCC wants to meet the needs of digitally savvy customers by offering support via web chat as well as SMS, Facebook Messenger, and whatsApp.\nWhich Salesforce product should meet this need?",
     "options": ["A. Service Cloud", "B. Sales Cloud", "C. Experience Cloud"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 10",
     "explanation": ""
   },

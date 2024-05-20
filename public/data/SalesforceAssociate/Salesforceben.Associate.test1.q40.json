@@ -8,7 +8,7 @@
   {
     "content": "Your company would like to see the total amount of “won” Opportunities displayed on the account record. How should this be achieved?",
     "options": ["A. Roll-Up Summary", "B. Formula Field", "C. Lookup Field"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 2"
   },
   {
@@ -20,7 +20,7 @@
   {
     "content": "A picklist field on the Lead object has multiple values that determine the source of a Lead. Users should be able to choose a value, however, Leads mostly arrive via email. What could be set up to improve the user experience and data accuracy?",
     "options": ["A. Default Value", "B. Dependent Picklist", "C. Global Value"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 4"
   },
   {
@@ -46,7 +46,7 @@
       "B. Make the Opportunity organization-wide default Public Read Only",
       "C. Sharing Rules"
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 7"
   },
   {
@@ -78,7 +78,7 @@
   {
     "content": "What is NOT an access level you can grant to report and dashboard folders?",
     "options": ["A. Public Access", "B. Editor Access", "C. Viewer Access"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 11"
   },
   {
@@ -170,7 +170,7 @@
   {
     "content": "What is NOT a frequency option when subscribing to a dashboard?",
     "options": ["A. Quarterly", "B. Weekly", "C. Daily"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 23"
   },
   {
@@ -190,7 +190,7 @@
       "B. Refresh the dashboard",
       "C. Check the dashboard timestamp"
     ],
-    "answer": "A,B",
+    "answer": "B,C",
     "title": "Question 25"
   },
   {
@@ -222,13 +222,13 @@
       "B. Trailblazer Questions",
       "C. IdeaExchange"
     ],
-    "answer": "C",
+    "answer": "B",
     "title": "Question 29"
   },
   {
     "content": "What is the largest annual Salesforce conference?",
     "options": ["A. Dreamforce", "B. Techforce", "C. TrailblazerDX"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 30"
   },
   {
@@ -244,7 +244,7 @@
   {
     "content": "A company would like to be able to sell complex sets of products. Which product would support complex configure, price, and quote functionality?",
     "options": ["A. Tableau", "B. CPQ", "C. RFP"],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 32"
   },
   {
@@ -272,7 +272,7 @@
   {
     "content": "Salesforce demonstrate their commitment to “business as a platform for change” via:",
     "options": ["A. Giving 1%", "B. Pledge 1%", "C. Take 1%"],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 36"
   },
   {
@@ -292,7 +292,7 @@
       "B. A single instance of the software and supporting infrastructure serving a single customer.",
       "C. A single instance of the software and supporting infrastructure serving multiple customers."
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 38"
   },
   {
