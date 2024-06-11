@@ -1,11 +1,7 @@
 [
   {
     "content": "During Deployment from Sandbox to production using Changeset , Few components missed. How you are going to add those component to production ?",
-    "options": [
-      "A. Edit Changset and re-deploy",
-      "B. Create New and Redeploy",
-      "C. Clone existing and make changes and Re-deploy"
-    ],
+    "options": ["A. Edit Changset and re-deploy", "B. Create New and Redeploy", "C. Clone existing and make changes and Re-deploy"],
     "answer": "C",
     "title": "Question 1",
     "explanation": ""
@@ -36,12 +32,7 @@
   },
   {
     "content": "Which two deployment tools can be used to deploy metadata from a Developer Edition organization to another organization? (Choose two.)",
-    "options": [
-      "A. Change sets",
-      "B. Data Loader",
-      "C. Salesforce Extensions for Visual Studio Code",
-      "D. Ant Migration Tool"
-    ],
+    "options": ["A. Change sets", "B. Data Loader", "C. Salesforce Extensions for Visual Studio Code", "D. Ant Migration Tool"],
     "answer": "A,D",
     "title": "Question 4",
     "explanation": ""
@@ -132,7 +123,7 @@
     "explanation": ""
   },
   {
-    "content": "Cloud Kicks wants to understand the implications ot archived Activities.\nWhich two considerations should an administrator communicate regarding archived Activities?\nChoose 2 answers.",
+    "content": "Cloud Kicks wants to understand the implications of archived Activities.\nWhich two considerations should an administrator communicate regarding archived Activities?\nChoose 2 answers.",
     "options": [
       "A. Events that ended more than 365 days ago are archived.",
       "B. Events created more than 365 days ago are archived.",
@@ -144,14 +135,14 @@
     "explanation": ""
   },
   {
-    "content": "Sales Rep Phil Smith has an opportunity for 55,000 in the Commit stage. Which aggregates on Phil'sforecast willinclude this amount? Choose three answers.* (1 Point)",
+    "content": "Sales Rep Phil Smith has an opportunity for 55,000 in the Commit stage. Which aggregates on Phil's forecast will include this amount? Choose three answers.",
     "options": ["A. Best Case", "B. Pipeline", "C. Closed", "D. Commit"],
     "answer": "A,B,D",
     "title": "Question 13",
     "explanation": ""
   },
   {
-    "content": "Cloud Kicks (CK) has introduced its new Alpha Shoe line. Customers create cases from CK's website. Managers receive a report of all cases created last week. Managers would like a way to easily see in the report if the customer refers to the new shoe line in the case subject.\nHow should the system administrator modify thr report meet this request?",
+    "content": "Cloud Kicks (CK) has introduced its new Alpha Shoe line. Customers create cases from CK's website. Managers receive a report of all cases created last week. Managers would like a way to easily see in the report if the customer refers to the new shoe line in the case subject.\nHow should the system administrator modify the report meet this request?",
     "options": [
       "A. Build a row-level formula.",
       "B. Include a contains filter on Subject.",
@@ -200,11 +191,7 @@
   },
   {
     "content": "Agents can file vacation leave request that must be approved by the manager. An agent is unable to submit the request. What could be the possible cause?",
-    "options": [
-      "A. There is no Manager for User",
-      "B. There is System Error",
-      "C. Approval Process is not enabled for them"
-    ],
+    "options": ["A. There is no Manager for User", "B. There is System Error", "C. Approval Process is not enabled for them"],
     "answer": "A",
     "title": "Question 18",
     "explanation": ""
@@ -235,13 +222,8 @@
     "explanation": ""
   },
   {
-    "content": "Which two values roll up the Hierarchyto the manager for both Customizable and Collaborative Forecasts?\nChoose 2 answers",
-    "options": [
-      "A. Expected revenue",
-      "B. Product quantity",
-      "C. Quota amount",
-      "D. Opportunity amount"
-    ],
+    "content": "Which two values roll up the Hierarchy to the manager for both Customizable and Collaborative Forecasts?\nChoose 2 answers",
+    "options": ["A. Expected revenue", "B. Product quantity", "C. Quota amount", "D. Opportunity amount"],
     "answer": "C,D",
     "title": "Question 21",
     "explanation": ""
@@ -272,24 +254,14 @@
   },
   {
     "content": "Which value rolls up for both customizable and collaborative forecasting? * (1 Point)",
-    "options": [
-      "A. Amount",
-      "B. Quota",
-      "C. Opportunity amount",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Amount", "B. Quota", "C. Opportunity amount", "D. Expected revenue"],
     "answer": "C",
     "title": "Question 24",
     "explanation": ""
   },
   {
     "content": "After a recent release, users report that the look and feel of the app they use is different. Fields are appearing in a different place on the page, related lists are missing, and tabs are rearranged.\nHow should an administrator troubleshoot this?",
-    "options": [
-      "A. Setup Audit Trail",
-      "B. Debug Log",
-      "C. Page Layouts",
-      "D. App Manager"
-    ],
+    "options": ["A. Setup Audit Trail", "B. Debug Log", "C. Page Layouts", "D. App Manager"],
     "answer": "A",
     "title": "Question 25",
     "explanation": ""
@@ -380,12 +352,7 @@
   },
   {
     "content": "An Administrator wants to create a Knowledge base for articles such as FAQ Setup Guides & Guides with Images. What should be created to accommodate this?",
-    "options": [
-      "A. Data Categories",
-      "B. Knowledge Categories",
-      "C. Display Types",
-      "D. Article Types"
-    ],
+    "options": ["A. Data Categories", "B. Knowledge Categories", "C. Display Types", "D. Article Types"],
     "answer": "D",
     "title": "Question 33",
     "explanation": ""
@@ -404,12 +371,7 @@
   },
   {
     "content": "An administrator has a request to write a report listing accounts that have sales from this year and that have a completed activity in the last 30 days.\nWhat reporting feature should the administrator employ to provide only the list of accounts, without listing the details of the opportunities?",
-    "options": [
-      "A. Filter Logic",
-      "B. Summary Report",
-      "C. Joined Report",
-      "D. Cross-Filter"
-    ],
+    "options": ["A. Filter Logic", "B. Summary Report", "C. Joined Report", "D. Cross-Filter"],
     "answer": "D",
     "title": "Question 35",
     "explanation": ""
@@ -463,12 +425,7 @@
   },
   {
     "content": "Users report that the Industry picklist field is no longer visible on account records.\nWhich tool can an administrator use to troubleshoot this issue?",
-    "options": [
-      "A. Debug log",
-      "B. Setup audit trail",
-      "C. Field history tracking",
-      "D. Field audit history"
-    ],
+    "options": ["A. Debug log", "B. Setup audit trail", "C. Field history tracking", "D. Field audit history"],
     "answer": "B",
     "title": "Question 40",
     "explanation": ""
@@ -510,12 +467,7 @@
   },
   {
     "content": "Which features are available only in Customizable forecast ? Choose 3",
-    "options": [
-      "A. Snapshots and Forecast History",
-      "B. Rename Categories",
-      "C. Share Forecasts",
-      "D. Territory Management"
-    ],
+    "options": ["A. Snapshots and Forecast History", "B. Rename Categories", "C. Share Forecasts", "D. Territory Management"],
     "answer": "A,C,D",
     "title": "Question 44",
     "explanation": ""
@@ -606,24 +558,14 @@
   },
   {
     "content": "The administrator at AW Computing has been asked to review whether any users are making configuration changes directly in production.\nWhich item should the administrator review to find these details?",
-    "options": [
-      "A. Field History Tracking",
-      "B. Setup Audit Trail",
-      "C. Login History",
-      "D. Organization-Wide Defaults"
-    ],
+    "options": ["A. Field History Tracking", "B. Setup Audit Trail", "C. Login History", "D. Organization-Wide Defaults"],
     "answer": "B",
     "title": "Question 52",
     "explanation": ""
   },
   {
     "content": "Sales reps at AW Computing hove been reporting that contact phone numbers sometimes revert book to on old value after being updated.\nWhat should the administrator do to resolve this issue?",
-    "options": [
-      "A. Schedule Apex jobs.",
-      "B. Delete all workflow rules.",
-      "C. Consolidate automation tools.",
-      "D. Add an invocable process."
-    ],
+    "options": ["A. Schedule Apex jobs.", "B. Delete all workflow rules.", "C. Consolidate automation tools.", "D. Add an invocable process."],
     "answer": "C",
     "title": "Question 53",
     "explanation": ""
@@ -642,12 +584,7 @@
   },
   {
     "content": "Universal Containers wants to create a Job Application custom object related to a Job Posting custom object. They would also like a no-code solution to calculate the number of Job Applications for each Job Posting.\nWhat type of field should an administrator create on the Job Application to enable this functionality?",
-    "options": [
-      "A. Master-Detail",
-      "B. Roll-up Summary",
-      "C. Lookup",
-      "D. Formula"
-    ],
+    "options": ["A. Master-Detail", "B. Roll-up Summary", "C. Lookup", "D. Formula"],
     "answer": "A",
     "title": "Question 55",
     "explanation": ""
@@ -680,12 +617,7 @@
   },
   {
     "content": "Cloud Kicks call center agents have given their manager feedback that It takes too long to find relevant articles to answer questions on customer cases. The call center manager has asked the administrator to improve suggestions displayed to agents in the Knowledge component on Cases.\nWhich setting should the administrator use to meet the requirement?",
-    "options": [
-      "A. Turn off auto-complete keyword search",
-      "B. Enable Einstein Search",
-      "C. Selected Case Fields",
-      "D. Highlights and Snippets"
-    ],
+    "options": ["A. Turn off auto-complete keyword search", "B. Enable Einstein Search", "C. Selected Case Fields", "D. Highlights and Snippets"],
     "answer": "B",
     "title": "Question 58",
     "explanation": ""
@@ -704,12 +636,7 @@
   },
   {
     "content": "Ursa Major Solar customers have two levels of support available based on their contracted services. Gold-level customers receive email and chat support with a 2-day response window. Platinum-level customers receive\n24/7 phone and chat support with a 2-hour response window.\nWhat should an administrator configure to ensure support agents respond within an appropriate service level?",
-    "options": [
-      "A. Entitlement Process",
-      "B. Omni-Channel",
-      "C. Escalation Rules",
-      "D. Assignment Rule"
-    ],
+    "options": ["A. Entitlement Process", "B. Omni-Channel", "C. Escalation Rules", "D. Assignment Rule"],
     "answer": "C",
     "title": "Question 60",
     "explanation": ""
@@ -728,12 +655,7 @@
   },
   {
     "content": "A job applicant object needs to be associated to Position object. Company wants that when a Position is deleted, all applicants should also be deleted. What type of relationship would this be?",
-    "options": [
-      "A. Master-detail",
-      "B. System information",
-      "C. Lookup",
-      "D. Hierarchical"
-    ],
+    "options": ["A. Master-detail", "B. System information", "C. Lookup", "D. Hierarchical"],
     "answer": "A",
     "title": "Question 62",
     "explanation": ""
@@ -771,12 +693,7 @@
   },
   {
     "content": "Admin wants to make exact copy of production metadata in developer sandbox.",
-    "options": [
-      "A. Create and Deploy changeset",
-      "B. Use Developer Console",
-      "C. Schedule Sandbox refresh",
-      "D. Schedule full weekly backup"
-    ],
+    "options": ["A. Create and Deploy changeset", "B. Use Developer Console", "C. Schedule Sandbox refresh", "D. Schedule full weekly backup"],
     "answer": "A",
     "title": "Question 66",
     "explanation": ""
@@ -807,11 +724,7 @@
   },
   {
     "content": "AW Computing wants to identify If certain customer is eligible for a service contract based on product. How to check it ?",
-    "options": [
-      "A. Entitlements Only",
-      "B. Service Contracts with Entitlements",
-      "C. Service Contracts with Contract Line Items and Entitlements"
-    ],
+    "options": ["A. Entitlements Only", "B. Service Contracts with Entitlements", "C. Service Contracts with Contract Line Items and Entitlements"],
     "answer": "C",
     "title": "Question 69",
     "explanation": ""
@@ -842,12 +755,7 @@
   },
   {
     "content": "A user has been granted a delegated admin to a custom object. What can he complete on that object. Choose 2",
-    "options": [
-      "A. Modify OWD",
-      "B. Create custom Picklist in that object",
-      "C. Create a new Custom field",
-      "D. Modify Sharing Settings"
-    ],
+    "options": ["A. Modify OWD", "B. Create custom Picklist in that object", "C. Create a new Custom field", "D. Modify Sharing Settings"],
     "answer": "B,C",
     "title": "Question 72",
     "explanation": ""
@@ -916,12 +824,7 @@
   },
   {
     "content": "The VP of Marketing is launching campaigns in each region to target accounts that do not have open opportunities. What reporting solutions can an administrator set up to assist with this?",
-    "options": [
-      "A. Joined report",
-      "B. Cross filter",
-      "C. Reporting snapshot",
-      "D. Standard filter"
-    ],
+    "options": ["A. Joined report", "B. Cross filter", "C. Reporting snapshot", "D. Standard filter"],
     "answer": "B",
     "title": "Question 78",
     "explanation": ""
@@ -1072,12 +975,7 @@
   },
   {
     "content": "Universal Container sells container and they ship it one time and payment is made monthly. What should be Scheduling ?",
-    "options": [
-      "A. Quota",
-      "B. Revenue",
-      "C. Quantity",
-      "D. Revenue and Quantity"
-    ],
+    "options": ["A. Quota", "B. Revenue", "C. Quantity", "D. Revenue and Quantity"],
     "answer": "B",
     "title": "Question 91",
     "explanation": ""
@@ -1115,12 +1013,7 @@
   },
   {
     "content": "What tool would you use to automate a process so a parent case is closed, the child case automatically closes?* (1 Point)",
-    "options": [
-      "A. Validation rule field update",
-      "B. Apex trigger",
-      "C. Workflow rule field update",
-      "D. Auto response rule"
-    ],
+    "options": ["A. Validation rule field update", "B. Apex trigger", "C. Workflow rule field update", "D. Auto response rule"],
     "answer": "B",
     "title": "Question 95",
     "explanation": ""
@@ -1146,12 +1039,7 @@
   },
   {
     "content": "Cloud Kicks would like to reassign ownership of all leads that are open and more than 60 days old. The system administrator has written an assignment rule to distribute these leads to the correct owners or queues.\nWhich two tools should the administrator use to update the owner of these leads?\nChoose 2 answers",
-    "options": [
-      "A. Mass Update",
-      "B. Import Wizard",
-      "C. Dataloader.io",
-      "D. Bulk API"
-    ],
+    "options": ["A. Mass Update", "B. Import Wizard", "C. Dataloader.io", "D. Bulk API"],
     "answer": "A,D",
     "title": "Question 98",
     "explanation": ""
@@ -1184,12 +1072,7 @@
   },
   {
     "content": "Northern Trail Outfitters has five delegated administrators and two system administrators. There have been a couple of cases reported that login settings for sales reps have changed.\nWhere would the administrator find what settings have been changed?",
-    "options": [
-      "A. Setup audit trail",
-      "B. Debug log",
-      "C. Field history tracking",
-      "D. Login history"
-    ],
+    "options": ["A. Setup audit trail", "B. Debug log", "C. Field history tracking", "D. Login history"],
     "answer": "C",
     "title": "Question 101",
     "explanation": ""
@@ -1208,24 +1091,14 @@
   },
   {
     "content": "With Customizable Forecasting you can forecast any of the following data.\nChoose three answers.",
-    "options": [
-      "A. Quantity",
-      "B. Amount",
-      "C. Units of Individual Products",
-      "D. Units of Product Family"
-    ],
+    "options": ["A. Quantity", "B. Amount", "C. Units of Individual Products", "D. Units of Product Family"],
     "answer": "A,B,D",
     "title": "Question 103",
     "explanation": ""
   },
   {
     "content": "Suggest a feature that SFB Industries can enable to increase call deflection.",
-    "options": [
-      "A. Public Knowledge Base",
-      "B. Live Chat",
-      "C. Click--to--dial",
-      "D. Email--to--Case"
-    ],
+    "options": ["A. Public Knowledge Base", "B. Live Chat", "C. Click--to--dial", "D. Email--to--Case"],
     "answer": "A",
     "title": "Question 104",
     "explanation": ""
@@ -1280,12 +1153,7 @@
   },
   {
     "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book? * (1 Point)",
-    "options": [
-      "A. Select a Product Family",
-      "B. Check the Active checkbox.",
-      "C. Enter a Product Description.",
-      "D. Enter a Product Code."
-    ],
+    "options": ["A. Select a Product Family", "B. Check the Active checkbox.", "C. Enter a Product Description.", "D. Enter a Product Code."],
     "answer": "B",
     "title": "Question 109",
     "explanation": ""
@@ -1304,12 +1172,7 @@
   },
   {
     "content": "The sales agents at DreamHouse Realty have a profile that allows them to import records for a custom object called House. The agents only need to make imports occasionally and typically Import around 100 new records at a time.\nWhat tool should the agents use to upload records?",
-    "options": [
-      "A. Apex",
-      "B. Data Loader",
-      "C. Bulk API",
-      "D. Date Xmport Wizard"
-    ],
+    "options": ["A. Apex", "B. Data Loader", "C. Bulk API", "D. Date Xmport Wizard"],
     "answer": "D",
     "title": "Question 111",
     "explanation": ""
@@ -1399,12 +1262,7 @@
   },
   {
     "content": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
-    "options": [
-      "A. Workflow Rule Field Change",
-      "B. Screen Row",
-      "C. Batch Update",
-      "D. Before save How Trigger"
-    ],
+    "options": ["A. Workflow Rule Field Change", "B. Screen Row", "C. Batch Update", "D. Before save How Trigger"],
     "answer": "D",
     "title": "Question 119",
     "explanation": ""
@@ -1586,36 +1444,21 @@
   },
   {
     "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint. What type of relationship can be used to accomplish this?",
-    "options": [
-      "A. Master-detail",
-      "B. Hierarchical",
-      "C. Junction",
-      "D. Lookup"
-    ],
+    "options": ["A. Master-detail", "B. Hierarchical", "C. Junction", "D. Lookup"],
     "answer": "D",
     "title": "Question 135",
     "explanation": ""
   },
   {
     "content": "Customer already have products delivered and payment is done on monthly basis. What kind of scheduling can be done ?",
-    "options": [
-      "A. Default Quantity Scheduling",
-      "B. Default Scheduling",
-      "C. Default Revenue scheduling",
-      "D. Default Quota scheduling"
-    ],
+    "options": ["A. Default Quantity Scheduling", "B. Default Scheduling", "C. Default Revenue scheduling", "D. Default Quota scheduling"],
     "answer": "C",
     "title": "Question 136",
     "explanation": ""
   },
   {
     "content": "Cloud Kicks (CK) has a sneaker of the month product that is sold as an annual subscription at the price of $1, What type of product scheduling should the CK administrator set up to accurately capture that information?",
-    "options": [
-      "A. Quantity Schedule Only",
-      "B. Quantity and Revenue Schedules.",
-      "C. Inbound Scheduling",
-      "D. Revenue Schedule Only"
-    ],
+    "options": ["A. Quantity Schedule Only", "B. Quantity and Revenue Schedules.", "C. Inbound Scheduling", "D. Revenue Schedule Only"],
     "answer": "B",
     "title": "Question 137",
     "explanation": ""
@@ -1636,12 +1479,7 @@
   },
   {
     "content": "An administrator at Cloud Kicks has enabled Territory Management and is setting up a territory model. Some users in a territory need to access Contacts and Opportunities related to the Account.\nWhich two capabilities are available for users in a territory?\nChoose 2 answers",
-    "options": [
-      "A. View. Edit, Transfer, Delete",
-      "B. View and Edit",
-      "C. View and Transfer",
-      "D. View Only"
-    ],
+    "options": ["A. View. Edit, Transfer, Delete", "B. View and Edit", "C. View and Transfer", "D. View Only"],
     "answer": "A,C",
     "title": "Question 140",
     "explanation": ""

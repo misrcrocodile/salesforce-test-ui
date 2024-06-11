@@ -24,7 +24,7 @@ var testList = [
     name: "CERTIFIED ADMINISTRATOR",
     value: "SalesforceAdministrator",
     testList: [
-      "Certlibrary.ADM-201.v2023-12-09.q1181",
+      // "Certlibrary.ADM-201.v2023-12-09.q1181",
       "Salesforce.ADM-201.v2022-01-17.q124",
       "Salesforce.ADM-201.v2022-02-01.q72",
       "Salesforce.ADM-201.v2022-03-11.q103",
@@ -39,10 +39,10 @@ var testList = [
       "Salesforce.ADM-201.v2023-10-02.q113",
       "Salesforce.ADM-201.v2023-10-09.q118",
       "Salesforce.ADM-201.v2023-11-02.q102",
-      "Salesforce.CRT-101.v2023-05-18.q231",
-      "Salesforce.CRT-101.v2023-02-11.q82",
-      "Salesforce.CRT-101.v2022-07-26.q83",
-      "Salesforce.CRT-101.v2021-01-04.q351",
+      // "Salesforce.CRT-101.v2023-05-18.q231",
+      // "Salesforce.CRT-101.v2023-02-11.q82",
+      // "Salesforce.CRT-101.v2022-07-26.q83",
+      // "Salesforce.CRT-101.v2021-01-04.q351",
     ],
   },
   {
@@ -64,11 +64,11 @@ var testList = [
       "Salesforce.Advanced-Administrator.v2023-01-12.q71",
       "Salesforce.Advanced-Administrator.v2023-02-06.q62",
       "Salesforce.Advanced-Administrator.v2023-06-10.q141",
-      "Salesforce.CRT-211.v2023-10-17.q103",
-      "Salesforce.CRT-211.v2022-12-22.q60",
-      "Salesforce.CRT-211.v2022-12-08.q61",
-      "Salesforce.CRT-211.v2022-08-28.q164",
-      "Salesforce.CRT-211.v2021-11-01.q88",
+      // "Salesforce.CRT-211.v2023-10-17.q103",
+      // "Salesforce.CRT-211.v2022-12-22.q60",
+      // "Salesforce.CRT-211.v2022-12-08.q61",
+      // "Salesforce.CRT-211.v2022-08-28.q164",
+      // "Salesforce.CRT-211.v2021-11-01.q88",
     ],
   },
   {
@@ -117,7 +117,7 @@ var testList = [
     name: "PLATFORM APP BUILDER",
     value: "Salesforce.Platform-App-Builder",
     testList: [
-      "Certlibrary.Platform-App-Builder.v2023-11-29.q600",
+      // "Certlibrary.Platform-App-Builder.v2023-11-29.q600",
       "Salesforce.Platform-App-Builder.v2019-10-20.q99",
       "Salesforce.Platform-App-Builder.v2019-10-25.q63",
       "Salesforce.Platform-App-Builder.v2020-04-01.q60",
@@ -135,11 +135,12 @@ var testList = [
       "Salesforce.Platform-App-Builder.v2023-01-14.q90",
       "Salesforce.Platform-App-Builder.v2023-03-06.q159",
       "Salesforce.Platform-App-Builder.v2023-07-29.q129",
-      "Salesforce.CRT-403.v2022-08-18.q150",
-      "Salesforce.CRT-403.v2022-07-22.q144",
-      "Salesforce.CRT-403.v2022-04-30.q150",
-      "Salesforce.CRT-403.v2022-04-13.q112",
-      "Salesforce.CRT-403.v2022-03-18.q118",
+      "Salesforce.Platform-App-Builder.v2024-04-13.q113",
+      // "Salesforce.CRT-403.v2022-08-18.q150",
+      // "Salesforce.CRT-403.v2022-07-22.q144",
+      // "Salesforce.CRT-403.v2022-04-30.q150",
+      // "Salesforce.CRT-403.v2022-04-13.q112",
+      // "Salesforce.CRT-403.v2022-03-18.q118",
     ],
   },
   {
@@ -153,12 +154,13 @@ var testList = [
       "Salesforce.JsDevI.v2022-04-15.q59",
       "Salesforce.JsDevI.v2021-07-31.q56",
       "Salesforce.JsDevI.v2021-03-07.q50",
-      "Salesforce.CRT-600.v2023-03-27.q85",
-      "Salesforce.CRT-600.v2022-05-24.q52",
-      "Salesforce.CRT-600.v2023-02-18.q86",
-      "Salesforce.CRT-600.v2022-07-22.q71",
-      "Salesforce.CRT-600.v2022-02-02.q56",
-      "Salesforce.CRT-600.v2021-03-30.q50",
+      "Salesforce.JsDevI.v2024-05-09.q90.json",
+      // "Salesforce.CRT-600.v2023-03-27.q85",
+      // "Salesforce.CRT-600.v2022-05-24.q52",
+      // "Salesforce.CRT-600.v2023-02-18.q86",
+      // "Salesforce.CRT-600.v2022-07-22.q71",
+      // "Salesforce.CRT-600.v2022-02-02.q56",
+      // "Salesforce.CRT-600.v2021-03-30.q50",
     ],
   },
   {
@@ -183,10 +185,10 @@ var testList = [
       "Salesforce.Pardot-Consultant.v2022-05-19.q95",
       "Salesforce.Pardot-Consultant.v2022-08-03.q81",
       "Salesforce.Pardot-Consultant.v2023-02-28.q88",
-      "Salesforce.CRT-160.v2023-02-14.q95",
-      "Salesforce.CRT-160.v2021-06-26.q89",
-      "Salesforce.CRT-160.v2021-01-06.q71",
-      "Salesforce.CRT-160.v2019-04-26.q39",
+      // "Salesforce.CRT-160.v2023-02-14.q95",
+      // "Salesforce.CRT-160.v2021-06-26.q89",
+      // "Salesforce.CRT-160.v2021-01-06.q71",
+      // "Salesforce.CRT-160.v2019-04-26.q39",
     ],
   },
   {
@@ -197,6 +199,7 @@ var testList = [
       "Salesforce.Data-Architect.v2023-01-20.q86",
       "Salesforce.Data-Architect.v2023-03-15.q77",
       "Salesforce.Data-Architect.v2023-09-04.q115",
+      "Salesforce.Data-Architect.v2023-12-12.q117",
     ],
   },
   {
@@ -261,17 +264,9 @@ function fetchJSON(url) {
 function initTestSelectList() {
   var selectEl = document.getElementById("testType");
   selectEl.innerHTML = "";
-  selectEl.appendChild(
-    createElementByText(
-      "<option value='' selected >Choose Test Type ...</option>"
-    )
-  );
+  selectEl.appendChild(createElementByText("<option value='' selected >Choose Test Type ...</option>"));
   for (var i = 0; i < testList.length; i++) {
-    selectEl.appendChild(
-      createElementByText(
-        `<option value="${testList[i].value}">${testList[i].name}</option>`
-      )
-    );
+    selectEl.appendChild(createElementByText(`<option value="${testList[i].value}">${testList[i].name}</option>`));
   }
 }
 
@@ -293,18 +288,10 @@ function onChangeTestType() {
   });
 
   exQuestionEl.innerHTML = "";
-  exQuestionEl.appendChild(
-    createElementByText(
-      "<option value='' selected >Choose Example Question...</option>"
-    )
-  );
+  exQuestionEl.appendChild(createElementByText("<option value='' selected >Choose Example Question...</option>"));
 
   for (var i = 0; i < testListDetail.length; i++) {
-    exQuestionEl.appendChild(
-      createElementByText(
-        `<option value="${testListDetail[i]}">${testListDetail[i]}</option>`
-      )
-    );
+    exQuestionEl.appendChild(createElementByText(`<option value="${testListDetail[i]}">${testListDetail[i]}</option>`));
   }
 }
 
@@ -362,9 +349,7 @@ function createOptions(q, isShuffleOptions) {
   var checkType = q.answer.length > 1 ? "checkbox" : "radio";
   var results = getAnswerArr(q, isShuffleOptions);
   for (var i = 0; i < results.length; i++) {
-    var trueSpan = results[i].isTrue
-      ? `<span class="answer hidden">True</span>`
-      : "";
+    var trueSpan = results[i].isTrue ? `<span class="answer hidden">True</span>` : "";
     var str = `<div class="form-check">
   <input class="form-check-input" type="${checkType}" value="" name="${idEl}" id="${idEl}${i}">
   <label class="form-check-label" for="${idEl}${i}">
@@ -380,10 +365,7 @@ function createOptions(q, isShuffleOptions) {
 function createQuestion(q, isShuffleQuestion) {
   var idEl = q.title.replaceAll(" ", "");
   var el = createElementByText(`<div class="question-container" id="${idEl}">
-  <label class="form-label"><strong>${q.title}:</strong> ${q.content.replaceAll(
-    "\n",
-    "<br>"
-  )}</label>
+  <label class="form-label"><strong>${q.title}:</strong> ${q.content.replaceAll("\n", "<br>")}</label>
 
   
 </div>`);

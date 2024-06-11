@@ -82,12 +82,7 @@
   },
   {
     "content": "Users report that the industry picklist field is no longer visible on account records. What test can an administrator use to troubleshoot the issue?",
-    "options": [
-      "A. Setup audit trail",
-      "B. Field history tracking",
-      "C. Field audit history",
-      "D. Debug log"
-    ],
+    "options": ["A. Setup audit trail", "B. Field history tracking", "C. Field audit history", "D. Debug log"],
     "answer": "A",
     "title": "Question 9",
     "explanation": ""
@@ -117,7 +112,7 @@
     "explanation": ""
   },
   {
-    "content": "Sales Rep Phil Smith has an opportunity for 55,000 in the Commit stage. Which aggregates on Phil'sforecast willinclude this amount? Choose three answers.* (1 Point)",
+    "content": "Sales Rep Phil Smith has an opportunity for 55,000 in the Commit stage. Which aggregates on Phil's forecast will include this amount? Choose three answers.",
     "options": ["A. Best Case", "B. Pipeline", "C. Commit", "D. Closed"],
     "answer": "A,B,C",
     "title": "Question 12",
@@ -223,12 +218,7 @@
   },
   {
     "content": "Recruiters at universal containers wants to associate positions with their related job applications using two custom objects position and job application. a job application must always have a related position. if a position is deleted, the corresponding job applications are deleted.\nwhat type of object relation ship will meet this requirement?",
-    "options": [
-      "A. Lookup",
-      "B. Master detail",
-      "C. Hierarchical",
-      "D. junction"
-    ],
+    "options": ["A. Lookup", "B. Master detail", "C. Hierarchical", "D. junction"],
     "answer": "B",
     "title": "Question 21",
     "explanation": ""
@@ -267,12 +257,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint.\nWhat types of relationship can be used to accomplish this?",
-    "options": [
-      "A. Master-detail",
-      "B. Hierarchical",
-      "C. Lookup",
-      "D. Junction"
-    ],
+    "options": ["A. Master-detail", "B. Hierarchical", "C. Lookup", "D. Junction"],
     "answer": "C",
     "title": "Question 25",
     "explanation": ""
@@ -315,24 +300,14 @@
   },
   {
     "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement? * (1 Point)",
-    "options": [
-      "A. Hierarchical",
-      "B. Junction",
-      "C. Master-detail",
-      "D. Lookup"
-    ],
+    "options": ["A. Hierarchical", "B. Junction", "C. Master-detail", "D. Lookup"],
     "answer": "C",
     "title": "Question 29",
     "explanation": ""
   },
   {
     "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book? * (1 Point)",
-    "options": [
-      "A. Enter a Product Code.",
-      "B. Check the Active checkbox.",
-      "C. Enter a Product Description.",
-      "D. Select a Product Family"
-    ],
+    "options": ["A. Enter a Product Code.", "B. Check the Active checkbox.", "C. Enter a Product Description.", "D. Select a Product Family"],
     "answer": "B",
     "title": "Question 30",
     "explanation": ""
@@ -401,12 +376,7 @@
   },
   {
     "content": "What type of data can be migrated between environments using change sets? Choose 2 answers",
-    "options": [
-      "A. Account team roles",
-      "B. Email templates",
-      "C. Custom fields",
-      "D. Field type changes"
-    ],
+    "options": ["A. Account team roles", "B. Email templates", "C. Custom fields", "D. Field type changes"],
     "answer": "B,C",
     "title": "Question 36",
     "explanation": ""
@@ -420,24 +390,14 @@
   },
   {
     "content": "The administrator at Universal Containers has been asked to create an account management dashboard displaying opportunities and activities for each of its top five clients.\nWhich dashboard feature should the Administrator use to meet this requirement?",
-    "options": [
-      "A. Joined reports on a dashboard",
-      "B. Dashboard Filter",
-      "C. Dynamic dashboard",
-      "D. Matrix reports on a dashboard"
-    ],
+    "options": ["A. Joined reports on a dashboard", "B. Dashboard Filter", "C. Dynamic dashboard", "D. Matrix reports on a dashboard"],
     "answer": "C",
     "title": "Question 38",
     "explanation": ""
   },
   {
     "content": "Universal Containers wants to allow community visitors to submit support cases without logging into the community.\nWhich two features are required to implement this request?\nChoose 2 answers",
-    "options": [
-      "A. web-to-case",
-      "B. Case feed actions",
-      "C. New case quick action",
-      "D. Case assignment rules"
-    ],
+    "options": ["A. web-to-case", "B. Case feed actions", "C. New case quick action", "D. Case assignment rules"],
     "answer": "A,C",
     "title": "Question 39",
     "explanation": ""
@@ -468,12 +428,7 @@
   },
   {
     "content": "When the delete permission is selected in a muting permission set, which other permission is automatically muted?",
-    "options": [
-      "A. Modify All Records",
-      "B. New Al Records",
-      "C. View Al Data",
-      "D. Modify All Data"
-    ],
+    "options": ["A. Modify All Records", "B. New Al Records", "C. View Al Data", "D. Modify All Data"],
     "answer": "A",
     "title": "Question 42",
     "explanation": ""
@@ -528,24 +483,14 @@
   },
   {
     "content": "Universal Containers wants to create a Job Application custom object related to a Job Posting custom object. They would also like a no-code solution to calculate the number of Job Applications for each Job Posting.\nWhat type of field should an administrator create on the Job Application to enable this functionality?",
-    "options": [
-      "A. Roll-up Summary",
-      "B. Formula",
-      "C. Master-Detail",
-      "D. Lookup"
-    ],
+    "options": ["A. Roll-up Summary", "B. Formula", "C. Master-Detail", "D. Lookup"],
     "answer": "C",
     "title": "Question 47",
     "explanation": ""
   },
   {
     "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production? * (1 Point)",
-    "options": [
-      "A. Partial Data Sandbox",
-      "B. Developer Pro Sandbox",
-      "C. Full Sandbox",
-      "D. Developer Sandbox"
-    ],
+    "options": ["A. Partial Data Sandbox", "B. Developer Pro Sandbox", "C. Full Sandbox", "D. Developer Sandbox"],
     "answer": "B",
     "title": "Question 48",
     "explanation": ""
@@ -571,12 +516,7 @@
   },
   {
     "content": "Universal Container has an active process that assigns a task to sales operations once an opportunity is won. Sales Ops is reporting that he tasks are missing.\nWhich two tools should the administrator use to determine the problem?\nChoose 2 answers",
-    "options": [
-      "A. Email Log",
-      "B. Debug Log",
-      "C. Monitor time based workflow",
-      "D. Paused flow interview list"
-    ],
+    "options": ["A. Email Log", "B. Debug Log", "C. Monitor time based workflow", "D. Paused flow interview list"],
     "answer": "A,B",
     "title": "Question 51",
     "explanation": ""
@@ -595,12 +535,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track resources called Supply Items with a lookup to Accounts. The Supply Items records should only be visible by users that own the Account records. What sharing setting provides the correct visibility?",
-    "options": [
-      "A. Private",
-      "B. Controlled by Parent",
-      "C. Public Read Only",
-      "D. Public Read/Write/Transfer"
-    ],
+    "options": ["A. Private", "B. Controlled by Parent", "C. Public Read Only", "D. Public Read/Write/Transfer"],
     "answer": "B",
     "title": "Question 53",
     "explanation": ""
@@ -909,12 +844,7 @@
   },
   {
     "content": "what should an administrator do before case feeds can be enabled? choose 2",
-    "options": [
-      "A. Enable default email templates",
-      "B. Enable feed tracking on cases.",
-      "C. Enable case assignment rules.",
-      "D. Enable chatter."
-    ],
+    "options": ["A. Enable default email templates", "B. Enable feed tracking on cases.", "C. Enable case assignment rules.", "D. Enable chatter."],
     "answer": "B,D",
     "title": "Question 80",
     "explanation": ""
@@ -952,13 +882,7 @@
   },
   {
     "content": "List the different prices that are available for a product. Choose three answers. * (1 Point)",
-    "options": [
-      "A. Discounted List Price",
-      "B. List Price",
-      "C. Standard Price",
-      "D. Product Price",
-      "E. Sales Price"
-    ],
+    "options": ["A. Discounted List Price", "B. List Price", "C. Standard Price", "D. Product Price", "E. Sales Price"],
     "answer": "B,C,E",
     "title": "Question 84",
     "explanation": ""
@@ -990,12 +914,7 @@
   },
   {
     "content": "How can you make sure that a field will be visible on 2 profiles only? * (1 Point)",
-    "options": [
-      "A. validation rules",
-      "B. create a page layout and hide the field",
-      "C. Field-Level Security",
-      "D. workflow field update"
-    ],
+    "options": ["A. validation rules", "B. create a page layout and hide the field", "C. Field-Level Security", "D. workflow field update"],
     "answer": "C",
     "title": "Question 87",
     "explanation": ""
