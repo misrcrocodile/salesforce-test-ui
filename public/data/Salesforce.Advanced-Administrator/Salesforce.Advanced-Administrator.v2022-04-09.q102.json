@@ -12,7 +12,7 @@
     "explanation": ""
   },
   {
-    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length. * (1 Point)",
+    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length.",
     "options": ["A. False", "B. True"],
     "answer": "A",
     "title": "Question 2",
@@ -55,7 +55,7 @@
     "explanation": ""
   },
   {
-    "content": "What is the first step before setting up entitlements? * (1 Point)",
+    "content": "What is the first step before setting up entitlements?",
     "options": [
       "A. Enable entitlement management",
       "B. Customize entitlements fields",
@@ -81,30 +81,20 @@
   },
   {
     "content": "After a recent release, users report that the look and feel of the app they use is different. Fields are appearing in a different place on the page, related lists are missing, and tabs are rearranged.\nHow should an administrator troubleshoot this?",
-    "options": [
-      "A. Setup Audit Trail",
-      "B. Debug Log",
-      "C. App Manager",
-      "D. Page Layouts"
-    ],
+    "options": ["A. Setup Audit Trail", "B. Debug Log", "C. App Manager", "D. Page Layouts"],
     "answer": "A",
     "title": "Question 8",
     "explanation": ""
   },
   {
-    "content": "Which permission do you need to manage entitlements? Choose two answers. * (1 Point)",
-    "options": [
-      "A. \"Customize Entitlement\"",
-      "B. \"Customize Application\"",
-      "C. \"Manage Entitlements\"",
-      "D. \"Manage Application\""
-    ],
+    "content": "Which permission do you need to manage entitlements? Choose two answers.",
+    "options": ["A. \"Customize Entitlement\"", "B. \"Customize Application\"", "C. \"Manage Entitlements\"", "D. \"Manage Application\""],
     "answer": "B,C",
     "title": "Question 9",
     "explanation": ""
   },
   {
-    "content": "Universal Containers needs to use a different pricebook for sales\nrepresentatives in each of the US, LATAM, EMEA, and APAC regions. What\nshould the system\nadministrator do? * (1 Point)",
+    "content": "Universal Containers needs to use a different pricebook for sales\nrepresentatives in each of the US, LATAM, EMEA, and APAC regions. What\nshould the system\nadministrator do?",
     "options": [
       "A. Clone the standard pricebook and create separate pricebooks for each region",
       "B. Add a different list price for products depending on the region",
@@ -115,19 +105,14 @@
     "explanation": ""
   },
   {
-    "content": "Which tools would you use to deploy metadata from one organization to either a RELATED or UNRELATED organization? Choose two answers. * (1 Point)",
-    "options": [
-      "A. Unmanaged Packages",
-      "B. Force.com IDE",
-      "C. Force.com Migration Tool",
-      "D. Change sets"
-    ],
+    "content": "Which tools would you use to deploy metadata from one organization to either a RELATED or UNRELATED organization? Choose two answers.",
+    "options": ["A. Unmanaged Packages", "B. Force.com IDE", "C. Force.com Migration Tool", "D. Change sets"],
     "answer": "B,C",
     "title": "Question 11",
     "explanation": ""
   },
   {
-    "content": "A sales manager is receiving an \"insufficient privileges\" error when viewing a contact. The contact owner is under the manager in the role hierarchy and\n\"grant access using hierarchies\"is checked in their sharing settings. Why is the sales manager not able to view the contact? * (1 Point) The contact sharing settings are controlled by the parent, and the account owner is",
+    "content": "A sales manager is receiving an \"insufficient privileges\" error when viewing a contact. The contact owner is under the manager in the role hierarchy and\n\"grant access using hierarchies\"is checked in their sharing settings. Why is the sales manager not able to view the contact? The contact sharing settings are controlled by the parent, and the account owner is",
     "options": [
       "A. The contact sharing settings are private, so access to the record is omitted to the contact owner and system administrator",
       "B. The account sharing settings are controlled by the parent, and the account owner is NOT under the sales manager's role",
@@ -139,7 +124,7 @@
     "explanation": ""
   },
   {
-    "content": "How can content types be used in CRM Content? (Choose two answers.) * (1 Point)",
+    "content": "How can content types be used in CRM Content? (Choose two answers.)",
     "options": [
       "A. With upload rules, to limit the size of content files.",
       "B. With library rules, to limit the number of libraries created",
@@ -164,12 +149,7 @@
   },
   {
     "content": "What declarative toot fete administrators test Lightning email temples and automations in a sandbox environment and then move what's successful to a production environment?",
-    "options": [
-      "A. Change Sets",
-      "B. ANT Migration Tool",
-      "C. Salesforce CLl",
-      "D. lightning Flow"
-    ],
+    "options": ["A. Change Sets", "B. ANT Migration Tool", "C. Salesforce CLl", "D. lightning Flow"],
     "answer": "B",
     "title": "Question 15",
     "explanation": ""
@@ -188,12 +168,7 @@
   },
   {
     "content": "Universal Containers wants to track invoices with a custom object. They want to be able to view any invoices as a related list on the Opportunity record page.\nWhich feature would ensure can view all invoices associated with an Opportunity if the user can view the parent Opportunity record?",
-    "options": [
-      "A. Sharing Rules",
-      "B. Lookup Relationships",
-      "C. Field Level Security",
-      "D. Master-Detail Relationships"
-    ],
+    "options": ["A. Sharing Rules", "B. Lookup Relationships", "C. Field Level Security", "D. Master-Detail Relationships"],
     "answer": "D",
     "title": "Question 17",
     "explanation": ""
@@ -223,13 +198,8 @@
     "explanation": ""
   },
   {
-    "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement? * (1 Point)",
-    "options": [
-      "A. Junction",
-      "B. Hierarchical",
-      "C. Lookup",
-      "D. Master-detail"
-    ],
+    "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement?",
+    "options": ["A. Junction", "B. Hierarchical", "C. Lookup", "D. Master-detail"],
     "answer": "D",
     "title": "Question 20",
     "explanation": ""
@@ -247,7 +217,7 @@
     "explanation": ""
   },
   {
-    "content": "Your company sells large mainframes that are delivered in one delivery but are paid for with several regular installments. What type of schedule should you set up? * (1 Point)",
+    "content": "Your company sells large mainframes that are delivered in one delivery but are paid for with several regular installments. What type of schedule should you set up?",
     "options": [
       "A. Don't create any default schedule",
       "B. Default Revenue and Quantity Schedule",
@@ -295,7 +265,7 @@
     "explanation": ""
   },
   {
-    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2. * (1 Point)",
+    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2.",
     "options": [
       "A. Customize Quotas",
       "B. View all Forecasts",
@@ -333,7 +303,7 @@
     "explanation": ""
   },
   {
-    "content": "Which of the following is NOT true about article types in Salesforce Knowledge? * (1 Point)",
+    "content": "Which of the following is NOT true about article types in Salesforce Knowledge?",
     "options": [
       "A. An organization must have 2 article types to enable Knowledge.",
       "B. Article Types may include attachments.",
@@ -431,12 +401,7 @@
   },
   {
     "content": "Cloud Kicks (CK) has recently decided to use Collaborative Forecasting to optimize the accuracy and efficiency of its sales cycle. The CK sales operation manager wants to enable supervisors and their subordinates to make changes to any forecast amounts that inaccurately reflect their current pipeline.\nWhich two settings should be enabled to meet this requirement?\nChoose 2 answers",
-    "options": [
-      "A. Revenue adjustments",
-      "B. Owner adjustments",
-      "C. Manager adjustments",
-      "D. Payout adjustments"
-    ],
+    "options": ["A. Revenue adjustments", "B. Owner adjustments", "C. Manager adjustments", "D. Payout adjustments"],
     "answer": "B,C",
     "title": "Question 37",
     "explanation": ""
@@ -468,11 +433,7 @@
   },
   {
     "content": "Cloud Kicks (CK) has a sneaker of the month product that is sold as an annual subscription at the price of $1, What type of product scheduling should the CK administrator set up to accurately capture that information?",
-    "options": [
-      "A. Revenue Schedule Only",
-      "B. Inbound Scheduling",
-      "C. Quantity and Revenue Schedules."
-    ],
+    "options": ["A. Revenue Schedule Only", "B. Inbound Scheduling", "C. Quantity and Revenue Schedules."],
     "answer": "C",
     "title": "Question 40",
     "explanation": "Quantity Schedule Only"
@@ -502,11 +463,11 @@
     "explanation": ""
   },
   {
-    "content": "What access can users have to Accounts and Opportunities when territory management is enabled? * (1 Point)",
+    "content": "What access can users have to Accounts and Opportunities when territory management is enabled?",
     "options": [
       "A. Transfer and Delete opportunities regardless of the owner of the record",
       "B. View Account records regardless of the account record owner",
-      "C. Edit,TransferandDeleteOpportunityrecordsregardlessoftherecordoftheowner",
+      "C. Edit, Transfer and Delete Opportunity records regardless of the record of the owner",
       "D. Edit Opportunity records regardless of the account owner"
     ],
     "answer": "B",
@@ -563,12 +524,7 @@
   },
   {
     "content": "Universal Containers wants to create a Job Application custom object related to a Job Posting custom object. They would also like a no-code solution to calculate the number of Job Applications for each Job Posting.\nWhat type of field should an administrator create on the Job Application to enable this functionality?",
-    "options": [
-      "A. Lookup",
-      "B. Roll-up Summary",
-      "C. Master-Detail",
-      "D. Formula"
-    ],
+    "options": ["A. Lookup", "B. Roll-up Summary", "C. Master-Detail", "D. Formula"],
     "answer": "C",
     "title": "Question 48",
     "explanation": ""
@@ -587,12 +543,7 @@
   },
   {
     "content": "Which two deployment tools should be used to deploy metadata from a Developer Edition organization to another organization?\nChoose 2 answers",
-    "options": [
-      "A. Salesforce Extensions for Visual Studio Code",
-      "B. Data Loader",
-      "C. Ant Migration Tool",
-      "D. Change sets"
-    ],
+    "options": ["A. Salesforce Extensions for Visual Studio Code", "B. Data Loader", "C. Ant Migration Tool", "D. Change sets"],
     "answer": "C,D",
     "title": "Question 50",
     "explanation": ""
@@ -622,14 +573,14 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager wanes to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
+    "content": "A sales manager wants to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
     "options": [
       "A. Redefine the role hierarchy grant access using hierarchies.",
       "B. Create a permission set for Opportunity edit and associate it to the year record.",
       "C. Change the Opportunity's organization-wide default setting to public read/write.",
       "D. Enable team setting on the Opportunity object to grant read/write access."
     ],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 53",
     "explanation": ""
   },
@@ -646,7 +597,7 @@
     "explanation": ""
   },
   {
-    "content": "Universal Containers uses Enterprise Territory Management to manage its sales territories. The sales managers want to see who the account is manually shared outside of territory rules. How can the system administrator meet this requirement? * (1 Point)",
+    "content": "Universal Containers uses Enterprise Territory Management to manage its sales territories. The sales managers want to see who the account is manually shared outside of territory rules. How can the system administrator meet this requirement?",
     "options": [
       "A. Add \"Manage Territories\" permission to the sales manager's profile",
       "B. Add \"Assign Territories\" permission to the sales manager's profile",
@@ -659,23 +610,18 @@
   },
   {
     "content": "Multiple developers work in the AW Computing developer sandbox for testing and merging code. A developer is reporting that one of the Lightning web Components is no longer visible in the user interface.\nWhat can the administrator use to troubleshoot?",
-    "options": [
-      "A. Salesferce CLI",
-      "B. Apex Jobs page",
-      "C. Setup Audit Trail",
-      "D. Flex Queue"
-    ],
+    "options": ["A. Salesferce CLI", "B. Apex Jobs page", "C. Setup Audit Trail", "D. Flex Queue"],
     "answer": "A",
     "title": "Question 56",
     "explanation": ""
   },
   {
-    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement? * (1 Point)",
+    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement?",
     "options": [
       "A. Create a criteria-based sharing rule for the 5 users",
       "B. Remove the record type access for all users except the 5 mentioned",
       "C. Create a new profile and assign the 5 users to the new profile",
-      "D. Givethe\"ViewAllData\"permissiontothe5mentionedusersusingpermissionsets"
+      "D. Give the \"ViewAllData\" permission to the mentioned users using permission sets"
     ],
     "answer": "A",
     "title": "Question 57",
@@ -721,30 +667,20 @@
   },
   {
     "content": "Universal Containers' Support team is growing globally, and the manager has inquired about implementing Omni-Channel. The team supports multiple products that require complex expertise across multiple languages.\nWhich routing option should the administrator recommend to ensure the right cases get to the correct agents for resolution?",
-    "options": [
-      "A. Case Assignment Rules",
-      "B. Skills-Based Routing",
-      "C. Translation Workbench",
-      "D. Queue-Based Routing"
-    ],
+    "options": ["A. Case Assignment Rules", "B. Skills-Based Routing", "C. Translation Workbench", "D. Queue-Based Routing"],
     "answer": "B",
     "title": "Question 61",
     "explanation": ""
   },
   {
-    "content": "How can you make sure that a field will be visible on 2 profiles only? * (1 Point)",
-    "options": [
-      "A. validation rules",
-      "B. Field-Level Security",
-      "C. create a page layout and hide the field",
-      "D. workflow field update"
-    ],
+    "content": "How can you make sure that a field will be visible on 2 profiles only?",
+    "options": ["A. validation rules", "B. Field-Level Security", "C. create a page layout and hide the field", "D. workflow field update"],
     "answer": "B",
     "title": "Question 62",
     "explanation": ""
   },
   {
-    "content": "How would you configure a profile to find duplicate records? * (1 Point)",
+    "content": "How would you configure a profile to find duplicate records?",
     "options": ["A. merge", "B. read,edit", "C. view all", "D. Delete"],
     "answer": "C",
     "title": "Question 63",
@@ -764,12 +700,7 @@
   },
   {
     "content": "Cloud Kicks has a requirement to display sensitive data only to appropriate users. The amount m the Salary field on the User object should display data only when the user record is being viewed by the user or by users with the MR profile. For all other users viewing the user record, the Salary field should display the word \"Confidential* as text in the field.\nWhat should the administrator to fulfill this requirement?",
-    "options": [
-      "A. Process Builder",
-      "B. Page Layout",
-      "C. Validation Rule",
-      "D. Formula field"
-    ],
+    "options": ["A. Process Builder", "B. Page Layout", "C. Validation Rule", "D. Formula field"],
     "answer": "A",
     "title": "Question 65",
     "explanation": ""
@@ -789,12 +720,7 @@
   },
   {
     "content": "Recruiters at universal containers wants to associate positions with their related job applications using two custom objects position and job application. a job application must always have a related position. if a position is deleted, the corresponding job applications are deleted.\nwhat type of object relation ship will meet this requirement?",
-    "options": [
-      "A. Hierarchical",
-      "B. Master detail",
-      "C. junction",
-      "D. Lookup"
-    ],
+    "options": ["A. Hierarchical", "B. Master detail", "C. junction", "D. Lookup"],
     "answer": "B",
     "title": "Question 67",
     "explanation": ""
@@ -836,7 +762,7 @@
     "explanation": ""
   },
   {
-    "content": "What should a system administrator consider before using territory management? Choose three answers. * (1 Point)",
+    "content": "What should a system administrator consider before using territory management? Choose three answers.",
     "options": [
       "A. You need to contact Salesforce to have it enabled",
       "B. Forecasts are derived from Territory hierarchy not Role hierarchy",
@@ -849,12 +775,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint.\nWhat types of relationship can be used to accomplish this?",
-    "options": [
-      "A. Junction",
-      "B. Master-detail",
-      "C. Hierarchical",
-      "D. Lookup"
-    ],
+    "options": ["A. Junction", "B. Master-detail", "C. Hierarchical", "D. Lookup"],
     "answer": "D",
     "title": "Question 72",
     "explanation": ""
@@ -934,18 +855,13 @@
   },
   {
     "content": "What is the correct order of steps to follow when working with inbound change sets?",
-    "options": [
-      "A. Monitor, Deploy, Validate",
-      "B. Deploy, validate, Monitor",
-      "C. Deploy, Monitor, Validate",
-      "D. Validate, Deploy, Monitor"
-    ],
+    "options": ["A. Monitor, Deploy, Validate", "B. Deploy, validate, Monitor", "C. Deploy, Monitor, Validate", "D. Validate, Deploy, Monitor"],
     "answer": "D",
     "title": "Question 79",
     "explanation": ""
   },
   {
-    "content": "The sales manager at Universal Containers wants to see all opportunities that do not have any activities.\nWhich report type could be used to meet this requirement? Choose two answers. * (1 Point)",
+    "content": "The sales manager at Universal Containers wants to see all opportunities that do not have any activities.\nWhich report type could be used to meet this requirement? Choose two answers.",
     "options": [
       "A. A joined report using an opportunity report in Block A; a task and event report filtered by tasks for Block B",
       "B. An opportunity report with across-object filter of opportunities without activities",
@@ -957,7 +873,7 @@
     "explanation": ""
   },
   {
-    "content": "A change set that has already been submitted for deployment is missing a component.\nWhat can you do in order to correct the issue? * (1 Point)",
+    "content": "A change set that has already been submitted for deployment is missing a component.\nWhat can you do in order to correct the issue?",
     "options": [
       "A. Edit the change set, deactivate it and then add the missing component",
       "B. Clone the change set. edit the components and deploy it",
@@ -969,7 +885,7 @@
     "explanation": ""
   },
   {
-    "content": "Which feature license is required to use Content? * (1 Point)",
+    "content": "Which feature license is required to use Content?",
     "options": [
       "A. Salesforce CRM Content Manager",
       "B. Salesforce CRM Content Creator",
@@ -982,19 +898,13 @@
   },
   {
     "content": "Which three types of prices should an administrator set for an organization's products?\nChoose 3 answers.",
-    "options": [
-      "A. Discount prices",
-      "B. Sales prices",
-      "C. Standard prices",
-      "D. Product prices",
-      "E. List prices"
-    ],
+    "options": ["A. Discount prices", "B. Sales prices", "C. Standard prices", "D. Product prices", "E. List prices"],
     "answer": "A,C,E",
     "title": "Question 83",
     "explanation": ""
   },
   {
-    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate #m*e the sates rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
+    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate because the sales rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
     "options": [
       "A. Include the nap on the Opportunity Team.",
       "B. Enable public groups for sharing.",
@@ -1018,7 +928,7 @@
     "explanation": ""
   },
   {
-    "content": "What would cause are quired field to not be populated on some records? Choose 2 answers. * (1 Point)",
+    "content": "What would cause are quired field to not be populated on some records? Choose 2 answers.",
     "options": [
       "A. The field is hidden",
       "B. The field is not in the page layout",
@@ -1098,12 +1008,7 @@
   },
   {
     "content": "Cloud Kicks has an app that should only be used in the VIP showroom.\nWhich feature should an administrator use to permit access to the app?",
-    "options": [
-      "A. Single Sign-On",
-      "B. Delegated Administration",
-      "C. Permission Set Group",
-      "D. Session-Based Permission Set"
-    ],
+    "options": ["A. Single Sign-On", "B. Delegated Administration", "C. Permission Set Group", "D. Session-Based Permission Set"],
     "answer": "D",
     "title": "Question 93",
     "explanation": ""
@@ -1145,7 +1050,7 @@
     "explanation": ""
   },
   {
-    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users? * (1 Point)",
+    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users?",
     "options": ["A. Delete", "B. View All", "C. Read and Edit", "D. Merge"],
     "answer": "B",
     "title": "Question 97",

@@ -194,12 +194,7 @@
   },
   {
     "content": "Universal Containers has a workflow rule that sends and email alert to the VP of Sales when a large deal is won. The VP is reporting that these emails are not being delivered. Which two tools should be used to determine the problem?",
-    "options": [
-      "A. Workflow monitor",
-      "B. Debug logo",
-      "C. Email log",
-      "D. System audit trail"
-    ],
+    "options": ["A. Workflow monitor", "B. Debug logo", "C. Email log", "D. System audit trail"],
     "answer": "B,C",
     "title": "Question 17",
     "explanation": ""
@@ -218,13 +213,7 @@
   },
   {
     "content": "What type of prices can the system administrator set for an organization's products?",
-    "options": [
-      "A. Sales prices.(100%)",
-      "B. List prices.(100%)",
-      "C. Product prices.",
-      "D. Standard prices.(100%)",
-      "E. Discount prices."
-    ],
+    "options": ["A. Sales prices.(100%)", "B. List prices.(100%)", "C. Product prices.", "D. Standard prices.(100%)", "E. Discount prices."],
     "answer": "A,B,D",
     "title": "Question 19",
     "explanation": ""
@@ -255,12 +244,7 @@
   },
   {
     "content": "The administrator at Universal Containers has been asked to create an account management dashboard displaying opportunities and activities for each of its top five clients.\nWhich dashboard feature should the Administrator use to meet this requirement?",
-    "options": [
-      "A. Matrix reports on a dashboard",
-      "B. Dashboard Filter",
-      "C. Joined reports on a dashboard",
-      "D. Dynamic dashboard"
-    ],
+    "options": ["A. Matrix reports on a dashboard", "B. Dashboard Filter", "C. Joined reports on a dashboard", "D. Dynamic dashboard"],
     "answer": "A",
     "title": "Question 22",
     "explanation": ""
@@ -303,12 +287,7 @@
   },
   {
     "content": "Universal containers wants a summary report that displays the percemtage growth of revenue year over year.\nWhat function should an administrator use to calculate this information?",
-    "options": [
-      "A. DATEVALUE",
-      "B. PREVGROUPVAL",
-      "C. PRIORVALUE",
-      "D. PARENTGROUPVAL."
-    ],
+    "options": ["A. DATEVALUE", "B. PREVGROUPVAL", "C. PRIORVALUE", "D. PARENTGROUPVAL."],
     "answer": "D",
     "title": "Question 26",
     "explanation": ""
@@ -437,24 +416,14 @@
   },
   {
     "content": "Universal containers is implementing a time recording system in salesforce.\nEmployees are required to record their time in a work log custom objectagainst either an opportunity or a case. The company wants to see total hours worked on an opportunity or a case. which type of relationship field should an administrator use to relate the work log to the opportunity or case?",
-    "options": [
-      "A. Master-detail.",
-      "B. Lookup.",
-      "C. Hierarchical.",
-      "D. Junction"
-    ],
+    "options": ["A. Master-detail.", "B. Lookup.", "C. Hierarchical.", "D. Junction"],
     "answer": "D",
     "title": "Question 37",
     "explanation": ""
   },
   {
     "content": "An administrator would like to know which delegated administrators are actively customizing their organization.\ntheir organization. Where can the administrator find this information?",
-    "options": [
-      "A. Delegated administrator log",
-      "B. Debug log",
-      "C. Setup audit trail",
-      "D. Login history"
-    ],
+    "options": ["A. Delegated administrator log", "B. Debug log", "C. Setup audit trail", "D. Login history"],
     "answer": "C",
     "title": "Question 38",
     "explanation": ""
@@ -498,12 +467,7 @@
   },
   {
     "content": "When the delete permission is selected in a muting permission set, which other permission is automatically muted?",
-    "options": [
-      "A. Modify All Records",
-      "B. Modify All Data",
-      "C. New Al Records",
-      "D. View Al Data"
-    ],
+    "options": ["A. Modify All Records", "B. Modify All Data", "C. New Al Records", "D. View Al Data"],
     "answer": "A",
     "title": "Question 42",
     "explanation": ""
@@ -530,7 +494,7 @@
       "C. change the opportunity organization-wide default setting to public Read/Write.",
       "D. Redefine the role hierarchy by enabling \" grant access using hierarchies\"."
     ],
-    "answer": "A,B",
+    "answer": "A",
     "title": "Question 45",
     "explanation": ""
   },
@@ -548,12 +512,7 @@
   },
   {
     "content": "Support agents at Cloud Kicks associate Cases and Bugs so that can report on how many Cases are related to a Bug. A Bug is required to have a Case in order to be created.\nWhich type of object relationship will meet this requirement?",
-    "options": [
-      "A. Hierarchical",
-      "B. Master-detail",
-      "C. Lookup",
-      "D. Junction"
-    ],
+    "options": ["A. Hierarchical", "B. Master-detail", "C. Lookup", "D. Junction"],
     "answer": "B",
     "title": "Question 47",
     "explanation": ""
@@ -585,25 +544,15 @@
   },
   {
     "content": "What is the correct order of steps to follow when working with inbound change sets?",
-    "options": [
-      "A. Monitor, Deploy, Validate",
-      "B. Deploy, validate, Monitor",
-      "C. Validate, Deploy, Monitor",
-      "D. Deploy, Monitor, Validate"
-    ],
+    "options": ["A. Monitor, Deploy, Validate", "B. Deploy, validate, Monitor", "C. Validate, Deploy, Monitor", "D. Deploy, Monitor, Validate"],
     "answer": "C",
     "title": "Question 50",
     "explanation": ""
   },
   {
     "content": "Northern Trail Outfitters has five delegated administrators and two system administrators. There have been a couple of cases reported that login settings for sales reps have changed.\nWhere would the administrator find what settings have been changed?",
-    "options": [
-      "A. Debug log",
-      "B. Field history tracking",
-      "C. Login history",
-      "D. Setup audit trail"
-    ],
-    "answer": "B",
+    "options": ["A. Debug log", "B. Field history tracking", "C. Login history", "D. Setup audit trail"],
+    "answer": "D",
     "title": "Question 51",
     "explanation": ""
   },
@@ -657,12 +606,7 @@
   },
   {
     "content": "Universal Containers wants to track expense reports and expense line items. Values from expense line item records need to be aggregated and displayed on the expense record. What type of relationship should an administrator use to ensure that expense line items can be aggregated?",
-    "options": [
-      "A. Roll-up summary",
-      "B. Master-detail",
-      "C. Hierarchical",
-      "D. Lookup"
-    ],
+    "options": ["A. Roll-up summary", "B. Master-detail", "C. Hierarchical", "D. Lookup"],
     "answer": "B",
     "title": "Question 56",
     "explanation": ""

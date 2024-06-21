@@ -1,12 +1,7 @@
 [
   {
     "content": "Users at Ursa Major Solar want to create complex dashboards with supporting charts based on data to come from a variety of sources, some of which live on the Internal company shared drives.\nWhich product should the administrator recommend to meet the users' needs?",
-    "options": [
-      "A. Lightning Dashboard Builder",
-      "B. List views",
-      "C. Tableau CKM",
-      "D. Report Bulkier"
-    ],
+    "options": ["A. Lightning Dashboard Builder", "B. List views", "C. Tableau CKM", "D. Report Bulkier"],
     "answer": "C",
     "title": "Question 1",
     "explanation": ""
@@ -85,12 +80,7 @@
   },
   {
     "content": "The sales manager at Cloud Kicks wants a way to report on information from a form their clients fill out during the sales cycle. Once a form has been submitted, the client is unable to access it. This form may need to be filled out more than once during the sales cycle. There are more than 30 fields on this form, and the sales team needs to be able to see what changed from one submission to the next.\nWhich two options should an administrator use to solve this scenario?\nChoose 2 answers",
-    "options": [
-      "A. Create a custom object.",
-      "B. Add forms as attachments.",
-      "C. Turn on Field Tracking.",
-      "D. Make custom fields."
-    ],
+    "options": ["A. Create a custom object.", "B. Add forms as attachments.", "C. Turn on Field Tracking.", "D. Make custom fields."],
     "answer": "A,B",
     "title": "Question 8",
     "explanation": ""
@@ -156,7 +146,7 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
+    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently, users have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
     "options": [
       "A. Use the Apex debugger while loading a customer record.",
       "B. Check the debug logs found in the Environment section of Setup.",
@@ -193,12 +183,7 @@
   },
   {
     "content": "AW Computing wants to enable a backup resource to assign permissions while restricting the backup resource's ability to create or modify permission sets.\nWhich feature should be employed to accomplish this request?",
-    "options": [
-      "A. Delegated Administrator",
-      "B. Assignment Rules",
-      "C. Customize Application Permission",
-      "D. View All Users Permission"
-    ],
+    "options": ["A. Delegated Administrator", "B. Assignment Rules", "C. Customize Application Permission", "D. View All Users Permission"],
     "answer": "A",
     "title": "Question 17",
     "explanation": ""
@@ -241,24 +226,14 @@
   },
   {
     "content": "users at Northern Trail Outfitters have a lot of fields on their new account records because they track their accounts and competitors on the Account object. For accounts created for customers, they need access to different fields than the accounts used to track competitors. For partner accounts, they need different values in the Industry field.\nWhat should the administrator use to resolve the issues?",
-    "options": [
-      "A. Flow Builder",
-      "B. Required Fields",
-      "C. Record Types",
-      "D. Business Processes"
-    ],
+    "options": ["A. Flow Builder", "B. Required Fields", "C. Record Types", "D. Business Processes"],
     "answer": "C",
     "title": "Question 21",
     "explanation": ""
   },
   {
     "content": "On the Planet custom object, Ursa Major Solar's sales director wants only certain action buttons to appear depending on if a given planet is defined as gaseous.\nWhich Lightning component should the administrator define dynamic action buttons?",
-    "options": [
-      "A. Related Lists",
-      "B. Activities",
-      "C. Highlights Panel",
-      "D. Record Detail"
-    ],
+    "options": ["A. Related Lists", "B. Activities", "C. Highlights Panel", "D. Record Detail"],
     "answer": "C",
     "title": "Question 22",
     "explanation": ""
@@ -301,14 +276,14 @@
     "explanation": ""
   },
   {
-    "content": "An auto-response rule sends en email using Template when the field Case Source Is 'email' and Template when Case Source is blank. A Process Builder updates Case Source to 'email' when a case is created using Email-to-Case and to web' when a case Is created using Web-to-Case. Otherwise, Case Source Is blank.\nWhat will occur when a case is created from an Incoming email?",
+    "content": "An auto-response rule sends an email using Template 1 when the field Case Source Is 'email' and Template 2 when Case Source is blank. A Process Builder updates Case Source to 'email' when a case is created using Email-to-Case and to 'web' when a case Is created using Web-to-Case. Otherwise, Case Source Is blank.\nWhat will occur when a case is created from an Incoming email?",
     "options": [
-      "A. Case Source updates to email and an email Is sent out using Template1.",
-      "B. Case Source updates to 'email' and an email is sent out using Template2.",
-      "C. An email is sent out using Template and then Case Source updates to email'.",
-      "D. An email la sent out using Template and then Case Source updates to 'email'."
+      "A. An email la sent out using Template 1 and then Case Source updates to 'email'.",
+      "B. An email is sent out using Template 2 and then Case Source updates to 'email'.",
+      "C. Case Source updates to 'email' and an email is sent out using Template2.",
+      "D. Case Source updates to email and an email Is sent out using Template1."
     ],
-    "answer": "D",
+    "answer": "A",
     "title": "Question 26",
     "explanation": ""
   },
@@ -333,48 +308,28 @@
   },
   {
     "content": "The sales agents at DreamHouse Realty have a profile that allows them to import records for a custom object called House. The agents only need to make imports occasionally and typically Import around 100 new records at a time.\nWhat tool should the agents use to upload records?",
-    "options": [
-      "A. Bulk API",
-      "B. Data Loader",
-      "C. Apex",
-      "D. Date Xmport Wizard"
-    ],
+    "options": ["A. Bulk API", "B. Data Loader", "C. Apex", "D. Date Import Wizard"],
     "answer": "D",
     "title": "Question 29",
     "explanation": ""
   },
   {
     "content": "At Ursa Major Solar, there is an account owner by a user with the role of Galaxy manager. Two users with the same profile are both assigned to the sub-role, Galaxy Subordinate. However, only one can access the account.\nWhat is the reason only one user can see the account record?",
-    "options": [
-      "A. Queues",
-      "B. Workflow Rule",
-      "C. Role Hierarchy",
-      "D. Manual Sharing"
-    ],
+    "options": ["A. Queues", "B. Workflow Rule", "C. Role Hierarchy", "D. Manual Sharing"],
     "answer": "D",
     "title": "Question 30",
     "explanation": ""
   },
   {
     "content": "A sales rep at Ursa Major Solar was assigned to a role under their manager and is the record owner of several opportunities; however, the sales rep is missing from the manager's forecast.\nWhat should the administrator review to solve this issue?",
-    "options": [
-      "A. Allow Forecasting",
-      "B. Allow Override Forecasts",
-      "C. Enable owner adjustment",
-      "D. Enable manager adjustments"
-    ],
+    "options": ["A. Allow Forecasting", "B. Allow Override Forecasts", "C. Enable owner adjustment", "D. Enable manager adjustments"],
     "answer": "D",
     "title": "Question 31",
     "explanation": ""
   },
   {
     "content": "A sales user is assigned to a permission set group that gives them Modify All access to\nAccounts. An administrator assigns the same user to a muting permission set that mutes Deletes access on Account.\nWhat level of access will the sales user have on the Account object?",
-    "options": [
-      "A. Read, Create, and Edit",
-      "B. Read-only",
-      "C. Modify All",
-      "D. No Access"
-    ],
+    "options": ["A. Read, Create, and Edit", "B. Read-only", "C. Modify All", "D. No Access"],
     "answer": "A",
     "title": "Question 32",
     "explanation": ""
@@ -479,12 +434,7 @@
   },
   {
     "content": "The administrator at Cloud Kicks needs to import a batch of person accounts into Salesforce.\nWhat tool should the administrator use?",
-    "options": [
-      "A. Data Import Wizard",
-      "B. Quick Create",
-      "C. Mass Update",
-      "D. Bulk API"
-    ],
+    "options": ["A. Data Import Wizard", "B. Quick Create", "C. Mass Update", "D. Bulk API"],
     "answer": "A",
     "title": "Question 41",
     "explanation": ""
@@ -503,24 +453,14 @@
   },
   {
     "content": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
-    "options": [
-      "A. Screen Row",
-      "B. Workflow Rule Field Change",
-      "C. Batch Update",
-      "D. Before save How Trigger"
-    ],
+    "options": ["A. Screen Row", "B. Workflow Rule Field Change", "C. Batch Update", "D. Before save Flow Trigger"],
     "answer": "D",
     "title": "Question 43",
     "explanation": ""
   },
   {
     "content": "Ursa Major Solar allows its scientists to log new stars as they find them, but on occasion, they log the same star by mistake. The administrator wants scientists to be notified when a record is deleted and by whom, and to maintain their own discovery information.\nWhat automation solution should be used to send the notification?",
-    "options": [
-      "A. Workflow Action",
-      "B. flow",
-      "C. Process Builder",
-      "D. Heroku"
-    ],
+    "options": ["A. Workflow Action", "B. flow", "C. Process Builder", "D. Heroku"],
     "answer": "B",
     "title": "Question 44",
     "explanation": ""
@@ -551,48 +491,28 @@
   },
   {
     "content": "Cloud Kicks tracks project details in a custom Project object. Project Milestones are tracked in a second custom object, with a reference to the parent Project record. Users need to automatically create a standard set of related Project Milestones when a Project record is created.\nWhat is the recommended automation solution?",
-    "options": [
-      "A. After-save autolaunched flow",
-      "B. Field Service flow",
-      "C. Before-save autolaunched flow",
-      "D. Scheduled flow"
-    ],
+    "options": ["A. After-save autolaunched flow", "B. Field Service flow", "C. Before-save autolaunched flow", "D. Scheduled flow"],
     "answer": "A",
     "title": "Question 47",
     "explanation": ""
   },
   {
     "content": "The administrator at AW Computing has received an email for a system error indicating that their organization has reached is hourly limit processing workflow time triggers.\nWhich two processes should the administrator review? Choose 2 answers",
-    "options": [
-      "A. Paused now Interviews",
-      "B. Apex Triggers",
-      "C. Debug Logs",
-      "D. Time-Based Workflows"
-    ],
+    "options": ["A. Paused now Interviews", "B. Apex Triggers", "C. Debug Logs", "D. Time-Based Workflows"],
     "answer": "C,D",
     "title": "Question 48",
     "explanation": ""
   },
   {
     "content": "An administrator would Like to know If any other administrators or delegated administrators are using the Log In As a User feature.\nWhere the administrators should are using the Log in As a User feature.",
-    "options": [
-      "A. Grant Account Login Access",
-      "B. Login History",
-      "C. Connected App Usage",
-      "D. Setup Audit Trail"
-    ],
+    "options": ["A. Grant Account Login Access", "B. Login History", "C. Connected App Usage", "D. Setup Audit Trail"],
     "answer": "A",
     "title": "Question 49",
     "explanation": ""
   },
   {
     "content": "As part of their yearly audit, the compliance team at Cloud Kicks would like to track when a user's profile has been changed and who changed the data.\nWhat should the administrator review to meet this requirement?",
-    "options": [
-      "A. Analytic Snapshot",
-      "B. Field History Tracking",
-      "C. Setup Audit Trail",
-      "D. Historical Trending"
-    ],
+    "options": ["A. Analytic Snapshot", "B. Field History Tracking", "C. Setup Audit Trail", "D. Historical Trending"],
     "answer": "C",
     "title": "Question 50",
     "explanation": ""
@@ -623,12 +543,7 @@
   },
   {
     "content": "AW Computing has a 4-hour SLA in its support guarantee. The company recently received feed that customers art reporting long wait times before an agent responds to a new case after it has been submitted.\nHow should an administrator ensure cases are properly prioritized?",
-    "options": [
-      "A. Escalation Rules",
-      "B. Auto-Response Rules",
-      "C. Workflow Rules",
-      "D. Assignment Rules"
-    ],
+    "options": ["A. Escalation Rules", "B. Auto-Response Rules", "C. Workflow Rules", "D. Assignment Rules"],
     "answer": "D",
     "title": "Question 53",
     "explanation": ""
@@ -659,12 +574,7 @@
   },
   {
     "content": "The Service team at Cloud Kicks needs a way to show the current status from the Account on the Case. This value should be on the page and is used in validation rules.\nWhat should the administrator recommend to solve this?",
-    "options": [
-      "A. Create a cross-object formula.",
-      "B. Add a lookup field to Account.",
-      "C. Use a picklist field.",
-      "D. Make a Rollup Summary."
-    ],
+    "options": ["A. Create a cross-object formula.", "B. Add a lookup field to Account.", "C. Use a picklist field.", "D. Make a Rollup Summary."],
     "answer": "A",
     "title": "Question 56",
     "explanation": ""
@@ -683,12 +593,7 @@
   },
   {
     "content": "Select power users want the ability to make configuration changes to a specific custom object.\nWhat tool should the administrator assign to the power users to enable this?",
-    "options": [
-      "A. Delegated Administration",
-      "B. Sharing Rule",
-      "C. View Setup and Configuration",
-      "D. Modify All Data"
-    ],
+    "options": ["A. Delegated Administration", "B. Sharing Rule", "C. View Setup and Configuration", "D. Modify All Data"],
     "answer": "A",
     "title": "Question 58",
     "explanation": ""

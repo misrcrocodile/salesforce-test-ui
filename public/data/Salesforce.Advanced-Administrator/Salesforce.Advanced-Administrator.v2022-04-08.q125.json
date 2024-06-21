@@ -37,12 +37,7 @@
   },
   {
     "content": "Which two deployment tools should be used to deploy metadata from a Developer Edition organization to another organization?\nChoose 2 answers",
-    "options": [
-      "A. Change sets",
-      "B. Salesforce Extensions for Visual Studio Code",
-      "C. Ant Migration Tool",
-      "D. Data Loader"
-    ],
+    "options": ["A. Change sets", "B. Salesforce Extensions for Visual Studio Code", "C. Ant Migration Tool", "D. Data Loader"],
     "answer": "A,C",
     "title": "Question 4",
     "explanation": ""
@@ -84,7 +79,7 @@
     "explanation": ""
   },
   {
-    "content": "Universal Containers has a requirement to report on opportunities where the probability has dropped beneath 50%. The administrator has created a custom checkbox as a way to identify these records.\nWhat else should the administrator do to meet this requirement? * (1 Point)",
+    "content": "Universal Containers has a requirement to report on opportunities where the probability has dropped beneath 50%. The administrator has created a custom checkbox as a way to identify these records.\nWhat else should the administrator do to meet this requirement?",
     "options": [
       "A. Create a workflow rule that updates the field when the probability drops below 50%",
       "B. Build a validation rule that displays an error",
@@ -97,18 +92,13 @@
   },
   {
     "content": "Support agents at Cloud Kicks associate Cases and Bugs so that can report on how many Cases are related to a Bug. A Bug is required to have a Case in order to be created.\nWhich type of object relationship will meet this requirement?",
-    "options": [
-      "A. Hierarchical",
-      "B. Lookup",
-      "C. Master-detail",
-      "D. Junction"
-    ],
+    "options": ["A. Hierarchical", "B. Lookup", "C. Master-detail", "D. Junction"],
     "answer": "C",
     "title": "Question 9",
     "explanation": ""
   },
   {
-    "content": "What should a system administrator consider before using territory management? Choose three answers. * (1 Point)",
+    "content": "What should a system administrator consider before using territory management? Choose three answers.",
     "options": [
       "A. Once enabled it cannot be disabled",
       "B. You need to contact Salesforce to have it enabled",
@@ -120,7 +110,7 @@
     "explanation": ""
   },
   {
-    "content": "What should an administrator consider when moving approval processes using a change set? * (1 Point)",
+    "content": "What should an administrator consider when moving approval processes using a change set?",
     "options": [
       "A. The unique name of the approval process is NOT allowed to be changed once deployed in the target organization",
       "B. Change sets do NOT include the approval and rejection actions from the source organization",
@@ -157,7 +147,7 @@
     "explanation": ""
   },
   {
-    "content": "If a system administrator has unchecked the\" Enable Content Pack Creation\" setting, what can users do with content packs? * (1 Point)",
+    "content": "If a system administrator has unchecked the\" Enable Content Pack Creation\" setting, what can users do with content packs?",
     "options": [
       "A. Users can modify existing content packs",
       "B. Users can only edit description and title of existing content packs",
@@ -169,30 +159,20 @@
   },
   {
     "content": "A new administrator at Cloud Kicks has reported that they are unable to use outbound change sets as requested.\nWhat permission should be reviewed to determine if it is missing from the administrator user or profile?",
-    "options": [
-      "A. Deploy Change Sets",
-      "B. API Enabled",
-      "C. Create and Upload Change Sets",
-      "D. Modify Metadata Through Metadata API Functions"
-    ],
+    "options": ["A. Deploy Change Sets", "B. API Enabled", "C. Create and Upload Change Sets", "D. Modify Metadata Through Metadata API Functions"],
     "answer": "B",
     "title": "Question 15",
     "explanation": ""
   },
   {
     "content": "An administrator has a request to write a report listing accounts that have sales from this year and that have a completed activity in the last 30 days.\nWhat reporting feature should the administrator employ to provide only the list of accounts, without listing the details of the opportunities?",
-    "options": [
-      "A. Cross-Filter",
-      "B. Filter Logic",
-      "C. Summary Report",
-      "D. Joined Report"
-    ],
+    "options": ["A. Cross-Filter", "B. Filter Logic", "C. Summary Report", "D. Joined Report"],
     "answer": "A",
     "title": "Question 16",
     "explanation": ""
   },
   {
-    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate #m*e the sates rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
+    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate because the sales rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
     "options": [
       "A. Include the nap on the Opportunity Team.",
       "B. Enable public groups for sharing.",
@@ -204,37 +184,22 @@
     "explanation": ""
   },
   {
-    "content": "Whatarethesimilaritiesofcustomizableandcollaborativeforecasting? Choose two answers. * (1 Point)",
-    "options": [
-      "A. Territory management",
-      "B. Submit Forecast",
-      "C. Quotas",
-      "D. Monthly and Quarterly Forecasts"
-    ],
+    "content": "Whatarethesimilaritiesofcustomizableandcollaborativeforecasting? Choose two answers.",
+    "options": ["A. Territory management", "B. Submit Forecast", "C. Quotas", "D. Monthly and Quarterly Forecasts"],
     "answer": "C,D",
     "title": "Question 18",
     "explanation": ""
   },
   {
     "content": "The administrator at Universal Containers has been asked to create an account management dashboard displaying opportunities and activities for each of its top five clients.\nWhich dashboard feature should the Administrator use to meet this requirement?",
-    "options": [
-      "A. Dashboard Filter",
-      "B. Joined reports on a dashboard",
-      "C. Dynamic dashboard",
-      "D. Matrix reports on a dashboard"
-    ],
+    "options": ["A. Dashboard Filter", "B. Joined reports on a dashboard", "C. Dynamic dashboard", "D. Matrix reports on a dashboard"],
     "answer": "C",
     "title": "Question 19",
     "explanation": ""
   },
   {
     "content": "Universal containers has a workflow rule that sends an email alert to the VP of sales when a large deal is won. The VP is reporting that these emails are not being delivered.\nWhat tool could be used to determine the problem? choose 2",
-    "options": [
-      "A. Debug log.",
-      "B. Workflow monitor.",
-      "C. Email log.",
-      "D. System audit trail."
-    ],
+    "options": ["A. Debug log.", "B. Workflow monitor.", "C. Email log.", "D. System audit trail."],
     "answer": "B,C",
     "title": "Question 20",
     "explanation": ""
@@ -252,7 +217,7 @@
     "explanation": ""
   },
   {
-    "content": "Your organization's VP of Sales wants to automatically add the account name to an opportunity name once a record is saved. How can this be done? * (1 Point)",
+    "content": "Your organization's VP of Sales wants to automatically add the account name to an opportunity name once a record is saved. How can this be done?",
     "options": [
       "A. Use an Apex Trigger",
       "B. Create a Workflow Rule with an immediate workflow trigger to update the opportunity name field using concatenate",
@@ -265,30 +230,20 @@
   },
   {
     "content": "Universal containers is implementing a time recording system in salesforce.\nEmployees are required to record their time in a work log custom objectagainst either an opportunity or a case. The company wants to see total hours worked on an opportunity or a case. which type of relationship field should an administrator use to relate the work log to the opportunity or case?",
-    "options": [
-      "A. Master-detail.",
-      "B. Hierarchical.",
-      "C. Junction",
-      "D. Lookup."
-    ],
+    "options": ["A. Master-detail.", "B. Hierarchical.", "C. Junction", "D. Lookup."],
     "answer": "C",
     "title": "Question 23",
     "explanation": ""
   },
   {
     "content": "Recruiters at universal containers wants to associate positions with their related job applications using two custom objects position and job application. a job application must always have a related position. if a position is deleted, the corresponding job applications are deleted.\nwhat type of object relation ship will meet this requirement?",
-    "options": [
-      "A. junction",
-      "B. Lookup",
-      "C. Master detail",
-      "D. Hierarchical"
-    ],
+    "options": ["A. junction", "B. Lookup", "C. Master detail", "D. Hierarchical"],
     "answer": "C",
     "title": "Question 24",
     "explanation": ""
   },
   {
-    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2. * (1 Point)",
+    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2.",
     "options": [
       "A. Customize Quotas",
       "B. View all Forecasts",
@@ -314,13 +269,8 @@
     "explanation": ""
   },
   {
-    "content": "In a two-step approval process where the first step is a hiring manager and second is the appropriate director, which of the following relationship types would a system administrator use to establish a relationship between the two approvers? * (1 Point)",
-    "options": [
-      "A. Sibling relationship",
-      "B. Master detail relationship",
-      "C. Hierarchical relationship",
-      "D. Look up relationship"
-    ],
+    "content": "In a two-step approval process where the first step is a hiring manager and second is the appropriate director, which of the following relationship types would a system administrator use to establish a relationship between the two approvers?",
+    "options": ["A. Sibling relationship", "B. Master detail relationship", "C. Hierarchical relationship", "D. Look up relationship"],
     "answer": "C",
     "title": "Question 27",
     "explanation": ""
@@ -375,12 +325,7 @@
   },
   {
     "content": "What declarative toot fete administrators test Lightning email temples and automations in a sandbox environment and then move what's successful to a production environment?",
-    "options": [
-      "A. Salesforce CLl",
-      "B. Change Sets",
-      "C. ANT Migration Tool",
-      "D. lightning Flow"
-    ],
+    "options": ["A. Salesforce CLl", "B. Change Sets", "C. ANT Migration Tool", "D. lightning Flow"],
     "answer": "C",
     "title": "Question 32",
     "explanation": ""
@@ -410,7 +355,7 @@
     "explanation": ""
   },
   {
-    "content": "A system administrator wants to change the field type from a lookup field to a master-detail field. What must the system administrator check in order for the change To be implemented successfully? * (1 Point)",
+    "content": "A system administrator wants to change the field type from a lookup field to a master-detail field. What must the system administrator check in order for the change To be implemented successfully?",
     "options": [
       "A. Make sure that the lookup value is set to Required",
       "B. Make sure that all lookup fields in all records contain a value",
@@ -422,18 +367,13 @@
   },
   {
     "content": "Which two values roll up the hierarchy to the manager for Collaborative Forecasting?\nChoose 2 answers.",
-    "options": [
-      "A. Product quantity",
-      "B. Quota amount",
-      "C. Opportunity amount",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Product quantity", "B. Quota amount", "C. Opportunity amount", "D. Expected revenue"],
     "answer": "C",
     "title": "Question 36",
     "explanation": ""
   },
   {
-    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time? * (1 Point)",
+    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time?",
     "options": ["A. 4", "B. 3", "C. 2", "D. 1"],
     "answer": "D",
     "title": "Question 37",
@@ -441,12 +381,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint.\nWhat types of relationship can be used to accomplish this?",
-    "options": [
-      "A. Junction",
-      "B. Master-detail",
-      "C. Lookup",
-      "D. Hierarchical"
-    ],
+    "options": ["A. Junction", "B. Master-detail", "C. Lookup", "D. Hierarchical"],
     "answer": "C",
     "title": "Question 38",
     "explanation": ""
@@ -464,7 +399,7 @@
     "explanation": ""
   },
   {
-    "content": "Which three actions should occur when an administrator clicks save after making a number of modifications to Knowledge data categories in a category group and changing their positions in the hierarchy?\nChoose 3 answers * (1 Point)",
+    "content": "Which three actions should occur when an administrator clicks save after making a number of modifications to Knowledge data categories in a category group and changing their positions in the hierarchy?\nChoose 3 answers",
     "options": [
       "A. The articles and questions visible to users change",
       "B. Users are temporarily locked out of their ability to access articles",
@@ -489,13 +424,8 @@
     "explanation": ""
   },
   {
-    "content": "Which two deployment tools should be used to delete metadata from an organization? Choose 2 answers * (1 Point)",
-    "options": [
-      "A. Change sets",
-      "B. Developer Console",
-      "C. ANT Migration Tool",
-      "D. Unmanaged packages"
-    ],
+    "content": "Which two deployment tools should be used to delete metadata from an organization? Choose 2 answers",
+    "options": ["A. Change sets", "B. Developer Console", "C. ANT Migration Tool", "D. Unmanaged packages"],
     "answer": "B,C",
     "title": "Question 42",
     "explanation": ""
@@ -525,7 +455,7 @@
     "explanation": ""
   },
   {
-    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step? * (1 Point)",
+    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step?",
     "options": [
       "A. Leave the organization-wide default setting, but change the Sales Reps' access rights.",
       "B. Change the organization-wide default setting to No Access.",
@@ -537,7 +467,7 @@
     "explanation": ""
   },
   {
-    "content": "An administrator must select milestones from an existing list of available milestones. * (1 Point)",
+    "content": "An administrator must select milestones from an existing list of available milestones.",
     "options": ["A. False", "B. True"],
     "answer": "A",
     "title": "Question 46",
@@ -617,12 +547,7 @@
   },
   {
     "content": "Universal Containers suspects a used is logging in as other users and editing Account records without their approval.\nWhere would an administrator go to verify who is logging in as other users?",
-    "options": [
-      "A. Setup Audit Trail",
-      "B. History Tracking on the Account",
-      "C. Users Login History",
-      "D. Debug Logs"
-    ],
+    "options": ["A. Setup Audit Trail", "B. History Tracking on the Account", "C. Users Login History", "D. Debug Logs"],
     "answer": "A",
     "title": "Question 53",
     "explanation": ""
@@ -640,7 +565,7 @@
     "explanation": ""
   },
   {
-    "content": "How would you configure a profile to find duplicate records? * (1 Point)",
+    "content": "How would you configure a profile to find duplicate records?",
     "options": ["A. view all", "B. Delete", "C. read,edit", "D. merge"],
     "answer": "A",
     "title": "Question 55",
@@ -672,12 +597,7 @@
   },
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
-    "options": [
-      "A. Object Manager",
-      "B. Setup Audit Trail",
-      "C. Security Health Check",
-      "D. Session Security Settings"
-    ],
+    "options": ["A. Object Manager", "B. Setup Audit Trail", "C. Security Health Check", "D. Session Security Settings"],
     "answer": "D",
     "title": "Question 58",
     "explanation": ""
@@ -695,7 +615,7 @@
     "explanation": ""
   },
   {
-    "content": "What is the maximum file size that can be uploaded in CRM Content? * (1 Point)",
+    "content": "What is the maximum file size that can be uploaded in CRM Content?",
     "options": ["A. 2GB", "B. 10GB", "C. 100MB", "D. 500MB"],
     "answer": "A",
     "title": "Question 60",
@@ -770,12 +690,7 @@
   },
   {
     "content": "Universal Containers' Support team is growing globally, and the manager has inquired about implementing Omni-Channel. The team supports multiple products that require complex expertise across multiple languages.\nWhich routing option should the administrator recommend to ensure the right cases get to the correct agents for resolution?",
-    "options": [
-      "A. Translation Workbench",
-      "B. Skills-Based Routing",
-      "C. Case Assignment Rules",
-      "D. Queue-Based Routing"
-    ],
+    "options": ["A. Translation Workbench", "B. Skills-Based Routing", "C. Case Assignment Rules", "D. Queue-Based Routing"],
     "answer": "B",
     "title": "Question 67",
     "explanation": ""
@@ -794,24 +709,14 @@
   },
   {
     "content": "Cloud Kicks (CK) does business directly with individual consumers (B2C) and large businesses (B2B). Some of CK's B2C customers are employed at its larger customer accounts and should be tracked under both.\nWhich two options will CK need to use to manage its customers' accounts?\nChoose 2 answers",
-    "options": [
-      "A. Campaign Members",
-      "B. Contacts to Multiple Accounts",
-      "C. Person Accounts",
-      "D. Leads"
-    ],
+    "options": ["A. Campaign Members", "B. Contacts to Multiple Accounts", "C. Person Accounts", "D. Leads"],
     "answer": "B,C",
     "title": "Question 69",
     "explanation": ""
   },
   {
     "content": "what type of data can be migrated between environments using change sets? choose 2",
-    "options": [
-      "A. Custom fields(100%)",
-      "B. Email templates.(100%)",
-      "C. Account team roles.",
-      "D. standard field picklist values."
-    ],
+    "options": ["A. Custom fields(100%)", "B. Email templates.(100%)", "C. Account team roles.", "D. standard field picklist values."],
     "answer": "A,B",
     "title": "Question 70",
     "explanation": ""
@@ -842,13 +747,7 @@
   },
   {
     "content": "When an administrator enables customizable prebuilt entitlements, which three options are automatically created?\nChoose 3 answers",
-    "options": [
-      "A. One SLA process",
-      "B. One Warning Action",
-      "C. One escalation rulte",
-      "D. Three milestone types",
-      "E. Three field updates"
-    ],
+    "options": ["A. One SLA process", "B. One Warning Action", "C. One escalation rulte", "D. Three milestone types", "E. Three field updates"],
     "answer": "A,C,D",
     "title": "Question 73",
     "explanation": ""
@@ -879,13 +778,7 @@
   },
   {
     "content": "Sales reps at Cloud Kicks have noticed there are similar account records found on Account list views m Duplicates component on the Lightning account record page displays no potential duplicates.\nWhat should the administrator customs to improve the output of the Potential Duplicates component?",
-    "options": [
-      "A. Duplicate Jobs ",
-      "B. Duplicate Record Sets",
-      "C. Duplicate Jobs",
-      "D. Duplicate Rules",
-      "E. Duplicate Reports"
-    ],
+    "options": ["A. Duplicate Jobs ", "B. Duplicate Record Sets", "C. Duplicate Jobs", "D. Duplicate Rules", "E. Duplicate Reports"],
     "answer": "D",
     "title": "Question 76",
     "explanation": ""
@@ -916,11 +809,7 @@
   },
   {
     "content": "Cloud Kicks (CK) has a sneaker of the month product that is sold as an annual subscription at the price of $1, What type of product scheduling should the CK administrator set up to accurately capture that information?",
-    "options": [
-      "A. Revenue Schedule Only",
-      "B. Inbound Scheduling",
-      "C. Quantity and Revenue Schedules."
-    ],
+    "options": ["A. Revenue Schedule Only", "B. Inbound Scheduling", "C. Quantity and Revenue Schedules."],
     "answer": "C",
     "title": "Question 79",
     "explanation": "Quantity Schedule Only"
@@ -951,7 +840,7 @@
     "explanation": ""
   },
   {
-    "content": "What should an administrator consider when setting up and maintaining Salesforce Knowledge? Choose three answers. * (1 Point)",
+    "content": "What should an administrator consider when setting up and maintaining Salesforce Knowledge? Choose three answers.",
     "options": [
       "A. Data category visibility is assigned through roles and profiles",
       "B. Knowledge settings must be configured to allow users to create an article from a case",
@@ -964,7 +853,7 @@
     "explanation": ""
   },
   {
-    "content": "You can cancel pending actions in the entitlement process queue. * (1 Point)",
+    "content": "You can cancel pending actions in the entitlement process queue.",
     "options": ["A. False", "B. True"],
     "answer": "B",
     "title": "Question 83",
@@ -995,7 +884,7 @@
     "explanation": ""
   },
   {
-    "content": "What would cause are quired field to not be populated on some records? Choose 2 answers. * (1 Point)",
+    "content": "What would cause are quired field to not be populated on some records? Choose 2 answers.",
     "options": [
       "A. The field is not in the page layout",
       "B. The field is protected by field level security",
@@ -1031,14 +920,8 @@
     "explanation": ""
   },
   {
-    "content": "What are the different ways a Visual Workflow \"flow\" can be deployed? (Choose three answers.) * (1 Point)",
-    "options": [
-      "A. Apex Trigger",
-      "B. Visualforce page",
-      "C. Custom link",
-      "D. Field Updates",
-      "E. Custom button"
-    ],
+    "content": "What are the different ways a Visual Workflow \"flow\" can be deployed? (Choose three answers.)",
+    "options": ["A. Apex Trigger", "B. Visualforce page", "C. Custom link", "D. Field Updates", "E. Custom button"],
     "answer": "B,C,E",
     "title": "Question 89",
     "explanation": ""
@@ -1068,14 +951,14 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager wanes to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
+    "content": "A sales manager wants to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
     "options": [
       "A. Redefine the role hierarchy grant access using hierarchies.",
       "B. Create a permission set for Opportunity edit and associate it to the year record.",
       "C. Change the Opportunity's organization-wide default setting to public read/write.",
       "D. Enable team setting on the Opportunity object to grant read/write access."
     ],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 92",
     "explanation": ""
   },
@@ -1141,12 +1024,7 @@
   },
   {
     "content": "An administrator at Cloud Kicks has enabled Territory Management and is setting up a territory model. Some users in a territory need to access Contacts and Opportunities related to the Account.\nWhich two capabilities are available for users in a territory?\nChoose 2 answers",
-    "options": [
-      "A. View Only",
-      "B. View and Edit",
-      "C. View. Edit, Transfer, Delete",
-      "D. View and Transfer"
-    ],
+    "options": ["A. View Only", "B. View and Edit", "C. View. Edit, Transfer, Delete", "D. View and Transfer"],
     "answer": "C,D",
     "title": "Question 98",
     "explanation": ""
@@ -1165,12 +1043,7 @@
   },
   {
     "content": "The administrator at Cloud Kicks (CK) is troubleshooting why users are missing expected email alerts from an automated process. The investigation shows that CK is hitting its daily limit.\nWhat should the administrator review to resolve the issue?",
-    "options": [
-      "A. Email Logs",
-      "B. Outbound Messages",
-      "C. Notification Delivery Settings",
-      "D. HTML Email Status Report"
-    ],
+    "options": ["A. Email Logs", "B. Outbound Messages", "C. Notification Delivery Settings", "D. HTML Email Status Report"],
     "answer": "A",
     "title": "Question 100",
     "explanation": ""
@@ -1201,36 +1074,21 @@
   },
   {
     "content": "At Ursa Major Solar, several different planetary teams handle leads depending on which planet the lead is coming from. While most of the teams only need a few fields filled out to work the lead, the Jupiter team requires additional information to be filled out, such as which moon the lead is coming from. The administrator needs to automate which team is allocated the lead record based on the planet and ensure that every team has all of the information they need.\nWhich two features will satisfy these requirements?\nChoose 2 answers",
-    "options": [
-      "A. Workflow Rules",
-      "B. Assignment Rules",
-      "C. Validation Rules",
-      "D. Matching Rules"
-    ],
+    "options": ["A. Workflow Rules", "B. Assignment Rules", "C. Validation Rules", "D. Matching Rules"],
     "answer": "B,D",
     "title": "Question 103",
     "explanation": ""
   },
   {
     "content": "Which two permissions need to be enabled to set up entitlement management, including milestones, entitlement processes, and entitlement templates?",
-    "options": [
-      "A. Manage Milestones",
-      "B. Manage Entitlements",
-      "C. Customize Application",
-      "D. Customize Entitlements"
-    ],
+    "options": ["A. Manage Milestones", "B. Manage Entitlements", "C. Customize Application", "D. Customize Entitlements"],
     "answer": "B,C",
     "title": "Question 104",
     "explanation": ""
   },
   {
     "content": "what should an administrator do before case feeds can be enabled? choose 2",
-    "options": [
-      "A. Enable case assignment rules.",
-      "B. Enable chatter.",
-      "C. Enable feed tracking on cases.",
-      "D. Enable default email templates"
-    ],
+    "options": ["A. Enable case assignment rules.", "B. Enable chatter.", "C. Enable feed tracking on cases.", "D. Enable default email templates"],
     "answer": "B,C",
     "title": "Question 105",
     "explanation": ""
@@ -1248,20 +1106,14 @@
     "explanation": ""
   },
   {
-    "content": "List the different prices that are available for a product. Choose three answers. * (1 Point)",
-    "options": [
-      "A. List Price",
-      "B. Sales Price",
-      "C. Discounted List Price",
-      "D. Product Price",
-      "E. Standard Price"
-    ],
+    "content": "List the different prices that are available for a product. Choose three answers.",
+    "options": ["A. List Price", "B. Sales Price", "C. Discounted List Price", "D. Product Price", "E. Standard Price"],
     "answer": "A,B,E",
     "title": "Question 107",
     "explanation": ""
   },
   {
-    "content": "Which of the following is NOT true about article types in Salesforce Knowledge? * (1 Point)",
+    "content": "Which of the following is NOT true about article types in Salesforce Knowledge?",
     "options": [
       "A. An organization must have 2 article types to enable Knowledge.",
       "B. Article Types are typically short HTML documents.",
@@ -1310,7 +1162,7 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
+    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently, users have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
     "options": [
       "A. Check the debug logs found in the Environment section of Setup.",
       "B. Click Analyze from the Lightning App Builder toolbar.",
@@ -1347,13 +1199,7 @@
   },
   {
     "content": "What type of prices can the system administrator set for an organization's products?",
-    "options": [
-      "A. Sales prices.(100%)",
-      "B. Discount prices.",
-      "C. Standard prices.(100%)",
-      "D. List prices.(100%)",
-      "E. Product prices."
-    ],
+    "options": ["A. Sales prices.(100%)", "B. Discount prices.", "C. Standard prices.(100%)", "D. List prices.(100%)", "E. Product prices."],
     "answer": "A,C,D",
     "title": "Question 115",
     "explanation": ""
@@ -1372,12 +1218,7 @@
   },
   {
     "content": "Universal Containers wants to track invoices with a custom object. They want to be able to view any invoices as a related list on the Opportunity record page.\nWhich feature would ensure can view all invoices associated with an Opportunity if the user can view the parent Opportunity record?",
-    "options": [
-      "A. Master-Detail Relationships",
-      "B. Sharing Rules",
-      "C. Lookup Relationships",
-      "D. Field Level Security"
-    ],
+    "options": ["A. Master-Detail Relationships", "B. Sharing Rules", "C. Lookup Relationships", "D. Field Level Security"],
     "answer": "A",
     "title": "Question 117",
     "explanation": ""
@@ -1427,7 +1268,7 @@
     "explanation": ""
   },
   {
-    "content": "How can content types be used in CRM Content? (Choose two answers.) * (1 Point)",
+    "content": "How can content types be used in CRM Content? (Choose two answers.)",
     "options": [
       "A. With validation rules, to capture complete data",
       "B. With library rules, to limit the number of libraries created",
@@ -1453,12 +1294,7 @@
   },
   {
     "content": "Cloud Kicks wants to implement multi-factor authentication (MFA) to help better secure its Salesforce org.\nWhich two options should the administrator consider to use MFA?\nChoose 2 answers",
-    "options": [
-      "A. A Security Token",
-      "B. An Encryption Key",
-      "C. An Authentication App",
-      "D. A Username and Password"
-    ],
+    "options": ["A. A Security Token", "B. An Encryption Key", "C. An Authentication App", "D. A Username and Password"],
     "answer": "C,D",
     "title": "Question 124",
     "explanation": ""

@@ -1,22 +1,14 @@
 [
   {
     "content": "Which two values roll up the Hierarchy to the manager for both Customizable and Collaborative Forecasts? Choose 2 answers",
-    "options": [
-      "A. Quota amount",
-      "B. Opportunity amount",
-      "C. Product quantity",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Quota amount", "B. Opportunity amount", "C. Product quantity", "D. Expected revenue"],
     "answer": "A,B",
     "title": "Question 1",
     "explanation": ""
   },
   {
     "content": "UC needs to use different a pricebook for sales representatives in US, LATAM, EMEA and APAC.\nWhat should the system administrator do? Choose 1.",
-    "options": [
-      "A. Clone standard Pricebook and assigned separate prices for each region",
-      "B. delete standard pricebook and create pricebooks"
-    ],
+    "options": ["A. Clone standard Pricebook and assigned separate prices for each region", "B. delete standard pricebook and create pricebooks"],
     "answer": "A",
     "title": "Question 2",
     "explanation": ""
@@ -88,12 +80,7 @@
   },
   {
     "content": "What tool would you use if you wanted to create a report that would compare results over time based on specific criteria?",
-    "options": [
-      "A. custom report types (CRT)",
-      "B. Standard Report",
-      "C. Exception Report",
-      "D. analytic snapshots"
-    ],
+    "options": ["A. custom report types (CRT)", "B. Standard Report", "C. Exception Report", "D. analytic snapshots"],
     "answer": "D",
     "title": "Question 9",
     "explanation": ""
@@ -119,24 +106,14 @@
   },
   {
     "content": "What type of data can be migrated between environments using change sets? Choose 2 answers",
-    "options": [
-      "A. Account team roles",
-      "B. Custom fields",
-      "C. Email templates",
-      "D. Field type changes"
-    ],
+    "options": ["A. Account team roles", "B. Custom fields", "C. Email templates", "D. Field type changes"],
     "answer": "B,C",
     "title": "Question 12",
     "explanation": ""
   },
   {
     "content": "How to create a report showing Company growth Year after Year. What function to use ?",
-    "options": [
-      "A. PRIORVALUE",
-      "B. PARENTGROUPVAL",
-      "C. PREVGROUPVAL",
-      "D. DATEVAL"
-    ],
+    "options": ["A. PRIORVALUE", "B. PARENTGROUPVAL", "C. PREVGROUPVAL", "D. DATEVAL"],
     "answer": "C",
     "title": "Question 13",
     "explanation": ""
@@ -174,12 +151,7 @@
   },
   {
     "content": "Which deployment tool can be used to delete metadata from an organization? (choose 2 answers)",
-    "options": [
-      "A. Change sets",
-      "B. Unmanaged packages",
-      "C. Force.com Migration Tool",
-      "D. Force.com IDE"
-    ],
+    "options": ["A. Change sets", "B. Unmanaged packages", "C. Force.com Migration Tool", "D. Force.com IDE"],
     "answer": "C,D",
     "title": "Question 17",
     "explanation": ""
@@ -256,25 +228,14 @@
   },
   {
     "content": "The VP of Marketing is launching campaigns in each region to target accounts that do not have open opportunities. What reporting solution can an administrator set up to assist with this?",
-    "options": [
-      "A. Joined report",
-      "B. Standard Filter",
-      "C. Cross Filter",
-      "D. Reporting snapshot"
-    ],
+    "options": ["A. Joined report", "B. Standard Filter", "C. Cross Filter", "D. Reporting snapshot"],
     "answer": "D",
     "title": "Question 24",
     "explanation": ""
   },
   {
     "content": "Which features make repetitive actions in the Service Console quicker and easier for agents?\nSelect 3",
-    "options": [
-      "A. Macros",
-      "B. Quick Text",
-      "C. Heuristic Logic",
-      "D. Predictive text",
-      "E. Email Templates"
-    ],
+    "options": ["A. Macros", "B. Quick Text", "C. Heuristic Logic", "D. Predictive text", "E. Email Templates"],
     "answer": "A,B,E",
     "title": "Question 25",
     "explanation": ""
@@ -368,13 +329,7 @@
   },
   {
     "content": "Who can collaborate about your business with Salesforce Communities? Select 3",
-    "options": [
-      "A. Competitors",
-      "B. Partners",
-      "C. Customers",
-      "D. Employees",
-      "E. Suppliers"
-    ],
+    "options": ["A. Competitors", "B. Partners", "C. Customers", "D. Employees", "E. Suppliers"],
     "answer": "B,C,D",
     "title": "Question 33",
     "explanation": ""
@@ -393,12 +348,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track resources called Supply Items with a lookup to Accounts. The Supply Items records should only be visible by users that own the Account records. What sharing setting provides the correct visibility?",
-    "options": [
-      "A. Private",
-      "B. Public Read Only",
-      "C. Public Read/Write/Transfer",
-      "D. Controlled by Parent"
-    ],
+    "options": ["A. Private", "B. Public Read Only", "C. Public Read/Write/Transfer", "D. Controlled by Parent"],
     "answer": "D",
     "title": "Question 35",
     "explanation": ""
@@ -465,12 +415,7 @@
   },
   {
     "content": "To set up entitlement management, including milestones, entitlement processes, and entitlement templates which two permissions need to be enabled?Choose 2 answers",
-    "options": [
-      "A. Manage Milestones",
-      "B. Customize Application",
-      "C. Manage Entitlements",
-      "D. Customize Entitlements"
-    ],
+    "options": ["A. Manage Milestones", "B. Customize Application", "C. Manage Entitlements", "D. Customize Entitlements"],
     "answer": "B,C",
     "title": "Question 41",
     "explanation": ""
@@ -516,24 +461,14 @@
   },
   {
     "content": "Universal Containers uses a custom object to track services called Work Items with a lookup to Accounts. The Work Item records should only be visible by users that own the Account records.\nWhich sharing setting provides the correct visibility?",
-    "options": [
-      "A. Public Read/Went/Transfer",
-      "B. Controlled by Parent",
-      "C. Public Read Only",
-      "D. Private"
-    ],
+    "options": ["A. Public Read/Went/Transfer", "B. Controlled by Parent", "C. Public Read Only", "D. Private"],
     "answer": "D",
     "title": "Question 46",
     "explanation": ""
   },
   {
     "content": "If using the Salesforce Data Loader, you need to use your username, password and:\nSelect one:",
-    "options": [
-      "A. A one-time password.",
-      "B. Security Token.",
-      "C. A CAPTCHA.",
-      "D. A security key."
-    ],
+    "options": ["A. A one-time password.", "B. Security Token.", "C. A CAPTCHA.", "D. A security key."],
     "answer": "B",
     "title": "Question 47",
     "explanation": ""
@@ -577,12 +512,7 @@
   },
   {
     "content": "A Sales Manager needs to see a pipeline report based on standard industries. The company has 3 main groups of industries they sell into and the report needs to reflect this.\nWhich feature can be used to group the various standard\nindustries into groups on the report?",
-    "options": [
-      "A. Custom Summary Formulas",
-      "B. Summary grouping",
-      "C. Bucket Fields",
-      "D. Parent Grouping"
-    ],
+    "options": ["A. Custom Summary Formulas", "B. Summary grouping", "C. Bucket Fields", "D. Parent Grouping"],
     "answer": "C",
     "title": "Question 51",
     "explanation": ""
@@ -637,12 +567,7 @@
   },
   {
     "content": "SFB Industries have a requirement to see how many cases are open at any one time over the year. How can this be achieved?",
-    "options": [
-      "A. Exception Reports",
-      "B. Scheduled Reports",
-      "C. Custom Report Types",
-      "D. Analytical Snapshots"
-    ],
+    "options": ["A. Exception Reports", "B. Scheduled Reports", "C. Custom Report Types", "D. Analytical Snapshots"],
     "answer": "D",
     "title": "Question 56",
     "explanation": ""
@@ -697,13 +622,7 @@
   },
   {
     "content": "What can a Sales Representative see once he clicks on the Forecast (Collaborative) tab? Select 4",
-    "options": [
-      "A. Quotas",
-      "B. Forecast Categories",
-      "C. Data Source",
-      "D. Opportunity list column",
-      "E. Forecast Range"
-    ],
+    "options": ["A. Quotas", "B. Forecast Categories", "C. Data Source", "D. Opportunity list column", "E. Forecast Range"],
     "answer": "A,B,D,E",
     "title": "Question 61",
     "explanation": ""
@@ -814,13 +733,7 @@
   },
   {
     "content": "What permissions must be enabled on a profile to find duplicate records?",
-    "options": [
-      "A. Delete",
-      "B. Locate Duplicate Records",
-      "C. View All Data",
-      "D. Read and Edit",
-      "E. Merge"
-    ],
+    "options": ["A. Delete", "B. Locate Duplicate Records", "C. View All Data", "D. Read and Edit", "E. Merge"],
     "answer": "C",
     "title": "Question 71",
     "explanation": ""
@@ -851,12 +764,7 @@
   },
   {
     "content": "What permission will you give a user without editing the profile itself?",
-    "options": [
-      "A. Delegated administration",
-      "B. Sharing rule",
-      "C. Permission set",
-      "D. Role hierarchy"
-    ],
+    "options": ["A. Delegated administration", "B. Sharing rule", "C. Permission set", "D. Role hierarchy"],
     "answer": "A",
     "title": "Question 74",
     "explanation": ""
@@ -899,48 +807,33 @@
   },
   {
     "content": "Suggest a feature that SFB Industries can enable to increase call deflection.",
-    "options": [
-      "A. Email--to--Case",
-      "B. Click--to--dial",
-      "C. Public Knowledge Base",
-      "D. Live Chat"
-    ],
+    "options": ["A. Email--to--Case", "B. Click--to--dial", "C. Public Knowledge Base", "D. Live Chat"],
     "answer": "C",
     "title": "Question 78",
     "explanation": ""
   },
   {
-    "content": "Universal Containers uses a Private Sharing model for Account. User A is on-boarded to User B's team and given the same profile and Role Both users own 20 Accounts but user User B is a able to see 40 Accounts whereas User A can only see the 20 that the own.\nWhat are the possible reasons for this?",
+    "content": "Universal Containers uses a Private Sharing model for Account. User A is on-boarded to User B's team and given the same profile and Role Both users own 20 Accounts but user User B is a able to see 40 Accounts whereas User A can only see the 20 that the own.\nWhat are two possible reasons for this? (Choose two.)",
     "options": [
       "A. User B is a member of a Group that gained access to the records through a Sharing Rule.",
       "B. User B had the records shared with them through a Permission Set.",
       "C. User B is a member of a Queue that gained access to the records through a Sharing Rule",
       "D. User B had the records manually shared with them."
     ],
-    "answer": "B",
+    "answer": "A,D",
     "title": "Question 79",
     "explanation": ""
   },
   {
     "content": "Universal Containers wants to track expense reports and expense line items. Values from expense line item records need to be aggregated and displayed on the expense record. What type of relationship should an administrator use to ensure that expense line items can be aggregated?",
-    "options": [
-      "A. Lookup",
-      "B. Master-detail",
-      "C. Hierarchical",
-      "D. Roll-up summary"
-    ],
+    "options": ["A. Lookup", "B. Master-detail", "C. Hierarchical", "D. Roll-up summary"],
     "answer": "B",
     "title": "Question 80",
     "explanation": ""
   },
   {
     "content": "To set the default level of access for users to be able to access each other's records, you would use:\nSelect one:",
-    "options": [
-      "A. Sharing Rules.",
-      "B. The Role Hierarchy.",
-      "C. Territory Management",
-      "D. Organization Wide Defaults."
-    ],
+    "options": ["A. Sharing Rules.", "B. The Role Hierarchy.", "C. Territory Management", "D. Organization Wide Defaults."],
     "answer": "D",
     "title": "Question 81",
     "explanation": ""
@@ -965,12 +858,7 @@
   },
   {
     "content": "Universal Containers has a workflow rule that sends and email alert to the VP of Sales when a large deal is won. The VP is reporting that these emails are not being delivered.Which two tools should be used to determine the problem?",
-    "options": [
-      "A. Debug logo",
-      "B. Email log",
-      "C. System audit trail",
-      "D. Workflow monitor"
-    ],
+    "options": ["A. Debug logo", "B. Email log", "C. System audit trail", "D. Workflow monitor"],
     "answer": "A,B",
     "title": "Question 84",
     "explanation": ""
@@ -1081,12 +969,7 @@
   },
   {
     "content": "A user has asked the Administrator at SFB Industries if they should have access to the salary field on the user object they should not. The Administrator has checked their profile and they do not have access to this field on field level security. Where else should they check?",
-    "options": [
-      "A. Permission Sets",
-      "B. Sharing Rules",
-      "C. Profile Object settings",
-      "D. Org--wide defaults"
-    ],
+    "options": ["A. Permission Sets", "B. Sharing Rules", "C. Profile Object settings", "D. Org--wide defaults"],
     "answer": "A",
     "title": "Question 94",
     "explanation": ""
@@ -1105,24 +988,14 @@
   },
   {
     "content": "Users report that the industry picklist field is no longer visible on account records. What test can an administrator use to troubleshoot the issue?",
-    "options": [
-      "A. Setup audit trail",
-      "B. Debug log",
-      "C. Field history tracking",
-      "D. Field audit history"
-    ],
+    "options": ["A. Setup audit trail", "B. Debug log", "C. Field history tracking", "D. Field audit history"],
     "answer": "A",
     "title": "Question 96",
     "explanation": ""
   },
   {
     "content": "Which value rolls up for both customizable and collaborative forecasting?",
-    "options": [
-      "A. Quota",
-      "B. Opportunity amount",
-      "C. Amount",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Quota", "B. Opportunity amount", "C. Amount", "D. Expected revenue"],
     "answer": "B",
     "title": "Question 97",
     "explanation": ""

@@ -33,24 +33,14 @@
   },
   {
     "content": "Cloud Kicks (CK) has a filed called Shoe Type Preference, CK,s product team wants to see a report that groups specific picklist values together into the one of two lists.\nWhat functionality should the administrator use to fulfill the team's request?",
-    "options": [
-      "A. Matrix Report",
-      "B. Summary Formula",
-      "C. Bucket field",
-      "D. PREVGROUPVALUE"
-    ],
+    "options": ["A. Matrix Report", "B. Summary Formula", "C. Bucket field", "D. PREVGROUPVALUE"],
     "answer": "C",
     "title": "Question 4",
     "explanation": ""
   },
   {
     "content": "Cloud kicks has received feedback that customers are frustrated with the amount of time it takes to reach a support agent by area of expertise according to product information after a new case has been submitted.\nWhich feature should administrator configure in order to improve the case management process?",
-    "options": [
-      "A. Omni-Channel",
-      "B. Knowledge Component",
-      "C. Macros",
-      "D. Escalation Rules"
-    ],
+    "options": ["A. Omni-Channel", "B. Knowledge Component", "C. Macros", "D. Escalation Rules"],
     "answer": "A",
     "title": "Question 5",
     "explanation": ""
@@ -69,12 +59,7 @@
   },
   {
     "content": "A developer is getting errors for Production deployment. The test deployment in the Full sandbox, which included a local test run, was successful. The Full sandbox was last refreshed 2 weeks ago.\nWhere should the administrator check to see what was recently changed?",
-    "options": [
-      "A. Dev Console",
-      "B. Setup Audit Trail",
-      "C. Field History",
-      "D. Salesforce Optimizer"
-    ],
+    "options": ["A. Dev Console", "B. Setup Audit Trail", "C. Field History", "D. Salesforce Optimizer"],
     "answer": "B",
     "title": "Question 7",
     "explanation": ""
@@ -93,22 +78,17 @@
   },
   {
     "content": "A user at Cloud Kicks has informed the administrator that they are unable to log in to Salesforce via multi-factor authentication.\nWhich two area should the administrator review to understand potential root causes?\nChoose 2 answers",
-    "options": [
-      "A. Identity Verification History",
-      "B. Login History",
-      "C. Setup Audit Trail",
-      "D. Debug Logs"
-    ],
+    "options": ["A. Identity Verification History", "B. Login History", "C. Setup Audit Trail", "D. Debug Logs"],
     "answer": "A,B",
     "title": "Question 9",
     "explanation": ""
   },
   {
-    "content": "An auto-response rule sends en email using Template when the field Case Source Is 'email' and Template when Case Source is blank. A Process Builder updates Case Source to 'email' when a case is created using Email-to-Case and to web' when a case Is created using Web-to-Case. Otherwise, Case Source Is blank.\nWhat will occur when a case is created from an Incoming email?",
+    "content": "An auto-response rule sends an email using Template 1 when the field Case Source Is 'email' and Template 2 when Case Source is blank. A Process Builder updates Case Source to 'email' when a case is created using Email-to-Case and to 'web' when a case Is created using Web-to-Case. Otherwise, Case Source Is blank.\nWhat will occur when a case is created from an Incoming email?",
     "options": [
-      "A. An email la sent out using Template and then Case Source updates to 'email'.",
-      "B. Case Source updates to 'email' and an email is sent out using Template2.",
-      "C. An email is sent out using Template and then Case Source updates to email'.",
+      "A. An email la sent out using Template 1 and then Case Source updates to 'email'.",
+      "B. An email is sent out using Template 2 and then Case Source updates to 'email'.",
+      "C. Case Source updates to 'email' and an email is sent out using Template2.",
       "D. Case Source updates to email and an email Is sent out using Template1."
     ],
     "answer": "A",
@@ -117,18 +97,13 @@
   },
   {
     "content": "The salts team at Universal Containers has asked the administrator to build functionality to automatically update the account checkbox field 'Opportunity Created' to checked when at least one related opportunity has been created.\nWhat feature should the administrator use to build this functionality?",
-    "options": [
-      "A. Assignment rule",
-      "B. Screen flow",
-      "C. Workflow rule",
-      "D. Record-triggered flow"
-    ],
+    "options": ["A. Assignment rule", "B. Screen flow", "C. Workflow rule", "D. Record-triggered flow"],
     "answer": "D",
     "title": "Question 11",
     "explanation": ""
   },
   {
-    "content": "Person accounts were recently activated at Cloud Kicks.\nThere are three record types for accounts:\n* B2B customer\n* B2C Customer\n* External Partner\nThere are two record types for leads:\n* B2B Lead\n* B2CLead\nThe test team finds that when the Convert button is clicked on a B2C Lead record, only the B2B Customer and External Partner account record types are available choices on the Conversion Layout.\nWhat should the administrator do to correct this issue?",
+    "content": "Person accounts were recently activated at Cloud Kicks.\nThere are three record types for accounts:\n* B2B customer\n* B2C Customer\n* External Partner\nThere are two record types for leads:\n* B2B Lead\n* B2C Lead\nThe test team finds that when the Convert button is clicked on a B2C Lead record, only the B2B Customer and External Partner account record types are available choices on the Conversion Layout.\nWhat should the administrator do to correct this issue?",
     "options": [
       "A. Build a process that updates the record type field to B2C Customer after conversion.",
       "B. Change organization-wide default settings for contacts to Controlled by Parent.",
@@ -141,12 +116,7 @@
   },
   {
     "content": "The administrator at AW Computing has been asked to review whether any users are making configuration changes directly in production.\nWhich item should the administrator review to find these details?",
-    "options": [
-      "A. Organization-Wide Defaults",
-      "B. Setup Audit Trail",
-      "C. Login History",
-      "D. Field History Tracking"
-    ],
+    "options": ["A. Organization-Wide Defaults", "B. Setup Audit Trail", "C. Login History", "D. Field History Tracking"],
     "answer": "B",
     "title": "Question 13",
     "explanation": ""
@@ -189,30 +159,20 @@
   },
   {
     "content": "Cloud Kicks (CK) does business directly with individual consumers (B2C) and large businesses (B2B). Some of CK's B2C customers are employed at its larger customer accounts and should be tracked under both.\nWhich two options will CK need to use to manage its customers' accounts?\nChoose 2 answers",
-    "options": [
-      "A. Leads",
-      "B. Contacts to Multiple Accounts",
-      "C. Person Accounts",
-      "D. Campaign Members"
-    ],
+    "options": ["A. Leads", "B. Contacts to Multiple Accounts", "C. Person Accounts", "D. Campaign Members"],
     "answer": "B,C",
     "title": "Question 17",
     "explanation": ""
   },
   {
     "content": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
-    "options": [
-      "A. Before save How Trigger",
-      "B. Screen Row",
-      "C. Workflow Rule Field Change",
-      "D. Batch Update"
-    ],
+    "options": ["A. Before save Flow Trigger", "B. Screen Row", "C. Workflow Rule Field Change", "D. Batch Update"],
     "answer": "A",
     "title": "Question 18",
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
+    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently, users have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
     "options": [
       "A. Use the Apex debugger while loading a customer record.",
       "B. Click Analyze from the Lightning App Builder toolbar.",
@@ -225,24 +185,14 @@
   },
   {
     "content": "The Cloud Kicks online Lead Intake form was recently updated to allow for new choices on some older picklist fields. The leads are all being created properly in Salesforce, but reps are getting errors as they try to work the leads.\nWhat tool should the administrator use to evaluate what is causing the errors?",
-    "options": [
-      "A. Debug Log",
-      "B. Record History",
-      "C. Setup Audit Log",
-      "D. Login History"
-    ],
+    "options": ["A. Debug Log", "B. Record History", "C. Setup Audit Log", "D. Login History"],
     "answer": "A",
     "title": "Question 20",
     "explanation": ""
   },
   {
     "content": "The security department at AW Computing wants to prevent users from exporting more data than they need. Included in this request is limiting records containing sensitive information, such as bank accounts and Personal Identifiable Information (PII).\nWhich feature should an administrator recommend to help limit what data is exported?",
-    "options": [
-      "A. Export Data Settings",
-      "B. Salesforce Shield",
-      "C. Muted Permission Sets",
-      "D. Salesforce Platform Encryption"
-    ],
+    "options": ["A. Export Data Settings", "B. Salesforce Shield", "C. Muted Permission Sets", "D. Salesforce Platform Encryption"],
     "answer": "B",
     "title": "Question 21",
     "explanation": ""
@@ -261,24 +211,14 @@
   },
   {
     "content": "Select power users want the ability to make configuration changes to a specific custom object.\nWhat tool should the administrator assign to the power users to enable this?",
-    "options": [
-      "A. Delegated Administration",
-      "B. Sharing Rule",
-      "C. Modify All Data",
-      "D. View Setup and Configuration"
-    ],
+    "options": ["A. Delegated Administration", "B. Sharing Rule", "C. Modify All Data", "D. View Setup and Configuration"],
     "answer": "A",
     "title": "Question 23",
     "explanation": ""
   },
   {
     "content": "Sales reps end partner consultants at Cloud Kicks work on the same kinds of shoe deals. The administrator has been asked to ensure that the Profit new on the Opportunity object is available to sales reps and is hidden from partners using Field Level Security.\nWhich two features should the administrator use to fulfil this request?\nChoose 2 answers",
-    "options": [
-      "A. Organization-wide Defaults",
-      "B. Profiles",
-      "C. Permission Set",
-      "D. Record Type"
-    ],
+    "options": ["A. Organization-wide Defaults", "B. Profiles", "C. Permission Set", "D. Record Type"],
     "answer": "B,C",
     "title": "Question 24",
     "explanation": ""
@@ -309,12 +249,7 @@
   },
   {
     "content": "At Ursa Major Solar, there is an account owner by a user with the role of Galaxy manager. Two users with the same profile are both assigned to the sub-role, Galaxy Subordinate. However, only one can access the account.\nWhat is the reason only one user can see the account record?",
-    "options": [
-      "A. Workflow Rule",
-      "B. Queues",
-      "C. Role Hierarchy",
-      "D. Manual Sharing"
-    ],
+    "options": ["A. Workflow Rule", "B. Queues", "C. Role Hierarchy", "D. Manual Sharing"],
     "answer": "D",
     "title": "Question 27",
     "explanation": ""
@@ -333,24 +268,14 @@
   },
   {
     "content": "Cloud Kicks (CK) has deployed several new custom apps that use Lightning Web components. The administrator is now concerned that they may need to make some adjustments to CK's org to make it more secure.\nWhich tools should the administrator use to expose possible security risks within a Lightning web component?",
-    "options": [
-      "A. Master Encryption Keys",
-      "B. Health Check",
-      "C. Self-signed Certificates",
-      "D. Salesforce Optimizer"
-    ],
+    "options": ["A. Master Encryption Keys", "B. Health Check", "C. Self-signed Certificates", "D. Salesforce Optimizer"],
     "answer": "B",
     "title": "Question 29",
     "explanation": ""
   },
   {
     "content": "The sales manager at Cloud Kicks (CK) wants to make sure the accounts that CK serves are happy. One way they track this is by how many open cases an account has with CK. The sales manager asks CK's administrator to build a report to show Accounts with Open Cases.\nWhat report type would this be?",
-    "options": [
-      "A. Matrix Report",
-      "B. Summary Report",
-      "C. Bucket Report",
-      "D. Joined Report"
-    ],
+    "options": ["A. Matrix Report", "B. Summary Report", "C. Bucket Report", "D. Joined Report"],
     "answer": "B",
     "title": "Question 30",
     "explanation": ""
@@ -393,12 +318,7 @@
   },
   {
     "content": "The administrator at Cloud Kicks (CK) is troubleshooting why users are missing expected email alerts from an automated process. The investigation shows that CK is hitting its daily limit.\nWhat should the administrator review to resolve the issue?",
-    "options": [
-      "A. Email Logs",
-      "B. Outbound Messages",
-      "C. HTML Email Status Report",
-      "D. Notification Delivery Settings"
-    ],
+    "options": ["A. Email Logs", "B. Outbound Messages", "C. HTML Email Status Report", "D. Notification Delivery Settings"],
     "answer": "A",
     "title": "Question 34",
     "explanation": ""
@@ -440,7 +360,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing (AVVC) has customers In multiple countries. AWC would like to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
+    "content": "AW Computing (AWC) has customers In multiple countries. AWC would like to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
     "options": [
       "A. Historical trend reports will only use the last dated exchange rate.",
       "B. When a currency is added to an organization's List of supported currencies, it cannot be deleted.",
@@ -453,24 +373,14 @@
   },
   {
     "content": "An administrator at AW Computing noticed that a custom field on the Contact object was changed from text to text area.\nWhat tool should the administrator use to investigate this change?",
-    "options": [
-      "A. Debug Log",
-      "B. Field History Tracking",
-      "C. View Setup Audit Trail",
-      "D. Developer Console"
-    ],
+    "options": ["A. Debug Log", "B. Field History Tracking", "C. View Setup Audit Trail", "D. Developer Console"],
     "answer": "C",
     "title": "Question 39",
     "explanation": ""
   },
   {
     "content": "AW Computing wants to enable a backup resource to assign permissions while restricting the backup resource's ability to create or modify permission sets.\nWhich feature should be employed to accomplish this request?",
-    "options": [
-      "A. Customize Application Permission",
-      "B. View All Users Permission",
-      "C. Delegated Administrator",
-      "D. Assignment Rules"
-    ],
+    "options": ["A. Customize Application Permission", "B. View All Users Permission", "C. Delegated Administrator", "D. Assignment Rules"],
     "answer": "C",
     "title": "Question 40",
     "explanation": ""
@@ -489,12 +399,7 @@
   },
   {
     "content": "The sale VP notices several sales reps generating a contract too early in the sales stage.\nThe help correct this Behavior, the has requested the Create Contract button only be available when the opportunity reach... negotiation stage.\nHow should the administrator meet this requirement?",
-    "options": [
-      "A. Create a custom permission.",
-      "B. Create a validation rule.",
-      "C. Configure dynamic action.",
-      "D. Modify page layout."
-    ],
+    "options": ["A. Create a custom permission.", "B. Create a validation rule.", "C. Configure dynamic action.", "D. Modify page layout."],
     "answer": "C",
     "title": "Question 42",
     "explanation": ""
@@ -537,12 +442,7 @@
   },
   {
     "content": "Cloud Kicks tracks project details in a custom Project object. Project Milestones are tracked in a second custom object, with a reference to the parent Project record. Users need to automatically create a standard set of related Project Milestones when a Project record is created.\nWhat is the recommended automation solution?",
-    "options": [
-      "A. Field Service flow",
-      "B. After-save autolaunched flow",
-      "C. Scheduled flow",
-      "D. Before-save autolaunched flow"
-    ],
+    "options": ["A. Field Service flow", "B. After-save autolaunched flow", "C. Scheduled flow", "D. Before-save autolaunched flow"],
     "answer": "B",
     "title": "Question 46",
     "explanation": ""
@@ -585,12 +485,7 @@
   },
   {
     "content": "A sales user is assigned to a permission set group that gives them Modify All access to Accounts. An administrator assigns the same user to a muting permission set that mutes Deletes access on Account.\nWhat level of access will the sales user have on the Account object?",
-    "options": [
-      "A. Read-only",
-      "B. Read, Create, and Edit",
-      "C. No Access",
-      "D. Modify All"
-    ],
+    "options": ["A. Read-only", "B. Read, Create, and Edit", "C. No Access", "D. Modify All"],
     "answer": "B",
     "title": "Question 50",
     "explanation": ""
@@ -646,36 +541,21 @@
   },
   {
     "content": "users at Northern Trail Outfitters have a lot of fields on their new account records because they track their accounts and competitors on the Account object. For accounts created for customers, they need access to different fields than the accounts used to track competitors. For partner accounts, they need different values in the Industry field.\nWhat should the administrator use to resolve the issues?",
-    "options": [
-      "A. Business Processes",
-      "B. Flow Builder",
-      "C. Required Fields",
-      "D. Record Types"
-    ],
+    "options": ["A. Business Processes", "B. Flow Builder", "C. Required Fields", "D. Record Types"],
     "answer": "D",
     "title": "Question 55",
     "explanation": ""
   },
   {
     "content": "The administrator at Cloud Kicks needs to import a batch of person accounts into Salesforce.\nWhat tool should the administrator use?",
-    "options": [
-      "A. Data Import Wizard",
-      "B. Bulk API",
-      "C. Quick Create",
-      "D. Mass Update"
-    ],
+    "options": ["A. Data Import Wizard", "B. Bulk API", "C. Quick Create", "D. Mass Update"],
     "answer": "A",
     "title": "Question 56",
     "explanation": ""
   },
   {
     "content": "Dream house Realty has created a custom object to track its Open Houses with a master-detail relationship up to a custom object for Properties. Agents need to quickly calculate the number of Open House records in a status or Pending so they can see the value from the Property record.\nWhat feature should the administrator implement?",
-    "options": [
-      "A. Formula Fields",
-      "B. Lightning Component",
-      "C. visualforce Page",
-      "D. Roll-Up Summary"
-    ],
+    "options": ["A. Formula Fields", "B. Lightning Component", "C. visualforce Page", "D. Roll-Up Summary"],
     "answer": "D",
     "title": "Question 57",
     "explanation": ""
@@ -718,12 +598,7 @@
   },
   {
     "content": "The administrator at AW Computing has received an email for a system error indicating that their organization has reached is hourly limit processing workflow time triggers.\nWhich two processes should the administrator review? Choose 2 answers",
-    "options": [
-      "A. Time-Based Workflows",
-      "B. Apex Triggers",
-      "C. Paused now Interviews",
-      "D. Debug Logs"
-    ],
+    "options": ["A. Time-Based Workflows", "B. Apex Triggers", "C. Paused now Interviews", "D. Debug Logs"],
     "answer": "A,D",
     "title": "Question 61",
     "explanation": ""

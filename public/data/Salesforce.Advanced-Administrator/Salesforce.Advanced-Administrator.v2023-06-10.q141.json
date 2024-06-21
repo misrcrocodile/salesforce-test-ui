@@ -1,6 +1,6 @@
 [
   {
-    "content": "During Deployment from Sandbox to production using Changeset , Few components missed. How you are going to add those component to production ?",
+    "content": "During Deployment from Sandbox to production using Change set, Few components missed. How you are going to add those component to production ?",
     "options": ["A. Edit Changset and re-deploy", "B. Create New and Redeploy", "C. Clone existing and make changes and Re-deploy"],
     "answer": "C",
     "title": "Question 1",
@@ -209,7 +209,7 @@
     "explanation": ""
   },
   {
-    "content": "An administrator has initiated the process of deploying changes from a sandbox to the production environment using the Visual Studio Code.\nWhich three pieces of information must be supplied to Visual Studio Code during this process? Choose 3 answers. * (1 Point)",
+    "content": "An administrator has initiated the process of deploying changes from a sandbox to the production environment using the Visual Studio Code.\nWhich three pieces of information must be supplied to Visual Studio Code during this process? Choose 3 answers.",
     "options": [
       "A. Authorize the environment in to which the changes will be deployed",
       "B. Authorize change set connection information",
@@ -253,7 +253,7 @@
     "explanation": "Explanation"
   },
   {
-    "content": "Which value rolls up for both customizable and collaborative forecasting? * (1 Point)",
+    "content": "Which value rolls up for both customizable and collaborative forecasting?",
     "options": ["A. Amount", "B. Quota", "C. Opportunity amount", "D. Expected revenue"],
     "answer": "C",
     "title": "Question 24",
@@ -279,14 +279,14 @@
     "explanation": ""
   },
   {
-    "content": "Universal Containers uses a Private Sharing model for Account. User A is on-boarded to User B's team and given the same profile and Role Both users own 20 Accounts but user User B is a able to see 40 Accounts whereas User A can only see the 20 that the own.\nWhat are the possible reasons for this?",
+    "content": "Universal Containers uses a Private Sharing model for Account. User A is on-boarded to User B's team and given the same profile and Role Both users own 20 Accounts but user User B is a able to see 40 Accounts whereas User A can only see the 20 that the own.\nWhat are two possible reasons for this? (Choose two.)",
     "options": [
       "A. User B is a member of a Queue that gained access to the records through a Sharing Rule",
       "B. User B is a member of a Group that gained access to the records through a Sharing Rule.",
       "C. User B had the records shared with them through a Permission Set.",
       "D. User B had the records manually shared with them."
     ],
-    "answer": "C",
+    "answer": "B,D",
     "title": "Question 27",
     "explanation": ""
   },
@@ -564,19 +564,19 @@
     "explanation": ""
   },
   {
-    "content": "Sales reps at AW Computing hove been reporting that contact phone numbers sometimes revert book to on old value after being updated.\nWhat should the administrator do to resolve this issue?",
+    "content": "Sales reps at AW Computing have been reporting that contact phone numbers sometimes revert book to on old value after being updated.\nWhat should the administrator do to resolve this issue?",
     "options": ["A. Schedule Apex jobs.", "B. Delete all workflow rules.", "C. Consolidate automation tools.", "D. Add an invocable process."],
     "answer": "C",
     "title": "Question 53",
     "explanation": ""
   },
   {
-    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement? * (1 Point)",
+    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement?",
     "options": [
       "A. Create a new profile and assign the 5 users to the new profile",
       "B. Create a criteria-based sharing rule for the 5 users",
       "C. Remove the record type access for all users except the 5 mentioned",
-      "D. Givethe\"ViewAllData\"permissiontothe5mentionedusersusingpermissionsets"
+      "D. Give the \"ViewAllData\" permission to the mentioned users using permission sets"
     ],
     "answer": "B",
     "title": "Question 54",
@@ -594,16 +594,16 @@
     "options": [
       "A. Territory hierarchy must match the organization",
       "B. Users can only be a member of one territory at a time.",
-      "C. Sharing for accounts,contacts, opportunities and cases is impacted.(100%)",
-      "D. It is permanent and cannot be disabled.(100%)",
-      "E. It limits the type of forecasting that can be used.(100%)"
+      "C. Sharing for accounts,contacts, opportunities and cases is impacted.",
+      "D. It is permanent and cannot be disabled.",
+      "E. It limits the type of forecasting that can be used."
     ],
     "answer": "C,D,E",
     "title": "Question 56",
     "explanation": ""
   },
   {
-    "content": "Which three actions should occur when an administrator clicks save after making a number of modifications to Knowledge data categories in a category group and changing their positions in the hierarchy?\nChoose 3 answers * (1 Point)",
+    "content": "Which three actions should occur when an administrator clicks save after making a number of modifications to Knowledge data categories in a category group and changing their positions in the hierarchy?\nChoose 3 answers",
     "options": [
       "A. The history of article usage is reset to zero utilization",
       "B. The contents of the category drop-down menu change",
@@ -642,7 +642,7 @@
     "explanation": ""
   },
   {
-    "content": "What should an administrator consider when moving approval processes using a change set? * (1 Point)",
+    "content": "What should an administrator consider when moving approval processes using a change set?",
     "options": [
       "A. Change sets do NOT include the approval and rejection actions from the source organization",
       "B. Custom fields on standard objects will need to be manually added in the target organization.",
@@ -661,7 +661,7 @@
     "explanation": ""
   },
   {
-    "content": "What should a system administrator consider before using territory management? Choose three answers. * (1 Point)",
+    "content": "What should a system administrator consider before using territory management? Choose three answers.",
     "options": [
       "A. Forecasts are derived from Territory hierarchy not Role hierarchy",
       "B. Once enabled it cannot be disabled",
@@ -673,7 +673,7 @@
     "explanation": ""
   },
   {
-    "content": "Salesforce Knowledge offers administrators the ability to fully customize the way an article type displays to an end user. * (1 Point)",
+    "content": "Salesforce Knowledge offers administrators the ability to fully customize the way an article type displays to an end user.",
     "options": ["A. True", "B. False"],
     "answer": "A",
     "title": "Question 64",
@@ -694,7 +694,7 @@
   {
     "content": "Admin wants to make exact copy of production metadata in developer sandbox.",
     "options": ["A. Create and Deploy changeset", "B. Use Developer Console", "C. Schedule Sandbox refresh", "D. Schedule full weekly backup"],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 66",
     "explanation": ""
   },
@@ -704,9 +704,9 @@
       "A. Enable case routing for agents",
       "B. Use Assignment rules & Queues",
       "C. Create a workflow rule to assign users the correct case",
-      "D. Use Auto--response rules & Queues"
+      "D. Use Auto-response rules & Queues"
     ],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 67",
     "explanation": ""
   },
@@ -732,9 +732,9 @@
   {
     "content": "SFB Industries need to create a relationship between two objects. They need to have their own independent security settings but if a child record has a parent, the parent CANNOT be deleted. How can this be achieved?",
     "options": [
-      "A. Create a Master--detail relationship",
+      "A. Create a Master-detail relationship",
       "B. Create a lookup relationship",
-      "C. Create a master--detail relationship and enforce the checkbox that does not allow deletion of parent records",
+      "C. Create a master-detail relationship and enforce the checkbox that does not allow deletion of parent records",
       "D. Create a lookup relationship and enforce the checkbox that does not allow deletion of parent records."
     ],
     "answer": "D",
@@ -799,7 +799,7 @@
     "explanation": ""
   },
   {
-    "content": "A sales representative changed the ownership of an account that they owned. What impact will this have on sharing?",
+    "content": "A sales representative changed the ownership of an account that they owned. What impact will this have on sharing? Choose 2 answers",
     "options": [
       "A. Related opportunity records will become Read-Only for account team members.",
       "B. All ownership-based sharing rules will be recalculated.",
@@ -903,7 +903,7 @@
     "explanation": ""
   },
   {
-    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate #m*e the sates rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
+    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate because the sales rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
     "options": [
       "A. Add the Manual Sharing button the page layout.",
       "B. Include the nap on the Opportunity Team.",
@@ -1000,7 +1000,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing (AVVC) has customers In multiple countries. AWC would li<e to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
+    "content": "AW Computing (AWC) has customers In multiple countries. AWC would like to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
     "options": [
       "A. When a currency is added to an organization's List of supported currencies, it cannot be deleted.",
       "B. Historical trend reports will only use the last dated exchange rate.",
@@ -1073,7 +1073,7 @@
   {
     "content": "Northern Trail Outfitters has five delegated administrators and two system administrators. There have been a couple of cases reported that login settings for sales reps have changed.\nWhere would the administrator find what settings have been changed?",
     "options": ["A. Setup audit trail", "B. Debug log", "C. Field history tracking", "D. Login history"],
-    "answer": "C",
+    "answer": "A",
     "title": "Question 101",
     "explanation": ""
   },
@@ -1128,14 +1128,14 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager wanes to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
+    "content": "A sales manager wants to edit the Opportunities owned by the sales team. The manager does NOT have edit access to the Opportunity object.\nWhat is the recommended solution?",
     "options": [
       "A. Create a permission set for Opportunity edit and associate it to the year record.",
       "B. Enable team setting on the Opportunity object to grant read/write access.",
       "C. Change the Opportunity's organization-wide default setting to public read/write.",
       "D. Redefine the role hierarchy grant access using hierarchies."
     ],
-    "answer": "C",
+    "answer": "D",
     "title": "Question 107",
     "explanation": ""
   },
@@ -1152,7 +1152,7 @@
     "explanation": ""
   },
   {
-    "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book? * (1 Point)",
+    "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book?",
     "options": ["A. Select a Product Family", "B. Check the Active checkbox.", "C. Enter a Product Description.", "D. Enter a Product Code."],
     "answer": "B",
     "title": "Question 109",
@@ -1172,7 +1172,7 @@
   },
   {
     "content": "The sales agents at DreamHouse Realty have a profile that allows them to import records for a custom object called House. The agents only need to make imports occasionally and typically Import around 100 new records at a time.\nWhat tool should the agents use to upload records?",
-    "options": ["A. Apex", "B. Data Loader", "C. Bulk API", "D. Date Xmport Wizard"],
+    "options": ["A. Apex", "B. Data Loader", "C. Bulk API", "D. Date Import Wizard"],
     "answer": "D",
     "title": "Question 111",
     "explanation": ""
@@ -1208,7 +1208,7 @@
       "C. The contact sharing settings are controlled by the parent, and the account owner is not under the sales manager's role.",
       "D. The contact owner has not selected the option to share contacts with others in the role hierarchy."
     ],
-    "answer": "B",
+    "answer": "C",
     "title": "Question 114",
     "explanation": ""
   },
@@ -1216,7 +1216,7 @@
     "content": "AW Computing continues to grow and has concerns about the volume of sensitive data being stored in its org. The administrator suggests utilizing Salesforce Shield.\nWhat should the team consider before Implementing Salesforce Shield?",
     "options": [
       "A. Einstein Lead Scoring is available on encrypted fields.",
-      "B. Encrypted f elcz art j-ab e to be referenced in flows.",
+      "B. Encrypted fields are unable to be referenced in flows.",
       "C. Paused flows can cause data to be saved in an unencrypted state.",
       "D. Shield Platform Encryption can be used with custom metadata types."
     ],
@@ -1262,7 +1262,7 @@
   },
   {
     "content": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
-    "options": ["A. Workflow Rule Field Change", "B. Screen Row", "C. Batch Update", "D. Before save How Trigger"],
+    "options": ["A. Workflow Rule Field Change", "B. Screen Row", "C. Batch Update", "D. Before save Flow Trigger"],
     "answer": "D",
     "title": "Question 119",
     "explanation": ""
@@ -1340,7 +1340,7 @@
     "explanation": ""
   },
   {
-    "content": "What is the maximum file size that can be uploaded in CRM Content? * (1 Point)",
+    "content": "What is the maximum file size that can be uploaded in CRM Content?",
     "options": ["A. 500MB", "B. 100MB", "C. 2GB", "D. 10GB"],
     "answer": "C",
     "title": "Question 126",
@@ -1359,7 +1359,7 @@
     "explanation": ""
   },
   {
-    "content": "What is true about Salesforce Communities? Choose two answers. * (1 Point)",
+    "content": "What is true about Salesforce Communities? Choose two answers.",
     "options": [
       "A. Ideas tab is used by community users to submit, like and promote Ideas",
       "B. Crowd-sourced Knowledge is accessible in Q&A tab",
@@ -1371,7 +1371,7 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager wants to edit the opportunities owned by the sales team. The manager does not have Edit access to the Opportunity object. What is a recommended solution? * (1 Point)",
+    "content": "A sales manager wants to edit the opportunities owned by the sales team. The manager does not have Edit access to the Opportunity object. What is a recommended solution?",
     "options": [
       "A. Redefine the role hierarchy by enabling\"grant access using hierarchies",
       "B. Create permission set and associate Edit opportunity to the user record",
@@ -1485,10 +1485,10 @@
     "explanation": ""
   },
   {
-    "content": "What access can users have to Accounts and Opportunities when territory management is enabled? * (1 Point)",
+    "content": "What access can users have to Accounts and Opportunities when territory management is enabled?",
     "options": [
       "A. View Account records regardless of the account record owner",
-      "B. Edit,TransferandDeleteOpportunityrecordsregardlessoftherecordoftheowner",
+      "B. Edit, Transfer and Delete Opportunity records regardless of the record of the owner",
       "C. Edit Opportunity records regardless of the account owner",
       "D. Transfer and Delete opportunities regardless of the owner of the record"
     ],

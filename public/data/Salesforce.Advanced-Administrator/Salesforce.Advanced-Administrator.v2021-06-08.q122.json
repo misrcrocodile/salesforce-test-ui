@@ -13,12 +13,7 @@
   },
   {
     "content": "The administrator for SFB Industries would like to deploy a custom object and fields to an unrelated Org.\nWhat is the best way to do this using declarative functionality?",
-    "options": [
-      "A. Force.com IDE",
-      "B. Change Sets",
-      "C. Force.com Migration Tools",
-      "D. Unmanaged package"
-    ],
+    "options": ["A. Force.com IDE", "B. Change Sets", "C. Force.com Migration Tools", "D. Unmanaged package"],
     "answer": "D",
     "title": "Question 2",
     "explanation": ""
@@ -44,12 +39,7 @@
   },
   {
     "content": "How to create a report showing Company growth Year after Year. What function to use ?",
-    "options": [
-      "A. PREVGROUPVAL",
-      "B. PARENTGROUPVAL",
-      "C. DATEVAL",
-      "D. PRIORVALUE"
-    ],
+    "options": ["A. PREVGROUPVAL", "B. PARENTGROUPVAL", "C. DATEVAL", "D. PRIORVALUE"],
     "answer": "A",
     "title": "Question 5",
     "explanation": ""
@@ -154,12 +144,7 @@
   },
   {
     "content": "Which permission do you need to manage entitlements? Choose 2",
-    "options": [
-      "A. Customize Entitlement",
-      "B. Manage Entitlements",
-      "C. Customize Application\"",
-      "D. Manage Application"
-    ],
+    "options": ["A. Customize Entitlement", "B. Manage Entitlements", "C. Customize Application\"", "D. Manage Application"],
     "answer": "A",
     "title": "Question 14",
     "explanation": ""
@@ -178,25 +163,14 @@
   },
   {
     "content": "A user has asked the Administrator at SFB Industries if they should have access to the salary field on the user object they should not. The Administrator has checked their profile and they do not have access to this field on field level security. Where else should they check?",
-    "options": [
-      "A. Sharing Rules",
-      "B. Permission Sets",
-      "C. Profile Object settings",
-      "D. Org-wide defaults"
-    ],
+    "options": ["A. Sharing Rules", "B. Permission Sets", "C. Profile Object settings", "D. Org-wide defaults"],
     "answer": "B",
     "title": "Question 16",
     "explanation": ""
   },
   {
     "content": "When importing revenue quota data for Collaborative Forecasts using Data Loader what information must be included in the import file? (3)",
-    "options": [
-      "A. User record ID",
-      "B. Quota quantity",
-      "C. User full name",
-      "D. Quota amount",
-      "E. Start date of the forecast period"
-    ],
+    "options": ["A. User record ID", "B. Quota quantity", "C. User full name", "D. Quota amount", "E. Start date of the forecast period"],
     "answer": "A,D,E",
     "title": "Question 17",
     "explanation": ""
@@ -276,12 +250,7 @@
   },
   {
     "content": "Which feature is required to use Territory Management?",
-    "options": [
-      "A. Collaborative Forecasting",
-      "B. Advanced Currency Management",
-      "C. Customizable Forecasting",
-      "D. Multiple Currencies"
-    ],
+    "options": ["A. Collaborative Forecasting", "B. Advanced Currency Management", "C. Customizable Forecasting", "D. Multiple Currencies"],
     "answer": "C",
     "title": "Question 24",
     "explanation": ""
@@ -312,13 +281,7 @@
   },
   {
     "content": "What are the three types of visibility with Data Categories?",
-    "options": [
-      "A. Internal",
-      "B. All Categories",
-      "C. None",
-      "D. Custom",
-      "E. External"
-    ],
+    "options": ["A. Internal", "B. All Categories", "C. None", "D. Custom", "E. External"],
     "answer": "B,C,D",
     "title": "Question 27",
     "explanation": ""
@@ -345,12 +308,7 @@
   },
   {
     "content": "Universal Containers wants to track expense reports and expense line items. Values from expense line item records need to be aggregated and displayed on the expense record. What type of relationship should an administrator use to ensure that expense line items can be aggregated?",
-    "options": [
-      "A. Roll-up summary",
-      "B. Master-detail",
-      "C. Hierarchical",
-      "D. Lookup"
-    ],
+    "options": ["A. Roll-up summary", "B. Master-detail", "C. Hierarchical", "D. Lookup"],
     "answer": "B",
     "title": "Question 30",
     "explanation": ""
@@ -363,7 +321,7 @@
       "C. Enable case routing for agents",
       "D. Use Assignment rules & Queues"
     ],
-    "answer": "C",
+    "answer": "D",
     "title": "Question 31",
     "explanation": ""
   },
@@ -400,13 +358,7 @@
   },
   {
     "content": "Which features make repetitive actions in the Service Console quicker and easier for agents?\nSelect 3",
-    "options": [
-      "A. Email Templates",
-      "B. Quick Text",
-      "C. Macros",
-      "D. Heuristic Logic",
-      "E. Predictive text"
-    ],
+    "options": ["A. Email Templates", "B. Quick Text", "C. Macros", "D. Heuristic Logic", "E. Predictive text"],
     "answer": "A,B,C",
     "title": "Question 35",
     "explanation": ""
@@ -452,12 +404,7 @@
   },
   {
     "content": "Which Visual Workflows element would you add to a flow to create a new opportunity record?",
-    "options": [
-      "A. Record Lookup",
-      "B. Record Delete",
-      "C. Record Update",
-      "D. Record Create"
-    ],
+    "options": ["A. Record Lookup", "B. Record Delete", "C. Record Update", "D. Record Create"],
     "answer": "D",
     "title": "Question 39",
     "explanation": ""
@@ -554,12 +501,7 @@
   },
   {
     "content": "Knowledge Articles are classified into which structure to make searching easier?",
-    "options": [
-      "A. Record Types -> Categories",
-      "B. Groups -> Categories",
-      "C. Articles -> Groups",
-      "D. Categories -> Groups"
-    ],
+    "options": ["A. Record Types -> Categories", "B. Groups -> Categories", "C. Articles -> Groups", "D. Categories -> Groups"],
     "answer": "B",
     "title": "Question 48",
     "explanation": ""
@@ -650,12 +592,7 @@
   },
   {
     "content": "The VP of Marketing is launching campaigns in each region to target accounts that do not have open opportunities. What reporting solutions can an administrator set up to assist with this?",
-    "options": [
-      "A. Joined report",
-      "B. Standard filter",
-      "C. Reporting snapshot",
-      "D. Cross filter"
-    ],
+    "options": ["A. Joined report", "B. Standard filter", "C. Reporting snapshot", "D. Cross filter"],
     "answer": "D",
     "title": "Question 56",
     "explanation": ""
@@ -693,12 +630,7 @@
   },
   {
     "content": "What can Delegated Administrators NOT do?",
-    "options": [
-      "A. Create users",
-      "B. Manage custom objects",
-      "C. Login as a specific user",
-      "D. Create Profiles"
-    ],
+    "options": ["A. Create users", "B. Manage custom objects", "C. Login as a specific user", "D. Create Profiles"],
     "answer": "D",
     "title": "Question 60",
     "explanation": ""
@@ -729,12 +661,7 @@
   },
   {
     "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production?",
-    "options": [
-      "A. Partial Data Sandbox",
-      "B. Full Sandbox",
-      "C. Developer Sandbox",
-      "D. Developer Pro Sandbox"
-    ],
+    "options": ["A. Partial Data Sandbox", "B. Full Sandbox", "C. Developer Sandbox", "D. Developer Pro Sandbox"],
     "answer": "D",
     "title": "Question 63",
     "explanation": ""
@@ -753,12 +680,7 @@
   },
   {
     "content": "What would you check to see whether a workflow failed?",
-    "options": [
-      "A. debug log",
-      "B. workflow log",
-      "C. integration log",
-      "D. failed work flow log"
-    ],
+    "options": ["A. debug log", "B. workflow log", "C. integration log", "D. failed work flow log"],
     "answer": "A",
     "title": "Question 65",
     "explanation": "Explanation\n http://help.salesforce.com/HTViewHelpDoc?id=code_debug_log.htm&language=en_US"
@@ -803,12 +725,7 @@
   },
   {
     "content": "Universal Containers wants to create a Job Application custom object related to a Job Posting custom object.\nThey would also like a no-code solution to calculate the number of Job Applications for each Job Posting.\nWhat type of field should an administrator create on the Job Application to enable this functionality?",
-    "options": [
-      "A. Roll-up Summary",
-      "B. Formula",
-      "C. Lookup",
-      "D. Master-Detail"
-    ],
+    "options": ["A. Roll-up Summary", "B. Formula", "C. Lookup", "D. Master-Detail"],
     "answer": "C",
     "title": "Question 70",
     "explanation": ""
@@ -871,12 +788,7 @@
   },
   {
     "content": "Which deployment tool would you use to deploy metadata from one organization to a RELATED organization?",
-    "options": [
-      "A. Unmanaged Packages",
-      "B. Force.com IDE",
-      "C. Force.com Migration Tool",
-      "D. Change sets"
-    ],
+    "options": ["A. Unmanaged Packages", "B. Force.com IDE", "C. Force.com Migration Tool", "D. Change sets"],
     "answer": "D",
     "title": "Question 76",
     "explanation": ""
@@ -889,18 +801,13 @@
       "C. The contact sharing settings are controlled by the parent, and the account owner is not under the sales manager's role.",
       "D. The contact owner has not selected the option to share contacts with others in the role hierarchy."
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 77",
     "explanation": ""
   },
   {
     "content": "A Sales Manager needs to see a pipeline report based on standard industries. The company has 3 main groups of industries they sell into and the report needs to reflect this.\nWhich feature can be used to group the various standard\nindustries into groups on the report?",
-    "options": [
-      "A. Summary grouping",
-      "B. Parent Grouping",
-      "C. Custom Summary Formulas",
-      "D. Bucket Fields"
-    ],
+    "options": ["A. Summary grouping", "B. Parent Grouping", "C. Custom Summary Formulas", "D. Bucket Fields"],
     "answer": "D",
     "title": "Question 78",
     "explanation": ""
@@ -1039,12 +946,7 @@
   },
   {
     "content": "Which value rolls up for both customizable and collaborative forecasting?",
-    "options": [
-      "A. Opportunity amount",
-      "B. Expected revenue",
-      "C. Quota",
-      "D. Amount"
-    ],
+    "options": ["A. Opportunity amount", "B. Expected revenue", "C. Quota", "D. Amount"],
     "answer": "A",
     "title": "Question 90",
     "explanation": ""
@@ -1065,13 +967,7 @@
   },
   {
     "content": "What permissions must be enabled on a profile to find duplicate records?",
-    "options": [
-      "A. Read and Edit",
-      "B. Delete",
-      "C. Locate Duplicate Records",
-      "D. Merge",
-      "E. View All Data"
-    ],
+    "options": ["A. Read and Edit", "B. Delete", "C. Locate Duplicate Records", "D. Merge", "E. View All Data"],
     "answer": "E",
     "title": "Question 92",
     "explanation": ""
@@ -1200,12 +1096,7 @@
   },
   {
     "content": "An administrator would like to know which delegated administrators are actively customizing their organization.\ntheir organization. Where can the administrator find this information?",
-    "options": [
-      "A. Setup audit trail",
-      "B. Login history",
-      "C. Delegated administrator log",
-      "D. Debug log"
-    ],
+    "options": ["A. Setup audit trail", "B. Login history", "C. Delegated administrator log", "D. Debug log"],
     "answer": "A",
     "title": "Question 104",
     "explanation": ""
@@ -1269,12 +1160,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track customer complaints. The company wants to have a field on the custom object where they can include a reference to another complaint.\nWhat types of relationship can be used to accomplish this?",
-    "options": [
-      "A. Junction",
-      "B. Lookup",
-      "C. Hierarchical",
-      "D. Master-detail"
-    ],
+    "options": ["A. Junction", "B. Lookup", "C. Hierarchical", "D. Master-detail"],
     "answer": "B",
     "title": "Question 111",
     "explanation": ""
@@ -1349,12 +1235,7 @@
   },
   {
     "content": "Suggest a feature that SFB Industries can enable to increase call deflection.",
-    "options": [
-      "A. Click-to-dial",
-      "B. Email-to-Case",
-      "C. Live Chat",
-      "D. Public Knowledge Base"
-    ],
+    "options": ["A. Click-to-dial", "B. Email-to-Case", "C. Live Chat", "D. Public Knowledge Base"],
     "answer": "D",
     "title": "Question 119",
     "explanation": ""
@@ -1373,24 +1254,14 @@
   },
   {
     "content": "To set the default level of access for users to be able to access each other's records, you would use:\nSelect one:",
-    "options": [
-      "A. Territory Management",
-      "B. Organization Wide Defaults.",
-      "C. Sharing Rules.",
-      "D. The Role Hierarchy."
-    ],
+    "options": ["A. Territory Management", "B. Organization Wide Defaults.", "C. Sharing Rules.", "D. The Role Hierarchy."],
     "answer": "B",
     "title": "Question 121",
     "explanation": ""
   },
   {
     "content": "Which two values roll up the hierarchy to the manager for Collaborative Forecasting?\nChoose 2 answers.",
-    "options": [
-      "A. Product quantity",
-      "B. Quota amount",
-      "C. Opportunity amount",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Product quantity", "B. Quota amount", "C. Opportunity amount", "D. Expected revenue"],
     "answer": "C,D",
     "title": "Question 122",
     "explanation": ""

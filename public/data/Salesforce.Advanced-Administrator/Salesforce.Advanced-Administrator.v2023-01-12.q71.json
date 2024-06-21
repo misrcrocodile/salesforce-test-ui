@@ -14,12 +14,7 @@
   },
   {
     "content": "The Cloud Kicks administrator wants to open up opportunity sharing to directors who oversee regional managers so they can access records to assist regional managers.\nWhat sharing mechanism should be used?",
-    "options": [
-      "A. Role Hierarchy",
-      "B. Sharing Settings",
-      "C. Manual Sharing",
-      "D. organization wide Defaults"
-    ],
+    "options": ["A. Role Hierarchy", "B. Sharing Settings", "C. Manual Sharing", "D. organization wide Defaults"],
     "answer": "A",
     "title": "Question 2",
     "explanation": ""
@@ -74,12 +69,7 @@
   },
   {
     "content": "Cloud Kicks (CK) has deployed several new custom apps that use Lightning Web components. The administrator is now concerned that they may need to make some adjustments to CK's org to make it more secure.\nWhich tools should the administrator use to expose possible security risks within a Lightning web component?",
-    "options": [
-      "A. Salesforce Optimizer",
-      "B. Self-signed Certificates",
-      "C. Master Encryption Keys",
-      "D. Health Check"
-    ],
+    "options": ["A. Salesforce Optimizer", "B. Self-signed Certificates", "C. Master Encryption Keys", "D. Health Check"],
     "answer": "D",
     "title": "Question 7",
     "explanation": ""
@@ -122,36 +112,21 @@
   },
   {
     "content": "The Cloud Kicks online Lead Intake form was recently updated to allow for new choices on some older picklist fields. The leads are all being created properly in Salesforce, but reps are getting errors as they try to work the leads.\nWhat tool should the administrator use to evaluate what is causing the errors?",
-    "options": [
-      "A. Debug Log",
-      "B. Record History",
-      "C. Login History",
-      "D. Setup Audit Log"
-    ],
+    "options": ["A. Debug Log", "B. Record History", "C. Login History", "D. Setup Audit Log"],
     "answer": "A",
     "title": "Question 11",
     "explanation": ""
   },
   {
     "content": "Cloud kicks has received feedback that customers are frustrated with the amount of time it takes to reach a support agent by area of expertise according to product information after a new case has been submitted.\nWhich feature should administrator configure in order to improve the case management process?",
-    "options": [
-      "A. Knowledge Component",
-      "B. Omni-Channel",
-      "C. Macros",
-      "D. Escalation Rules"
-    ],
+    "options": ["A. Knowledge Component", "B. Omni-Channel", "C. Macros", "D. Escalation Rules"],
     "answer": "B",
     "title": "Question 12",
     "explanation": ""
   },
   {
     "content": "The sales manager at Cloud Kicks wants a way to report on information from a form their clients fill out during the sales cycle. Once a form has been submitted, the client is unable to access it. This form may need to be filled out more than once during the sales cycle. There are more than 30 fields on this form, and the sales team needs to be able to see what changed from one submission to the next.\nWhich two options should an administrator use to solve this scenario?\nChoose 2 answers",
-    "options": [
-      "A. Add forms as attachments.",
-      "B. Turn on Field Tracking.",
-      "C. Make custom fields.",
-      "D. Create a custom object."
-    ],
+    "options": ["A. Add forms as attachments.", "B. Turn on Field Tracking.", "C. Make custom fields.", "D. Create a custom object."],
     "answer": "A,D",
     "title": "Question 13",
     "explanation": ""
@@ -170,24 +145,14 @@
   },
   {
     "content": "The administrator at AW Computing has received an email for a system error indicating that their organization has reached is hourly limit processing workflow time triggers.\nWhich two processes should the administrator review? Choose 2 answers",
-    "options": [
-      "A. Paused now Interviews",
-      "B. Debug Logs",
-      "C. Time-Based Workflows",
-      "D. Apex Triggers"
-    ],
+    "options": ["A. Paused now Interviews", "B. Debug Logs", "C. Time-Based Workflows", "D. Apex Triggers"],
     "answer": "B,C",
     "title": "Question 15",
     "explanation": ""
   },
   {
     "content": "What should an administrator use as an alternative to a Process Builder to expedite the time required to update the records?",
-    "options": [
-      "A. Workflow Rule Field Change",
-      "B. Screen Row",
-      "C. Before save How Trigger",
-      "D. Batch Update"
-    ],
+    "options": ["A. Workflow Rule Field Change", "B. Screen Row", "C. Before save Flow Trigger", "D. Batch Update"],
     "answer": "C",
     "title": "Question 16",
     "explanation": ""
@@ -206,12 +171,7 @@
   },
   {
     "content": "Sales teams at Cloud Kicks ask each visiting customer to fill out a form that capturing their contact information and some basic footwear preferences. This information is saved to a spreadsheet and used by the sales team to alert their contacts when new shows are added to the inventory that matches their preferences. The sales team wants to be able to track this in Salesforce and see the information when viewing the contact Record.\nWhich two ways should the administrator configure this requirement?\nChoose 2 answers",
-    "options": [
-      "A. Lookup Field",
-      "B. Schema Builder",
-      "C. Data Loader",
-      "D. Lightning Object Creator"
-    ],
+    "options": ["A. Lookup Field", "B. Schema Builder", "C. Data Loader", "D. Lightning Object Creator"],
     "answer": "A,D",
     "title": "Question 18",
     "explanation": ""
@@ -230,12 +190,7 @@
   },
   {
     "content": "Ursa Major Solar allows its scientists to log new stars as they find them, but on occasion, they log the same star by mistake. The administrator wants scientists to be notified when a record is deleted and by whom, and to maintain their own discovery information.\nWhat automation solution should be used to send the notification?",
-    "options": [
-      "A. Heroku",
-      "B. Process Builder",
-      "C. flow",
-      "D. Workflow Action"
-    ],
+    "options": ["A. Heroku", "B. Process Builder", "C. flow", "D. Workflow Action"],
     "answer": "C",
     "title": "Question 20",
     "explanation": ""
@@ -313,13 +268,8 @@
     "explanation": ""
   },
   {
-    "content": "Sales reps at AW Computing hove been reporting that contact phone numbers sometimes revert book to on old value after being updated.\nWhat should the administrator do to resolve this issue?",
-    "options": [
-      "A. Delete all workflow rules.",
-      "B. Add an invocable process.",
-      "C. Consolidate automation tools.",
-      "D. Schedule Apex jobs."
-    ],
+    "content": "Sales reps at AW Computing have been reporting that contact phone numbers sometimes revert book to on old value after being updated.\nWhat should the administrator do to resolve this issue?",
+    "options": ["A. Delete all workflow rules.", "B. Add an invocable process.", "C. Consolidate automation tools.", "D. Schedule Apex jobs."],
     "answer": "C",
     "title": "Question 27",
     "explanation": ""
@@ -345,12 +295,7 @@
   },
   {
     "content": "AW Computing has a private sharing model for Its accounts, but a sales rep occasionally needs ass/stance from an engineer. What feature should be used to grant the engineer access to the necessary account, while maintaining the company's data security?",
-    "options": [
-      "A. Custom Profile",
-      "B. Permission Set Group",
-      "C. Permission Set",
-      "D. Account Teams"
-    ],
+    "options": ["A. Custom Profile", "B. Permission Set Group", "C. Permission Set", "D. Account Teams"],
     "answer": "D",
     "title": "Question 30",
     "explanation": ""
@@ -369,12 +314,7 @@
   },
   {
     "content": "As part of their yearly audit, the compliance team at Cloud Kicks would like to track when a user's profile has been changed and who changed the data.\nWhat should the administrator review to meet this requirement?",
-    "options": [
-      "A. Field History Tracking",
-      "B. Historical Trending",
-      "C. Analytic Snapshot",
-      "D. Setup Audit Trail"
-    ],
+    "options": ["A. Field History Tracking", "B. Historical Trending", "C. Analytic Snapshot", "D. Setup Audit Trail"],
     "answer": "D",
     "title": "Question 32",
     "explanation": ""
@@ -429,36 +369,21 @@
   },
   {
     "content": "The security department at AW Computing wants to prevent users from exporting more data than they need. Included in this request is limiting records containing sensitive information, such as bank accounts and Personal Identifiable Information (PII).\nWhich feature should an administrator recommend to help limit what data is exported?",
-    "options": [
-      "A. Salesforce Platform Encryption",
-      "B. Export Data Settings",
-      "C. Muted Permission Sets",
-      "D. Salesforce Shield"
-    ],
+    "options": ["A. Salesforce Platform Encryption", "B. Export Data Settings", "C. Muted Permission Sets", "D. Salesforce Shield"],
     "answer": "D",
     "title": "Question 37",
     "explanation": ""
   },
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
-    "options": [
-      "A. Session Security Settings",
-      "B. Security Health Check",
-      "C. Object Manager",
-      "D. Setup Audit Trail"
-    ],
+    "options": ["A. Session Security Settings", "B. Security Health Check", "C. Object Manager", "D. Setup Audit Trail"],
     "answer": "A",
     "title": "Question 38",
     "explanation": ""
   },
   {
     "content": "At Ursa Major Solar, several different planetary teams handle leads depending on which planet the lead is coming from. While most of the teams only need a few fields filled out to work the lead, the Jupiter team requires additional information to be filled out, such as which moon the lead is coming from. The administrator needs to automate which team is allocated the lead record based on the planet and ensure that every team has all of the information they need.\nWhich two features will satisfy these requirements?\nChoose 2 answers",
-    "options": [
-      "A. Workflow Rules",
-      "B. Validation Rules",
-      "C. Assignment Rules",
-      "D. Matching Rules"
-    ],
+    "options": ["A. Workflow Rules", "B. Validation Rules", "C. Assignment Rules", "D. Matching Rules"],
     "answer": "C,D",
     "title": "Question 39",
     "explanation": ""
@@ -502,12 +427,7 @@
   },
   {
     "content": "An administrator at AW Computing noticed that a custom field on the Contact object was changed from text to text area.\nWhat tool should the administrator use to investigate this change?",
-    "options": [
-      "A. Debug Log",
-      "B. Field History Tracking",
-      "C. Developer Console",
-      "D. View Setup Audit Trail"
-    ],
+    "options": ["A. Debug Log", "B. Field History Tracking", "C. Developer Console", "D. View Setup Audit Trail"],
     "answer": "D",
     "title": "Question 43",
     "explanation": ""
@@ -526,24 +446,14 @@
   },
   {
     "content": "The VP of sales at AW Computing utilizes a Lead report grouped by Country and Lead Source to show where the leads are coming from. The number of leads vanes greatly for each Country.\nWhat should the administrator configure on the report to show the Lead Source effectiveness for each country?",
-    "options": [
-      "A. Bucket fitters",
-      "B. PARENTGROUPVAL Function",
-      "C. PREVGROUPVAL function",
-      "D. The 'Show Unique Count*"
-    ],
+    "options": ["A. Bucket fitters", "B. PARENTGROUPVAL Function", "C. PREVGROUPVAL function", "D. The 'Show Unique Count*"],
     "answer": "A",
     "title": "Question 45",
     "explanation": ""
   },
   {
     "content": "The sale VP notices several sales reps generating a contract too early in the sales stage. The help correct this Behavior, the has requested the Create Contract button only be available when the opportunity reach... negotiation stage.\nHow should the administrator meet this requirement?",
-    "options": [
-      "A. Modify page layout.",
-      "B. Create a validation rule.",
-      "C. Configure dynamic action.",
-      "D. Create a custom permission."
-    ],
+    "options": ["A. Modify page layout.", "B. Create a validation rule.", "C. Configure dynamic action.", "D. Create a custom permission."],
     "answer": "C",
     "title": "Question 46",
     "explanation": ""
@@ -610,12 +520,7 @@
   },
   {
     "content": "Cloud Kicks (CK) has a filed called Shoe Type Preference, CK,s product team wants to see a report that groups specific picklist values together into the one of two lists.\nWhat functionality should the administrator use to fulfill the team's request?",
-    "options": [
-      "A. Bucket field",
-      "B. Summary Formula",
-      "C. PREVGROUPVALUE",
-      "D. Matrix Report"
-    ],
+    "options": ["A. Bucket field", "B. Summary Formula", "C. PREVGROUPVALUE", "D. Matrix Report"],
     "answer": "A",
     "title": "Question 52",
     "explanation": ""
@@ -659,12 +564,7 @@
   },
   {
     "content": "Users at Ursa Major Solar want to create complex dashboards with supporting charts based on data to come from a variety of sources, some of which live on the Internal company shared drives.\nWhich product should the administrator recommend to meet the users' needs?",
-    "options": [
-      "A. Report Bulkier",
-      "B. Lightning Dashboard Builder",
-      "C. List views",
-      "D. Tableau CKM"
-    ],
+    "options": ["A. Report Bulkier", "B. Lightning Dashboard Builder", "C. List views", "D. Tableau CKM"],
     "answer": "D",
     "title": "Question 56",
     "explanation": ""
@@ -767,7 +667,7 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently,usrrs have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
+    "content": "Ursa Major Solar customer records have a lot of fields and Lightning components to give users a variety of information and available functions. Recently, users have noted that their pages take a long time to load and it's starting to negatively impact their experience.\nWhat should the administrator do to help diagnose where improvements can be made?",
     "options": [
       "A. Check the debug logs found in the Environment section of Setup.",
       "B. Review the debug logs from the Developer Console.",
@@ -780,12 +680,7 @@
   },
   {
     "content": "AW Computing it running a special bundle deal on monitors and keyboards. Normally, discounts need VP approval, but this special bundle is pre-approved.\nWhat should the administrator recommend for these requirements?",
-    "options": [
-      "A. Remove the approval process.",
-      "B. Implement CPQ.",
-      "C. Create a separate price book.",
-      "D. Enable Subscriptions."
-    ],
+    "options": ["A. Remove the approval process.", "B. Implement CPQ.", "C. Create a separate price book.", "D. Enable Subscriptions."],
     "answer": "B",
     "title": "Question 66",
     "explanation": ""
@@ -816,30 +711,20 @@
   },
   {
     "content": "Select power users want the ability to make configuration changes to a specific custom object.\nWhat tool should the administrator assign to the power users to enable this?",
-    "options": [
-      "A. Delegated Administration",
-      "B. View Setup and Configuration",
-      "C. Modify All Data",
-      "D. Sharing Rule"
-    ],
+    "options": ["A. Delegated Administration", "B. View Setup and Configuration", "C. Modify All Data", "D. Sharing Rule"],
     "answer": "A",
     "title": "Question 69",
     "explanation": ""
   },
   {
     "content": "Which two tools should an administrator use to required data to be entered in a field and improve data quality on a record in Salesrorce?\nChoose 2 answers",
-    "options": [
-      "A. Workflow Rules",
-      "B. Page Layouts",
-      "C. Dashboards",
-      "D. validation Rules"
-    ],
+    "options": ["A. Workflow Rules", "B. Page Layouts", "C. Dashboards", "D. validation Rules"],
     "answer": "B,D",
     "title": "Question 70",
     "explanation": ""
   },
   {
-    "content": "AW Computing (AVVC) has customers In multiple countries. AWC would like to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
+    "content": "AW Computing (AWC) has customers In multiple countries. AWC would like to set up advanced currency management for Its system.\nWhich two considerations should AWC be aware or prior to implementing this change to the existing system?\nChoose 2 answers",
     "options": [
       "A. Historical trend reports will only use the last dated exchange rate.",
       "B. Once enabled, advanced currency management cannot be disabled.",

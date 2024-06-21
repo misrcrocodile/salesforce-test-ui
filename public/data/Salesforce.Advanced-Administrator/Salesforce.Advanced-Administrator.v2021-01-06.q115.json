@@ -20,12 +20,7 @@
   },
   {
     "content": "Which deployment tool can be used to delete metadata from an organization? (choose 2 answers)",
-    "options": [
-      "A. Force.com Migration Tool",
-      "B. Unmanaged packages",
-      "C. Change sets",
-      "D. Force.com IDE"
-    ],
+    "options": ["A. Force.com Migration Tool", "B. Unmanaged packages", "C. Change sets", "D. Force.com IDE"],
     "answer": "A,D",
     "title": "Question 3",
     "explanation": ""
@@ -71,24 +66,14 @@
   },
   {
     "content": "What type of data can be migrated between environments using change sets? Choose 2 answers",
-    "options": [
-      "A. Account team roles",
-      "B. Field type changes",
-      "C. Email templates",
-      "D. Custom fields"
-    ],
+    "options": ["A. Account team roles", "B. Field type changes", "C. Email templates", "D. Custom fields"],
     "answer": "C,D",
     "title": "Question 7",
     "explanation": ""
   },
   {
     "content": "All enabled on Accounts and assign to the new users45. SFB Industries are looking to set up Entitlements in Salesforce. What is the first thing you must do in Salesforce when setting this up?",
-    "options": [
-      "A. Choose an Entitlement Model",
-      "B. Set Up Milestones",
-      "C. Setup Milestone Actions",
-      "D. Create an Entitlement Process"
-    ],
+    "options": ["A. Choose an Entitlement Model", "B. Set Up Milestones", "C. Setup Milestone Actions", "D. Create an Entitlement Process"],
     "answer": "A",
     "title": "Question 8",
     "explanation": ""
@@ -114,12 +99,7 @@
   },
   {
     "content": "The administrator for SFB Industries would like to deploy a custom object and fields to an unrelated Org. What is the best way to do this using declarative functionality?",
-    "options": [
-      "A. Unmanaged package",
-      "B. Change Sets",
-      "C. Force.com Migration Tools",
-      "D. Force.com IDE"
-    ],
+    "options": ["A. Unmanaged package", "B. Change Sets", "C. Force.com Migration Tools", "D. Force.com IDE"],
     "answer": "A",
     "title": "Question 11",
     "explanation": ""
@@ -150,24 +130,14 @@
   },
   {
     "content": "Suggest a feature that SFB Industries can enable to increase call deflection.",
-    "options": [
-      "A. Click--to--dial",
-      "B. Email--to--Case",
-      "C. Public Knowledge Base",
-      "D. Live Chat"
-    ],
+    "options": ["A. Click--to--dial", "B. Email--to--Case", "C. Public Knowledge Base", "D. Live Chat"],
     "answer": "C",
     "title": "Question 14",
     "explanation": ""
   },
   {
     "content": "What would you check to see whether a workflow failed?",
-    "options": [
-      "A. debug log",
-      "B. workflow log",
-      "C. integration log",
-      "D. failed work flow log"
-    ],
+    "options": ["A. debug log", "B. workflow log", "C. integration log", "D. failed work flow log"],
     "answer": "A",
     "title": "Question 15",
     "explanation": "http://help.salesforce.com/HTViewHelpDoc?id=code_debug_log.htm&language=en_US"
@@ -236,12 +206,7 @@
   },
   {
     "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production?",
-    "options": [
-      "A. Developer Pro Sandbox",
-      "B. Developer Sandbox",
-      "C. Partial Data Sandbox",
-      "D. Full Sandbox"
-    ],
+    "options": ["A. Developer Pro Sandbox", "B. Developer Sandbox", "C. Partial Data Sandbox", "D. Full Sandbox"],
     "answer": "A",
     "title": "Question 21",
     "explanation": ""
@@ -296,24 +261,14 @@
   },
   {
     "content": "A user has asked the Administrator at SFB Industries if they should have access to the salary field on the user object they should not. The Administrator has checked their profile and they do not have access to this field on field level security. Where else should they check?",
-    "options": [
-      "A. Profile Object settings",
-      "B. Permission Sets",
-      "C. Sharing Rules",
-      "D. Org--wide defaults"
-    ],
+    "options": ["A. Profile Object settings", "B. Permission Sets", "C. Sharing Rules", "D. Org--wide defaults"],
     "answer": "B",
     "title": "Question 26",
     "explanation": ""
   },
   {
     "content": "How to create a report showing Company growth Year after Year. What function to use ?",
-    "options": [
-      "A. DATEVAL",
-      "B. PREVGROUPVAL",
-      "C. PARENTGROUPVAL",
-      "D. PRIORVALUE"
-    ],
+    "options": ["A. DATEVAL", "B. PREVGROUPVAL", "C. PARENTGROUPVAL", "D. PRIORVALUE"],
     "answer": "B",
     "title": "Question 27",
     "explanation": ""
@@ -344,25 +299,14 @@
   },
   {
     "content": "When importing revenue quota data for Collaborative Forecasts using Data Loader what information must be included in the import file? (3)",
-    "options": [
-      "A. Quota quantity",
-      "B. Start date of the forecast period",
-      "C. Quota amount",
-      "D. User record ID",
-      "E. User full name"
-    ],
+    "options": ["A. Quota quantity", "B. Start date of the forecast period", "C. Quota amount", "D. User record ID", "E. User full name"],
     "answer": "B,C,D",
     "title": "Question 30",
     "explanation": ""
   },
   {
     "content": "What tool would you use if you wanted to create a report that would compare results over time based on specific criteria?",
-    "options": [
-      "A. Exception Report",
-      "B. custom report types (CRT)",
-      "C. Standard Report",
-      "D. analytic snapshots"
-    ],
+    "options": ["A. Exception Report", "B. custom report types (CRT)", "C. Standard Report", "D. analytic snapshots"],
     "answer": "D",
     "title": "Question 31",
     "explanation": ""
@@ -417,25 +361,14 @@
   },
   {
     "content": "What type of process can the system administrator set for an organization's products?\nChoose 3 answers",
-    "options": [
-      "A. Standard prices",
-      "B. Product prices",
-      "C. Discount prices",
-      "D. List prices",
-      "E. Sales prices"
-    ],
+    "options": ["A. Standard prices", "B. Product prices", "C. Discount prices", "D. List prices", "E. Sales prices"],
     "answer": "A,D,E",
     "title": "Question 36",
     "explanation": ""
   },
   {
     "content": "SFB Industries operates in a highly regulated industry. Recently a key bit of information has been changed from a customers record. How can this be audited in the future?",
-    "options": [
-      "A. Field History Tracking",
-      "B. Setup Audit Trail",
-      "C. Login History",
-      "D. Debug Logs"
-    ],
+    "options": ["A. Field History Tracking", "B. Setup Audit Trail", "C. Login History", "D. Debug Logs"],
     "answer": "A",
     "title": "Question 37",
     "explanation": ""
@@ -454,13 +387,7 @@
   },
   {
     "content": "What permissions must be enabled on a profile to find duplicate records?",
-    "options": [
-      "A. Delete",
-      "B. Read and Edit",
-      "C. View All Data",
-      "D. Locate Duplicate Records",
-      "E. Merge"
-    ],
+    "options": ["A. Delete", "B. Read and Edit", "C. View All Data", "D. Locate Duplicate Records", "E. Merge"],
     "answer": "C",
     "title": "Question 39",
     "explanation": ""
@@ -565,19 +492,13 @@
       "C. The account sharing settings are controlled by the parent, and the account owner is not under the sales manger's role.",
       "D. The contact sharing settings are controlled by the parent, and the account owner is not under the sales manager's role."
     ],
-    "answer": "C",
+    "answer": "D",
     "title": "Question 48",
     "explanation": ""
   },
   {
     "content": "What can a Sales Representative see once he clicks on the Forecast (Collaborative) tab? Select 4",
-    "options": [
-      "A. Data Source",
-      "B. Forecast Range",
-      "C. Quotas",
-      "D. Forecast Categories",
-      "E. Opportunity list column"
-    ],
+    "options": ["A. Data Source", "B. Forecast Range", "C. Quotas", "D. Forecast Categories", "E. Opportunity list column"],
     "answer": "B,C,D,E",
     "title": "Question 49",
     "explanation": ""
@@ -590,12 +511,8 @@
     "explanation": ""
   },
   {
-    "content": "During Deployment from Sandbox to production using Changeset , Few components missed. How you are going to add those component to production ?",
-    "options": [
-      "A. Edit Changset and re-deploy",
-      "B. Clone existing and make changes and Re-deploy",
-      "C. Create New and Redeploy"
-    ],
+    "content": "During Deployment from Sandbox to production using Change set, Few components missed. How you are going to add those component to production ?",
+    "options": ["A. Edit Changset and re-deploy", "B. Clone existing and make changes and Re-deploy", "C. Create New and Redeploy"],
     "answer": "B",
     "title": "Question 51",
     "explanation": ""
@@ -609,12 +526,7 @@
   },
   {
     "content": "Dylan has submitted a vacation request for approval by his manager, but the manager is not receiving any email alerts. What can you use in order to troubleshoot the issue? Choose two answers.",
-    "options": [
-      "A. Email log",
-      "B. A Time-Based Workflow",
-      "C. The Setup Audit Trail",
-      "D. Debug Log"
-    ],
+    "options": ["A. Email log", "B. A Time-Based Workflow", "C. The Setup Audit Trail", "D. Debug Log"],
     "answer": "A,D",
     "title": "Question 53",
     "explanation": ""
@@ -633,12 +545,7 @@
   },
   {
     "content": "Universal Containers uses a custom object to track services called Work Items with a lookup to Accounts. The Work Item records should only be visible by users that own the Account records.\nWhich sharing setting provides the correct visibility?",
-    "options": [
-      "A. Private",
-      "B. Public Read Only",
-      "C. Public Read/Went/Transfer",
-      "D. Controlled by Parent"
-    ],
+    "options": ["A. Private", "B. Public Read Only", "C. Public Read/Went/Transfer", "D. Controlled by Parent"],
     "answer": "A",
     "title": "Question 55",
     "explanation": ""
@@ -694,13 +601,7 @@
   },
   {
     "content": "Milestone actions determine what happens during a case support process and can trigger what type of workflow actions?\nSelect 3",
-    "options": [
-      "A. Entitlement Breach",
-      "B. Violation",
-      "C. SLA Breach",
-      "D. Warning",
-      "E. Success"
-    ],
+    "options": ["A. Entitlement Breach", "B. Violation", "C. SLA Breach", "D. Warning", "E. Success"],
     "answer": "B,D,E",
     "title": "Question 60",
     "explanation": ""
@@ -813,24 +714,14 @@
   },
   {
     "content": "Which value rolls up for both customizable and collaborative forecasting?",
-    "options": [
-      "A. Quota",
-      "B. Amount",
-      "C. Opportunity amount",
-      "D. Expected revenue"
-    ],
+    "options": ["A. Quota", "B. Amount", "C. Opportunity amount", "D. Expected revenue"],
     "answer": "C",
     "title": "Question 71",
     "explanation": ""
   },
   {
     "content": "In a two-step approval process where the first step is a hiring manager and second is the appropriate director, which of the following relationship types would a system administrator use to establish a relationship between the two approvers?",
-    "options": [
-      "A. Sibling relationship",
-      "B. Look up relationship",
-      "C. Hierarchical relationship",
-      "D. Master detail relationship"
-    ],
+    "options": ["A. Sibling relationship", "B. Look up relationship", "C. Hierarchical relationship", "D. Master detail relationship"],
     "answer": "C",
     "title": "Question 72",
     "explanation": ""
@@ -861,12 +752,7 @@
   },
   {
     "content": "To set up entitlement management, including milestones, entitlement processes, and entitlement templates which two permissions need to be enabled?Choose 2 answers",
-    "options": [
-      "A. Manage Entitlements",
-      "B. Customize Entitlements",
-      "C. Manage Milestones",
-      "D. Customize Application"
-    ],
+    "options": ["A. Manage Entitlements", "B. Customize Entitlements", "C. Manage Milestones", "D. Customize Application"],
     "answer": "A,D",
     "title": "Question 75",
     "explanation": ""
@@ -907,12 +793,7 @@
   },
   {
     "content": "Which permission do you need to manage entitlements? Choose 2",
-    "options": [
-      "A. Manage Entitlements",
-      "B. Customize Application\"",
-      "C. Customize Entitlement",
-      "D. Manage Application"
-    ],
+    "options": ["A. Manage Entitlements", "B. Customize Application\"", "C. Customize Entitlement", "D. Manage Application"],
     "answer": "C",
     "title": "Question 80",
     "explanation": ""
@@ -931,34 +812,21 @@
   },
   {
     "content": "UC needs to use different a pricebook for sales representatives in US, LATAM, EMEA and APAC.\nWhat should the system administrator do? Choose 1.",
-    "options": [
-      "A. Clone standard Pricebook and assigned separate prices for each region",
-      "B. delete standard pricebook and create pricebooks"
-    ],
+    "options": ["A. Clone standard Pricebook and assigned separate prices for each region", "B. delete standard pricebook and create pricebooks"],
     "answer": "A",
     "title": "Question 82",
     "explanation": ""
   },
   {
     "content": "The administrator at Universal Containers has been asked to create an account management dashboard displaying opportunities and activities for each of its top five clients.\nWhich dashboard feature should the Administrator use to meet this requirement?",
-    "options": [
-      "A. Joined reports on a dashboard",
-      "B. Dynamic dashboard",
-      "C. Dashboard Filter",
-      "D. Matrix reports on a dashboard"
-    ],
+    "options": ["A. Joined reports on a dashboard", "B. Dynamic dashboard", "C. Dashboard Filter", "D. Matrix reports on a dashboard"],
     "answer": "A",
     "title": "Question 83",
     "explanation": ""
   },
   {
     "content": "Which feature is required to use Territory Management?",
-    "options": [
-      "A. Collaborative Forecasting",
-      "B. Advanced Currency Management",
-      "C. Multiple Currencies",
-      "D. Customizable Forecasting"
-    ],
+    "options": ["A. Collaborative Forecasting", "B. Advanced Currency Management", "C. Multiple Currencies", "D. Customizable Forecasting"],
     "answer": "D",
     "title": "Question 84",
     "explanation": ""
@@ -1096,24 +964,14 @@
   },
   {
     "content": "To set the default level of access for users to be able to access each other's records, you would use:\nSelect one:",
-    "options": [
-      "A. Sharing Rules.",
-      "B. Organization Wide Defaults.",
-      "C. Territory Management",
-      "D. The Role Hierarchy."
-    ],
+    "options": ["A. Sharing Rules.", "B. Organization Wide Defaults.", "C. Territory Management", "D. The Role Hierarchy."],
     "answer": "B",
     "title": "Question 96",
     "explanation": ""
   },
   {
     "content": "SFB Industries have a requirement to see how many cases are open at any one time over the year. How can this be achieved?",
-    "options": [
-      "A. Scheduled Reports",
-      "B. Exception Reports",
-      "C. Custom Report Types",
-      "D. Analytical Snapshots"
-    ],
+    "options": ["A. Scheduled Reports", "B. Exception Reports", "C. Custom Report Types", "D. Analytical Snapshots"],
     "answer": "D",
     "title": "Question 97",
     "explanation": ""
@@ -1214,25 +1072,14 @@
   },
   {
     "content": "Universal Container has set the Organization Wide Defaults for all objects to private. Which profile setting would allow user to access all of the accounts within the organization? Choose 2 Answers",
-    "options": [
-      "A. Read for Accounts",
-      "B. Modify All Data",
-      "C. View All for Accounts",
-      "D. Public for Accounts"
-    ],
+    "options": ["A. Read for Accounts", "B. Modify All Data", "C. View All for Accounts", "D. Public for Accounts"],
     "answer": "B,C",
     "title": "Question 106",
     "explanation": ""
   },
   {
     "content": "What are the three types of Milestone Actions that you can trigger when working with Entitlements? (Select 3)",
-    "options": [
-      "A. Success Action",
-      "B. Completion Action",
-      "C. Starting Action",
-      "D. Violation Action",
-      "E. Warning Action"
-    ],
+    "options": ["A. Success Action", "B. Completion Action", "C. Starting Action", "D. Violation Action", "E. Warning Action"],
     "answer": "A,D,E",
     "title": "Question 107",
     "explanation": ""

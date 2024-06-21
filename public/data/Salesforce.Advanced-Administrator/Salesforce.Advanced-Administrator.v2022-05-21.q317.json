@@ -1,6 +1,6 @@
 [
   {
-    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step? * (1 Point)",
+    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step?",
     "options": [
       "A. Change the organization-wide default setting to No Access.",
       "B. Change the Sales Reps' access rights to Use.",
@@ -62,7 +62,7 @@
     "explanation": ""
   },
   {
-    "content": "Which of the following features is NOT unique to Salesforce Knowledge? * (1 Point)",
+    "content": "Which of the following features is NOT unique to Salesforce Knowledge?",
     "options": ["A. Synonym Search", "B. Categories", "C. Custom Page Layouts", "D. Article Types"],
     "answer": "C",
     "title": "Question 7",
@@ -343,7 +343,7 @@
   {
     "content": "Admin wants to make exact copy of production metadata in developer sandbox.",
     "options": ["A. Schedule Sandbox refresh", "B. Use Developer Console", "C. Schedule full weekly backup", "D. Create and Deploy changeset"],
-    "answer": "D",
+    "answer": "A",
     "title": "Question 31",
     "explanation": ""
   },
@@ -468,10 +468,10 @@
     "options": [
       "A. Use Assignment rules & Queues",
       "B. Enable case routing for agents",
-      "C. Use Auto--response rules & Queues",
+      "C. Use Auto-response rules & Queues",
       "D. Create a workflow rule to assign users the correct case"
     ],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 43",
     "explanation": ""
   },
@@ -584,7 +584,7 @@
     "explanation": ""
   },
   {
-    "content": "What can a system administrator do to simplify searching in Knowledge for users? Choose three answers. * (1 Point)",
+    "content": "What can a system administrator do to simplify searching in Knowledge for users? Choose three answers.",
     "options": ["A. Filter by Language", "B. Create synonyms", "C. Enter predefined search input (autocomplete)", "D. Create Knowledge Categories"],
     "answer": "A,B,D",
     "title": "Question 55",
@@ -743,7 +743,7 @@
     "explanation": ""
   },
   {
-    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time? * (1 Point)",
+    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time?",
     "options": ["A. 2", "B. 3", "C. 1", "D. 4"],
     "answer": "C",
     "title": "Question 69",
@@ -1019,7 +1019,7 @@
     "explanation": ""
   },
   {
-    "content": "Which value rolls up for both customizable and collaborative forecasting? * (1 Point)",
+    "content": "Which value rolls up for both customizable and collaborative forecasting?",
     "options": ["A. Amount", "B. Opportunity amount", "C. Quota", "D. Expected revenue"],
     "answer": "B",
     "title": "Question 94",
@@ -1161,7 +1161,7 @@
     "explanation": ""
   },
   {
-    "content": "A change set that has already been submitted for deployment is missing a component.\nWhat can you do in order to correct the issue? * (1 Point)",
+    "content": "A change set that has already been submitted for deployment is missing a component.\nWhat can you do in order to correct the issue?",
     "options": [
       "A. Edit the change set, deactivate it and then add the missing component",
       "B. Create another change set containing all components and deploy it",
@@ -1211,12 +1211,12 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager wants to edit the opportunities owned by the sales team. The manager does not have Edit access to the Opportunity object. What is a recommended solution? * (1 Point)",
+    "content": "A sales manager wants to edit the opportunities owned by the sales team. The manager does not have Edit access to the Opportunity object. What is a recommended solution?",
     "options": [
       "A. Create permission set and associate Edit opportunity to the user record",
-      "B. Redefine the role hierarchy by enabling\"grant access using hierarchies",
+      "B. Redefine the role hierarchy by enabling \" grant access using hierarchies\".",
       "C. Change the opportunity's organization-wide default setting to Public Read/Write",
-      "D. Enable team selling on the Opportunity object to Grant Read/Writeaccess"
+      "D. Enable team selling on the Opportunity object to Grant Read/Write access"
     ],
     "answer": "A",
     "title": "Question 113",
@@ -1362,7 +1362,7 @@
     "explanation": ""
   },
   {
-    "content": "The sales manager at Universal Containers wants to see all opportunities that do not have any activities.\nWhich report type could be used to meet this requirement? Choose two answers. * (1 Point)",
+    "content": "The sales manager at Universal Containers wants to see all opportunities that do not have any activities.\nWhich report type could be used to meet this requirement? Choose two answers.",
     "options": [
       "A. A standard opportunity filtered by the field Last Activity and a custom date range that is blank",
       "B. A custom report type with Opportunity as the primary object and Activity as the secondary object",
@@ -1374,7 +1374,7 @@
     "explanation": ""
   },
   {
-    "content": "Which tools would you use to deploy metadata from one organization to either a RELATED or UNRELATED organization? Choose two answers. * (1 Point)",
+    "content": "Which tools would you use to deploy metadata from one organization to either a RELATED or UNRELATED organization? Choose two answers.",
     "options": ["A. Force.com Migration Tool", "B. Change sets", "C. Unmanaged Packages", "D. Force.com IDE"],
     "answer": "A,D",
     "title": "Question 129",
@@ -1467,7 +1467,7 @@
     "explanation": ""
   },
   {
-    "content": "Which feature license is required to use Content? * (1 Point)",
+    "content": "Which feature license is required to use Content?",
     "options": [
       "A. Salesforce CRM Content Manager",
       "B. Salesforce CRM Content Contributor",
@@ -2180,7 +2180,7 @@
     "explanation": ""
   },
   {
-    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate #m*e the sates rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
+    "content": "A sales rep at AW Computing needs to give read/write access to an Account and related records to a teammate because the sales rep is on vacation.\nHow could the administrator enable the sales rep to give record access to a colleague?",
     "options": [
       "A. Add the Manual Sharing button the page layout.",
       "B. Enable public groups for sharing.",
@@ -2218,7 +2218,7 @@
     "explanation": ""
   },
   {
-    "content": "Which of the following is NOT true about article types in Salesforce Knowledge? * (1 Point)",
+    "content": "Which of the following is NOT true about article types in Salesforce Knowledge?",
     "options": [
       "A. An organization must have 2 article types to enable Knowledge.",
       "B. Article Types may include attachments.",
@@ -2294,7 +2294,7 @@
     "explanation": ""
   },
   {
-    "content": "A sales representative changed the ownership of an account that they owned. What impact will this have on sharing?",
+    "content": "A sales representative changed the ownership of an account that they owned. What impact will this have on sharing? Choose 2 answers",
     "options": [
       "A. All criteria-based sharing rules will be recalculated.",
       "B. Related opportunity records will become Read-Only for account team members.",
@@ -2450,7 +2450,7 @@
       "C. Redefine the role hierarchy by enabling \" grant access using hierarchies\".",
       "D. Enable team selling on the opportunity object to grant Read/write access."
     ],
-    "answer": "A,D",
+    "answer": "A",
     "title": "Question 231",
     "explanation": ""
   },
@@ -2507,7 +2507,7 @@
     "explanation": ""
   },
   {
-    "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production? * (1 Point)",
+    "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production?",
     "options": ["A. Developer Sandbox", "B. Partial Data Sandbox", "C. Full Sandbox", "D. Developer Pro Sandbox"],
     "answer": "D",
     "title": "Question 238",
@@ -2729,7 +2729,7 @@
     "explanation": ""
   },
   {
-    "content": "What should a system administrator consider before using territory management? Choose three answers. * (1 Point)",
+    "content": "What should a system administrator consider before using territory management? Choose three answers.",
     "options": [
       "A. It does not working parallel with sharing functions",
       "B. You need to contact Salesforce to have it enabled",
@@ -2876,7 +2876,7 @@
     "explanation": ""
   },
   {
-    "content": "List the different prices that are available for a product. Choose three answers. * (1 Point)",
+    "content": "List the different prices that are available for a product. Choose three answers.",
     "options": ["A. Standard Price", "B. List Price", "C. Discounted List Price", "D. Product Price", "E. Sales Price"],
     "answer": "A,B,E",
     "title": "Question 272",
@@ -3148,7 +3148,7 @@
     "explanation": ""
   },
   {
-    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2. * (1 Point)",
+    "content": "In Collaborative Forecasts, which permissions are required in order to upload quota data for all users? Choose 2.",
     "options": [
       "A. View all Forecasts",
       "B. Customize Forecasts",
@@ -3242,7 +3242,7 @@
     "explanation": ""
   },
   {
-    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length. * (1 Point)",
+    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length.",
     "options": ["A. False", "B. True"],
     "answer": "A",
     "title": "Question 307",
@@ -3299,7 +3299,7 @@
     "explanation": ""
   },
   {
-    "content": "A user reports that a field can no longer be seen in a given page layout. What can a system administrator use in order to troubleshoot this? * (1 Point)",
+    "content": "A user reports that a field can no longer be seen in a given page layout. What can a system administrator use in order to troubleshoot this?",
     "options": ["A. Perform a Field Audit", "B. View the Setup Audit Trail", "C. Use Field History Tracking", "D. View the system log"],
     "answer": "B",
     "title": "Question 313",

@@ -12,7 +12,7 @@
     "explanation": ""
   },
   {
-    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users? * (1 Point)",
+    "content": "An administrator wants to allow users who are creating leads to have access to the find duplicates button.\nWhich lead object-level permission will the administrator need to provide to these users?",
     "options": ["A. Read and Edit", "B. Delete", "C. View All", "D. Merge"],
     "answer": "C",
     "title": "Question 2",
@@ -38,12 +38,12 @@
     "explanation": ""
   },
   {
-    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement? * (1 Point)",
+    "content": "A set of Cases records with a specific record type needs to be restricted so that only a Support manager and four Support users have access. What can you do as a system administrator to meet this requirement?",
     "options": [
       "A. Create a criteria-based sharing rule for the 5 users",
       "B. Remove the record type access for all users except the 5 mentioned",
       "C. Create a new profile and assign the 5 users to the new profile",
-      "D. Givethe\"ViewAllData\"permissiontothe5mentionedusersusingpermissionsets"
+      "D. Give the \"ViewAllData\" permission to the mentioned users using permission sets"
     ],
     "answer": "A",
     "title": "Question 5",
@@ -168,7 +168,7 @@
     "explanation": ""
   },
   {
-    "content": "Which of the following is NOT true about article types in Salesforce Knowledge? * (1 Point)",
+    "content": "Which of the following is NOT true about article types in Salesforce Knowledge?",
     "options": [
       "A. Article Types should enable 'actionable' content.",
       "B. Article Types are typically short HTML documents.",
@@ -192,7 +192,7 @@
     "explanation": ""
   },
   {
-    "content": "What should an administrator consider when setting up and maintaining Salesforce Knowledge? Choose three answers. * (1 Point)",
+    "content": "What should an administrator consider when setting up and maintaining Salesforce Knowledge? Choose three answers.",
     "options": [
       "A. Solution category browsing must be enabled in Solution settings.",
       "B. Data category visibility is assigned through roles and profiles",
@@ -245,11 +245,11 @@
   {
     "content": "What should an administrator consider when enabling territory management? choose 3",
     "options": [
-      "A. It is permanent and cannot be disabled.(100%)",
-      "B. It limits the type of forecasting that can be used.(100%)",
+      "A. It is permanent and cannot be disabled.",
+      "B. It limits the type of forecasting that can be used.",
       "C. Users can only be a member of one territory at a time.",
       "D. Territory hierarchy must match the organization's role hierarchy.",
-      "E. Sharing for accounts,contacts, opportunities and cases is impacted.(100%)"
+      "E. Sharing for accounts,contacts, opportunities and cases is impacted."
     ],
     "answer": "A,B,E",
     "title": "Question 24",
@@ -275,7 +275,7 @@
     "explanation": ""
   },
   {
-    "content": "How can content types be used in CRM Content? (Choose two answers.) * (1 Point)",
+    "content": "How can content types be used in CRM Content? (Choose two answers.)",
     "options": [
       "A. With validation rules, to capture complete data",
       "B. With library rules, to limit the number of libraries created",
@@ -299,14 +299,14 @@
     "explanation": ""
   },
   {
-    "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement? * (1 Point)",
+    "content": "Recruiters at Universal Containers want to associate a position with their related job applications using two custom objects-Position and Job always have a related position. If a position is deleted, the corresponding job applications are deleted. What type of object relationship will meet this requirement?",
     "options": ["A. Hierarchical", "B. Junction", "C. Master-detail", "D. Lookup"],
     "answer": "C",
     "title": "Question 29",
     "explanation": ""
   },
   {
-    "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book? * (1 Point)",
+    "content": "In addition to setting the standard price, what must you also do in order to add a Product to a Custom Price Book?",
     "options": ["A. Enter a Product Code.", "B. Check the Active checkbox.", "C. Enter a Product Description.", "D. Select a Product Family"],
     "answer": "B",
     "title": "Question 30",
@@ -325,7 +325,7 @@
     "explanation": ""
   },
   {
-    "content": "What permissions would you need if you want to merge accounts with related lists of cases and opportunity? * (1 Point)",
+    "content": "What permissions would you need if you want to merge accounts with related lists of cases and opportunity?",
     "options": [
       "A. delete on the Account object",
       "B. deletion Account objects and edition Opportunities and Cases",
@@ -434,7 +434,7 @@
     "explanation": ""
   },
   {
-    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step? * (1 Point)",
+    "content": "Your organization-wide defaults for access rights to Price Books are set to Use, but only Sales Reps should have access to Price Books, What should be your first step?",
     "options": [
       "A. Leave the organization-wide default setting, but change the Sales Reps' access rights.",
       "B. Change the Sales Reps' access rights to Use.",
@@ -489,7 +489,7 @@
     "explanation": ""
   },
   {
-    "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production? * (1 Point)",
+    "content": "Assuming that the training sandbox will contain approximately 500MB of production data and be refreshed after daily training sessions, which type of sandbox can be used to train users on new functionality that has recently been deployed to production?",
     "options": ["A. Partial Data Sandbox", "B. Developer Pro Sandbox", "C. Full Sandbox", "D. Developer Sandbox"],
     "answer": "B",
     "title": "Question 48",
@@ -508,7 +508,7 @@
     "explanation": ""
   },
   {
-    "content": "How would you configure a profile to find duplicate records? * (1 Point)",
+    "content": "How would you configure a profile to find duplicate records?",
     "options": ["A. Delete", "B. read,edit", "C. view all", "D. merge"],
     "answer": "C",
     "title": "Question 50",
@@ -553,7 +553,7 @@
     "explanation": ""
   },
   {
-    "content": "A Recruiting User needs to setup an object relationship between the Position object and the Job Applicant object so that a Position record can have many applicants and Job Applicant can apply for many positions.\nHe also needs this in a setup where deleting a Job Application record will delete all information related to the job applicant in the Position object. What can a system administrator do to fulfill the requirement? * (1 Point)",
+    "content": "A Recruiting User needs to setup an object relationship between the Position object and the Job Applicant object so that a Position record can have many applicants and Job Applicant can apply for many positions.\nHe also needs this in a setup where deleting a Job Application record will delete all information related to the job applicant in the Position object. What can a system administrator do to fulfill the requirement?",
     "options": [
       "A. Create a master-detail relationship only on the child object",
       "B. Create a many-to-many master-detail relationship using a junction object.",
@@ -565,7 +565,7 @@
     "explanation": ""
   },
   {
-    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time? * (1 Point)",
+    "content": "How many versions of any given flow, created with Visual Workflow, can be active at one time?",
     "options": ["A. 3", "B. 2", "C. 4", "D. 1"],
     "answer": "D",
     "title": "Question 56",
@@ -740,7 +740,7 @@
     "explanation": ""
   },
   {
-    "content": "What should an administrator consider when moving approval processes using a change set? * (1 Point)",
+    "content": "What should an administrator consider when moving approval processes using a change set?",
     "options": [
       "A. Change sets do NOT include the approval and rejection actions from the source organization",
       "B. Change sets do NOT include the order of active approval processes from the source organization",
@@ -752,7 +752,7 @@
     "explanation": ""
   },
   {
-    "content": "Universal Containers has a requirement to report on opportunities where the probability has dropped beneath 50%. The administrator has created a custom checkbox as a way to identify these records.\nWhat else should the administrator do to meet this requirement? * (1 Point)",
+    "content": "Universal Containers has a requirement to report on opportunities where the probability has dropped beneath 50%. The administrator has created a custom checkbox as a way to identify these records.\nWhat else should the administrator do to meet this requirement?",
     "options": [
       "A. Build a validation rule that displays an error",
       "B. Enable field history tracking on the field and include the history in the report filter",
@@ -764,7 +764,7 @@
     "explanation": ""
   },
   {
-    "content": "Which of the following options would be used to limit the number of records and assist with data consistency? * (1 Point)",
+    "content": "Which of the following options would be used to limit the number of records and assist with data consistency?",
     "options": [
       "A. Workflow field updates",
       "B. Picklist and dependent picklist fields",
@@ -801,7 +801,7 @@
     "explanation": ""
   },
   {
-    "content": "Universal Containers uses Enterprise Territory Management to manage its sales territories. The sales managers want to see who the account is manually shared outside of territory rules. How can the system administrator meet this requirement? * (1 Point)",
+    "content": "Universal Containers uses Enterprise Territory Management to manage its sales territories. The sales managers want to see who the account is manually shared outside of territory rules. How can the system administrator meet this requirement?",
     "options": [
       "A. Add \"Assign Territories\" permission to the sales manager's profile",
       "B. Add \"Manage Territories\" permission to the sales manager's profile",
@@ -813,7 +813,7 @@
     "explanation": ""
   },
   {
-    "content": "A system administrator wants to change the field type from a lookup field to a master-detail field. What must the system administrator check in order for the change To be implemented successfully? * (1 Point)",
+    "content": "A system administrator wants to change the field type from a lookup field to a master-detail field. What must the system administrator check in order for the change To be implemented successfully?",
     "options": [
       "A. Make sure that all lookup fields in all records contain a value",
       "B. Make sure that the lookup field has a related record",
@@ -824,7 +824,7 @@
     "explanation": ""
   },
   {
-    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length. * (1 Point)",
+    "content": "Salesforce Knowledge offers the ability to store PowerPoint files, PDFs, office documents, and any other type of file with no restriction on size or length.",
     "options": ["A. True", "B. False"],
     "answer": "B",
     "title": "Question 78",
@@ -850,7 +850,7 @@
     "explanation": ""
   },
   {
-    "content": "Which feature license is required to use Content? * (1 Point)",
+    "content": "Which feature license is required to use Content?",
     "options": [
       "A. Salesforce CRM Content Creator",
       "B. Salesforce CRM Content Manager",
@@ -862,7 +862,7 @@
     "explanation": ""
   },
   {
-    "content": "Which forecasting schedule type would you use if you wanted a benchmark of how much should be sold within a certain time frame? * (1 Point)",
+    "content": "Which forecasting schedule type would you use if you wanted a benchmark of how much should be sold within a certain time frame?",
     "options": ["A. Quota", "B. Pipeline", "C. Forecast"],
     "answer": "A",
     "title": "Question 82",
@@ -881,7 +881,7 @@
     "explanation": ""
   },
   {
-    "content": "List the different prices that are available for a product. Choose three answers. * (1 Point)",
+    "content": "List the different prices that are available for a product. Choose three answers.",
     "options": ["A. Discounted List Price", "B. List Price", "C. Standard Price", "D. Product Price", "E. Sales Price"],
     "answer": "B,C,E",
     "title": "Question 84",
@@ -913,7 +913,7 @@
     "explanation": ""
   },
   {
-    "content": "How can you make sure that a field will be visible on 2 profiles only? * (1 Point)",
+    "content": "How can you make sure that a field will be visible on 2 profiles only?",
     "options": ["A. validation rules", "B. create a page layout and hide the field", "C. Field-Level Security", "D. workflow field update"],
     "answer": "C",
     "title": "Question 87",
