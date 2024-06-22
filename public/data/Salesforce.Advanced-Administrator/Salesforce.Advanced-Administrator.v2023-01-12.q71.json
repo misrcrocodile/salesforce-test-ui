@@ -61,7 +61,7 @@
       "A. The users' profile is missing the Export Reports permission.",
       "B. Users need to update their browser to the latest version.",
       "C. The users are logged Into an Insecure network.",
-      "D. Exporting Is configured to require a high assurance session."
+      "D. Exporting is configured to require a high assurance session."
     ],
     "answer": "D",
     "title": "Question 6",
@@ -78,7 +78,7 @@
     "content": "A user started to work remotely. They are having an Issue logging in.\nWhat could be the issue?",
     "options": [
       "A. The time zone for the profile is outside of login hours.",
-      "B. The user Is not In the IP range for their profile.",
+      "B. The user is not In the IP range for their profile.",
       "C. The login session has expired for this user.",
       "D. They are signing in from a mobile device."
     ],
@@ -87,14 +87,14 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Dot is related to. Users already have access to the Bot and the Junction, but not the Solar Panel object.\nWhat access docs the user need to be able to see the solar panel records?",
+    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Docs is related to. Users already have access to the Docs and the Junction, but not the Solar Panel object.\nWhat access Docs the user need to be able to see the solar panel records?",
     "options": [
-      "A. Read permission is required on at least are master record.",
-      "B. Create permission Is required on both master records.",
-      "C. Access permission Is not required on either master record.",
-      "D. Read permission is required on both master records."
+      "A. Create permission Is required on both master records.",
+      "B. Read permission is required on at least are master record.",
+      "C. Read permission is required on both master records.",
+      "D. Access permission Is not required on either master record."
     ],
-    "answer": "D",
+    "answer": "C",
     "title": "Question 9",
     "explanation": ""
   },
@@ -190,7 +190,7 @@
   },
   {
     "content": "Ursa Major Solar allows its scientists to log new stars as they find them, but on occasion, they log the same star by mistake. The administrator wants scientists to be notified when a record is deleted and by whom, and to maintain their own discovery information.\nWhat automation solution should be used to send the notification?",
-    "options": ["A. Heroku", "B. Process Builder", "C. flow", "D. Workflow Action"],
+    "options": ["A. Heroku", "B. Process Builder", "C. Flow", "D. Workflow Action"],
     "answer": "C",
     "title": "Question 20",
     "explanation": ""
@@ -227,14 +227,14 @@
       "C. Select the Allow Reparenting' checkbox on the Master-detail field.",
       "D. Change the field type to a Lookup Relationship."
     ],
-    "answer": "C",
+    "answer": "B",
     "title": "Question 23",
     "explanation": ""
   },
   {
-    "content": "The support operations team has noticed some Invalid data In the custom Primary issue picklist field on case records. They are unsure of what the issue is since the field is being updated by an automated procedure and there Is a validation rule to ensure clean data on case records.\nWhy arc records being updated with data that violates the validation rule?",
+    "content": "The support operations team has noticed some Invalid data In the custom Primary issue picklist field on case records. They are unsure of what the issue is since the field is being updated by an automated procedure and there Is a validation rule to ensure clean data on case records.\nWhy case records being updated with data that violates the validation rule?",
     "options": [
-      "A. The data change Is triggered by an update record Flow element.",
+      "A. The data change is triggered by an update record Flow element.",
       "B. The field is being updated by an Apex before trigger.",
       "C. The user has the Modify All Data permission on the object.",
       "D. The field is being updated by a workflow field update."
@@ -277,7 +277,7 @@
   {
     "content": "AW Computing has a new requirement from its security team where audit information relating to an account must be recorded in a new custom object called Audit. Audit records need to be preserved for 10 years and only accessible by the audit team.\nWhat relationship should be used to relate the Audit object to the Account object?",
     "options": ["A. Self", "B. Lookup", "C. Many-To-Many", "D. Master-Detail"],
-    "answer": "D",
+    "answer": "B",
     "title": "Question 28",
     "explanation": ""
   },
@@ -294,14 +294,14 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing has a private sharing model for Its accounts, but a sales rep occasionally needs ass/stance from an engineer. What feature should be used to grant the engineer access to the necessary account, while maintaining the company's data security?",
+    "content": "AW Computing has a private sharing model for Its accounts, but a sales rep occasionally needs assistance from an engineer. What feature should be used to grant the engineer access to the necessary account, while maintaining the company's data security?",
     "options": ["A. Custom Profile", "B. Permission Set Group", "C. Permission Set", "D. Account Teams"],
     "answer": "D",
     "title": "Question 30",
     "explanation": ""
   },
   {
-    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process7",
+    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process?",
     "options": [
       "A. Create a validation rule to prevent the rep from closing the opportunity until a renewal is associated.",
       "B. Configure a time-based workflow to send an email reminder to the sales rep when the service plan expires.",
@@ -377,7 +377,7 @@
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
     "options": ["A. Session Security Settings", "B. Security Health Check", "C. Object Manager", "D. Setup Audit Trail"],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 38",
     "explanation": ""
   },
@@ -401,20 +401,18 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.",
+    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.The owner and users below the owner in the role hierarchy. Sales manager and system administrator",
     "options": [
-      "A. The owner and users below the owner in the role hierarchy",
+      "A. Users above the sales manager in the role hierarchy",
       "B. Who will be able to edit this new contact record?",
-      "C. Users above the sales manager in the role hierarchy",
-      "D. All users in the organization",
-      "E. Sales manager and system administrator"
+      "C. All users in the organization"
     ],
     "answer": "A",
     "title": "Question 41",
     "explanation": ""
   },
   {
-    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHour should the administrator track third-party financial advisors and the customers they work with?",
+    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHow should the administrator track third-party financial advisors and the customers they work with?",
     "options": [
       "A. Use a Hierarchical lookup on Contact to track loan advisors' customers,",
       "B. Set up Contacts to Multiple Accounts for loan advisors.",
@@ -502,7 +500,7 @@
       "C. Update the organization-wide default on Opportunities to Public Read Only and add them to the opportunities team.",
       "D. Create a permission set with View All enabled on Accounts and assign it to the new users."
     ],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 50",
     "explanation": ""
   },
@@ -577,7 +575,7 @@
       "C. Display the contacts related list and add the related field.",
       "D. Display both the contacts and the related contacts related lists."
     ],
-    "answer": "A",
+    "answer": "B",
     "title": "Question 57",
     "explanation": ""
   },

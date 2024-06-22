@@ -33,15 +33,13 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.",
+    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.The owner and users below the owner in the role hierarchy. Sales manager and system administrator",
     "options": [
-      "A. All users in the organization",
-      "B. The owner and users below the owner in the role hierarchy",
-      "C. Sales manager and system administrator",
-      "D. Users above the sales manager in the role hierarchy",
-      "E. Who will be able to edit this new contact record?"
+      "A. Users above the sales manager in the role hierarchy",
+      "B. Who will be able to edit this new contact record?",
+      "C. All users in the organization"
     ],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 5",
     "explanation": ""
   },
@@ -266,7 +264,7 @@
     "explanation": ""
   },
   {
-    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHour should the administrator track third-party financial advisors and the customers they work with?",
+    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHow should the administrator track third-party financial advisors and the customers they work with?",
     "options": [
       "A. Set up Contacts to Multiple Accounts for loan advisors.",
       "B. Create a Hierarchical lookup on Account to track loan advisors' customers.",
@@ -544,7 +542,7 @@
   },
   {
     "content": "Ursa Major Solar allows its scientists to log new stars as they find them, but on occasion, they log the same star by mistake. The administrator wants scientists to be notified when a record is deleted and by whom, and to maintain their own discovery information.\nWhat automation solution should be used to send the notification?",
-    "options": ["A. Heroku", "B. flow", "C. Process Builder", "D. Workflow Action"],
+    "options": ["A. Heroku", "B. Flow", "C. Process Builder", "D. Workflow Action"],
     "answer": "B",
     "title": "Question 52",
     "explanation": ""
@@ -842,7 +840,7 @@
       "A. The login session has expired for this user.",
       "B. They are signing in from a mobile device.",
       "C. The time zone for the profile is outside of login hours.",
-      "D. The user Is not In the IP range for their profile."
+      "D. The user is not In the IP range for their profile."
     ],
     "answer": "D",
     "title": "Question 81",

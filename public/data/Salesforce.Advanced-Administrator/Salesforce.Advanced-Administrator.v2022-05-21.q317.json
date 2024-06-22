@@ -1044,7 +1044,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process7",
+    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process?",
     "options": [
       "A. Configure a flow that will create the renewal based on the closed-won date and opportunity line items.",
       "B. Create a validation rule to prevent the rep from closing the opportunity until a renewal is associated.",

@@ -598,7 +598,7 @@
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
     "options": ["A. Object Manager", "B. Setup Audit Trail", "C. Security Health Check", "D. Session Security Settings"],
-    "answer": "D",
+    "answer": "A",
     "title": "Question 58",
     "explanation": ""
   },
@@ -1205,7 +1205,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process7",
+    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process?",
     "options": [
       "A. Configure a flow that will create the renewal based on the closed-won date and opportunity line items.",
       "B. Create a dynamic Lightning page with rich text to remind the rep to create a renewal opportunity when the opportunity is closed won.",

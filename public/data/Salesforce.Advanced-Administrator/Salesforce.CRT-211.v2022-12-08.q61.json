@@ -25,7 +25,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process7",
+    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process?",
     "options": [
       "A. Create a dynamic Lightning page with rich text to remind the rep to create a renewal opportunity when the opportunity is closed won.",
       "B. Create a validation rule to prevent the rep from closing the opportunity until a renewal is associated.",
@@ -117,14 +117,14 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Dot is related to. Users already have access to the Bot and the Junction, but not the Solar Panel object.\nWhat access docs the user need to be able to see the solar panel records?",
+    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Docs is related to. Users already have access to the Docs and the Junction, but not the Solar Panel object.\nWhat access Docs the user need to be able to see the solar panel records?",
     "options": [
-      "A. Access permission Is not required on either master record.",
-      "B. Read permission is required on both master records.",
-      "C. Create permission Is required on both master records.",
-      "D. Read permission is required on at least are master record."
+      "A. Create permission Is required on both master records.",
+      "B. Read permission is required on at least are master record.",
+      "C. Read permission is required on both master records.",
+      "D. Access permission Is not required on either master record."
     ],
-    "answer": "B",
+    "answer": "C",
     "title": "Question 11",
     "explanation": ""
   },
@@ -245,7 +245,7 @@
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
     "options": ["A. Object Manager", "B. Setup Audit Trail", "C. Security Health Check", "D. Session Security Settings"],
-    "answer": "D",
+    "answer": "A",
     "title": "Question 24",
     "explanation": ""
   },
@@ -473,7 +473,7 @@
   {
     "content": "AW Computing has a new requirement from its security team where audit information relating to an account must be recorded in a new custom object called Audit. Audit records need to be preserved for 10 years and only accessible by the audit team.\nWhat relationship should be used to relate the Audit object to the Account object?",
     "options": ["A. Lookup", "B. Master-Detail", "C. Self", "D. Many-To-Many"],
-    "answer": "B",
+    "answer": "A",
     "title": "Question 48",
     "explanation": ""
   },
@@ -546,7 +546,7 @@
       "C. Display both the contacts and the related contacts related lists.",
       "D. Display the related accounts related list on the page layout."
     ],
-    "answer": "D",
+    "answer": "B",
     "title": "Question 54",
     "explanation": ""
   },

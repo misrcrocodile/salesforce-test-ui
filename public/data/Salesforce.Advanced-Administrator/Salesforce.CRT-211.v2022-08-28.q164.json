@@ -942,7 +942,7 @@
     "explanation": ""
   },
   {
-    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHour should the administrator track third-party financial advisors and the customers they work with?",
+    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHow should the administrator track third-party financial advisors and the customers they work with?",
     "options": [
       "A. Create a Hierarchical lookup on Account to track loan advisors' customers.",
       "B. Set up Contacts to Multiple Accounts for loan advisors.",

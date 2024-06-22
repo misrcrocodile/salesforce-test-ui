@@ -439,7 +439,7 @@
       "A. They are signing in from a mobile device.",
       "B. The login session has expired for this user.",
       "C. The time zone for the profile is outside of login hours.",
-      "D. The user Is not In the IP range for their profile."
+      "D. The user is not In the IP range for their profile."
     ],
     "answer": "D",
     "title": "Question 41",
@@ -940,7 +940,7 @@
   {
     "content": "AW Computing has a new requirement from its security team where audit information relating to an account must be recorded in a new custom object called Audit. Audit records need to be preserved for 10 years and only accessible by the audit team.\nWhat relationship should be used to relate the Audit object to the Account object?",
     "options": ["A. Self", "B. Many-To-Many", "C. Lookup", "D. Master-Detail"],
-    "answer": "D",
+    "answer": "C",
     "title": "Question 89",
     "explanation": ""
   },
@@ -1196,13 +1196,11 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.",
+    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.The owner and users below the owner in the role hierarchy. Sales manager and system administrator",
     "options": [
-      "A. The owner and users below the owner in the role hierarchy",
-      "B. Sales manager and system administrator",
-      "C. Users above the sales manager in the role hierarchy",
-      "D. Who will be able to edit this new contact record?",
-      "E. All users in the organization"
+      "A. Users above the sales manager in the role hierarchy",
+      "B. Who will be able to edit this new contact record?",
+      "C. All users in the organization"
     ],
     "answer": "A",
     "title": "Question 112",
@@ -1300,7 +1298,7 @@
     "explanation": ""
   },
   {
-    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Dot is related to. Users already have access to the Bot and the Junction, but not the Solar Panel object.\nWhat access docs the user need to be able to see the solar panel records?",
+    "content": "Ursa Major Solar has a junction object that connects Docs with Solar Panels. The administrator needs users to be able to see all the solar panels that a Docs is related to. Users already have access to the Docs and the Junction, but not the Solar Panel object.\nWhat access Docs the user need to be able to see the solar panel records?",
     "options": [
       "A. Create permission Is required on both master records.",
       "B. Read permission is required on at least are master record.",
@@ -1437,7 +1435,7 @@
     "explanation": ""
   },
   {
-    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHour should the administrator track third-party financial advisors and the customers they work with?",
+    "content": "DreamHouse Realty manages Its accounts and contacts In Salesforce using a B2C account model. The business has requested that third-party loan advisors be tracked in Salesforce along with the customers they work with.\nHow should the administrator track third-party financial advisors and the customers they work with?",
     "options": [
       "A. Use a Hierarchical lookup on Contact to track loan advisors' customers,",
       "B. Create a Hierarchical lookup on Account to track loan advisors' customers.",
@@ -1513,7 +1511,7 @@
   {
     "content": "AW Computing is conducting an audit and wants to understand how many objects have been shared as public externally.\nwhich tool should the administrator use to quickly obtain this details?",
     "options": ["A. Security Health Check", "B. Object Manager", "C. Session Security Settings", "D. Setup Audit Trail"],
-    "answer": "C",
+    "answer": "B",
     "title": "Question 141",
     "explanation": ""
   },

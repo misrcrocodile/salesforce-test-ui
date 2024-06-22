@@ -62,7 +62,7 @@
       "C. Create a public group for the renewals team and create a criteria based sharing rule on Opportunities.",
       "D. Update the organization-wide default on Opportunities to Public Read Only and add them to the opportunities team."
     ],
-    "answer": "A",
+    "answer": "C",
     "title": "Question 6",
     "explanation": ""
   },
@@ -165,7 +165,7 @@
       "C. Display the contacts related list and add the related field.",
       "D. Display the related contacts related list and add the direct field."
     ],
-    "answer": "B",
+    "answer": "D",
     "title": "Question 15",
     "explanation": ""
   },
@@ -442,7 +442,7 @@
   {
     "content": "A user started to work remotely. They are having an Issue logging in.\nWhat could be the issue?",
     "options": [
-      "A. The user Is not In the IP range for their profile.",
+      "A. The user is not In the IP range for their profile.",
       "B. The time zone for the profile is outside of login hours.",
       "C. The login session has expired for this user.",
       "D. They are signing in from a mobile device."
@@ -460,7 +460,7 @@
   },
   {
     "content": "Ursa Major Solar allows its scientists to log new stars as they find them, but on occasion, they log the same star by mistake. The administrator wants scientists to be notified when a record is deleted and by whom, and to maintain their own discovery information.\nWhat automation solution should be used to send the notification?",
-    "options": ["A. Workflow Action", "B. flow", "C. Process Builder", "D. Heroku"],
+    "options": ["A. Workflow Action", "B. Flow", "C. Process Builder", "D. Heroku"],
     "answer": "B",
     "title": "Question 44",
     "explanation": ""

@@ -315,7 +315,7 @@
     "explanation": ""
   },
   {
-    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process7",
+    "content": "AW Computing has several service plans it offers with its laptops. Management wants the sales team to focus on bringing in new business and to have the creation of the renewal opportunity for the service plans happen automatically.\nWhat approach should the administrator take to automate the renewal process?",
     "options": [
       "A. Create a dynamic Lightning page with rich text to remind the rep to create a renewal opportunity when the opportunity is closed won.",
       "B. Configure a flow that will create the renewal based on the closed-won date and opportunity line items.",
@@ -761,15 +761,13 @@
     "explanation": ""
   },
   {
-    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.",
+    "content": "A sales manager at AW Computing has created a contact record but is missing some of the information to complete the record. The organization-wide default for Accounts is set to Public Read Only, and Contacts are controlled by parent.The owner and users below the owner in the role hierarchy. Sales manager and system administrator",
     "options": [
-      "A. Sales manager and system administrator",
-      "B. Users above the sales manager in the role hierarchy",
-      "C. All users in the organization",
-      "D. Who will be able to edit this new contact record?",
-      "E. The owner and users below the owner in the role hierarchy"
+      "A. Users above the sales manager in the role hierarchy",
+      "B. Who will be able to edit this new contact record?",
+      "C. All users in the organization"
     ],
-    "answer": "E",
+    "answer": "A",
     "title": "Question 73",
     "explanation": ""
   },
