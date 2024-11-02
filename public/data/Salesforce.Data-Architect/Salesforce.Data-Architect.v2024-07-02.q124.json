@@ -1,0 +1,1445 @@
+[
+  {
+    "content": "UC is planning a massive SF implementation with large volumes of data. As part of the org's implementation, several roles, territories, groups, and sharing rules have been configured. The data architect has been tasked with loading all of the required data, including user data, in a timely manner.\nWhat should a data architect do to minimize data load times due to system calculations?",
+    "options": [
+      "A. Enable defer sharing calculations, and suspend sharing rule calculations",
+      "B. Load the data through data loader, and turn on parallel processing.",
+      "C. Leverage the Bulk API and concurrent processing with multiple batches",
+      "D. Enable granular locking to avoid \"UNABLE _TO_LOCK_ROW\" error."
+    ],
+    "answer": "A",
+    "title": "Question 1",
+    "explanation": "The correct answer is A, enable defer sharing calculations, and suspend sharing rule calculations. Defer sharing calculations and suspend sharing rule calculations are features that allow you to temporarily disable the automatic recalculation of sharing rules when you load large volumes of data. This can improve the performance and speed of your data load process by avoiding unnecessary system calculations. Loading the data through data loader, leveraging the bulk API, or enabling granular locking are also options that can help with data load times, but they do not directly address the system calculations issue."
+  },
+  {
+    "content": "UC has millions of case records with case history and SLA data. UC's compliance team would like historical cases to be accessible for 10 years for Audit purpose.\nWhat solution should a data architect recommend?",
+    "options": [
+      "A. Archive Case data using Salesforce Archiving process",
+      "B. Purchase more data storage to support case object",
+      "C. Use a custom object to store archived case data.",
+      "D. Use a custom Big object to store archived case data."
+    ],
+    "answer": "D",
+    "title": "Question 2",
+    "explanation": "The best solution to store historical cases for 10 years for audit purpose is to use a custom Big object to store archived case data. Big objects are a type of custom object that can store massive amounts of data on the Salesforce platform without affecting performance or storage limits. They also support point-and-click tools, triggers, and Apex code. Big objects can be used for archiving historical data that needs to be retained for compliance or analytics purposes3. Archiving case data using Salesforce Archiving process is not a good option because it only supports archiving cases that are closed for more than one year, and it does not allow customizing the archival criteria or accessing the archived data via Apex or APIs4. Purchasing more data storage to support case object is expensive and may impact performance. Using a custom object to store archived case data is not scalable and may consume a lot of storage space."
+  },
+  {
+    "content": "A large telecommunication provider that provides internet services to both residence and business has the following attributes:\nA customer who purchases its services for their home will be created as an Account in Salesforce.\nIndividuals within the same house address will be created as Contact in Salesforce.\nBusinesses are created as Accounts in Salesforce.\nSome of the customers have both services at their home and business.\nWhat should a data architect recommend for a single view of these customers without creating multiple customer records?",
+    "options": [
+      "A. Customers are created as Contacts and related to Business and Residential Accounts using the Account Contact Relationships.",
+      "B. Customers are created as Person Accounts and related to Business and Residential Accounts using the Account Contact relationship.",
+      "C. Customer are created as individual objects and relate with Accounts for Business and Residence accounts.",
+      "D. Costumers are created as Accounts for Residence Account and use Parent Account to relate Business Account."
+    ],
+    "answer": "B",
+    "title": "Question 3",
+    "explanation": "Creating customers as Contacts and relating them to Business and Residential Accounts using the Account Contact Relationships (option A) is the best option to recommend for a single view of these customers without creating multiple customer records, as it allows the data architect to model complex relationships between customers and accounts using native Salesforce features and tools. Creating customers as Person Accounts and relating them to Business and Residential Accounts using the Account Contact relationship (option B) is not a good option, as it may create data redundancy and inconsistency, and it does not leverage the existing Contact object. Creating customers as individual objects and relating them with Accounts for Business and Residence accounts (option C) is also not a good option, as it may require more customization and maintenance effort, and it does not leverage the existing Account and Contact objects. Creating customers as Accounts for Residence Account and using Parent Account to relate Business Account (option D) is also not a good option, as it may create confusion and complexity with the account hierarchy, and it does not leverage the existing Contact object."
+  },
+  {
+    "content": "Universal Containers (UC) has over 10 million accounts with an average of 20 opportunities with each account. A Sales Executive at UC needs to generate a daily report for all opportunities in a specific opportunity stage.\nWhich two key considerations should be made to make sure the performance of the report is not degraded due to large data volume?",
+    "options": [
+      "A. Number of queries running at a time.",
+      "B. Number of joins used in report query.",
+      "C. Number of records returned by report query.",
+      "D. Number of characters in report query."
+    ],
+    "answer": "B,C",
+    "title": "Question 4",
+    "explanation": "The number of joins used in report query and the number of records returned by report query are two key considerations to make sure the performance of the report is not degraded due to large data volume. The number of joins used in report query affects the complexity and execution time of the query, especially when joining multiple large objects4. The number of records returned by report query affects the amount of data that needs to be processed and displayed by the report engine."
+  },
+  {
+    "content": "A customer is facing locking issued when importing large data volumes of order records that are children in a master-detail relationship with the Account object. What is the recommended way to avoid locking issues during import?",
+    "options": [
+      "A. Import Account records first followed by order records after sorting order by OrderID.",
+      "B. Import Account records first followed by order records after sorting orders by AccountID.",
+      "C. Change the relationship to Lookup and update the relationship to master-detail after import.",
+      "D. Import Order records and Account records separately and populate AccountID in orders using batch Apex."
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": "Importing Account records first followed by order records after sorting orders by AccountID is the recommended way to avoid locking issues during import. This can reduce the number of lock contention errors by minimizing the number of parent records that are concurrently processed by multiple batches. Sorting orders by AccountID can also group the child records by their parent records and avoid updating the same parent record in different batches3. Importing Account records first followed by order records after sorting order by OrderID will not help with avoiding locking issues because it does not group the child records by their parent records. Changing the relationship to Lookup and updating the relationship to master-detail after import will not work because changing a relationship from Lookup to master-detail requires that all child records have a parent record, which may not be the case after import. Importing Order records and Account records separately and populating AccountID in orders using batch Apex will not help with avoiding locking issues because it still requires updating the parent records in batches."
+  },
+  {
+    "content": "To address different compliance requirements, such as general data protection regulation (GDPR), personally identifiable information (PII), of health insurance Portability and Accountability Act (HIPPA) and others, a SF customer decided to categorize each data element in SF with the following:\nData owner\nSecurity Level, such as confidential\nCompliance types such as GDPR, PII, HIPPA\nA compliance audit would require SF admins to generate reports to manage compliance.\nWhat should a data architect recommend to address this requirement?",
+    "options": [
+      "A. Use metadata API, to extract field attribute information and use the extract to classify and build reports",
+      "B. Use field metadata attributes for compliance categorization, data owner, and data sensitivity level.",
+      "C. Create a custom object and field to capture necessary compliance information and build custom reports.",
+      "D. Build reports for field information, then export the information to classify and report for Audits."
+    ],
+    "answer": "B",
+    "title": "Question 6",
+    "explanation": "The data architect should recommend using field metadata attributes for compliance categorization, data owner, and data sensitivity level. This will allow the SF admins to generate reports to manage compliance based on the field metadata attributes that are defined for each data element in SF. Option A is incorrect because using metadata API to extract field attribute information and use the extract to classify and build reports will require additional development effort and may not be up-to-date with the latest changes in SF.\n Option C is incorrect because creating a custom object and field to capture necessary compliance information and build custom reports will require additional configuration effort and may not be consistent with the actual data elements in SF. Option D is incorrect because building reports for field information, then exporting the information to classify and report for audits will require additional manual effort and may not be accurate or timely."
+  },
+  {
+    "content": "UC has one SF org (Org A) and recently acquired a secondary company with its own Salesforce org (Org B).\nUC has decided to keep the orgs running separately but would like to bidirectionally share opportunities between the orgs in near-real time.\nWhich 3 options should a data architect recommend to share data between Org A and Org B?\nChoose 3 answers.",
+    "options": [
+      "A. Leverage Heroku Connect and Heroku Postgres to bidirectionally sync Opportunities.",
+      "B. Install a 3rd party AppExchange tool to handle the data sharing",
+      "C. Develop an Apex class that pushes opportunity data between orgs daily via the Apex schedule.",
+      "D. Leverage middleware tools to bidirectionally send Opportunity data across orgs.",
+      "E. Use Salesforce Connect and the cross-org adapter to visualize Opportunities into external objects"
+    ],
+    "answer": "A,D,E",
+    "title": "Question 7",
+    "explanation": "Leveraging Heroku Connect and Heroku Postgres, middleware tools, or Salesforce Connect and the cross-org adapter are all viable options to share data between Org A and Org B in near-real time3. Installing a 3rd party AppExchange tool may not provide bidirectional sync or may have additional costs. Developing an Apex class that pushes opportunity data between orgs daily via the Apex schedule may not meet the near-real time requirement."
+  },
+  {
+    "content": "A health care provider wishes to use salesforce to track patient care. The following actions are in Salesforce\n1. Payment Providers: Orgas who pay for the care 2 patients.\n2. Doctors: They provide care plan for patients and need to support multiple patients, they are provided access to patient information.\n3. Patients: They are individuals who need care.\nA data architect needs to map the actor to Sf objects. What should be the optimal selection by the data architect?",
+    "options": [
+      "A. Patients as Contacts, Payment providers as Accounts, & Doctors as Accounts",
+      "B. Patients as Person Accounts, Payment providers as Accounts, & Doctors as Contacts",
+      "C. Patients as Person Accounts, Payment providers as Accounts, & Doctors as Person Account",
+      "D. Patients as Accounts, Payment providers as Accounts, & Doctors as Person Accounts"
+    ],
+    "answer": "C",
+    "title": "Question 8",
+    "explanation": "Patients as Person Accounts, Payment providers as Accounts, & Doctors as Person Accounts is the optimal selection by the data architect to map the actor to Salesforce objects. This is because Person Accounts are a special type of accounts that can store both business and personal information for individual customers.\n Payment providers are organizations that pay for the care of patients, so they can be modeled as Accounts.\n Doctors are also individuals who provide care plans for patients and need access to patient information, so they can also be modeled as Person Accounts."
+  },
+  {
+    "content": "As part of addressing general data protection regulation (GDPR) requirements, UC plans to implement a data classification policy for all its internal systems that stores customer information including salesforce.\nWhat should a data architect recommend so that UC can easily classify consumer information maintained in salesforce under both standard and custom objects?",
+    "options": [
+      "A. Use App Exchange products to classify fields based on policy.",
+      "B. Use data classification metadata fields available in field definition.",
+      "C. Create a custom picklist field to capture classification of information on customer.",
+      "D. Build reports for customer information and validate."
+    ],
+    "answer": "B",
+    "title": "Question 9",
+    "explanation": "The correct answer is B, use data classification metadata fields available in field definition. Data classification metadata fields are standard fields that allow you to classify the sensitivity level of your data based on your organization's policies. You can use these fields to indicate whether a field contains confidential, restricted, or general data. These fields are available for both standard and custom objects in Salesforce. Using app exchange products, creating a custom picklist field, or building reports would not be as effective or consistent as using data classification metadata fields."
+  },
+  {
+    "content": "UC is trying to switch from legacy CRM to salesforce and wants to keep legacy CRM and salesforce in place till all the functionality is deployed in salesforce. The want to keep data in synch b/w Salesforce, legacy CRM and SAP. What is the recommendation.",
+    "options": [
+      "A. Integrate legacy CRM to salesforce and keep data in synch till new functionality is in place",
+      "B. Do not integrate legacy CRM to Salesforce, but integrate salesforce to SAP",
+      "C. Integrate SAP with Salesforce, SAP to legacy CRM but not legacy CRM to Salesforce",
+      "D. Suggest MDM solution and link MDM to salesforce and SAP"
+    ],
+    "answer": "C,D",
+    "title": "Question 10",
+    "explanation": "Integrate SAP with Salesforce, SAP to legacy CRM but not legacy CRM to Salesforce. This is a good recommendation because it allows both Salesforce and the legacy CRM to interact with the ERP system, which can be the source of truth for some data entities. However, it avoids creating a direct connection between Salesforce and the legacy CRM, which can cause data duplication and synchronization issues.\n Suggest MDM solution and link MDM to salesforce and SAP. This is another good recommendation because it can help manage the data lifecycle and quality across multiple systems, as well as provide a single view of the customer data"
+  },
+  {
+    "content": "Universal Containers has two systems. Salesforce and an on -premise ERP system. An architect has been tasked with copying Opportunity records to the ERP once they reach a Closed/Won Stage. The Opportunity record in the ERP system will be read-only for all fields copied in from Salesforce. What is the optimal real-time approach that achieves this solution?",
+    "options": [
+      "A. Implement a Master Data Management system to determine system of record.",
+      "B. Implement a workflow rule that sends Opportunity data through Outbound Messaging.",
+      "C. Have the ERP poll Salesforce nightly and bring in the desired Opportunities.",
+      "D. Implement an hourly integration to send Salesforce Opportunities to the ERP system."
+    ],
+    "answer": "B",
+    "title": "Question 11",
+    "explanation": "Implementing a workflow rule that sends Opportunity data through Outbound Messaging is the optimal real-time approach that achieves the solution of copying Opportunity records to the ERP once they reach a Closed/Won Stage. A workflow rule can trigger an Outbound Message when an Opportunity record meets certain criteria, such as having a Closed/Won Stage. An Outbound Message can send data from Salesforce to an external system via SOAP API, without requiring any code. The external system can then process the data and create a read-only record in the ERP system. The other options are not optimal or real-time, as they would either require additional systems or tools, not provide real-time data synchronization, or not meet the frequency requirement"
+  },
+  {
+    "content": "Universal Containers (UC) is facing data quality issues where Sales Reps are creating duplicate customer accounts, contacts, and leads. UC wants to fix this issue immediately by prompting users about a record that possibly exists in Salesforce. UC wants a report regarding duplicate records. What would be the recommended approach to help UC start immediately?",
+    "options": [
+      "A. Create an after insert and update trigger on the account, contact and lead, and send an error if a duplicate is found using a custom matching criteria.",
+      "B. Create a duplicate rule for account, lead, and contact, use standard matching rules for these objects, and set the action to report and alert for both creates and edits.",
+      "C. Create a duplicate rule for account, lead, and contact, use standard matching rules for these objects, and set the action to block for both creates and edits.",
+      "D. Create a before insert and update trigger on account, contact, and lead, and send an error if a duplicate is found using a custom matching criteria."
+    ],
+    "answer": "B",
+    "title": "Question 12",
+    "explanation": "Creating a duplicate rule for account, lead, and contact, using standard matching rules for these objects, and setting the action to report and alert for both creates and edits can help UC fix the issue immediately by prompting users about a record that possibly exists in Salesforce. This can also generate a report regarding duplicate records that can be used for further analysis and resolution"
+  },
+  {
+    "content": "Which two best practices should be followed when using SOSL for searching?",
+    "options": [
+      "A. Use searches against single Objects for greater speed and accuracy.",
+      "B. Keep searches specific and avoid wildcards where possible.",
+      "C. Use SOSL option to ignore custom indexes as search fields are pre-indexed.",
+      "D. Use Find in \"ALL FIELDS\" for faster searches."
+    ],
+    "answer": "B,D",
+    "title": "Question 13",
+    "explanation": "The two best practices that should be followed when using SOSL for searching are: Keep searches specific and avoid wildcards where possible. Use Find in \"ALL FIELDS\" for faster searches. These best practices are helpful because they optimize the search performance and relevance. For example, keeping searches specific and avoiding wildcards where possible can reduce the number of results returned and improve the search accuracy. Using Find in \"ALL FIELDS\" for faster searches can leverage Salesforce's pre-defined indexes on common fields and return results more quickly than specifying individual fields."
+  },
+  {
+    "content": "Universal Container (US) is replacing a home-grown CRM solution with Salesforce, UC has decided to migrate operational (Open and active) records to Salesforce, while keeping historical records in legacy system, UC would like historical records to be available in Salesforce on an as needed basis.\nWhich solution should a data architect recommend to meet business requirement?",
+    "options": [
+      "A. Leverage real-time integration to pull records into Salesforce.",
+      "B. Bring all data Salesforce, and delete it after a year.",
+      "C. Leverage mashup to display historical records in Salesforce.",
+      "D. Build a chair solution to go the legacy system and display records."
+    ],
+    "answer": "C",
+    "title": "Question 14",
+    "explanation": "According to the Using Mashups article on Salesforce Developers, one of the techniques for deploying large data volumes is to use mashups to display historical records in Salesforce. The article states that \"Mashups are a way to display data from an external system within a Salesforce page without copying or synchronizing the data. Mashups use a combination of Visualforce, Apex callouts, and JavaScript code that runs in the browser.\n Mashups are useful when you want to display large amounts of read-only data that is stored outside of Salesforce.\" Therefore, a data architect should recommend this solution to meet the business requirement of UC."
+  },
+  {
+    "content": "A manager at Cloud Kicks is importing Leads into Salesforce and needs to avoid creating duplicate records.\nWhich two approaches should the manager take to achieve this goal? (Choose two.)",
+    "options": [
+      "A. Acquire an AppExchange Lead de-duplication application.",
+      "B. Implement Salesforce Matching and Duplicate Rules.",
+      "C. Run the Salesforce Lead Mass de-duplication tool.",
+      "D. Create a Workflow Rule to check for duplicate records."
+    ],
+    "answer": "A,B",
+    "title": "Question 15",
+    "explanation": "Acquiring an AppExchange Lead de-duplication application and implementing Salesforce Matching and Duplicate Rules are two approaches that the manager at Cloud Kicks should take to avoid creating duplicate records when importing Leads into Salesforce. An AppExchange Lead de-duplication application can provide additional features and functionality for finding and preventing duplicate Leads during import, such as fuzzy matching, custom rules, mass merge, etc. Salesforce Matching and Duplicate Rules can allow the manager to define how Salesforce identifies duplicate Leads based on various criteria and how users can handle them during import, such as blocking, allowing, or alerting them. The other options are not feasible or effective for avoiding duplicate records, as they would either not work during import, not provide de-duplication capabilities, or require additional customization."
+  },
+  {
+    "content": "Universal Containers (UC) loads bulk leads and campaigns from third-party lead aggregators on a weekly and monthly basis. The expected lead record volume is 500K records per week, and the expected campaign records volume is 10K campaigns per week. After the upload, Lead records are shared with various sales agents via sharing rules and added as Campaign members via Apex triggers on Lead creation. UC agents work on leads for 6 months, but want to keep the records in the system for at least 1 year for reference. Compliance requires them to be stored for a minimum of 3 years. After that, data can be deleted. What statement is true with respect to a data archiving strategy for UC?",
+    "options": [
+      "A. UC can store long-term lead records in custom storage objects to avoid counting against storage limits.",
+      "B. UC can leverage the Salesforce Data Backup and Recovery feature for data archival needs.",
+      "C. UC can leverage recycle bin capability, which guarantees record storage for 15 days after deletion.",
+      "D. UC can leverage a \"tier\"-based approach to classify the record storage need."
+    ],
+    "answer": "D",
+    "title": "Question 16",
+    "explanation": "Leveraging a \"tier\"-based approach to classify the record storage need is a true statement with respect to a data archiving strategy for UC. This approach involves defining different tiers of data based on their usage, value, and retention policies, and then applying appropriate storage and archiving solutions for each tier."
+  },
+  {
+    "content": "Universal Containers (UC) needs to move millions of records from an external enterprise resource planning (ERP) system into Salesforce.\nWhat should a data architect recommend to be done while using the Bulk API in serial mode instead of parallel mode?",
+    "options": [
+      "A. Placing 20 batches on the queue for upset jobs.",
+      "B. Inserting 1 million orders distributed across a variety of accounts with potential lock exceptions.",
+      "C. Leveraging a controlled feed load with 10 batches per job.",
+      "D. Inserting 1 million orders distributed across a variety of accounts with lock exceptions eliminated and managed."
+    ],
+    "answer": "B",
+    "title": "Question 17",
+    "explanation": "According to this article, inserting 1 million orders distributed across a variety of accounts with potential lock exceptions is a scenario where using the Bulk API in serial mode can help to prevent the lock contention issue that can occur in parallel mode."
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) wants to start a loyalty program to reward repeat customers. The program will track every item a customer has bought and grants them points for discounts. The following conditions will exist upon implementation:\nData will be used to drive marketing and product development initiatives.\nNTO estimates that the program will generate 100 million rows of date monthly.\nNTO will use Salesforce's Einstein Analytics and Discovery to leverage their data and make business and marketing decisions.\nWhat should the Data Architect do to store, collect, and use the reward program data?",
+    "options": [
+      "A. Create a custom big object in Salesforce which will be used to capture the Reward Program data for consumption by Einstein.",
+      "B. Have Einstein connect to the point of sales system to capture the Reward Program data.",
+      "C. Create a big object in Einstein Analytics to capture the Loyalty Program data.",
+      "D. Create a custom object in Salesforce that will be used to capture the Reward Program data."
+    ],
+    "answer": "A",
+    "title": "Question 18",
+    "explanation": "According to the official Salesforce guide1, big objects are designed to store and manage massive data volumes within Salesforce without affecting performance. They can be queried by using Async SOQL or standard SOQL, and they can be accessed by using Apex, Visualforce, Lightning components, or APIs. Big objects are ideal for storing data that is used for analytics or reporting purposes, such as the reward program data. Option A is the correct answer because it allows NTO to create a custom big object in Salesforce that can store the reward program data and make it available for consumption by Einstein Analytics and Discovery.\n Option B is incorrect because Einstein cannot connect directly to the point of sales system to capture the reward program data. Option C is incorrect because Einstein Analytics does not support creating big objects.\n Option D is incorrect because custom objects are not suitable for storing large volumes of data."
+  },
+  {
+    "content": "Cloud Kicks is launching a Partner Community, which will allow users to register shipment requests that are then processed by Cloud Kicks employees. Shipment requests contain header information, and then a list of no more than 5 items being shipped.\nFirst, Cloud Kicks will introduce its community to 6,000 customers in North America, and then to 24,000 customers worldwide within the next two years. Cloud Kicks expects 12 shipment requests per week per customer, on average, and wants customers to be able to view up to three years of shipment requests and use Salesforce reports.\nWhat is the recommended solution for the Cloud Kicks Data Architect to address the requirements?",
+    "options": [
+      "A. Create an external custom object to track shipment requests and a child external object to track shipment items. External objects are stored off-platform in Heroku's Postgres database.",
+      "B. Create an external custom object to track shipment requests with five lookup custom fields for each item being shipped. External objects are stored off-platform in Heroku's Postgres database.",
+      "C. Create a custom object to track shipment requests and a child custom object to track shipment items.\n         Implement an archiving process that moves data off-platform after three years.",
+      "D. Create a custom object to track shipment requests with five lookup custom fields for each item being shipped Implement an archiving process that moves data off-platform after three years."
+    ],
+    "answer": "C",
+    "title": "Question 19",
+    "explanation": "The recommended solution for the Cloud Kicks Data Architect to address the requirements is to create a custom object to track shipment requests and a child custom object to track shipment items. Implement an archiving process that moves data off-platform after three years. This solution would allow Cloud Kicks to store and manage their shipment data on Salesforce, and use Salesforce reports to analyze it. However, since Cloud Kicks expects a large volume of data over time, they should implement an archiving process that moves data off-platform after three years to avoid hitting the Org data storage limit and maintain optimal performance3. External objects are not a good option for this scenario, because they are stored off-platform in an external system, such as Heroku's Postgres database, and they have limited functionality and performance compared to custom objects"
+  },
+  {
+    "content": "Cloud Kicks has the following requirements:\n* Their Shipment custom object must always relate to a Product, a Sender, and a Receiver (all separate custom objects).\n* If a Shipment is currently associated with a Product, Sender, or Receiver, deletion of those records should not be allowed.\n* Each custom object must have separate sharing models.\nWhat should an Architect do to fulfill these requirements?",
+    "options": [
+      "A. Associate the Shipment to each parent record by using a VLOOKUP formula field.",
+      "B. Create a required Lookup relationship to each of the three parent records.",
+      "C. Create a Master-Detail relationship to each of the three parent records.",
+      "D. Create two Master-Detail and one Lookup relationship to the parent records."
+    ],
+    "answer": "B",
+    "title": "Question 20",
+    "explanation": "A required Lookup relationship ensures that the Shipment record must have a value for each of the three parent records, and also prevents the deletion of those parent records if they are referenced by a Shipment record. A Master-Detail relationship would not allow separate sharing models for each custom object, and a VLOOKUP formula field would not enforce the relationship or prevent deletion"
+  },
+  {
+    "content": "NTO has multiple systems across its enterprise landscape including salesforce, with disparate version the customer records.\nIn salesforce, the customer is represented by the contact object.\nNTO utilizes an MDM solution with these attributes:\n1.The MDM solution keeps track of customer master with a master key.\n2.The master key is a map to the record ID's from each external system that customer data is stored within.\n3.The MDM solution provides de-duplication features, so it acts as the single source of truth.\nHow should a data architect implement the storage of master key within salesforce?",
+    "options": [
+      "A. Store the master key in Heroku postgres and use Heroku connect for synchronization.",
+      "B. Create a custom object to store the master key with a lookup field to contact.",
+      "C. Create an external object to store the master key with a lookup field to contact.",
+      "D. Store the master key on the contact object as an external ID (Field for referential imports)"
+    ],
+    "answer": "D",
+    "title": "Question 21",
+    "explanation": "The best way to implement the storage of master key within Salesforce is to store it on the contact object as an external ID field for referential imports. This way, the data architect can use the master key as a unique identifier to match records from different systems and avoid duplicates. The other options are not feasible because they either require additional storage or do not support referential imports."
+  },
+  {
+    "content": "Universal Containers (UC) has an open sharing model for its Salesforce users to allow all its Salesforce internal users to edit all contacts, regardless of who owns the contact. However, UC management wants to allow only the owner of a contact record to delete that contact. If a user does not own the contact, then the user should not be allowed to delete the record. How should the architect approach the project so that the requirements are met?",
+    "options": [
+      "A. Create a \"before delete\" trigger to check if the current user is not the owner.",
+      "B. Set the Sharing settings as Public Read Only for the Contact object.",
+      "C. Set the profile of the users to remove delete permission from the Contact object.",
+      "D. Create a validation rule on the Contact object to check if the current user is not the owner."
+    ],
+    "answer": "A",
+    "title": "Question 22",
+    "explanation": "To allow only the owner of a contact record to delete that contact, the data architect should create a \"before delete\" trigger to check if the current user is not the owner. The trigger can use the UserInfo.getUserId() method to get the current user's ID and compare it with the OwnerId field of the contact record. If they are not equal, the trigger can add an error to the record and prevent it from being deleted. The other options are not suitable for meeting the requirements, as they would either restrict the edit access or delete access for all users, regardless of ownership."
+  },
+  {
+    "content": "Universal Containers (UC) has a complex system landscape and is implementing a data governance program for the first time Which two first steps would be appropriate for UC to initiate an assessment of data architecture? Choose 2 answers",
+    "options": [
+      "A. Engage with IT program managers to assess current velocity of projects in the pipeline.",
+      "B. Engage with database administrators to assess current database performance metrics.",
+      "C. Engage with executive sponsorship to assess enterprise data strategy and goals.",
+      "D. Engage with business units and IT to assess current operational systems and data models."
+    ],
+    "answer": "C,D",
+    "title": "Question 23",
+    "explanation": "Engaging with executive sponsorship to assess enterprise data strategy and goals, and engaging with business units and IT to assess current operational systems and data models are two first steps that would be appropriate for UC to initiate an assessment of data architecture. These steps will help to understand the current state of data management, the business needs and expectations, and the gaps and opportunities for improvement.\n Engaging with IT program managers to assess current velocity of projects in the pipeline, and engaging with database administrators to assess current database performance metrics are not relevant steps for assessing data architecture, as they are more related to project management and technical performance."
+  },
+  {
+    "content": "Universal Container (UC) stores 10 million rows of inventory data in a cloud database, As part of creating a connected experience in Salesforce, UC would like to this inventory data to Sales Cloud without a import. UC has asked its data architect to determine if Salesforce Connect is needed.\nWhich three consideration should the data architect make when evaluating the need for Salesforce Connect?",
+    "options": [
+      "A. You want real-time access to the latest data, from other systems.",
+      "B. You have a large amount of data and would like to copy subsets of it into Salesforce.",
+      "C. You need to expose data via a virtual private connection.",
+      "D. You have a large amount of data that you don't want to copy into your Salesforce org.",
+      "E. You need to small amounts of external data at any one time."
+    ],
+    "answer": "A,D,E",
+    "title": "Question 24",
+    "explanation": "The correct answer is A, D, and E. The data architect should consider these three factors when evaluating the need for Salesforce Connect: You want real-time access to the latest data from other systems, you have a large amount of data that you don't want to copy into your Salesforce org, and you need to small amounts of external data at any one time. These factors indicate that Salesforce Connect is a suitable solution for creating a connected experience in Salesforce without importing inventory data from a cloud database. Salesforce Connect allows Salesforce to access external data via OData or custom adapters without storing it in Salesforce, which reduces storage costs and ensures data freshness. Salesforce Connect also supports pagination and caching to optimize performance when accessing small amounts of external data at any one time. Option B is incorrect because if you have a large amount of data and would like to copy subsets of it into Salesforce, you may not need Salesforce Connect but rather use other tools such as Data Loader or API integration. Option C is incorrect because if you need to expose data via a virtual private connection, you may not need Salesforce Connect but rather use other tools such as VPN or VPC peering."
+  },
+  {
+    "content": "Universal Containers (UC) is expecting to have nearly 5 million shipments records in its Salesforce org. Each shipment record has up to 10 child shipment item records. The Shipment custom object has an Organization-wide Default (OWD) sharing model set to Private and the Shipment Item custom object has a Master-Detail relationship to Shipment. There are 25 sharing rules set on the Shipment custom object, which allow shipment records to be shared to each of UC's 25 business areas around the globe. These sharing rules use public groups, one for each business area plus a number of groups for management and support roles. UC has a high turnover of Sales Reps and often needs to move Sales Reps between business areas in order to meet local demand. What feature would ensure that performance, when moving Sales Reps between regions, remains adequate while meeting existing requirements?",
+    "options": [
+      "A. Implement data archiving for old Shipment records.",
+      "B. Contact Salesforce to create Skinny tables on Shipment.",
+      "C. Configure shipment OWD to Public Read/Write.",
+      "D. Contact Salesforce to enable Defer Sharing Rules"
+    ],
+    "answer": "D",
+    "title": "Question 25",
+    "explanation": "Contacting Salesforce to enable Defer Sharing Rules is the feature that would ensure that performance, when moving Sales Reps between regions, remains adequate while meeting existing requirements. Defer Sharing Rules allows you to defer sharing rule recalculation when you make changes to public groups or roles that are used in sharing rules. This can improve performance and avoid locking issues when you move users between groups or roles2. Implementing data archiving for old Shipment records will not help with the performance issue related to sharing rules. Contacting Salesforce to create Skinny tables on Shipment will not help with the performance issue related to sharing rules. Configuring shipment OWD to Public Read/Write will not meet the existing requirements of having a Private sharing model."
+  },
+  {
+    "content": "Universal Containers is planning out their archiving and purging plans going forward for their custom objects Topic__c and Comment__c. Several options are being considered, including analytics snapshots, offsite storage, scheduled purges, etc. Which three questions should be considered when designing an appropriate archiving strategy?",
+    "options": [
+      "A. How many fields are defined on the custom objects that need to be archived?",
+      "B. Which profiles and users currently have access to these custom object records?",
+      "C. If reporting is necessary, can the information be aggregated into fewer, summary records?",
+      "D. Will the data being archived need to be reported on or accessed in any way in the future?",
+      "E. Are there any regulatory restrictions that will influence the archiving and purging plans?"
+    ],
+    "answer": "C,D,E",
+    "title": "Question 26",
+    "explanation": "The three questions that should be considered when designing an appropriate archiving strategy are: If reporting is necessary, can the information be aggregated into fewer, summary records? Will the data being archived need to be reported on or accessed in any way in the future? Are there any regulatory restrictions that will influence the archiving and purging plans? These questions are important because they help determine the scope, frequency, and method of archiving and purging data from Salesforce. For example, if reporting is necessary, then summary records or analytics snapshots can be used to store aggregated data and reduce the number of records that need to be archived1. If the data being archived needs to be accessed in the future, then offsite storage or external objects can be used to retain the data and make it available on demand2. If there are any regulatory restrictions, such as GDPR or HIPAA, then the archiving and purging plans need to comply with them and ensure data security and privacy"
+  },
+  {
+    "content": "A casino is implementing salesforce and is planning to build a customer 360 view for a customer who visits its resorts. The casino currently maintained the following systems that records customer activity:\n1.Point of sales system: All purchases for a customer.\n2.Salesforce: All customer service activity and sales activity for a customer.\n3.Mobile app: All bookings, preferences and browser activity for a customer.\n4.Marketing: All email, SMS and social campaigns for a customer.\nCustomer service agents using salesforce would like to view the activities from all system to provide supports to customers. The information has to be current and real time.\nWhat strategy should the data architect implement to satisfy this requirement?",
+    "options": [
+      "A. Explore external data sources in salesforce to build 360 view of customer.",
+      "B. Use a customer data mart to view the 360 view of customer.",
+      "C. Migrate customer activities from all 4 systems into salesforce.",
+      "D. Periodically upload summary information in salesforce to build 360 view."
+    ],
+    "answer": "A",
+    "title": "Question 27",
+    "explanation": "Exploring external data sources in Salesforce to build 360 view of customer is the best strategy to satisfy the requirement, as it allows real-time access to data from other systems without storing it in Salesforce3. Using a customer data mart may not provide real-time information or may require additional integration efforts.\n Migrating customer activities from all 4 systems into Salesforce may exceed the storage limits or cause data quality issues. Periodically uploading summary information in Salesforce may not provide current or detailed information."
+  },
+  {
+    "content": "Universal Containers has a requirement to store more than 100 million records in salesforce and needs to create a custom big object to support this business requirement.\nWhich two tools should a data architect use to build custom object?",
+    "options": [
+      "A. Use DX to create big object.",
+      "B. Use Metadata API to create big object.",
+      "C. Go to Big Object in setup select new to create big object.",
+      "D. Go to Object Manager in setup and select new to create big object."
+    ],
+    "answer": "B,C",
+    "title": "Question 28",
+    "explanation": "To build a custom big object to support storing more than 100 million records in Salesforce, a data architect should use Metadata API or Big Object in setup. Metadata API is an API that allows developers to create, retrieve, update, or delete metadata components in Salesforce programmatically. Big Object in setup is a user interface that allows admins to create big objects declaratively without writing code. Both tools can be used to define custom big objects and their fields, indexes, and relationships in Salesforce. Option A is incorrect because DX (Developer Experience) is a set of tools that allows developers to create and manage applications on Salesforce Platform, but it does not support creating big objects directly. Option D is incorrect because Object Manager in setup is a user interface that allows admins to create and manage standard and custom objects in Salesforce, but it does not support creating big objects declaratively."
+  },
+  {
+    "content": "Universal Containers has 30 million case records. The Case object has 80 fields. Agents are reporting reports in the Salesforce org.\nWhich solution should a data architect recommend to improve reporting performance?",
+    "options": [
+      "A. Create a custom object to store aggregate data and run reports.",
+      "B. Contact Salesforce support to enable skinny table for cases.",
+      "C. Move data off of the platform and run reporting outside Salesforce, and give access to reports.",
+      "D. Build reports using custom Lightning components."
+    ],
+    "answer": "B",
+    "title": "Question 29",
+    "explanation": "According to the Salesforce documentation1, reporting performance can be affected by various factors, such as the volume and complexity of data, the design and configuration of reports and dashboards, the number and type of users accessing the reports, etc. To improve reporting performance, some of the recommended solutions are:\n Move data off of the platform and run reporting outside Salesforce, and give access to reports (option C). This means using an external service or tool that can extract, transform, and load (ETL) data from Salesforce to another system or database, such as a data warehouse or a business intelligence platform.\n This can improve reporting performance by reducing the load and latency on Salesforce, and enabling faster and more flexible reporting and analysis on the external system. Users can access the reports from the external system using a link or an embedded component in Salesforce.\n Contact Salesforce support to enable skinny table for cases (option B). This means requesting Salesforce to create a custom table that contains a subset of fields from the Case object that are frequently used or queried. A skinny table can improve reporting performance by avoiding joins between standard and custom fields, omitting soft-deleted records, and leveraging indexes on the fields2.\n Create a custom object to store aggregate data and run reports (option A). This means creating a custom object that contains summary or calculated data from the Case object, such as counts, sums, averages, etc. A custom object can improve reporting performance by reducing the number of records and fields that need to be queried and displayed.\n Build reports using custom Lightning components (option D). This means creating custom components that use Lightning Web Components or Aura Components frameworks to display report data in Salesforce. A custom component can improve reporting performance by using client-side caching, pagination, lazy loading, or other techniques to optimize data rendering and interaction."
+  },
+  {
+    "content": "Cloud Kicks has the following requirements:\n- Data needs to be sent from Salesforce to an external system to generate invoices from their Order Management System (OMS).\n- A Salesforce administrator must be able to customize which fields will be sent to the external system without changing code.\nWhat are two approaches for fulfilling these requirements? (Choose two.)",
+    "options": [
+      "A. A set<sobjectFieldset> to determine which fields to send in an HTTP callout.",
+      "B. An Outbound Message to determine which fields to send to the OMS.",
+      "C. A Field Set that determines which fields to send in an HTTP callout.",
+      "D. Enable the field -level security permissions for the fields to send."
+    ],
+    "answer": "B,C",
+    "title": "Question 30",
+    "explanation": "An Outbound Message is a native Salesforce feature that allows sending data to an external system without code. It can be configured to include any fields from the source object3. A Field Set is a collection of fields that can be used in Visualforce pages or Apex classes to dynamically determine the fields to send in an HTTP callout. Both of these approaches meet the requirements of Cloud Kicks."
+  },
+  {
+    "content": "Universal Containers has a large volume of Contact data going into Salesforce.com. There are 100,000 existing contact records. 200,000 new contacts will be loaded. The Contact object has an external ID field that is unique and must be populated for all existing records. What should the architect recommend to reduce data load processing time?",
+    "options": [
+      "A. Load Contact records together using the Streaming API via the Upsert operation.",
+      "B. Delete all existing records, and then load all records together via the Insert operation.",
+      "C. Load all records via the Upsert operation to determine new records vs. existing records.",
+      "D. Load new records via the Insert operation and existing records via the Update operation."
+    ],
+    "answer": "D",
+    "title": "Question 31",
+    "explanation": "Loading new records via the Insert operation and existing records via the Update operation will allow using the external ID field as a unique identifier and avoid any duplication or overwriting of records. This is faster and safer than deleting all existing records or using the Upsert operation, which might cause conflicts or errors\n ."
+  },
+  {
+    "content": "Northern Trail Outfitters needs to implement an archive solution for Salesforce data. This archive solution needs to help NTO do the following:\n1. Remove outdated Information not required on a day-to-day basis.\n2. Improve Salesforce performance.\nWhich solution should be used to meet these requirements?",
+    "options": [
+      "A. Identify a location to store archived data and use scheduled batch jobs to migrate and purge the aged data on a nightly basis,",
+      "B. Identify a location to store archived data, and move data to the location using a time-based workflow.",
+      "C. Use a formula field that shows true when a record reaches a defined age and use that field to run a report and export a report into SharePoint.",
+      "D. Create a full copy sandbox, and use it as a source for retaining archived data."
+    ],
+    "answer": "A",
+    "title": "Question 32",
+    "explanation": "Identifying a location to store archived data and using scheduled batch jobs to migrate and purge the aged data on a nightly basis can be a way to meet the requirements for an archive solution. The article provides a use case of how to use Heroku Connect, Postgres, and Salesforce Connect to archive old data, free up space in the org, and still retain the option to unarchive the data if needed. The article also explains how this solution can improve Salesforce performance and meet data retention policies."
+  },
+  {
+    "content": "Universal Container is Implementing salesforce and needs to migrate data from two legacy systems. UC would like to clean and duplicate data before migrate to Salesforce.\nWhich solution should a data architect recommend a clean migration?",
+    "options": [
+      "A. Define external IDs for an object, migrate second database to first database, and load into Salesforce.",
+      "B. Define duplicate rules in Salesforce, and load data into Salesforce from both databases.",
+      "C. Set up staging data base, and define external IDs to merge, clean duplicate data, and load into Salesforce.",
+      "D. Define external IDs for an object, Insert data from one database, and use upsert for a second database"
+    ],
+    "answer": "C",
+    "title": "Question 33",
+    "explanation": "To recommend a clean migration, the data architect should set up a staging database, and define external IDs to merge, clean duplicate data, and load into Salesforce. This will allow the data architect to consolidate and deduplicate the data from two legacy systems before importing it into Salesforce using external IDs as unique identifiers. Option A is incorrect because defining external IDs for an object, migrating second database to first database, and loading into Salesforce will not ensure that the data is clean and duplicate-free. Option B is incorrect because defining duplicate rules in Salesforce, and loading data into Salesforce from both databases will not prevent the duplicate data from being imported into Salesforce. Option D is incorrect because defining external IDs for an object, inserting data from one database, and using upsert for a second database will not handle the duplicate data from both databases."
+  },
+  {
+    "content": "All accounts and opportunities are created in Salesforce. Salesforce is integrated with three systems:\n* An ERP system feeds order data into Salesforce and updates both Account and Opportunity records.\n* An accounting system feeds invoice data into Salesforce and updates both Account and Opportunity records.\n* A commission system feeds commission data into Salesforce and updates both Account and Opportunity records.\nHow should the architect determine which of these systems is the system of record?",
+    "options": [
+      "A. Account and opportunity data originates in Salesforce, and therefore Salesforce is the system of record.",
+      "B. Whatever system updates the attribute or object should be the system of record for that field or object.",
+      "C. Whatever integration data flow runs last will, by default, determine which system is the system of record.",
+      "D. Data flows should be reviewed with the business users to determine the system of record per object or field."
+    ],
+    "answer": "D",
+    "title": "Question 34",
+    "explanation": "Option D is correct because data flows should be reviewed with the business users to determine the system of record per object or field1. The system of record is the authoritative source of data for a given entity or attribute2. It may vary depending on the business context and requirements. Option A is not correct because account and opportunity data originates in Salesforce, but it may not be the system of record for all attributes or objects if they are updated by other systems2. Option B is not correct because whatever system updates the attribute or object may not be the system of record for that field or object if there are conflicting or overlapping updates from other systems2. Option C is not correct because whatever integration data flow runs last may not determine which system is the system of record if there are different business rules or logic applied by different systems2."
+  },
+  {
+    "content": "Universal Containers (UC) maintains a collection of several million Account records that represent business in the United Sates. As a logistics company, this list is one of the most valuable and important components of UC's business, and the accuracy of shipping addresses is paramount. Recently it has been noticed that too many of the addresses of these businesses are inaccurate, or the businesses don't exist. Which two scalable strategies should UC consider to improve the quality of their Account addresses?",
+    "options": [
+      "A. Contact each business on the list and ask them to review and update their address information.",
+      "B. Build a team of employees that validate Accounts by searching the web and making phone calls.",
+      "C. Integrate with a third-party database or services for address validation and enrichment.",
+      "D. Leverage Data.com Clean to clean up Account address fields with the D&B database."
+    ],
+    "answer": "C,D",
+    "title": "Question 35",
+    "explanation": "Integrating with a third-party database or service for address validation and enrichment is a scalable strategy that can improve the quality of the Account addresses by comparing them with a reliable source of data1. Leveraging Data.com Clean to clean up Account address fields with the D&B database is another scalable strategy that can automatically update and enrich Account records with verified information from Data.com2."
+  },
+  {
+    "content": "Universal Containers (UC) is implementing a formal, cross -business -unit data governance program As part of the program, UC will implement a team to make decisions on enterprise -wide data governance. Which two roles are appropriate as members of this team? Choose 2 answers",
+    "options": ["A. Analytics/BI Owners", "B. Data Domain Stewards", "C. Salesforce Administrators", "D. Operational Data Users"],
+    "answer": "A,B",
+    "title": "Question 36",
+    "explanation": "Analytics/BI Owners and Data Domain Stewards are appropriate roles as members of a team that makes decisions on enterprise-wide data governance. Analytics/BI Owners are responsible for defining the business requirements and metrics for data analysis and reporting, and Data Domain Stewards are responsible for defining and enforcing the data quality standards and rules for specific data domains. Salesforce Administrators and Operational Data Users are not suitable roles for this team, as they are more focused on the operational aspects of data management, such as configuration, maintenance, and usage."
+  },
+  {
+    "content": "Universal Containers (UC) has users complaining about reports timing out or simply taking too long to run What two actions should the data architect recommend to improve the reporting experience? Choose 2 answers",
+    "options": [
+      "A. Index key fields used in report criteria.",
+      "B. Enable Divisions for large data objects.",
+      "C. Create one skinny table per report.",
+      "D. Share each report with fewer users."
+    ],
+    "answer": "A,C",
+    "title": "Question 37",
+    "explanation": "Indexing key fields used in report criteria can speed up the query execution and reduce the report run time.\n Indexes can be created by Salesforce automatically or manually by request. Creating one skinny table per report can also improve the reporting performance by storing frequently used fields in a separate table that does not include complex formulas or joins."
+  },
+  {
+    "content": "Northern Trail Outfitters Is planning to build a consent form to record customer authorization for marketing purposes.\nWhat should a data architect recommend to fulfill this requirement?",
+    "options": [
+      "A. Utilize the Authorization Form Consent object to capture the consent.",
+      "B. Use AppExchange solution to address the requirement.",
+      "C. Create a custom object to maintain the authorization.",
+      "D. Use custom fields to capture the authorization details."
+    ],
+    "answer": "A",
+    "title": "Question 38",
+    "explanation": ""
+  },
+  {
+    "content": "Northern Trail Outfitters has these simple requirements for a data export process:\nFile format should be in CSV.\nProcess should be scheduled and run once per week.\nThe expert should be configurable through the Salesforce UI.\nWhich tool should a data architect leverage to accomplish these requirements?",
+    "options": ["A. Bulk API", "B. Data export wizard", "C. Third-party ETL tool", "D. Data loader"],
+    "answer": "B",
+    "title": "Question 39",
+    "explanation": "The correct answer is B, data export wizard. The data export wizard is a tool that allows you to export your data in CSV format, schedule the export process to run once per week, and configure the export settings through the Salesforce UI. The data export wizard can handle up to 51 million records per export. The bulk API, third-party ETL tools, and data loader are also tools that can export data, but they are not as simple or user-friendly as the data export wizard."
+  },
+  {
+    "content": "Salesforce is being deployed in Ursa Major Solar's disparate, multi-system ERP environment. Ursa major Solar wants to maintain data synchronization between systems.\nWhich two techniques should be used to achieve this goal? (Choose two.)",
+    "options": [
+      "A. Integrate Salesforce with the ERP environment.",
+      "B. Utilize workbench to update files within systems.",
+      "C. Utilize an MDM strategy to outline a single source of truth.",
+      "D. Build synchronization reports and dashboards."
+    ],
+    "answer": "A,C",
+    "title": "Question 40",
+    "explanation": "Option A is correct because integrating Salesforce with the ERP environment is a technique to maintain data synchronization between systems1. Option C is correct because utilizing an MDM strategy to outline a single source of truth is another technique to ensure data quality and consistency across systems2. Option B is not correct because utilizing workbench to update files within systems is not a technique to maintain data synchronization, but a tool to perform data manipulation tasks3. Option D is not correct because building synchronization reports and dashboards is not a technique to maintain data synchronization, but a way to monitor and analyze data4."
+  },
+  {
+    "content": "Universal Containers (UC) has lead assignment rules to assign leads to owners. Leads not routed by assignment rules are assigned to a dummy user. Sales rep are complaining of high load times and issues with accessing leads assigned to the dummy user.\nWhat should a data architect recommend to solve these performance issues?",
+    "options": [
+      "A. Assign dummy user last role in role hierarchy",
+      "B. Create multiple dummy user and assign leads to them",
+      "C. Assign dummy user to highest role in role hierarchy",
+      "D. Periodically delete leads to reduce number of leads"
+    ],
+    "answer": "B",
+    "title": "Question 41",
+    "explanation": "According to the official Salesforce guide1, assigning leads to a single dummy user can cause performance issues and data skew, especially if the dummy user owns more than 10,000 records. Data skew occurs when a single user or a small number of users own a disproportionately large number of records, which can affect query performance and sharing calculations. Option B is the correct answer because it suggests creating multiple dummy users and assigning leads to them, which can distribute the load and reduce data skew. Option A is incorrect because assigning the dummy user to the last role in the role hierarchy does not affect the performance or data skew issues. Option C is incorrect because assigning the dummy user to the highest role in the role hierarchy can worsen the performance and data skew issues, as it will grant access to more users and records. Option D is incorrect because periodically deleting leads can cause data loss and does not address the root cause of the problem."
+  },
+  {
+    "content": "A customer is operating in a highly reputated industry and is planning to implement SF. The customer information maintained in SF, includes the following:\nPersonally, identifiable information (PII)\nIP restrictions on profiles organized by Geographic location\nFinancial records that need to be private and accessible only by the assigned Sales associate.\nUser should not be allowed to export information from Salesforce.\nEnterprise security has mandate access to be restricted to users within a specific geography and detail monitoring of user activity. Which 3 Salesforce shield capabilities should a data architect recommend? Choose\n3 answers:",
+    "options": [
+      "A. Event monitoring to monitor all user activities",
+      "B. Restrict access to SF from users outside specific geography",
+      "C. Prevent Sales users access to customer PII information",
+      "D. Transaction security policies to prevent export of SF Data.",
+      "E. Encrypt Sensitive Customer information maintained in SF."
+    ],
+    "answer": "B,D,E",
+    "title": "Question 42",
+    "explanation": "The best Salesforce Shield capabilities for the customer are to restrict access to SF from users outside specific geography, implement transaction security policies to prevent export of SF data, and encrypt sensitive customer information maintained in SF. Salesforce Shield is a set of security features that help protect enterprise data on the Salesforce platform. It includes three components: Event Monitoring, Platform Encryption, and Field Audit Trail. Restricting access to SF from users outside specific geography can be done using network-based security features, such as IP whitelisting or VPN. Transaction security policies can be used to define actions or notifications based on user behavior patterns, such as exporting data or logging in from an unknown device. Platform Encryption can be used to encrypt data at rest using a tenant secret key that is controlled by the customer."
+  },
+  {
+    "content": "Universal Container (UC) has accumulated data over years and has never deleted data from its Salesforce org.\nUC is now exceeding the storage allocations in the org. UC is now looking for option to delete unused from the org.\nWhich three recommendations should a data architect make is order to reduce the number of records from the org?\nChoose 3 answers",
+    "options": [
+      "A. Use hard delete in Bulk API to permanently delete records from Salesforce.",
+      "B. Use hard delete in batch Apex to permanently delete records from Salesforce.",
+      "C. Identify records in objects that have not been modified or used In last 3 years.",
+      "D. Use Rest API to permanently delete records from the Salesforce org.",
+      "E. Archive the records in enterprise data warehouse (EDW) before deleting from Salesforce."
+    ],
+    "answer": "A,C,E",
+    "title": "Question 43",
+    "explanation": "Using hard delete in Bulk API, identifying records that have not been modified or used in last 3 years, and archiving the records in EDW before deleting from Salesforce are all good recommendations to reduce the number of records from the org1. Using hard delete in batch Apex or Rest API may not be as efficient or scalable as Bulk API"
+  },
+  {
+    "content": "What makes Skinny tables fast? Choose three answers.",
+    "options": [
+      "A. They do not include soft-deleted records",
+      "B. They avoid resource intensive joins",
+      "C. Their tables are kept in sync with their source tables when the source tables are modified",
+      "D. They can contain fields from other objects",
+      "E. They support up to a max of 100 of columns"
+    ],
+    "answer": "A,B,C",
+    "title": "Question 44",
+    "explanation": "Skinny tables are custom tables that contain frequently used fields from a standard or custom object. They are used to improve performance by reducing the number of database joins required for queries. Skinny tables have the following characteristics1:\n They do not include soft-deleted records, which means they only contain active records and save space.\n They avoid resource intensive joins by storing data from multiple objects in one table, which reduces the query time and complexity.\n Their tables are kept in sync with their source tables when the source tables are modified, which ensures data consistency and accuracy."
+  },
+  {
+    "content": "Universal Containers (UC) has a data model as shown in the image. The Project object has a private sharing model, and it has Roll -Up summary fields to calculate the number of resources assigned to the project, total hours for the project, and the number of work items associated to the project. What should the architect consider, knowing there will be a large amount of time entry records to be loaded regularly from an external system into Salesforce.com?",
+    "options": [
+      "A. Load all data using external IDs to link to parent records.",
+      "B. Use workflow to calculate summary values instead of Roll -Up.",
+      "C. Use triggers to calculate summary values instead of Roll -Up.",
+      "D. Load all data after deferring sharing calculations."
+    ],
+    "answer": "D",
+    "title": "Question 45",
+    "explanation": "Loading all data after deferring sharing calculations can improve the performance and avoid locking issues when loading a large amount of time entry records into Salesforce.com. This is because deferring sharing calculations can temporarily suspend the calculation of sharing rules until all the data is loaded, and then recalculate them in one operation"
+  },
+  {
+    "content": "A large Automobile company has implemented SF for its Sales Associates. Leads flow from its website to SF using a batch integration in SF. The Batch job connects the leads to Accounts in SF. Customer visiting their retail stores are also created in SF as Accounts.\nThe company has noticed a large number of duplicate accounts in SF. On analysis, it was found that certain customers could interact with its website and also visit the store. The Sales associates use Global Search to search for customers in Salesforce before they create the customers.\nWhich scalable option should a data Architect choose to implement to avoid duplicates?",
+    "options": [
+      "A. Create duplicate rules in SF to validate duplicates during the account creation process",
+      "B. Implement a MDM solution to validate the customer information before creating Accounts in SF.",
+      "C. Build Custom search based on fields on Accounts which can be matched with customer when they visit the store",
+      "D. Customize Account creation process to search if customer exists before creating an Account."
+    ],
+    "answer": "A",
+    "title": "Question 46",
+    "explanation": "The data architect should choose to implement duplicate rules in SF (Salesforce) to validate duplicates during the account creation process. Duplicate rules are a feature in Salesforce that allow users to define criteria and actions for detecting and preventing duplicate records. By creating duplicate rules for accounts, the data architect can ensure that any leads from the website or customers from the retail stores that match existing accounts in Salesforce are flagged or blocked before they are created as new accounts. This will help avoid duplicate accounts in Salesforce and maintain data quality. Option B is incorrect because implementing a MDM (Master Data Management) solution to validate the customer information before creating accounts in SF will require additional infrastructure cost and maintenance effort. Option C is incorrect because building custom search based on fields on accounts which can be matched with customer when they visit the store will require additional development effort and may not be accurate or user-friendly. Option D is incorrect because customizing account creation process to search if customer exists before creating an account will require additional configuration effort and may not be consistent or scalable."
+  },
+  {
+    "content": "Universal Containers (UC) is migrating data from legacy system to Salesforce. During data analysis it was discovered that data types of fields being migrated do not match with Salesforce data types.\nWhich solution should a data architect use to ensure successful data migrations?",
+    "options": [
+      "A. Migrate legacy data to a staging database for mapping then leverage an ETL tool to transform the data and load into Salesforce.",
+      "B. Export legacy data into the staging database and leverage stored procedures to transform data types before loading into Salesforce.",
+      "C. Migrate the legacy data leveraging an ETL tool to transform data types and load data into Salesforce.",
+      "D. Export legacy data into CSV files and leverage data loader to load data into Salesforce."
+    ],
+    "answer": "C",
+    "title": "Question 47",
+    "explanation": "According to this article, migrating the legacy data leveraging an ETL tool to transform data types and load data into Salesforce can be a way to ensure successful data migrations. The article states that ETL tools can help with data cleansing, mapping, transformation, and loading, and that they can handle different data types and formats. The article also provides some best practices for data migration, such as identifying the data to migrate, creating templates for the data, preparing the destination org, and validating the data."
+  },
+  {
+    "content": "Northern trail Outfitters (NTO) uses Sales Cloud and service Cloud to manage sales and support processes.\nSome of NTOs team are complaining they see new fields on their page unsure of which values need be input.\nNTO is concerned about lack of governance in making changes to Salesforce.\nWhich governance measure should a data architect recommend to solve this issue?",
+    "options": [
+      "A. Add description fields to explain why the field is used, and mark the field as required.",
+      "B. Create and manage a data dictionary and ups a governance process for changes made to common objects.",
+      "C. Create reports to identify which users are leaving blank, and use external data sources o agreement the missing data.",
+      "D. Create validation rules with error messages to explain why the fields is used"
+    ],
+    "answer": "B",
+    "title": "Question 48",
+    "explanation": "To solve the issue of lack of governance in making changes to Salesforce, a data architect should recommend creating and managing a data dictionary and setting up a governance process for changes made to common objects. A data dictionary is a document that defines the metadata, structure, and relationship of each object and field in Salesforce. A governance process is a set of rules and procedures that govern how changes are proposed, reviewed, approved, and deployed in Salesforce. These measures will help NTO to maintain consistency, quality, and clarity of their data model and avoid confusion and errors among users. Option A is incorrect because adding description fields to explain why the field is used, and marking the field as required will not prevent unauthorized or unnecessary changes to Salesforce. Option C is incorrect because creating reports to identify which users are leaving blank, and using external data sources to augment the missing data will not address the root cause of the issue, which is the lack of governance in making changes to Salesforce.\n Option D is incorrect because creating validation rules with error messages to explain why the fields are used will not stop users from seeing new fields on their page that they are unsure of."
+  },
+  {
+    "content": "Universal Containers (UC) owns a complex Salesforce org with many Apex classes, triggers, and automated processes that will modify records if available. UC has identified that, in its current development state, UC runs change of encountering race condition on the same record.\nWhat should a data architect recommend to guarantee that records are not being updated at the same time?",
+    "options": [
+      "A. Embed the keywords FOR UPDATE after SOQL statements.",
+      "B. Disable classes or triggers that have the potential to obtain the same record.",
+      "C. Migrate programmatic logic to processes and flows.",
+      "D. Refactor or optimize classes and trigger for maximum CPU performance."
+    ],
+    "answer": "A",
+    "title": "Question 49",
+    "explanation": "According to the How to avoid row lock or race condition in Apex blog post, one of the ways to prevent race condition in Apex is to use the FOR UPDATE keyword in SOQL statements. The blog post states that \"We need to lock the records on which we are working such that other batches or threads will not be having any effect on them. How can we lock a record, then? We need to make use of FOR UPDATE keyword in the SOQL query.\" Therefore, a data architect should recommend this solution to guarantee that records are not being updated at the same time by different processes."
+  },
+  {
+    "content": "UC has a legacy client server app that as a relational data base that needs to be migrated to salesforce.\nWhat are the 3 key actions that should be done when data modeling in salesforce?\nChoose 3 answers:",
+    "options": [
+      "A. Identify data elements to be persisted in salesforce.",
+      "B. Map legacy data to salesforce objects.",
+      "C. Map legacy data to salesforce custom objects.",
+      "D. Work with legacy application owner to analysis legacy data model.",
+      "E. Implement legacy data model within salesforce using custom fields."
+    ],
+    "answer": "A,B,E",
+    "title": "Question 50",
+    "explanation": "According to the Data Modeling unit on Trailhead, some of the key actions that should be done when data modeling in Salesforce are identifying data elements, mapping legacy data, and implementing legacy data model. The unit states that \"Before you start creating objects and fields in Salesforce, you need to identify the data elements that you want to store and work with. ... Next, you need to map your legacy data to Salesforce objects and fields. ... Finally, you need to implement your data model in Salesforce by creating custom objects and fields using declarative tools or Metadata API.\" Therefore, these are the correct actions for migrating a legacy client server app to Salesforce."
+  },
+  {
+    "content": "UC has millions of Cases and are running out of storage. Some user groups need to have access to historical cases for up to 7 years.\nWhich 2 solutions should a data architect recommend in order to minimize performance and storage issues?\nChoose 2 answers:",
+    "options": [
+      "A. Export data out of salesforce and store in Flat files on external system.",
+      "B. Create a custom object to store case history and run reports on it.",
+      "C. Leverage on premise data archival and build integration to view archived data.",
+      "D. Leverage big object to archive case data and lightning components to show archived data."
+    ],
+    "answer": "C,D",
+    "title": "Question 51",
+    "explanation": "The correct answer is C and D. To minimize performance and storage issues, a data architect should recommend leveraging on premise data archival and building integration to view archived data, and leveraging big object to archive case data and lightning components to show archived data. These solutions will allow some user groups to access historical cases for up to 7 years without consuming too much storage space or affecting the performance of queries and reports. Option A is incorrect because exporting data out of salesforce and storing it in flat files on external system will make it difficult to access and query the data.\n Option B is incorrect because creating a custom object to store case history and run reports on it will still consume a lot of storage space and impact the performance of queries and reports."
+  },
+  {
+    "content": "Universal Containers (UC) has three systems: Salesforce, a cloud -based ERP system, and an on -premise Order Management System (OMS). An architect has been tasked with creating a solution that uses Salesforce as the system of record for Leads and the OMS as the system of record for Account and Contacts. UC wants Accounts and Contacts to be able to maintain their names in each system (i.e., \"John Doe\" in the OMS and\n\"Johnny Doe\" in Salesforce), but wants to have a consolidated data store which links referenced records across the systems. What approach should an architect suggest so the requirements are met?",
+    "options": [
+      "A. Have Salesforce poll the OMS nightly and bring in the desired Accounts and Contacts.",
+      "B. Implement an integration tool to send OMS Accounts and Contacts to Salesforce.",
+      "C. Implement a Master Data Management strategy to reconcile Leads, Accounts, and Contacts.",
+      "D. Use the Streaming API to send Account and Contact data from Salesforce to the OMS."
+    ],
+    "answer": "C",
+    "title": "Question 52",
+    "explanation": "Implementing a Master Data Management strategy to reconcile Leads, Accounts, and Contacts is the approach that the architect should suggest so that the requirements are met for UC. A Master Data Management strategy can provide a consistent and unified view of data across multiple systems, by defining and enforcing rules for data quality, governance, and integration. A Master Data Management strategy can also handle complex scenarios where different systems have different systems of record for different entities or fields, and where data can be modified in different systems with different values. A Master Data Management strategy can also provide a consolidated data store that links referenced records across systems and enables cross-system reporting and analysis. The other options are not suitable or sufficient for meeting the requirements, as they would either not provide a consolidated data store, not handle different systems of record, or not allow data modification in different system"
+  },
+  {
+    "content": "Universal Containers has millions of rows of data in Salesforce that are being used in reports to evaluate historical trends. Performance has become an issue, as well as data storage limits. Which two strategies should be recommended when talking with stakeholders?",
+    "options": [
+      "A. Use scheduled batch Apex to copy aggregate information into a custom object and delete the original records.",
+      "B. Combine Analytics Snapshots with a purging plan by reporting on the snapshot data and deleting the original records.",
+      "C. Use Data Loader to extract data, aggregate it, and write it back to a custom object, then delete the original records.",
+      "D. Configure the Salesforce Archiving feature to archive older records and remove them from the data storage limits."
+    ],
+    "answer": "A,D",
+    "title": "Question 53",
+    "explanation": "Using scheduled batch Apex to copy aggregate information into a custom object and delete the original records can improve the performance and reduce the data storage limits by removing unnecessary data and keeping only the summary data that is needed for reporting. Configuring the Salesforce Archiving feature to archive older records and remove them from the data storage limits can also help with performance and storage issues by moving historical data to a separate system that is still accessible but does not affect the operational data"
+  },
+  {
+    "content": "UC is building a salesforce application to track contacts and their respective conferences that they have attended with the following requirements:\n1.Contacts will be stored in the standard contact object.\n2.Conferences will be stored in a custom conference_ c object.\n3.Each contact may attend multiple conferences and each conference may be related to multiple contacts.\nHow should a data architect model the relationship between the contact and conference objects?",
+    "options": [
+      "A. Implement a Contact Conference junction object with master detail relationship to both contact and conference_c",
+      "B. Create a master detail relationship field on the Contact object.",
+      "C. Create a master detail relationship field on the Conference object.",
+      "D. Create a lookup relationship field on contact object."
+    ],
+    "answer": "A",
+    "title": "Question 54",
+    "explanation": "Implementing a Contact Conference junction object with master detail relationship to both contact and conference_c is the correct way to model the relationship between the contact and conference objects, as it allows a many-to-many relationship between them. This means that each contact can attend multiple conferences, and each conference can be related to multiple contacts. Creating a master detail relationship field on either the contact or the conference object would create a one-to-many relationship, which does not meet the requirements. Creating a lookup relationship field on contact object would also create a one-to-many relationship, and would not enforce referential integrity."
+  },
+  {
+    "content": "Universal Containers (UC) is a business that works directly with individual consumers (B2C). They are moving from a current home-grown CRM system to Salesforce. UC has about one million consumer records.\nWhat should the architect recommend for optimal use of Salesforce functionality and also to avoid data loading issues?",
+    "options": [
+      "A. Create a Custom Object Individual Consumer c to load all individual consumers.",
+      "B. Load all individual consumers as Account records and avoid using the Contact object.",
+      "C. Load one Account record and one Contact record for each individual consumer.",
+      "D. Create one Account and load individual consumers as Contacts linked to that one Account."
+    ],
+    "answer": "D",
+    "title": "Question 55",
+    "explanation": "According to the exam guide, one of the objectives is to \"describe best practices for implementing a single-org strategy in a B2C scenario\"1. This implies that option D is the best practice for loading individual consumers as contacts in Salesforce. This approach avoids creating unnecessary accounts and reduces data duplication.\n Option C is not correct because it creates one account per contact, which increases data volume and complexity. Options A and B are not correct because they do not leverage the standard contact object, which provides native functionality and integration with other Salesforce features."
+  },
+  {
+    "content": "Universal Containers (UC) is in the process of selling half of its company. As part of this split, UC's main Salesforce org will be divided into two org:org A and org B, UC has delivered these requirements to its data architect\n1. The data model for Org B will drastically change with different objects, fields, and picklist values.\n2. Three million records will need to be migrated from org A to org B for compliance reasons.\n3. The migrate will need occur within the next two month, prior to be split.\nWhich migrate strategy should a data architect use to successfully migrate the date?",
+    "options": [
+      "A. use as ETL tool to orchestrate the migration.",
+      "B. Use Data Loader for export and Data Import Wizard for import",
+      "C. Write a script to use the Bulk API",
+      "D. Use the Salesforces CLI to query, export, and import"
+    ],
+    "answer": "A",
+    "title": "Question 56",
+    "explanation": "Using an ETL tool to orchestrate the migration is the best strategy for this scenario, as it can handle the data model changes, the large volume of records, and the tight timeline. Writing a script to use the Bulk API (option C) is also possible, but it would require more coding and testing effort. Using Data Loader and Data Import Wizard (option B) is not suitable for migrating three million records, as they have limitations on the batch size and the number of records per operation. Using Salesforce CLI (option D) is also not recommended for large data migration, as it is mainly designed for development and testing purposes"
+  },
+  {
+    "content": "Get Cloudy Consulting uses an invoicing system that has specific requirements. One requirement is that attachments associated with the Invoice_c custom object be classified by Types (i.e., \"\"Purchase Order\"\",\n\"\"Receipt\"\", etc.) so that reporting can be performed on invoices showing the number of attachments grouped by Type.\nWhat should an Architect do to categorize the attachments to fulfill these requirements?",
+    "options": [
+      "A. Add additional options to the standard ContentType picklist field for the Attachment object.",
+      "B. Add a ContentType picklist field to the Attachment layout and create additional picklist options.",
+      "C. Create a custom picklist field for the Type on the standard Attachment object with the values.",
+      "D. Create a custom object related to the Invoice object with a picklist field for the Type."
+    ],
+    "answer": "D",
+    "title": "Question 57",
+    "explanation": "Creating a custom object related to the Invoice object with a picklist field for the Type allows the architect to categorize the attachments and report on them by Type. The standard Attachment object does not have a ContentType picklist field, and adding a custom picklist field to it would not be best practice."
+  },
+  {
+    "content": "Universal Containers (UC) has adopted Salesforce as its primary sales automated tool. UC has 100,00 customers with a growth rate of 10% a year, UC uses an on-premise web-based billing and invoice system that generates over 1 million invoices a year supporting a monthly billing cycle.\nThe UC sales team needs to be able to pull a customer record and view their account status, Invoice history, and opportunities without navigating outside of Salesforce.\nWhat should a data architect use to provide the sales team with the required functionality?",
+    "options": [
+      "A. Create a custom object and migrate the last 12 months of Invoice data into Salesforce so it can be displayed on the Account layout.",
+      "B. Write an Apex callout and populate a related list to display on the account record.",
+      "C. Create a mashup page that will present the billing system records within Salesforce.",
+      "D. Create a visual force tab with the billing system encapsulated within an iframe."
+    ],
+    "answer": "C",
+    "title": "Question 58",
+    "explanation": "To provide the sales team with the required functionality, a data architect should use a mashup page that will present the billing system records within Salesforce. A mashup page is a web page that combines data from multiple sources into a single integrated view. A mashup page can be created using Visualforce or Lightning Web Components, and can use Salesforce Connect or custom integrations to access external data from the on-premise web-based billing and invoice system. This will allow the sales team to pull a customer record and view their account status, invoice history, and opportunities without navigating outside of Salesforce. Option A is incorrect because creating a custom object and migrating the last 12 months of invoice data into Salesforce so it can be displayed on the account layout will consume a lot of storage space and may not reflect the latest data from the billing system. Option B is incorrect because writing an Apex callout and populating a related list to display on the account record will require additional development effort and may not be scalable or performant for large volumes of data. Option D is incorrect because creating a visual force tab with the billing system encapsulated within an iframe will not allow the sales team to view the billing system records within the customer record, but rather in a separate tab."
+  },
+  {
+    "content": "Universal Containers (UC) uses Salesforce for tracking opportunities (Opportunity). UC uses an internal ERP system for tracking deliveries and invoicing. The ERP system supports SOAP API and OData for bi-directional integration between Salesforce and the ERP system. UC has about one million opportunities. For each opportunity, UC sends 12 invoices, one per month. UC sales reps have requirements to view current invoice status and invoice amount from the opportunity page. When creating an object to model invoices, what should the architect recommend, considering performance and data storage space?",
+    "options": [
+      "A. Use Streaming API to get the current status from the ERP and display on the Opportunity page.",
+      "B. Create an external object Invoice _x with a Lookup relationship with Opportunity.",
+      "C. Create a custom object Invoice _c with a master -detail relationship with Opportunity.",
+      "D. Create a custom object Invoice _c with a Lookup relationship with Opportunity."
+    ],
+    "answer": "B",
+    "title": "Question 59",
+    "explanation": "Creating an external object Invoice_x with a Lookup relationship with Opportunity is the best option for modeling invoices, considering performance and data storage space. An external object allows the data to be stored in the ERP system and accessed via OData in Salesforce. This reduces the data storage consumption in Salesforce and improves the performance of queries and reports. A Lookup relationship allows the sales reps to view the invoice status and amount from the opportunity page. The other options would either consume more data storage space, require additional customization, or not provide real-time data access"
+  },
+  {
+    "content": "A customer wants to maintain geographic location information including latitude and longitude in a custom object. What would a data architect recommend to satisfy this requirement?",
+    "options": [
+      "A. Create formula fields with geolocation function for this requirement.",
+      "B. Create custom fields to maintain latitude and longitude information",
+      "C. Create a geolocation custom field to maintain this requirement",
+      "D. Recommend app exchange packages to support this requirement."
+    ],
+    "answer": "C",
+    "title": "Question 60",
+    "explanation": "The correct answer is C, create a geolocation custom field to maintain this requirement. A geolocation custom field is a compound field that can store both latitude and longitude information in a single field. It also supports geolocation functions and distance calculations. Creating formula fields or custom fields for latitude and longitude separately would be inefficient and redundant. Recommending app exchange packages would not be a direct solution to the requirement."
+  },
+  {
+    "content": "Universal containers is implementing Salesforce lead management. UC Procure lead data from multiple sources and would like to make sure lead data as company profile and location information. Which solution should a data architect recommend to make sure lead data has both profile and location information? Option",
+    "options": [
+      "A. Ask sales people to search for populating company profile and location data",
+      "B. Run reports to identify records which does not have company profile and location data",
+      "C. Leverage external data providers populate company profile and location data",
+      "D. Export data out of Salesforce and send to another team to populate company profile and location data"
+    ],
+    "answer": "C",
+    "title": "Question 61",
+    "explanation": "The best solution to make sure lead data has both profile and location information is to leverage external data providers to populate company profile and location data. This is because external data providers can enrich lead data with additional information from third-party sources, such as Dun & Bradstreet, ZoomInfo, or Clearbit. This can help improve lead quality, segmentation, and conversion. Salesforce supports integrating with external data providers using Data.com Clean or other AppExchange solutions2. Asking sales people to search for populating company profile and location data is inefficient and prone to errors. Running reports to identify records which do not have company profile and location data is useful, but does not solve the problem of how to populate the missing data. Exporting data out of Salesforce and sending to another team to populate company profile and location data is cumbersome and time-consuming."
+  },
+  {
+    "content": "Universal Containers has a legacy system that captures Conferences and Venues. These Conferences can occur at any Venue. They create hundreds of thousands of Conferences per year. Historically, they have only used\n20 Venues. Which two things should the data architect consider when denormalizing this data model into a single Conference object with a Venue picklist? Choose 2 answers",
+    "options": [
+      "A. Limitations on master -detail relationships.",
+      "B. Org data storage limitations.",
+      "C. Bulk API limitations on picklist fields.",
+      "D. Standard list view in -line editing."
+    ],
+    "answer": "C,D",
+    "title": "Question 62",
+    "explanation": "When denormalizing a data model into a single object with a picklist field, the data architect should consider the Bulk API limitations on picklist fields and the standard list view in-line editing. The Bulk API has a limit of 1,000 distinct picklist values per file1, which could be an issue if there are more than 1,000 venues in the future. The standard list view in-line editing allows users to edit multiple records at once, which could introduce data quality issues if the venue picklist is not validated or restricted2. The other options are not relevant to denormalizing a data model."
+  },
+  {
+    "content": "Universal Containers (CU) is in the process of implementing an enterprise data warehouse (EDW). UC needs to extract 100 million records from Salesforce for migration to the EDW.\nWhat data extraction strategy should a data architect use for maximum performance?",
+    "options": [
+      "A. Install a third-party AppExchange tool.",
+      "B. Call the REST API in successive queries.",
+      "C. Utilize PK Chunking with the Bulk API.",
+      "D. Use the Bulk API in parallel mode."
+    ],
+    "answer": "C",
+    "title": "Question 63",
+    "explanation": "According to the Salesforce documentation2, extracting large amounts of data from Salesforce can be challenging and time-consuming, as it can encounter performance issues, API limits, timeouts, etc. To extract\n 100 million records from Salesforce for migration to an enterprise data warehouse (EDW), a data extraction strategy that can provide maximum performance is:\n Utilize PK Chunking with the Bulk API (option C). This means using a feature that allows splitting a large query into smaller batches based on the record IDs (primary keys) of the queried object. This can improve performance and avoid timeouts by processing each batch asynchronously and in parallel using the Bulk API3.\n Installing a third-party AppExchange tool (option A) is not a good solution, as it can incur additional costs and dependencies. It may also not be able to handle such a large volume of data efficiently. Calling the REST API in successive queries (option B) is also not a good solution, as it can encounter API limits and performance issues when querying such a large volume of data. Using the Bulk API in parallel mode (option D) is also not a good solution, as it can still cause timeouts and errors when querying such a large volume of data without chunking."
+  },
+  {
+    "content": "Due to security requirements, Universal Containers needs to capture specific user actions, such as login, logout, file attachment download, package install, etc. What is the recommended approach for defining a solution for this requirement?",
+    "options": [
+      "A. Use a field audit trail to capture field changes.",
+      "B. Use a custom object and trigger to capture changes.",
+      "C. Use Event Monitoring to capture these changes.",
+      "D. Use a third-party AppExchange app to capture changes."
+    ],
+    "answer": "C",
+    "title": "Question 64",
+    "explanation": "Event Monitoring is a feature that allows you to track user actions, such as logins, logouts, downloads, etc., in your Salesforce org. You can use Event Monitoring to monitor performance, usage, security, and compliance"
+  },
+  {
+    "content": "Universals Containers' system administrators have been complaining that they are not able to make changes to its users' record, including moving them to new territories without getting \"unable to lock row\" errors. This is causing the system admins to spend hours updating user records every day.\nWhat should the data architect do to prevent the error?",
+    "options": [
+      "A. Reduce number of users updated concurrently.",
+      "B. Enable granular locking.",
+      "C. Analyze Splunk query to spot offending records.",
+      "D. Increase CPU for the Salesforce org."
+    ],
+    "answer": "B",
+    "title": "Question 65",
+    "explanation": "Enabling granular locking (option B) is the best option to prevent the error, as it allows finer control over how records are locked during automated or manual processes, and reduces the chances of lock contention or deadlock. Reducing number of users updated concurrently (option A) is not a good option, as it may limit the productivity and efficiency of the system admins, and it does not address the root cause of the error. Analyzing Splunk query to spot offending records (option C) is also not a good option, as it may require more time and effort, and it does not provide a permanent solution for the error. Increasing CPU for the Salesforce org (option D) is also not a good option, as it may introduce additional cost and complexity, and it does not solve the root cause of the error."
+  },
+  {
+    "content": "Universal Containers (UC) has a requirement to create an Account plan object that is related to the Account object. Each Account plan needs to have an Account object, but the accessibility requirement of the Account plan is different from the Account object. What should an Architect recommend?",
+    "options": [
+      "A. Create a custom account plan object as detail with Account as mater in a master-detail relationship.",
+      "B. Create a custom account plan object as detail with Account as master with additional sharing rules to allow access.",
+      "C. Create an account plan object with a lookup relations to Account without any validation rules to enforce the Account association.",
+      "D. Create an account plan object with a lookup relationship to Account with validation rules to enforce the Account association."
+    ],
+    "answer": "D",
+    "title": "Question 66",
+    "explanation": "Creating an account plan object with a lookup relationship to Account with validation rules to enforce the Account association can help UC meet their requirement. A lookup relationship allows different accessibility requirements for the account plan object and the account object, as well as different ownership and sharing settings. A validation rule can ensure that each account plan has an account associated with it."
+  },
+  {
+    "content": "Universal Containers (UC) provides shipping services to its customers. They use Opportunities to track customer shipments. At any given time, shipping status can be one of the 10 values. UC has 200,000 Opportunity records. When creating a new field to track shipping status on opportunity, what should the architect do to improve data quality and avoid data skew?",
+    "options": [
+      "A. Create a picklist field, values sorted alphabetically.",
+      "B. Create a Master -Detail to custom object ShippingStatus c.",
+      "C. Create a Lookup to custom object ShippingStatus c.",
+      "D. Create a text field and make it an external ID."
+    ],
+    "answer": "A",
+    "title": "Question 67",
+    "explanation": "To improve data quality and avoid data skew, the data architect should create a picklist field with values sorted alphabetically for tracking shipping status on opportunity. A picklist field ensures that only valid values are entered and prevents typos or variations in spelling. Sorting the values alphabetically makes it easier for users to find and select the correct value. Data skew occurs when a large number of records are owned by a single user or have a single value for a field. Creating a picklist field with a limited number of values does not cause data skew, as long as the distribution of values is balanced and not skewed towards one value."
+  },
+  {
+    "content": "UC has a roll-up summary field on Account to calculate the count of contacts associated with an account.\nDuring the account load, SF is throwing an \"Unable to lock a row\" error.\nWhich solution should a data architect recommend, to resolve the error?",
+    "options": [
+      "A. Leverage data loader platform API to load data.",
+      "B. Perform Batch job in parallel mode and reduce Batch size",
+      "C. Perform Batch job in serial mode and reduce batch size",
+      "D. Defer roll-up summary fields calculation during data migration."
+    ],
+    "answer": "C",
+    "title": "Question 68",
+    "explanation": "The best solution to resolve the error of \"Unable to lock a row\" during the account load is to perform batch job in serial mode and reduce batch size. This is because roll-up summary fields are calculated synchronously when the parent record is updated, and asynchronously when the child record is updated. Therefore, updating many child records at once can cause locking issues on the parent record. To avoid this, it is recommended to use serial mode and smaller batch sizes when loading data using tools like Data Loader or Bulk API12.\n Leverage data loader platform API to load data is not a good option because it does not specify the mode or batch size. Perform batch job in parallel mode and reduce batch size is not a good option because parallel mode can still cause locking issues even with smaller batches. Defer roll-up summary fields calculation during data migration is not a good option because it is not possible to defer or disable roll-up summary fields calculation"
+  },
+  {
+    "content": "US is implementing salesforce and will be using salesforce to track customer complaints, provide white papers on products and provide subscription (Fee) - based support.\nWhich license type will US users need to fulfil US's requirements?",
+    "options": ["A. Lightning platform starter license.", "B. Service cloud license.", "C. Salesforce license.", "D. Sales cloud license"],
+    "answer": "B",
+    "title": "Question 69",
+    "explanation": "The best license type to fulfil US's requirements is the Service Cloud license. Service Cloud licenses are designed for users who need access to customer service features, such as cases, solutions, knowledge articles, entitlements, service contracts, and service console. Service Cloud users can also access standard CRM objects, such as accounts, contacts, leads, opportunities, campaigns, and reports3. Lightning Platform Starter license is not a good option because it is intended for users who need access to one custom app and a limited set of standard objects. Salesforce license is not a specific license type, but rather a generic term for any license that grants access to the Salesforce platform. Sales Cloud license is not a good option because it is intended for users who need access to sales features, such as products, price books, quotes, orders, and forecasts."
+  },
+  {
+    "content": "The architect is planning a large data migration for Universal Containers from their legacy CRM system to Salesforce. What three things should the architect consider to optimize performance of the data migration?\nChoose 3 answers",
+    "options": [
+      "A. Review the time zones of the User loading the data.",
+      "B. Remove custom indexes on the data being loaded.",
+      "C. Determine if the legacy system is still in use.",
+      "D. Defer sharing calculations of the Salesforce Org.",
+      "E. Deactivate approval processes and workflow rules."
+    ],
+    "answer": "B,D,E",
+    "title": "Question 70",
+    "explanation": "Removing custom indexes on the data being loaded will prevent unnecessary index maintenance and improve the data load speed. Deferring sharing calculations of the Salesforce Org will avoid frequent sharing rule evaluations and reduce the load time. Deactivating approval processes and workflow rules will prevent triggering any automation logic that might slow down or fail the data load."
+  },
+  {
+    "content": "Universal Containers wants to develop a dashboard in Salesforce that will allow Sales Managers to do data exploration using their mobile device (i.e., drill down into sales-related data) and have the possibility of adding ad-hoc filters while on the move. What is a recommended solution for building data exploration dashboards in Salesforce?",
+    "options": [
+      "A. Create a Dashboard in an external reporting tool, export data to the tool, and add link to the dashboard in Salesforce.",
+      "B. Create a Dashboard in an external reporting tool, export data to the tool, and embed the dashboard in Salesforce using the Canval toolkit.",
+      "C. Create a standard Salesforce Dashboard and connect it to reports with the appropriate filters.",
+      "D. Create a Dashboard using Analytics Cloud that will allow the user to create ad-hoc lenses and drill down."
+    ],
+    "answer": "D",
+    "title": "Question 71",
+    "explanation": "Creating a Dashboard using Analytics Cloud that will allow the user to create ad-hoc lenses and drill down is a recommended solution for building data exploration dashboards in Salesforce. Analytics Cloud is a powerful data analysis tool that enables users to explore data using interactive dashboards, charts, graphs, and tables on any device. Users can also create lenses, which are ad-hoc data queries that can be saved and reused, and drill down into data details using filters and facets. Creating a Dashboard in an external reporting tool, exporting data to the tool, and adding link to the dashboard in Salesforce will not provide a seamless user experience and may require additional data integration and security considerations. Creating a Dashboard in an external reporting tool, exporting data to the tool, and embedding the dashboard in Salesforce using the Canval toolkit will not provide a native Salesforce solution and may require additional data integration and security considerations. Creating a standard Salesforce Dashboard and connecting it to reports with the appropriate filters will not allow the user to create ad-hoc lenses and drill down into data details on their mobile device."
+  },
+  {
+    "content": "UC has a classic encryption for Custom fields and is leveraging weekly data reports for data backups. During the data validation of exported data UC discovered that encrypted field values are still being exported as part of data exported. What should a data architect recommend to make sure decrypted values are exported during data export?",
+    "options": [
+      "A. Set a standard profile for Data Migration user, and assign view encrypted data",
+      "B. Create another field to copy data from encrypted field and use this field in export",
+      "C. Leverage Apex class to decrypt data before exporting it.",
+      "D. Set up a custom profile for data migration user and assign view encrypted data."
+    ],
+    "answer": "A",
+    "title": "Question 72",
+    "explanation": "The best solution to make sure decrypted values are exported during data export is to create another field to copy data from encrypted field and use this field in export. This is because classic encryption does not support exporting decrypted values of encrypted fields. The view encrypted data permission only allows users to view decrypted values in the user interface, but not in reports or data exports. Therefore, a workaround is to create a formula field or a workflow field update that copies the value of the encrypted field to another field, and use that field for data export. However, this solution has some drawbacks, such as exposing sensitive data in plain text and consuming extra storage space. A better solution would be to use Shield Platform Encryption, which supports exporting decrypted values of encrypted fields with the Export Encrypted Data permission"
+  },
+  {
+    "content": "Universal Containers (UC) wants to store product data in Salesforce, but the standard Product object does not support the more complex hierarchical structure which is currently being used in the product master system.\nHow can UC modify the standard Product object model to support a hierarchical data structure in order to synchronize product data from the source system to Salesforce?",
+    "options": [
+      "A. Create a custom lookup filed on the standard Product to reference the child record in the hierarchy.",
+      "B. Create a custom lookup field on the standard Product to reference the parent record in the hierarchy.",
+      "C. Create a custom master-detail field on the standard Product to reference the child record in the hierarchy.",
+      "D. Create an Apex trigger to synchronize the Product Family standard picklist field on the Product object."
+    ],
+    "answer": "B",
+    "title": "Question 73",
+    "explanation": "Creating a custom lookup field on the standard Product to reference the parent record in the hierarchy is the correct way to modify the standard Product object model to support a hierarchical data structure. This allows UC to create a self-relationship on the Product object and define parent-child relationships among products."
+  },
+  {
+    "content": "UC has the following system:\nBilling system.\nCustomer support system.\nCRM system.\nUS has been having trouble with business intelligence across the different systems. Recently US implemented a master data management (MDM) solution that will be the system of truth for the customer records.\nWhich MDM data element is needed to allow reporting across these systems?",
+    "options": ["A. Global unique customer number.", "B. Email address.", "C. Phone number.", "D. Full name."],
+    "answer": "A",
+    "title": "Question 74",
+    "explanation": "The correct answer is A, global unique customer number. A global unique customer number is a data element that can uniquely identify each customer across different systems. It can be used as a key to link customer records from different sources and enable reporting across these systems. Email address, phone number, and full name are not reliable or consistent identifiers for customers, as they can change over time or be shared by multiple customers."
+  },
+  {
+    "content": "Which three characteristics of a skinny table help improve report and query performance?",
+    "options": [
+      "A. Skinny tables can contain frequently used fields and thereby help avoid joins.",
+      "B. Skinny tables can be used to create custom indexes on multi-select picklist fields.",
+      "C. Skinny tables provide a view across multiple objects for easy access to combined data.",
+      "D. Skinny tables are kept in sync with changes to data in the source tables.",
+      "E. Skinny tables do not include records that are available in the recycle bin."
+    ],
+    "answer": "A,D,E",
+    "title": "Question 75",
+    "explanation": "The three characteristics of a Skinny table that help improve report and query performance are: Skinny tables can contain frequently used fields and thereby help avoid joins. Skinny tables are kept in sync with changes to data in the source tables. Skinny tables do not include records that are available in the recycle bin. These characteristics are beneficial because they reduce the query complexity and execution time, and improve the data accuracy and freshness. For example, skinny tables can contain frequently used fields from multiple objects, such as Account and Contact, and thereby help avoid joins that can slow down queries4. Skinny tables are updated automatically when the source tables are modified, so they always reflect the latest data5. Skinny tables do not include records that are available in the recycle bin, so they only contain active records that are relevant for reports and queries."
+  },
+  {
+    "content": "Get Cloudy Consulting needs to evaluate the completeness and consistency of contact information in Salesforce. Their sales reps often have incomplete information about their accounts and contacts. Additionally, they are not able to interpret the information in a consistent manner. Get Cloudy Consulting has identified certain \"\"key\"\" fields which are important to their sales reps.\nWhat are two actions Get Cloudy Consulting can take to review their data for completeness and consistency?\n(Choose two.)",
+    "options": [
+      "A. Run a report which shows the last time the key fields were updated.",
+      "B. Run one report per key field, grouped by that field, to understand its data variability.",
+      "C. Run a report that shows the percentage of blanks for the important fields.",
+      "D. Run a process that can fill in default values for blank fields."
+    ],
+    "answer": "A,C",
+    "title": "Question 76",
+    "explanation": "Running a report that shows the last time the key fields were updated can help Get Cloudy Consulting identify stale or outdated data and prioritize data cleansing activities. Running a report that shows the percentage of blanks for the important fields can help Get Cloudy Consulting measure the completeness of their data and identify gaps or missing value"
+  },
+  {
+    "content": "A custom pricing engine for a Salesforce customer has to be decided by factors with the following hierarchy:\nState in which the customer is located\nCity in which the customer is located if available\nZip code in which the customer is located if available\nChanges to this information should have minimum code changes\nWhat should a data architect recommend to maintain this information for the custom pricing engine that is to be built in Salesforce?",
+    "options": [
+      "A. Create a custom object to maintain the pricing criteria.",
+      "B. Assign the pricing criteria within customer pricing engine.",
+      "C. Maintain require pricing criteria in custom metadata types.",
+      "D. Configure the pricing criteria in price books."
+    ],
+    "answer": "C",
+    "title": "Question 77",
+    "explanation": "According to the Get Started with Custom Metadata Types unit on Trailhead, one of the use cases for custom metadata types is to define custom charges for an accounting app. The unit states that \"Say that your org uses a standard accounting app. You can create a custom metadata type that defines custom charges, like duties and VAT rates. Then you can write some Apex code that calculates the total amount due for each invoice by using the metadata from your custom metadata type.\" Therefore, a similar approach can be used to maintain the pricing criteria for a custom pricing engine in Salesforce."
+  },
+  {
+    "content": "Universal Containers wants to automatically archive all inactive Account data that is older than 3 years. The information does not need to remain accessible within the application. Which two methods should be recommended to meet this requirement? Choose 2 answers",
+    "options": [
+      "A. Use the Force.com Workbench to export the data.",
+      "B. Schedule a weekly export file from the Salesforce UI.",
+      "C. Schedule jobs to export and delete using an ETL tool.",
+      "D. Schedule jobs to export and delete using the Data Loader."
+    ],
+    "answer": "C,D",
+    "title": "Question 78",
+    "explanation": "Both C and D are valid methods to automatically archive and delete inactive Account data that is older than 3 years1. You can use an ETL tool or the Data Loader to schedule jobs to export and delete data based on certain criteria3. Option A is not recommended because the Force.com Workbench is a web-based tool that does not support scheduling or automation. Option B is not suitable because the weekly export file from the Salesforce UI does not delete data from Salesforce."
+  },
+  {
+    "content": "Universal Containers (UC) manages Vehicle and Service History in Salesforce. Vehicle (Vehicle__ c) and Service History (Service-History__ c) are both custom objects related through a lookup relationship.\nEvery week a batch synchronization process updates the Vehicle and Service History records in Salesforce.\nUC has two hours of migration window every week and is facing locking issues as part of the data migration process.\nWhat should a data architect recommend to avoid locking issues without affecting performance of data migration?",
+    "options": [
+      "A. Use Bulk API parallel mode for data migration",
+      "B. Use Bulk API serial mode for data migration",
+      "C. Insert the order in another custom object and use Batch Apex to move the records to Service_ Order__ c object.",
+      "D. Change the lookup configuration to \"Clear the value of this field\" when lookup record is deleted."
+    ],
+    "answer": "B",
+    "title": "Question 79",
+    "explanation": "According to the official Salesforce guide1, using Bulk API serial mode for data migration can help avoid locking issues by processing batches in a single thread. This mode ensures that batches are processed in the order they are received and that only one batch is processed at a time. This reduces the risk of lock contention and deadlocks, especially when updating parent and child records in a lookup relationship. Option B is the correct answer because it suggests using Bulk API serial mode for data migration. Option A is incorrect because using Bulk API parallel mode for data migration can cause locking issues by processing batches in multiple threads. This mode does not guarantee the order of batch processing and can result in concurrent updates to the same records, which can lead to lock contention and deadlocks. Option C is incorrect because inserting the order in another custom object and using Batch Apex to move the records to Service_Order__c object adds unnecessary complexity and overhead to the data migration process. Option D is incorrect because changing the lookup configuration to \"Clear the value of this field\" when lookup record is deleted does not address the locking issues caused by data migration, but rather by record deletion."
+  },
+  {
+    "content": "Universal Containers (UC) has built a custom application on Salesforce to help track shipments around the world. A majority of the shipping records are stored on premise in an external data source. UC needs shipment details to be exposed to the custom application, and the data needs to be accessible in real time. The external data source is not OData enabled, and UC does not own a middleware tool.\nWhich Salesforce Connect procedure should a data architect use to ensure UC's requirements are met?",
+    "options": [
+      "A. Write an Apex class that makes a REST callout to the external API.",
+      "B. Develop a process that calls an inviable web service method.",
+      "C. Migrate the data to Heroku and register Postgres as a data source.",
+      "D. Write a custom adapter with the Apex Connector Framework."
+    ],
+    "answer": "D",
+    "title": "Question 80",
+    "explanation": "According to this article, the Apex Connector Framework enables developers to create custom adapters for Salesforce Connect to access data from external systems that are not OData enabled. This can meet UC's requirements of exposing shipment details to the custom application and accessing the data in real time."
+  },
+  {
+    "content": "Universal Containers (UC) wants to capture information on how data entities are stored within the different applications and systems used within the company. For that purpose, the architecture team decided to create a data dictionary covering the main business domains within UC. Which two common techniques are used building a data dictionary to store information on how business entities are defined?",
+    "options": [
+      "A. Use Salesforce Object Query Language.",
+      "B. Use a data definition language.",
+      "C. Use an entity relationship diagram.",
+      "D. Use the Salesforce Metadata API."
+    ],
+    "answer": "C,D",
+    "title": "Question 81",
+    "explanation": "A data dictionary is a document that describes the structure, format, and meaning of data entities and attributes. A common technique to build a data dictionary is to use an entity relationship diagram (ERD), which shows the logical relationships between objects and fields in a graphical way. Another technique is to use the Salesforce Metadata API, which allows you to retrieve and deploy the metadata that defines your Salesforce org"
+  },
+  {
+    "content": "Universal Containers has multiple systems all containing and maintaining customer data. Although point-to-point integrations are in place, customers are complaining about consistency in the data.\nWhat solution should the data architect recommend?",
+    "options": [
+      "A. Improve existing point-to-point integrations",
+      "B. Data cleanse each system",
+      "C. Perform a onetime synchronization to level set the built up inconsistencies",
+      "D. An MDM solution as the customer master, with centralized integrations to ensure consistency across all systems."
+    ],
+    "answer": "D",
+    "title": "Question 82",
+    "explanation": "Master data management (MDM) is a solution that helps organizations manage their master data across multiple systems and ensure consistency and quality. An MDM solution can act as the customer master, with centralized integrations to other systems, to avoid data duplication and inconsistency."
+  },
+  {
+    "content": "Universal Containers (UC) has implemented Salesforce, UC is running out of storage and needs to have an archiving solution, UC would like to maintain two years of data in Saleforce and archive older data out of Salesforce.\nWhich solution should a data architect recommend as an archiving solution?",
+    "options": [
+      "A. Use a third-party backup solution to backup all data off platform.",
+      "B. Build a batch join move all records off platform, and delete all records from Salesforce.",
+      "C. Build a batch join to move two-year-old records off platform, and delete records from Salesforce.",
+      "D. Build a batch job to move all restore off platform, and delete old records from Salesforce."
+    ],
+    "answer": "C",
+    "title": "Question 83",
+    "explanation": "The data architect should recommend building a batch job to move two-year-old records off platform, and delete records from Salesforce as an archiving solution. A batch job is a process that runs in the background and performs operations on large volumes of data in Salesforce. By building a batch job that moves two-year-old records off platform to an external storage system, such as Amazon S3 or Google Cloud Storage, and deletes them from Salesforce, the data architect can reduce the storage consumption and improve the performance of Salesforce org. Option A is incorrect because using a third-party backup solution to backup all data off platform will not free up any storage space in Salesforce, unless the data is also deleted from Salesforce after backup. Option B is incorrect because building a batch job to move all records off platform, and delete all records from Salesforce will result in losing all the current data in Salesforce, which may not be desirable or feasible. Option D is incorrect because building a batch job to move all restore off platform, and delete old records from Salesforce does not make sense, as restore implies restoring data back to Salesforce, not moving it off platform."
+  },
+  {
+    "content": "UC is migrating data from legacy system to SF. UC would like to preserve the following information on records being migrated:\nDate time stamps for created date and last modified date.\nOwnership of records belonging to inactive users being migrated to Salesforce.\nWhich 2 solutions should a data architect recommends to preserve the date timestamps and ownership on records? Choose 2 answers.",
+    "options": [
+      "A. Log a case with SF to update these fields",
+      "B. Enable update records with Inactive Owners Permission",
+      "C. Enable Set Audit fields upon Record Creation Permission",
+      "D. Enable modify all and view all permission."
+    ],
+    "answer": "B,C",
+    "title": "Question 84",
+    "explanation": "The two solutions that a data architect should recommend to preserve the date timestamps and ownership on records being migrated are:\n Enable update records with Inactive Owners Permission: This permission allows users to update record owner and sharing-based records with inactive owners. This can help preserve the original ownership of records that belong to users who are no longer active in Salesforce8.\n Enable Set Audit fields upon Record Creation Permission: This permission allows users to set audit fields (such as Created By or Last Modified By) when they create a record via API importing tools like Data Loader. This can help preserve the original date timestamps of records that were created or modified in another system9.\n Log a case with SF to update these fields is not a good solution because it is not necessary or feasible to ask Salesforce support to update these fields manually or programmatically. Enable modify all and view all permission is not a good solution because it does not affect the ability to preserve the date timestamps and ownership on records, but rather grants users access to all records regardless of sharing settings"
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) plans to maintain contact preferences for customers and employees. NTO has implemented the following:\n1. Customers are Person Accounts for their retail business.\n2. Customers are represented as Contacts for their commercial business.\n3. Employees are maintained as Users.\n4. Prospects are maintained as Leads.\nNTO needs to implement a standard communication preference management model for Person Accounts, Contacts, Users, and Leads.\nWhich option should the data architect recommend NTO to satisfy this requirement?",
+    "options": [
+      "A. Create custom fields for contact preferences in Lead, Person Account, and Users objects.",
+      "B. Create case for contact preferences, and use this to validate the preferences for Lead, Person Accounts, and Users.",
+      "C. Create a custom object to maintain preferences and build relationships to Lead, Person Account, and Users.",
+      "D. Use Individual objects to maintain the preferences with relationships to Lead, Person Account, and Users."
+    ],
+    "answer": "D",
+    "title": "Question 85",
+    "explanation": "The Individual object is a standard object that lets you store details about data privacy and protection preferences for person accounts, contacts, users, and leads. The Individual object can be used to implement a standard communication preference management model for NTO, with relationships to the other objects."
+  },
+  {
+    "content": "Universal Containers (UC) uses the following Salesforce products:\nSales Cloud for customer management.\nMarketing Cloud for marketing.\nEinstein Analytics for business reporting.\nUC occasionally gets a list of prospects from third-party source as comma-separated values (CSV) files for marketing purposes. Historically, UC would load contact Lead object in Salesforce and sync to Marketing Cloud to send marketing communications. The number of records in the Lead object has grown over time and has been consuming large amounts of storage in Sales Cloud, UC is looking for recommendations to reduce the storage and advice on how to optimize the marketing Cloud to send marketing communications. The number of records in the Lead object has grown over time and has been consuming large amounts of storage in Sales Cloud, UC is looking for recommendations to reduce the storage and advice on how to optimize the marketing process.\nWhat should a data architect recommend to UC in order to immediately avoid storage issues in the future?",
+    "options": [
+      "A. Load the CSV files in Einstein Analytics and sync with Marketing Cloud prior to sending marketing communications;",
+      "B. Load the CSV files in an external database and sync with Marketing Cloud prior to sending marketing communications.",
+      "C. Load the contacts directly to Marketing Cloud and have a reconciliation process to track prospects that are converted to customers.",
+      "D. Continue to use the existing process to use Lead object to sync with Marketing Cloud and delete Lead records from Sales after the sync is complete."
+    ],
+    "answer": "C",
+    "title": "Question 86",
+    "explanation": "According to the Salesforce documentation4, Marketing Cloud is a platform that allows creating and managing marketing campaigns across multiple channels, such as email, mobile, social media, web, etc. Marketing Cloud can integrate with Sales Cloud and other Salesforce products to share data and insights. One of the ways to integrate Marketing Cloud with Sales Cloud is using Marketing Cloud Connect5, which allows syncing data between the two platforms using synchronized data sources.\n However, if UC occasionally gets a list of prospects from third-party sources as CSV files for marketing purposes, it may not be necessary or efficient to load them into Sales Cloud first and then sync them with Marketing Cloud. This can consume large amounts of storage in Sales Cloud, which has a limit based on the license type6. It can also cause data quality issues, such as duplicates or outdated information.\n A better option for UC is to load the contacts directly to Marketing Cloud using Import Definition, which allows importing data from external files or databases into Marketing Cloud data extensions. Data extensions are custom tables that store marketing data in Marketing Cloud. This way, UC can avoid storage issues in Sales Cloud and optimize the marketing process by sending marketing communications directly from Marketing Cloud.\n To track prospects that are converted to customers, UC can have a reconciliation process that compares the contacts in Marketing Cloud with the accounts or contacts in Sales Cloud. This can be done using SQL queries or API calls to access and compare data from both platforms. Alternatively, UC can use Marketing Cloud Connect to sync the converted contacts from Sales Cloud to Marketing Cloud using synchronized data sources.\n Loading the CSV files in Einstein Analytics and syncing with Marketing Cloud prior to sending marketing communications (option A) is not a good option, as it can add unnecessary complexity and latency to the process. Einstein Analytics is a platform that allows creating and analyzing data using interactive dashboards and reports. It is not designed for importing and exporting data for marketing purposes.\n Loading the CSV files in an external database and syncing with Marketing Cloud prior to sending marketing communications (option B) is also not a good option, as it can incur additional costs and maintenance for the external database. It can also introduce data security and privacy risks, as the data may not be encrypted or protected by Salesforce.\n Continuing to use the existing process to use Lead object to sync with Marketing Cloud and delete Lead records from Sales after the sync is complete (option D) is not a good option, as it can cause performance issues and data loss. Deleting Lead records from Sales can affect reporting and auditing, as well as trigger workflows and validations that may not be intended. It can also cause data inconsistency and synchronization errors between Sales Cloud and Marketing Cloud."
+  },
+  {
+    "content": "Northern trail Outfitters (NTO) runs its entire out of an enterprise data warehouse (EDW), NTD's sales team starting to use Salesforce after a recent implementation, but currently lacks data required to advanced and opportunity to the next stage.\nNTO's management has research Salesforce Connect and would like to use It to virtualize and report on data from the EDW within Salesforce. NTO will be running thousands of reports per day across 10 to 15 external objects.\nWhat should a data architect consider before implementing Salesforce Connect for reporting?",
+    "options": [
+      "A. Maximum number for records returned",
+      "B. OData callout limits per day",
+      "C. Maximum page size for server-driven paging",
+      "D. Maximum external objects per org"
+    ],
+    "answer": "B",
+    "title": "Question 87",
+    "explanation": "According to the Salesforce Connect Reporting blog post, one of the considerations for using Salesforce Connect for reporting is the OData callout limits per day. The blog post states that \"Salesforce Connect has a limit of 100,000 callouts per day. This limit is shared across all external data sources in your org. If you exceed this limit, you will receive an error message and no more callouts will be allowed until the next day.\" Therefore, a data architect should consider this limit before implementing Salesforce Connect for reporting."
+  },
+  {
+    "content": "DreamHouse Realty has a data model as shown in the image. The Project object has a private sharing model, and it has Roll-Up summary fields to calculate the number of resources assigned to the project, total hours for the project, and the number of work items associated to the project.\nThere will be a large amount of time entry records to be loaded regularly from an external system into Salesforce.\nWhat should the Architect consider in this situation?",
+    "options": [
+      "A. Load all data after deferring sharing calculations.",
+      "B. Calculate summary values instead of Roll-Up by using workflow.",
+      "C. Calculate summary values instead of Roll-Up by using triggers.",
+      "D. Load all data using external IDs to link to parent records."
+    ],
+    "answer": "A",
+    "title": "Question 88",
+    "explanation": "According to the exam guide, one of the objectives is to \"describe the use cases and considerations for deferring sharing calculations\"1. This implies that option A is the correct way to load large amounts of data into Salesforce without affecting performance and data integrity. Deferring sharing calculations allows the data to be loaded first and then the sharing rules to be applied later2. Option B is not correct because workflows are not recommended for calculating summary values, as they can cause performance issues and data skew3. Option C is not correct because triggers are also not recommended for calculating summary values, as they can cause governor limit errors and data inconsistency. Option D is not correct because external IDs are used to link records from different systems, not to improve data loading performance."
+  },
+  {
+    "content": "Universal Containers (UC) has a very large and complex Salesforce org with hundreds of validation rules and triggers. The triggers are responsible for system updates and data manipulation as records are created or updates by users. A majority of the automation tool within UC'' org were not designed to run during a data load. UC is importing 100,000 records into Salesforce across several objects over the weekend.\nWhat should a data architect do to mitigate any unwanted results during the import?",
+    "options": [
+      "A. Ensure validation rules, triggers and other automation tools are disabled.",
+      "B. Ensure duplication and matching rules and defined.",
+      "C. Import the data in smaller batches over a 24-hour period.",
+      "D. Bulkily the trigger to handle import leads."
+    ],
+    "answer": "A",
+    "title": "Question 89",
+    "explanation": "Ensuring validation rules, triggers and other automation tools are disabled is the best way to mitigate any unwanted results during the import, as it prevents any errors or conflicts that may occur due to the existing logic. Ensuring duplication and matching rules are defined may not be sufficient or relevant for preventing unwanted results. Importing the data in smaller batches over a 24-hour period may not be necessary or efficient. Bulkifying the trigger to handle import leads may not be possible or desirable if the triggers were not designed to run during a data load."
+  },
+  {
+    "content": "Universal Containers is creating a new B2C service offering for consumers to ship goods across continents.\nThis is in addition to their well-established B2B offering. Their current Salesforce org uses the standard Account object to track B2B customers. They are expecting to have over 50,000,000 consumers over the next five years across their 50 business regions. B2C customers will be individuals. Household data is not required to be stored. What is the recommended data model for consumer account data to be stored in Salesforce?",
+    "options": [
+      "A. Use the Account object with Person Accounts and a new B2C page layout.",
+      "B. Use the Account object with a newly created Record Type for B2C customers.",
+      "C. Create a new picklist value for B2C customers on the Account Type field.",
+      "D. Use 50 umbrella Accounts for each region, with customers as associated Contacts."
+    ],
+    "answer": "A",
+    "title": "Question 90",
+    "explanation": "The recommended data model for consumer account data to be stored in Salesforce is to use the Account object with Person Accounts and a new B2C page layout. Person Accounts are a special type of accounts that allow you to store information about individual consumers who are not associated with a business account2. Person Accounts have the following advantages3:\n They allow you to use the same standard objects and features that you use for business accounts, such as contacts, opportunities, cases, etc.\n They enable you to create different page layouts and record types for B2C and B2B customers, which allows you to customize the user interface and business logic for each segment.\n They support large data volumes and can scale up to 50 million records or more, which meets the expected growth of consumers over the next five years."
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) has a variety of customers that include householder, businesses, and individuals.\nThe following conditions exist within its system:\nNTO has a total of five million customers.\nDuplicate records exist, which is replicated across many systems, including Salesforce.\nGiven these conditions, there is a lack of consistent presentation and clear identification of a customer record.\nWhich three option should a data architect perform to resolve the issues with the customer data?",
+    "options": [
+      "A. Create a unique global customer ID for each customer and store that in all system for referential identity.",
+      "B. Use Salesforce CDC to sync customer data cross all systems to keep customer record in sync.",
+      "C. Invest in data duplicate tool to de-dupe and merge duplicate records across all systems.",
+      "D. Duplicate customer records across the system and provide a two-way sync of data between the systems.",
+      "E. Create a customer master database external to Salesforce as a system of truth and sync the customer data with all systems."
+    ],
+    "answer": "A,C,E",
+    "title": "Question 91",
+    "explanation": "Creating a unique global customer ID for each customer and storing that in all systems for referential identity (option A), investing in a data duplicate tool to de-dupe and merge duplicate records across all systems (option C), and creating a customer master database external to Salesforce as a system of truth and syncing the customer data with all systems (option E) are the three options that a data architect should perform to resolve the issues with the customer data. Option A ensures that each customer can be uniquely identified across different systems, option C eliminates duplicate records and improves data quality, and option E provides a consistent and reliable source of customer data for all systems. Using Salesforce CDC to sync customer data across all systems (option B) is not a good option, as it does not address the duplication or inconsistency issues. Duplicating customer records across the system and providing a two-way sync of data between the systems (option D) is also not a good option, as it may create more confusion and conflicts with customer data."
+  },
+  {
+    "content": "NTO need to extract 50 million records from a custom object everyday from its Salesforce org. NTO is facing query timeout issues while extracting these records.\nWhat should a data architect recommend in order to get around the time out issue?",
+    "options": [
+      "A. Use a custom auto number and formula field and use that to chunk records while extracting data.",
+      "B. The REST API to extract data as it automatically chunks records by 200.",
+      "C. Use ETL tool for extraction of records.",
+      "D. Ask SF support to increase the query timeout value."
+    ],
+    "answer": "C",
+    "title": "Question 92",
+    "explanation": "The best solution to extract 50 million records from a custom object everyday from Salesforce org without facing query timeout issues is to use an ETL tool for extraction of records. ETL stands for extract, transform, and load, and it refers to a process of moving data from one system to another. An ETL tool is a software application that can connect to various data sources, perform data transformations, and load data into a target destination. ETL tools can handle large volumes of data efficiently and reliably, and they often provide features such as scheduling, monitoring, error handling, and logging5. Using a custom auto number and formula field and use that to chunk records while extracting data is a possible workaround, but it requires creating additional fields and writing complex queries. The REST API can extract data as it automatically chunks records by 200, but it has some limitations, such as a maximum of 50 million records per query job6. Asking SF support to increase the query timeout value is not feasible because query timeout values are not configurable"
+  },
+  {
+    "content": "What 2 data management policies does the data classification feature allow customers to classify in salesforce?\nChoose 2 answers:",
+    "options": ["A. Reference data policy.", "B. Data governance policy.", "C. Data sensitivity level", "D. Compliance categorization policy."],
+    "answer": "C,D",
+    "title": "Question 93",
+    "explanation": "The data classification feature allows customers to classify their data in Salesforce based on two policies:\n Data sensitivity level: This policy defines how sensitive the data is and what level of protection it requires. For example, high sensitivity data may require encryption or masking.\n Compliance categorization policy: This policy defines how the data is regulated by various laws and standards. For example, GDPR or PCI DSS."
+  },
+  {
+    "content": "Universal Container has a Sales Cloud implementation for a sales team and an enterprise resource planning (ERP) as a customer master Sales team are complaining about duplicate account and data quality issues with account data.\nWhich two solutions should a data architect recommend to resolve the complaints?",
+    "options": [
+      "A. Build a nightly batch job to de-dupe data, and merge account records.",
+      "B. Integrate Salesforce with ERP, and make ERP as system of truth.",
+      "C. Build a nightly sync job from ERP to Salesforce.",
+      "D. Implement a de-dupe solution and establish account ownership in Salesforce"
+    ],
+    "answer": "B,D",
+    "title": "Question 94",
+    "explanation": "Integrating Salesforce with ERP and making ERP the system of truth (option B) and implementing a de-dupe solution and establishing account ownership in Salesforce (option D) are the two solutions that a data architect should recommend to resolve the complaints. Option B ensures that account data is consistent and accurate across both systems, while option D prevents duplicate records and clarifies who owns each account in Salesforce. Building a nightly batch job to de-dupe data and merge account records (option A) is not a good solution, as it does not address the root cause of the duplication and may result in data loss or conflicts.\n Building a nightly sync job from ERP to Salesforce (option C) is also not sufficient, as it does not prevent duplication or establish ownership in Salesforce."
+  },
+  {
+    "content": "During the implementation of Salesforce, a customer has the following requirements for Sales Orders:\n1. Sales Order information needs to be shown to users in Salesforce.\n2. Sales Orders are maintained in the on-premises enterprise resource planning (ERP).\n3. Sales Order information has more than 150 million records.\n4. Sales Orders will not be updated in Salesforce.\nWhat should a data architect recommend for maintaining Sales Orders in salesforce?",
+    "options": [
+      "A. Us custom objects to maintain Sales Orders in Salesforce.",
+      "B. Use custom big objects to maintain Sales Orders in Salesforce.",
+      "C. Use external objects to maintain Sales Order in Salesforce.",
+      "D. Use Standard order object to maintain Sale Orders in Salesforce"
+    ],
+    "answer": "C",
+    "title": "Question 95",
+    "explanation": "Using external objects to maintain Sales Order in Salesforce is the best recommendation for maintaining Sales Orders in Salesforce, as it allows users to access large volumes of data stored outside Salesforce without copying or synchronizing it. Using custom objects, custom big objects, or standard order object may not be feasible or optimal for storing more than 150 million records that will not be updated in Salesforce."
+  },
+  {
+    "content": "Get Cloudy Consulting monitors 15,000 servers, and these servers automatically record their status every 10 minutes. Because of company policy, these status reports must be maintained for 5 years. Managers at Get Cloudy Consulting need access to up to one week's worth of these status reports with all of their details.\nAn Architect is recommending what data should be integrated into Salesforce and for how long it should be stored in Salesforce.\nWhich two limits should the Architect be aware of? (Choose two.)",
+    "options": ["A. Data storage limits", "B. Workflow rule limits", "C. API Request limits", "D. Webservice callout limits"],
+    "answer": "A,C",
+    "title": "Question 96",
+    "explanation": "Data storage limits and API request limits are two important factors that affect the data integration and storage in Salesforce. Data storage limits determine how much data can be stored in Salesforce, and API request limits determine how many API calls can be made to Salesforce in a 24-hour period. Both of these limits depend on the edition and license type of the Salesforce org. Workflow rule limits and webservice callout limits are not directly related to data integration and storage, but rather to business logic and external services."
+  },
+  {
+    "content": "Northern Trail Outfitters (NTO) has implemented Salesforce for its sales users. The opportunity management in Saiesforce Is implemented as follows:\n1. Sales users enter their opportunities in Salesforce for forecasting and reporting purposes.\n2. NTO has a product pricing system (PPS) that is used to update the Opportunity Amount field on opportunities on a daily basis.\n3. PPS is the trusted source within NTO for Opportunity Amount.\n4. NTO uses Opportunity Forecast for its sales planning and management.\nSales users have noticed that their updates to the Opportunity Amount field are overwritten when PPS updates their opportunities.\nHow should a data architect address this overwriting issue?",
+    "options": [
+      "A. Create a custom field for Opportunity amount that PSS updates separating the field sales user updates.",
+      "B. Change PSS integration to update only Opportunity Amount field when the value is null.",
+      "C. Change Opportunity Amount field access to Read Only for sales users field-level security.",
+      "D. Create a custom field for Opportunity amount that sales users update separating the field that PPS updates."
+    ],
+    "answer": "C",
+    "title": "Question 97",
+    "explanation": "Changing Opportunity Amount field access to Read Only for sales users field-level security (option C) is the best way to address the overwriting issue, as it prevents sales users from updating the field that is controlled by PPS, and ensures data consistency and accuracy. Creating a custom field for Opportunity amount that PSS updates separating the field sales user updates (option A) or creating a custom field for Opportunity amount that sales users update separating the field that PPS updates (option D) are not good solutions, as they may create confusion and inconsistency with the Opportunity Forecast feature. Changing PSS integration to update only Opportunity Amount field when the value is null (option B) is also not a good solution, as it may cause data loss or conflicts with the sales users' inputs."
+  },
+  {
+    "content": "UC needs to load a large volume of leads into salesforce on a weekly basis. During this process the validation rules are disabled.\nWhat should a data architect recommend to ensure data quality is maintained in salesforce.",
+    "options": [
+      "A. Activate validation rules once the leads are loaded into salesforce to maintain quality.",
+      "B. Allow validation rules to be activated during the load of leads into salesforce.",
+      "C. Develop custom APEX batch process to improve quality once the load is completed.",
+      "D. Ensure the lead data is preprocessed for quality before loading into salesforce."
+    ],
+    "answer": "D",
+    "title": "Question 98",
+    "explanation": "Ensuring the lead data is preprocessed for quality before loading into Salesforce is the best way to maintain data quality2. Activating validation rules after the load or developing a custom Apex batch process may not catch all the errors or may require additional time and resources. Allowing validation rules to be activated during the load may cause failures or delays."
+  },
+  {
+    "content": "Universal Containers (UC) is using Salesforce Sales & Service Cloud for B2C sales and customer service but they are experiencing a lot of duplicate customers in the system. Which are two recommended approaches for UC to avoid duplicate data and increase the level of data quality?",
+    "options": ["A. Use Duplicate Management.", "B. Use an Enterprise Service Bus.", "C. Use Data.com Clean", "D. Use a data warehouse."],
+    "answer": "A,C",
+    "title": "Question 99",
+    "explanation": "Using Duplicate Management and Data.com Clean are two recommended approaches for UC to avoid duplicate data and increase the level of data quality. Duplicate Management can prevent or alert users when they try to create or edit records that are duplicates of existing records. Data.com Clean can compare Salesforce records with Data.com records and provide suggestions for updates or removals of duplicate records."
+  },
+  {
+    "content": "Universal Containers uses Apex jobs to create leads in Salesforce. The business team has requested that lead creation failures should be reported to them.\nWhich option does Apex provide to report errors from this Apex job?",
+    "options": [
+      "A. Use Custom Object to store leads, and allow unprocessed leads to be reported.",
+      "B. Save Apex errors in a custom object, and allow access to this object for reporting.",
+      "C. Use Apex services to email failures to business when error occurs.",
+      "D. Use AppExchange package to clean lead information before Apex job processes them."
+    ],
+    "answer": "C",
+    "title": "Question 100",
+    "explanation": "saving Apex errors in a custom object can be a way to report errors from an Apex job. The article provides an example of how to create a custom object called AsyncApexError__c and use a trigger to insert error records into it. The custom object can then be used for reporting or notification purposes."
+  },
+  {
+    "content": "Universal Containers (UC) wants to ensure their data on 100,000 Accounts pertaining mostly to US-based companies is enriched and cleansed on an ongoing basis. UC is looking for a solution that allows easy monitoring of key data quality metrics. What should be the recommended solution to meet this requirement?",
+    "options": [
+      "A. Use a declarative approach by installing and configuring Data.com Clean to monitor Account data quality.",
+      "B. Implement Batch Apex that calls out a third-party data quality API in order to monitor Account data quality.",
+      "C. Use declarative approach by installing and configuring Data.com Prospector to monitor Account data quality.",
+      "D. Implement an Apex Trigger on Account that queries a third-party data quality API to monitor Account data quality."
+    ],
+    "answer": "A",
+    "title": "Question 101",
+    "explanation": "Using a declarative approach by installing and configuring Data.com Clean to monitor Account data quality can help UC meet their requirement. Data.com Clean can enrich and cleanse data on an ongoing basis by comparing Salesforce records with Data.com records and providing suggestions for updates. Data.com Clean can also provide dashboards and reports to monitor key data quality metrics such as match rate, field fill rate, and record completeness"
+  },
+  {
+    "content": "Universal Containers is setting up an external Business Intelligence (BI) system and wants to extract 1,000,000 Contact records. What should be recommended to avoid timeouts during the export process?",
+    "options": [
+      "A. Use the SOAP API to export data.",
+      "B. Utilize the Bulk API to export the data.",
+      "C. Use GZIP compression to export the data.",
+      "D. Schedule a Batch Apex job to export the data."
+    ],
+    "answer": "C",
+    "title": "Question 102",
+    "explanation": "According to the exam guide, one of the objectives is to \"describe the use cases and considerations for using various tools and techniques for data migration (for example, Data Loader, Bulk API)\"1. This implies that option B is the correct way to extract large volumes of data from Salesforce. The Bulk API is designed to handle large-scale data operations and avoid timeouts. Option A is not correct because the SOAP API is not optimized for large data sets and may encounter limits. Option C is not correct because GZIP compression does not prevent timeouts, but rather reduces the size of the data transferred. Option D is not correct because Batch Apex is used to process records asynchronously in Salesforce, not to export data to an external system."
+  },
+  {
+    "content": "For a production cutover, a large number of Account records will be loaded into Salesforce from a legacy system. The legacy system does not have enough information to determine the Ownership for these Accounts upon initial load. Which two recommended options assign Account ownership to mitigate potential performance problems?",
+    "options": [
+      "A. Let a \"system user\" own all the Account records without assigning any role to this user in Role Hierarchy.",
+      "B. Let a \"system user\" own the Account records and assign this user to the lowest-level role in the Role Hierarchy.",
+      "C. Let the VP of the Sales department, who will report directly to the senior VP, own all the Account records.",
+      "D. Let a \"system user\" own all the Account records and make this user part of the highest-level role in the Role Hierarchy."
+    ],
+    "answer": "A,B",
+    "title": "Question 103",
+    "explanation": "The two recommended options to assign Account ownership to mitigate potential performance problems are to let a \"system user\" own all the Account records without assigning any role to this user in Role Hierarchy, or to let a \"system user\" own the Account records and assign this user to the lowest-level role in the Role Hierarchy. This is because these options would reduce the number of sharing calculations and rules that need to be applied to the Account records, and improve the performance and scalability of the system34. The other options are not recommended, as they would increase the sharing complexity and overhead, and potentially expose sensitive data to unauthorized users."
+  },
+  {
+    "content": "Universal Containers keeps its Account data in Salesforce and its Invoice data in a third -party ERP system.\nThey have connected the Invoice data through a Salesforce external object. They want data from both Accounts and Invoices visible in one report in one place. What two approaches should an architect suggest for achieving this solution? Choose 2 answers",
+    "options": [
+      "A. Create a report in an external system combining Salesforce Account data and Invoice data from the ERP.",
+      "B. Create a report combining data from the Account standard object and the Invoices external object.",
+      "C. Create a Visualforce page combining Salesforce Account data and Invoice external object data.",
+      "D. Create a separate Salesforce report for Accounts and Invoices and combine them in a dashboard."
+    ],
+    "answer": "A,C",
+    "title": "Question 104",
+    "explanation": "Creating a report in an external system combining Salesforce Account data and Invoice data from the ERP, and creating a Visualforce page combining Salesforce Account data and Invoice external object data are two approaches that an architect can suggest for achieving this solution. Both of these approaches can display data from both Accounts and Invoices in one place, using either an external reporting tool or a custom web page.\n Creating a report combining data from the Account standard object and the Invoices external object is not possible because Salesforce does not support reporting on external objects. Creating a separate Salesforce report for Accounts and Invoices and combining them in a dashboard is not ideal because it will not show the data in one report, but rather in two separate components."
+  },
+  {
+    "content": "As part of a phased Salesforce rollout. there will be 3 deployments spread out over the year. The requirements have been carefully documented. Which two methods should an architect use to trace back configuration changes to the detailed requirements? Choose 2 answers",
+    "options": [
+      "A. Review the setup audit trail for configuration changes.",
+      "B. Put the business purpose in the Description of each field.",
+      "C. Maintain a data dictionary with the justification for each field.",
+      "D. Use the Force.com IDE to save the metadata files in source control."
+    ],
+    "answer": "B,D",
+    "title": "Question 105",
+    "explanation": "Option B is correct because putting the business purpose in the Description of each field is a method that an architect can use to trace back configuration changes to the detailed requirements1. The Description of each field provides a brief explanation of what the field is used for and why it is needed2. Option D is correct because using the Force.com IDE to save the metadata files in source control is another method that an architect can use to trace back configuration changes to the detailed requirements1. The Force.com IDE is an integrated development environment that allows developers to work with Salesforce metadata files and Apex code3. Source control is a system that tracks and manages changes to code and configuration files4. Option A is not correct because reviewing the setup audit trail for configuration changes is not a method to trace back configuration changes to the detailed requirements, but a way to monitor and audit the changes made in the setup area. Option C is not correct because maintaining a data dictionary with the justification for each field is not a method to trace back configuration changes to the detailed requirements, but a document that provides information about the data entities and attributes in a system."
+  },
+  {
+    "content": "Universal Containers is establishing a call center that will use Salesforce. UC receives 10 million calls and creates 100 million cases every month. Cases are linked to a custom call object using lookup relationship. UC would like to run reports and dashboard to better understand different case types being created on calls to better serve customers.\nWhat solution should a data architect recommend to meet the business requirement?",
+    "options": [
+      "A. Archive records to a data warehouse and run analytics on the data warehouse.",
+      "B. Leverage big objects to archive records and Einstein Analytics to run reports.",
+      "C. Leverage custom objects to store aggregate data and run analytics.",
+      "D. Leverage out-of-the-box reports and dashboard on case and interactive voice response (IVR) custom object."
+    ],
+    "answer": "B",
+    "title": "Question 106",
+    "explanation": "According to this article, big objects can store and manage massive amounts of data on the Salesforce platform. This can help UC to archive records from other objects or bring massive datasets from outside systems into a big object. According to this article, Einstein Analytics can be used to create dashboards and lenses to analyze big object data and get insights from advanced AI-driven analytics."
+  },
+  {
+    "content": "Universal Containers is experiencing frequent and persistent group membership locking issues that severely restricts its ability to manage manual and a automated updates at the same time.\nWhat should a data architect do in order to restore the issue?",
+    "options": [
+      "A. Enable granular locking",
+      "B. Enable parallel sharing rule calculation.",
+      "C. Enable defer sharing calculation",
+      "D. Enable implicit sharing"
+    ],
+    "answer": "A",
+    "title": "Question 107",
+    "explanation": "Enabling granular locking allows concurrent sharing rule calculations and group membership updates to run without locking each other1. This can help resolve the group membership locking issues that UC is experiencing."
+  },
+  {
+    "content": "NTO has decided to franchise its brand. Upon implementation, 1000 franchisees will be able to access BTO's product information and track large customer sales and opportunities through a portal. The Franchisees will also be able to run monthly and quarterly sales reports and projections as well as view the reports in dashboards.\nWhich licenses does NTO need to provide these features to the Franchisees?",
+    "options": [
+      "A. Salesforce Sales Cloud license",
+      "B. Lightning Platform license",
+      "C. Customer Community license",
+      "D. Partner Community license"
+    ],
+    "answer": "D",
+    "title": "Question 108",
+    "explanation": "The best license to provide these features to the franchisees is the Partner Community license. Partner Community licenses are designed for external users who collaborate with your sales team on deals, such as resellers, distributors, or brokers. Partner Community users can access standard CRM objects, such as accounts, contacts, leads, opportunities, campaigns, and reports. They can also access custom objects and run dashboards12. Salesforce Sales Cloud license is not a good option because it is intended for internal users who need full access to standard CRM and custom apps. Lightning Platform license is not a good option because it is intended for users who need access to custom apps but not to standard CRM functionality. Customer Community license is not a good option because it is intended for external users who need access to customer support features, such as cases and knowledge articles, but not to sales features"
+  },
+  {
+    "content": "Universal Containers (UC) has deployed Salesforce to manage Marketing. Sales, and Support efforts in a multi\n-system ERP environment After reaching the limits of native reports & dashboards. UC leadership is looking to understand what options can be used to provide more analytical insights. What two approaches should an architect recommend? Choose 2 answers",
+    "options": ["A. AppExchange Apps", "B. Wave Analytics", "C. Weekly Snapshots", "D. Setup Audit Trails"],
+    "answer": "A,B",
+    "title": "Question 109",
+    "explanation": "According to the exam guide, one of the objectives is to \"describe the use cases and considerations for using AppExchange apps and Wave Analytics\"1. This implies that options A and B are both valid approaches to provide more analytical insights. Option C is not correct because weekly snapshots are used to track changes over time, not to provide advanced analytics3. Option D is not correct because setup audit trails are used to monitor changes in the setup menu, not to provide analytical insights."
+  },
+  {
+    "content": "North Trail Outfitters (NTD) is in the process of evaluating big objects to store large amounts of asset data from an external system. NTO will need to report on this asset data weekly.\nWhich two native tools should a data architect recommend to achieve this reporting requirement?",
+    "options": ["A. Standard reports and dashboards", "B. Async SOQL with a custom object", "C. Standard SOQL queries", "D. Einstein Analytics"],
+    "answer": "B,D",
+    "title": "Question 110",
+    "explanation": "Async SOQL with a custom object (option B) and Einstein Analytics (option D) are the two native tools that can be used to report on big object data. Async SOQL allows querying big object data and storing the results in a custom object, which can then be used for reporting. Einstein Analytics can connect to big object data sources and provide advanced analytics and visualization features. Standard reports and dashboards (option A) and standard SOQL queries (option C) cannot be used to report on big object data, as they do not support big object fields"
+  },
+  {
+    "content": "Universal Containers is looking to use Salesforce to manage their sales organization. They will be migrating legacy account data from two aging systems into Salesforce. Which two design considerations should an architect take to minimize data duplication? Choose 2 answers",
+    "options": [
+      "A. Use a workflow to check and prevent duplicates.",
+      "B. Clean data before importing to Salesforce.",
+      "C. Use Salesforce matching and duplicate rules.",
+      "D. Import the data concurrently."
+    ],
+    "answer": "B,C",
+    "title": "Question 111",
+    "explanation": "Cleaning data before importing to Salesforce and using Salesforce matching and duplicate rules are two design considerations that an architect should take to minimize data duplication when migrating legacy account data from two aging systems into Salesforce. Cleaning data before importing involves removing or correcting any inaccurate, incomplete, or inconsistent data from the source systems, as well as identifying and resolving any potential duplicates. This ensures that only high-quality and unique data is imported to Salesforce. Using Salesforce matching and duplicate rules allows the architect to define how Salesforce identifies duplicate records during import and how users can handle them. This prevents or reduces the creation of duplicate records in Salesforce and improves data quality. The other options are not effective or recommended for minimizing data duplication."
+  },
+  {
+    "content": "Two million Opportunities need to be loaded in different batches into Salesforce using the Bulk API in parallel mode.\nWhat should an Architect consider when loading the Opportunity records?",
+    "options": [
+      "A. Use the Name field values to sort batches.",
+      "B. Order batches by Auto-number field.",
+      "C. Create indexes on Opportunity object text fields.",
+      "D. Group batches by the AccountId field."
+    ],
+    "answer": "D",
+    "title": "Question 112",
+    "explanation": "Grouping batches by the AccountId field can improve the performance and avoid locking issues when loading Opportunity records using the Bulk API in parallel mode1. This is because the AccountId field is indexed and can be used to distribute the records evenly across batches"
+  },
+  {
+    "content": "Universal Containers (UC) is implementing its new Internet of Things technology, which consists of smart containers that provide information on container temperature and humidity updated every 10 minutes back to UC. There are roughly 10,000 containers equipped with this technology with the number expected to increase to 50,000 across the next five years. It is essential that Salesforce user have access to current and historical temperature and humidity data for each container. What is the recommended solution?",
+    "options": [
+      "A. Create new custom fields for temperature and humidity in the existing Container custom object, as well as an external ID field that is unique for each container. These custom fields are updated when a new measure is received.",
+      "B. Create a new Container Reading custom object, which is created when a new measure is received for a specific container. The Container Reading custom object has a master-detail relationship to the container object.",
+      "C. Create a new Lightning Component that displays last humidity and temperature data for a specific container and can also display historical trends obtaining relevant data from UC's existing data warehouse.",
+      "D. Create a new Container Reading custom object with a master-detail relationship to Container which is created when a new measure is received for a specific container. Implement an archiving process that runs every hour."
+    ],
+    "answer": "D",
+    "title": "Question 113",
+    "explanation": "The recommended solution for Universal Containers (UC) to implement its new Internet of Things technology is to create a new Container Reading custom object with a master-detail relationship to Container which is created when a new measure is received for a specific container. Implement an archiving process that runs every hour. This solution would allow UC to store and access current and historical temperature and humidity data for each container on Salesforce, and use reports and dashboards to analyze it. However, since UC expects a large volume of data over time, they should implement an archiving process that moves data off-platform after a certain period of time to avoid hitting the Org data storage limit and maintain optimal performance. The other options are not recommended, as they would either not store the historical data on Salesforce, or create too many custom fields on the Container object that could impact performance and usability."
+  },
+  {
+    "content": "To avoid creating duplicate Contacts, a customer frequently uses Data Loader to upsert Contact records into Salesforce. What common error should the data architect be aware of when using upsert?",
+    "options": [
+      "A. Errors with duplicate external Id values within the same CSV file.",
+      "B. Errors with records being updated and inserted in the same CSV file.",
+      "C. Errors when a duplicate Contact name is found cause upsert to fail.",
+      "D. Errors with using the wrong external Id will cause the load to fail."
+    ],
+    "answer": "A",
+    "title": "Question 114",
+    "explanation": "Data Loader uses external Id fields to match records in the CSV file with records in Salesforce during an upsert operation. If the CSV file contains duplicate external Id values within the same file, Data Loader will throw an error saying \"Duplicate Id Specified\" and will not process those records. Therefore, it is important to ensure that the CSV file does not have any duplicate external Id values before using Data Loader to upsert records."
+  },
+  {
+    "content": "Which two aspects of data does an Enterprise data governance program aim to improve?",
+    "options": ["A. Data integrity", "B. Data distribution", "C. Data usability", "D. Data modeling"],
+    "answer": "A,C",
+    "title": "Question 115",
+    "explanation": "Data integrity and data usability are two aspects of data that an Enterprise data governance program aims to improve. Data integrity refers to the accuracy, consistency, and validity of the data across the enterprise2. Data usability refers to the ease of access, analysis, and interpretation of the data by the end users"
+  },
+  {
+    "content": "DreamHouse Realty has a Salesforce org that is used to manage Contacts.\nWhat are two things an Architect should consider using to maintain data quality in this situation? (Choose two.)",
+    "options": [
+      "A. Use the private sharing model.",
+      "B. Use Salesforce duplicate management.",
+      "C. Use validation rules on new record create and edit.",
+      "D. Use workflow to delete duplicate records."
+    ],
+    "answer": "B,C",
+    "title": "Question 116",
+    "explanation": "Using Salesforce duplicate management and using validation rules on new record create and edit are two things that an architect should consider using to maintain data quality for managing Contacts. Salesforce duplicate management allows the architect to create matching rules and duplicate rules to identify, prevent, or allow duplicate records based on various criteria. Validation rules allow the architect to enforce data quality standards and business logic by displaying error messages when users try to save invalid data. The other options are not relevant or helpful for maintaining data quality"
+  },
+  {
+    "content": "Universal Containers (UC) loads bulk leads and campaigns from third-party lead aggregators on a weekly and monthly basis. The expected lead record volume is 500K records per week, and the expected campaign records volume is 10K campaigns per week. After the upload, Lead records are shared with various sales agents via sharing rules and added as Campaign members via Apex triggers on Lead creation. UC agents work on leads for 6 months, but want to keep the records in the system for at least 1 year for reference. Compliance requires them to be stored for a minimum of 3 years. After that, data can be deleted. What statement is true with respect to a data archiving strategy for UC?",
+    "options": [
+      "A. UC can leverage the Salesforce Data Backup and Recovery feature for data archival needs.",
+      "B. UC can store long-term lead records in custom storage objects to avoid counting against storage limits.",
+      "C. UC can leverage recycle bin capability, which guarantees record storage for 15 days after deletion.",
+      "D. UC can leverage a \"tier\"-based approach to classify the record storage need."
+    ],
+    "answer": "D",
+    "title": "Question 117",
+    "explanation": ""
+  },
+  {
+    "content": "Universal Containers (UC) is implementing a new customer categorization process where customers should be assigned to a Gold, Silver, or Bronze category if they've purchased UC's new support service. Customers are expected to be evenly distributed across all three categories. Currently, UC has around 500,000 customers, and is expecting 1% of existing non-categorized customers to purchase UC's new support service every month over the next five years. What is the recommended solution to ensure long-term performance, bearing in mind the above requirements?",
+    "options": [
+      "A. Implement a new global picklist custom field with Gold, Silver, and Bronze values and enable it in Account.",
+      "B. Implement a new picklist custom field in the Account object with Gold, Silver, and Bronze values.",
+      "C. Implement a new Categories custom object and a master-detail relationship from Account to Category.",
+      "D. Implement a new Categories custom object and create a lookup field from Account to Category."
+    ],
+    "answer": "B",
+    "title": "Question 118",
+    "explanation": "The recommended solution to ensure long-term performance for the customer categorization process is to implement a new picklist custom field in the Account object with Gold, Silver, and Bronze values. A picklist field is a simple and efficient way to store a predefined set of values for a record. A picklist field has the following benefits:\n It allows you to easily filter, sort, and group records by their category values, which can help you analyze and segment your customers.\n It does not require creating any additional objects or relationships, which can reduce the data model complexity and maintenance overhead.\n It supports large data volumes and can handle millions of records without affecting performance or scalability."
+  },
+  {
+    "content": "Get Cloud Consulting needs to integrate two different systems with customer records into the Salesforce Account object. So that no duplicate records are created in Salesforce, Master Data Management will be used.\nAn Architect needs to determine which system is the system of record on a field level.\nWhat should the Architect do to achieve this goal?",
+    "options": [
+      "A. Master Data Management systems determine system of record, and the Architect doesn't have to think about what data is controlled by what system.",
+      "B. Key stakeholders should review any fields that share the same purpose between systems to see how they will be used in Salesforce.",
+      "C. The database schema for each external system should be reviewed, and fields with different names should always be separate fields in Salesforce.",
+      "D. Any field that is an input field in either external system will be overwritten by the last record integrated and can never have a system of record."
+    ],
+    "answer": "B",
+    "title": "Question 119",
+    "explanation": "Key stakeholders from both systems should collaborate with the Architect to determine which system is the system of record on a field level is what the Architect should do to achieve this goal of integrating two different systems with customer records into the Salesforce Account object using Master Data Management.\n The system of record is the authoritative source of truth for a given entity or field in a given context. Different systems may have different levels of accuracy, completeness, timeliness, or relevance for different fields.\n Therefore, it is important to involve key stakeholders from both systems who have knowledge and expertise about their data quality and business needs to decide which system should be the system of record for each field. The Architect should facilitate this collaboration and document the decisions and rationale for each field.\n The other options are not correct or feasible, as they would either delegate or abdicate the responsibility of determining the system of record, ignore or disregard the input from key stakeholders, or assume or impose a default system of record without considering the data quality and business needs."
+  },
+  {
+    "content": "Universal Containers has a large number of Opportunity fields (100) that they want to track field history on.\nWhich two actions should an architect perform in order to meet this requirement? Choose 2 answers",
+    "options": [
+      "A. Create a custom object to store a copy of the record when changed.",
+      "B. Create a custom object to store the previous and new field values.",
+      "C. Use Analytic Snapshots to store a copy of the record when changed.",
+      "D. Select the 100 fields in the Opportunity Set History Tracking page."
+    ],
+    "answer": "A,B",
+    "title": "Question 120",
+    "explanation": "Creating a custom object to store a copy of the record when changed and creating a custom object to store the previous and new field values are two possible actions that an architect can perform to meet the requirement of tracking field history on 100 Opportunity fields. A custom object can store more fields and records than the standard field history tracking feature, which has a limit of 20 fields per object and 18 or 24 months of data retention. A custom object can also be used for reporting and analysis of field history data. The other options are not feasible or effective for meeting the requirement"
+  },
+  {
+    "content": "Northern Trail Outfitters Is planning to build a consent form to record customer authorization for marketing purposes.\nWhat should a data architect recommend to fulfill this requirement?",
+    "options": [
+      "A. Use custom fields to capture the authorization details.",
+      "B. Create a custom object to maintain the authorization.",
+      "C. Utilize the Authorization Form Consent object to capture the consent.",
+      "D. Use AppExchange solution to address the requirement."
+    ],
+    "answer": "C",
+    "title": "Question 121",
+    "explanation": "The Authorization Form Consent object is a standard object that allows you to capture customer consent for marketing purposes. It has fields such as Consent Captured Date, Consent Captured Source, Consent Description, and Consent Status. You can use this object to create consent forms and track customer responses.\n This is the best option to fulfill the requirement, as it does not require any custom development or external solution."
+  },
+  {
+    "content": "Universal Containers has received complaints that customers are being called by multiple Sales Reps where the second Sales Rep that calls is unaware of the previous call by their coworker. What is a data quality problem that could cause this?",
+    "options": [
+      "A. Missing phone number on the Contact record.",
+      "B. Customer phone number has changed on the Contact record.",
+      "C. Duplicate Contact records exist in the system.",
+      "D. Duplicate Activity records on a Contact."
+    ],
+    "answer": "C",
+    "title": "Question 122",
+    "explanation": "A data quality problem that could cause customers to be called by multiple Sales Reps is having duplicate Contact records in the system. Duplicate records can result from data entry errors, data imports, or integrations with other systems. Duplicate records can lead to confusion, inefficiency, and customer dissatisfaction"
+  },
+  {
+    "content": "A data architect is working with a large B2C retailer and needs to model the consumer account structure in Salesforce.\nWhat standard feature should be selected in this scenario?",
+    "options": ["A. Individual Accounts", "B. Account Contact", "C. Contacts", "D. Person Accounts"],
+    "answer": "D",
+    "title": "Question 123",
+    "explanation": "According to this article, person accounts are designed to store information about individual people by combining certain account and contact fields into a single record. This is suitable for a large B2C retailer that needs to model the consumer account structure in Salesforce."
+  },
+  {
+    "content": "Universal Containers (UC) requires 2 years of customer related cases to be available on SF for operational reporting. Any cases older than 2 years and upto 7 years need to be available on demand to the Service agents.\nUC creates 5 million cases per yr.\nWhich 2 data archiving strategies should a data architect recommend? Choose 2 options:",
+    "options": [
+      "A. Use custom objects for cases older than 2 years and use nightly batch to move them.",
+      "B. Sync cases older than 2 years to an external database, and provide access to Service agents to the database",
+      "C. Use Big objects for cases older than 2 years, and use nightly batch to move them.",
+      "D. Use Heroku and external objects to display cases older than 2 years and bulk API to hard delete from Salesforce."
+    ],
+    "answer": "C,D",
+    "title": "Question 124",
+    "explanation": "The best data archiving strategies for UC are to use Big objects and Heroku with external objects. Big objects allow storing large amounts of data on the Salesforce platform without affecting performance or storage limits.\n They also support point-and-click tools, triggers, and Apex code. Heroku is a cloud platform that can host external databases and integrate with Salesforce using external objects. External objects enable on-demand access to external data sources via standard Salesforce APIs and user interfaces. Using bulk API to hard delete cases from Salesforce will free up storage space and improve performance."
+  }
+]
