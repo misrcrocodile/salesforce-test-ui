@@ -18,7 +18,12 @@ var testList = [
   {
     name: "SALESFORCE ASSOCIATE AI",
     value: "SalesforceAssociateAI",
-    testList: ["Quizlet.AssociateAI.v2024-04-22"],
+    testList: [
+      "Quizlet.AssociateAI.v2024-04-22",
+      "Salesforce.Salesforce-AI-Associate.v2024-09-10.q37",
+      "Salesforce.Salesforce-AI-Associate.v2024-09-23.q41",
+      "Salesforce.Salesforce-AI-Associate.v2024-09-23.q49",
+    ],
   },
   {
     name: "CERTIFIED ADMINISTRATOR",

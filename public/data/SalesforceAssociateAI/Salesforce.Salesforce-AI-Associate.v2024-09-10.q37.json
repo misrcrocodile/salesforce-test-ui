@@ -1,0 +1,341 @@
+[
+  {
+    "content": "What is a potential outcome of using poor-quality data in AI application?",
+    "options": [
+      "A. AI model training becomes slower and less efficient",
+      "B. AI models may produce biased or erroneous results.",
+      "C. AI models become more interpretable"
+    ],
+    "answer": "B",
+    "title": "Question 1",
+    "explanation": "\"A potential outcome of using poor-quality data inAI applications is that AI models may produce biased or erroneous results. Poor-quality data means that the data is inaccurate, incomplete, inconsistent, irrelevant, or outdated for the AI task. Poor-quality data can affect the performance and reliabilityof AI models, as they may not have enough or correct information to learn from or make accurate predictions. Poor-quality data can also introduce or exacerbate biases or errors in AI models, such as human bias, societal bias, confirmation bias, or overfitting or underfitting.\""
+  },
+  {
+    "content": "Salesforce defines bias as using aperson's Immutable traits to classify them or market to them.\nWhich potentially sensitive attribute is an example of an immutable trait?",
+    "options": ["A. Financial status", "B. Nickname", "C. Email address"],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": "\"Financial status is an example of an immutable trait. Immutable traits are characteristics that are inherent, fixed, or unchangeable. For example, financial status is an immutable trait because it is determined by factors beyond one's control, such as birth, inheritance, or economic conditions. Nickname and emailaddress are not immutable traits because they can be changed by choice or preference.\""
+  },
+  {
+    "content": "What is an example of Salesforce's Trusted AI Principle of Inclusivity in practice?",
+    "options": ["A. Testing models with diverse datasets", "B. Striving for model explain ability", "C. Working with human rights experts"],
+    "answer": "A",
+    "title": "Question 3",
+    "explanation": "\"An example of Salesforce's Trusted AI Principle of Inclusivity in practice is testing models with diverse datasets.Inclusivity means that AI systems should be designed and developed with respect for diversity and inclusion of different perspectives, backgrounds, and experiences. Testing models with diverse datasets can help ensure that the models are fair, unbiased, and representative of the target population or domain.\""
+  },
+  {
+    "content": "What are some key benefits of AI in improving customer experiences in CRM?",
+    "options": [
+      "A. Improves CRM security protocols, safeguarding sensitive customer data from potential breaches and threats",
+      "B. Streamlines case management by categorizing and tracking customer support cases, identifying topics, and summarizing case resolutions",
+      "C. Fully automates the customer service experience, ensuring seamless automated interactions with customers"
+    ],
+    "answer": "B",
+    "title": "Question 4",
+    "explanation": "\"Streamlining case management by categorizing and tracking customer support cases, identifying topics, and summarizing case resolutions are some key benefits of AI in improving customerexperiences in CRM. AI can help automate and optimize various aspects of customer service, such as routing cases to the right agents, providing relevant information or suggestions, and generating reports or insights. AI can also help enhance customer satisfaction and loyalty by reducing wait times, improving response quality, and providing personalized solutions.\""
+  },
+  {
+    "content": "What is a possible outcome of poor data quality?",
+    "options": [
+      "A. AI models maintain accuracy but have slower response times.",
+      "B. Biases in data can be inadvertently learned and amplified by AI systems.",
+      "C. AI predictions become more focused and less robust."
+    ],
+    "answer": "B",
+    "title": "Question 5",
+    "explanation": "\"A possible outcome of poor data quality is that biases in data can be inadvertently learned and amplified by AI systems. Poor data quality means that the data is inaccurate, incomplete, inconsistent, irrelevant, or outdated for the AI task. Poor data quality can affect the performance and reliability of AI systems, as they may not have enough or correct information to learn from or make accurate predictions. Poor data quality can also introduce or exacerbate biases in data, such as human bias, societal bias, or confirmation bias, which can affect the fairness and ethics of AI systems.\""
+  },
+  {
+    "content": "What are the key components of the data quality standard?",
+    "options": ["A. Naming, formatting, Monitoring", "B. Accuracy, Completeness, Consistency", "C. Reviewing, Updating, Archiving"],
+    "answer": "B",
+    "title": "Question 6",
+    "explanation": "\"Accuracy, Completeness, Consistency are the key components of the data quality standard. Data quality standard is a set of criteria or measures that define and evaluate the quality of data for a specific purpose or task. Data quality standard can vary by industry, domain, or application, but some common components are accuracy, completeness, and consistency. Accuracy means that the data values are correct andvalid for the data attribute. Completeness means that the data values are not missing any relevant information for the data attribute. Consistency means that the data values are uniform and follow a common standard or format across different records, fields, or sources.\""
+  },
+  {
+    "content": "Cloud Kicks relies on data analysis to optimize its product recommendation; however, CK encounters a recurring Issue of Incomplete customer records, withmissing contact Information and incomplete purchase histories.\nHow will this incomplete data quality impact the company's operations?",
+    "options": [
+      "A. The accuracy of product recommendations is hindered.",
+      "B. The diversity of product recommendations Is Improved.",
+      "C. The response time for product recommendations is stalled."
+    ],
+    "answer": "A",
+    "title": "Question 7",
+    "explanation": "\"The incomplete data quality will impact the company's operations by hindering the accuracy of product recommendations. Incomplete data means that the data is missing some values or attributes that are relevant for the AI task. Incomplete data can affect the performance and reliability of AI models, as they may not have enough information to learn from or make accurate predictions. For example, incomplete customer records can affect the quality of product recommendations, as the AI model may not be able to capture the customers' preferences, behavior, or needs.\""
+  },
+  {
+    "content": "What can bias in AI algorithms in CRM lead to?",
+    "options": ["A. Personalization and target marketing changes", "B. Advertising cost increases", "C. Ethical challengesin CRM systems"],
+    "answer": "C",
+    "title": "Question 8",
+    "explanation": "\"Bias in AI algorithms in CRM can lead to ethical challenges in CRM systems. Bias means that AI algorithms favor or discriminate certain groups or outcomes based on irrelevant or unfair criteria. Bias can affect the fairness andethics of CRM systems, as they may affect how customers are perceived, treated, or represented by AI algorithms. For example, bias can lead to ethical challenges in CRM systems if AI algorithms make inaccurate or harmful predictions or recommendations based on customers' identity or characteristics.\""
+  },
+  {
+    "content": "How does a data quality assessment impact business outcome for companies using AI?",
+    "options": [
+      "A. Improves the speed of AI recommendations",
+      "B. Accelerates the delivery of new AI solutions",
+      "C. Provides a benchmark for AI predictions"
+    ],
+    "answer": "C",
+    "title": "Question 9",
+    "explanation": "\"A data quality assessment impacts business outcomes for companies using AI by providing a benchmark for AI predictions. A data quality assessment is a process that measures and evaluates the quality of data for a specific purpose or task. A data quality assessment can help identify and address any issues or gaps in the data quality dimensions, such as accuracy, completeness, consistency, relevance, and timeliness. A data quality assessment can impact business outcomes for companies using AI by providing a benchmark for AIpredictions, as it can help ensure that the predictions are based on high-quality data that reflects the true state or condition of the target population or domain.\""
+  },
+  {
+    "content": "What is the role of Salesforce Trust AI principles in the context of CRM system?",
+    "options": [
+      "A. Guiding ethical and responsible use of AI",
+      "B. Providing a framework for AI data model accuracy",
+      "C. Outlining the technical specifications for AI integration"
+    ],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": "\"The role of Salesforce Trust AI principles in the context of CRM systems is guiding ethical and responsible use of AI. Salesforce Trust AI principles are a set of guidelines and best practicesfor developing and using AI systems in a responsible and ethical way. The principles include Accountability, Fairness & Equality, Transparency & Explainability, Privacy & Security, Reliability & Safety, Inclusivity & Diversity, Empowerment & Education. The principles aim to ensure that AI systems are aligned with the values and interests of customers, partners, and society.\""
+  },
+  {
+    "content": "Cloud kicks wants to develop a solution to predict customers' interest based on historical data. The company found that employee region uses a text field to capture the product category while employee from all other locations use a picklist.\nWhich dimensionof data quality is affected in this scenario?",
+    "options": ["A. Accuracy", "B. Consistency", "C. Completeness"],
+    "answer": "B",
+    "title": "Question 11",
+    "explanation": "\"Consistency is the dimension of data quality that is affected in this scenario. Consistency means that the data values are uniform and follow a common standard or format across different records, fields, or sources.\n Inconsistent data can cause confusion, errors, or duplication in data analysis and processing. For example, using different field types for the same attribute can affect the consistency of the data.\""
+  },
+  {
+    "content": "Cloud Kicks wants to create a custom service analytics application to analyze cases in Salesforce. The application should rely on accurate data to ensure efficient case resolution.\nWhichdata quality dimension Is essential for this custom application?",
+    "options": ["A. Consistency", "B. Duplication", "C. Age"],
+    "answer": "A",
+    "title": "Question 12",
+    "explanation": "\"Consistency is the data quality dimension that is essential for creating a custom service analytics application to analyze cases in Salesforce. Consistency means that the data values are uniform and follow a common standard or format across different records, fields, or sources. Consistent data can ensure that the custom application can accurately and efficiently analyze cases and provide meaningful insights.\""
+  },
+  {
+    "content": "What is a potential source of bias in training data for AI models?",
+    "options": [
+      "A. The data is collected in area time from sources systems.",
+      "B. The data is skewed toward is particular demographic or source.",
+      "C. The data is collected from a diverse range of sources and demographics."
+    ],
+    "answer": "B",
+    "title": "Question 13",
+    "explanation": "\"A potential source of bias in training data for AI models is that the datais skewed toward a particular demographic or source. Skewed data means that the data is not balanced or representative of the target population or domain. Skewed data can introduce or exacerbate bias in AI models, as they may overfit or underfit the modelto a specific subset of data. For example, skewed data can lead to bias if the data is collected from a limited or biased demographic or source, such as a certain age group, gender, race, location, or platform.\""
+  },
+  {
+    "content": "A data quality expert at Cloud Kicks want to ensure that each new contact contains at least an email address ...\nWhich feature should they use to accomplish this?",
+    "options": ["A. Autofill", "B. Duplicate matching rule", "C. Validation rule"],
+    "answer": "C",
+    "title": "Question 14",
+    "explanation": "\"A validation rule should be used to ensure that each new contact contains at least an email address or phone number. A validation rule is a feature that checks the data entered by users for errors before saving it to Salesforce. A validation rule can help ensure data quality by enforcing certain criteria or conditions for the data values.\""
+  },
+  {
+    "content": "In the context of Salesforce's Trusted AI Principles what does the principle of Empowerment primarily aim to achieve?",
+    "options": [
+      "A. Empower users to off all skill level to build AI application with clicks, not code.",
+      "B. Empower users to contribute to the growing body of knowledge of leading AIresearch.",
+      "C. Empower users to solve challenging technical problems using neural networks."
+    ],
+    "answer": "A",
+    "title": "Question 15",
+    "explanation": "\"The principle of Empowerment primarily aims to achieve empowering users of all skill levels to build AI applications with clicks, not code. Empowerment isone of the Trusted AI Principles that states that AI systems should be designed and developed with respect for the empowerment and education of humans. Empowering users means enabling users to access, use, and benefit from AI systems regardless of their technical expertise or background. For example, empowering users means providing tools and platforms that allow users to build AI applications with clicks, not code, such as Einstein Prediction Builder or Einstein Discovery.\""
+  },
+  {
+    "content": "An administrator at Cloud Kicks wants to ensure that a field is set up on the customer record so their preferred name can be captured.\nWhich Salesforce field type should the administrator use to accomplish this?",
+    "options": ["A. Multi-Select Picklist", "B. Text", "C. Rich Text Area"],
+    "answer": "B",
+    "title": "Question 16",
+    "explanation": "\"A text fieldtype should be used to capture the customer's preferred name. A text field type allows the user to enter any combination of letters, numbers, or symbols. A text field type can be used to store names, addresses, phone numbers, or other personal information.\""
+  },
+  {
+    "content": "What is the key difference between generative and predictive AI?",
+    "options": [
+      "A. Generative AI creates new content based on existing data and predictive AI analyzes existing data.",
+      "B. Generative AI finds content similar to existing data and predictive AI analyzes existing data.",
+      "C. Generative AI analyzes existing data and predictive AI creates new content based on existing data."
+    ],
+    "answer": "A",
+    "title": "Question 17",
+    "explanation": "\"The key difference between generative and predictive AI is that generative AI creates new content based on existing data and predictive AI analyzes existing data.Generative AI is a type of AI that can generate novel content such as images, text, music, or video based on existing data or inputs. Predictive AI is a type of AI that can analyze existing data or inputs and make predictions or recommendations based on patterns or trends.\""
+  },
+  {
+    "content": "A healthcare company implements an algorithm to analyze patient data and assist in medical diagnosis.\nWhich primary role does data Quality play In this AI application?",
+    "options": [
+      "A. Enhanced accuracy and reliability of medical predictions and diagnoses",
+      "B. Ensured compatibility of AI algorithms with the system's Infrastructure",
+      "C. Reduced need for healthcare expertise in interpreting AI outouts"
+    ],
+    "answer": "A",
+    "title": "Question 18",
+    "explanation": "\"Data quality plays a crucial role in enhancing the accuracy and reliability of medical predictions and diagnoses. Poor data quality can lead to inaccurate or misleading results, which can have serious consequences for patients' health and well-being. Therefore, it is important to ensure that the dataused for AI applications in healthcare is accurate, complete, consistent, and relevant.\""
+  },
+  {
+    "content": "What is an example of ethical debt?",
+    "options": [
+      "A. Violating a data privacy law and falling to pay fines",
+      "B. Launching an AI feature after discovering a harmful bias",
+      "C. Delaying an AI product launch to retrain an AI data model"
+    ],
+    "answer": "B",
+    "title": "Question 19",
+    "explanation": "\"Launching an AI feature after discovering a harmful bias is an example of ethical debt. Ethical debt is a term that describes the potential harm or risk caused by unethical or irresponsible decisions or actions related to AIsystems. Ethical debt can accumulate over time and have negative consequences for users, customers, partners, or society. For example, launching an AI feature after discovering a harmful bias can create ethical debt by exposing users to unfair or inaccurate results that may affect their trust, satisfaction, or well-being.\""
+  },
+  {
+    "content": "What are some of the ethical challenges associated with AI development?",
+    "options": [
+      "A. Potential for human bias in machine learning algorithms and the lack of transparency in AI decision-making processes",
+      "B. Implicit transparency of AI systems, which makes It easy for users to understand and trust their decisions",
+      "C. Inherent neutrality of AI systems, which eliminates any potential for human bias in decision-making"
+    ],
+    "answer": "A",
+    "title": "Question 20",
+    "explanation": "\"Some of the ethical challenges associated with AI development are the potential for human bias in machine learning algorithms and the lack of transparency in AI decision-making processes. Human bias can arise from the data used to train themodels, the design choices made by the developers, or the interpretation of the results by the users. Lack of transparency can make it difficult to understand how and why AI systems make certain decisions, which can affect trust, accountability, and fairness.\""
+  },
+  {
+    "content": "A customer using Einstein Prediction Builder is confused about why a certain prediction was made.\nFollowing Salesforce's Trusted AI Principle of Transparency, which customer information should be accessible on the Salesforce Platform?",
+    "options": [
+      "A. An explanation of how Prediction Builder works and a link to Salesforce's Trusted AI Principles",
+      "B. An explanation of the prediction's rationale and a model card that describes how the model was created",
+      "C. A marketing article of the product that clearly outlines the oroduct's capabilities and features"
+    ],
+    "answer": "B",
+    "title": "Question 21",
+    "explanation": "\"An explanation of the prediction's rationale and a model card that describes how the model was created should be accessible on the Salesforce Platform following Salesforce's Trusted AI Principle of Transparency.\n Transparency means that AI systems should be designed and developed with respect for clarity and openness in how they work and why they make certain decisions. Transparency also means that AI users should be able to access relevant information and documentation about the AI systems they interact with.\""
+  },
+  {
+    "content": "A system admin recognizes the need to put a data management strategy in place.\nWhat is a key component of data management strategy?",
+    "options": ["A. Naming Convention", "B. Data Backup", "C. Color Coding"],
+    "answer": "B",
+    "title": "Question 22",
+    "explanation": "Data Backup is a key component of a datamanagement strategy. A data backup is a process of creating and storing copies of data in a separate location or device to prevent data loss or damage in case of a disaster, accident, or malicious attack. A data backup can help ensure data availability, reliability, and security by allowing data to be restored or recovered in the event of a data breach, corruption, or deletion. A data management strategy should include a data backup plan that defines the frequency, scope, method, and location of data backups, as well as the roles and responsibilities of the data backup team."
+  },
+  {
+    "content": "Why is it critical to consider privacy concernswhen dealing with AI and CRM data?",
+    "options": [
+      "A. Ensures compliance with laws and regulations",
+      "B. Confirms the data is accessible to all users",
+      "C. Increases the volume of data collected"
+    ],
+    "answer": "A",
+    "title": "Question 23",
+    "explanation": "\"It is critical to consider privacy concerns when dealing with AI and CRM data because it ensures compliance with laws and regulations. Data privacy is the right of individuals to control how their personal data is collected, used, shared, or stored by others. Data privacy laws and regulations are legal frameworks that defineand enforce the rights and obligations of data subjects, data controllers, and data processors regarding personal data. Data privacy laws and regulations vary by country, region, or industry, and may impose different requirements or restrictions on how AIand CRM data can be handled.\""
+  },
+  {
+    "content": "Cloud Kicks wants to use an AI mode to predict the demand for shoes using historical data on sales and regional characteristics.\nWhat is an essential data quality dimension to achieve this goal?",
+    "options": ["A. Reliability", "B. Volume", "C. Age"],
+    "answer": "A",
+    "title": "Question 24",
+    "explanation": "\"Reliability is an essential data quality dimension to achieve the goal of predicting the demand for shoes using historical data on sales and regional characteristics. Reliability means that the data values are trustworthy, credible, and authoritativefor the AI task. Reliable data can improve the accuracy and confidence of AI predictions, as they reflect the true state or condition of the target population or domain. For example, reliable data can help predict the demand for shoes by using verified andvalidated sales and regional data.\""
+  },
+  {
+    "content": "Which type of bias results from data being labeled according to stereotypes?",
+    "options": ["A. Association", "B. Societal", "C. Interaction"],
+    "answer": "B",
+    "title": "Question 25",
+    "explanation": "\"Societal bias results from data being labeled according to stereotypes. Societal bias is a type ofbias that reflects the assumptions, norms, or values of a specific society or culture. For example, societal bias can occur when data is labeled based on gender, race, ethnicity, or religion stereotypes.\""
+  },
+  {
+    "content": "A marketing manager wants to use AI to better engage their customers.\nWhich functionality provides the best solution?",
+    "options": ["A. Journey Optimization", "B. Bring Your Own Model", "C. Einstein Engagement"],
+    "answer": "C",
+    "title": "Question 26",
+    "explanation": "\"EinsteinEngagement provides the best solution for a marketing manager who wants to use AI to better engage their customers. Einstein Engagement is a feature that uses AI to optimize email marketing campaigns by providing insights and recommendations on the best time, frequency, content, and subject lines to send emails to each customer. Einstein Engagement can help increase customer engagement, retention, and loyalty by delivering personalized and relevant messages.\""
+  },
+  {
+    "content": "Which features of Einstein enhance sales efficiency and effectiveness?",
+    "options": [
+      "A. Opportunity List View, Lead List View, Account List view",
+      "B. Opportunity Scoring, Opportunity List View, Opportunity Dashboard",
+      "C. Opportunity Scoring, Lead Scoring, Account Insights"
+    ],
+    "answer": "C",
+    "title": "Question 27",
+    "explanation": "\"Opportunity Scoring, Lead Scoring, Account Insights are features of Einstein that enhance sales efficiency and effectiveness. Opportunity Scoring and Lead Scoring use predictive models to assign scores to opportunities and leads based on their likelihood to close or convert. Account Insights use natural language processing (NLP) to provide relevant news and insights about accounts based on their industry, location, or events.\""
+  },
+  {
+    "content": "Cloud Kicks wants to implement AI features on its 5aiesforce Platform but has concerns about potential ethical and privacy challenges.\nWhat should they consider doing to minimize potential AI bias?",
+    "options": [
+      "A. Integrate AI models that auto-correct biased data.",
+      "B. Implement Salesforce's Trusted AI Principles.",
+      "C. Use demographic data to identify minority groups."
+    ],
+    "answer": "B",
+    "title": "Question 28",
+    "explanation": "\"Implementing Salesforce's Trusted AI Principles is what Cloud Kicks should consider doing to minimize potential AI bias. Salesforce's Trusted AI Principles are a set of guidelines and best practices for developing and using AI systems in a responsible and ethical way. The principles include Accountability, Fairness & Equality, Transparency & Explainability, Privacy & Security, Reliability & Safety, Inclusivity & Diversity, Empowerment & Education.\""
+  },
+  {
+    "content": "Which data does Salesforce automatically exclude from marketing Cloud Einstein engagement model training to mitigate bias and ethic...",
+    "options": ["A. Geographic", "B. Geographic ", "C. Cryptographic"],
+    "answer": "B",
+    "title": "Question 29",
+    "explanation": "\"Demographic data is thedata that Salesforce automatically excludes from Marketing Cloud Einstein engagement model training to mitigate bias and ethical concerns. Demographic data is data that describes the characteristics of a population or a group of people, such as age, gender, race, ethnicity, income, education, or occupation. Demographic data can lead to bias if it is used to discriminate or treat people differently based on their identity or attributes. Demographic data can also reflect existing biases or stereotypes in society or culture, which can affect the fairness and ethics of AI systems. Salesforce excludes demographic data from Marketing Cloud Einstein engagement model training to mitigate bias and ethical concerns by ensuring that the models are based on behavioral data rather than personal data.\""
+  },
+  {
+    "content": "Which best describes the different between predictive AI and generative AI?",
+    "options": [
+      "A. Predictive new and original output for a given input.",
+      "B. Predictive AI and generative have the same capabilities differ in the type of input theyreceive: predictive AI receives raw data whereas generation AI receives natural language.",
+      "C. Predictive AI uses machine learning to classes or predict output from its input data whereas generative AI does not use machine learning to generate its output"
+    ],
+    "answer": "A",
+    "title": "Question 30",
+    "explanation": "\"The difference between predictive AI and generative AI is that predictive AI analyzes existing data to make predictions or recommendations based on patterns or trends, while generative AI creates new content based on existing data or inputs. Predictive AI is a type of AI that uses machine learning techniques to learn from existing data and make predictions or recommendations based on the data. For example, predictive AI can be used to forecast sales, revenue, or demand based on historical data and trends. Generative AI is a type of AI that uses machine learning techniques to generate novel content such as images, text, music, or video based on existing data or inputs. For example, generative AI can be used to create realistic faces, write summaries, compose songs, or produce videos.\""
+  },
+  {
+    "content": "What is a key characteristic of machine learning in the context of AI capabilities?",
+    "options": [
+      "A. Uses algorithms to learn from data and make decisions",
+      "B. Relies on preprogrammed rules to make decisions",
+      "C. Can perfectly mimic human intelligence anddecision-making"
+    ],
+    "answer": "A",
+    "title": "Question 31",
+    "explanation": "\"Machine learning is a key characteristic of AI capabilities that uses algorithms to learn from data and make decisions. Machine learning is a branch of AI that enables computers to learn from data without being explicitly programmed. Machine learning algorithms can analyze data, identify patterns, and make predictions or recommendations based on the data.\""
+  },
+  {
+    "content": "What is a benefit of a diverse, balanced, and large dataset?",
+    "options": ["A. Training time", "B. Data privacy", "C. Model accuracy"],
+    "answer": "C",
+    "title": "Question 32",
+    "explanation": "\"Model accuracy is a benefit of a diverse, balanced, and large dataset. A diverse dataset can capture a variety of features and patterns that are relevant for the AI task. A balanced dataset can avoid overfitting orunderfitting the model to a specific subset of data. A large dataset can provide enough information for the model to learn from and generalize well to new data.\""
+  },
+  {
+    "content": "What should be done to prevent bias from entering an AI system when training it?",
+    "options": ["A. Use alternative assumptions.", "B. Import diverse training data.", "C. Include Proxy variables."],
+    "answer": "B",
+    "title": "Question 33",
+    "explanation": "\"Using diverse training data is what should be done to prevent bias from entering an AI system when training it. Diverse training data means that the data covers a wide range of features and patterns that are relevant for the AI task. Diversetraining data can help prevent bias by ensuring that the AI system learns from a balanced and representative sample of the target population or domain. Diverse training data can also help improve the accuracy and generalization of the AI system by capturing more variations and scenarios in the data.\""
+  },
+  {
+    "content": "Cloud kicks wants to decrease the workload for its customer care agents by implementing a chatbot on its website that partially deflects incoming cases by answering frequency asked questions Which field of AI is most suitable for this scenario?",
+    "options": ["A. Natural language processing", "B. Computer vision", "C. Predictive analytics"],
+    "answer": "A",
+    "title": "Question 34",
+    "explanation": "\"Natural language processing is the field of AI that is most suitable for this scenario. Natural language processing (NLP) is a branch of AI that enables computers to understand and generate natural language, such as speech or text. NLP can be used to create conversational interfaces that can interact with users using natural language, such as chatbots. Chatbots can help automate and streamline customer service processes by providing answers, suggestions, or actions based on the user's intent and context.\""
+  },
+  {
+    "content": "Which Einstein capability uses emails to create content for Knowledge articles?",
+    "options": ["A. Generate", "B. Discover", "C. Predict"],
+    "answer": "A",
+    "title": "Question 35",
+    "explanation": "\"Einstein Generate uses emails to create content for Knowledge articles. Einstein Generate is a natural language generation (NLG) feature that can automatically write summaries, descriptions, or recommendations based on data or text inputs. For example, Einstein Generate can analyze email conversations between agents and customers and generate draft articles for the Knowledge base.\""
+  },
+  {
+    "content": "How does an organization benefit from using AI to personalize the shopping experience of online customers?",
+    "options": [
+      "A. Customers are morelikely to share personal information with a site that personalizes their experience.",
+      "B. Customers are more likely to be satisfied with their shopping experience.",
+      "C. Customers are more likely to visit competitor sites that personalize their experience."
+    ],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": "\"An organization benefits from using AI to personalize the shopping experience of online customers by increasing customer satisfaction. AI can help provide customized and relevant product recommendations, offers, or content based on the customers' preferences, behavior, or needs. AI can also help create a more engaging and interactive shopping experience by using natural language processing (NLP) or computer vision techniques. Personalized shopping experiences can improve customer satisfaction by meeting their expectations, needs, and interests.\""
+  },
+  {
+    "content": "Cloud Kicks wants to use AI to enhance its sales processesand customer support.\nWhich capacity should they use?",
+    "options": [
+      "A. Dashboard of Current Leads and Cases",
+      "B. Sales path and Automaton Case Escalations",
+      "C. Einstein Lead Scoring and Case Classification"
+    ],
+    "answer": "C",
+    "title": "Question 37",
+    "explanation": "\"Einstein Lead Scoring and Case Classification are thecapabilities that Cloud Kicks should use to enhance its sales processes and customer support. Einstein Lead Scoring and Case Classification are features that use AI tooptimize sales and service processes by providing insights and recommendations based ondata. Einstein Lead Scoring can help prioritize leads based on their likelihood to convert, while Einstein Case Classification can help categorize and route cases based on their attributes.\""
+  }
+]
