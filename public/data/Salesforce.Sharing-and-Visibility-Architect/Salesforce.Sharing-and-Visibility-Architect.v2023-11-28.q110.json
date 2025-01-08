@@ -1,0 +1,1207 @@
+[
+  {
+    "content": "Universal Containers has created a Reimbursement Custom Object to capture requests for reimbursement of expenses related to office supplies. The Reimbursement requests are sometimes sensitive and the Team Leads should not have access to the Reimbursement records submitted by the Users in the Call Center Agent role.\nThe Director of Support will require access to all Reimbursement records. The role hierarchy is set as follows:\nCall Center Agent role reports to Team Lead role, which Reports to the Director of Support. Which steps would the Architect take to ensure proper sharing in this Role Hierarchy structure assuming Private Sharing Setting for the Reimbursement Object?",
+    "options": [
+      "A. Leave the Reimbursement Object in \"Deployed\" Status and set the Director of Supports Profile to \"View All\" in the object permissions.",
+      "B. Use an Approval Process to change the owner of the Reimbursement record upon submission to the Director of Support",
+      "C. Disable Grant Access Using Hierarchies for the Object and create a Sharing Rule to enable sharing to the Director of Support",
+      "D. The sharing scenario described will occur without any special configuration choices being made by the Architect"
+    ],
+    "answer": "C",
+    "title": "Question 1",
+    "explanation": "Explanation\n Disabling Grant Access Using Hierarchies for the object and creating a sharing rule to enable sharing to the Director of Support are the steps to ensure proper sharing in this role hierarchy structure. This way, the Team Leads will not have access to the Reimbursement records of their subordinates, but the Director of Support will have access to all Reimbursement records. Option A is incorrect, as setting the View All permission on the profile will grant access to all users with that profile, not just the Director of Support. Option B is incorrect, as changing the owner of the Reimbursement record will remove the access from the original submitter. Option D is incorrect, as by default, Grant Access Using Hierarchies is enabled for custom objects, which means that Team Leads will have access to their subordinates' Reimbursement records."
+  },
+  {
+    "content": "Customer complaints for bad interactions with a customer support agent are logged as Cases and assigned to a human resources representative. The agent of the complaint should not see the case, but their manager should.\nHow is this accomplished?",
+    "options": [
+      "A. Trigger on Case to lookup and share to the manager of an Assigned Agent custom field (the subject of the complaint) using Apex Managed Sharing.",
+      "B. Criteria based Sharing Rule on Case that shares to the Role Manager and above when a custom field Assigned Agent (subject of the complaint) Is not blank,",
+      "C. Case is owned by the subject of the complaint, so their manager in the role hierarchy can access the record. CRED permission are removed on Case so the agent cannot read the case record."
+    ],
+    "answer": "A",
+    "title": "Question 2",
+    "explanation": "Explanation\n Using a trigger on Case to lookup and share to the manager of an Assigned Agent custom field using Apex Managed Sharing would allow the HR representative to control the visibility of the case based on the subject of the complaint. Criteria-based sharing rules cannot be used to exclude a specific user from seeing a record.\n Changing the owner of the case would affect other aspects of data visibility and security."
+  },
+  {
+    "content": "Universal Containers has a global 24x7 Salesforce.com implementation that supports Sales, Services, Order Management, and various other parts of their business. They have a nested territory hierarchy, 10,000 sales users, and 20,000 support agents. Territory changes happen daily. The demand for new applications and changes to the platform is high and they follow an agile development methodology and deliver new releases every two weeks on the platform. What Salesforce.com feature would help the system recover from a maintenance restart on Salesforce.com servers?",
+    "options": [
+      "A. Enable Granular Locking on the system.",
+      "B. Enable Deferred Sharing Rule recalculation.",
+      "C. Enable Parallel Sharing Rule recalculation.",
+      "D. Enable Filter -Based Opportunity Territory Assignment."
+    ],
+    "answer": "B",
+    "title": "Question 3",
+    "explanation": "Explanation\n To help the system recover from a maintenance restart on Salesforce servers, the Salesforce feature that would help is enabling deferred sharing rule recalculation. This feature allows postponing the recalculation of sharing rules until a scheduled time, which can improve performance and avoid locking issues when there are frequent changes to sharing rules or role hierarchy5. Enabling granular locking or parallel sharing rule recalculation will not help, as they are related to improving performance and avoiding locking issues when recalculating sharing rules, not recovering from a maintenance restart. Enabling filter-based opportunity territory assignment will not help, as it is related to assigning opportunities to territories based on criteria, not recovering from a maintenance restart."
+  },
+  {
+    "content": "Universal Containers (UC) wants to reduce the amount of redundant leads entered into the system. UC also only edited/reassigned by the lead owner.\nWhat organization-wide default (OWD) approach should be recommended to help UC implement these requirements?",
+    "options": [
+      "A. Implement a Public Read Only OWD on Lead.",
+      "B. Implement a Public Read Only/Transfer OWD on Lead",
+      "C. Implement a private OWD on Lead.",
+      "D. Implement a Public Read/Write OWD on Lead."
+    ],
+    "answer": "C",
+    "title": "Question 4",
+    "explanation": "Explanation\n To reduce redundant leads and restrict their editing and reassignment, a Salesforce Architect should recommend implementing a private OWD on Lead. A private OWD means that only the owner of the lead record and users above them in the role hierarchy can view, edit, or transfer the lead. This will prevent duplicate leads from being created by other users, and also ensure that only the lead owner can modify or reassign the lead. Implementing a public read only OWD on Lead will not work, as it will allow other users to view the lead records, which may lead to duplication. Implementing a public read only/transfer OWD on Lead will not work, as it will allow other users to transfer the lead records to themselves or others. Implementing a public read/write OWD on Lead will not work, as it will allow other users to edit or reassign the lead records."
+  },
+  {
+    "content": "Universal Containers has a strict security model enforced through object, field, and row-based security mechanisms. The Architect would like to ensure the security model is being thoroughly tested using Apex automated tests. Which three considerations should be made when using the runAs() method to design Apex until tests?",
+    "options": [
+      "A. runAs() does not enforce user permissions or field-level permissions in test classes",
+      "B. runAs() can be used inside of test classes to validate record-level security",
+      "C. runAs() can be used inside of test classes to validate field-level permissions",
+      "D. runAs() can be used outside of test classes to bypass record-level security",
+      "E. runAs () counts towards total DML statements issued within transaction"
+    ],
+    "answer": "A,B,E",
+    "title": "Question 5",
+    "explanation": "Explanation\n When using the runAs() method to design Apex unit tests, the architect should consider that runAs() does not enforce user permissions or field-level permissions in test classes, runAs() can be used inside of test classes to validate record-level security, and runAs() counts towards total DML statements issued within transaction.\n These are important considerations to ensure that the test classes cover all possible scenarios and do not exceed governor limits. runAs() cannot be used outside of test classes to bypass record-level security, and runAs() cannot be used inside of test classes to validate field-level permissions"
+  },
+  {
+    "content": "An External Object is created to show Invoices from an external accounting system. When viewing the External Object, a user should only access invoice records the user is authorized to see.\nWhat two actions are required to achieve the above requirement? Choose 2 answers",
+    "options": [
+      "A. Setup External Object to use OAuth to connect to the Accounting system.",
+      "B. Create an owner based sharing rule to grant visibility to the Invoice object.",
+      "C. Restrict access to data in the accounting system.",
+      "D. Grant access to the External Object to only the Account Manager profile."
+    ],
+    "answer": "A,C",
+    "title": "Question 6",
+    "explanation": "Explanation\n The two actions that are required to achieve the requirement are setting up External Object to use OAuth to connect to the Accounting system and restricting access to data in the accounting system. OAuth is an authentication protocol that allows Salesforce to securely access data from an external system without storing the username and password of the external system user3. Restricting access to data in the accounting system is a way to ensure that only authorized users can view the invoice records from the external source. Creating an owner based sharing rule to grant visibility to the Invoice object and granting access to the External Object to only the Account Manager profile are not actions that can ensure that a user only accesses invoice records the user is authorized to see."
+  },
+  {
+    "content": "Which three capabilities are available with Enterprise Territory Management? Choose 3 answers",
+    "options": [
+      "A. Create a public group with Territory",
+      "B. Share a report or dashboard folder with a Territory",
+      "C. Metadata API Support",
+      "D. Integration with Collaborative Forecasting",
+      "E. Assignment of Territory on Opportunities"
+    ],
+    "answer": "C,D,E",
+    "title": "Question 7",
+    "explanation": "Explanation\n Enterprise Territory Management is a feature that allows you to assign accounts to territories based on criteria such as geography, industry, revenue, etc. With Enterprise Territory Management, you can1:\n Use the Metadata API to create, update, and delete territory models, territories, and account assignments.\n Integrate with Collaborative Forecasting to forecast sales revenue by territory.\n Assign opportunities to territories based on the account assignment or other criteria."
+  },
+  {
+    "content": "Universal Containers has set Partners users who will see records owned by partner users in roles below them in the hierarchy of which roles?",
+    "options": [],
+    "answer": "",
+    "title": "Question 8",
+    "explanation": "Executive, Manager, and User\n Explanation\n The roles that Universal Containers has set for Partners users who will see records owned by partner users in roles below them in the hierarchy are Executive, Manager, and User2. These are the default roles that are created when you enable Partner Super User Access in Salesforce2. Partner Super User Access allows partner users to access records belonging to users in their account at their same role or lower in the role hierarchy, for Cases, Leads, Opportunities and Custom Objects."
+  },
+  {
+    "content": "Susan posts a file to the chatter fees for a record of an object which OWD is private.\nWhich two statements accurately describe who can view the file by default?\nChoose 2 answers.",
+    "options": [
+      "A. Susan and users with the View All Data permission.",
+      "B. Susan and users with access to the record.",
+      "C. Susan and users with a shared chatter post link to the file.",
+      "D. Susan only."
+    ],
+    "answer": "A,B",
+    "title": "Question 9",
+    "explanation": "Explanation\n Susan and users with the View All Data permission and Susan and users with access to the record are two statements that accurately describe who can view the file by default. When a file is posted to a record's feed, it inherits the sharing settings of that record. Therefore, only users who can view the record can view the file.\n Users with the View All Data permission can view all records and files in the organization. Option C is incorrect, since users with a shared chatter post link to the file can only view the file if they have access to the record as well. Option D is incorrect, since Susan is not the only one who can view the file, but also users who have access to the record or the View All Data permission."
+  },
+  {
+    "content": "Universal Containers requested to leverage Lightning Web Components (LWC) to improve support reps' user experience. LWC will be used as view layer, and Apex classes will have the business logic.\nWhich attention points should the development team consider when implementing this solution?",
+    "options": [
+      "A. Once that Apex runs on system mode, the development team needs to enforce record visibility",
+      "B. Create test classes including runAs test different users accessing the data,",
+      "C. Use is Shareable, is Editable, and is Creatable to enforce field permissions."
+    ],
+    "answer": "A",
+    "title": "Question 10",
+    "explanation": "Explanation\n Apex runs in system mode, which means it does not respect the current user's permissions and sharing settings. Therefore, the development team needs to enforce record visibility by using the WITH SECURITY_ENFORCED clause or the Security.stripInaccessible method"
+  },
+  {
+    "content": "Universal Containers created a custom object called Defect and would like to enable the Sharing button on the Defect page layout to share the records manually to other users in the organization. In which scenario will the Sharing button appear?",
+    "options": [
+      "A. The Sharing model is either Private or Public Read only.",
+      "B. The Sharing button always appears.",
+      "C. The Sharing model is Public Read/Write.",
+      "D. The Sharing model is Public Read/Write/Transfer."
+    ],
+    "answer": "A",
+    "title": "Question 11",
+    "explanation": "Explanation\n The Sharing button will appear on the Defect page layout if the sharing model is either Private or Public Read Only. This is because these are the only two settings that allow manual sharing of records. If the sharing model is Public Read/Write or Public Read/Write/Transfer, then manual sharing is not possible and the Sharing button will not appear"
+  },
+  {
+    "content": "A custom ServiceFeedback object is used to collect partner feedback. ServiceFeedback records should be available to all internal employees. The OWD is set to Private for external users so partners cannot see feedback from other partner users.\nHow can the Architect give access to all internal employees?",
+    "options": [
+      "A. Create a trigger on ServiceFeedback to change ownership to an internal employee.",
+      "B. Ensure all the internal users are above the partners in the role hierarchy.",
+      "C. Create an Owner based sharing rule for all ServiceFeedback records owned by Partners.",
+      "D. Set OWD, for Internal Users to Public Read Only."
+    ],
+    "answer": "D",
+    "title": "Question 12",
+    "explanation": "Explanation\n Setting the OWD for internal users to Public Read Only is the simplest and most efficient way to give access to all internal employees to the ServiceFeedback object. Option A is incorrect, since creating a trigger on ServiceFeedback to change ownership to an internal employee would be complicated and affect the data quality. Option B is incorrect, since ensuring all the internal users are above the partners in the role hierarchy would not work, as the role hierarchy does not apply to partner users. Option C is incorrect, since creating an owner-based sharing rule for all ServiceFeedback records owned by partners would be redundant and inefficient"
+  },
+  {
+    "content": "Universal Containers (UC) has implemented Customer Community with customer community plus license for its distributors. Retail distributors have part-time agents who work for multiple distributors. Those agents should have access to other distributor accounts as well.\nWhat can be configured to grant agents access to different distributor accounts?",
+    "options": [
+      "A. Use Apex sharing to share distributor accounts with agents using the Account__ Share table.",
+      "B. Use share group to share distributor accounts with agents who have account contact relationship.",
+      "C. Create sharing rules to share distributor accounts with agents.",
+      "D. Create sharing set to share distributor accounts with agents using account contact relationship."
+    ],
+    "answer": "A",
+    "title": "Question 13",
+    "explanation": "Explanation\n Apex sharing is a way to programmatically grant access to records for users or groups of users. Apex sharing can be used to share records with Customer Community Plus users, who are not supported by other declarative sharing options such as sharing sets or sharing rules. Apex sharing uses the Account__Share table to store the sharing information for the Account object. Therefore, the answer A is correct and the other options are incorrect"
+  },
+  {
+    "content": "Universal Containers has developed an AppExchange managed package for their distribution partners, which required a private key to be generated for each partner and used by the code. Universal Containers support representatives must be able to access the private key value to debug connection issues, but it must not be possible for the partner to access the value.\nHow can the Architect best support this requirement?",
+    "options": [
+      "A. Store the value in a text field on a protected custom setting in the package.",
+      "B. Store the value in a static variable in a class included in the managed package.",
+      "C. Store the value in the text field on a list custom setting in the managed package.",
+      "D. Store the value in an encrypted field on a custom object in the package."
+    ],
+    "answer": "D",
+    "title": "Question 14",
+    "explanation": "The correct answer is D. Store the value in an encrypted field on a custom object in the package.\n By storing the private key value in an encrypted field on a custom object in the package, the architect can ensure that the value is protected and cannot be accessed by the partner. This meets the requirement of allowing Universal Containers support representatives to access the value for debugging purposes while preventing the partner from accessing it.\n Options A and C involve using custom settings to store the value, but these settings do not provide the necessary encryption to protect the private key value.\n Option B suggests storing the value in a static variable in a class included in the managed package. However, static variables can be accessed by other classes within the package, including classes belonging to the partner. Therefore, this option does not adequately address the requirement of preventing the partner from accessing the private key value.\n Therefore, the best option is D. Store the value in an encrypted field on a custom object in the package."
+  },
+  {
+    "content": "Universal Containers has created a custom object to store highly confidential client relationship data with Private sharing settings. Which two options would an Architect choose to ensure access only to the record owner and the administrator?\nChoose 2 answers.",
+    "options": [
+      "A. Disable \"Grant Access Using Hierarchies.\"",
+      "B. Disable the \"Create\" permission on all other profiles.",
+      "C. Disable the \"Read\" permission on all other profiles.",
+      "D. Disable the \"View All\" permission on all other profiles."
+    ],
+    "answer": "A,D",
+    "title": "Question 15",
+    "explanation": "Explanation\n Disabling \"Grant Access Using Hierarchies\" and disabling the \"View All\" permission on all other profiles are two options that would ensure access only to the record owner and the administrator for a custom object with private sharing settings. Disabling \"Grant Access Using Hierarchies\" would prevent users above the record owner in the role hierarchy from accessing the record. Disabling the \"View All\" permission on all other profiles would prevent users with other profiles from accessing all records of that object. Disabling the\n \"Create\" permission on all other profiles would prevent users with other profiles from creating new records of that object, but not from accessing existing ones. Disabling the \"Read\" permission on all other profiles would prevent users with other profiles from accessing any record of that object, but also prevent them from creating or modifying records."
+  },
+  {
+    "content": "Universal Containers has a customer that meets criteria for two Enterprise territory Management territories (Portugal and Southern Europe).\nWhat is necessary to assign opportunities to a territory for this account?",
+    "options": [
+      "A. Create a criteria-based sharing rule on the Opportunity to assign It to a territory.",
+      "B. Create a Process Builder Process that updates the Territory field on the Opportunity",
+      "C. The territory with the highest Territory Type Priority is automatically assigned to the Opportunity",
+      "D. Create an Apex class that implement. Filter-Based Opportunity Territory Assignment"
+    ],
+    "answer": "C",
+    "title": "Question 16",
+    "explanation": "Explanation\n To assign opportunities to a territory for an account that meets criteria for two Enterprise Territory Management territories, the territory with the highest Territory Type Priority is automatically assigned to the opportunity. This is how Salesforce resolves conflicts when an account matches multiple territories. Creating a criteria-based sharing rule or a Process Builder process will not work, as they do not affect the territory assignment. Creating an Apex class that implements Filter-Based Opportunity Territory Assignment will not work, as it is only applicable for accounts that do not match any territory"
+  },
+  {
+    "content": "...From customers on company Issued desktops and uses case object to track customer issues and grievances.\nThe company would like to capture\nimages of customer site captured by field consultants while they are editing the case record during customer site visit. The Director of IT wants to minimize customization and promote reusability of code artifacts wherever possible, what recommendations should an architect give to the company to implement the image capture requirement, while ensuring customer that the service rep can continue to use same lightning pages they were trained to use?",
+    "options": [
+      "A. So Use Lightning Component as an override for \"Edit\" action on lightning experience allowing image capture feature. Detect the form factor of the device and redirect the user to the default not overridden view.",
+      "B. Create 4 separate button \"Edit in Mobile\", which opens & custom lightning component that will allow field consultants to add an image. No change required for desktop users.",
+      "C. Use Lightning Component as an override for \"Edit'' action on mobile view allowing image capture feature. No Change required for desktop users."
+    ],
+    "answer": "C",
+    "title": "Question 17",
+    "explanation": "Explanation\n Using a lightning component as an override for the \"Edit\" action on mobile view would allow field consultants to capture images while editing the case record, without affecting the desktop users. Using a lightning component as an override for the \"Edit\" action on lightning experience would affect both mobile and desktop users, which is not desirable. Creating a separate button for \"Edit in Mobile\" would require additional customization and user training."
+  },
+  {
+    "content": "Universal Containers has a Performance Feedback custom object (Private organization-wide default) used by customers to report any Issues with delivery drivers. Feedback should not be visible to the driver, but any feedback records should be accessible to people above them in the Role Hierarchy, even when the driver changes managers. Assuming managers have Read access to the Feedback object, which three steps are necessary to solve these requirements?",
+    "options": [
+      "A. Remove Read permission on the Driver profile, have feedback ownership transferred to the driver's manager when feedback Is submitted, and use the Role Hierarchy to give access to a driver's manager.",
+      "B. Remove Read permission on the Driver profile, have feedback ownership transferred to the driver when feedback is submitted, and use the Role Hierarchy to give access to 4 driver's manager.",
+      "C. Remove Read permission on the Driver profile, have feedback ownership transferred to the driver when feedback is submitted, and create an ownership-based sharing rule,"
+    ],
+    "answer": "C",
+    "title": "Question 18",
+    "explanation": "Explanation\n Removing Read permission on the Driver profile will prevent the driver from seeing any feedback records, regardless of ownership. Having feedback ownership transferred to the driver when feedback is submitted will not prevent the driver from seeing their own feedback records. Using the Role Hierarchy to give access to a driver's manager will not work if the driver changes managers, as the feedback records will still be owned by the previous manager. The best option is to create an ownership-based sharing rule that grants Read access to the feedback records owned by drivers in a specific role or public group to users in roles above them"
+  },
+  {
+    "content": "Universal Containers has selected a small and diverse group of users to review Inactive accounts. Given the Private sharing model, a public group was created and made available to this group of users. A sharing rule was created to make inactive Accounts visible to the public group. However, some of these users are reporting they don't see any of the Accounts that were shared with the public group.\nwhat is the underlying Issue for these users?",
+    "options": [
+      "A. The users are in profiles that have no access to the Account object.",
+      "B. The page layout assigned to these marts to different than the Account owner",
+      "C. The users have a permission set that only allow Accounts in \"Active' status.",
+      "D. The Accounts ire owned by users higher in the role hierarchy."
+    ],
+    "answer": "A",
+    "title": "Question 19",
+    "explanation": "Explanation\n The underlying issue for these users who don't see any of the accounts that were shared with the public group is that they are in profiles that have no access to the Account object. If a user does not have Read permission on an object in their profile or permission set, they cannot access any records of that object, regardless of any sharing rules or manual sharing. The page layout assigned to these users does not affect their record visibility, only their field visibility and layout. The permission set that only allows accounts in Active status does not affect their record visibility, only their record filtering. The accounts being owned by users higher in the role hierarchy does not affect their record visibility, as sharing rules can grant access to records owned by any user in any role."
+  },
+  {
+    "content": "What should a Salesforce architect recommend to make sure that users that gained access to a custom of sharing do not lose access to it when its owner is changed?",
+    "options": [
+      "A. Create a specific Sharing Reason for the custom object.",
+      "B. Use ''runAS'' system method in Apex classes to enforce record visibility.",
+      "C. Create a new record in_Share object with RowCause ''Manual''",
+      "D. Use ''With Sharing'' keyword to make sure record visibility will be considered"
+    ],
+    "answer": "A",
+    "title": "Question 20",
+    "explanation": "Explanation\n Creating a specific Sharing Reason for the custom object is the best way to make sure that users that gained access to a custom object do not lose access to it when its owner is changed. Sharing Reasons are labels that identify why users or groups have access to records. They are used in Apex managed sharing, which allows developers to programmatically create and maintain sharing rules1. Using ''runAS'' system method in Apex classes to enforce record visibility, creating a new record in_Share object with RowCause ''Manual'', and using ''With Sharing'' keyword to make sure record visibility will be considered are not ways to prevent losing access when the owner changes."
+  },
+  {
+    "content": "Universal Containers has a custom object, Employee Review, with an Organization-Wide Default security setting of Private. A user lookup on the Employee Review object is populated when a reviewer is assigned to perform a review. How can this user be granted edit access to the record if they are not the owner?",
+    "options": [
+      "A. The user will be granted access to the record automatically when the user lookup is populated.",
+      "B. Create a workflow rule to share the Employee Review record with the user in the lookup field.",
+      "C. Create an Apex trigger to insert an Employee Review Share record with an access level of Edit.",
+      "D. Create a criteria-based sharing rule to share the record with the user in the lookup field."
+    ],
+    "answer": "C",
+    "title": "Question 21",
+    "explanation": "Explanation\n The user can be granted edit access to the record if they are not the owner by creating an Apex trigger to insert an Employee Review Share record with an access level of Edit. This is a programmatic way of extending sharing access to a specific user based on a lookup field."
+  },
+  {
+    "content": "Assuming granular locking is enabled, what activity can happen in parallel to changing a community account owner without risking group membership lock errors?",
+    "options": ["A. Deletion of a Role", "B. Creation of a Role", "C. Creation of a Territory", "D. Deletion of a Territory"],
+    "answer": "C",
+    "title": "Question 22",
+    "explanation": "Explanation\n Creating a territory is an activity that can happen in parallel to changing a community account owner without risking group membership lock errors, assuming granular locking is enabled. Granular locking is a feature that allows for concurrent sharing operations on different objects or groups, reducing lock contention and improving performance. Deletion or creation of a role is an activity that can cause group membership lock errors, as it affects the role hierarchy and all the groups that are associated with it. Deletion of a territory is also an activity that can cause group membership lock errors, as it affects the territory hierarchy and all the groups that are associated with it"
+  },
+  {
+    "content": "A banking company wants their customers Date of Birth Field searchable by Banking Reps, but only editable by Customer Support Reps.\nWhich approach is recommended to meet this requirement?",
+    "options": [
+      "A. Create a Validation rule in the Data of Birth field so the rule returns true only when user.profilename matches Customer Support Rep.",
+      "B. Set the Fled Level Security for the Date of Birth field to be Visible to Customer Support Rep Profile, and set the Date of Birth Field Visible and Read-only to Banking Rep profile.",
+      "C. Add Date of Birth field to the Search layout of the Contact Object. Modify the Page layout assigned to Customer Support Rep and add Date of Birth field as Required."
+    ],
+    "answer": "B",
+    "title": "Question 23",
+    "explanation": "Explanation\n Setting the Field Level Security for the Date of Birth field to be Visible to Customer Support Rep Profile, and set the Date of Birth Field Visible and Read-only to Banking Rep profile is the best approach to meet this requirement, as it allows admins to control who can see and edit a specific field on an object. Creating a Validation rule in the Data of Birth field so the rule returns true only when user.profilename matches Customer Support Rep will work, but it will require additional logic and error handling. Adding Date of Birth field to the Search layout of the Contact Object and modifying the Page layout assigned to Customer Support Rep and adding Date of Birth field as Required will not work, as it will only affect how the field is displayed and searched, not who can edit it."
+  },
+  {
+    "content": "When you make changes to roles and groups Salesforce locks the entire group membership table, which makes it impossible to process group changes in multiple threads to increase throughput on updates.",
+    "options": [],
+    "answer": "",
+    "title": "Question 24",
+    "explanation": "Granular Locking\n Explanation\n The term that describes the situation when you make changes to roles and groups Salesforce locks the entire group membership table is Granular Locking. Granular Locking is a feature that improves the concurrency and performance of sharing operations by locking only the affected nodes in the role or territory hierarchy, instead of locking the entire hierarchy. This allows multiple sharing operations to run in parallel without causing lock contention or blocking each other."
+  },
+  {
+    "content": "A user at Universal Containers would like to give access to a Report folder to someone else in the organization.\nWhich two access permissions should the user have to support this requirement?\nChoose 2 answers.",
+    "options": [
+      "A. The \"Viewer\" Report folder permission",
+      "B. The \"Editor\" Report folder permission.",
+      "C. The \"Manage Reports in Public Folders\" Profile permission.",
+      "D. The \"Manager\" Report folder permission."
+    ],
+    "answer": "C,D",
+    "title": "Question 25",
+    "explanation": "Explanation\n To give access to a report folder to someone else in the organization, the user needs to have the \"Manage Reports in Public Folders\" profile permission and the \"Manager\" report folder permission. The \"Viewer\" and\n \"Editor\" report folder permissions only allow the user to view or edit the reports in the folder, but not to share the folder with others"
+  },
+  {
+    "content": "Universal Containers (UC) has a business unit that uses a custom object to track requests which demands a high level of internal team collaboration. Although all requests must have an owner, all employees are required to collaborate on requests.\nWhich recommendation should a Salesforce architect provide to optimize the solution and meet these requirements?",
+    "options": [
+      "A. Set the Request object's OWD to Public Read/Write.",
+      "B. Set the Request object's OWD to Private and grant Modify All Data permission on all Profiles for the Request object.",
+      "C. Set the Request object's OWD to Private and criteria-based sharing rule to share all Request records with all internal users.",
+      "D. Set the Request object's OWD to Public Read Only and configure role hierarchy."
+    ],
+    "answer": "A",
+    "title": "Question 26",
+    "explanation": "Explanation\n Setting the Request object's OWD to Public Read/Write is the simplest and most efficient way to allow all employees to collaborate on requests. Option B is incorrect, since granting Modify All Data permission on all profiles would give too much access and affect other objects as well. Option C is incorrect, since creating a criteria-based sharing rule to share all records with all users would be redundant and inefficient. Option D is incorrect, since setting the OWD to Public Read Only would not allow users to edit requests3."
+  },
+  {
+    "content": "Universal Containers (UC) delivers training and courses to students and companies. UC is implementing a Salesforce Customer Community for its students granting them a Customer Community license. As part of the community requirements, UC asked to give students access to cases that are related to their account in the UC community.\nWhat is the optimum sharing technique that can achieve the requirements?",
+    "options": [
+      "A. Create a sharing rule to share cases with the students.",
+      "B. Create a share group to share cases with the students.",
+      "C. Create a sharing set to share cases with the students.",
+      "D. Use Apex sharing to share cases with the students."
+    ],
+    "answer": "C",
+    "title": "Question 27",
+    "explanation": "Explanation\n A sharing set is the best way to share cases with community users based on a common account. Sharing sets are available for Customer Community licenses and can grant access to related records using predefined criteria. Option A is incorrect, since sharing rules are not available for community users. Option B is incorrect, since there is no such thing as a share group in Salesforce. Option D is incorrect, since Apex sharing is complex and requires code maintenance"
+  },
+  {
+    "content": "Which two access grants are stored in the Group Maintenance tables?\nChoose 2 answers",
+    "options": ["A. Inherited access grants", "B. Explicit grants", "C. Group Membership grants", "D. Implicit grants"],
+    "answer": "A,C",
+    "title": "Question 28",
+    "explanation": "Explanation\n Inherited access grants and group membership grants are two types of access grants that are stored in the group maintenance tables. These tables store information about which users belong to which groups (group membership grants) and which groups inherit access from which groups (inherited access grants). Explicit grants and implicit grants are not stored in the group maintenance tables, but in other tables such as share tables and role hierarchy tables."
+  },
+  {
+    "content": "Universal Containers (UC) has 200 distributors that use Partner Community Licenses.\nPartners cannot see each other's data, but UC is also trying to give more visibility to certain individuals at a distributor. Which scalable solution would an architect recommend that will give users in the partner manager role access to all Case and Container records owned byother partner managers and partner users (but not the partner executive) at the same distributor?",
+    "options": [
+      "A. Create Sharing sets.",
+      "B. Create a permission set granting the View All permission to Case and Container records.",
+      "C. Give Super User permission to the partner manager users.",
+      "D. Create ownership-based sharing rules for your distributors."
+    ],
+    "answer": "D",
+    "title": "Question 29",
+    "explanation": "Explanation\n Ownership-based sharing rules are a way to grant access to records based on the record owner's role or public group membership. Ownership-based sharing rules can be used to share records with Partner Community users, who are not supported by sharing sets. In this case, ownership-based sharing rules can be used to share Case and Container records owned by partner managers and partner users with other partner managers at the same distributor. Therefore, the answer D is correct and the other options are incorrect ."
+  },
+  {
+    "content": "Universal Containers has requirement to integrate Salesforce with an external system to control record access.\nWhat option should the Architect consider when designing a solution?",
+    "options": [
+      "A. Use the Security API to modify the role hierarchy in Salesforce.",
+      "B. Use the SOAP API to maintain the related SObject_share records.",
+      "C. Use the Metadata API to maintain the related SObject records.",
+      "D. Use the SOAP API to create new Criteria-Based Sharing Rules in Salesforce."
+    ],
+    "answer": "B",
+    "title": "Question 30",
+    "explanation": "Explanation\n The option that the architect should consider when designing a solution is using the SOAP API to maintain the related SObject_share records. This option allows Universal Containers to integrate Salesforce with an external system to control record access programmatically by creating or updating sharing records for each SObject. The Security API does not exist in Salesforce, and the Metadata API cannot be used to maintain SObject records or create new criteria-based sharing rules"
+  },
+  {
+    "content": "The sales manager in Japan have asked the sales manager in Australia to assist them with closing their deals.\nHow are these requirements achieved?",
+    "options": [
+      "A. Use sharing set to give the sales manager access to the deals.",
+      "B. Create ownership-based sharing rule.",
+      "C. Use opportunity teams to automatically add the sales manager as a team member.",
+      "D. Assign the sales manager View All on the opportunity object."
+    ],
+    "answer": "B",
+    "title": "Question 31",
+    "explanation": "Explanation\n Creating an ownership-based sharing rule is the best way to achieve the requirements. Ownership-based sharing rules allow administrators to automatically grant access to records owned by certain users or roles to other users or roles2. This way, the sales manager in Australia can access the deals owned by the sales manager in Japan. Using sharing set, using opportunity teams, and assigning View All on the opportunity object are not options that can achieve the same result."
+  },
+  {
+    "content": "Universal Containers (UC) has a team that analyzes customer orders looking for fraud. This team needs access to Invoice records (Custom object, Private OWD). UC \\as complex rules to control users' access. The Salesforce Architect recommended using Apex managed sharing to meet these requirements.\nWhich two recommendations should a Salesforce Developer consider when implementing the changes7 Choose 2 answers",
+    "options": [
+      "A. Use \"With Sharing\" keyword to make sure record visibility will always be considered.",
+      "B. Use \"Without Sharing\" keyword to make sure record visibility will be considered.",
+      "C. Use runAs system method to test different users accessing these records.",
+      "D. Use \"With Sharing\" keyword to enforce field-level security."
+    ],
+    "answer": "A,C",
+    "title": "Question 32",
+    "explanation": "Explanation\n To implement Apex managed sharing, a Salesforce Developer should consider using the with Sharing keyword and the runAs system method. The with Sharing keyword ensures that the Apex class respects the record visibility rules of the current user context, which can help prevent unauthorized access to records that are not shared with the user1. The runAs system method allows testing the code as different users with different profiles and permissions, which can help verify that the sharing logic is working as expected2."
+  },
+  {
+    "content": "Universal Containers (UC) has a private Organization-Wide Defaults (OWD) model for the Account object and needs to control the access of records and fields according to these requirements:\n* Sales reps can view/edit only their own records and cannot access the field \"segment\" in account page.\n* Service reps need to view all accounts but cannot edit any information.\n* Sales managers can modify any account of reps reporting to them.\n* Service managers can modify any account.\nHow can a Salesforce architect provide an optimal solution for this scenario?",
+    "options": [
+      "A. Use profiles, sharing rules, and change OWD to public read-only.",
+      "B. Use profiles, manual sharing, and field-level security.",
+      "C. Use profiles, permission sets, and field-level security.",
+      "D. Use profiles, permission sets, role hierarchy, and field-level security."
+    ],
+    "answer": "D",
+    "title": "Question 33",
+    "explanation": "Explanation\n Profiles and Permission Sets can be used to control the object-level and field-level access for different types of users. For example, sales reps can have read/write access to Account object but not to the segment field, while service reps can have read-only access to Account object and all fields. Role Hierarchy can be used to control the record-level access for users based on their position in the organization. For example, sales managers can access and modify any account of reps reporting to them, while service managers can access and modify any account regardless of ownership. Field-Level Security can be used to override the profiles and permission sets for specific fields on specific records. For example, service managers can edit the segment field on any account, even if their profile does not allow it. Therefore, the answer D is correct and the other options are incorrect3"
+  },
+  {
+    "content": "Universal Containers regularly uploads large amounts of parent and child records into Salesforce to maintain integrations with other systems that update their date in scheduled batches or continuously in real time. Which two situations may pose a risk of producing locking errors? Choose 2 answers.",
+    "options": [
+      "A. Updates to child records that have the same parent records are being processed simultaneously in separate transactions.",
+      "B. Updates to parent and child records are being processed in the same batch.",
+      "C. Updates to parent records and their child records being processed simultaneously in separate threads.",
+      "D. Updates to parent and child records are being processed synchronously in the same threads."
+    ],
+    "answer": "A,C",
+    "title": "Question 34",
+    "explanation": "Explanation\n Updates to child records that have the same parent records being processed simultaneously in separate transactions and updates to parent records and their child records being processed simultaneously in separate threads may pose a risk of producing locking errors. These situations may cause concurrency issues and result in record locking exceptions. Updates to parent and child records being processed in the same batch or synchronously in the same thread are less likely to cause locking errors as they are processed sequentially."
+  },
+  {
+    "content": "A dummy user at Universal Containers owns more that 10,000 lead records. The system assigned all these leads to a dummy user. This is causing performance issues whenever role hierarchy changes. Which two options should be recommended to improve performance?\nChoose 2 answers.",
+    "options": [
+      "A. Assign ownership to a small number of users.",
+      "B. Add the dummy user into a public group.",
+      "C. Add the dummy user to the bottom of the role hierarchy.",
+      "D. Do not assign a role to the dummy user."
+    ],
+    "answer": "A,D",
+    "title": "Question 35",
+    "explanation": "Explanation\n To improve performance when a dummy user owns more than 10,000 lead records, it is recommended to assign ownership to a small number of users and do not assign a role to the dummy user. Assigning ownership to a small number of users reduces the number of sharing calculations and recalculations that occur when role hierarchy changes. Not assigning a role to the dummy user prevents the dummy user from granting access to other users in the role hierarchy"
+  },
+  {
+    "content": "Universal Containers (UC) delivers training in 500 different regions. The UC Operations Users team manage course setup, scheduling, and trainer setup. The Operations Users team members work at a regional level and report to an Operations manager. The Operations manager requested access to edit ALL scheduled courses owned by the Operation Users team.\nHow can this be achieved?",
+    "options": [
+      "A. The Operations manager will get access to the scheduled courses by granting the Operations manager modify ALL on scheduled courses.",
+      "B. The Operations manager will get access to the scheduled courses owned by the Operations Users team defined in the role hierarchy.",
+      "C. The Operations manager will get access to the scheduled courses by creating an ownership-based sharing rule and share the scheduled courses with the Operations manager.",
+      "D. The Operations manager will get access to the scheduled courses by creating a public group and add the Operations manager and the Operations Users team to the public group"
+    ],
+    "answer": "B",
+    "title": "Question 36",
+    "explanation": "Explanation\n Role hierarchy is a way to grant access to records based on the user's position in the organization. Users higher in the role hierarchy can access and edit records owned by users lower in the role hierarchy, unless the Grant Access Using Hierarchies option is disabled for a specific object. In this case, the Operations manager can access and edit all scheduled courses owned by the Operations Users team members who report to them in the role hierarchy. Therefore, the answer B is correct and the other options are incorrect"
+  },
+  {
+    "content": "Sales operations at Universal Containers (UC) has created Public Reports and Dashboards folders for sales managers. Sales operations and salts managers' report to the VP of Sates. Sales operations currently spends a few hours each month updating users mat should have access to edit reports and dashboards in these folders.\nHow should UC grant access to sales managers to automate access to these Public Reports and Dashboard folder?",
+    "options": [
+      "A. Share the folders with the Sales Managers profile.",
+      "B. Share the folders with a \"Sales Managers\" Public\n         Group.",
+      "C. Share the folders with the lowest rates in the Role Hierarchy; superiors will get access automatically."
+    ],
+    "answer": "A",
+    "title": "Question 37",
+    "explanation": "Explanation\n Sharing the folders with the Sales Managers profile is the best way to grant access to sales managers to automate access to these Public Reports and Dashboard folder, as it allows admins to share folders with users who have a specific profile4. Sharing the folders with a \"Sales Managers\" Public Group will work, but it will require manual maintenance and may not reflect changes in roles or positions. Sharing the folders with the lowest rates in the Role Hierarchy will not work, as folders cannot be shared with roles or subordinates."
+  },
+  {
+    "content": "Universal Container (UC) wants all full-time internal employees to be able to view all leads. A subset of employees should also be able to see leads.\nWhich organization default (OWD) approach should an architect recommend that will help US implement these requirement?",
+    "options": [
+      "A. Implement a Public Read/write OWD on Lead",
+      "B. Implement a Public Read only OWD on Lead",
+      "C. Implement a Public Read/write/Transfer OWD on Lead.",
+      "D. Implement a Private OWD on Lead."
+    ],
+    "answer": "B",
+    "title": "Question 38",
+    "explanation": "Explanation\n Organization-wide defaults (OWD) are a way to set the baseline level of access for each object in the organization. OWD can be set to Private, Public Read Only, Public Read/Write, or Public Read/Write/Transfer for different objects. In this case, setting OWD to Public Read Only for Lead object will allow all full-time internal employees to view all leads, but not edit them. A subset of employees can be granted additional access to leads using other mechanisms such as profiles, permission sets, or sharing rules. Therefore, the answer B is correct and the other options are incorrect ."
+  },
+  {
+    "content": "Universal Containers has set Account Sharing to Private with Account Teams enabled. Which two user groups can add team members on the Account? Choose 2 answers",
+    "options": [
+      "A. The current Account Owner can add team members.",
+      "B. The user specified as the Manager on the Owner's User record",
+      "C. Someone above the Account Owner in the Role Hierarchy with read access",
+      "D. Any Account Team Member with read access on the Account"
+    ],
+    "answer": "A,C",
+    "title": "Question 39",
+    "explanation": "Explanation\n The user groups that can add team members on the Account are the current Account Owner and someone above the Account Owner in the Role Hierarchy with read access3. The user specified as the Manager on the Owner's User record and any Account Team Member with read access on the Account cannot add team members on the Account."
+  },
+  {
+    "content": "What advanced tool can Salesforce enable for Large-scale role hierarchy realignments?",
+    "options": [
+      "A. Set external organization-wide default to public read only",
+      "B. Skinny Table Indexing",
+      "C. Granular locking",
+      "D. Partitioning by Divisions"
+    ],
+    "answer": "C",
+    "title": "Question 40",
+    "explanation": "Explanation\n Granular locking is an advanced tool that Salesforce can enable for large-scale role hierarchy realignments.\n Granular locking allows finer-grained locking for certain operations that affect large data sets, such as bulk loading or updating. Granular locking can reduce the locking time and avoid performance issues when changing role hierarchy or ownership. Therefore, the answer C is correct and the other options are incorrect"
+  },
+  {
+    "content": "Universal Containers has the following requirements:\n* The Commercial Account and Consumer Account support departments should not collaborate.\n* The Commercial and Consumer sales users roll up to the same VP of Sales, but there should be no collaboration between sales departments.\n* The Commercial sales department should share its customers with the Commercial support department.\n* The Consumer sales department shares its customers with the Consumer support department.\n* The Commercial and Consumer support departments roll up to the same Support Director.\n* The sales departments will remain the Account Owner for the Accounts that they sell to.\nWhat is the recommended Org-Wide Sharing Default for Accounts, and how would the Architect enable proper Commercial and Consumer Sales to Support Account Sharing for this scenario?",
+    "options": [
+      "A. Private Account Sharing with Sharing Rules from Commercial Sales Role(s) to Consumer Support Role(s) and Consumer Sales Role(s) to Commercial Support Role(s).",
+      "B. Private Account Sharing with Sharing Rules from Commercial support Role(s) to Commercial Support Role(s) and Consumer Sales Role(s) to Consumer Support Role(s).",
+      "C. Read-Only Account Sharing with Sharing Rules from Commercial Sales Role(s) to Consumer Support Group(s) and Consumer Sales Role(s) to Commercial Support Groups(s).",
+      "D. Private Account Sharing with Sharing Rules from Commercial Sales Group(s) to Commercial Support Groups(s) and Consumer Sales Group(s) to Consumer Support Group(s)."
+    ],
+    "answer": "D",
+    "title": "Question 41",
+    "explanation": "Explanation\n Private Account Sharing with Sharing Rules from Commercial Sales Group(s) to Commercial Support Group(s) and Consumer Sales Group(s) to Consumer Support Group(s) is the recommended Org-Wide Sharing Default for Accounts and the way to enable proper Commercial and Consumer Sales to Support Account Sharing for this scenario. This way, the sales and support departments can share their customers with each other, but not with the other departments. The other options are incorrect because they either do not allow the sales and support departments to share their customers (A and B) or they allow too much access to the accounts."
+  },
+  {
+    "content": "Universal Containers (UC) has created a public group with certain Sales Engineers to help on complex deals and a sharing rule to grant access to these opportunities. Opportunity OWD is private.\nWhat is the impact of these sharing settings?",
+    "options": [
+      "A. Subordinates of Managers who have Sales Engineers in the public group will also have access to these records.",
+      "B. Sales Engineers that have a similar role of the Sales Engineers of the public group will also have access to these records.",
+      "C. Sales Engineers Managers and their managers in the role hierarchy will also have access to these records.",
+      "D. Sales Engineers direct reports will also have access to these records."
+    ],
+    "answer": "C",
+    "title": "Question 42",
+    "explanation": "Explanation\n The impact of these sharing settings is that Sales Engineers Managers and their managers in the role hierarchy will also have access to these records. This is because sharing rules extend access to users in public groups, roles, or territories. The access granted by a sharing rule is inherited by users above those users in the role hierarchy1. Subordinates of Managers who have Sales Engineers in the public group, Sales Engineers that have a similar role of the Sales Engineers of the public group, and Sales Engineers direct reports will not have access to these records unless they are explicitly granted by other means."
+  },
+  {
+    "content": "Universal Containers (UC) operates worldwide with offices in more than 100 regions in 10 different countries and has established a very complex role hierarchy to control data visibility. In the new fiscal year UC is planning to reorganize the roles and reassign accounts owners.\nWhich three features could an architect recommend to avoid problems on this operation? Choose 3 answers",
+    "options": [
+      "A. Partition data using Divisions",
+      "B. Deferred Sharing Recalculation",
+      "C. Parallel Sharing Rule recalculation",
+      "D. Skinny table",
+      "E. Granular Locking"
+    ],
+    "answer": "B,C,E",
+    "title": "Question 43",
+    "explanation": "Explanation\n Deferred Sharing Recalculation allows the admin to postpone the recalculation of sharing rules until a later time, which can improve performance and avoid locking issues when changing role hierarchy or ownership.\n Parallel Sharing Rule Recalculation allows the admin to run multiple sharing rule recalculations at the same time, which can also improve performance and reduce downtime. Granular Locking enables finer-grained locking for certain operations that affect large data sets, such as bulk loading or updating. These features can help avoid problems when reorganizing roles and reassigning account owners. Therefore, the answer B, C, and E are correct and the other options are incorrect"
+  },
+  {
+    "content": "Universal Containers has recently activated an integration that synchronizes customer information and orders into their CRM of choice: Salesforce.com. One of their largest customers, United Air, has over 12,000 unique contacts. Since the integration was activated, sales reps are having trouble adding contacts to the United Air account. When a sales rep adds a contact, they get the following error message: UNABLE_TO_LOCK_ROW, this issue seems to affect the United Air account and several other large customers. The sales rep can usually save the contact by trying again later in the evening. What should the Architect recommend as a possible solution?",
+    "options": [
+      "A. Add a role-based sharing rule so all sales team members have Read/Write access to contacts.",
+      "B. Remove sharing rules and replace them with Apex sharing for Unite Air and the other large accounts.",
+      "C. Implement an account hierarchy and redistribute the contacts evenly under the child accounts.",
+      "D. Create a permission set for the sales team to grant them Read/Write access to all account fields."
+    ],
+    "answer": "C",
+    "title": "Question 44",
+    "explanation": "Explanation\n Implementing an account hierarchy and redistributing the contacts evenly under the child accounts is a possible solution to avoid locking errors. This way, the contacts are not associated with a single parent account, and the integration can insert or update them without conflicting with other transactions. The other options do not address the root cause of the locking errors, which is the high number of child records under one parent record."
+  },
+  {
+    "content": "At Universal Containers, users should only see Accounts they or their subordinates own. All Accounts with the custom field \"Kay Customer\" should be visible to all Senior Account Managers. There is a custom field on the Account record that contains sensitive information and should be hidden from all users, except 3 designated users who require view and edit access. These three users come from different user groups, and will change occasionally. Which three platform security features are required to support these requirements with the minimum amount of effort?\nChoose 3 answers",
+    "options": [
+      "A. Criteria-Based Sharing Rules",
+      "B. Owner-Based Sharing Rules",
+      "C. Role Hierarchy",
+      "D. Apex Managed Sharing",
+      "E. Permission Sets"
+    ],
+    "answer": "A,C,E",
+    "title": "Question 45",
+    "explanation": "Explanation\n To support the requirements with the minimum amount of effort, three platform security features that are required are criteria-based sharing rules, role hierarchy, and permission sets. Criteria-based sharing rules can be used to share all accounts with the custom field \"Kay Customer\" to all senior account managers based on a filter condition. Role hierarchy can be used to grant access to accounts that users or their subordinates own based on the ownership and role level. Permission sets can be used to grant view and edit access to the custom field that contains sensitive information to the three designated users, regardless of their user groups or profiles"
+  },
+  {
+    "content": "Universal Containers is a fast-growing company that sells containers globally. It has thousands of dealerships throughout the world where local dealers service Containers sold locally. They recently opened two dealerships in California: NorthCal and SoCal. Universal Containers implemented a new partner community to enable their dealers. Each dealership has a dealer Manager who has all service agents report into them.\nAssuming a private sharing model, what is the best option to enable dealer managers to have visibility to customer cases within their dealership and not across all dealerships?",
+    "options": [
+      "A. Create sharing groups that share all cases to all agents under the Dealer manager.",
+      "B. Create a batch job that creates sharing rules as needed, based on the cases created.",
+      "C. Build a trigger that create manual sharing of cases as needed whenever a new case is created.",
+      "D. No changes are needed to the sharing and visibility model to implement this requirement."
+    ],
+    "answer": "D",
+    "title": "Question 46",
+    "explanation": "Explanation\n No changes are needed to the sharing and visibility model to implement this requirement, as partner community users can only see cases that belong to their own account by default."
+  },
+  {
+    "content": "Universal Containers uses 75,000 distributors that have close to 1 million total users. Distributors need opportunities assigned to their distributor for delivery.\nWhat license recommendation will meet distributor needs?",
+    "options": ["A. Sales Cloud", "B. Customer Community Plus", "C. Partner Community", "D. Custom Community"],
+    "answer": "C",
+    "title": "Question 47",
+    "explanation": "Explanation\n To meet the distributor needs, a Salesforce Architect should recommend using Partner Community licenses. Partner Community licenses are designed for external users who need access to standard CRM objects, such as accounts, contacts, opportunities, and cases3. Partner Community users can also collaborate with internal users and other partners through Chatter and Communities4. Sales Cloud licenses are for internal users who need full access to standard CRM and custom objects. Customer Community Plus licenses are for external users who need access to custom objects and a subset of standard CRM objects, such as accounts and contacts. Custom Community licenses are for external users who need access to custom objects only"
+  },
+  {
+    "content": "Sales Reps at Universal Containers sometimes create large files as a part of the Sales process that are too large to share over email. They would like users to be able to share files with customers, but the CISO has requested that any file links shared must be protected by a password.\nHow can this be accomplished?",
+    "options": [
+      "A. Set up an experience cloud site for customers to access files. Share the file with customers via chatter.\n         Customers can then log into the site to access the content.",
+      "B. Sales reps can create a content delivery. During creation, the user should select the option to require a password to access content.",
+      "C. Utilize an AppExchange product for delivering password-protected files to their customers,"
+    ],
+    "answer": "B",
+    "title": "Question 48",
+    "explanation": "Explanation\n Content delivery is a feature that allows users to share files with customers and protect them with a password.\n Setting up an experience cloud site would require additional configuration and licensing. Utilizing an AppExchange product would introduce a dependency on a third-party solution."
+  },
+  {
+    "content": "Universal containers (UC) has a partner community for its 200 distributors. UC customer accounts are ..\norganization-wide default setting for the custom Delivery object is private.\nHow can an architect advise UC to grant all users at a distributor access to delivery records for all customer distributor?",
+    "options": [
+      "A. Create a Sharing set for the Distributor profile to grant access to the Delivery object.",
+      "B. Create a criteria-based sharing rule that shares delivery records matching the Distributor to user distributor.",
+      "C. Give ownership of the delivery record to a distributor user.",
+      "D. Create a criterion- based sharing rule that shares delivery records matching the Distributor to users of a Public Group created for the distributor."
+    ],
+    "answer": "A",
+    "title": "Question 49",
+    "explanation": "Explanation\n Creating a Sharing set for the Distributor profile to grant access to the Delivery object is the correct way to share records with users in a partner community. Sharing sets allow you to share records based on a common account or contact2. Criteria-based sharing rules are not available for partner communities3."
+  },
+  {
+    "content": "Susan posts a file to the Chatter feed for a record of an object.\nWhich two statements accurately describe who can view the file by default?",
+    "options": [
+      "A. Susan and users with a shared Chatter post for the file.",
+      "B. Susan and users with the View all Data permission.",
+      "C. Susan and users with access to the record.",
+      "D. Susan only"
+    ],
+    "answer": "B,C",
+    "title": "Question 50",
+    "explanation": "Explanation\n According to this source, users with the View All Data permission can view any file in the org, and users with access to the record can view files posted to that record's Chatter feed. The other options are not accurate."
+  },
+  {
+    "content": "A sales rep at Universal Containers (UC) has manually shared an Opportunity record with internal Pre-Sales users. After some time, the sales rep moved to another position and all opportunities records that were owned were transferred to a new sales rep. What happened to the internal Pre-Sales users' access to the opportunity?",
+    "options": [
+      "A. They still have access to the record due to inherited sharing.",
+      "B. They still have access to the record due to implicit sharing.",
+      "C. They will no longer have access to the record.",
+      "D. They still have access to the record due to team access."
+    ],
+    "answer": "C",
+    "title": "Question 51",
+    "explanation": "Explanation\n The internal Pre-Sales users will no longer have access to the opportunity after the ownership transfer, since manual sharing is removed when a record owner changes. Option A is incorrect, since inherited sharing does not apply to manual sharing. Option B is incorrect, since implicit sharing does not apply to internal users.\n Option D is incorrect, since team access does not apply to manual sharing."
+  },
+  {
+    "content": "Universal Containers would like to create a custom team solution that can be used on a custom Loan object.\nThe following requirements must be met:\nThe Loan custom object should be set to Private in the Org-Wide Defaults.\nAny user added to the Custom Team object should have Read Only access to the corresponding Loan record.\nIf the Custom Team record is marked as \"Primary\" then the corresponding user should have Read/Edit access to the corresponding Loan record.\nWhich two methods will allow the Architect to meet the requirements?\nChoose 2 answers.",
+    "options": [
+      "A. Create a custom trigger on the Custom Team object that inserts or updates records in the Loan_share object.",
+      "B. Create a criteria-based sharing rule on the Loan object that will share the Loan record with the appropriate user in the Custom Team object.",
+      "C. Create Apex Sharing Reasons on the Loan object to identify the reason the Loan record was share.",
+      "D. Create an owner-based sharing rule on the Custom Team object that will share the Loan record to the owner of the Custom Team record."
+    ],
+    "answer": "A,C",
+    "title": "Question 52",
+    "explanation": "Explanation\n Two methods that will allow the architect to meet the requirements for creating a custom team solution on the custom Loan object are creating a custom trigger on the Custom Team object that inserts or updates records in the Loan_share object, and creating Apex Sharing Reasons on the Loan object to identify the reason the Loan record was shared. The custom trigger can use Apex Managed Sharing to grant Read Only or Read/Edit access to the Custom Team members based on the Primary field value. The Apex Sharing Reasons can be used to distinguish between different types of sharing and provide more granular control over access"
+  },
+  {
+    "content": "Universal Containers uses Person Accounts to represent retail customers and Business Accounts to represent commercial customers. The retail sales team should not have access to commercial customers but should have access to ALL retail customers.\nWith the organization-wide default on Account set to Private, how should the architect meet these requirements?",
+    "options": [
+      "A. Create an owner-based sharing rule on AccountContactRelation to grant a@coess to all account contact roles records owned by retail sales reps.",
+      "B. Update the Retall Sales profile to grant access to Person Account record type.",
+      "C. Create o criteria-based sharing rule giving the Retail Sales role access to Accounts of type PersonAccount."
+    ],
+    "answer": "C",
+    "title": "Question 53",
+    "explanation": "Explanation\n Creating a criteria-based sharing rule giving the Retail Sales role access to Accounts of type PersonAccount is the best option to meet these requirements, as it will grant access to all retail customers based on a field value, regardless of ownership2. Creating an owner-based sharing rule on AccountContactRelation will not work, as it will only grant access to account contact roles records owned by retail sales reps, not all retail customers.\n Updating the Retail Sales profile to grant access to Person Account record type will not work, as it will only control the record type visibility, not the record visibility."
+  },
+  {
+    "content": "Dreamforce presenters need to be able to edit their presentation details (summary, presenter biographies, etc) on a private custom object in Salesforce (Presentation). All presenters for a presentation are captured on a Presenters juction object between Presenter and User.\nHow can this be accomplished?",
+    "options": [
+      "A. Trigger on Presenter junction object that adds the user to the Sales Team for the Presentation record.",
+      "B. Give Edit rights to the Presentation record via a Permission set that is given to the Presenters for a record.",
+      "C. Trigger on Presenter junction object that uses Apex Managed sharing to add or remove access to the related Presentation record."
+    ],
+    "answer": "C",
+    "title": "Question 54",
+    "explanation": "Explanation\n Adding the user to the Sales Team for the Presentation record will not work, as Sales Teams are only available for standard objects, not custom objects. Giving Edit rights to the Presentation record via a Permission set will not work, as Permission sets are assigned to users, not records. The best option is to use a trigger on Presenter junction object that uses Apex Managed sharing to add or remove access to the related Presentation record based on the junction object records."
+  },
+  {
+    "content": "Universal Containers would like to restrict users' access to export reports What option supports this requirement?",
+    "options": [
+      "A. Remove the \"Report Manager\" user permission.",
+      "B. Remove the Export button from the report page layout.",
+      "C. Remove \"Allow Export\" on the report folder settings.",
+      "D. Remove the \"Export Reports\" profile permission."
+    ],
+    "answer": "B",
+    "title": "Question 55",
+    "explanation": "Explanation\n The option that supports this requirement is B. To restrict users' access to export reports, the administrator can remove the \"Export Reports\" user permission from their profile or permission set. The \"Report Manager\" user permission is not related to exporting reports, but to creating and managing report folders."
+  },
+  {
+    "content": "Which two reasons should the Architect consider regarding the use of Apex Sharing Reasons?\nChoose 2 answers",
+    "options": [
+      "A. Ensuring the developer can more easily troubleshoot programmatic sharing.",
+      "B. Ensuring the Share record is not deleted upon ownership change.",
+      "C. Ensuring the Share record is deleted upon ownership change.",
+      "D. Ensuring there is additional criteria available for Criteria-Based Sharing."
+    ],
+    "answer": "A,B",
+    "title": "Question 56",
+    "explanation": "Explanation\n The two reasons that the architect should consider regarding the use of Apex sharing reasons are A and B.\n Option A allows the developer to more easily troubleshoot programmatic sharing, as they can identify which sharing records are created by which Apex code. Option B prevents the share record from being deleted upon ownership change, as Apex sharing reasons are not subject to recalculation by Salesforce. The other options are either incorrect or irrelevant."
+  },
+  {
+    "content": "Universal Containers has Controlled by Parent sharing settings on the Contact object and Public Read Only sharing settings on Account, Opportunity, and Case objects. Which two options can the user see while adding Account team members to the Account?",
+    "options": ["A. Case Access", "B. Opportunity Access", "C. Contact Access", "D. Activity Access"],
+    "answer": "A,B",
+    "title": "Question 57",
+    "explanation": "Explanation\n Two options that the user can see while adding account team members to the account are case access and opportunity access. This is because these are the two objects that have public read only sharing settings and allow users to specify different levels of access for account team members. Contact access and activity access are not options because these objects have controlled by parent sharing settings and inherit their access from the account"
+  },
+  {
+    "content": "Universal Containers' organization wide-defaults model is private for the Account object. A sales repeats to opportunity records.\nWhich level of access will the sales rep have to the related account record?",
+    "options": ["A. No access", "B. Read/Create/Edit access", "C. Read/Create access", "D. Read-only access"],
+    "answer": "D",
+    "title": "Question 58",
+    "explanation": "Explanation\n The sales rep will have read-only access to the related account record. This is because the organization-wide default for the account object is private, which means that users can only access the accounts that they own or are shared with them. However, when a user has access to an opportunity, they also have implicit read-only access to the account associated with that opportunity1. This is called implicit sharing and it allows users to view the parent records of the child records they own or can access2. Therefore, the sales rep can view the account record related to the opportunity, but cannot create, edit, or delete it."
+  },
+  {
+    "content": "Universal Containers uses 75,000 distributors that have close to 1 million total users. Distributors need opportunities assigned to the distributor for delivery.\nWhat license recommendation will meet distributor needs?",
+    "options": ["A. Sales Cloud", "B. Customer Community Plus", "C. Partner Community", "D. Customer Community"],
+    "answer": "C",
+    "title": "Question 59",
+    "explanation": "Explanation\n The license recommendation that will meet distributor needs is Partner Community. Partner Community licenses are designed for users who are not employees of UC, but are part of their partner ecosystem, such as distributors, resellers, or suppliers. Partner Community users can access standard CRM objects such as accounts, contacts, leads, opportunities, cases, and campaigns. They can also collaborate with other partners and UC employees using Chatter and Communities. Sales Cloud licenses are for internal sales users who need full access to standard CRM and custom objects. Customer Community Plus licenses are for high-volume customers who need access to standard CRM objects and custom objects, but not opportunities. Customer Community licenses are for low-volume customers who need access only to custom objects and a subset of standard CRM objects."
+  },
+  {
+    "content": "Universal Container is creating a custom VF page to allow user to edit contact records. The developer has used an apex:outputField for the Phone field on the contact obj. What is the expected behavior if a user without FLS accesses the VF page?",
+    "options": [
+      "A. The user encounters an error while saving the record",
+      "B. The field is automatically removed from the page",
+      "C. The output field is visible to user",
+      "D. The user is able to enter a value into the phone field"
+    ],
+    "answer": "B",
+    "title": "Question 60",
+    "explanation": "Explanation\n The expected behavior if a user without FLS accesses the VF page is that the field is automatically removed from the page. This is because apex:outputField respects FLS settings and will not render any field that the user does not have read access to. The user will not encounter any error, see the output field, or enter any value into the phone field"
+  },
+  {
+    "content": "Universal containers (UC)service reps are assigned to a profile which ha View All in Case object (Private OWD). To make sure service reps have access to all relevant information to attend to customer requests, Which two details should leasable force Architects consider? Choose 2answers:",
+    "options": [
+      "A. Service reps will be able to access all UC contact records if they are controlled by parent.",
+      "B. Service reps will not be able to access all UC contact records if they are controlled by parent.",
+      "C. Service rep swill be able to access all the UC Account records due to Implicit Sharing.",
+      "D. Service reps will not be able to access all the UC Account records because Account OWD is private."
+    ],
+    "answer": "B,D",
+    "title": "Question 61",
+    "explanation": "Explanation\n Service reps will not be able to access all UC contact records if they are controlled by parent and service reps will not be able to access all UC account records because account OWD is private are two details that Salesforce Architects should consider in this scenario. Since service reps are assigned to a profile which has View All in Case object (Private OWD), they can access all case records regardless of ownership or sharing rules. However, this does not grant them access to related contact or account records, unless they have View All or Modify All permissions on those objects as well. If contact records are controlled by parent (account), their sharing settings will depend on the account OWD and sharing rules. If account OWD is private, service reps will only be able to access account records that they own or are shared with them. Implicit sharing does not apply to internal users. Option A and C are incorrect, since service reps will not be able to access all UC contact or account records due to the reasons explained above."
+  },
+  {
+    "content": "For the Universal Containers Commercial and Consumer support departments, having access to Activities for Contacts with which they interact is important. Commercial support users should not see Consumer Accounts/Contacts and Consumer support users should not see Commercial Accounts/Contacts. Assuming the Organization-Wide Default for Activities is set to \"Controlled by Parent\" what is the minimum level of Sharing access a support user would need to Accounts/Contacts to view associated Activities?",
+    "options": [
+      "A. Private Account/Contact Sharing Default with a Sharing Rule for each department set to Public Read/Write access to Accounts/Contacts.",
+      "B. Private Account/Contact Sharing Default with a Sharing Rule for each department set to Private access to Accounts/Contacts.",
+      "C. The users need no access to Accounts/Contacts with the proper Activity Sharing Rules and Profile Permissions for the Accounts Tab.",
+      "D. Private Account/Contact Sharing Default with a Sharing Rule for each department set to Public Read only access to Accounts/Contacts."
+    ],
+    "answer": "D",
+    "title": "Question 62",
+    "explanation": "Explanation\n If the organization-wide default for activities is controlled by parent, then the users need at least read-only access to the parent accounts and contacts to view the associated activities. A private sharing default with a sharing rule for each department that grants read-only access to the relevant accounts and contacts would meet this requirement. Public read/write access is not necessary and would violate the principle of least privilege.\n Private access would not allow the users to see any accounts or contacts outside their own role hierarchy. Activity sharing rules and profile permissions for the accounts tab are not relevant if the activities are controlled by parent"
+  },
+  {
+    "content": "The Architect at Universal Containers has created a List View to show all open Opportunities that were created in the last month, and would like to make this list view visible to certain groups of users. Which two options are available to the Architect for sharing the List View?",
+    "options": ["A. Public Groups", "B. Profiles", "C. Roles and Subordinates", "D. Manual Sharing"],
+    "answer": "A,C",
+    "title": "Question 63",
+    "explanation": "Explanation\n Public Groups and Roles and Subordinates are two options for sharing the List View with certain groups of users. Profiles and Manual Sharing are not valid options for sharing List Views"
+  },
+  {
+    "content": "Universal containers (UC) implemented a private organization-wide default for the Container and Case objects.\nHow can UC give support representatives access to Container and Case records owned by Customer Community users?",
+    "options": [
+      "A. Create an ownership-based sharing rule that gives access to the head of support role and internal subordinates",
+      "B. Create a criteria-based sharing rule that gives access to the head of support role and internal subordinates",
+      "C. Support representatives' nil automatically get access to these records via the role hierarchy",
+      "D. Create a Share Group based on the sharing set created for the Customer Community User Profile."
+    ],
+    "answer": "D",
+    "title": "Question 64",
+    "explanation": "Explanation\n Creating a Share Group based on the sharing set created for the Customer Community User Profile is the best way to give support representatives access to Container and Case records owned by Customer Community users. Share Groups are groups of users who have access to records based on a sharing set. Sharing sets are settings that grant community users access to records that have a lookup relationship to their user record1.\n Creating an ownership-based sharing rule, creating a criteria-based sharing rule, and relying on the role hierarchy are not options that can achieve the same result."
+  },
+  {
+    "content": "Universal Containers (UC) is implementing Sales Cloud. During the last quarter of the financial of the financial year, they requested a solution in Salesforce to allow them to specify an assistance agent on the opportunity. the assistance fields. The system should automatically remove access from the previous assistant and ..\nWhat is the optimum solution to meet the requirements?",
+    "options": [
+      "A. Use share group to share opportunities with the assistant agent.",
+      "B. Use opportunity team and create an assistant field, use apex to share opportunities with the assistant",
+      "C. Use sharing rule to share opportunities with the assistant agent.",
+      "D. Use apex sharing to share and unicast opportunities with the assistant agent."
+    ],
+    "answer": "B",
+    "title": "Question 65",
+    "explanation": "Explanation\n Using opportunity team and creating an assistant field, using Apex to share opportunities with the assistant agent is the optimum solution to meet the requirements. Opportunity teams are groups of users who work together on sales opportunities. By creating an assistant field on the opportunity object, the sales reps can specify an assistant agent who can help them with their deals. By using Apex, the system can automatically share the opportunity with the assistant agent based on the value of the assistant field, and remove access from the previous assistant if the field value changes. Option A is incorrect, since using share group to share opportunities with the assistant agent would require manual configuration and maintenance. Option C is incorrect, since using sharing rule to share opportunities with the assistant agent would not allow dynamic sharing based on the assistant field value. Option D is incorrect, since using Apex sharing to share and unshare opportunities with the assistant agent would be similar to option B, but without using opportunity teams."
+  },
+  {
+    "content": "Which two options are available to share a Report or Dashboard folder with other users in the Organization?\nChoose 2 answers",
+    "options": ["A. Profiles", "B. Public Groups", "C. Roles", "D. Teams"],
+    "answer": "B,C",
+    "title": "Question 66",
+    "explanation": "Explanation\n To share a report or dashboard folder with other users in the organization, you can use Public Groups or Roles4. Profiles and Teams are not available options for sharing folders."
+  },
+  {
+    "content": "Universal Containers is implementing a community of High-Volume Community users. Community users should be able to see records associated to their Account or Contact record. The Architect is planning to use a Sharing Set to provide access to the records. When setting up the Sharing Set, certain objects are not available in the list of Available Objects. Which two reasons explain why an object is excluded from the list of Available Objects in a Sharing Set?",
+    "options": [
+      "A. The object is a custom object, and therefore not available for a sharing set.",
+      "B. The object's Organization-Wide sharing setting is set to Public Read/Write.",
+      "C. The object's Organization-Wide sharing setting is set to Private.",
+      "D. The custom object does not have a lookup to Accounts or Contacts."
+    ],
+    "answer": "B,D",
+    "title": "Question 67",
+    "explanation": "Explanation\n Two reasons why an object is excluded from the list of available objects in a sharing set are that the object's organization-wide sharing setting is set to public read/write, or that the custom object does not have a lookup to accounts or contacts. A sharing set is used to grant access to records based on a user's account or contact, and it only works for objects that have private or public read only sharing settings. Custom objects are available for a sharing set if they have a lookup to accounts or contacts"
+  },
+  {
+    "content": "Universal Containers (UC) has a requirement to expose a web service to their business partners. The web service will be used to allow each business partner to query UC's Salesforce instance to retrieve the status of orders. The business partner should only be allowed access to orders for which the business partner is the fulfillment vendor. The Architect does not want the business partners to utilize the standard APIs and would prefer a custom API be developed. Which three design elements should the Architect consider in order to ensure the data security of the solution?\nChoose 3 answers",
+    "options": [
+      "A. Query the Orders object with Dynamic SOQL based upon the fulfillment ID.",
+      "B. Set the Orders object's sharing settings to Private in the Org-Wide Defaults",
+      "C. Provide each partner with their own Salesforce login set to API Enabled on the profile.",
+      "D. Develop a custom Apex web service with a fulfillment ID input attribute",
+      "E. Develop a custom Apex web service using the \"With Sharing\" keyword."
+    ],
+    "answer": "A,B,E",
+    "title": "Question 68",
+    "explanation": "Explanation\n To ensure the data security of the custom web service, the Architect should consider the following design elements:\n Query the Orders object with Dynamic SOQL based on the fulfillment ID: This will allow the web service to filter the orders based on the input parameter and return only the relevant records to the business partner.\n Set the Orders object's sharing settings to Private in the Org-Wide Defaults: This will restrict access to the Orders object to only the owner and users above them in the role hierarchy by default, and prevent unauthorized access from other internal or external users.\n Develop a custom Apex web service using the \"With Sharing\" keyword: This will enforce the sharing rules defined for the Orders object and respect the record-level access of the web service user."
+  },
+  {
+    "content": "Universal Containers (UC) uses a custom lightning component with an Apex class to display shipment information (custom object, private OWD). UC sales managers are complaining about two important points:\nShipment records that belong to their teams can be seen by other users.\nShipment amount should be visible only by managers, but sales reps are able to view it. Which two features did the development team miss that is causing the problems?\nChoose 2 answers.",
+    "options": [
+      "A. Use run as in test class to enforce user permissions and field-level permissions.",
+      "B. Use with Sharing keyword in Apex classes to enforce sharing rules evaluation.",
+      "C. Use is Sharable keyword in Apex classes to assure record visibility.",
+      "D. Use isAccessible() method in Apex classes to check field accessibility"
+    ],
+    "answer": "B,D",
+    "title": "Question 69",
+    "explanation": "Explanation\n The development team missed using the with Sharing keyword in Apex classes to enforce sharing rules evaluation, and the isAccessible() method in Apex classes to check field accessibility. The with Sharing keyword ensures that the Apex code respects the sharing rules defined for the current user, while the isAccessible() method checks if the user has read access to a specific field1. The run as method in test class is used to test whether a user can perform certain actions, not to enforce permissions2. The isSharable keyword in Apex classes does not exist."
+  },
+  {
+    "content": "Universal Containers has Public Read Only sharing settings on the Opportunity object. What Opportunity access options can the user see while adding account team members to the Account?",
+    "options": ["A. Read Only", "B. Private and Read Only", "C. Private", "D. Read Only and Read/Write"],
+    "answer": "D",
+    "title": "Question 70",
+    "explanation": "Explanation\n When adding account team members to an account, the user can see the opportunity access options that are equal to or less than the organization-wide default access level for the opportunity object3. Since the organization-wide default access level for the opportunity object is Public Read Only, the user can see Read Only and Read/Write options. Private and Private and Read Only are not valid options."
+  },
+  {
+    "content": "Universal Containers has the following requirements: A custom Loan object requires Org-Wide Defaults set to Private. The owner of the Loan record will be the Loan Origination Officer. The Loan record must be shared with a specific Underwriter on a loan-by-loan basis. The Underwriters should only see the Loan records for which they are assigned. What should the Architect recommend to meet these requirements?",
+    "options": [
+      "A. Use criteria-based sharing rules to share the Loan object with the Underwriter based upon the criteria defined in the criteria-based sharing",
+      "B. Create a lookup relationship from the Loan object to the User object. Use a trigger on the Loan object to create the corresponding record in the Loan share object",
+      "C. Create a master-detail relationship from the Loan to the User object. Loan records will be automatically shared with the Underwriter",
+      "D. Create an Apex Sharing Reason on the Loan object that shares the Loan with the Underwriter based upon the criteria defined in the Sharing Reason"
+    ],
+    "answer": "B",
+    "title": "Question 71",
+    "explanation": "Explanation\n According to this source, creating a lookup relationship from the Loan object to the User object and using a trigger on the Loan object to create the corresponding record in the Loan share object is the best way to meet the requirements. The other options will not work as expected or will not be scalable."
+  },
+  {
+    "content": "Universal Containers (UC) implemented Sales Cloud and requested that only certain branch staff trained to sell high risk products can create opportunities for high risk products.\nIn which two ways can an Architect allow only specific branch staff to sell high risk products?\nChoose 2 answers",
+    "options": [
+      "A. Set Price Book Organization Wide Default to View Only and share the price book (High Risk) with the trained staff.",
+      "B. Configure Price Book Organization wide default to No Access.",
+      "C. Share (High Risk) price book with the trained staff via manual sharing.",
+      "D. Share (High Risk) price book with the trained staff via sharing rule."
+    ],
+    "answer": "A,C",
+    "title": "Question 72",
+    "explanation": "Explanation\n Price books are a way to store different prices for products that can be added to opportunities. Price books can have different organization-wide defaults (OWD) settings that control the baseline level of access for users. To allow only specific branch staff to sell high risk products, the architect can recommend setting the price book OWD to View Only and sharing the high risk price book with the trained staff via manual sharing or sharing rules. Manual sharing allows the owner or anyone with Full Access to a record to share it with another user or group of users. Sharing rules allow the admin to automatically grant access to records based on certain criteria.\n Therefore, the answer A and C are correct and the other options are incorrect."
+  },
+  {
+    "content": "In order to allow community users to collaborate on Opportunities, which license type must the users.",
+    "options": ["A. Sales Community", "B. Customer Community", "C. Partner Community", "D. Customer Community plus"],
+    "answer": "C",
+    "title": "Question 73",
+    "explanation": "Explanation\n The license type that must be used by community users who want to collaborate on opportunities is Partner Community. As mentioned above, Partner Community licenses allow users to access standard CRM objects such as opportunities and collaborate with other partners and internal users using Chatter and Communities.\n Sales Community licenses do not exist as a separate license type. Customer Community and Customer Community Plus licenses do not allow users to access opportunities, as they are intended for customer service scenarios rather than sales scenarios."
+  },
+  {
+    "content": "Universal Containers (UC) uses a custom Visualforce page to display shipment tracking information (custom object, private OWD) to field manager and agents. The IT team wants to make sure that users have access to only the information that is allowed.\nWhich Apex method must be used to make sure only allowed fields are shown to the users?",
+    "options": ["A. isReadable()", "B. isShowable()", "C. isAccessible()", "D. isViewable()"],
+    "answer": "C",
+    "title": "Question 74",
+    "explanation": "Explanation\n The Apex method that must be used to make sure only allowed fields are shown to the users is isAccessible(). This method returns true if the user has read access to the field, and false otherwise2.\n isReadable(), isShowable(), and isViewable() are not valid Apex methods for checking field-level security."
+  },
+  {
+    "content": "Which two objects support creating queues?\nChoose 2 answers.",
+    "options": ["A. Account.", "B. Opportunity.", "C. Lead.", "D. Case."],
+    "answer": "C,D",
+    "title": "Question 75",
+    "explanation": "Explanation\n Lead and Case are two objects that support creating queues. Queues are used to route records to a group of users who share workloads. Queues are available for standard objects such as Lead and Case, and custom objects that have a queue-supported lookup field. Option A is incorrect, since Account does not support creating queues. Option B is incorrect, since Opportunity does not support creating queues."
+  },
+  {
+    "content": "Universal Containers has a Private Sharing Model and restrictive data access settings in place. The data governance team is planning to deploy a master data management tool that will need write access to all system data, and the Architect has been asked to prepare a Data Governance User Profile that has full access to all data regardless of Sharing and CRUD Settings. What is the optimal way to enable this requirement?",
+    "options": [
+      "A. Ensure the profile has the \"Modify All Data permission enabled",
+      "B. Create a Sharing Rule for required Objects, on an API Only profile",
+      "C. Create an All-Data Access app as a default for this Profile.",
+      "D. Enable the \"Edit Read -Only Fields\" permission for this Profile."
+    ],
+    "answer": "A",
+    "title": "Question 76",
+    "explanation": "Explanation\n Ensuring the profile has the \"Modify All Data\" permission enabled is the optimal way to enable this requirement. This permission allows the user to view, edit, delete, and transfer all records in the org, regardless of sharing and CRUD settings. The other options are not sufficient to grant full access to all data."
+  },
+  {
+    "content": "Mary is Joe's manager in the role hierarchy. The OWD for a custom Invoice object is Public ReadOnly and Mary's profile is not granted the Read permission for the Invoice object.\nWhat action can Mary take on Joe's Invoice records?",
+    "options": ["A. Read/Write", "B. Edit Only", "C. None", "D. View Only"],
+    "answer": "C",
+    "title": "Question 77",
+    "explanation": "Explanation\n The action that Mary can take on Joe's Invoice records is none. This is because Mary's profile does not have the Read permission for the Invoice object, which means she cannot view any Invoice records, regardless of the OWD or role hierarchy settings. Profile permissions override any other access settings3. Read/Write, Edit Only, and View Only are not possible actions for Mary."
+  },
+  {
+    "content": "What is the best practice for testing sharing and visibility changes?",
+    "options": [
+      "A. Use Administrative and User reports to view the Active Users.",
+      "B. Use the Login As feature for a sample user in each role and profile.",
+      "C. Use Field Audit Trail to audit the field meta-data and visibility.",
+      "D. Use the Sharing button to test Profile and Permission set changes."
+    ],
+    "answer": "B",
+    "title": "Question 78",
+    "explanation": "Explanation\n The best practice for testing sharing and visibility changes is to use the login as feature for a sample user in each role and profile. This allows the tester to see exactly what the user can see and do in the org, and verify that the sharing settings are working as expected. The other options are either not comprehensive or not relevant."
+  },
+  {
+    "content": "Universal Containers (UC) has a custom object to track the internal net promoter score (NPS) for all ..\nHow can UC ensure that NPS records cannot be accessed by an individual employee's manager?",
+    "options": [
+      "A. Create a criteria-based sharing rule to remove access to Manager role and above in the Role ..",
+      "B. Remove Create, Read, Edit and Delete from Manager Profiles and Permission sets.",
+      "C. Use Apex Sharing to remove NPS object share records for Manager profiles.",
+      "D. Set organization wide default to Private and uncheck the Access Using Hierarchies option for the NPS object"
+    ],
+    "answer": "D",
+    "title": "Question 79",
+    "explanation": "Explanation\n Setting the organization-wide default to Private and unchecking the Access Using Hierarchies option for the NPS object will prevent the managers from accessing the NPS records of their subordinates. This is because the access using hierarchies option allows users above the owner in the role hierarchy to have the same level of access as the owner"
+  },
+  {
+    "content": "To grant Universal Containers sales managers access to shipment records properly it was necessarily to the IT Team is worried about improper access to records.\nWhich two features and best practices should a Salesforce architect recommended to mitigate the risk?",
+    "options": [
+      "A. USe isShareable keyword in Apex classes to assure record visibility will be followed",
+      "B. Use runAs system method in test classes to test using different users and profiles.",
+      "C. Use with Sharing keyword in Apex classes to assure record visibility will be followed",
+      "D. User isAccessable keyword Apex classes to assure recor visibility will be followed."
+    ],
+    "answer": "B,C",
+    "title": "Question 80",
+    "explanation": "Explanation\n According to this source, the runAs system method in test classes can be used to test using different users and profiles, and the with sharing keyword in Apex classes can be used to enforce record visibility rules. The other options are not valid keywords in Apex"
+  },
+  {
+    "content": "Which users have access to Opportunity records owned by an external user, assuming no other changes to the sharing model have been implemented?",
+    "options": [
+      "A. The record owner and any user above the external user in the role hierarchy.",
+      "B. The record owner only.",
+      "C. The record owner and any user below the external user in the role hierarchy.",
+      "D. The record owner and all internal users."
+    ],
+    "answer": "A",
+    "title": "Question 81",
+    "explanation": "Explanation\n The record owner and any user above the external user in the role hierarchy have access to opportunity records owned by an external user. This is because external users are always at the bottom of the role hierarchy and do not grant access to users below them. The record owner and all internal users do not have access to opportunity records owned by an external user unless they have other sharing mechanisms such as sharing rules or manual sharing"
+  },
+  {
+    "content": "Universal Containers is updating its Organization-Wide Sharing Settings for the Account Object from a\n\"Public Read/Write\" model to a \"Private\" model, so that they can hide certain national accounts from sales reps and sales managers. These national accounts should only be accessible by sales directors and above.\nUniversal Container's Role Hierarchy matches its organizational hierarchy. Which two options should the Architect consider when designing the solution? Choose 2 answers",
+    "options": [
+      "A. Sales directors will need a sharing rule created so that they can see accounts owned by Sales Users.",
+      "B. National accounts must be owned by a user who is above the sales managers in the Role Hierarchy.",
+      "C. Apex managed sharing will have to be disabled for the account object to protect the national accounts.",
+      "D. If a sales rep is added to the Opportunity Team for a national account, they will gain access to account data."
+    ],
+    "answer": "B,D",
+    "title": "Question 82",
+    "explanation": "Explanation\n The two options that the Architect should consider when designing the solution are B and D. Option B ensures that the national accounts are only visible to the sales directors and above in the role hierarchy, as they inherit access from the owner. Option D ensures that the sales reps who are added to the opportunity team for a national account can access the account data, as they are granted access through implicit sharing"
+  },
+  {
+    "content": "Universal Containers has junction object called \"Job Production Facility\", with 2 master-detail relationships to the Job and Production Facility custom objects. Both master records have a private sharing model.\nWhat statement is true if a user's profile allows access (Create/Read) to the Job, but no access to the Production Facility Object?",
+    "options": [
+      "A. The user will be granted read access to the Production Facility record",
+      "B. The user will see the junction object and the link to the Production Facility.",
+      "C. The user will see the junction object but not the link to the Production Facility.",
+      "D. The user will not be able to see the junction object records or the field values."
+    ],
+    "answer": "D",
+    "title": "Question 83",
+    "explanation": "Explanation\n The user will not be able to see the junction object records or the field values if their profile allows access to the Job object but not to the Production Facility object. This is because junction objects inherit the sharing and security settings from both master objects, and users need access to both master objects to access the junction object records. If a user does not have access to one of the master objects, they will not see any records or fields from the junction object"
+  },
+  {
+    "content": "Who can view a PDF that is uploaded to the Files Home private library by 8 user?",
+    "options": [
+      "A. The user and users with View All Data permission.",
+      "B. The user and users above him/her in the Role Hierarchy.",
+      "C. Only the user."
+    ],
+    "answer": "C",
+    "title": "Question 84",
+    "explanation": "Explanation\n Only the user who uploaded the PDF to the Files Home private library can view it, as private files are not shared with anyone else1. Users with View All Data permission or users above him/her in the Role Hierarchy will not be able to view the private file, unless the user explicitly shares it with them."
+  },
+  {
+    "content": "A developer at Universal Container is building an integration within a managed package for their internal org that requires login to an external system. The end point requires basic authentication. The Architect would like to ensure that the username and password are managed securely. Which three options should the Architect recommend to secure the credentials?",
+    "options": [
+      "A. Store the credentials in a custom object using encrypted fields",
+      "B. Store the credentials in named credentials that are used in the apex callout",
+      "C. Store the credentials in the apex code, which will not be available to non-admins",
+      "D. Store the credentials in protected custom metadata that are used in the apex callout",
+      "E. Store the credentials in protected custom settings that are used in the apex callout"
+    ],
+    "answer": "B,D,E",
+    "title": "Question 85",
+    "explanation": "Explanation\n Named Credentials, Protected Custom Metadata, and Protected Custom Settings are three options to secure the credentials for the external system. They allow the developer to store the credentials in a secure way that is not exposed to other users or packages. Storing the credentials in a custom object using encrypted fields or in the apex code are not secure options"
+  },
+  {
+    "content": "Sales managers want their team members to help each other close Opportunities. The Opportunity and Account organization-wide defaults are private. To grant Opportunity access to sales reps on the same team, owner ship-based sharing rules were created for each team.\nWhat is the side effect of this approach?",
+    "options": [
+      "A. All sales reps will have Read access to Accounts for all Opportunities.",
+      "B. Sales Reps on the same team will have Edit access to the Accounts for Opportunities owned by then team members.",
+      "C. Sales reps on the same team will have Read access to the Accounts for Opportunities owned by their team members.",
+      "D. All sales reps will have Read access to all Accounts."
+    ],
+    "answer": "C",
+    "title": "Question 86",
+    "explanation": "Explanation\n The side effect of this approach is that sales reps on the same team will have read access to the accounts for opportunities owned by their team members. This is because owner-based sharing rules grant access to both the parent and child records of the same object. For example, if a sharing rule grants access to opportunities owned by a certain role, it also grants access to the accounts associated with those opportunities. All sales reps will not have read access to accounts for all opportunities, as the sharing rules are based on ownership. Sales reps on the same team will not have edit access to the accounts for opportunities owned by their team members, as owner-based sharing rules only grant read or read/write access to child records, not parent records. All sales reps will not have read access to all accounts, as the account organization-wide default is private."
+  },
+  {
+    "content": "The architect at Universal Containers would like to prevent users from editing encrypted fields. Assuming no customizations are implemented, which two options should the Architect choose to support the requirement?\nChoose 2 answers",
+    "options": ["A. Validation Rules", "B. Page Layout settings", "C. Apex Triggers", "D. Workflow Rules"],
+    "answer": "A,B",
+    "title": "Question 87",
+    "explanation": "Explanation\n Validation rules and page layout settings are two options that the architect can use to prevent users from editing encrypted fields, assuming no customizations are implemented. Validation rules can be used to display an error message when a user tries to edit an encrypted field, and page layout settings can be used to make an encrypted field read-only or hidden from the user interface. Apex triggers and workflow rules are not options to prevent users from editing encrypted fields, as they are executed after the user has already modified the field"
+  },
+  {
+    "content": "Universal Containers wants to store Payment Term Details on the Account object, but the fields should only be visible on certain record types and for certain user profiles.\nHow can a System Administrator quickly determine which user profiles, page layouts, and record types include certain fields?",
+    "options": [
+      "A. Log in as each user profile and view the Account Page Layouts.",
+      "B. Use the Field Accessibility Viewer for the fields in question",
+      "C. Universally require the field at the field level.",
+      "D. Click the Field-Level Security for the field on each Profile."
+    ],
+    "answer": "B",
+    "title": "Question 88",
+    "explanation": "Explanation\n The Field Accessibility Viewer is a tool that allows you to see how a field is visible or editable for a specific profile or permission set. You can also see which page layouts and record types include the field. This is a quick way to determine the field accessibility settings for different users without logging in as each user profile or clicking on each profile."
+  },
+  {
+    "content": "Universal Containers has implemented a community for its customers using the Customer Community sense type. They have implemented a custom object to store service requests that has a look up to the account record.\nThe Organization Wide Default External Access for the service request object is set to Private. Universal Containers wants their customers to be able to see service requests for their account through the community Customers should not see service requests for other accounts. What Salesforce feature can the Architect use to implement this?",
+    "options": [
+      "A. Use manual sharing to share the service requests manually when a new community user is added.",
+      "B. Use a Sharing Set to share service requests related to the account based on the community user's profile.",
+      "C. Use a Sharing Rule to share service requests to the community user based on their role.",
+      "D. Use Apex Managed Sharing to share service requests related to the account to the appropriate community users."
+    ],
+    "answer": "B",
+    "title": "Question 89",
+    "explanation": "Explanation\n A Sharing Set is a feature that allows you to grant access to records that are associated with the same account or contact as the community user1. This is the best option to implement the requirement of allowing customers to see service requests for their account through the community. Manual sharing, Sharing Rules, and Apex Managed Sharing are not suitable for this scenario because they are either too labor-intensive, not applicable to external users, or too complex"
+  },
+  {
+    "content": "Universal Containers has set the Org-Wide Sharing Default for Accounts to Private and has created some sharing rules to extend access based on certain data access policies. An architect has been asked to review access to a certain set of key customer accounts. How might this review be conducted?",
+    "options": [
+      "A. Export the Account Share table and review.",
+      "B. Run a Report on Sharing in the Admin Console.",
+      "C. Log in as each user and Run the All Accounts List View.",
+      "D. Use the Sharing button on each customer Account."
+    ],
+    "answer": "A",
+    "title": "Question 90",
+    "explanation": "Explanation\n The best way to review access to a certain set of key customer accounts is to export the Account Share table and review it. The Account Share table stores all the sharing records that grant access to accounts, including manual sharing, sharing rules, team sharing, and implicit sharing4. The other options are either not feasible or not comprehensive."
+  },
+  {
+    "content": "Universal Containers has a custom Job object with a private sharing model. Based on the size and location of the Job, different teams must have access to edit the specific Job record. To support this requirement, Apex Managed Sharing has been implemented to share records with the required users. Since the teams change frequently, managed sharing recalculations need to be manually run frequently. What can the Architect do to optimize this process?",
+    "options": [
+      "A. Change the sharing model on the Job object to Public Read/Write.",
+      "B. Create a scheduled job to automatically run the sharing recalculations on a nightly basis.",
+      "C. Create public groups for each team, and share the jobs with the groups instead of users.",
+      "D. Create a custom Visualforce page to edit the jobs and specify Without Sharing on the controller."
+    ],
+    "answer": "C",
+    "title": "Question 91",
+    "explanation": "Explanation\n To optimize the process of managed sharing recalculations for the custom Job object, the architect can create public groups for each team and share the jobs with the groups instead of users. This way, the architect can avoid updating the sharing records every time a team member changes, and only update the public group membership instead. This reduces the number of sharing recalculations and improves performance"
+  },
+  {
+    "content": "Universal Containers would like to store an encryption key within Salesforce for use in Apex Code, but does not want users to be able to see this confidential key. Users require the view setup permission.\nHow can Universal Containers securely store the confidential key?",
+    "options": [
+      "A. Create a protected custom metadata type that stores the encryption key. Package the protected custom metadata type with its associated records in a managed package. Install the package in the production org.",
+      "B. Create 4 protected custom metadata type that stores the encryption key. Package the protected custom metadata type with its associated records in an unlocked package. Install the package In the production org.",
+      "C. Create 6 custom metadata type that stores the encryption key. Make sure that only the admin profile has access to the custom metadata type $0 that end users cannot access the encryption key."
+    ],
+    "answer": "A",
+    "title": "Question 92",
+    "explanation": "Explanation\n Creating a protected custom metadata type that stores the encryption key and packaging it with its associated records in a managed package is the best way to securely store the confidential key, as protected custom metadata types are only accessible within the package namespace and cannot be viewed or modified by subscribers2. Creating a protected custom metadata type and packaging it in an unlocked package will not work, as unlocked packages do not support protected custom metadata types3. Creating a custom metadata type and restricting access to the admin profile will not work, as users with View Setup permission can still view the custom metadata type and its records."
+  },
+  {
+    "content": "Universal Containers has a Private Sharing Model for the Opportunity object. Sales Rep A at Universal Containers created the Opportunity record and then transferred ownership of the Opportunity record to Sales Rep B. Both Sales Rep A and B have the same role in the Role Hierarchy.\nWhat access will Sales Rep A have to the Opportunity after the transfer?",
+    "options": ["A. Full Access", "B. No Access", "C. Read/Write", "D. Read Only"],
+    "answer": "B",
+    "title": "Question 93",
+    "explanation": "Explanation\n When a user transfers ownership of a record to another user, the original owner loses access to the record unless they have access through other means, such as role hierarchy, sharing rules, teams, etc. In this case, since both Sales Rep A and B have the same role in the role hierarchy, and the sharing model for the Opportunity object is private, Sales Rep A will have no access to the Opportunity after the transfer"
+  },
+  {
+    "content": "Universal Containers has just deployed a change to its role hierarchy. A manager is reporting that their staff can now see Accounts that they do not own and should not have access to. How should the Architect troubleshoot?",
+    "options": [
+      "A. While logged in as the System Administrator, use the Field Accessibility Viewer to view a matrix of who has access to Accounts.",
+      "B. While logged in as the one of the Staff members, navigate to a sample account and use the Sharing button to determine who has access.",
+      "C. While logged in as the one of the Staff members, navigate to their user record and inspect their profile and role membership.",
+      "D. While logged in as the System Administrator, use the Field Accessibility Viewer to view a matrix of who has access to Accounts. "
+    ],
+    "answer": "B",
+    "title": "Question 94",
+    "explanation": "Explanation\n To troubleshoot why staff members can see accounts that they do not own and should not have access to after a change in the role hierarchy, the architect should log in as one of the staff members, navigate to a sample account, and use the sharing button to determine who has access. The sharing button shows all the reasons why a user has access to a record, such as role hierarchy, sharing rules, manual sharing, teams, etc. The architect can then identify which sharing mechanism is causing the issue and fix it accordingly"
+  },
+  {
+    "content": "Sales Operations at Universal Containers (UC) has created Public Report and Dashboard folders for sales managers that report to the VP of sales. Sales Operations currently spends a few hours each month updating users that should have access to edit items in these folders. In which two ways can UC grant access to sales managers to automate access to these Reports and Dashboards folders?\nChoose 2 answers",
+    "options": [
+      "A. Share the folders lowest roles in the role hierarchy, Superiors will get access automatically.",
+      "B. Share the folders with the \"VP of Sales\" Role and Subordinates.",
+      "C. Share the folders with the \"Sales Managers\" Queue.",
+      "D. Share the folders with a \"Sales Managers\" Public Group."
+    ],
+    "answer": "B,D",
+    "title": "Question 95",
+    "explanation": "Explanation\n Sharing the folders with the \"VP of Sales\" Role and Subordinates and sharing the folders with a \"Sales Managers\" Public Group are two ways that UC can grant access to sales managers to automate access to these Reports and Dashboards folders. Folder sharing allows users to share reports and dashboards with other users based on roles, subordinates, public groups, or individual users. Option A is incorrect, since sharing the folders with lowest roles in the role hierarchy would not give access to superiors automatically, but only to subordinates. Option C is incorrect, since sharing the folders with a queue is not possible."
+  },
+  {
+    "content": "After setting up Customer Community and enable collaboration, the architect realizes that customers are only Chatter posts from other customers in their account.\nWhat should the architect do to allow viewing chatter posts from all customers?",
+    "options": [
+      "A. Enable Community User Visibility.",
+      "B. Set View All for Chatter posts.",
+      "C. Enable Chatter Super User.",
+      "D. Enable Internal Users Visibility."
+    ],
+    "answer": "A",
+    "title": "Question 96",
+    "explanation": "Explanation\n Enabling Community User Visibility is the best option to allow viewing chatter posts from all customers. Community User Visibility is a setting that allows community users to see and interact with other community users, regardless of their account or role2. Setting View All for Chatter posts, enabling Chatter Super User, and enabling Internal Users Visibility are not options that can achieve the same result."
+  },
+  {
+    "content": "Universal Containers provides 24x7 support for its customers worldwide using call centers in three different countries with each one covering an 8-hour shift in different time zones. Service reps in a call center have access to the same information but only during their local working hours.\nWhich feature in Salesforce controls access for specific login hours?",
+    "options": ["A. Set the login hours on user records", "B. Permission sets", "C. Custom permissions", "D. Profiles"],
+    "answer": "D",
+    "title": "Question 97",
+    "explanation": "Explanation\n Profiles can control the login hours for users, which can restrict their access to Salesforce based on their time zone. Option A is incorrect, since login hours are not set on user records. Option B and C are incorrect, since permission sets and custom permissions do not control login hours"
+  },
+  {
+    "content": "Universal Containers (UC) has 200 distributors that use Partner Community licenses.\nPartners cannot see each other's data, but UC is also trying to give more visibility to data for certain individuals at a distributor.\nHOW can an Architect give users in the partner user role access to all Case and Container records owned by any user, regardless of role, at the same distributor?",
+    "options": [
+      "A. Create an ownership-based sharing rule.",
+      "B. Create sharing sets.",
+      "C. Create a Permission Set granting \"View All\" permission to Case and Container records.",
+      "D. Give super user permission to the individual partner users."
+    ],
+    "answer": "D",
+    "title": "Question 98",
+    "explanation": "Explanation\n To give users in the partner user role access to all Case and Container records owned by any user at the same distributor, an Architect can give super user permission to the individual partner users. Super user permission allows partner users to access data owned by other partner users belonging to the same account or below them in the role hierarchy. Creating an ownership-based sharing rule will not work, as it will share records based on the owner's role or territory, not their account. Creating sharing sets will not work, as they are only available for Customer Community licenses, not Partner Community licenses. Creating a Permission Set granting \"View All\" permission to Case and Container records will not work, as it will give access to all records in those objects, regardless of their owner or account."
+  },
+  {
+    "content": "Universal Containers has created a custom Sales Operations profile with read and edit access to the Category field on a custom object. There is a new requirement that 3 of the 100 users assigned to the Sales Operations Profile should have read-only access to the Category field.\nHow can the Architect support this request?\nChoose one answer:",
+    "options": [
+      "A. Create a permission set in the Category field to read-only and assign it to the users.",
+      "B. Create a new profile without edit access to Category and assign it to the users.",
+      "C. Create a new page layout with the Category Field set to read-only for these users.",
+      "D. Create a custom permission to grant read-only access to Category and assign it to the users."
+    ],
+    "answer": "A",
+    "title": "Question 99",
+    "explanation": "Explanation\n The Architect can support this request by creating a Permission Set with read-only access to the Category field and assigning it to the 3 users who need it. This will override the profile permissions and restrict their access to the field."
+  },
+  {
+    "content": "Sales manager at universal containers (UC) have requested viewing customer invoices in Salesforce. Invoice data is mastered in the ERP system. The architect at UC decided to surface the customer invoices in salesforce using external objects and did the following:\n-Configured an external object called Invoice.\n-Created a lookup relationship between account and the invoice.\nHow can the architect grant the sales managers access to the customer invoices data?",
+    "options": [
+      "A. By creating sharing rules to share the invoices records with users in sales mangers roles.",
+      "B. By creating manual sharing to share invoices with relevant sales managers.",
+      "C. By creating controlling the invoices object permission on the sales manager's profile.",
+      "D. By creating a sharing set to share invoices with users in sales manager role."
+    ],
+    "answer": "C",
+    "title": "Question 100",
+    "explanation": "Explanation\n Controlling the invoices object permission on the sales manager's profile is how the architect can grant the sales managers access to the customer invoices data. Object permissions determine whether a user can create, read, edit, or delete any record of that object. Since invoice data is surfaced in Salesforce using external objects, sales managers need to have at least read permission on the invoice object to view the customer invoices data. Option A is incorrect, since sharing rules are not available for external objects. Option B is incorrect, since manual sharing is not available for external objects. Option D is incorrect, since sharing sets are not available for external objects."
+  },
+  {
+    "content": "Sales Operations at Universal Container (UC) wants to create the opens to fiber appropriates for center.\nIn which two ways can UC hide list that are not relevant to an individual use since there will be Choose 2 answers.",
+    "options": [
+      "A. Share the list views with the appropriate queue.",
+      "B. Share the list views with the appropriate individual users.",
+      "C. Share the list views with the appropriate public group.",
+      "D. Share the list views with the appropriate role in the role hierarchy"
+    ],
+    "answer": "C,D",
+    "title": "Question 101",
+    "explanation": "Explanation\n Sharing the list views with the appropriate public group and sharing the list views with the appropriate role in the role hierarchy are two ways that UC can hide lists that are not relevant to an individual user. List view sharing allows users to share list views with other users based on public groups, roles, subordinates, or individual users. This way, users can only see list views that are relevant to them and their work. Option A is incorrect, since sharing list views with a queue is not possible. Option B is incorrect, since sharing list views with individual users would be tedious and inefficient."
+  },
+  {
+    "content": "At Universal Containers, Accounts and Contacts are normally visible to all employees, and Proposals (custom object) are visible to the Account owner and managers. However, some Proposals are considered confidential and are managed by a Strategic Proposals team. These Proposals should not be visible to anyone in the Sales group other than the owner and the strategic team.\nHow should the architect design for this requirement?",
+    "options": [
+      "A. Proposal Owner set to the Strategic Deals Team Queue and set the Account relationship to Master-Detail.",
+      "B. Disable Grant Access Using Hierarchies and set an Owner-Based Sharing rule for Strategic Deals team.",
+      "C. Proposal Owner set to the Strategic Deals Team Queue and create an owner-based sharing rule to grant visibility to the Account owner",
+      "D. Disable Grant Access Using Hierarchies and set a Criteria-Based Sharing rule for Strategic Deals team."
+    ],
+    "answer": "B",
+    "title": "Question 102",
+    "explanation": "Explanation\n Disabling Grant Access Using Hierarchies and setting an Owner-Based Sharing rule for Strategic Deals team is the best way to design for this requirement. This will ensure that only the owner and the strategic team can access the confidential proposals, regardless of the role hierarchy. Setting the Proposal Owner to the Strategic Deals Team Queue will not work, because queues can only own leads, cases, orders, and custom objects.\n Setting a Criteria-Based Sharing rule for Strategic Deals team will not work, because criteria-based sharing rules can only grant access, not restrict it."
+  },
+  {
+    "content": "A sales rep (John) at Universal Containers (UC) requested to update information in an account record where he has READ only access. John requested the EDIT access permission from the owner of the record (Paul). Paul manually shared the record with John. Assuming the OWD of the Account object is Public Read-Only, what is the impact in the system?",
+    "options": [
+      "A. New AccountShare record is created. Row Cause is \"Manual\" and Access Level is \"Read/Write\".",
+      "B. Existing AccountShare record is updated. Row Cause is \"Owner\" and User/Group is \"John\".",
+      "C. New AccountShare record is created. Row Cause is \"Owner\" and Access Level is \"Full\".",
+      "D. Existing AccountShare record is updated. Row Cause is \"Manual\" and Access Level is \"Read/Write\"."
+    ],
+    "answer": "A",
+    "title": "Question 103",
+    "explanation": "Explanation\n A new AccountShare record is created with Row Cause as \"Manual\" and Access Level as \"Read/Write\" when Paul manually shares the record with John. This record grants John edit access to the account owned by Paul.\n Option B is incorrect, since an existing AccountShare record is not updated, but a new one is created. Option C is incorrect, since the Row Cause is not \"Owner\", but \"Manual\". Option D is incorrect, since an existing AccountShare record is not updated, but a new one is created."
+  },
+  {
+    "content": "Universal Containers wants to create a way to store sensitive Invoice Data in Salesforce. A User who owns an Account should not see every Invoice, but only invoices that they or their subordinates own. Which two features should be considered during this solution implementation?\nChoose 2 answers.",
+    "options": [
+      "A. Deploy the Relationship between Accounts and the Invoices Object as Master-Detail.",
+      "B. Ensure that the Organization-Wide Default sharing for Invoices is set to Private.",
+      "C. Create a Workflow that populates the Invoice sharing object upon Insert.",
+      "D. Deploy the Relationship between Accounts and the Invoices Object as Lookup."
+    ],
+    "answer": "A,B",
+    "title": "Question 104",
+    "explanation": "Explanation\n To store sensitive invoice data in Salesforce, the architect should consider using a master-detail relationship between accounts and invoices, and setting the organization-wide default sharing for invoices to private. This would ensure that only the owners of the invoices and their subordinates can see them, and that the invoices inherit the sharing settings of the accounts. A workflow that populates the invoice sharing object upon insert is not necessary if the master-detail relationship is used. A lookup relationship between accounts and invoices would not enforce the same level of security and visibility as a master-detail relationship3"
+  },
+  {
+    "content": "Universal Containers has the following Sharing Settings for their Org:\nAccount = Private\nContact = Controlled by Parent\nOpportunity = Private\nCase = Private\nThey have enabled \"Default Account Teams\" and have trained users to set up their Default Team. Which three access levels can be set on the Account Team Member?\nChoose 3 answers",
+    "options": ["A. Opportunity Access", "B. Case Access", "C. Contact Access", "D. Contract Access", "E. Account Access"],
+    "answer": "A,B,E",
+    "title": "Question 105",
+    "explanation": "Explanation\n The access levels that can be set on the Account Team Member are Account Access, Opportunity Access, and Case Access2. Contact Access and Contract Access are not available options for Account Team Members."
+  },
+  {
+    "content": "Universal Container (UC) is in a legal dispute regarding several orders. UC has found out these records VP of Sales has asked to ensure this cannot happen in the future.\nWhat approach would meet this requirement?",
+    "options": [
+      "A. Remove Order delete Permission from Profiles and Permission Sets",
+      "B. Implement a Sharing Rule that changes access for order to Read.",
+      "C. Remove the Delete button from the Order Page Layout.",
+      "D. Change the Record Type/Page Layout assignment for orders to be Read Only."
+    ],
+    "answer": "A,D",
+    "title": "Question 106",
+    "explanation": "Explanation\n To prevent orders from being deleted in the future, a Salesforce Architect should recommend removing Order delete permission from profiles and permission sets, and changing the record type/page layout assignment for orders to be read only. Removing Order delete permission will prevent users from deleting any order records, regardless of their ownership or sharing. Changing the record type/page layout assignment will prevent users from editing any order fields, regardless of their field-level security. Implementing a sharing rule that changes access for order to read will not work, as it will only affect the record-level access, not the field-level access or the delete permission. Removing the Delete button from the order page layout will not work, as it will only affect the user interface, not the API or other ways of deleting records."
+  },
+  {
+    "content": "Partner users can access records belonging to users in their account at their same role or lower in the role hierarchy, for Cases, Leads, Opportunities and Custom Objects.\nWhich of the following access has to be given?",
+    "options": [],
+    "answer": "",
+    "title": "Question 107",
+    "explanation": "Super user permission\n Explanation\n The access that has to be given to partner users to access records belonging to users in their account at their same role or lower in the role hierarchy, for Cases, Leads, Opportunities and Custom Objects is Super User Permission2. Super User Permission is a profile permission that enables partner users to act as super users for their accounts2. Super users can view, edit, and delete records that they do not own within their account."
+  },
+  {
+    "content": "Universal Containers has recently implemented an integration that is populating 50 custom fields on the account object. They would like these fields to be available to Managers for reporting but do not want them to clutter the page layouts. What should the Architect recommend as a solution?",
+    "options": [
+      "A. Add the fields to the Managers' Account Page Layout; mark the page layout section as Collapsed.",
+      "B. Grant the Managers access to the fields using a Role-Based Sharing Rule; leave them hidden on the page layout.",
+      "C. Add the fields to a Custom Report; grant the Managers' Role access to the report folder.",
+      "D. Grant Managers access to the fields using Field-Level Security; do not add them to a page layout."
+    ],
+    "answer": "D",
+    "title": "Question 108",
+    "explanation": "Explanation\n The best solution for this scenario is to grant managers access to the fields using field-level security, and do not add them to a page layout. This way, the managers can see the fields in reports, but not on the account record detail page. The other options are either not feasible or not effective."
+  },
+  {
+    "content": "The Corporate Identity and Access Team needs to audit User setup in the Salesforce ..\nWhat two permissions should be granted to this team so they can perform their audit?\nChoose 2 answers",
+    "options": ["A. View permission on the User object", "B. View Setup and Configuration", "C. View All Users", "D. View All Data"],
+    "answer": "B,C",
+    "title": "Question 109",
+    "explanation": "Explanation\n To audit user setup in Salesforce, the team needs to have both View Setup and Configuration and View All Users permissions. View Setup and Configuration allows them to access the setup menu and see the user profiles, roles, and permission sets. View All Users allows them to see all the user records and their details, such as login history and assigned licenses"
+  },
+  {
+    "content": "Assuming Person Account is enabled in a Salesforce organization, which three objects can be configured as\n\"Controlled by Parent\" in Sharing Settings?\nChoose 3 answers",
+    "options": ["A. Opportunity", "B. Order", "C. Asset", "D. Contact", "E. Case"],
+    "answer": "B,C,D",
+    "title": "Question 110",
+    "explanation": "Explanation\n Order, Asset, and Contact are the three objects that can be configured as \"Controlled by Parent\" in Sharing Settings when Person Account is enabled in a Salesforce organization. Controlled by Parent means that the sharing setting for the object is determined by the parent record. For example, an order's sharing setting is determined by its associated account. Opportunity and Case are not objects that can be configured as\n \"Controlled by Parent\" in Sharing Settings."
+  }
+]

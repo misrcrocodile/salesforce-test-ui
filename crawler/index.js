@@ -4,8 +4,20 @@ const fs = require("fs");
 const Promise = require("bluebird");
 var mainLinks = [
   {
-    name: "Salesforce.Development-Lifecycle-and-Deployment-Architect.v2023-01-06.q86",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Development-Lifecycle-and-Deployment-Architect.v2023-01-06.q86.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "Salesforce.Sharing-and-Visibility-Architect.v2023-11-28.q110",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Sharing-and-Visibility-Architect.v2023-11-28.q110.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Sharing-and-Visibility-Architect.v2023-09-25.q115",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Sharing-and-Visibility-Architect.v2023-09-25.q115.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Sharing-and-Visibility-Architect.v2023-05-26.q86",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Sharing-and-Visibility-Architect.v2023-05-26.q86.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "Salesforce.Sharing-and-Visibility-Architect.v2023-02-24.q75",
+    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.Sharing-and-Visibility-Architect.v2023-02-24.q75.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
 ];
 async function crawlLink(url) {
@@ -76,16 +88,12 @@ async function getData(mainLink) {
     fs.mkdirSync(dir);
   }
 
-  fs.writeFile(
-    "crawData/" + mainLink.name + ".json",
-    JSON.stringify(data),
-    (err) => {
-      if (err) {
-        console.error(err);
-      }
-      // file written successfully
+  fs.writeFile("crawData/" + mainLink.name + ".json", JSON.stringify(data), (err) => {
+    if (err) {
+      console.error(err);
     }
-  );
+    // file written successfully
+  });
 }
 async function init() {
   for (var i = 0; i < mainLinks.length; i++) {
@@ -95,17 +103,12 @@ async function init() {
 init();
 
 function convert() {
-  var an = Array.from(document.querySelectorAll("table.table a")).map(
-    (e) => e.href.split("https://www.freecram.net/torrent/")[1]
-  );
+  var an = Array.from(document.querySelectorAll("table.table a")).map((e) => e.href.split("https://www.freecram.net/torrent/")[1]);
   an = an.filter((e) => e != null);
   var bn = an.map((e) => {
     return {
       name: e.split(".html")[0],
-      url:
-        "https://www-freecram-net.translate.goog/torrent/" +
-        e +
-        "?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+      url: "https://www-freecram-net.translate.goog/torrent/" + e + "?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
     };
   });
   return JSON.stringify(bn);
