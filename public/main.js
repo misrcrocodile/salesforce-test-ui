@@ -116,6 +116,8 @@ var testList = [
       "Salesforce.PDII.v2023-02-10.q154",
       "Salesforce.PDII.v2023-08-14.q106",
       "Salesforce.PDII.v2023-09-09.q84",
+      "Salesforce.PDII.v2024-02-22.q73",
+      "Salesforce.PDII.v2024-03-02.q90",
     ],
   },
   {
@@ -239,7 +241,9 @@ var testList = [
   {
     name: "DEVELOPMENT LIFECYCLE AND DEPLOYMENT ARCHITECT",
     value: "Salesforce.Development-Lifecycle-and",
-    testList: ["Salesforce.Development-Lifecycle-and-Deployment-Architect.v2023-01-06.q86"],
+    testList: [
+      "Salesforce.Development-Lifecycle-and-Deployment-Architect.v2023-01-06.q86",
+    ],
   },
 ];
 
@@ -263,9 +267,17 @@ function fetchJSON(url) {
 function initTestSelectList() {
   var selectEl = document.getElementById("testType");
   selectEl.innerHTML = "";
-  selectEl.appendChild(createElementByText("<option value='' selected >Choose Test Type ...</option>"));
+  selectEl.appendChild(
+    createElementByText(
+      "<option value='' selected >Choose Test Type ...</option>"
+    )
+  );
   for (var i = 0; i < testList.length; i++) {
-    selectEl.appendChild(createElementByText(`<option value="${testList[i].value}">${testList[i].name}</option>`));
+    selectEl.appendChild(
+      createElementByText(
+        `<option value="${testList[i].value}">${testList[i].name}</option>`
+      )
+    );
   }
 }
 
@@ -287,10 +299,18 @@ function onChangeTestType() {
   });
 
   exQuestionEl.innerHTML = "";
-  exQuestionEl.appendChild(createElementByText("<option value='' selected >Choose Example Question...</option>"));
+  exQuestionEl.appendChild(
+    createElementByText(
+      "<option value='' selected >Choose Example Question...</option>"
+    )
+  );
 
   for (var i = 0; i < testListDetail.length; i++) {
-    exQuestionEl.appendChild(createElementByText(`<option value="${testListDetail[i]}">${testListDetail[i]}</option>`));
+    exQuestionEl.appendChild(
+      createElementByText(
+        `<option value="${testListDetail[i]}">${testListDetail[i]}</option>`
+      )
+    );
   }
 }
 
@@ -348,7 +368,9 @@ function createOptions(q, isShuffleOptions) {
   var checkType = q.answer.length > 1 ? "checkbox" : "radio";
   var results = getAnswerArr(q, isShuffleOptions);
   for (var i = 0; i < results.length; i++) {
-    var trueSpan = results[i].isTrue ? `<span class="answer hidden">True</span>` : "";
+    var trueSpan = results[i].isTrue
+      ? `<span class="answer hidden">True</span>`
+      : "";
     var str = `<div class="form-check">
   <input class="form-check-input" type="${checkType}" value="" name="${idEl}" id="${idEl}${i}">
   <label class="form-check-label" for="${idEl}${i}">
@@ -364,7 +386,10 @@ function createOptions(q, isShuffleOptions) {
 function createQuestion(q, isShuffleQuestion) {
   var idEl = q.title.replaceAll(" ", "");
   var el = createElementByText(`<div class="question-container" id="${idEl}">
-  <label class="form-label"><strong>${q.title}:</strong> ${q.content.replaceAll("\n", "<br>")}</label>
+  <label class="form-label"><strong>${q.title}:</strong> ${q.content.replaceAll(
+    "\n",
+    "<br>"
+  )}</label>
 
   
 </div>`);
