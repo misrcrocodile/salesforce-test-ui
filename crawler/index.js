@@ -4,12 +4,112 @@ const fs = require("fs");
 const Promise = require("bluebird");
 var mainLinks = [
   {
-    name: "Salesforce.PDII.v2024-03-02.q90",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.PDII.v2024-03-02.q90.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "PMI.PMP.v2024-08-26.q776",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2024-08-26.q776.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
   {
-    name: "Salesforce.PDII.v2024-02-22.q73",
-    url: "https://www-freecram-net.translate.goog/torrent/Salesforce.PDII.v2024-02-22.q73.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+    name: "PMI.PMP.v2024-07-03.q171",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2024-07-03.q171.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2024-05-21.q498",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2024-05-21.q498.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2023-10-10.q253",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2023-10-10.q253.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2022-07-17.q478",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2022-07-17.q478.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2022-04-02.q436",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2022-04-02.q436.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2022-03-01.q365",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2022-03-01.q365.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2022-02-28.q231",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2022-02-28.q231.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2022-02-01.q251",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2022-02-01.q251.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-11-23.q161",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-11-23.q161.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-11-17.q210",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-11-17.q210.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-08-21.q133",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-08-21.q133.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-06-27.q182",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-06-27.q182.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-05-06.q96",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-05-06.q96.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-05-04.q62",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-05-04.q62.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-04-21.q138",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-04-21.q138.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2021-03-29.q180",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2021-03-29.q180.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-12-20.q134",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-12-20.q134.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-10-30.q336",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-10-30.q336.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-10-04.q300",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-10-04.q300.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-09-10.q255",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-09-10.q255.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-08-14.q299",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-08-14.q299.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2020-06-11.q185",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2020-06-11.q185.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2019-05-17.q1011",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2019-05-17.q1011.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.pmp.v2018-11-12.q1030",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.pmp.v2018-11-12.q1030.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2018-04-10.q900",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2018-04-10.q900.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
+  },
+  {
+    name: "PMI.PMP.v2017-12-15.q3515",
+    url: "https://www-freecram-net.translate.goog/torrent/PMI.PMP.v2017-12-15.q3515.html?_x_tr_sl=ja&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=wapp",
   },
 ];
 async function crawlLink(url) {
