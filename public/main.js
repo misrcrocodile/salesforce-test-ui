@@ -278,6 +278,11 @@ var testList = [
       "Salesforce.Development-Lifecycle-and-Deployment-Architect.v2023-01-06.q86",
     ],
   },
+  {
+    name: "AGENTFORCE SPECIALIST",
+    value: "SalesforceAgentforceSpecialist",
+    testList: ["Agentforce.q300"],
+  },
 ];
 
 function fetchJSON(url) {
